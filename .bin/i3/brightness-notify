@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Create a short delay so changes in brightness can be registered
+sleep 0.2
+
+# Get the brightness percentage:
+BRIGHTNESS_VALUE=$(xbacklight -get)
+
+# Round the brightness percentage:
+LC_ALL=C
+BRIGHTNESS_VALUE=$(printf "%.*f\n" 0 $BRIGHTNESS_VALUE)
+
+# Kill previous notifications so the brightness notifications don't pile up:
+# killall -q dunst
+
+if [[ $LANG == "de_DE.UTF-8" ]]; then
+        BRIGHTNESS="Helligkeit"
+elif [[ $LANG == "ga_IE.UTF-8" ]]; then
+        BRIGHTNESS="Gile"
+else
+        BRIGHTNESS="Brightness"
+fi
+
+# Send the notification with the icon:
+notify-send `echo $BRIGHTNESS: $BRIGHTNESS_VALUE` \
+        -t 1000 -i ~/.bin/i3/brightness-icon.png

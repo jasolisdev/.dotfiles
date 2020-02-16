@@ -1,0 +1,6 @@
+[submodule ".bin/i3/i3-layout-manager"]
+	path = .bin/i3/i3-layout-manager
+	url = git@github.com:klaxalk/i3-layout-manager.git
+[submodule ".colors/gruvbox"]
+	path = .colors/gruvbox
+	url = https://github.com/morhetz/gruvbox.git

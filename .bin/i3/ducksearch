@@ -1,0 +1,48 @@
+#!/bin/sh
+
+# Gives a dmenu prompt to search DuckDuckGo.
+# Without input, will open DuckDuckGo.com.
+# Anything else, it search it.
+
+
+
+choice_by_rofi() {
+    choice=$(echo -e "DuckDuckGo \\n1: Archlinux\\n2: Reddit\\n3: Youtube\\n4: Twitter\\n5: Instagram\\n6: Facebook\\n7: Github" \
+        | rofi -i -lines 8 -dmenu -p 'Search DuckDuckGo' \
+        | cut -d ':' -f 1)
+}
+
+[[ -z "$DISPLAY" ]] && exit 1
+
+choice_by_rofi
+sleep 0.5
+
+[[ -z "$choice" ]] && exit 1
+
+
+if [ "$choice" = "DuckDuckGo "  ]; then
+    $BROWSER "https://duckduckgo.com"
+elif [ "$choice" = "1"  ]
+then
+    $BROWSER "https://archlinux.org"
+elif [ "$choice" = "2"  ]
+then
+    $BROWSER "https://reddit.com"
+elif [ "$choice" = "3"  ]
+then
+    $BROWSER "https://youtube.com"
+elif [ "$choice" = "4"  ]
+then
+    $BROWSER "https://twitter.com"
+elif [ "$choice" = "5"  ]
+then
+    $BROWSER "https://instagram.com"
+elif [ "$choice" = "6"  ]
+then
+    $BROWSER "https://facebook.com"
+elif [ "$choice" = "7"  ]
+then
+    $BROWSER "https://github.com"
+else
+    $BROWSER "https://duckduckgo.com/?q=$choice&t=ffab&atb=v1-1"
+fi

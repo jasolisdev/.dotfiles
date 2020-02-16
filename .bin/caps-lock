@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if xmodmap | grep 'Caps_Lock'
+then
+    setxkbmap -option ctrl:nocaps
+    notify-send -t 5000 \
+'   Caps Lock 
+░░▒▒▓▓██▓▓▒▒░░' \
+'   disabled'
+else 
+    setxkbmap -option 
+    notify-send -t 5000 \
+'   Caps Lock 
+░░▒▒▓▓██▓▓▒▒░░' \
+'   enabled'
+
+fi
+
