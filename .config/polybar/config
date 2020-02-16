@@ -1,0 +1,800 @@
+;=========================================================;
+;                Jose's polybar config.                   ;
+;=========================================================;
+
+;=====================================================
+;   colors
+;=====================================================
+
+[xcolor]
+bg     = ${xrdb:color0:#0a0a0a}
+fg     = ${xrdb:color7:#c8c8c8}
+fg-alt = ${xrdb:foreground:#c8c8c8}
+color1 = ${xrdb:color1:#a54242}
+color2 = ${xrdb:color2:#8c9440}
+color3 = ${xrdb:color3:#de935f}
+color4 = ${xrdb:color4:#5f819d}
+color5 = ${xrdb:color5:#85678f}
+color6 = ${xrdb:color6:#5e8d87}
+color7 = ${xrdb:color7:#5e8d87}
+color8 = ${xrdb:color8:#373b41}
+
+[color]
+;base-bg     = #8c0a0a0a
+base-bg     = #151515
+base-comp   = #2524230a
+glyph-bg    = #3C3835
+module-bg   = #3C3835
+selected-bg = #dc1a1a1a
+
+text-fg = ${xcolor.color7}
+text-fg-alt = ${xcolor.color7}
+icon-fg = ${xcolor.color2}
+icon-fg-alt = ${xcolor.color2}
+bar-fg  = ${xcolor.color8}
+
+red     = #821717
+orange  = #824517
+
+;----------------------------------------------------------
+;			G L O B A L
+;----------------------------------------------------------
+
+[layout]
+icon-font = 12
+
+icon-padding = 1
+module-padding = 1
+i3-module-padding = 2
+
+bar-format = %{T4}%fill%%indicator%%{F#282828}%empty%%{F-}%{T-}
+bar-fill-icon = ﭳ
+
+[settings]
+; Reload upon receiving XCB_RANDR_SCREEN_CHANGE_NOTIFY events
+screenchange-reload = true
+
+;----------------------------------------------------------
+;			B A S E   B A R
+;----------------------------------------------------------
+
+[bar/base]
+monitor = ${env:MONITOR}
+;width = 100%
+height = 45
+fixed-center = true
+
+background = ${color.base-bg}
+foreground = ${color.text-fg-alt}
+
+; Size of under-/overlines
+line-size = 1
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+;----------------------------------------------------------
+;			F O N T S
+;----------------------------------------------------------
+
+font-0 = Source Code Pro:style=Bold:size=25;6
+font-1 = Source Code Pro:style=Bold:size=24;5
+font-2 = Source Code Pro:style=Medium:size=25;7
+font-3 = mplus Nerd Font:style=Medium:size=30;8
+font-4 = Source Code Pro:style=Medium:size=25;5
+font-5 = Source Code Pro:style=Medium:size=30;8
+font-6 = Source Code Pro:style=Medium:size=25;4
+font-7 = Weather Icons:size=25;5
+font-8 = Material Design Icons:style=Regular:size=25;5
+
+
+;----------------------------------------------------------
+;			T O P   B A R   -   P R I M A R Y
+;----------------------------------------------------------
+
+[bar/top-primary]
+inherit = bar/base
+
+modules-left = rofi right-end-power right-arrow-tail right-arrow-head i3 
+modules-center = 
+modules-right = left-arrow-head left-arrow-tail left-arrow-head date-alt weather-simple left-arrow-tail left-arrow-head powermenu
+
+;----------------------------------------------------------
+;			T O P   B A R   -   S E C O N D A R Y
+;----------------------------------------------------------
+
+[bar/top-secondary]
+inherit = bar/top-primary
+
+;modules-center = date time
+;tray-position = 
+
+;----------------------------------------------------------
+;			B O T T O M   B A R   -   P R I M A R Y
+;----------------------------------------------------------
+
+[bar/bottom-primary]
+inherit = bar/base
+bottom = true
+
+modules-left = spotify alsa right-arrow-head right-arrow-tail right-arrow-head
+modules-right = left-arrow-head left-arrow-tail left-arrow-head wlan vpn bluetooth redshift xbacklight battery
+
+;tray-position = right
+;tray-background = ${color.module-bg}
+;tray-padding = 10
+;tray-detached = false
+tray-maxsize = 100
+;tray-transparent = false
+;tray-background = ${colors.background-alt}
+;tray-offset-x = 0
+;tray-offset-y = 0
+;tray-padding = 1
+;tray-scale = 1.0
+
+;----------------------------------------------------------
+;			B O T T O M   B A R   -   S E C O N D A R Y
+;----------------------------------------------------------
+
+[bar/bottom-secondary]
+inherit = bar/bottom-primary
+
+; A generic format for any modules that support it. Unfortunately, this
+; doesn't apply to all modules since some use different names for their
+; format and prefix definitions, such as format-NAME or ramp-NAME, which
+; don't fall back to the unnamed ones and have to be declared explicitly.
+[generic-format-style]
+format-background = ${color.module-bg}
+format-paddning = ${layout.module-padding}
+
+format-prefix-font = ${layout.icon-font}
+format-prefix-foreground = ${color.icon-fg}
+format-prefix-padding-right = ${layout.icon-padding}
+
+;----------------------------------------------------------
+;			  R O F I   A P P   M E N U
+;----------------------------------------------------------
+
+[module/rofi]
+type = custom/script
+inherit = generic-format-style
+exec = echo "%{T1}%{T-}"
+click-left = rofi -modi run,drun,window -show drun
+format-padding = 1
+
+;----------------------------------------------------------
+;			  i 3 
+;----------------------------------------------------------
+
+[module/i3]
+type = internal/i3
+
+index-sort = true
+; Don't wrap around when scrolling through workspaces
+wrapping-scroll = false
+; Only show workspaces on the same output as the bar pin-workspaces = true
+; Split the workspace label on ':' to get its name
+strip-wsnumbers = false
+
+  ws-icon-0 = 1;一
+  ws-icon-1 = 2;二
+  ws-icon-2 = 3;三
+  ws-icon-3 = 4;四
+  ws-icon-4 = 5;五
+  ws-icon-5 = 6;六
+  ws-icon-6 = 7;七
+  ws-icon-7 = 8;八
+  ws-icon-8 = 9;九
+  ws-icon-9 = 10;十
+
+  ;ws-icon-0 = 1;
+  ;ws-icon-1 = 2;
+  ;ws-icon-2 = 3;
+  ;ws-icon-3 = 4;
+  ;ws-icon-4 = 5;
+  ;ws-icon-5 = 6;6:
+  ;ws-icon-6 = 7;
+  ;ws-icon-7 = 8;
+  ;ws-icon-8 = 9;
+  ;ws-icon-9 = 10;
+
+format = <label-state> <label-mode>
+
+; Active workspace on focused monitor
+label-focused = %{T1}%icon%%{T-}
+;label-focused-underline = ${xcolor.color1}
+;label-focused-background = ${color.module-bg}
+label-focused-foreground = ${xcolor.color2}
+label-focused-padding = ${layout.i3-module-padding}
+
+; Inactive workspace on any monitor
+label-unfocused = ${self.label-focused}
+;label-unfocused-background = ${color.module-bg}
+label-unfocused-padding = ${layout.i3-module-padding}
+
+; Active workspace on unfocused monitor
+label-visible = ${self.label-focused}
+label-visible-background = ${color.module-bg}
+label-visible-underline = ${xcolor.color1}
+label-visible-padding = ${layout.i3-module-padding}
+
+; Workspace with urgency hint set
+label-urgent = ${self.label-focused}
+label-urgent-background = ${color.module-bg}
+label-urgent-underline = ${color.red}
+label-urgent-padding = ${layout.i3-module-padding}
+
+label-mode = %mode%
+label-mode-background = ${color.module-bg}
+label-mode-padding = ${layout.i3-module-padding}
+
+;----------------------------------------------------------
+;			  X W I N D O W
+;----------------------------------------------------------
+
+[module/xwindow]
+type = internal/xwindow
+;inherit = generic-format-style
+
+label = %{T1}%title:0:35:...%%{T-}
+
+;----------------------------------------------------------
+;			  C P U
+;----------------------------------------------------------
+
+[module/cpu]
+type = internal/cpu
+inherit = generic-format-style
+
+format = <label> <bar-load>
+format-prefix = %{T6} 漣%{T-}
+
+label =%percentage:2%％
+
+; Bar
+bar-load-format = ${layout.bar-format}
+
+bar-load-foreground-0 = ${color.bar-fg}
+bar-load-foreground-1 = ${color.bar-fg}
+bar-load-foreground-2 = ${color.orange}
+bar-load-foreground-3 = ${color.red}
+bar-load-gradient = true
+
+bar-load-width = 5
+bar-load-fill = ${layout.bar-fill-icon}
+bar-load-indicator =
+bar-load-empty = ${layout.bar-fill-icon}
+
+;----------------------------------------------------------
+;			  M E M O R Y
+;----------------------------------------------------------
+
+[module/memory]
+type = internal/memory
+inherit = generic-format-style
+
+format-prefix = %{T6}﬘%{T-}
+label = %gb_used%
+
+; Normal
+;format-background = ${color.module-bg}
+
+;format-prefix-font = ${layout.icon-font}
+;format-prefix-foreground = ${color.icon-fg}
+format-prefix-padding-left = ${layout.icon-padding}
+
+;----------------------------------------------------------
+;			  T E M P E R A T U R E
+;----------------------------------------------------------
+
+[module/temp]
+type = internal/temperature
+inherit = generic-format-style
+
+interval = 2
+
+units = true
+warn-temperature = 80
+
+format-padding = ${layout.icon-padding}
+
+format-prefix = %{T6}﨎%{T-}
+format-prefix-font = ${layout.icon-font}
+format-prefix-foreground = ${color.icon-fg}
+format-prefix-padding-right = ${layout.icon-padding}
+
+label = %temperature-c%
+
+; Warning
+format-warn-background = ${color.module-bg}
+format-warn-underline = ${color.red}
+format-warn-padding = ${layout.module-padding}
+
+format-warn-prefix = %{T6}﨏%{T-}
+format-warn-prefix-font = ${layout.icon-font}
+format-warn-prefix-foreground = ${color.icon-fg}
+format-warn-prefix-padding-right = ${layout.icon-padding}
+
+label-warn = ${self.label}
+label-warn-foreground = ${color.red}
+
+;----------------------------------------------------------
+;			  X K E Y B O A R D
+;----------------------------------------------------------
+
+[module/xkeyboard]
+type = internal/xkeyboard
+inherit = generic-format-style
+blacklist-0 = num lock
+
+format-prefix = %{T6}%{T-}
+
+label-indicator-underline = ${xcolor.color1}
+label-indicator-padding = 1
+label-indicator-margin = 1
+
+;----------------------------------------------------------
+;			  F I L E S Y S T E M
+;----------------------------------------------------------
+
+[module/filesystem]
+type = internal/fs
+
+mount-0 = /
+
+; Mounted
+format-mounted-background = ${color.module-bg}
+format-mounted-padding = ${layout.module-padding}
+
+format-mounted-prefix = %{T6}%{T-}
+format-mounted-prefix-font = ${layout.icon-font}
+format-mounted-prefix-foreground = ${color.icon-fg}
+format-mounted-prefix-padding-right = ${layout.icon-padding}
+
+label-mounted = %used% / %total%
+
+; Unmounted
+format-unmounted-background = ${color.module-bg}
+format-unmounted-padding = ${layout.module-padding}
+
+format-unmounted-prefix = %{T6}%{T-}
+format-unmounted-prefix-font = ${layout.icon-font}
+format-unmounted-prefix-foreground = ${color.icon-fg}
+format-unmounted-prefix-padding-right = ${layout.icon-padding}
+
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${xcolor.color1}
+
+[module/network]
+type = internal/network
+interval = 2
+
+; Connected
+format-connected-background = ${color.module-bg}
+format-connected-padding = ${layout.module-padding}
+
+format-connected-prefix-font = ${layout.icon-font}
+format-connected-prefix-foreground = ${color.icon-fg}
+format-connected-prefix-padding-right = ${layout.icon-padding}
+
+; Disconnected
+format-disconnected-background = ${color.module-bg}
+format-disconnected-foreground = ${xcolor.color3}
+format-disconnected-padding = ${layout.module-padding}
+
+format-disconnected-prefix-font = ${layout.icon-font}
+format-disconnected-prefix-foreground = ${color.icon-fg}
+format-disconnected-prefix-padding-right = ${layout.icon-padding}
+
+;----------------------------------------------------------
+;	      W I R E L E S S    N E T W O R K
+;----------------------------------------------------------
+
+[module/wlan]
+type = internal/network
+interface = ${env:IFACE_WLAN}
+interval = 3
+
+label-connected = %{A1:networkmanager_dmenu:} 直%{A}
+label-disconnected = %{A1:networkmanager_dmenu:} 睊%{A}
+
+format-connected-background = ${color.module-bg}
+format-disconnected-background = ${color.module-bg}
+format-connected-padding = ${layout.module-padding}
+format-disconnected-padding = ${layout.module-padding}
+
+;----------------------------------------------------------
+;   		      E T H E R N E T
+;----------------------------------------------------------
+
+[module/eth]
+inherit = module/network
+interface = ${env:IFACE_ETH}
+
+format-connected-prefix = 
+label-connected = %local_ip%
+
+format-disconnected =
+
+;----------------------------------------------------------
+;   		      P I N G
+;----------------------------------------------------------
+
+[module/ping]
+type = custom/script
+inherit = generic-format-style
+
+exec = $HOME/.bin/polybar/measure_ping.py
+tail = true
+click-left = kill -USR1 %pid%
+
+format-prefix = %{T6} %{T-}
+
+;----------------------------------------------------------
+;   		      N E T W O R K     S T A T S
+;----------------------------------------------------------
+
+[module/netstat]
+type = internal/network
+interface = ${env:IFACE_WLAN}
+interval = 3.0
+label-connected = "%{F#fb4934} %{F-}%upspeed% %{F#b8bb26} %{F-}%downspeed% "
+label-connected-background = ${color.module-bg}
+
+;----------------------------------------------------------
+;			  B L U E T O O T H
+;----------------------------------------------------------
+
+[module/bluetooth]
+type = custom/script
+exec = ~/.bin/polybar/bluetooth.sh
+interval = 100
+label = %{T9}%output%%{T-}
+label-background = ${color.module-bg}
+label-padding = ${layout.module-padding}
+
+;----------------------------------------------------------
+;			 V P N 
+;----------------------------------------------------------
+
+[module/vpn]
+type = custom/script
+interval = 1
+exec = ~/.bin/polybar/vpn.sh 
+;label = %{T9}🖧ﰼ%{T-}
+label-background = ${color.module-bg}
+label-padding = ${layout.module-padding}
+
+label-font = 9
+;----------------------------------------------------------
+;		     D A T E  &  T I M E
+;----------------------------------------------------------
+
+[module/date-alt]
+type = internal/date
+format-foreground = ${color.text-fg}
+format-background = ${color.module-bg}
+date = %{T7}%{T-} %{T1}%a, %b %d%{T-} %{T7}%{T-}%{T1} %l:%M %p%{T-}
+time-alt = %{T7}%{T-} %{T1}%a, %b %d%{T-} 
+;time-alt = %{T7}%{T-}%{T1}%l:%M %p%{T-}
+label = %date%%time%
+label-padding-left = 2
+label-padding = ${layout.module-padding}
+
+[module/date]
+type = internal/date
+; inherit = generic-format-style
+interval = 1
+
+format-prefix = %{T7}%{T-}
+
+date =%{T1}%a, %d %b%{T-}
+date-alt =%{T1}%a %b, %d%{T-}
+
+format-prefix-padding = 1
+format-padding = 1
+
+[module/time]
+type = internal/date
+;inherit = generic-format-style
+interval = 1
+
+format-prefix =%{T7}%{T-}
+
+time =%{T1}%l:%M %p
+time-alt =%{T1}%l:%M:%S %p
+
+label =%time%
+
+;format-prefix-padding = 1
+format-padding = 1
+
+;----------------------------------------------------------
+;			   W E A T H E R
+;----------------------------------------------------------
+
+[module/weather-simple]
+type = custom/script
+exec = ~/.bin/polybar/openweathermap-simple.sh
+interval = 300
+format-foreground = ${color.text-fg}
+format-background = ${color.module-bg}
+format-padding = 1
+label-font = 8
+
+[module/weather]
+type = custom/script
+;inherit = generic-format-style
+format = <label>
+format-prefix = %{T6} %{T-}
+exec = $HOME/.bin/polybar/weather.sh
+interval = 1000
+label-font = 8
+
+;----------------------------------------------------------
+;			  P O W E R M E N U
+;----------------------------------------------------------
+
+[module/powermenu]
+type = custom/text
+content = ⏻
+content-padding = 1
+click-left = exec $HOME/.bin/i3/rofi-session
+click-right = exec $HOME/.bin/i3/rofi-seesion
+content-background = ${color.module-bg}
+content-foreground = ${color.text-fg}
+
+;----------------------------------------------------------
+;			S P O T I F Y
+;----------------------------------------------------------
+
+[module/spotify]
+type = custom/script
+inherit = generic-format-style
+format-prefix = %{T6} %{T-}
+format-prefix-foreground = ${color.icon-fg-alt}
+exec = $HOME/.bin/polybar/spotify.sh %artist% - %title%
+tail = true
+interval = 2
+
+click-left = playerctl next
+click-middle = playerctl play-pause
+click-right = playerctl previous
+
+;----------------------------------------------------------
+;			V O L U M E
+;----------------------------------------------------------
+
+[module/alsa]
+type = internal/alsa
+
+; Not muted
+format-volume = <ramp-volume><bar-volume>
+format-volume-background = ${color.module-bg}
+;format-volume-padding = ${layout.module-padding}
+format-volume-padding = 1
+
+ramp-volume-font = ${layout.icon-font}
+ramp-volume-foreground = ${color.icon-fg}
+ramp-volume-padding-right = ${layout.icon-padding}
+
+ramp-volume-0 = %{T6}墳%{T-}
+
+; Bar
+bar-volume-format = ${layout.bar-format}
+bar-volume-foreground-0 = ${color.bar-fg}
+
+bar-volume-width = 6
+bar-volume-fill = ${layout.bar-fill-icon}
+bar-volume-indicator =
+bar-volume-empty = ${layout.bar-fill-icon}
+
+; Muted
+format-muted-background = ${color.module-bg}
+format-muted-foreground = ${xcolor.color3}
+format-muted-padding = ${layout.module-padding}
+
+format-muted-prefix = %{T6}婢%{T-} 
+format-muted-prefix-font = ${layout.icon-font}
+format-muted-prefix-foreground = ${color.icon-fg}
+format-muted-prefix-padding-right = ${layout.icon-padding}
+
+label-muted = muted
+
+;----------------------------------------------------------
+;			  R E D S H I F T 
+;----------------------------------------------------------
+
+[module/redshift]
+type = custom/script
+exec = ~/.bin/polybar/redshift.sh
+click-left = ~/.bin/polybar/redshift.sh --toggle
+interval = 5
+format-foreground = ${color.text-fg}
+format-background = ${color.module-bg}
+format-padding = ${layout.module-padding}
+
+;----------------------------------------------------------
+;		     B A C K L I G H T
+;----------------------------------------------------------
+
+[module/xbacklight]
+type = internal/xbacklight
+inherit = generic-format-style
+
+format = <ramp> <label>
+
+label = %percentage%
+;label = %percentage%％
+
+ramp-0 = %{T6}%{T-}
+ramp-1 = %{T6}%{T-}
+ramp-2 = %{T6}%{T-}
+ramp-3 = %{T6}%{T-}
+ramp-4 = %{T6}%{T-}
+ramp-5 = %{T6}%{T-}
+ramp-6 = %{T6}%{T-}
+ramp-7 = %{T6}%{T-}
+ramp-8 = %{T6}%{T-}
+ramp-9 = %{T6}%{T-}
+ramp-10 = %{T6}%{T-}
+ramp-11 = %{T6}%{T-}
+ramp-12 = %{T6}%{T-}
+ramp-13 = %{T6}%{T-}
+ramp-14 = %{T6}%{T-}
+
+ramp-foreground = ${color.text-fg}
+ramp-capacity-font = ${layout.icon-font}
+ramp-capacity-padding-right = ${layout.icon-padding}
+ramp-padding-left = 1
+
+;----------------------------------------------------------
+;			 B A T T E R Y
+;----------------------------------------------------------
+
+[module/battery]
+type = internal/battery
+; $ ls -1 /sys/class/power_supply/
+battery = BAT0
+adapter = AC
+full-at = 100
+
+; Discharging
+;format-discharging = <ramp-capacity>
+format-discharging = <ramp-capacity><label-discharging>
+format-discharging-background = ${color.module-bg}
+format-discharging-padding = ${layout.icon-padding}
+
+ramp-capacity-font = ${layout.icon-font}
+ramp-capacity-foreground = ${color.text-fg}
+ramp-capacity-padding-right = ${layout.icon-padding}
+
+ramp-capacity-0 = %{T6}%{T-}
+ramp-capacity-0-foreground = #fb4934
+
+ramp-capacity-1 = %{T6}%{T-}
+ramp-capacity-1-foreground = #fb4934
+
+ramp-capacity-2 = %{T6}%{T-}
+ramp-capacity-2-foreground = #fb4934
+
+ramp-capacity-3 = %{T6}%{T-}
+ramp-capacity-3-foreground = #fabd2f
+
+ramp-capacity-4 = %{T6}%{T-}
+ramp-capacity-5 = %{T6}%{T-}
+ramp-capacity-6 = %{T6}%{T-}
+ramp-capacity-7 = %{T6}%{T-}
+ramp-capacity-8 = %{T6}%{T-}
+ramp-capacity-9 = %{T6}%{T-}
+ramp-capacity-10 = %{T6}%{T-}
+
+label-discharging = %percentage%
+;label-discharging = %percentage%％
+
+; Charging
+;format-charging = <animation-charging>
+format-charging = <animation-charging><label-charging>
+format-charging-background = ${color.module-bg}
+format-charging-padding = ${layout.icon-padding}
+
+animation-charging-font = ${layout.icon-font}
+animation-charging-foreground = ${color.text-fg}
+animation-charging-padding-right = ${layout.icon-padding}
+;animation-charging-padding-left = ${layout.icon-padding}
+
+animation-charging-framerate = 500
+animation-charging-0 = %{T6}%{T-}
+animation-charging-1 = %{T6}%{T-}
+animation-charging-2 = %{T6}%{T-}
+animation-charging-3 = %{T6}%{T-}
+animation-charging-4 = %{T6}%{T-}
+animation-charging-5 = %{T6}%{T-}
+animation-charging-6 = %{T6}%{T-}
+
+label-charging = ${self.label-discharging}
+
+label-charging-foreground = ${color.text-fg}
+
+; Full
+format-full-background = ${color.module-bg}
+format-full-padding = ${layout.module-padding}
+
+;format-full-prefix = %{T6}%{T-}
+;format-full-prefix-font = ${layout.icon-font}
+;format-full-prefix-foreground = ${color.text-fg}
+format-full-prefix-padding-right = ${layout.icon-padding}
+
+label-full = %{T6}%{T-}
+
+
+;----------------------------------------------------------
+;			 B A T T E R Y     H A C K
+;----------------------------------------------------------
+
+[module/battery_hack]
+type = custom/script
+inherit = generic-format-style
+exec = echo "%{T1} %{T-}"
+click-left = $HOME/.bin/polybar/battery
+
+;----------------------------------------------------------
+;			  T E X T    M O D U L E S
+;----------------------------------------------------------
+
+[module/left-arrow-head]
+type = custom/text
+content = %{T3}%{T-}
+content-foreground = ${color.module-bg}
+content-background = ${color.base-bg}
+
+[module/left-arrow-tail]
+type = custom/text
+content = %{T3}%{T-}
+content-foreground = ${color.base-bg}
+content-background = ${color.module-bg}
+
+[module/right-arrow-head]
+type = custom/text
+content = %{T3}%{T-}
+content-foreground = ${color.module-bg}
+content-background = ${color.base-bg}
+
+[module/right-arrow-tail]
+type = custom/text
+content = %{T3}%{T-}
+content-foreground = ${color.base-bg}
+content-background = ${color.module-bg}
+
+[module/decor-glyph]
+type = custom/text
+content-background = ${color.base-bg}
+content-foreground = ${color.glyph-bg}
+
+[module/left-end-top]
+inherit = module/decor-glyph
+content = "%{T3}%{T-}"
+
+[module/right-end-top]
+inherit = module/decor-glyph
+content = "%{T3}%{T-}"
+
+[module/left-end-bottom]
+inherit = module/decor-glyph
+content = "%{T3}%{T-}"
+
+[module/right-end-bottom]
+inherit = module/decor-glyph
+content = "%{T3}%{T-}"
+
+[module/left-end-power]
+inherit = module/decor-glyph
+content = "%{T3}%{T-}"
+
+[module/right-end-power]
+inherit = module/decor-glyph
+content = "%{T3}%{T-}"
+
+;#########################################################;
+;                 E N D    O F    F I L E                 :
+;#########################################################;

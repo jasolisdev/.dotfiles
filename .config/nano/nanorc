@@ -1,0 +1,16 @@
+# Colors
+set titlecolor black,blue
+set statuscolor black,blue
+set errorcolor brightwhite,red
+set selectedcolor brightwhite,red
+set stripecolor yellow
+set numbercolor green
+set keycolor brightgreen
+set functioncolor white 
+
+set linenumbers
+set smooth
+set autoindent
+
+# Language colors
+include "/usr/share/nano-syntax-highlighting/*.nanorc"

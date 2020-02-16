@@ -1,0 +1,410 @@
+###########################################################################
+############		     i3 CONFIG FILE	            ###############
+###########################################################################
+# Please see http://i3wm.org/docs/userguide.html for a complete reference!
+################       Start of all the settings          #################
+
+# KEY DEFINITIONS TO REMEMBER
+
+# $Mod = WINDOWS key or Super key or Mod4
+# Mod1 = ALT key
+# Control = CTRL key
+# Shift = SHIFT key
+# Escape = ESCAPE key
+# Return = ENTER or RETURN key
+# Pause = PAUSE key
+# Print = PRINT key
+# Tab = TAB key
+
+# Key to rule them all : windows or Alt key?
+
+# Mod4 = windows key on keyboard or super key
+# Alt key is Mod1 if you want to change the $mod key
+set $mod Mod4
+
+################### COLORS ######################
+
+# Set Colors
+set $hc-color #FFFFFF
+set $bg-color #262626
+set $sc-color #FFFFFF
+set $fg-color #FFFFFF
+# Black + DarkGrey
+set $color0   #262626
+set $color8   #928374
+# DarkRed + Red
+set $color1   #cc241d
+set $color9   #fb4934
+# DarkGreen + Light Green
+set $color2   #98971a
+set $color10  #b8bb26
+# DarkYellow + Yellow
+set $color3   #d79921
+set $color11  #fabd2f
+# DarkBlue + Blue
+set $color4   #458588
+set $color12  #83a598
+# DarkMagenta + FFFFFF
+set $color5   #b16286
+set $color13  #d3869b
+# DarkCyan + Cyan
+set $color6   #689d6a
+set $color14  #8ec07c
+# LightGrey + White
+set $color7   #a89984
+set $color15  #ebdbb2
+# Border
+set $color16 #404040
+
+set $borderInactive #504945
+set $borderActive   #928374
+
+# Window Colors
+#			Border		  Background          Text              Indicator
+client.focused          $borderActive     $borderActive       $borderActive     $borderActive
+client.focused_inactive $borderInactive   $borderInactive     $borderInactive   $borderInactive
+client.unfocused        $borderInactive   $borderInactive     $borderInactive   $borderInactive
+
+client.urgent           $color9   	  $color9	      $color9    	$color9
+client.background       $bg-color
+
+###################       GAPS      ##############################
+
+# No titles, minimal borders
+for_window [class="^.*"] border pixel 2
+new_window 1pixel
+
+#gaps inner 5
+#gaps outer 5
+smart_gaps on
+smart_borders on
+
+set $mode_gaps Gaps: (o) outer, (i) inner
+set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
+set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
+
+bindsym $mod+Shift+g mode "$mode_gaps"
+
+mode "$mode_gaps" {
+        bindsym o      mode "$mode_gaps_outer"
+        bindsym i      mode "$mode_gaps_inner"
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+mode "$mode_gaps_inner" {
+        bindsym plus  gaps inner current plus 5
+        bindsym minus gaps inner current minus 5
+        bindsym 0     gaps inner current set 0
+
+        bindsym Shift+plus  gaps inner all plus 5
+        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+0     gaps inner all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_outer" {
+        bindsym plus  gaps outer current plus 5
+        bindsym minus gaps outer current minus 5
+        bindsym 0     gaps outer current set 0
+
+        bindsym Shift+plus  gaps outer all plus 5
+        bindsym Shift+minus gaps outer all minus 5
+        bindsym Shift+0     gaps outer all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+################### FLOATING WINDOWS ####################
+
+#  for_window [class="Lxappearance"] floating enable
+
+# Use $mod+Mouse to drag floating windows to their wanted position
+  floating_modifier $mod
+
+# toggle tiling / floating
+  bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+  bindsym $mod+space focus mode_toggle
+
+#floating enabled from some programs - find with xprop
+for_window [class="Pavucontrol"] floating enable
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="^Preferences$"] floating enable
+for_window [window_role="setup"] floating enable
+for_window [title="Copying"] floating enable  
+for_window [title="Deleting"] floating enable  
+for_window [title="Moving"] floating enable
+for_window [class="Galculator"] floating enable
+for_window [instance="script-fu"] border normal
+
+#Popups during fullscreen mode
+popup_during_fullscreen smart
+  
+################### RESIZE ######################
+
+bindsym $mod+r mode "resize"
+
+mode "resize" {
+# These bindings trigger as soon as you enter the resize mode
+
+# Pressing left will shrink the window’s width.
+# Pressing right will grow the window’s width.
+# Pressing up will shrink the window’s height.
+# Pressing down will grow the window’s height.
+  bindsym j resize shrink width 10 px or 10 ppt
+  bindsym k resize grow height 10 px or 10 ppt
+  bindsym l resize shrink height 10 px or 10 ppt
+  bindsym semicolon resize grow width 10 px or 10 ppt
+
+# same bindings, but for the arrow keys
+  bindsym Left resize shrink width 10 px or 10 ppt
+  bindsym Down resize grow height 10 px or 10 ppt
+  bindsym Up resize shrink height 10 px or 10 ppt
+  bindsym Right resize grow width 10 px or 10 ppt
+
+# back to normal: Enter or Escape
+  bindsym Return mode "default"
+  bindsym Escape mode "default"
+}
+
+################### MOVE ######################
+
+bindsym $mod+m mode "move" focus floating
+
+mode "move" {
+    bindsym $mod+Tab focus right
+
+    bindsym Left  move left
+    bindsym Down  move down
+    bindsym Up    move up
+    bindsym Right move right
+
+    bindsym h     move left
+    bindsym j     move down
+    bindsym k     move up
+    bindsym l     move right
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+################### RELOAD AND EXIT #####################
+
+# reload the configuration file
+  bindsym $mod+Shift+c reload
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+  bindsym $mod+Shift+r restart
+
+# script to open dmenu to poweroff,sleep,exit session
+bindsym $mod+Shift+e  exec $HOME/.bin/i3/rofi-session
+
+# Save Load or Delete Layouts
+bindsym $mod+Shift+i exec $HOME/.bin/i3/i3-layout-manager/layout_manager.sh 
+
+################### ASSIGN ######################
+
+set $ws_desk	    1:一
+set $ws_term	    2:二
+set $ws_code	    3:三
+set $ws_web	      4:四
+set $ws_file	    5:五
+set $ws_6	        6:六
+set $ws_book	    7:七
+set $ws_vbox	    8:八
+set $ws_chat	    9:九
+set $ws_music	    10:十
+
+# switch to workspace
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
+bindsym $mod+6 workspace 6
+bindsym $mod+7 workspace 7
+bindsym $mod+8 workspace 8
+bindsym $mod+9 workspace 9
+bindsym $mod+0 workspace 10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace 1
+bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
+bindsym $mod+Shift+6 move container to workspace 6
+bindsym $mod+Shift+7 move container to workspace 7
+bindsym $mod+Shift+8 move container to workspace 8
+bindsym $mod+Shift+9 move container to workspace 9
+bindsym $mod+Shift+0 move container to workspace 10
+
+# Assign application to start on a specific workspace
+# you can find the class with the program xprop
+
+# assign [class=""]							                                      → 1
+# assign [class=""]                                                   → 2
+# assign [class=""]                                                   → 3
+# assign [class=""]                                                   → 4
+# assign [class=""]                                                   → 5
+# assign [class=""]                                                   → 6
+# assign [class=""]                                                   → 7
+# assign [class=""]                                                   → 8
+# assign [class=""]                                                   → 9
+assign [class="Spotify|spotify"]                                       → 10
+#fix for spotify not moving to workspace 10
+for_window [class="Spotify"] move to workspace 10
+
+################### WORKSPACE GAPS ######################
+
+#workspace 10 gaps inner 15
+
+################### TERMINAL ######################
+
+# bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty
+
+################### MENU ######################
+
+# Uncomment to enable with Icons
+#bindsym $mod+d exec "rofi -show drun"
+bindsym $mod+d exec "rofi -modi run,drun,window -show drun"
+
+################### TILING PARAMETERS ##############################
+
+# orientation for new workspaces 
+  default_orientation horizontal
+
+# kill focused window
+  bindsym $mod+Shift+q kill
+
+# change focus
+  bindsym $mod+j focus left
+  bindsym $mod+k focus down
+  bindsym $mod+l focus up
+  bindsym $mod+semicolon focus right
+
+# alternatively, you can use the cursor keys:
+  bindsym $mod+Left focus left
+  bindsym $mod+Down focus down
+  bindsym $mod+Up focus up
+  bindsym $mod+Right focus right
+
+# move focused window
+ bindsym $mod+Shift+j move left
+ bindsym $mod+Shift+k move down
+ bindsym $mod+Shift+l move up
+ bindsym $mod+Shift+semicolon move right
+
+# alternatively, you can use the cursor keys:
+  bindsym $mod+Shift+Left move left
+  bindsym $mod+Shift+Down move down
+  bindsym $mod+Shift+Up move up
+  bindsym $mod+Shift+Right move right
+
+# split in horizontal orientation
+  bindsym $mod+h split h
+
+# split in vertical orientation
+  bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+  bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+  bindsym $mod+s layout stacking
+  bindsym $mod+z layout tabbed
+  bindsym $mod+x layout toggle split
+
+################### FUNCTION_KEYS ######################
+
+# Change brightness
+bindsym XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 5
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5
+# bindsym XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 5 & exec ~/.bin/i3/brightness-notify
+# bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 & exec ~/.bin/i3/brightness-notify
+
+
+bindsym XF86AudioRaiseVolume  exec --no-startup-id amixer -q set Master 5%+
+bindsym XF86AudioLowerVolume  exec --no-startup-id amixer -q set Master 5%-
+
+bindsym XF86AudioMute         exec --no-startup-id amixer -q set Master toggle
+
+bindsym XF86AudioPlay         exec --no-startup-id playerctl play-pause
+bindsym XF86AudioPrev         exec --no-startup-id playerctl previous
+bindsym XF86AudioNext         exec --no-startup-id playerctl next
+
+# bindsym XF86AudioPlay         exec --no-startup-id mpc toggle
+# bindsym XF86AudioPrev         exec --no-startup-id mpc prev
+# bindsym XF86AudioNext         exec --no-startup-id mpc next
+
+################### KEY_BINDINGS  ################
+
+focus_follows_mouse no
+
+bindsym $mod+t exec $HOME/.bin/touchpad
+bindsym $mod+c exec $HOME/.bin/caps-lock
+bindsym $mod+p exec $HOME/.bin/polybar/autohide.sh 
+
+# Screen Shots
+bindsym Control+Print exec gnome-screenshot -i
+bindsym Print exec $HOME/.bin/screenshot
+
+# cycle workspaces
+bindsym $mod+q workspace back_and_forth
+bindsym $mod+Tab workspace next
+#bindsym $mod+w workspace next
+
+################### WALLPAPER ####################
+
+exec_always feh --bg-fill $HOME/.wallpapers/wall-alt.png
+
+################### POLYBAR ######################
+
+exec_always --no-startup-id $HOME/.bin/polybar/launch_polybar
+
+# bar toggle, hide or show 
+#bindsym $mod+h exec $HOME/.bin/bar mode toggle
+
+################### EXECUTE #####################
+
+exec_always --no-startup-id $HOME/.bin/ext_monitor
+
+# exec_always compton --config $HOME/.config/compton/compton.conf --respect-prop-shadow
+
+#exec_always --no-startup-id mopidy
+
+exec_always --no-startup-id dunst
+
+exec --no-startup-id nm-applet
+
+# bluetooth
+#exec blueberry-tray
+#exec --no-startup-id blueman-applet
+
+exec_always --no-startup-id numlockx on
+
+# get the mouse out of the way with unclutter
+exec_always unclutter -display :0.0 -idle 3
+
+# exec --no-startup-id cbatticon
+
+#exec --no-startup-id volumeicon
+
+bindsym $mod+Shift+s exec --no-startup-id ducksearch
+
+bindsym $mod+Shift+w exec --no-startup-id networkmanager_dmenu
+
+# Add this to your i3 config (~/.config/i3/config) and restart i3 (Super+Shift+R)
+#for_window [class="kitty" title="^((?!Kitty Preferences).)*$"] move scratchpad, move position 0 0, resize set 1366 768;
+bindsym $mod+i [class="Alacritty|kitty|google-chrome|Google-chrome|browser|code|Code"] scratchpad show;
+# send window to scratchpad
+bindsym $mod+n move scratchpad
+bindsym $mod+Shift+n scratchpad show
+
+for_window [class="Oblogout"] fullscreen enable
