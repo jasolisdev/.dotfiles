@@ -7,3 +7,6 @@
 [submodule ".emacs.d"]
 	path = .emacs.d
 	url = https://github.com/hlissner/doom-emacs.git
+[submodule ".themes/gruvbox-gtk"]
+	path = .themes/gruvbox-gtk
+	url = https://github.com/3ximus/gruvbox-gtk
