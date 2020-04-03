@@ -2,7 +2,7 @@
     <h1>.dotfiles</h1>
     <p>There's no place like <b><code>~</code></b> !</p>
     <p>
-    <img src="git_imgs/dotfiles.png">
+    <img src=".images/dotfiles.png">
     <br><br>
     </p>
 </div>
