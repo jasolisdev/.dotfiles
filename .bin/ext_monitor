@@ -9,8 +9,8 @@
 # More info at http://www.thinkwiki.org/wiki/Xorg_RandR_1.2
 
 
-PRI_OUTPUT="eDP-1";
-SEC_OUTPUT="HDMI-1";
+PRI_OUTPUT="eDP1";
+SEC_OUTPUT="HDMI1";
 SEC_LOCATION="right";    # SEC_LOCATION may be one of: left, right, above, or below
 
 case "$SEC_LOCATION" in

@@ -926,22 +926,22 @@ else
     augroup END
 endif
 
-" augroup CustomFolding
-"     autocmd!
-"     autocmd BufWinEnter * let &foldlevel=max(add(map(range(1, line('$')), 'foldlevel(v:val)'), 10))  " with this, everything is unfolded at start
-" augroup End
+augroup CustomFolding
+    autocmd!
+    autocmd BufWinEnter * let &foldlevel=max(add(map(range(1, line('$')), 'foldlevel(v:val)'), 10))  " with this, everything is unfolded at start
+augroup End
 
-" function! NeatFoldText()
-"     let line = ' ' . substitute(getline(v:foldstart), '^\s*"\?\s*\|\s*"\?\s*{{' . '{\d*\s*', '', 'g') . ' '
-"     let lines_count = v:foldend - v:foldstart + 1
-"     let lines_count_text = '┤ ' . printf("%10s", lines_count . ' lines') . ' ├'
-"     let foldchar = matchstr(&fillchars, 'fold:\zs.')
-"     let foldtextstart = strpart('+ ' . repeat(foldchar, v:foldlevel*2) . line, 0, (winwidth(0)*2)/3)
-"     let foldtextend = lines_count_text . repeat(foldchar, 8)
-"     let foldtextlength = strlen(substitute(foldtextstart . foldtextend, '.', 'x', 'g')) + &foldcolumn
-"     return foldtextstart . repeat(foldchar, winwidth(0)-foldtextlength) . foldtextend
-" endfunction
-" set foldtext=NeatFoldText()
+function! NeatFoldText()
+    let line = ' ' . substitute(getline(v:foldstart), '^\s*"\?\s*\|\s*"\?\s*{{' . '{\d*\s*', '', 'g') . ' '
+    let lines_count = v:foldend - v:foldstart + 1
+    let lines_count_text = '┤ ' . printf("%10s", lines_count . ' lines') . ' ├'
+    let foldchar = matchstr(&fillchars, 'fold:\zs.')
+    let foldtextstart = strpart('+ ' . repeat(foldchar, v:foldlevel*2) . line, 0, (winwidth(0)*2)/3)
+    let foldtextend = lines_count_text . repeat(foldchar, 8)
+    let foldtextlength = strlen(substitute(foldtextstart . foldtextend, '.', 'x', 'g')) + &foldcolumn
+    return foldtextstart . repeat(foldchar, winwidth(0)-foldtextlength) . foldtextend
+endfunction
+set foldtext=NeatFoldText()
 
 " set viminfo='10,\"100,:20,%,n~/.viminfo
 " augroup SavePosition

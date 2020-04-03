@@ -3,7 +3,7 @@
 ###################
 
 [global]
-font = Iosevka Medium 16
+font = Source Code Pro 13
 markup = yes
 plain_text = no
 format = "<b>%s</b>\n%b"
@@ -18,13 +18,14 @@ stack_duplicates = yes
 hide_duplicates_count = yes
 geometry = "800x100-50+90"
 shrink = no
-# transparency = 10
+transparency = 10
 idle_threshold = 0
 monitor = 0
 follow = keyboard
 sticky_history = yes
 history_length = 15
 show_indicators = yes
+corner_radius = 10
 
 # The height of a single line.  If the height is smaller than the
 # font height, it will get raised to the font height.

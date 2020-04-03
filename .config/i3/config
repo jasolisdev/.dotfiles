@@ -68,16 +68,75 @@ client.unfocused        $borderInactive   $borderInactive     $borderInactive   
 client.urgent           $color9   	  $color9	      $color9    	$color9
 client.background       $bg-color
 
+################### ASSIGN ######################
+#
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+# switch to workspace
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws10
+
+# Assign application to start on a specific workspace
+# you can find the class with the program xprop
+
+# assign [class=""]							                                      → 1
+# assign [class=""]                                                   → 2
+# assign [class=""]                                                   → 3
+# assign [class=""]                                                   → 4
+# assign [class=""]                                                   → 5
+# assign [class=""]                                                   → 6
+# assign [class=""]                                                   → 7
+# assign [class=""]                                                   → 8
+# assign [class=""]                                                   → 9
+assign [class="Spotify|spotify"]                                       → 10
+#fix for spotify not moving to workspace 10
+for_window [class="Spotify"] move to workspace 10
+
 ###################       GAPS      ##############################
 
 # No titles, minimal borders
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 3
 new_window 1pixel
 
-#gaps inner 5
-#gaps outer 5
-smart_gaps on
-smart_borders on
+# You can also use any non-zero value if you'd like to have a border
+# for_window [class=".*"] border pixel 0
+
+# gaps [inner|outer|horizontal|vertical|top|left|bottom|right] <px>
+# workspace <ws> gaps [inner|outer|horizontal|vertical|top|left|bottom|right] <px>
+
+ gaps inner 0
+ gaps outer 0
+# smart_gaps on
+ smart_borders on
 
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
@@ -116,6 +175,10 @@ mode "$mode_gaps_outer" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
+
+################### WORKSPACE GAPS ######################
+
+workspace 10 gaps inner 15
 
 ################### FLOATING WINDOWS ####################
 
@@ -207,63 +270,6 @@ bindsym $mod+Shift+e  exec $HOME/.bin/i3/rofi-session
 # Save Load or Delete Layouts
 bindsym $mod+Shift+i exec $HOME/.bin/i3/i3-layout-manager/layout_manager.sh 
 
-################### ASSIGN ######################
-
-set $ws_desk	    1:一
-set $ws_term	    2:二
-set $ws_code	    3:三
-set $ws_web	      4:四
-set $ws_file	    5:五
-set $ws_6	        6:六
-set $ws_book	    7:七
-set $ws_vbox	    8:八
-set $ws_chat	    9:九
-set $ws_music	    10:十
-
-# switch to workspace
-bindsym $mod+1 workspace 1
-bindsym $mod+2 workspace 2
-bindsym $mod+3 workspace 3
-bindsym $mod+4 workspace 4
-bindsym $mod+5 workspace 5
-bindsym $mod+6 workspace 6
-bindsym $mod+7 workspace 7
-bindsym $mod+8 workspace 8
-bindsym $mod+9 workspace 9
-bindsym $mod+0 workspace 10
-
-# move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1
-bindsym $mod+Shift+2 move container to workspace 2
-bindsym $mod+Shift+3 move container to workspace 3
-bindsym $mod+Shift+4 move container to workspace 4
-bindsym $mod+Shift+5 move container to workspace 5
-bindsym $mod+Shift+6 move container to workspace 6
-bindsym $mod+Shift+7 move container to workspace 7
-bindsym $mod+Shift+8 move container to workspace 8
-bindsym $mod+Shift+9 move container to workspace 9
-bindsym $mod+Shift+0 move container to workspace 10
-
-# Assign application to start on a specific workspace
-# you can find the class with the program xprop
-
-# assign [class=""]							                                      → 1
-# assign [class=""]                                                   → 2
-# assign [class=""]                                                   → 3
-# assign [class=""]                                                   → 4
-# assign [class=""]                                                   → 5
-# assign [class=""]                                                   → 6
-# assign [class=""]                                                   → 7
-# assign [class=""]                                                   → 8
-# assign [class=""]                                                   → 9
-assign [class="Spotify|spotify"]                                       → 10
-#fix for spotify not moving to workspace 10
-for_window [class="Spotify"] move to workspace 10
-
-################### WORKSPACE GAPS ######################
-
-#workspace 10 gaps inner 15
-
 ################### TERMINAL ######################
 
 # bindsym $mod+Return exec alacritty
@@ -349,7 +355,10 @@ focus_follows_mouse no
 
 bindsym $mod+t exec $HOME/.bin/touchpad
 bindsym $mod+c exec $HOME/.bin/caps-lock
-bindsym $mod+p exec $HOME/.bin/polybar/autohide.sh 
+# bindsym $mod+p exec $HOME/.bin/polybar/autohide.sh 
+bindsym $mod+y exec $HOME/.bin/polybar/hidepoly
+bindsym $mod+u exec $HOME/.bin/polybar/showpoly
+
 
 # Screen Shots
 bindsym Control+Print exec gnome-screenshot -i
@@ -362,7 +371,7 @@ bindsym $mod+Tab workspace next
 
 ################### WALLPAPER ####################
 
-exec_always feh --bg-fill $HOME/.wallpapers/wall-alt.png
+exec_always feh --bg-fill $HOME/.wallpapers/wall_19.jpg
 
 ################### POLYBAR ######################
 
@@ -376,12 +385,13 @@ exec_always --no-startup-id $HOME/.bin/polybar/launch_polybar
 exec_always --no-startup-id $HOME/.bin/ext_monitor
 
 # exec_always compton --config $HOME/.config/compton/compton.conf --respect-prop-shadow
+exec_always --no-startup-id picom
 
 #exec_always --no-startup-id mopidy
 
 exec_always --no-startup-id dunst
 
-exec --no-startup-id nm-applet
+# exec --no-startup-id nm-applet
 
 # bluetooth
 #exec blueberry-tray
@@ -400,11 +410,17 @@ bindsym $mod+Shift+s exec --no-startup-id ducksearch
 
 bindsym $mod+Shift+w exec --no-startup-id networkmanager_dmenu
 
+bindsym $mod+Shift+o exec --no-startup-id dmenu-edit-configs
+
+bindsym $mod+Shift+m exec --no-startup-id sysmon
+
 # Add this to your i3 config (~/.config/i3/config) and restart i3 (Super+Shift+R)
 #for_window [class="kitty" title="^((?!Kitty Preferences).)*$"] move scratchpad, move position 0 0, resize set 1366 768;
-bindsym $mod+i [class="Alacritty|kitty|google-chrome|Google-chrome|browser|code|Code"] scratchpad show;
+bindsym $mod+i [class="Alacritty|kitty|google-chrome|Google-chrome|brave-browser|Brave-browser|code|Code"] scratchpad show;
 # send window to scratchpad
 bindsym $mod+n move scratchpad
 bindsym $mod+Shift+n scratchpad show
 
 for_window [class="Oblogout"] fullscreen enable
+
+border_radius 0

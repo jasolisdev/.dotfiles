@@ -93,11 +93,11 @@ stty -ixon
     && source "$ZSH_CONFIG/alias.zsh"
 
 # Gruvbox colors fix
-[[ -f "$HOME/.bin/fix-gruvbox-palette" ]] \
-    && [[ "$TERM" != 'xterm-kitty' ]] \
-    && [[ "$TERM" != 'tmux-256color' ]] \
-    && source "$HOME/.bin/fix-gruvbox-palette"
-
+# [[ -f "$HOME/.bin/fix-gruvbox-palette" ]] \
+#     && [[ "$TERM" != 'xterm-kitty' ]] \
+#     && [[ "$TERM" != 'tmux-256color' ]] \
+#     && source "$HOME/.bin/fix-gruvbox-palette"
+#
 # TMUX
 # main_attached="$(tmux list-sessions -F '#S #{session_attached}' \
 #     2>/dev/null \

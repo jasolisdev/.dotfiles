@@ -1,6 +1,7 @@
 #!/bin/sh
 
-rm -f /tmp/locked.png
+rm -rf /tmp/locked.png
+rm -rf /tmp/base.png
 
 # If `imagemagick` is not installed, use a blank screen.
 [ -f /usr/bin/convert ] &&
@@ -12,10 +13,10 @@ convert /tmp/base.png -blur 0x8 /tmp/locked.png
 mocp -P >/dev/null 2>&1
 mpc pause >/dev/null 2>&1
 pauseallmpv >/dev/null 2>&1
-dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop
+# dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop
 
-#i3lock -e -f -c 000000 -i /tmp/locked.png
+i3lock -e -f -c 000000 -i /tmp/locked.png
 
 # In five seconds, turn off display unless key press in last 4 seconds.
-#sleep 5 && [ 4000 -lt "$(xssstate -i)" ] &&  pgrep -x i3lock && xset dpms force off
-lock
+sleep 5 && [ 4000 -lt "$(xssstate -i)" ] &&  pgrep -x i3lock && xset dpms force off
+# lock

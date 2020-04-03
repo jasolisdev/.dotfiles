@@ -22,19 +22,25 @@
 
 ### Introduction
 
+To clone this repository and it's submodules use:
+```bash
+git clone --recurse-submodules https://github.com/jasolisdev/.dotfiles.git
+```
+
 This repository contains my personal configuration files (also known as
 _dotfiles_). The package lists can be found in `~/.pkglist/`. To install all
 official packages, use `cat .pkglist/pacman | pacman -S -` and to install all
 aur packages use `cat .pkglist/aur | yay -S -`, for convenience `cat
-.pkglist/aur-pacman | yay -S -` to install both official and aur packages.
+.pkglist/aur-pacman | yay -S -` to install both official and aur packages (must
+have yay installed).
 
 In the following sections I'll explain how this dotfiles repository was set up,
 how to use it and how to restore them, for example on a new device.
 
 ### Setup Repository
 
-My method of setting up my .dotfiles repository is simple. Keep you home dir in
-Git with a detached working directory. There are many methods of out there for
+My method of setting up my .dotfiles repository is kept simple by keeping your home dir in
+Git with a detached working directory. There are many methods out there for
 managing dotfiles and a multitude of pre-made tools. So what makes my method
 better than the rest? Well the answer is: it depends. The method I'm about to
 describe is one that suits me personally because:
@@ -43,7 +49,7 @@ describe is one that suits me personally because:
 - No special tools required, other than Git itself. A tiny alias in your .profile takes care of all of it.
 - No fiddling with symlinks and other nonsense.
 
-***How does it work?***
+**How does it work?**
 It’s simple. We create what is called a “detached working tree“. In a normal git repository,
 you’ve got your .git dir, which is basically your repository database. When you perform 
 a checkout, the directory containing this .git dir is populated with files from the git 
@@ -59,7 +65,7 @@ It understands this detached working directory and lets you use git like you wou
 normally. The dgit alias looks like this:
 
 ```bash
-alias dgit='git --git-dir ~/.dotfiles/.git --work-tree=$HOME'
+$ alias dgit='git --git-dir ~/.dotfiles/.git --work-tree=$HOME'
 ```
 
 Simple enough, isn’t it? We simply tell git that our working tree doesn’t reside in the 
@@ -68,7 +74,7 @@ git-dir so git will always know where our actual git repository resides. Otherwi
 would scan up from the curent directory your in and won’t find the .git dir, since that’s 
 the whole point of this exercise.
 
-***Setting it up***
+**Setting it up**
 
 Create a directory to hold your git database (the .git dir):
 ```bash
@@ -102,7 +108,7 @@ Now the repository is checked out in our home directory, and it’s ready to hav
 added to it. The dgit reset --hard command might seem spooky (and I do suggest you make 
 a backup before running it), but since we’re ignoring everything, it’ll work just fine.
 
-***Using it***
+**Using it**
 
 Everything we do now, we do with the dgit command instead of normal git. In case you 
 forget to use dgit, it simply won’t work, so don’t worry about that.
@@ -138,7 +144,7 @@ HEAD is now at f437f9f Added .profile
 Please note that any files that exist in your home directory ***will be overwritten*** by the files 
 from your repository if they’re present.
 
-***Track Files***
+**Track Files**
 
 Use the default git subcommands to track, update and remove files. You can
 obviously also use branches and all other features of git.

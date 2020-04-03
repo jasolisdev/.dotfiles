@@ -52,6 +52,8 @@
 
  alias testpowerline='echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"'
 
+ alias ta='tmux attach-session -t0'
+
  alias todo='calcurse'
 
  alias Xrdb='xrdb ~/.Xresources'

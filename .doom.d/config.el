@@ -29,7 +29,7 @@
  json-reformat:indent-width 2
  css-indent-offset 2
  dart-format-on-save t
- projectile-project-search-path '("~/code/"))
+ projectile-project-search-path '("~/projects/"))
  ;; +doom-dashboard-banner-file (expand-file-name "logo.png" doom-private-dir))
 
 

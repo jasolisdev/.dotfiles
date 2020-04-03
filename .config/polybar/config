@@ -21,7 +21,8 @@ color8 = ${xrdb:color8:#373b41}
 
 [color]
 ;base-bg     = #8c0a0a0a
-base-bg     = #151515
+ base-bg     = #202020
+
 base-comp   = #2524230a
 glyph-bg    = #3C3835
 module-bg   = #3C3835
@@ -61,10 +62,11 @@ screenchange-reload = true
 [bar/base]
 monitor = ${env:MONITOR}
 ;width = 100%
-height = 45
-fixed-center = true
+height = 50
+;fixed-center = true
 
 background = ${color.base-bg}
+
 foreground = ${color.text-fg-alt}
 
 ; Size of under-/overlines
@@ -78,27 +80,41 @@ cursor-scroll = ns-resize
 ;----------------------------------------------------------
 
 font-0 = Source Code Pro:style=Bold:size=25;6
-font-1 = Source Code Pro:style=Bold:size=24;5
-font-2 = Source Code Pro:style=Medium:size=25;7
-font-3 = mplus Nerd Font:style=Medium:size=30;8
+font-1 = Source Code Pro:style=Bold:size=22;5
+font-2 = Source Code Pro:style=Medium:size=32;9
+font-3 = mplus Nerd Font:style=Medium:size=26;8
 font-4 = Source Code Pro:style=Medium:size=25;5
 font-5 = Source Code Pro:style=Medium:size=30;8
 font-6 = Source Code Pro:style=Medium:size=25;4
-font-7 = Weather Icons:size=25;5
+font-7 = Weather Icons:size=20;8
 font-8 = Material Design Icons:style=Regular:size=25;5
+font-9 = mplus Nerd Font:style=Medium:size=22;3
 
 
 ;----------------------------------------------------------
 ;			T O P   B A R   -   P R I M A R Y
 ;----------------------------------------------------------
 
+[bar/top-transparent]
+background     = #0000000a
+
+height = 90
+modules-center =  i3
+
 [bar/top-primary]
 inherit = bar/base
 
-modules-left = rofi right-end-power right-arrow-tail right-arrow-head i3 
-modules-center = 
-modules-right = left-arrow-head left-arrow-tail left-arrow-head date-alt weather-simple left-arrow-tail left-arrow-head powermenu
+;override-redirect = true
+;wm-restack = i3
+;width = 3798
+;offset-x = 20
+;offset-y = 20
+;radius = 10
 
+modules-left = rofi right-end-power right-arrow-tail right-arrow-head i3
+modules-center = 
+modules-right = left-arrow-head left-arrow-tail left-arrow-head date time left-arrow-tail left-arrow-head powermenu
+;modules-right = left-arrow-head left-arrow-tail left-arrow-head date-alt 
 ;----------------------------------------------------------
 ;			T O P   B A R   -   S E C O N D A R Y
 ;----------------------------------------------------------
@@ -113,12 +129,28 @@ inherit = bar/top-primary
 ;			B O T T O M   B A R   -   P R I M A R Y
 ;----------------------------------------------------------
 
+[bar/bottom-transparent]
+background     = #0000000a
+
+height = 90
+modules-center =  i3
+
+bottom = true
+
 [bar/bottom-primary]
 inherit = bar/base
 bottom = true
 
+;override-redirect = true
+;wm-restack = i3
+;width = 3798
+;offset-x = 20
+;offset-y = 20
+;radius = 10
+
+
 modules-left = spotify alsa right-arrow-head right-arrow-tail right-arrow-head
-modules-right = left-arrow-head left-arrow-tail left-arrow-head wlan vpn bluetooth redshift xbacklight battery
+modules-right = left-arrow-head left-arrow-tail left-arrow-head wlan vpn redshift xbacklight battery
 
 ;tray-position = right
 ;tray-background = ${color.module-bg}
@@ -172,9 +204,13 @@ type = internal/i3
 index-sort = true
 ; Don't wrap around when scrolling through workspaces
 wrapping-scroll = false
-; Only show workspaces on the same output as the bar pin-workspaces = true
+; Only show workspaces on the same output as the bar 
+pin-workspaces = false
 ; Split the workspace label on ':' to get its name
 strip-wsnumbers = false
+
+label-focused = %{T10}%{T-}
+label-unfocused = %{T10}%{T-}
 
   ws-icon-0 = 1;一
   ws-icon-1 = 2;二
@@ -201,14 +237,14 @@ strip-wsnumbers = false
 format = <label-state> <label-mode>
 
 ; Active workspace on focused monitor
-label-focused = %{T1}%icon%%{T-}
+;label-focused = %{T1}%icon%%{T-}
 ;label-focused-underline = ${xcolor.color1}
 ;label-focused-background = ${color.module-bg}
-label-focused-foreground = ${xcolor.color2}
+label-focused-foreground = ${xcolor.color7}
 label-focused-padding = ${layout.i3-module-padding}
 
 ; Inactive workspace on any monitor
-label-unfocused = ${self.label-focused}
+;label-unfocused = ${self.label-focused}
 ;label-unfocused-background = ${color.module-bg}
 label-unfocused-padding = ${layout.i3-module-padding}
 
@@ -474,8 +510,8 @@ label-font = 9
 type = internal/date
 format-foreground = ${color.text-fg}
 format-background = ${color.module-bg}
-date = %{T7}%{T-} %{T1}%a, %b %d%{T-} %{T7}%{T-}%{T1} %l:%M %p%{T-}
-time-alt = %{T7}%{T-} %{T1}%a, %b %d%{T-} 
+date = %{T7}%{T-} %{T1}%a, %b %d%{T-} %{T7}%{T-}%{T1}%l:%M %p%{T-}
+time-alt = %{T7}%{T-} %{T1}%a, %b %d%{T-} %{T7}%{T-}%{T1} %l:%M %p%{T-}
 ;time-alt = %{T7}%{T-}%{T1}%l:%M %p%{T-}
 label = %date%%time%
 label-padding-left = 2
@@ -486,23 +522,26 @@ type = internal/date
 ; inherit = generic-format-style
 interval = 1
 
-format-prefix = %{T7}%{T-}
+format-foreground = ${color.text-fg}
+format-background = ${color.module-bg}
 
-date =%{T1}%a, %d %b%{T-}
-date-alt =%{T1}%a %b, %d%{T-}
+format-prefix = %{T7}%{T-} 
 
-format-prefix-padding = 1
-format-padding = 1
+date = %{T1} %a, %b %d%{T-}
+format-padding = 0
+format-prefix-padding-left=2
 
 [module/time]
 type = internal/date
 ;inherit = generic-format-style
 interval = 1
 
+format-foreground = ${color.text-fg}
+format-background = ${color.module-bg}
+
 format-prefix =%{T7}%{T-}
 
-time =%{T1}%l:%M %p
-time-alt =%{T1}%l:%M:%S %p
+time =%{T1} %l:%M %p%{T-}
 
 label =%time%
 
@@ -576,6 +615,7 @@ format-volume-padding = 1
 
 ramp-volume-font = ${layout.icon-font}
 ramp-volume-foreground = ${color.icon-fg}
+
 ramp-volume-padding-right = ${layout.icon-padding}
 
 ramp-volume-0 = %{T6}墳%{T-}
@@ -622,7 +662,8 @@ format-padding = ${layout.module-padding}
 type = internal/xbacklight
 inherit = generic-format-style
 
-format = <ramp> <label>
+;format = <ramp> <label>
+format = <ramp>
 
 label = %percentage%
 ;label = %percentage%％
@@ -647,6 +688,7 @@ ramp-foreground = ${color.text-fg}
 ramp-capacity-font = ${layout.icon-font}
 ramp-capacity-padding-right = ${layout.icon-padding}
 ramp-padding-left = 1
+ramp-padding-right = 1
 
 ;----------------------------------------------------------
 ;			 B A T T E R Y
