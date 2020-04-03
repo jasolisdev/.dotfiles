@@ -11,105 +11,73 @@ if !filereadable($HOME . '/.vim/autoload/plug.vim')
     autocmd VimEnter * PlugInstall
 endif
 
-"""""""""""""
-"  PLUGINS  "
-"""""""""""""
 call plug#begin('~/.vim/plugged')
 
 "" FZF
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
-"" General
-Plug 'easymotion/vim-easymotion'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'alfunx/fzf.vim'  " fork of 'junegunn/fzf.vim'
-Plug 'junegunn/goyo.vim'
-Plug 'junegunn/limelight.vim'
-Plug 'tpope/vim-git'
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-repeat'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-unimpaired'
-Plug 'tpope/vim-speeddating'
-Plug 'tpope/vim-vinegar'
-Plug 'tpope/vim-rsi'
-Plug 'tpope/vim-sleuth'
-Plug 'tpope/vim-obsession'
-"Plug 'tpope/vim-endwise'
-Plug 'tpope/vim-abolish'
-Plug 'tpope/vim-commentary'
-Plug 'tomtom/tcomment_vim'
-Plug 'whiteinge/diffconflicts'
-Plug 'vim-scripts/ReplaceWithRegister'
-Plug 'airblade/vim-gitgutter'
-Plug 'junegunn/vim-easy-align'
-Plug 'junegunn/vim-peekaboo'
-Plug 'haya14busa/incsearch.vim'
-Plug 'justinmk/vim-sneak'
-Plug 'mhinz/vim-grepper'
-Plug 'terryma/vim-multiple-cursors'
-"Plug 'terryma/vim-expand-region'
-Plug 'jiangmiao/auto-pairs'
-Plug 'mbbill/undotree'
-Plug 'ap/vim-css-color'
-Plug 'xtal8/traces.vim'
-Plug 'chrisbra/NrrwRgn'
-Plug 'majutsushi/tagbar'
-"Plug 'ludovicchabant/vim-gutentags'
-Plug 'editorconfig/editorconfig-vim'
+" NERD Tree
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'adelarsq/vim-matchit'
-Plug 'yegappan/mru'
-Plug 'maksimr/vim-jsbeautify'
-Plug 'mhinz/vim-startify'
-Plug 'thaerkh/vim-indentguides'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
-" Text objects
-Plug 'wellle/targets.vim'
-
+" General
+Plug 'mhinz/vim-startify'
+Plug 'mbbill/undotree'
+Plug 'haya14busa/incsearch.vim'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+" Plug 'maksimr/vim-jsbeautify'
+Plug 'ap/vim-css-color'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'jiangmiao/auto-pairs'
+Plug 'Yggdroot/indentLine'
+Plug 'yegappan/mru'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
+"Plug 'wellle/targets.vim'
+"Plug 'easymotion/vim-easymotion'
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-git'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-sleuth'
+Plug 'tpope/vim-commentary'
+Plug 'mhinz/vim-grepper'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'liuchengxu/vim-clap'
 " Tmux
 Plug 'benmills/vimux'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'wellle/tmux-complete.vim'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 
-" Snippets
-Plug 'SirVer/ultisnips'
-Plug 'alfunx/vim-snippets'  " fork of 'honza/vim-snippets'
+" Themes
+Plug 'morhetz/gruvbox'
+" Plug 'alfunx/gruvbox'  " fork of 'morhetz/gruvbox'
 
-" Language server
-Plug 'autozimu/LanguageClient-neovim', {
-            \ 'branch': 'next',
-            \ 'do': 'bash install.sh',
-            \ }
+" Need to be last in Plugs
+Plug 'ryanoasis/vim-devicons'
 
 " Completion
-Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'Shougo/echodoc.vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'Valloric/YouCompleteMe', {
      \ 'build' : {
-     \     'unix' : './install.sh --clang-completer --ts-completer && git submodule update --init --recursive',
+     \     'unix' : './install.py --clangd-completer --ts-completer --cs-completer --java-completer && git submodule update --init --recursive',
      \     'windows' : './install.sh --clang-completer --ts-completer && git submodule update --init --recursive'
      \    }
      \ }
 
-" Language specific
+"" Snippets
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
+"" Language Specific
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
-Plug 'lervag/vimtex', { 'for': ['latex', 'tex'] }
-Plug 'racer-rust/vim-racer', { 'for': 'rust' }
-"Plug 'zchee/deoplete-clang', { 'for': ['c', 'cpp'] }
-"Plug 'Shougo/neco-vim', { 'for': 'vim' }
 Plug 'mattn/emmet-vim'
 Plug 'alvan/vim-closetag'
 Plug 'rhysd/vim-clang-format'
-" Themes
-Plug 'alfunx/gruvbox'  " fork of 'morhetz/gruvbox'
-
-" Need to be last in Plugs
-Plug 'ryanoasis/vim-devicons'
 
 " Don't load in console
 if &term !=? 'linux' || has('gui_running')
@@ -118,10 +86,48 @@ endif
 
 call plug#end()
 
-runtime ftplugin/man.vim
-runtime ftplugin/vim.vim
-runtime ftplugin/help.vim
-runtime macros/matchit.vim
+"""""""""""
+"  THEME  "
+"""""""""""
+
+"" Theme and colors
+set termguicolors
+set background=dark
+let &t_8f="\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
+"set t_Co=256
+let g:gruvbox_bold=1
+let g:gruvbox_italic=1
+let g:gruvbox_underline=1
+let g:gruvbox_undercurl=1
+
+"" Use environment variable
+if !empty($VIM_COLOR)
+    silent! colorscheme $VIM_COLOR
+else
+    silent! colorscheme gruvbox
+endif
+
+"" Switch cursor according to mode
+if &term !=? 'linux' || has('gui_running')
+    let &t_SI="\<Esc>[6 q"
+    let &t_SR="\<Esc>[4 q"
+    let &t_EI="\<Esc>[2 q"
+
+    " let &t_ue="\<Esc>[4:0m"
+    " let &t_us="\<Esc>[4:1m"
+    " let &t_Ce="\<Esc>[4:0m"
+    " let &t_Cs="\<Esc>[4:3m"
+endif
+
+"" Startify
+highlight StartifyBracket guifg=#ebdbb2 ctermfg=15 
+highlight StartifyFooter  guifg=#ebdbb2 ctermfg=15 
+highlight StartifyHeader  guifg=#b8bb26 ctermfg=10 
+highlight StartifyNumber  guifg=#ebdbb2 ctermfg=15 
+highlight StartifyPath ctermfg=4 
+highlight StartifySlash   guifg=#a89984 ctermfg=7 
+highlight StartifySpecial guifg=#a89984 ctermfg=7 
 
 """"""""""""""""""
 "  KEY MAPPINGS  "
@@ -138,14 +144,6 @@ nnoremap <silent> <C-h> <C-w><C-h>
 nnoremap <silent> <C-j> <C-w><C-j>
 nnoremap <silent> <C-k> <C-w><C-k>
 nnoremap <silent> <C-l> <C-w><C-l>
-
-"" Split navigation (vim-tmux-navigator)
-let g:tmux_navigator_no_mappings=1
-nnoremap <silent> <C-h> :TmuxNavigateLeft<CR>
-nnoremap <silent> <C-j> :TmuxNavigateDown<CR>
-nnoremap <silent> <C-k> :TmuxNavigateUp<CR>
-nnoremap <silent> <C-l> :TmuxNavigateRight<CR>
-nnoremap <silent> <C-BS> :TmuxNavigatePrevious<CR>
 
 "" Split resize
 nnoremap <silent> <C-w>h 5<C-w><
@@ -171,50 +169,6 @@ nnoremap <C-Right> :tabnext<CR>
 nnoremap <silent> <A-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
 nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . (tabpagenr()+1)<CR>
 
-" Make Y behave like other commands
-nnoremap <silent> Y y$
-
-" Copy to system clipboard
-nnoremap <silent> gy "+y
-nnoremap <silent> gY "+Y
-nnoremap <silent> gp "+p
-nnoremap <silent> gP "+P
-xnoremap <silent> gy "+y
-xnoremap <silent> gY "+Y
-xnoremap <silent> gp "+p
-xnoremap <silent> gP "+P
-
-" Keep selection after indenting
-xnoremap <silent> < <gv
-xnoremap <silent> > >gv
-
-" Swap lines
-xnoremap <silent> <leader>j :m '>+1<CR>gv=gv
-xnoremap <silent> <leader>k :m '<-2<CR>gv=gv
-nnoremap <silent> <leader>j :m .+1<CR>
-nnoremap <silent> <leader>k :m .-2<CR>
-
-" Use CTRL-S for saving, also in Insert mode
-nnoremap <silent> <C-s> :write<CR>
-xnoremap <silent> <C-s> <Esc>:write<CR>
-inoremap <silent> <C-s> <C-o>:write<CR><Esc>
-
-"" Quickfix & Loclist
-nnoremap <silent> <leader>q :copen<CR>
-nnoremap <silent> <leader>l :lopen<CR>
-
-"" Insert mode mappings
-inoremap <silent> <C-u> <C-g>u<C-u>
-
-" Select last inserted text
-nnoremap gV `[v`]
-
-" Move cursor by dipslay lines when wrapping
-nnoremap <expr> j v:count ? 'j' : 'gj'
-nnoremap <expr> k v:count ? 'k' : 'gk'
-xnoremap <expr> j v:count ? 'j' : 'gj'
-xnoremap <expr> k v:count ? 'k' : 'gk'
-
 " Go to tab
 execute "set <M-1>=\<Esc>1"
 execute "set <M-2>=\<Esc>2"
@@ -235,71 +189,57 @@ nnoremap <silent> <M-7> 7gt
 nnoremap <silent> <M-8> 8gt
 nnoremap <silent> <M-9> :tablast<CR>
 
-" Wildmenu
-set wildchar=<Tab>
-set wildcharm=<Tab>
-cnoremap <expr> <Tab> getcmdtype() =~ '[?/]' ? '<C-g>' : '<Tab>'
-cnoremap <expr> <S-Tab> getcmdtype() =~ '[?/]' ? '<C-t>' : feedkeys('<S-Tab>', 'int')[1]
+" Make Y behave like other commands
+nnoremap <silent> Y y$
+
+" Copy to system clipboard
+" nnoremap <silent> gy "+y
+" nnoremap <silent> gY "+Y
+" nnoremap <silent> gp "+p
+" nnoremap <silent> gP "+P
+" xnoremap <silent> gy "+y
+" xnoremap <silent> gY "+Y
+" xnoremap <silent> gp "+p
+" xnoremap <silent> gP "+P
 
 " Remove trailing whitespaces
-nnoremap <silent> <F3> mz:keepp %s/\\\@1<!\s\+$//e<CR>`z
+" nnoremap <silent> <F3> mz:keepp %s/\\\@1<!\s\+$//e<CR>`z
 
-" Allow saving of files as sudo
-command! W execute 'silent! w !sudo /usr/bin/tee % >/dev/null' <Bar> edit!
+" Select last inserted text
+" nnoremap gV `[v`]
 
-" Set path to current file
-command! -bang -nargs=* Cd  cd %:p:h
-
-" No highlight
-execute "set <M-g>=\<Esc>b"
-nnoremap <silent> <M-g> :<C-u>nohlsearch<CR>
-
-" Run last macro
-nnoremap Q @@
-
-" Run macro on visual selection
-function! ExecuteMacroOverVisualRange()
-    echo "@".getcmdline()
-    execute ":'<,'>normal @".nr2char(getchar())
-endfunction
-xnoremap <silent> @ :<C-u>call ExecuteMacroOverVisualRange()<CR>
-
-" Change register
-function! ChangeReg() abort
-    let x = nr2char(getchar())
-    call feedkeys("q:ilet @" . x . " = \<C-r>\<C-r>=string(@" . x . ")\<CR>\<Esc>$", 'n')
-endfunction
-nnoremap <silent> cx :call ChangeReg()<CR>
-
-" Diff update
-nnoremap <silent> du :diffupdate<CR>
+"" Quickfix & Loclist
+nnoremap <silent> <leader>q :copen<CR>
+nnoremap <silent> <leader>l :lopen<CR>
 
 " Scroll
 map <silent> <ScrollWheelUp> <C-y>
 map <silent> <ScrollWheelDown> <C-e>
 
+"" Split navigation (vim-tmux-navigator)
+let g:tmux_navigator_no_mappings=1
+nnoremap <silent> <C-h> :TmuxNavigateLeft<CR>
+nnoremap <silent> <C-j> :TmuxNavigateDown<CR>
+nnoremap <silent> <C-k> :TmuxNavigateUp<CR>
+nnoremap <silent> <C-l> :TmuxNavigateRight<CR>
+nnoremap <silent> <C-BS> :TmuxNavigatePrevious<CR>
 
-"""""""""""""""""""""
+" Use CTRL-S for saving, also in Insert mode
+nnoremap <silent> <C-s> :write<CR>
+xnoremap <silent> <C-s> <Esc>:write<CR>
+inoremap <silent> <C-s> <C-o>:write<CR><Esc>
+
+" No highlight
+execute "set <M-g>=\<Esc>b"
+nnoremap <silent> <M-g> :<C-u>nohlsearch<CR>
+
+"" Clap filer
+nnoremap <silent> <leader>d :Clap filer<CR>
+
+""""""""""""""""""""
 "  PLUGIN SETTINGS  "
 """""""""""""""""""""
 
-" YouCompleteMe
-" Disable <tab> from YCM. Use Ctrl-n, Ctrl-p to navigate.
-let g:ycm_key_list_select_completion=[]
-let g:ycm_key_list_previous_completion=[]
-
-" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
-" If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"
-
-" Change the path to custom snippets.
-let g:UltiSnipsSnippetDirectories = ['~/.vim/UltiSnips', 'UltiSnips']
-
-" TODO: what does fzf do?
 " FZF
 " Default key bindings
 let g:fzf_action = {
@@ -335,52 +275,362 @@ imap <C-x><C-l> <plug>(fzf-complete-line)
 " Use custom dictionary
 inoremap <expr> <C-x><C-k> fzf#complete('cat /usr/share/dict/words-insane')
 
-"" RG
-command! -bang -nargs=* Rg
-            \ call fzf#vim#grep(
-            \ 'rg --hidden --line-number --column --no-heading --smart-case --follow --color=always --colors="match:none" --colors="path:fg:white" --colors="line:fg:white" '.shellescape(<q-args>), 1,
-            \ <bang>0)
+" YouCompleteMe
+" Disable <tab> from YCM. Use Ctrl-n, Ctrl-p to navigate.
+let g:ycm_key_list_select_completion=[]
+let g:ycm_key_list_previous_completion=[]
+let g:ycm_key_list_stop_completion = ['<C-y>', '<CR>']
+" nnoremap <silent> <Leader>gd :YcmCompleter GoTo<CR>
+" nnoremap <silent> <Leader>gf :YcmCompleter FixIt<CR>
 
-"" AG
-command! -bang -nargs=* Ag
-            \ call fzf#vim#ag(
-            \ <q-args>, '--color-path "0;37" --color-line-number "0;37" --color-match "" --hidden --smart-case --follow',
-            \ <bang>0)
+" Let clangd fully control code completion
+let g:ycm_clangd_uses_ycmd_caching = 0
 
-if executable('rg')
-    set grepprg=rg\ --smart-case\ --vimgrep
-    set grepformat^=%f:%l:%c:%m
-elseif executable('ag')
-    set grepprg=ag\ --smart-case\ --vimgrep
-    set grepformat^=%f:%l:%c:%m
+" Use installed clangd, not YCM-bundled clangd which doesn't get updates.
+let g:ycm_clangd_binary_path = exepath("clangd")
+
+"" UltiSnips
+let g:UltiSnipsExpandTrigger='<Tab>'
+let g:UltiSnipsJumpForwardTrigger='<C-k>'
+let g:UltiSnipsJumpBackwardTrigger='<C-j>'
+let g:UltiSnipsEditSplit="vertical"
+
+" Change the path to custom snippets.
+let g:UltiSnipsSnippetDirectories = ['~/.vim/UltiSnips', 'UltiSnips']
+
+" coc 
+let g:coc_global_extensions = [
+  \ 'coc-snippets',
+  \ 'coc-pairs',
+  \ 'coc-tsserver',
+  \ 'coc-eslint', 
+  \ 'coc-prettier', 
+  \ 'coc-yank',
+  \ 'coc-spell-checker',
+  \ 'coc-prettier',
+  \ 'coc-highlight', 
+  \ 'coc-git', 
+  \ 'coc-emmet', 
+  \ 'coc-json', 
+  \ 'coc-cssmodules',
+  \ 'coc-svg', 
+  \ 'coc-python', 
+  \ 'coc-omnisharp', 
+  \ 'coc-java', 
+  \ 'coc-html',
+  \ 'coc-flutter',
+  \ 'coc-css',
+  \ 'coc-cmake', 
+  \ 'coc-clangd', 
+  \ ]
+
+" Some servers have issues with backup files, see #649.
+" set nobackup
+" set nowritebackup
+
+" Give more space for displaying messages.
+set cmdheight=2
+
+" Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
+" delays and poor user experience.
+set updatetime=300
+
+" Don't pass messages to |ins-completion-menu|.
+set shortmess+=c
+
+" Always show the signcolumn, otherwise it would shift the text each time
+" diagnostics appear/become resolved.
+set signcolumn=yes
+
+" Use tab for trigger completion with characters ahead and navigate.
+" NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
+" other plugin before putting this into your config.
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+" Use <c-space> to trigger completion.
+inoremap <silent><expr> <c-space> coc#refresh()
+
+" Use <cr> to confirm completion, `<C-g>u` means break undo chain at current
+" position. Coc only does snippet and additional edit on confirm.
+if has('patch8.1.1068')
+  " Use `complete_info` if your (Neo)Vim version supports it.
+  inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
+else
+  imap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 endif
 
-"" Grepper
-let g:grepper={}
-let g:grepper.tools=[]
-if executable('rg')
-    let g:grepper.tools+=['rg']
-elseif executable('ag')
-    let g:grepper.tools+=['ag']
-endif
-let g:grepper.tools+=['git', 'grep']
-let g:grepper.rg = {
-            \ 'grepprg':    'rg --vimgrep',
-            \ 'grepformat': '%f:%l:%c:%m',
-            \ 'escape':     '\^$.*+?()[]{}|'
-            \ }
-let g:grepper.next_tool='<C-g>'
-let g:grepper.jump=0
-let g:grepper.quickfix=1
-let g:grepper.dir='repo,cwd'
-let g:grepper.stop=500
+" Use `[g` and `]g` to navigate diagnostics
+nmap <silent> [g <Plug>(coc-diagnostic-prev)
+nmap <silent> ]g <Plug>(coc-diagnostic-next)
 
-nnoremap <leader>s :Grepper -tool rg<CR>
-nmap gs <plug>(GrepperOperator)
-xmap gs <plug>(GrepperOperator)
+" GoTo code navigation.
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
 
-command! Todo :Grepper -tool rg -query '(TODO|FIXME|BUG)'
-command! Note :Grepper -tool rg -query '(NOTE)'
+" Use K to show documentation in preview window.
+nnoremap <silent> K :call <SID>show_documentation()<CR>
+
+function! s:show_documentation()
+  if (index(['vim','help'], &filetype) >= 0)
+    execute 'h '.expand('<cword>')
+  else
+    call CocAction('doHover')
+  endif
+endfunction
+
+" Highlight the symbol and its references when holding the cursor.
+autocmd CursorHold * silent call CocActionAsync('highlight')
+
+" Symbol renaming.
+nmap <leader>rn <Plug>(coc-rename)
+
+" Formatting selected code.
+xmap <leader>f  <Plug>(coc-format-selected)
+nmap <leader>f  <Plug>(coc-format-selected)
+
+augroup mygroup
+  autocmd!
+  " Setup formatexpr specified filetype(s).
+  autocmd FileType typescript,json setl formatexpr=CocAction('formatSelected')
+  " Update signature help on jump placeholder.
+  autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
+augroup end
+
+" Applying codeAction to the selected region.
+" Example: `<leader>aap` for current paragraph
+xmap <leader>a  <Plug>(coc-codeaction-selected)
+nmap <leader>a  <Plug>(coc-codeaction-selected)
+
+" Remap keys for applying codeAction to the current line.
+nmap <leader>ac  <Plug>(coc-codeaction)
+" Apply AutoFix to problem on the current line.
+nmap <leader>qf  <Plug>(coc-fix-current)
+
+" Introduce function text object
+" NOTE: Requires 'textDocument.documentSymbol' support from the language server.
+xmap if <Plug>(coc-funcobj-i)
+xmap af <Plug>(coc-funcobj-a)
+omap if <Plug>(coc-funcobj-i)
+omap af <Plug>(coc-funcobj-a)
+
+" Use <TAB> for selections ranges.
+" NOTE: Requires 'textDocument/selectionRange' support from the language server.
+" coc-tsserver, coc-python are the examples of servers that support it.
+nmap <silent> <TAB> <Plug>(coc-range-select)
+xmap <silent> <TAB> <Plug>(coc-range-select)
+
+" Add `:Format` command to format current buffer.
+command! -nargs=0 Format :call CocAction('format')
+
+" Add `:Fold` command to fold current buffer.
+command! -nargs=? Fold :call     CocAction('fold', <f-args>)
+
+" Add `:OR` command for organize imports of the current buffer.
+command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
+
+" Add (Neo)Vim's native statusline support.
+" NOTE: Please see `:h coc-status` for integrations with external plugins that
+" provide custom statusline: lightline.vim, vim-airline.
+set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+
+" Mappings using CoCList:
+" Show all diagnostics.
+nnoremap <silent> <space>a  :<C-u>CocList diagnostics<cr>
+" Manage extensions.
+nnoremap <silent> <space>e  :<C-u>CocList extensions<cr>
+" Show commands.
+nnoremap <silent> <space>c  :<C-u>CocList commands<cr>
+" Find symbol of current document.
+nnoremap <silent> <space>o  :<C-u>CocList outline<cr>
+" Search workspace symbols.
+nnoremap <silent> <space>s  :<C-u>CocList -I symbols<cr>
+" Do default action for next item.
+nnoremap <silent> <space>j  :<C-u>CocNext<CR>
+" Do default action for previous item.
+nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
+" Resume latest coc list.
+nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
+
+"" EchoDoc
+let g:echodoc#enable_at_startup=1
+let g:echodoc#type = "echo" 
+
+" NERDTree
+map <leader>n :NERDTreeToggle<CR>
+
+"" NerdTree Syntax Highligting
+let g:NERDTreeFileExtensionHighlightFullName = 1
+let g:NERDTreeExactMatchHighlightFullName = 1
+let g:NERDTreePatternMatchHighlightFullName = 1
+
+let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
+let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder name
+
+" Customize NerdTree colors.
+let s:brown = "905532"
+let s:aqua =  "3AFFDB"
+let s:blue = "689FB6"
+let s:darkBlue = "44788E"
+let s:purple = "834F79"
+let s:lightPurple = "834F79"
+let s:red = "AE403F"
+let s:beige = "F5C06F"
+let s:yellow = "F09F17"
+let s:orange = "D4843E"
+let s:darkOrange = "F16529"
+let s:pink = "CB6F6F"
+let s:salmon = "EE6E73"
+let s:green = "8FAA54"
+let s:lightGreen = "31B53E"
+let s:white = "ebdbb2"
+let s:rspec_red = 'FE405F'
+let s:git_orange = 'F54D27'
+
+let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
+let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder namea
+
+let g:NERDTreeExtensionHighlightColor = {} " this line is needed to avoid error
+let g:NERDTreeExtensionHighlightColor['css'] = s:blue " sets the color of css files to blue
+
+let g:NERDTreeExactMatchHighlightColor = {} " this line is needed to avoid error
+let g:NERDTreeExactMatchHighlightColor['.gitignore'] = s:git_orange " sets the color for .gitignore files
+
+let g:NERDTreePatternMatchHighlightColor = {} " this line is needed to avoid error
+let g:NERDTreePatternMatchHighlightColor['.*_spec\.rb$'] = s:rspec_red " sets the color for files ending with _spec.rb
+
+" If you have vim-devicons you can customize your icons for each file type.
+" let g:NERDTreeExtensionHighlightColor = {} "this line is needed to avoid error
+" let g:NERDTreeExtensionHighlightColor['css'] = '' "assigning it to an empty string will skip highlight
+
+let g:NERDTreeIgnore = ['^node_modules$']
+
+"" Change Nerdtree path color
+highlight NERDTreeCWD guifg=#ebdbb2 ctermfg=15
+
+"" Undotree
+nnoremap <silent> <F4> :UndotreeToggle<CR>
+
+" Incsearch
+map / <Plug>(incsearch-forward)
+map ? <Plug>(incsearch-backward)
+map g/ <Plug>(incsearch-stay)
+
+let g:incsearch#magic='\v'
+let g:incsearch#smart_backward_word=1
+let g:incsearch#consistent_n_direction=1
+let g:incsearch#auto_nohlsearch=0
+let g:incsearch#no_inc_hlsearch=1
+let g:incsearch#separate_highlight=1
+let g:incsearch#no_inc_hlsearch=1
+
+" Indentlines
+let g:indentLine_setConceal = 2
+" default ''.
+" n for Normal mode
+" v for Visual mode
+" i for Insert mode
+" c for Command line editing, for 'incsearch'
+let g:indentLine_concealcursor = "is"
+
+"" AutoPairs
+execute "set <M-p>=\<Esc>p"
+execute "set <M-z>=\<Esc>z"
+let g:AutoPairsShortcutBackInsert='<M-z>' "let g:AutoPairs={'(':')', '[':']', '{':'}',"'":"'",'"':'"', '`':'`', '<':'>'}
+
+"" Multiple-Cursors
+let g:multi_cursor_use_default_mapping=0
+let g:multi_cursor_start_key='<C-n>'
+let g:multi_cursor_select_all_key='<A-n>'
+let g:multi_cursor_start_word_key='g<C-n>'
+let g:multi_cursor_select_all_word_key='g<A-n>'
+let g:multi_cursor_next_key='<C-n>'
+let g:multi_cursor_prev_key='<C-p>'
+let g:multi_cursor_skip_key='<C-x>'
+let g:multi_cursor_quit_key='<Esc>'
+let g:multi_cursor_exit_from_visual_mode=0
+let g:multi_cursor_exit_from_insert_mode=0
+
+" MRU
+" if !isdirectory($HOME . '/.vim/.mru')
+"     silent !mkdir -p ~/.vim/.mru >/dev/null 2>&1
+" endif
+" let MRU_File = '~/.vim/.mru/.vim_mru_files'
+
+"" Goyo + Limelight
+let g:goyo_width=90
+let g:goyo_height=90
+
+function! s:goyo_enter()
+    silent !tmux set status off
+    silent !tmux list-panes -F '\#F' | grep -q Z || tmux resize-pane -Z
+    set nolist
+    set noshowmode
+    set noshowcmd
+    set scrolloff=999
+    set sidescrolloff=0
+    IndentLinesToggle
+    "Limelight
+endfunction
+
+function! s:goyo_leave()
+    silent !tmux set status on
+    silent !tmux list-panes -F '\#F' | grep -q Z && tmux resize-pane -Z
+    set list
+    set noshowmode
+    set showcmd
+    set scrolloff=3
+    set sidescrolloff=5
+    IndentLinesToggle
+    "Limelight!
+endfunction
+
+augroup Goyo
+    autocmd!
+    autocmd User GoyoEnter nested call <SID>goyo_enter()
+    autocmd User GoyoLeave nested call <SID>goyo_leave()
+augroup END
+
+"" Vimux
+let g:VimuxUseNearest=1
+
+function! VimuxSlime()
+    call VimuxOpenRunner()
+    call VimuxSendText(@v)
+endfunction
+
+function! SendToTmuxSplit(type, ...)
+    let sel_save = &selection
+    let &selection = "inclusive"
+    let reg_save = @@
+
+    if a:0  " Invoked from Visual mode, use gv command.
+        silent exe "normal! gv\"vy"
+    elseif a:type == 'line'
+        silent exe "normal! '[V']\"vy"
+    else
+        silent exe "normal! `[v`]\"vy"
+    endif
+
+    call VimuxSlime()
+    silent exe "normal! `v"
+
+    let &selection = sel_save
+    let @@ = reg_save
+endfunction
+
+nnoremap <silent> _ mv:set opfunc=SendToTmuxSplit<CR>g@
+xnoremap <silent> _ mv:<C-U>call SendToTmuxSplit(visualmode(), 1)<CR>
 
 "" Airline
 if !exists('g:airline_symbols')
@@ -450,7 +700,7 @@ let g:airline#extensions#ale#show_line_numbers=0
 let g:airline#extensions#whitespace#show_message=1
 let g:airline#extensions#hunks#enabled=0
 
-"" GitGutter
+""" GitGutter
 let g:gitgutter_map_keys=0
 nmap <leader>hp <Plug>GitGutterPrevHunk
 nmap <leader>ha <Plug>GitGutterStageHunk
@@ -464,366 +714,20 @@ let g:gitgutter_sign_removed='◢'
 let g:gitgutter_sign_removed_first_line='◥'
 let g:gitgutter_sign_modified_removed='◢'
 
-"" Sneak
-let g:sneak#label=1
-let g:sneak#use_ic_scs=1
-map f <Plug>Sneak_f
-map F <Plug>Sneak_F
-map t <Plug>Sneak_t
-map T <Plug>Sneak_T
-
-"" Incsearch
-map / <Plug>(incsearch-forward)
-map ? <Plug>(incsearch-backward)
-map g/ <Plug>(incsearch-stay)
-
-let g:incsearch#magic='\v'
-let g:incsearch#smart_backward_word=1
-let g:incsearch#consistent_n_direction=1
-let g:incsearch#auto_nohlsearch=0
-let g:incsearch#no_inc_hlsearch=1
-let g:incsearch#separate_highlight=1
-let g:incsearch#no_inc_hlsearch=1
-
-"" TComment
-let g:tcomment_mapleader1='<c-,>'
-nnoremap <leader>c V:TCommentInline<cr>
-xnoremap <leader>c :TCommentInline<cr>
-
-"" Netrw
-let g:netrw_liststyle=0
-let g:netrw_preview=1
-
-"" EasyAlign
-xmap ga <Plug>(EasyAlign)
-nmap ga <Plug>(EasyAlign)
-
-"" Undotree
-nnoremap <silent> <F4> :UndotreeToggle<CR>
-
-"" TODO: do i need tagbar?
-"" Tagbar
-nnoremap <silent> <F5> :TagbarToggle<CR>
-
-" NERDTree
-map <leader>n :NERDTreeToggle<CR>
-
-"" NerdTree Syntax Highligting
-let g:NERDTreeFileExtensionHighlightFullName = 1
-let g:NERDTreeExactMatchHighlightFullName = 1
-let g:NERDTreePatternMatchHighlightFullName = 1
-
-let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
-let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder name
-
-" Customize NerdTree colors.
-let s:brown = "905532"
-let s:aqua =  "3AFFDB"
-let s:blue = "689FB6"
-let s:darkBlue = "44788E"
-let s:purple = "834F79"
-let s:lightPurple = "834F79"
-let s:red = "AE403F"
-let s:beige = "F5C06F"
-let s:yellow = "F09F17"
-let s:orange = "D4843E"
-let s:darkOrange = "F16529"
-let s:pink = "CB6F6F"
-let s:salmon = "EE6E73"
-let s:green = "8FAA54"
-let s:lightGreen = "31B53E"
-let s:white = "ebdbb2"
-let s:rspec_red = 'FE405F'
-let s:git_orange = 'F54D27'
-
-let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
-let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder namea
-
-let g:NERDTreeExtensionHighlightColor = {} " this line is needed to avoid error
-let g:NERDTreeExtensionHighlightColor['css'] = s:blue " sets the color of css files to blue
-
-let g:NERDTreeExactMatchHighlightColor = {} " this line is needed to avoid error
-let g:NERDTreeExactMatchHighlightColor['.gitignore'] = s:git_orange " sets the color for .gitignore files
-
-let g:NERDTreePatternMatchHighlightColor = {} " this line is needed to avoid error
-let g:NERDTreePatternMatchHighlightColor['.*_spec\.rb$'] = s:rspec_red " sets the color for files ending with _spec.rb
-
-" If you have vim-devicons you can customize your icons for each file type.
-" let g:NERDTreeExtensionHighlightColor = {} "this line is needed to avoid error
-" let g:NERDTreeExtensionHighlightColor['css'] = '' "assigning it to an empty string will skip highlight
-
-" MRU
-map <M-b> :MRU<cr>
-
-" vim-jsbeautify
-map <C-b> :call JsBeautify()<cr>
-" or
-autocmd FileType javascript noremap <buffer>  <C-b> :call JsBeautify()<cr>
-" for json
-autocmd FileType json noremap <buffer> <C-b> :call JsonBeautify()<cr>
-" for jsx
-autocmd FileType jsx noremap <buffer> <C-b> :call JsxBeautify()<cr>
-" for html
-autocmd FileType html noremap <buffer> <C-b> :call HtmlBeautify()<cr>
-" for css or scss
-autocmd FileType css noremap <buffer> <C-b> :call CSSBeautify()<cr>
-
-"" Vimtex
-let g:vimtex_view_method='zathura'
-
-"" UltiSnips
-let g:UltiSnipsExpandTrigger='<Tab>'
-let g:UltiSnipsJumpForwardTrigger='<C-k>'
-let g:UltiSnipsJumpBackwardTrigger='<C-j>'
-let g:UltiSnipsEditSplit="vertical"
-
-"" Multiple-Cursors
-let g:multi_cursor_use_default_mapping=0
-let g:multi_cursor_start_key='<C-n>'
-let g:multi_cursor_select_all_key='<A-n>'
-let g:multi_cursor_start_word_key='g<C-n>'
-let g:multi_cursor_select_all_word_key='g<A-n>'
-let g:multi_cursor_next_key='<C-n>'
-let g:multi_cursor_prev_key='<C-p>'
-let g:multi_cursor_skip_key='<C-x>'
-let g:multi_cursor_quit_key='<Esc>'
-let g:multi_cursor_exit_from_visual_mode=0
-let g:multi_cursor_exit_from_insert_mode=0
-
-"" Goyo + Limelight
-let g:goyo_width=90
-let g:goyo_height=90
-
-function! s:goyo_enter()
-    silent !tmux set status off
-    silent !tmux list-panes -F '\#F' | grep -q Z || tmux resize-pane -Z
-    set nolist
-    set noshowmode
-    set noshowcmd
-    set scrolloff=999
-    set sidescrolloff=0
-    IndentGuidesToggle
-    "Limelight
-endfunction
-
-function! s:goyo_leave()
-    silent !tmux set status on
-    silent !tmux list-panes -F '\#F' | grep -q Z && tmux resize-pane -Z
-    set list
-    set noshowmode
-    set showcmd
-    set scrolloff=3
-    set sidescrolloff=5
-    IndentGuidesToggle
-    "Limelight!
-endfunction
-
-augroup Goyo
-    autocmd!
-    autocmd User GoyoEnter nested call <SID>goyo_enter()
-    autocmd User GoyoLeave nested call <SID>goyo_leave()
-augroup END
-
-"" Vimux
-let g:VimuxUseNearest=1
-
-function! VimuxSlime()
-    call VimuxOpenRunner()
-    call VimuxSendText(@v)
-endfunction
-
-function! SendToTmuxSplit(type, ...)
-    let sel_save = &selection
-    let &selection = "inclusive"
-    let reg_save = @@
-
-    if a:0  " Invoked from Visual mode, use gv command.
-        silent exe "normal! gv\"vy"
-    elseif a:type == 'line'
-        silent exe "normal! '[V']\"vy"
-    else
-        silent exe "normal! `[v`]\"vy"
-    endif
-
-    call VimuxSlime()
-    silent exe "normal! `v"
-
-    let &selection = sel_save
-    let @@ = reg_save
-endfunction
-
-nnoremap <silent> _ mv:set opfunc=SendToTmuxSplit<CR>g@
-xnoremap <silent> _ mv:<C-U>call SendToTmuxSplit(visualmode(), 1)<CR>
-
-"" YouCompleteMe
-let g:ycm_key_list_stop_completion = ['<C-y>', '<CR>']
-
-"" AutoPairs
-execute "set <M-p>=\<Esc>p"
-execute "set <M-z>=\<Esc>z"
-let g:AutoPairsShortcutBackInsert='<M-z>'
-"let g:AutoPairs={'(':')', '[':']', '{':'}',"'":"'",'"':'"', '`':'`', '<':'>'}
-
-"" RustRacer
-let g:racer_cmd="/usr/bin/racer"
-let g:racer_experimental_completer=0
-
-"" EchoDoc
-let g:echodoc#enable_at_startup=1
-
-"" LanguageClient
-let g:LanguageClient_autoStart=1
-let g:LanguageClient_diagnosticsList="Location"
-let g:LanguageClient_hoverPreview="Never"
-
-let g:LanguageClient_serverCommands = {
-            \ 'rust':   ['rustup', 'run', 'stable', 'rls'],
-            \ 'java':   ['jdtls'],
-            \ 'c':      ['ccls'],
-            \ 'cpp':    ['ccls'],
-            \ 'python': ['pyls'],
-            \ }
-
-let g:LanguageClient_diagnosticsDisplay = {
-            \     1: {
-            \         "name": "Error",
-            \         "texthl": "ALEError",
-            \         "signText": "●",
-            \         "signTexthl": "ALEErrorSign",
-            \     },
-            \     2: {
-            \         "name": "Warning",
-            \         "texthl": "ALEWarning",
-            \         "signText": "●",
-            \         "signTexthl": "ALEWarningSign",
-            \     },
-            \     3: {
-            \         "name": "Information",
-            \         "texthl": "ALEInfo",
-            \         "signText": "●",
-            \         "signTexthl": "ALEInfoSign",
-            \     },
-            \     4: {
-            \         "name": "Hint",
-            \         "texthl": "ALEInfo",
-            \         "signText": "●",
-            \         "signTexthl": "ALEInfoSign",
-            \     },
-            \ }
-
-function! LanguageClient_settings()
-    if !has_key(g:LanguageClient_serverCommands, &filetype)
-        return
-    endif
-
-    " setlocal formatexpr=LanguageClient#textDocument_rangeFormatting_sync()
-
-    nnoremap <buffer><silent> K :call LanguageClient_contextMenu()<CR>
-    nnoremap <buffer><silent> <F1> :call LanguageClient_textDocument_hover()<CR>
-    nnoremap <buffer><silent> <leader>d :call LanguageClient_textDocument_definition()<CR>
-    nnoremap <buffer><silent> <leader>x :call LanguageClient_textDocument_typeDefinition()<CR>
-    nnoremap <buffer><silent> <leader>y :call LanguageClient_textDocument_documentSymbol()<CR>
-    nnoremap <buffer><silent> <leader>r :call LanguageClient_textDocument_references()<CR>
-
-    nnoremap <buffer><silent> <leader>gr :call LanguageClient_textDocument_rename()<CR>
-    nnoremap <buffer><silent> <leader>gc :call LanguageClient#textDocument_rename(
-                \ {'newName': Abolish.camelcase(expand('<cword>'))})<CR>
-    nnoremap <buffer><silent> <leader>gs :call LanguageClient#textDocument_rename(
-                \ {'newName': Abolish.snakecase(expand('<cword>'))})<CR>
-    nnoremap <buffer><silent> <leader>gu :call LanguageClient#textDocument_rename(
-                \ {'newName': Abolish.uppercase(expand('<cword>'))})<CR>
-endfunction
-
-augroup LanguageClient_config
-    autocmd!
-    autocmd User LanguageClientStarted set signcolumn=yes
-    autocmd User LanguageClientStopped set signcolumn=auto
-augroup END
-
-augroup LanguageClient_settings
-    autocmd!
-    autocmd FileType * call LanguageClient_settings()
-augroup END
-
-function! ExpandLspSnippet()
-    call UltiSnips#ExpandSnippetOrJump()
-    if !pumvisible() || empty(v:completed_item)
-        return ''
-    endif
-
-    " Only expand Lsp if UltiSnips#ExpandSnippetOrJump not effect
-    let l:value = v:completed_item['word']
-    let l:matched = len(l:value)
-    if l:matched <= 0
-        return ''
-    endif
-
-    " Remove inserted chars before expand snippet
-    if col('.') == col('$')
-        let l:matched -= 1
-        exec 'normal! ' . l:matched . 'Xx'
-    else
-        exec 'normal! ' . l:matched . 'X'
-    endif
-
-    if col('.') == col('$') - 1
-        " Move to $ if at the end of line
-        call cursor(line('.'), col('$'))
-    endif
-
-    " Expand snippet
-    call UltiSnips#Anon(l:value)
-    return ''
-endfunction
-
-inoremap <silent> <C-k> <C-r>=ExpandLspSnippet()<CR>
-
-"" Unimpaired
-let g:nremap={"[": "ü", "]": "¨"}
-let g:xremap={"[": "ü", "]": "¨"}
-let g:oremap={"[": "ü", "]": "¨"}
-
-"" Vim RSI
-let g:rsi_no_meta=1
-
-"" vim-closetag
-" filenames like *.xml, *.html, *.xhtml, ...
-" These are the file extensions where this plugin is enabled.
-"
-let g:closetag_filenames = '*.html,*.xhtml,*.phtml'
-
-" filenames like *.xml, *.xhtml, ...
-" This will make the list of non-closing tags self-closing in the specified files.
-"
-let g:closetag_xhtml_filenames = '*.xhtml,*.jsx'
-
-" filetypes like xml, html, xhtml, ...
-" These are the file types where this plugin is enabled.
-"
-let g:closetag_filetypes = 'html,xhtml,phtml'
-
-" filetypes like xml, xhtml, ...
-" This will make the list of non-closing tags self-closing in the specified files.
-"
-let g:closetag_xhtml_filetypes = 'xhtml,jsx'
-
-" integer value [0|1]
-" This will make the list of non-closing tags case-sensitive (e.g. `<Link>` will be closed while `<link>` won't.)
-"
-let g:closetag_emptyTags_caseSensitive = 1
-
-" Shortcut for closing tags, default is '>'
-"
-let g:closetag_shortcut = '>'
-
-" Add > at current position without closing the current tag, default is ''
-"
-let g:closetag_close_shortcut = '<leader>>'
-
 
 """"""""""""""
 "  SETTINGS  "
 """"""""""""""
+
+if filereadable('/bin/zsh')
+    set shell=/bin/zsh\ --login
+endif
+
+" Allow saving of files as sudo
+command! W execute 'silent! w !sudo /usr/bin/tee % >/dev/null' <Bar> edit!
+
+" Set path to current file
+command! -bang -nargs=* Cd  cd %:p:h
 
 set synmaxcol=800
 set number
@@ -857,9 +761,9 @@ set ttimeout
 set ttimeoutlen=100
 set updatetime=100
 
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set expandtab
 
 set encoding=utf-8
@@ -874,7 +778,9 @@ set nrformats-=octal
 set pastetoggle=<F2>
 set dictionary+=/usr/share/dict/words-insane
 
-"set clipboard+=unnamed,unnamedplus
+""set clipboard+=unnamed,unnamedplus
+""" Paste from clipboard with p. Yank with y to clipboard.
+set clipboard=unnamedplus
 set history=10000
 set tabpagemax=50
 set autoread
@@ -885,189 +791,14 @@ set nohidden
 set nojoinspaces
 set sessionoptions-=options
 
-if filereadable('/bin/zsh')
-    set shell=/bin/zsh\ --login
-endif
-
 set incsearch
 set hlsearch
 set ignorecase
 set smartcase
 
-set foldenable
-set foldmethod=indent
-set foldnestmax=100
-
-"""""""""""""
-"  AUTOCMD  "
-"""""""""""""
-
-" augroup TransparentBackground
-"     autocmd!
-"     autocmd ColorScheme * highlight Normal guibg=NONE ctermbg=NONE
-" augroup END
-
-augroup LighterCursorLine
-    autocmd!
-    "autocmd ColorScheme * highlight clear CursorLine
-    "autocmd ColorScheme * highlight CursorLine guibg=#32302f
-    autocmd ColorScheme * if &background == "dark" | highlight CursorLine guibg=#32302f | else | highlight CursorLine guibg=#f2e5bc | endif
-augroup END
-
-augroup BoldCursorLineNr
-    autocmd!
-    "autocmd ColorScheme * highlight CursorLineNR cterm=bold guibg=#282828
-    autocmd ColorScheme * if &background == "dark" | highlight CursorLineNR cterm=bold guibg=#32302f | else | highlight CursorLineNR cterm=bold guibg=#f2e5bc | endif
-augroup END
-
-augroup LighterQuickFixLine
-    autocmd!
-    "autocmd ColorScheme * highlight QuickFixLine ctermbg=Yellow guibg=#504945
-    "autocmd ColorScheme * highlight qfFileName guifg=#fe8019
-    autocmd ColorScheme * if &background == "dark" | highlight QuickFixLine ctermbg=Yellow guibg=#504945 | else | highlight QuickFixLine ctermbg=Yellow guibg=#d5c4a1 | endif
-    autocmd ColorScheme * if &background == "dark" | highlight qfFileName guifg=#fe8019 | else | highlight qfFileName guifg=#af3a03 | endif
-augroup END
-
-"augroup SearchHighlightColor
-"     autocmd!
-"     "autocmd ColorScheme * highlight Search guibg=#282828 guifg=#fe8019
-"     autocmd ColorScheme * if &background == "dark" | highlight Search guibg=#282828 guifg=#fe8019 | else | highlight Search guibg=#fbf1c7 guifg=#af3a03 | endif
-" augroup END
-
-augroup VCSConflictMarker
-    autocmd!
-    "autocmd ColorScheme * highlight VCSConflict guibg=#cc241d guifg=#282828
-    autocmd ColorScheme * if &background == "dark" | highlight VCSConflict guibg=#cc241d guifg=#282828 | else | highlight VCSConflict guibg=#cc241d guifg=#fbf1c7 | endif
-    autocmd BufEnter,WinEnter * match VCSConflict '^\(<\|=\||\|>\)\{7\}\([^=].\+\)\?$'
-augroup END
-
-" augroup OverLength
-"     autocmd!
-"     "autocmd ColorScheme * highlight OverLength guibg=#cc241d guifg=#282828
-"     autocmd ColorScheme * if &background == "dark" | highlight OverLength guibg=#cc241d guifg=#282828 | else | highlight OverLength guibg=#cc241d guifg=#fbf1c7 | endif
-"     "autocmd BufEnter,WinEnter * match OverLength /\%81v./
-"     "autocmd BufEnter,WinEnter * match OverLength /\%>80v.\+/
-"     let collumnLimit=80
-"     let pattern='\%' . (collumnLimit+1) . 'v.'
-"     autocmd BufEnter,WinEnter *
-"                 \ let w:m1=matchadd('OverLength', pattern, -1)
-" augroup END
-
-augroup RefreshAirline
-    autocmd!
-    autocmd ColorScheme * if exists(':AirlineRefresh') | :AirlineRefresh | endif
-augroup END
-
-augroup SpellBadUnderline
-    autocmd!
-    autocmd BufEnter,WinEnter * highlight SpellBad gui=underline term=underline cterm=underline
-augroup END
-
-augroup AutoRead
-    autocmd!
-    autocmd FocusGained,BufEnter,CursorHold,CursorHoldI ?* if getcmdwintype() == '' | checktime | endif
-    autocmd FileChangedShellPost * echohl WarningMsg | echo "File changed on disk. Buffer reloaded." | echohl None
-augroup END
-
-if &term !=? 'linux' || has('gui_running')
-    set listchars=tab:›\ ,extends:>,precedes:<,nbsp:˷,eol:⤶,trail:~
-    set fillchars=vert:│,fold:─,diff:-
-    augroup TrailingSpaces
-        autocmd!
-        autocmd InsertEnter * set listchars-=eol:⤶,trail:~
-        autocmd InsertLeave * set listchars+=eol:⤶,trail:~
-    augroup END
-else
-    set listchars=tab:>\ ,extends:>,precedes:<,nbsp:+,eol:$,trail:~
-    set fillchars=vert:\|,fold:-,diff:-
-    augroup TrailingSpaces
-        autocmd!
-        autocmd InsertEnter * set listchars-=eol:$,trail:~
-        autocmd InsertLeave * set listchars+=eol:$,trail:~
-    augroup END
-endif
-
-augroup CustomFolding
-    autocmd!
-    autocmd BufWinEnter * let &foldlevel=max(add(map(range(1, line('$')), 'foldlevel(v:val)'), 10))  " with this, everything is unfolded at start
-augroup End
-
-function! NeatFoldText()
-    let line = ' ' . substitute(getline(v:foldstart), '^\s*"\?\s*\|\s*"\?\s*{{' . '{\d*\s*', '', 'g') . ' '
-    let lines_count = v:foldend - v:foldstart + 1
-    let lines_count_text = '┤ ' . printf("%10s", lines_count . ' lines') . ' ├'
-    let foldchar = matchstr(&fillchars, 'fold:\zs.')
-    let foldtextstart = strpart('+ ' . repeat(foldchar, v:foldlevel*2) . line, 0, (winwidth(0)*2)/3)
-    let foldtextend = lines_count_text . repeat(foldchar, 8)
-    let foldtextlength = strlen(substitute(foldtextstart . foldtextend, '.', 'x', 'g')) + &foldcolumn
-    return foldtextstart . repeat(foldchar, winwidth(0)-foldtextlength) . foldtextend
-endfunction
-set foldtext=NeatFoldText()
-
-set viminfo='10,\"100,:20,%,n~/.viminfo
-augroup SavePosition
-    autocmd!
-    autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | execute 'normal! g`"zvzz' | endif
-augroup END
-
-
-"""""""""""
-"  THEME  "
-"""""""""""
-
-"" Theme and colors
-set termguicolors
-set background=dark
-let &t_8f="\<Esc>[38;2;%lu;%lu;%lum"
-let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
-"set t_Co=256
-let g:gruvbox_bold=1
-let g:gruvbox_italic=1
-let g:gruvbox_underline=1
-let g:gruvbox_undercurl=1
-
-"" Use environment variable
-if !empty($VIM_COLOR)
-    silent! colorscheme $VIM_COLOR
-else
-    silent! colorscheme gruvbox
-endif
-
-"" Switch cursor according to mode
-if &term !=? 'linux' || has('gui_running')
-    let &t_SI="\<Esc>[6 q"
-    let &t_SR="\<Esc>[4 q"
-    let &t_EI="\<Esc>[2 q"
-
-    " let &t_ue="\<Esc>[4:0m"
-    " let &t_us="\<Esc>[4:1m"
-    " let &t_Ce="\<Esc>[4:0m"
-    " let &t_Cs="\<Esc>[4:3m"
-endif
-
-"" Change Nerdtree path color
-highlight NERDTreeCWD guifg=#ebdbb2 ctermfg=15
-
-
-highlight StartifyBracket guifg=#ebdbb2 ctermfg=15 
-highlight StartifyFooter  guifg=#ebdbb2 ctermfg=15 
-highlight StartifyHeader  guifg=#b8bb26 ctermfg=10 
-highlight StartifyNumber  guifg=#ebdbb2 ctermfg=15 
-highlight StartifyPath ctermfg=4 
-highlight StartifySlash   guifg=#a89984 ctermfg=7 
-highlight StartifySpecial guifg=#a89984 ctermfg=7 
-
-""""""""""""
-"  GVIM    "
-""""""""""""
-
-set guioptions-=m  "menu bar
-set guioptions-=T  "toolbar
-set guioptions-=r  "scrollbar
-set guifont=Source\ Code\ Pro\ for\ Powerline\ Regular\ 11
-
-"" Paste from clipboard with p. Yank with y to clipboard.
-set clipboard=unnamedplus
+"set foldenable
+"set foldmethod=indent
+"set foldnestmax=100
 
 """"""""""""
 "  BUGFIX  "
@@ -1106,78 +837,114 @@ if exists('+undofile')
     set undofile
 endif
 
+"""""""""""""
+"  AUTOCMD  "
+"""""""""""""
 
-"""""""""""""""""""
-"  VIMRC FOLDING  "
-"""""""""""""""""""
+" augroup TransparentBackground
+"     autocmd!
+"     autocmd ColorScheme * highlight Normal guibg=NONE ctermbg=NONE
+" augroup END
 
-"" Autofolding .vimrc
-" see http://vimcasts.org/episodes/writing-a-custom-fold-expression/
+"augroup LighterCursorLine
+"    autocmd!
+"    "autocmd ColorScheme * highlight clear CursorLine
+"    "autocmd ColorScheme * highlight CursorLine guibg=#32302f
+"    autocmd ColorScheme * if &background == "dark" | highlight CursorLine guibg=#32302f | else | highlight CursorLine guibg=#f2e5bc | endif
+"augroup END
 
-""" Defines a foldlevel for each line of code
-function! VimFolds(lnum)
-    let s:thisline = getline(a:lnum)
-    if match(s:thisline, '^"" ') >= 0
-        return '>2'
-    endif
-    if match(s:thisline, '^""" ') >= 0
-        return '>3'
-    endif
-    let s:two_following_lines = 0
-    if line(a:lnum) + 2 <= line('$')
-        let s:line_1_after = getline(a:lnum+1)
-        let s:line_2_after = getline(a:lnum+2)
-        let s:two_following_lines = 1
-    endif
-    if !s:two_following_lines
-        return '='
-    else
-        if (match(s:thisline, '^"""""') >= 0) &&
-                    \ (match(s:line_1_after, '^"  ') >= 0) &&
-                    \ (match(s:line_2_after, '^""""') >= 0)
-            return '>1'
-        else
-            return '='
-        endif
-    endif
-endfunction
+"augroup BoldCursorLineNr
+"    autocmd!
+"    "autocmd ColorScheme * highlight CursorLineNR cterm=bold guibg=#282828
+"    autocmd ColorScheme * if &background == "dark" | highlight CursorLineNR cterm=bold guibg=#32302f | else | highlight CursorLineNR cterm=bold guibg=#f2e5bc | endif
+"augroup END
 
-""" Defines a foldtext
-function! VimFoldText()
-    " handle special case of normal comment first
-    let s:info = '('.string(v:foldend-v:foldstart).' l)'
-    if v:foldlevel == 1
-        let s:line = ' ◇ '.getline(v:foldstart+1)[3:-2]
-    elseif v:foldlevel == 2
-        let s:line = '   ●  '.getline(v:foldstart)[3:]
-    elseif v:foldlevel == 3
-        let s:line = '       ▪ '.getline(v:foldstart)[4:]
-    endif
-    if strwidth(s:line) > 80 - len(s:info) - 3
-        return s:line[:79-len(s:info)-3+len(s:line)-strwidth(s:line)].'...'.s:info
-    else
-        return s:line.repeat(' ', 80 - strwidth(s:line) - len(s:info)).s:info
-    endif
-endfunction
+"augroup LighterQuickFixLine
+"    autocmd!
+"    "autocmd ColorScheme * highlight QuickFixLine ctermbg=Yellow guibg=#504945
+"    "autocmd ColorScheme * highlight qfFileName guifg=#fe8019
+"    autocmd ColorScheme * if &background == "dark" | highlight QuickFixLine ctermbg=Yellow guibg=#504945 | else | highlight QuickFixLine ctermbg=Yellow guibg=#d5c4a1 | endif
+"    autocmd ColorScheme * if &background == "dark" | highlight qfFileName guifg=#fe8019 | else | highlight qfFileName guifg=#af3a03 | endif
+"augroup END
 
-""" Set foldsettings automatically for vim files
-augroup VimFolding
-    autocmd!
-    autocmd FileType vim
-                \ setlocal foldmethod=expr |
-                \ setlocal foldexpr=VimFolds(v:lnum) |
-                \ setlocal foldtext=VimFoldText() |
-                " \ set foldcolumn=2 foldminlines=2
-augroup END
+"augroup SearchHighlightColor
+"     autocmd!
+"     "autocmd ColorScheme * highlight Search guibg=#282828 guifg=#fe8019
+"     autocmd ColorScheme * if &background == "dark" | highlight Search guibg=#282828 guifg=#fe8019 | else | highlight Search guibg=#fbf1c7 guifg=#af3a03 | endif
+" augroup END
 
-"""""""""""
-"  LINKS  "
-"""""""""""
+"augroup VCSConflictMarker
+"    autocmd!
+"    "autocmd ColorScheme * highlight VCSConflict guibg=#cc241d guifg=#282828
+"    autocmd ColorScheme * if &background == "dark" | highlight VCSConflict guibg=#cc241d guifg=#282828 | else | highlight VCSConflict guibg=#cc241d guifg=#fbf1c7 | endif
+"    autocmd BufEnter,WinEnter * match VCSConflict '^\(<\|=\||\|>\)\{7\}\([^=].\+\)\?$'
+"augroup END
 
-"" Links to check out
+" augroup OverLength
+"     autocmd!
+"     "autocmd ColorScheme * highlight OverLength guibg=#cc241d guifg=#282828
+"     autocmd ColorScheme * if &background == "dark" | highlight OverLength guibg=#cc241d guifg=#282828 | else | highlight OverLength guibg=#cc241d guifg=#fbf1c7 | endif
+"     "autocmd BufEnter,WinEnter * match OverLength /\%81v./
+"     "autocmd BufEnter,WinEnter * match OverLength /\%>80v.\+/
+"     let collumnLimit=80
+"     let pattern='\%' . (collumnLimit+1) . 'v.'
+"     autocmd BufEnter,WinEnter *
+"                 \ let w:m1=matchadd('OverLength', pattern, -1)
+" augroup END
 
-" checkout: https://github.com/zenbro/dotfiles/blob/master/.nvimrc
-"           https://github.com/spf13/spf13-vim/blob/3.0/.vimrc
-"           https://github.com/euclio/vimrc/blob/master/vimrc
-"           https://github.com/KevOBrien/dotfiles
-"           https://bitbucket.org/sjl/dotfiles/src/28205343c464b44fd36970d2588a74183ff73299/vim/vimrc
+" augroup RefreshAirline
+"     autocmd!
+"     autocmd ColorScheme * if exists(':AirlineRefresh') | :AirlineRefresh | endif
+" augroup END
+
+" augroup SpellBadUnderline
+"     autocmd!
+"     autocmd BufEnter,WinEnter * highlight SpellBad gui=underline term=underline cterm=underline
+" augroup END
+
+" augroup AutoRead
+"     autocmd!
+"     autocmd FocusGained,BufEnter,CursorHold,CursorHoldI ?* if getcmdwintype() == '' | checktime | endif
+"     autocmd FileChangedShellPost * echohl WarningMsg | echo "File changed on disk. Buffer reloaded." | echohl None
+" augroup END
+
+if &term !=? 'linux' || has('gui_running')
+    set listchars=tab:›\ ,extends:>,precedes:<,nbsp:˷,eol:⤶,trail:~
+    set fillchars=vert:│,fold:─,diff:-
+    augroup TrailingSpaces
+        autocmd!
+        autocmd InsertEnter * set listchars-=eol:⤶,trail:~
+        autocmd InsertLeave * set listchars+=eol:⤶,trail:~
+    augroup END
+else
+    set listchars=tab:>\ ,extends:>,precedes:<,nbsp:+,eol:$,trail:~
+    set fillchars=vert:\|,fold:-,diff:-
+    augroup TrailingSpaces
+        autocmd!
+        autocmd InsertEnter * set listchars-=eol:$,trail:~
+        autocmd InsertLeave * set listchars+=eol:$,trail:~
+    augroup END
+endif
+
+" augroup CustomFolding
+"     autocmd!
+"     autocmd BufWinEnter * let &foldlevel=max(add(map(range(1, line('$')), 'foldlevel(v:val)'), 10))  " with this, everything is unfolded at start
+" augroup End
+
+" function! NeatFoldText()
+"     let line = ' ' . substitute(getline(v:foldstart), '^\s*"\?\s*\|\s*"\?\s*{{' . '{\d*\s*', '', 'g') . ' '
+"     let lines_count = v:foldend - v:foldstart + 1
+"     let lines_count_text = '┤ ' . printf("%10s", lines_count . ' lines') . ' ├'
+"     let foldchar = matchstr(&fillchars, 'fold:\zs.')
+"     let foldtextstart = strpart('+ ' . repeat(foldchar, v:foldlevel*2) . line, 0, (winwidth(0)*2)/3)
+"     let foldtextend = lines_count_text . repeat(foldchar, 8)
+"     let foldtextlength = strlen(substitute(foldtextstart . foldtextend, '.', 'x', 'g')) + &foldcolumn
+"     return foldtextstart . repeat(foldchar, winwidth(0)-foldtextlength) . foldtextend
+" endfunction
+" set foldtext=NeatFoldText()
+
+" set viminfo='10,\"100,:20,%,n~/.viminfo
+" augroup SavePosition
+"     autocmd!
+"     autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | execute 'normal! g`"zvzz' | endif
+" augroup END
