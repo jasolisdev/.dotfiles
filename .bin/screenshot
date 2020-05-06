@@ -15,8 +15,8 @@ pictures_dir="$HOME/.screenshots"
 output_dir="${pictures_dir:-$HOME/.screenshots}"
 output_file="$output_dir/$(date +%Y-%m-%d_%T).png"
 
-# default options (enabled)
-cursor=1
+# default options (disabled)
+cursor=0
 
 # default options (disabled)
 select=0 timeout=0

@@ -12,8 +12,10 @@ export UPDATE_ZSH_DAYS=7
     && source "$HOME/.zprofile"
  
 export EDITOR="vim"
+export VISUAL="vim"
 export TERMINAL="kitty"
 export BROWSER="brave"
+export READER="zathura"
 
 export PATH="$PATH:`pwd`/flutter/bin"
 

@@ -1,7 +1,148 @@
 """""""""""
 "  VIMRC  "
-"""""""""""
+""""""""""" 
 
+" SETTINGS {{{
+
+if filereadable('/bin/zsh')
+    set shell=/bin/zsh\ --login
+endif
+
+" Allow saving of files as sudo
+command! W execute 'silent! w !sudo /usr/bin/tee % >/dev/null' <Bar> edit!
+
+" Set path to current file
+command! -bang -nargs=* Cd  cd %:p:h
+
+" create dir for new file
+function! s:MKDir(...)
+  if !a:0 || isdirectory(a:1) || filereadable(a:1) || isdirectory(fnamemodify(a:1, ':p:h'))
+    return
+  endif
+  return mkdir(fnamemodify(a:1, ':p:h'), 'p')
+endfunction
+command! -bang -bar -nargs=? -complete=file E :call s:MKDir(<f-args>) | e<bang> <args>
+
+set synmaxcol=800
+set number            " show
+set showcmd           " display incomplete commands
+set hidden
+set wildmenu          " visual autocomplete for command menu
+set completeopt=menuone,noinsert,noselect
+set shortmess+=atIc
+set lazyredraw        " redraw only when we need to"
+set mouse=a
+set diffopt+=hiddenoff,algorithm:histogram
+set cursorline
+
+" make it obvious where 120 characters is
+set textwidth=120
+set colorcolumn=+1
+set formatoptions+=w " for wraping long lines without broken words
+set wrapmargin=0
+set nowrap            " don't wrap long lines
+set showmatch         " highlight matching brackets
+set matchtime=5
+set list
+
+set novisualbell
+set noerrorbells
+set display=lastline
+set laststatus=2
+set showtabline=2
+set noshowmode
+
+set notimeout
+set ttimeout
+set ttimeoutlen=100
+set updatetime=100
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+
+set encoding=utf-8
+set smarttab
+set autoindent        " indent
+set linespace=0
+set scrolloff=3
+set sidescrolloff=5
+set backspace=indent,eol,start
+set formatoptions+=roj
+set nrformats-=octal
+set pastetoggle=<F2>  " switch paste mode
+set dictionary+=/usr/share/dict/words-insane
+
+set clipboard=unnamedplus " yank to and paste the selection without prepending "*
+set history=10000       " sets how many lines of history VIM has to remember
+set tabpagemax=50
+set autoread          " when file was changed
+set autowrite         " save file before switching a buffer
+set ruler             " show the cursor position all the time
+set nostartofline
+set nohidden
+set nojoinspaces
+set sessionoptions-=options
+
+set incsearch         " do incremental searching
+set hlsearch          " highlight same words while searching with Shift + *
+set ignorecase        " /the would find 'the' or 'The', add \C if you want 'the' only
+set smartcase         " while /The would find only 'The' etc.
+
+set foldenable
+set foldmethod=marker
+set foldnestmax=100
+
+augroup AutoRead
+    autocmd!
+    autocmd FocusGained,BufEnter,CursorHold,CursorHoldI ?* if getcmdwintype() == '' | checktime | endif
+    autocmd FileChangedShellPost * echohl WarningMsg | echo "File changed on disk. Buffer reloaded." | echohl None
+augroup END
+
+augroup CustomFolding
+    autocmd!
+    autocmd BufWinEnter * let &foldlevel=max(add(map(range(1, line('$')), 'foldlevel(v:val)'), 10))  " with this, everything is unfolded at start
+augroup End
+
+function! NeatFoldText()
+    let line = ' ' . substitute(getline(v:foldstart), '^\s*"\?\s*\|\s*"\?\s*{{' . '{\d*\s*', '', 'g') . ' '
+    let lines_count = v:foldend - v:foldstart + 1
+    let lines_count_text = '┤ ' . printf("%10s", lines_count . ' lines') . ' ├'
+    let foldchar = matchstr(&fillchars, 'fold:\zs.')
+    let foldtextstart = strpart('+ ' . repeat(foldchar, v:foldlevel*2) . line, 0, (winwidth(0)*2)/3)
+    let foldtextend = lines_count_text . repeat(foldchar, 8)
+    let foldtextlength = strlen(substitute(foldtextstart . foldtextend, '.', 'x', 'g')) + &foldcolumn
+    return foldtextstart . repeat(foldchar, winwidth(0)-foldtextlength) . foldtextend
+endfunction
+set foldtext=NeatFoldText()
+
+augroup SavePosition
+    autocmd!
+    autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | execute 'normal! g`"zvzz' | endif
+augroup END
+
+set wildmode=longest:full,full
+set wildignorecase
+set wildignore+=.ignore,.gitignore
+set wildignore+=*/.git/,*/.hg/,*/.svn/
+set wildignore+=*/.ccls-cache/,*/.clangd/
+set wildignore+=*.o,*.so,*.class,*.exe,*.dll,*.com
+set wildignore+=.tmux,.nvimrc,.vimrc,.exrc
+set wildignore+=tags,.tags,*/.backup/,*/.vim-backup/,*/.swap/,*/.vim-swap/,*/.undo/,*/.vim-undo/,*/._pkg/
+set wildignore+=*.cache,*.log,*~,*#,*.bak,*.BAK,*.old,*.OLD,*.off,*.OFF,*.dist,*.DIST,*.orig,*.ORIG,*.rej,*.REJ,.DS_Store*
+set wildignore+=*.swp,*.swo,*.swn,*.swm,*.tmp
+set wildignore+=*.pid,*.state
+set wildignore+=*.dump,*.stackdump,*.zcompdump,*.zwc,*.pcap,*.cap,*.dmp
+set wildignore+=*.err,*.error,*.stderr
+set wildignore+=*history,*_history,*_hist
+set wildignore+=*_rsa,*_rsa.*,*_dsa,*_dsa.*,*_keys,*.pem,*.key,*.gpg
+
+" }}}
+
+" PLUGINS {{{
+
+" Setup directories and vim-plug
 if !filereadable($HOME . '/.vim/autoload/plug.vim')
     silent !mkdir -p ~/.vim/autoload >/dev/null 2>&1
     silent !mkdir -p ~/.vim/plugged >/dev/null 2>&1
@@ -13,26 +154,33 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
+"" File Browsing
 "" FZF
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'airblade/vim-rooter'
+
+"" MRU
+Plug 'yegappan/mru'
+
+"" ctrlp
+Plug 'ctrlpvim/ctrlp.vim'
 
 " NERD Tree
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+" Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+
+Plug 'francoiscabrol/ranger.vim'
+Plug 'rbgrouleff/bclose.vim'
 
 " General
 Plug 'mhinz/vim-startify'
 Plug 'mbbill/undotree'
 Plug 'haya14busa/incsearch.vim'
-Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
-" Plug 'maksimr/vim-jsbeautify'
-Plug 'ap/vim-css-color'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'jiangmiao/auto-pairs'
 Plug 'Yggdroot/indentLine'
-Plug 'yegappan/mru'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 "Plug 'wellle/targets.vim'
@@ -43,9 +191,11 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-speeddating'
 Plug 'mhinz/vim-grepper'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'liuchengxu/vim-clap'
+Plug 'jceb/vim-orgmode'
+Plug 'vim-utils/vim-man'
+
 " Tmux
 Plug 'benmills/vimux'
 Plug 'christoomey/vim-tmux-navigator'
@@ -53,31 +203,41 @@ Plug 'wellle/tmux-complete.vim'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 
 " Themes
-Plug 'morhetz/gruvbox'
+" Plug 'morhetz/gruvbox'
+Plug 'jasolisdev/gruvbox' " fork of 'morhetz/gruvbox'
 " Plug 'alfunx/gruvbox'  " fork of 'morhetz/gruvbox'
-
+" Plug 'chriskempson/base16-vim'
 " Need to be last in Plugs
 Plug 'ryanoasis/vim-devicons'
 
 " Completion
 Plug 'Shougo/echodoc.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'Valloric/YouCompleteMe', {
-     \ 'build' : {
-     \     'unix' : './install.py --clangd-completer --ts-completer --cs-completer --java-completer && git submodule update --init --recursive',
-     \     'windows' : './install.sh --clang-completer --ts-completer && git submodule update --init --recursive'
-     \    }
-     \ }
+" Plug 'Valloric/YouCompleteMe', {
+"      \ 'build' : {
+"      \     'unix' : './install.py --clangd-completer --ts-completer --cs-completer --java-completer && git submodule update --init --recursive',
+"      \     'windows' : './install.sh --clang-completer --ts-completer && git submodule update --init --recursive'
+"      \    }
+"      \ }
 
 "" Snippets
 Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+" Plug 'honza/vim-snippets'
 
 "" Language Specific
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'mattn/emmet-vim'
 Plug 'alvan/vim-closetag'
 Plug 'rhysd/vim-clang-format'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+Plug 'maksimr/vim-jsbeautify'
+Plug 'ap/vim-css-color'
+Plug 'moll/vim-node'
+Plug 'jmcantrell/vim-virtualenv'
 
 " Don't load in console
 if &term !=? 'linux' || has('gui_running')
@@ -86,27 +246,27 @@ endif
 
 call plug#end()
 
-"""""""""""
-"  THEME  "
-"""""""""""
+" }}}
 
-"" Theme and colors
+" THEME {{{
+
+" Theme and colors
 set termguicolors
 set background=dark
 let &t_8f="\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
-"set t_Co=256
 let g:gruvbox_bold=1
 let g:gruvbox_italic=1
 let g:gruvbox_underline=1
 let g:gruvbox_undercurl=1
+colorscheme gruvbox
 
 "" Use environment variable
-if !empty($VIM_COLOR)
-    silent! colorscheme $VIM_COLOR
-else
-    silent! colorscheme gruvbox
-endif
+" if !empty($VIM_COLOR)
+"     silent! colorscheme $VIM_COLOR
+" else
+"     silent! colorscheme gruvbox
+" endif
 
 "" Switch cursor according to mode
 if &term !=? 'linux' || has('gui_running')
@@ -121,29 +281,58 @@ if &term !=? 'linux' || has('gui_running')
 endif
 
 "" Startify
-highlight StartifyBracket guifg=#ebdbb2 ctermfg=15 
-highlight StartifyFooter  guifg=#ebdbb2 ctermfg=15 
-highlight StartifyHeader  guifg=#b8bb26 ctermfg=10 
-highlight StartifyNumber  guifg=#ebdbb2 ctermfg=15 
-highlight StartifyPath ctermfg=4 
-highlight StartifySlash   guifg=#a89984 ctermfg=7 
-highlight StartifySpecial guifg=#a89984 ctermfg=7 
+" highlight StartifyBracket guifg=#ebdbb2 ctermfg=15 
+" highlight StartifyFooter  guifg=#ebdbb2 ctermfg=15 
+highlight StartifyHeader  guifg=#7b8748 ctermfg=10 
+" highlight StartifyNumber  guifg=#ebdbb2 ctermfg=15 
+" highlight StartifyPath ctermfg=4 
+" highlight StartifyPath ctermfg=4 
+" highlight StartifySlash   guifg=#a89984 ctermfg=7 
+" highlight StartifySpecial guifg=#a89984 ctermfg=7 
 
-""""""""""""""""""
-"  KEY MAPPINGS  "
-""""""""""""""""""
+if &term !=? 'linux' || has('gui_running')
+    set listchars=tab:›\ ,extends:>,precedes:<,nbsp:˷,eol:⤶,trail:~
+    set fillchars=vert:│,fold:─,diff:-
+    augroup TrailingSpaces
+        autocmd!
+        autocmd InsertEnter * set listchars-=eol:⤶,trail:~
+        autocmd InsertLeave * set listchars+=eol:⤶,trail:~
+    augroup END
+else
+    set listchars=tab:>\ ,extends:>,precedes:<,nbsp:+,eol:$,trail:~
+    set fillchars=vert:\|,fold:-,diff:-
+    augroup TrailingSpaces
+        autocmd!
+        autocmd InsertEnter * set listchars-=eol:$,trail:~
+        autocmd InsertLeave * set listchars+=eol:$,trail:~
+    augroup END
+endif
 
-"" Leader key
+
+" }}}
+
+"  MAPPINGS {{{
+
+" Leader key
 nnoremap <Space> <Nop>
 nnoremap <CR> <Nop>
 let mapleader=' '
 let maplocalleader=' '
 
-"" Split navigation
-nnoremap <silent> <C-h> <C-w><C-h>
-nnoremap <silent> <C-j> <C-w><C-j>
-nnoremap <silent> <C-k> <C-w><C-k>
-nnoremap <silent> <C-l> <C-w><C-l>
+" Split navigation
+if exists(':TmuxNavigate')
+  let g:tmux_navigator_no_mappings = 1
+    nnoremap <silent> <C-h>  :<C-u>TmuxNavigateLeft<CR>
+    nnoremap <silent> <C-j>  :<C-u>TmuxNavigateDown<CR>
+    nnoremap <silent> <C-k>  :<C-u>TmuxNavigateUp<CR>
+    nnoremap <silent> <C-l>  :<C-u>TmuxNavigateRight<CR>
+    nnoremap <silent> <C-BS> :<C-u>TmuxNavigatePrevious<CR>
+else
+    nnoremap <silent> <C-h> <C-w><C-h>
+    nnoremap <silent> <C-j> <C-w><C-j>
+    nnoremap <silent> <C-k> <C-w><C-k>
+    nnoremap <silent> <C-l> <C-w><C-l>
+endif
 
 "" Split resize
 nnoremap <silent> <C-w>h 5<C-w><
@@ -170,15 +359,15 @@ nnoremap <silent> <A-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
 nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . (tabpagenr()+1)<CR>
 
 " Go to tab
-execute "set <M-1>=\<Esc>1"
-execute "set <M-2>=\<Esc>2"
-execute "set <M-3>=\<Esc>3"
-execute "set <M-4>=\<Esc>4"
-execute "set <M-5>=\<Esc>5"
-execute "set <M-6>=\<Esc>6"
-execute "set <M-7>=\<Esc>7"
-execute "set <M-8>=\<Esc>8"
-execute "set <M-9>=\<Esc>9"
+" execute "set <M-1>=\<Esc>1"
+" execute "set <M-2>=\<Esc>2"
+" execute "set <M-3>=\<Esc>3"
+" execute "set <M-4>=\<Esc>4"
+" execute "set <M-5>=\<Esc>5"
+" execute "set <M-6>=\<Esc>6"
+" execute "set <M-7>=\<Esc>7"
+" execute "set <M-8>=\<Esc>8"
+" execute "set <M-9>=\<Esc>9"
 nnoremap <silent> <M-1> 1gt
 nnoremap <silent> <M-2> 2gt
 nnoremap <silent> <M-3> 3gt
@@ -187,26 +376,27 @@ nnoremap <silent> <M-5> 5gt
 nnoremap <silent> <M-6> 6gt
 nnoremap <silent> <M-7> 7gt
 nnoremap <silent> <M-8> 8gt
-nnoremap <silent> <M-9> :tablast<CR>
+nnoremap <silent> <M-9> 9gt
+nnoremap <silent> <M-0> :tablast<CR>
 
 " Make Y behave like other commands
 nnoremap <silent> Y y$
 
 " Copy to system clipboard
-" nnoremap <silent> gy "+y
-" nnoremap <silent> gY "+Y
-" nnoremap <silent> gp "+p
-" nnoremap <silent> gP "+P
-" xnoremap <silent> gy "+y
-" xnoremap <silent> gY "+Y
-" xnoremap <silent> gp "+p
-" xnoremap <silent> gP "+P
+nnoremap <silent> gy "+y
+nnoremap <silent> gY "+Y
+nnoremap <silent> gp "+p
+nnoremap <silent> gP "+P
+xnoremap <silent> gy "+y
+xnoremap <silent> gY "+Y
+xnoremap <silent> gp "+p
+xnoremap <silent> gP "+P
 
 " Remove trailing whitespaces
-" nnoremap <silent> <F3> mz:keepp %s/\\\@1<!\s\+$//e<CR>`z
+nnoremap <silent> <F3> mz:keepp %s/\\\@1<!\s\+$//e<CR>`z
 
 " Select last inserted text
-" nnoremap gV `[v`]
+nnoremap gV `[v`]
 
 "" Quickfix & Loclist
 nnoremap <silent> <leader>q :copen<CR>
@@ -221,7 +411,6 @@ let g:tmux_navigator_no_mappings=1
 nnoremap <silent> <C-h> :TmuxNavigateLeft<CR>
 nnoremap <silent> <C-j> :TmuxNavigateDown<CR>
 nnoremap <silent> <C-k> :TmuxNavigateUp<CR>
-nnoremap <silent> <C-l> :TmuxNavigateRight<CR>
 nnoremap <silent> <C-BS> :TmuxNavigatePrevious<CR>
 
 " Use CTRL-S for saving, also in Insert mode
@@ -230,50 +419,92 @@ xnoremap <silent> <C-s> <Esc>:write<CR>
 inoremap <silent> <C-s> <C-o>:write<CR><Esc>
 
 " No highlight
-execute "set <M-g>=\<Esc>b"
-nnoremap <silent> <M-g> :<C-u>nohlsearch<CR>
+nnoremap <silent> <M-b> :<C-u>nohlsearch<CR>
 
-"" Clap filer
-nnoremap <silent> <leader>d :Clap filer<CR>
+"  }}} 
 
-""""""""""""""""""""
-"  PLUGIN SETTINGS  "
-"""""""""""""""""""""
+" PLUGIN SETTINGS  {{{
+
+" vim-jsbeautify
+map <C-b> :call JsBeautify()<cr>
+" or
+autocmd FileType javascript noremap <buffer>  <C-b> :call JsBeautify()<cr>
+" for json
+autocmd FileType json noremap <buffer> <C-b> :call JsonBeautify()<cr>
+" for jsx
+autocmd FileType jsx noremap <buffer> <C-b> :call JsxBeautify()<cr>
+" for html
+autocmd FileType html noremap <buffer> <C-b> :call HtmlBeautify()<cr>
+" for css or scss
+autocmd FileType css noremap <buffer> <C-b> :call CSSBeautify()<cr>
 
 " FZF
-" Default key bindings
+" This is the default extra key bindings
 let g:fzf_action = {
-            \ 'ctrl-t': 'tab split',
-            \ 'ctrl-x': 'split',
-            \ 'ctrl-v': 'vsplit' }
+  \ 'ctrl-t': 'tab split',
+  \ 'ctrl-x': 'split',
+  \ 'ctrl-v': 'vsplit' }
 
-" Default fzf layout
-let g:fzf_layout = { 'down': '~30%' }
+" Enable per-command history.
+" CTRL-N and CTRL-P will be automatically bound to next-history and
+" previous-history instead of down and up. If you don't like the change,
+" explicitly bind the keys to down and up in your $FZF_DEFAULT_OPTS.
+let g:fzf_history_dir = '~/.local/share/fzf-history'
 
-" Customize the options used by 'git log'
-let g:fzf_commits_log_options='--graph --color=always --format="%c(auto)%h%d %s %c(black)%c(bold)%cr"'
-
-" Command to generate tags file
-let g:fzf_tags_command = 'ctags -R'
-
-nnoremap <leader>f :Files<CR>
-nnoremap <leader>b :Buffers<CR>
-nnoremap <leader>w :Windows<CR>
+map <C-f> :Files<CR>
+map <leader>b :Buffers<CR>
+nnoremap <leader>g :Rg<CR>
 nnoremap <leader>t :Tags<CR>
+nnoremap <leader>m :Marks<CR>
 
-" Mapping selecting mappings
-nmap <leader><Tab> <plug>(fzf-maps-n)
-xmap <leader><Tab> <plug>(fzf-maps-x)
-omap <leader><Tab> <plug>(fzf-maps-o)
 
-" Insert mode completion
-imap <C-x><C-k> <plug>(fzf-complete-word)
-imap <C-x><C-f> <plug>(fzf-complete-path)
-imap <C-x><C-j> <plug>(fzf-complete-file-ag)
-imap <C-x><C-l> <plug>(fzf-complete-line)
+let g:fzf_tags_command = 'ctags -R'
+" Border color
+let g:fzf_layout = {'up':'~90%', 'window': { 'width': 0.8, 'height': 0.8,'yoffset':0.5,'xoffset': 0.5, 'highlight': 'Todo', 'border': 'sharp' } }
 
-" Use custom dictionary
-inoremap <expr> <C-x><C-k> fzf#complete('cat /usr/share/dict/words-insane')
+let $FZF_DEFAULT_OPTS = '--layout=reverse --info=inline'
+let $FZF_DEFAULT_COMMAND="rg --files --hidden"
+
+" Customize fzf colors to match your color scheme
+let g:fzf_colors =
+\ { 'fg':      ['fg', 'Normal'],
+  \ 'bg':      ['bg', 'Normal'],
+  \ 'hl':      ['fg', 'Comment'],
+  \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+  \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+  \ 'hl+':     ['fg', 'Statement'],
+  \ 'info':    ['fg', 'PreProc'],
+  \ 'border':  ['fg', 'Ignore'],
+  \ 'prompt':  ['fg', 'Conditional'],
+  \ 'pointer': ['fg', 'Exception'],
+  \ 'marker':  ['fg', 'Keyword'],
+  \ 'spinner': ['fg', 'Label'],
+  \ 'header':  ['fg', 'Comment'] }
+
+"Get Files
+command! -bang -nargs=? -complete=dir Files
+    \ call fzf#vim#files(<q-args>, fzf#vim#with_preview({'options': ['--layout=reverse', '--info=inline']}), <bang>0) " Get text in files with Rg
+command! -bang -nargs=* Rg
+  \ call fzf#vim#grep(
+  \   'rg --column --line-number --no-heading --color=always --smart-case '.shellescape(<q-args>), 1,
+  \   fzf#vim#with_preview(), <bang>0)
+
+" Ripgrep advanced
+function! RipgrepFzf(query, fullscreen)
+  let command_fmt = 'rg --column --line-number --no-heading --color=always --smart-case %s || true'
+  let initial_command = printf(command_fmt, shellescape(a:query))
+  let reload_command = printf(command_fmt, '{q}')
+  let spec = {'options': ['--phony', '--query', a:query, '--bind', 'change:reload:'.reload_command]}
+  call fzf#vim#grep(initial_command, 1, fzf#vim#with_preview(spec), a:fullscreen)
+endfunction
+
+command! -nargs=* -bang RG call RipgrepFzf(<q-args>, <bang>0)
+
+" Git grep
+command! -bang -nargs=* GGrep
+  \ call fzf#vim#grep(
+  \   'git grep --line-number '.shellescape(<q-args>), 0,
+  \   fzf#vim#with_preview({'dir': systemlist('git rev-parse --show-toplevel')[0]}), <bang>0)
 
 " YouCompleteMe
 " Disable <tab> from YCM. Use Ctrl-n, Ctrl-p to navigate.
@@ -308,6 +539,7 @@ let g:coc_global_extensions = [
   \ 'coc-yank',
   \ 'coc-spell-checker',
   \ 'coc-prettier',
+  \ 'coc-explorer',
   \ 'coc-highlight', 
   \ 'coc-git', 
   \ 'coc-emmet', 
@@ -329,7 +561,7 @@ let g:coc_global_extensions = [
 " set nowritebackup
 
 " Give more space for displaying messages.
-set cmdheight=2
+set cmdheight=1
 
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
 " delays and poor user experience.
@@ -396,8 +628,8 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 nmap <leader>rn <Plug>(coc-rename)
 
 " Formatting selected code.
-xmap <leader>f  <Plug>(coc-format-selected)
-nmap <leader>f  <Plug>(coc-format-selected)
+" xmap <leader>f  <Plug>(coc-format-selected)
+" nmap <leader>f  <Plug>(coc-format-selected)
 
 augroup mygroup
   autocmd!
@@ -462,9 +694,36 @@ nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 
-"" EchoDoc
+" coc-explorer
+nmap <space>e :CocCommand explorer<CR>
+nmap <space>f :CocCommand explorer --preset floating<CR>
+autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
+
+let g:coc_explorer_global_presets = {
+\   '.vim': {
+\      'root-uri': '~/.vim',
+\   },
+\   'floating': {
+\      'position': 'floating',
+\   },
+\   'floatingLeftside': {
+\      'position': 'floating',
+\      'floating-position': 'left-center',
+\      'floating-width': 50,
+\   },
+\   'floatingRightside': {
+\      'position': 'floating',
+\      'floating-position': 'left-center',
+\      'floating-width': 50,
+\   },
+\   'simplify': {
+\     'file.child.template': '[selection | clip | 1] [indent][icon | 1] [filename omitCenter 1]'
+\   }
+\ }
+
+"" echodoc.vim
 let g:echodoc#enable_at_startup=1
-let g:echodoc#type = "echo" 
+let g:echodoc#type = 'echo' 
 
 " NERDTree
 map <leader>n :NERDTreeToggle<CR>
@@ -516,10 +775,16 @@ let g:NERDTreePatternMatchHighlightColor['.*_spec\.rb$'] = s:rspec_red " sets th
 let g:NERDTreeIgnore = ['^node_modules$']
 
 "" Change Nerdtree path color
-highlight NERDTreeCWD guifg=#ebdbb2 ctermfg=15
+" highlight NERDTreeCWD guifg=#ebdbb2 ctermfg=15
+highlight NERDTreeCWD guifg=#7b8748 ctermfg=15
+" 83a598
 
 "" Undotree
-nnoremap <silent> <F4> :UndotreeToggle<CR>
+nnoremap <silent> <leader>u :UndotreeToggle<CR>
+
+" ranger
+let g:ranger_map_keys = 0
+nnoremap <silent> <leader>r :Ranger<CR>
 
 " Incsearch
 map / <Plug>(incsearch-forward)
@@ -544,9 +809,9 @@ let g:indentLine_setConceal = 2
 let g:indentLine_concealcursor = "is"
 
 "" AutoPairs
-execute "set <M-p>=\<Esc>p"
-execute "set <M-z>=\<Esc>z"
-let g:AutoPairsShortcutBackInsert='<M-z>' "let g:AutoPairs={'(':')', '[':']', '{':'}',"'":"'",'"':'"', '`':'`', '<':'>'}
+" execute "set <M-p>=\<Esc>p"
+" execute "set <M-z>=\<Esc>z"
+" let g:AutoPairsShortcutBackInsert='<M-z>' "let g:AutoPairs={'(':')', '[':']', '{':'}',"'":"'",'"':'"', '`':'`', '<':'>'}
 
 "" Multiple-Cursors
 let g:multi_cursor_use_default_mapping=0
@@ -714,101 +979,9 @@ let g:gitgutter_sign_removed='◢'
 let g:gitgutter_sign_removed_first_line='◥'
 let g:gitgutter_sign_modified_removed='◢'
 
+" }}}
 
-""""""""""""""
-"  SETTINGS  "
-""""""""""""""
-
-if filereadable('/bin/zsh')
-    set shell=/bin/zsh\ --login
-endif
-
-" Allow saving of files as sudo
-command! W execute 'silent! w !sudo /usr/bin/tee % >/dev/null' <Bar> edit!
-
-" Set path to current file
-command! -bang -nargs=* Cd  cd %:p:h
-
-set synmaxcol=800
-set number
-set showcmd
-set hidden
-set wildmenu
-set wildmode=longest:full,full
-set completeopt=menuone,noinsert,noselect
-set shortmess+=atIc
-set lazyredraw
-set mouse=a
-set diffopt+=hiddenoff,algorithm:histogram
-
-set cursorline
-set textwidth=80
-set wrapmargin=0
-set nowrap
-set showmatch
-set matchtime=5
-set list
-
-set novisualbell
-set noerrorbells
-set display=lastline
-set laststatus=2
-set showtabline=2
-set noshowmode
-
-set notimeout
-set ttimeout
-set ttimeoutlen=100
-set updatetime=100
-
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-set expandtab
-
-set encoding=utf-8
-set smarttab
-set autoindent
-set linespace=0
-set scrolloff=3
-set sidescrolloff=5
-set backspace=indent,eol,start
-set formatoptions+=roj
-set nrformats-=octal
-set pastetoggle=<F2>
-set dictionary+=/usr/share/dict/words-insane
-
-""set clipboard+=unnamed,unnamedplus
-""" Paste from clipboard with p. Yank with y to clipboard.
-set clipboard=unnamedplus
-set history=10000
-set tabpagemax=50
-set autoread
-set autowrite
-set ruler
-set nostartofline
-set nohidden
-set nojoinspaces
-set sessionoptions-=options
-
-set incsearch
-set hlsearch
-set ignorecase
-set smartcase
-
-"set foldenable
-"set foldmethod=indent
-"set foldnestmax=100
-
-""""""""""""
-"  BUGFIX  "
-""""""""""""
-
-nohlsearch
-
-""""""""""""""""""""""""""
-"  BACKUP / SWAP / UNDO  "
-""""""""""""""""""""""""""
+"  BACKUP / SWAP / UNDO  {{{
 
 if !isdirectory($HOME . '/.vim/.backup')
     silent !mkdir -p ~/.vim/.backup >/dev/null 2>&1
@@ -837,114 +1010,4 @@ if exists('+undofile')
     set undofile
 endif
 
-"""""""""""""
-"  AUTOCMD  "
-"""""""""""""
-
-" augroup TransparentBackground
-"     autocmd!
-"     autocmd ColorScheme * highlight Normal guibg=NONE ctermbg=NONE
-" augroup END
-
-"augroup LighterCursorLine
-"    autocmd!
-"    "autocmd ColorScheme * highlight clear CursorLine
-"    "autocmd ColorScheme * highlight CursorLine guibg=#32302f
-"    autocmd ColorScheme * if &background == "dark" | highlight CursorLine guibg=#32302f | else | highlight CursorLine guibg=#f2e5bc | endif
-"augroup END
-
-"augroup BoldCursorLineNr
-"    autocmd!
-"    "autocmd ColorScheme * highlight CursorLineNR cterm=bold guibg=#282828
-"    autocmd ColorScheme * if &background == "dark" | highlight CursorLineNR cterm=bold guibg=#32302f | else | highlight CursorLineNR cterm=bold guibg=#f2e5bc | endif
-"augroup END
-
-"augroup LighterQuickFixLine
-"    autocmd!
-"    "autocmd ColorScheme * highlight QuickFixLine ctermbg=Yellow guibg=#504945
-"    "autocmd ColorScheme * highlight qfFileName guifg=#fe8019
-"    autocmd ColorScheme * if &background == "dark" | highlight QuickFixLine ctermbg=Yellow guibg=#504945 | else | highlight QuickFixLine ctermbg=Yellow guibg=#d5c4a1 | endif
-"    autocmd ColorScheme * if &background == "dark" | highlight qfFileName guifg=#fe8019 | else | highlight qfFileName guifg=#af3a03 | endif
-"augroup END
-
-"augroup SearchHighlightColor
-"     autocmd!
-"     "autocmd ColorScheme * highlight Search guibg=#282828 guifg=#fe8019
-"     autocmd ColorScheme * if &background == "dark" | highlight Search guibg=#282828 guifg=#fe8019 | else | highlight Search guibg=#fbf1c7 guifg=#af3a03 | endif
-" augroup END
-
-"augroup VCSConflictMarker
-"    autocmd!
-"    "autocmd ColorScheme * highlight VCSConflict guibg=#cc241d guifg=#282828
-"    autocmd ColorScheme * if &background == "dark" | highlight VCSConflict guibg=#cc241d guifg=#282828 | else | highlight VCSConflict guibg=#cc241d guifg=#fbf1c7 | endif
-"    autocmd BufEnter,WinEnter * match VCSConflict '^\(<\|=\||\|>\)\{7\}\([^=].\+\)\?$'
-"augroup END
-
-" augroup OverLength
-"     autocmd!
-"     "autocmd ColorScheme * highlight OverLength guibg=#cc241d guifg=#282828
-"     autocmd ColorScheme * if &background == "dark" | highlight OverLength guibg=#cc241d guifg=#282828 | else | highlight OverLength guibg=#cc241d guifg=#fbf1c7 | endif
-"     "autocmd BufEnter,WinEnter * match OverLength /\%81v./
-"     "autocmd BufEnter,WinEnter * match OverLength /\%>80v.\+/
-"     let collumnLimit=80
-"     let pattern='\%' . (collumnLimit+1) . 'v.'
-"     autocmd BufEnter,WinEnter *
-"                 \ let w:m1=matchadd('OverLength', pattern, -1)
-" augroup END
-
-" augroup RefreshAirline
-"     autocmd!
-"     autocmd ColorScheme * if exists(':AirlineRefresh') | :AirlineRefresh | endif
-" augroup END
-
-" augroup SpellBadUnderline
-"     autocmd!
-"     autocmd BufEnter,WinEnter * highlight SpellBad gui=underline term=underline cterm=underline
-" augroup END
-
-" augroup AutoRead
-"     autocmd!
-"     autocmd FocusGained,BufEnter,CursorHold,CursorHoldI ?* if getcmdwintype() == '' | checktime | endif
-"     autocmd FileChangedShellPost * echohl WarningMsg | echo "File changed on disk. Buffer reloaded." | echohl None
-" augroup END
-
-if &term !=? 'linux' || has('gui_running')
-    set listchars=tab:›\ ,extends:>,precedes:<,nbsp:˷,eol:⤶,trail:~
-    set fillchars=vert:│,fold:─,diff:-
-    augroup TrailingSpaces
-        autocmd!
-        autocmd InsertEnter * set listchars-=eol:⤶,trail:~
-        autocmd InsertLeave * set listchars+=eol:⤶,trail:~
-    augroup END
-else
-    set listchars=tab:>\ ,extends:>,precedes:<,nbsp:+,eol:$,trail:~
-    set fillchars=vert:\|,fold:-,diff:-
-    augroup TrailingSpaces
-        autocmd!
-        autocmd InsertEnter * set listchars-=eol:$,trail:~
-        autocmd InsertLeave * set listchars+=eol:$,trail:~
-    augroup END
-endif
-
-augroup CustomFolding
-    autocmd!
-    autocmd BufWinEnter * let &foldlevel=max(add(map(range(1, line('$')), 'foldlevel(v:val)'), 10))  " with this, everything is unfolded at start
-augroup End
-
-function! NeatFoldText()
-    let line = ' ' . substitute(getline(v:foldstart), '^\s*"\?\s*\|\s*"\?\s*{{' . '{\d*\s*', '', 'g') . ' '
-    let lines_count = v:foldend - v:foldstart + 1
-    let lines_count_text = '┤ ' . printf("%10s", lines_count . ' lines') . ' ├'
-    let foldchar = matchstr(&fillchars, 'fold:\zs.')
-    let foldtextstart = strpart('+ ' . repeat(foldchar, v:foldlevel*2) . line, 0, (winwidth(0)*2)/3)
-    let foldtextend = lines_count_text . repeat(foldchar, 8)
-    let foldtextlength = strlen(substitute(foldtextstart . foldtextend, '.', 'x', 'g')) + &foldcolumn
-    return foldtextstart . repeat(foldchar, winwidth(0)-foldtextlength) . foldtextend
-endfunction
-set foldtext=NeatFoldText()
-
-" set viminfo='10,\"100,:20,%,n~/.viminfo
-" augroup SavePosition
-"     autocmd!
-"     autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | execute 'normal! g`"zvzz' | endif
-" augroup END
+"  }}}

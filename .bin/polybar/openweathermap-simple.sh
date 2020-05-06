@@ -26,7 +26,8 @@ get_icon() {
 
 KEY="6165837fe4ac9e20213752dd0fba908e"
 CITY="Huntington Beach"
-UNITS="metric"
+# UNITS="metric"
+UNITS="imperial"
 SYMBOL="°"
 
 API="https://api.openweathermap.org/data/2.5"
@@ -49,6 +50,7 @@ else
         weather=$(curl -sf "$API/weather?appid=$KEY&lat=$location_lat&lon=$location_lon&units=$UNITS")
     fi
 fi
+BOLD="\x1b[1m bold"
 
 if [ -n "$weather" ]; then
     weather_temp=$(echo "$weather" | jq ".main.temp" | cut -d "." -f 1)

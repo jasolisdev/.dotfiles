@@ -1,10 +1,10 @@
-;=========================================================;
-;                Jose's polybar config.                   ;
-;=========================================================;
+;###########################################################################
+;############		        POLYBAR CONFIG FILE	                ############
+;###########################################################################
+;# Please see https://github.com/polybar/polybar/wiki or a complete reference!
+;################       Start of all the settings          #################
 
-;=====================================================
-;   colors
-;=====================================================
+; Colors {{{
 
 [xcolor]
 bg     = ${xrdb:color0:#0a0a0a}
@@ -21,7 +21,7 @@ color8 = ${xrdb:color8:#373b41}
 
 [color]
 ;base-bg     = #8c0a0a0a
- base-bg     = #202020
+base-bg     = #202020
 
 base-comp   = #2524230a
 glyph-bg    = #3C3835
@@ -37,9 +37,9 @@ bar-fg  = ${xcolor.color8}
 red     = #821717
 orange  = #824517
 
-;----------------------------------------------------------
-;			G L O B A L
-;----------------------------------------------------------
+}}}
+
+; Global {{{
 
 [layout]
 icon-font = 12
@@ -55,9 +55,9 @@ bar-fill-icon = ﭳ
 ; Reload upon receiving XCB_RANDR_SCREEN_CHANGE_NOTIFY events
 screenchange-reload = true
 
-;----------------------------------------------------------
-;			B A S E   B A R
-;----------------------------------------------------------
+}}}
+
+; Base Bar {{{
 
 [bar/base]
 monitor = ${env:MONITOR}
@@ -75,25 +75,24 @@ line-size = 1
 cursor-click = pointer
 cursor-scroll = ns-resize
 
-;----------------------------------------------------------
-;			F O N T S
-;----------------------------------------------------------
+}}}
+
+; Fonts {{{
 
 font-0 = Source Code Pro:style=Bold:size=25;6
-font-1 = Source Code Pro:style=Bold:size=22;5
+font-1 = Source Code Pro:style=Bold:size=25;6
 font-2 = Source Code Pro:style=Medium:size=32;9
 font-3 = mplus Nerd Font:style=Medium:size=26;8
 font-4 = Source Code Pro:style=Medium:size=25;5
 font-5 = Source Code Pro:style=Medium:size=30;8
 font-6 = Source Code Pro:style=Medium:size=25;4
-font-7 = Weather Icons:size=20;8
+font-7 = Weather Icons:style=Bold:size=25;8
 font-8 = Material Design Icons:style=Regular:size=25;5
 font-9 = mplus Nerd Font:style=Medium:size=22;3
 
+}}}
 
-;----------------------------------------------------------
-;			T O P   B A R   -   P R I M A R Y
-;----------------------------------------------------------
+; Top Bar - Primary {{{
 
 [bar/top-transparent]
 background     = #0000000a
@@ -113,11 +112,12 @@ inherit = bar/base
 
 modules-left = rofi right-end-power right-arrow-tail right-arrow-head i3
 modules-center = 
-modules-right = left-arrow-head left-arrow-tail left-arrow-head date time left-arrow-tail left-arrow-head powermenu
+modules-right = left-arrow-head left-arrow-tail left-arrow-head popup-calendar weather-simple left-arrow-tail left-arrow-head powermenu
 ;modules-right = left-arrow-head left-arrow-tail left-arrow-head date-alt 
-;----------------------------------------------------------
-;			T O P   B A R   -   S E C O N D A R Y
-;----------------------------------------------------------
+
+}}}
+
+; Top Bar - Secondary {{{
 
 [bar/top-secondary]
 inherit = bar/top-primary
@@ -125,9 +125,9 @@ inherit = bar/top-primary
 ;modules-center = date time
 ;tray-position = 
 
-;----------------------------------------------------------
-;			B O T T O M   B A R   -   P R I M A R Y
-;----------------------------------------------------------
+}}}
+
+; Bottom Bar - Primary {{{
 
 [bar/bottom-transparent]
 background     = #0000000a
@@ -164,9 +164,9 @@ tray-maxsize = 100
 ;tray-padding = 1
 ;tray-scale = 1.0
 
-;----------------------------------------------------------
-;			B O T T O M   B A R   -   S E C O N D A R Y
-;----------------------------------------------------------
+}}}
+
+; Bottom Bar - Secondary {{{
 
 [bar/bottom-secondary]
 inherit = bar/bottom-primary
@@ -183,9 +183,10 @@ format-prefix-font = ${layout.icon-font}
 format-prefix-foreground = ${color.icon-fg}
 format-prefix-padding-right = ${layout.icon-padding}
 
-;----------------------------------------------------------
-;			  R O F I   A P P   M E N U
-;----------------------------------------------------------
+
+}}}
+
+; Rofi Module {{{
 
 [module/rofi]
 type = custom/script
@@ -194,9 +195,9 @@ exec = echo "%{T1}%{T-}"
 click-left = rofi -modi run,drun,window -show drun
 format-padding = 1
 
-;----------------------------------------------------------
-;			  i 3 
-;----------------------------------------------------------
+}}}
+
+; i3 Module {{{
 
 [module/i3]
 type = internal/i3
@@ -264,9 +265,9 @@ label-mode = %mode%
 label-mode-background = ${color.module-bg}
 label-mode-padding = ${layout.i3-module-padding}
 
-;----------------------------------------------------------
-;			  X W I N D O W
-;----------------------------------------------------------
+}}}
+
+; xwindow Module {{{
 
 [module/xwindow]
 type = internal/xwindow
@@ -274,9 +275,9 @@ type = internal/xwindow
 
 label = %{T1}%title:0:35:...%%{T-}
 
-;----------------------------------------------------------
-;			  C P U
-;----------------------------------------------------------
+}}}
+
+; CPU Module {{{
 
 [module/cpu]
 type = internal/cpu
@@ -301,9 +302,9 @@ bar-load-fill = ${layout.bar-fill-icon}
 bar-load-indicator =
 bar-load-empty = ${layout.bar-fill-icon}
 
-;----------------------------------------------------------
-;			  M E M O R Y
-;----------------------------------------------------------
+}}}
+
+; Memory Module {{{
 
 [module/memory]
 type = internal/memory
@@ -319,9 +320,9 @@ label = %gb_used%
 ;format-prefix-foreground = ${color.icon-fg}
 format-prefix-padding-left = ${layout.icon-padding}
 
-;----------------------------------------------------------
-;			  T E M P E R A T U R E
-;----------------------------------------------------------
+}}}
+
+; Temperature Module {{{
 
 [module/temp]
 type = internal/temperature
@@ -354,9 +355,9 @@ format-warn-prefix-padding-right = ${layout.icon-padding}
 label-warn = ${self.label}
 label-warn-foreground = ${color.red}
 
-;----------------------------------------------------------
-;			  X K E Y B O A R D
-;----------------------------------------------------------
+}}}
+
+; xkeyboard Module {{{
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -369,9 +370,9 @@ label-indicator-underline = ${xcolor.color1}
 label-indicator-padding = 1
 label-indicator-margin = 1
 
-;----------------------------------------------------------
-;			  F I L E S Y S T E M
-;----------------------------------------------------------
+}}}
+
+; Filesystem Module {{{
 
 [module/filesystem]
 type = internal/fs
@@ -401,6 +402,10 @@ format-unmounted-prefix-padding-right = ${layout.icon-padding}
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${xcolor.color1}
 
+}}}
+
+; Network Module {{{
+
 [module/network]
 type = internal/network
 interval = 2
@@ -422,9 +427,9 @@ format-disconnected-prefix-font = ${layout.icon-font}
 format-disconnected-prefix-foreground = ${color.icon-fg}
 format-disconnected-prefix-padding-right = ${layout.icon-padding}
 
-;----------------------------------------------------------
-;	      W I R E L E S S    N E T W O R K
-;----------------------------------------------------------
+}}}
+
+; Wireless Network Module {{{
 
 [module/wlan]
 type = internal/network
@@ -439,9 +444,9 @@ format-disconnected-background = ${color.module-bg}
 format-connected-padding = ${layout.module-padding}
 format-disconnected-padding = ${layout.module-padding}
 
-;----------------------------------------------------------
-;   		      E T H E R N E T
-;----------------------------------------------------------
+}}}
+
+; Ethernet Module {{{
 
 [module/eth]
 inherit = module/network
@@ -452,9 +457,9 @@ label-connected = %local_ip%
 
 format-disconnected =
 
-;----------------------------------------------------------
-;   		      P I N G
-;----------------------------------------------------------
+}}}
+
+; Ping Module {{{
 
 [module/ping]
 type = custom/script
@@ -466,9 +471,9 @@ click-left = kill -USR1 %pid%
 
 format-prefix = %{T6} %{T-}
 
-;----------------------------------------------------------
-;   		      N E T W O R K     S T A T S
-;----------------------------------------------------------
+}}}
+
+; Network Status Module {{{
 
 [module/netstat]
 type = internal/network
@@ -477,9 +482,9 @@ interval = 3.0
 label-connected = "%{F#fb4934} %{F-}%upspeed% %{F#b8bb26} %{F-}%downspeed% "
 label-connected-background = ${color.module-bg}
 
-;----------------------------------------------------------
-;			  B L U E T O O T H
-;----------------------------------------------------------
+}}}
+
+; Bluetooth Module {{{
 
 [module/bluetooth]
 type = custom/script
@@ -489,9 +494,9 @@ label = %{T9}%output%%{T-}
 label-background = ${color.module-bg}
 label-padding = ${layout.module-padding}
 
-;----------------------------------------------------------
-;			 V P N 
-;----------------------------------------------------------
+}}}
+
+; VPN Module {{{
 
 [module/vpn]
 type = custom/script
@@ -502,9 +507,20 @@ label-background = ${color.module-bg}
 label-padding = ${layout.module-padding}
 
 label-font = 9
-;----------------------------------------------------------
-;		     D A T E  &  T I M E
-;----------------------------------------------------------
+
+}}}
+
+; Date & Time Modules {{{
+
+[module/popup-calendar]
+type = custom/script
+exec = ~/.bin/polybar/popup-calendar.sh
+interval = 5
+click-left = ~/.bin/polybar/popup-calendar.sh --popup &
+format-foreground = ${color.text-fg}
+format-background = ${color.module-bg}
+format-padding = 2
+format-prefix = %{T7} %{T-} 
 
 [module/date-alt]
 type = internal/date
@@ -541,16 +557,16 @@ format-background = ${color.module-bg}
 
 format-prefix =%{T7}%{T-}
 
-time =%{T1} %l:%M %p%{T-}
+time =%{T1}%l:%M %p%{T-}
 
 label =%time%
 
 ;format-prefix-padding = 1
 format-padding = 1
 
-;----------------------------------------------------------
-;			   W E A T H E R
-;----------------------------------------------------------
+}}}
+
+; Weather Modules {{{
 
 [module/weather-simple]
 type = custom/script
@@ -558,8 +574,8 @@ exec = ~/.bin/polybar/openweathermap-simple.sh
 interval = 300
 format-foreground = ${color.text-fg}
 format-background = ${color.module-bg}
-format-padding = 1
 label-font = 8
+label-padding-right = 1
 
 [module/weather]
 type = custom/script
@@ -568,11 +584,13 @@ format = <label>
 format-prefix = %{T6} %{T-}
 exec = $HOME/.bin/polybar/weather.sh
 interval = 1000
+format-foreground = ${color.text-fg}
+format-background = ${color.module-bg}
 label-font = 8
 
-;----------------------------------------------------------
-;			  P O W E R M E N U
-;----------------------------------------------------------
+}}}
+
+; Powermenu Module {{{
 
 [module/powermenu]
 type = custom/text
@@ -583,9 +601,9 @@ click-right = exec $HOME/.bin/i3/rofi-seesion
 content-background = ${color.module-bg}
 content-foreground = ${color.text-fg}
 
-;----------------------------------------------------------
-;			S P O T I F Y
-;----------------------------------------------------------
+}}}
+
+; Spotify Module {{{
 
 [module/spotify]
 type = custom/script
@@ -600,9 +618,9 @@ click-left = playerctl next
 click-middle = playerctl play-pause
 click-right = playerctl previous
 
-;----------------------------------------------------------
-;			V O L U M E
-;----------------------------------------------------------
+}}}
+
+; Volume Module {{{
 
 [module/alsa]
 type = internal/alsa
@@ -641,9 +659,9 @@ format-muted-prefix-padding-right = ${layout.icon-padding}
 
 label-muted = muted
 
-;----------------------------------------------------------
-;			  R E D S H I F T 
-;----------------------------------------------------------
+}}}
+
+; Redshift Module {{{
 
 [module/redshift]
 type = custom/script
@@ -654,9 +672,9 @@ format-foreground = ${color.text-fg}
 format-background = ${color.module-bg}
 format-padding = ${layout.module-padding}
 
-;----------------------------------------------------------
-;		     B A C K L I G H T
-;----------------------------------------------------------
+}}}
+
+; Backlight Module {{{
 
 [module/xbacklight]
 type = internal/xbacklight
@@ -690,9 +708,9 @@ ramp-capacity-padding-right = ${layout.icon-padding}
 ramp-padding-left = 1
 ramp-padding-right = 1
 
-;----------------------------------------------------------
-;			 B A T T E R Y
-;----------------------------------------------------------
+}}}
+
+; Battery Module {{{
 
 [module/battery]
 type = internal/battery
@@ -769,10 +787,9 @@ format-full-prefix-padding-right = ${layout.icon-padding}
 
 label-full = %{T6}%{T-}
 
+}}}
 
-;----------------------------------------------------------
-;			 B A T T E R Y     H A C K
-;----------------------------------------------------------
+; Battery Hack Module {{{
 
 [module/battery_hack]
 type = custom/script
@@ -780,9 +797,9 @@ inherit = generic-format-style
 exec = echo "%{T1} %{T-}"
 click-left = $HOME/.bin/polybar/battery
 
-;----------------------------------------------------------
-;			  T E X T    M O D U L E S
-;----------------------------------------------------------
+}}}
+
+; Powerline Modules {{{
 
 [module/left-arrow-head]
 type = custom/text
@@ -837,6 +854,4 @@ content = "%{T3}%{T-}"
 inherit = module/decor-glyph
 content = "%{T3}%{T-}"
 
-;#########################################################;
-;                 E N D    O F    F I L E                 :
-;#########################################################;
+}}}

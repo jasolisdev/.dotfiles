@@ -1,5 +1,5 @@
 ###########################################################################
-############		     i3 CONFIG FILE	            ###############
+############		        i3 CONFIG FILE	                ###############
 ###########################################################################
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 ################       Start of all the settings          #################
@@ -16,13 +16,7 @@
 # Print = PRINT key
 # Tab = TAB key
 
-# Key to rule them all : windows or Alt key?
-
-# Mod4 = windows key on keyboard or super key
-# Alt key is Mod1 if you want to change the $mod key
-set $mod Mod4
-
-################### COLORS ######################
+################### COLORS ###################### {{{
 
 # Set Colors
 set $hc-color #FFFFFF
@@ -68,8 +62,16 @@ client.unfocused        $borderInactive   $borderInactive     $borderInactive   
 client.urgent           $color9   	  $color9	      $color9    	$color9
 client.background       $bg-color
 
-################### ASSIGN ######################
-#
+#}}}
+
+################### ASSIGN ###################### {{{
+
+# Key to rule them all : windows or Alt key?
+
+# Mod4 = windows key on keyboard or super key
+# Alt key is Mod1 if you want to change the $mod key
+set $mod Mod4
+
 set $ws1 "1"
 set $ws2 "2"
 set $ws3 "3"
@@ -121,7 +123,13 @@ assign [class="Spotify|spotify"]                                       → 10
 #fix for spotify not moving to workspace 10
 for_window [class="Spotify"] move to workspace 10
 
-###################       GAPS      ##############################
+for_window [class="Oblogout"] fullscreen enable
+
+for_window [class="Yad" title="yad-calendar"] floating enable
+
+#}}}
+
+################### GAPS ######################## {{{
 
 # No titles, minimal borders
 for_window [class="^.*"] border pixel 3
@@ -137,6 +145,9 @@ new_window 1pixel
  gaps outer 0
 # smart_gaps on
  smart_borders on
+
+# i3-gaps-rounded
+border_radius 0
 
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
@@ -176,11 +187,15 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 
-################### WORKSPACE GAPS ######################
+#}}}
+
+################### WORKSPACE GAPS ############## {{{
 
 workspace 10 gaps inner 15
 
-################### FLOATING WINDOWS ####################
+#}}}
+
+################### FLOATING WINDOWS ############ {{{
 
 #  for_window [class="Lxappearance"] floating enable
 
@@ -206,8 +221,10 @@ for_window [instance="script-fu"] border normal
 
 #Popups during fullscreen mode
 popup_during_fullscreen smart
-  
-################### RESIZE ######################
+
+#}}}
+
+################### RESIZE ###################### {{{
 
 bindsym $mod+r mode "resize"
 
@@ -234,7 +251,9 @@ mode "resize" {
   bindsym Escape mode "default"
 }
 
-################### MOVE ######################
+#}}}
+
+################### MOVE ######################## {{{
 
 bindsym $mod+m mode "move" focus floating
 
@@ -256,7 +275,9 @@ mode "move" {
     bindsym Escape mode "default"
 }
 
-################### RELOAD AND EXIT #####################
+#}}}
+
+################### RELOAD AND EXIT ############# {{{
 
 # reload the configuration file
   bindsym $mod+Shift+c reload
@@ -270,18 +291,24 @@ bindsym $mod+Shift+e  exec $HOME/.bin/i3/rofi-session
 # Save Load or Delete Layouts
 bindsym $mod+Shift+i exec $HOME/.bin/i3/i3-layout-manager/layout_manager.sh 
 
-################### TERMINAL ######################
+#}}}
+
+################### TERMINAL #################### {{{
 
 # bindsym $mod+Return exec alacritty
 bindsym $mod+Return exec kitty
 
-################### MENU ######################
+#}}}
+
+################### MENU ######################## {{{
 
 # Uncomment to enable with Icons
 #bindsym $mod+d exec "rofi -show drun"
 bindsym $mod+d exec "rofi -modi run,drun,window -show drun"
 
-################### TILING PARAMETERS ##############################
+#}}}
+
+################### TILING PARAMETERS ########### {{{
 
 # orientation for new workspaces 
   default_orientation horizontal
@@ -327,14 +354,16 @@ bindsym $mod+d exec "rofi -modi run,drun,window -show drun"
   bindsym $mod+z layout tabbed
   bindsym $mod+x layout toggle split
 
-################### FUNCTION_KEYS ######################
+
+#}}}
+
+################### FUNCTION_KEYS ############### {{{
 
 # Change brightness
 bindsym XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 5
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5
 # bindsym XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 5 & exec ~/.bin/i3/brightness-notify
 # bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 & exec ~/.bin/i3/brightness-notify
-
 
 bindsym XF86AudioRaiseVolume  exec --no-startup-id amixer -q set Master 5%+
 bindsym XF86AudioLowerVolume  exec --no-startup-id amixer -q set Master 5%-
@@ -349,7 +378,9 @@ bindsym XF86AudioNext         exec --no-startup-id playerctl next
 # bindsym XF86AudioPrev         exec --no-startup-id mpc prev
 # bindsym XF86AudioNext         exec --no-startup-id mpc next
 
-################### KEY_BINDINGS  ################
+#}}}
+
+################### KEY_BINDINGS  ############### {{{
 
 focus_follows_mouse no
 
@@ -361,26 +392,33 @@ bindsym $mod+u exec $HOME/.bin/polybar/showpoly
 
 
 # Screen Shots
-bindsym Control+Print exec gnome-screenshot -i
 bindsym Print exec $HOME/.bin/screenshot
+bindsym Control+Print exec gnome-screenshot -a
+bindsym Control+Shift+Print exec gnome-screenshot -s
 
 # cycle workspaces
 bindsym $mod+q workspace back_and_forth
 bindsym $mod+Tab workspace next
 #bindsym $mod+w workspace next
 
-################### WALLPAPER ####################
+#}}}
 
-exec_always feh --bg-fill $HOME/.wallpapers/wall_19.jpg
+################### WALLPAPER ################### {{{
 
-################### POLYBAR ######################
+exec_always feh --bg-fill $HOME/.wallpapers/wall-alt.png
+
+#}}}
+
+################### POLYBAR ##################### {{{
 
 exec_always --no-startup-id $HOME/.bin/polybar/launch_polybar
 
 # bar toggle, hide or show 
 #bindsym $mod+h exec $HOME/.bin/bar mode toggle
 
-################### EXECUTE #####################
+#}}}
+
+################### EXECUTE ##################### {{{
 
 exec_always --no-startup-id $HOME/.bin/ext_monitor
 
@@ -421,6 +459,4 @@ bindsym $mod+i [class="Alacritty|kitty|google-chrome|Google-chrome|brave-browser
 bindsym $mod+n move scratchpad
 bindsym $mod+Shift+n scratchpad show
 
-for_window [class="Oblogout"] fullscreen enable
-
-border_radius 0
+#}}}

@@ -35,7 +35,7 @@
 
  alias pg='ping -c 1 www.google.com'
 
- alias vpn='sudo cyberghostvpn --traffic --country-code US --city "San Francisco" --connect'
+ alias vpn='sudo cyberghostvpn --traffic --country-code US --city "Los Angeles" --connect'
  alias svpn='sudo cyberghostvpn --stop'
  alias netui=nmtui
 
@@ -53,6 +53,8 @@
  alias testpowerline='echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"'
 
  alias ta='tmux attach-session -t0'
+ alias ide='~/.bin/tmux/ide'
+ alias mux='tmuxinator'
 
  alias todo='calcurse'
 
@@ -68,9 +70,9 @@
 
  alias py='python3'
 
- alias dev='cd ~/Dev/'
  alias home='cd ~/'
-
+ alias prj='cd ~/projects/'
+ alias dls='cd ~/Downloads/'
 
  alias rsx='redshift -x'
  alias rs53='redshift -O 5300'

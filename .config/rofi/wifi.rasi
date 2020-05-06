@@ -26,13 +26,13 @@ inputbar {
   }
 
 prompt {
-  font: "Inconsolata Nerd Font Bold 12";
+  font: "Source Code Pro Bold 12";
   text-color: @text-color;
 }
 
 entry {
   text-color: @text-color;
-  font: "Inconsolata Nerd Font12";
+  font: "Source Code Pro 12";
 }
 
 listview {
