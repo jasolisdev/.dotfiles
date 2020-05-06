@@ -11,8 +11,8 @@ export UPDATE_ZSH_DAYS=7
  [[ -f "$HOME/.zprofile" ]] \
     && source "$HOME/.zprofile"
  
-export EDITOR="vim"
-export VISUAL="vim"
+export EDITOR="nvim"
+export VISUAL="nvim"
 export TERMINAL="kitty"
 export BROWSER="brave"
 export READER="zathura"
@@ -52,7 +52,7 @@ bgnotify_formatted() {
 plugins=(
     # zsh-syntax-highlighting
     # zsh-completions
-    # zsh-autosuggestions
+    zsh-autosuggestions
     command-not-found
     colorize
     bgnotify

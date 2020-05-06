@@ -14,10 +14,10 @@ sleep 0.5
 [[ -z "$choice" ]] && exit 1
 
 case "$choice" in
-    0) exec ~/.bin/i3/lockscreen & dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop & ;;
-    1) systemctl suspend & ;;
-    2) systemctl hibernate & ;;
+    0) exec ~/.bin/i3/lockscreen ;; 
+    1) exec ~/.bin/rofi/promptmenu.sh --yes-command "systemctl suspend" --query "Suspend?" & ;;
+    2) exec ~/.bin/rofi/promptmenu.sh --yes-command "systemctl hibernate" --query "Hibernate?" & ;;
     3) exec i3-msg exit & dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop & ;;
-    4) systemctl reboot & ;;
-    5) systemctl poweroff & ;;
+    4) exec ~/.bin/rofi/promptmenu.sh --yes-command "systemctl reboot" --query "Reboot?" & ;;
+    5) exec ~/.bin/rofi/promptmenu.sh --yes-command "systemctl poweroff" --query "Poweroff?" & ;;
 esac

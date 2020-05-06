@@ -65,8 +65,9 @@
  alias ec='emacsclient'
  alias ect='emacsclient -t'
  alias e='emacs -nw'
-
+ 
  alias v='vim'
+ alias nv='nvim'
 
  alias py='python3'
 

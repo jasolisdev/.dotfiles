@@ -500,7 +500,7 @@ label-padding = ${layout.module-padding}
 
 [module/vpn]
 type = custom/script
-interval = 1
+interval = 100
 exec = ~/.bin/polybar/vpn.sh 
 ;label = %{T9}🖧ﰼ%{T-}
 label-background = ${color.module-bg}
