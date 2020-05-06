@@ -45,6 +45,9 @@
  alias journalctl='journalctl -r'
 
  alias dgit='git --git-dir ~/.dotfiles/.git --work-tree=$HOME'
+ alias dgs='dgit status'
+ alias dgc='dgit commit -m'
+ alias dga='dgit add -f'
 
  alias grep='grep --color=auto --exclude-dir={.git,.svn}'
 
