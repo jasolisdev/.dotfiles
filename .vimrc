@@ -196,6 +196,7 @@ Plug 'mhinz/vim-grepper'
 Plug 'jceb/vim-orgmode'
 Plug 'vim-utils/vim-man'
 Plug 'justinmk/vim-sneak'
+Plug 'matze/vim-move'
 
 " Tmux
 Plug 'benmills/vimux'
@@ -262,6 +263,7 @@ let g:gruvbox_underline=1
 let g:gruvbox_undercurl=1
 colorscheme gruvbox
 
+
 "" Use environment variable
 " if !empty($VIM_COLOR)
 "     silent! colorscheme $VIM_COLOR
@@ -290,6 +292,19 @@ highlight StartifyHeader  guifg=#7b8748 ctermfg=10
 " highlight StartifyPath ctermfg=4 
 " highlight StartifySlash   guifg=#a89984 ctermfg=7 
 " highlight StartifySpecial guifg=#a89984 ctermfg=7 
+let g:startify_session_dir = '~/.config/nvim/session'
+let g:startify_lists = [
+          \ { 'type': 'files',     'header': ['   Files']            },
+          \ { 'type': 'dir',       'header': ['   Current Directory '. getcwd()] },
+          \ { 'type': 'sessions',  'header': ['   Sessions']       },
+          \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
+          \ ]
+let g:startify_bookmarks = [
+            \ { 'c': '~/.config/i3/config' },
+            \ { 'i': '~/.config/nvim/init.vim' },
+            \ { 'z': '~/.zshrc' },
+            \ '~/projects',
+            \ ]
 
 if &term !=? 'linux' || has('gui_running')
     set listchars=tab:›\ ,extends:>,precedes:<,nbsp:˷,eol:⤶,trail:~
@@ -420,12 +435,15 @@ xnoremap <silent> <C-s> <Esc>:write<CR>
 inoremap <silent> <C-s> <C-o>:write<CR><Esc>
 
 " No highlight
+" execute "set <M-g>=\<Esc>b"
 nnoremap <silent> <M-b> :<C-u>nohlsearch<CR>
 
 "  }}} 
 
 " PLUGIN SETTINGS  {{{
 
+
+let g:move_key_modifier = 'C'
 " vim-sneak
 let g:sneak#label = 1
 

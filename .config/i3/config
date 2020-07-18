@@ -127,6 +127,7 @@ for_window [class="Oblogout"] fullscreen enable
 
 for_window [class="Yad" title="yad-calendar"] floating enable
 
+for_window [class="App" title="App"] floating enable
 #}}}
 
 ################### GAPS ######################## {{{
@@ -405,7 +406,7 @@ bindsym $mod+Tab workspace next
 
 ################### WALLPAPER ################### {{{
 
-exec_always feh --bg-fill $HOME/.wallpapers/wall-alt.png
+exec_always feh --bg-fill $HOME/.wallpapers/wall.png
 
 #}}}
 

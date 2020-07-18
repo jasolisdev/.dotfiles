@@ -34,6 +34,7 @@
  alias reflectug='sudo reflector --verbose --latest 10 --sort rate --save /etc/pacman.d/mirrorlist'
 
  alias pg='ping -c 1 www.google.com'
+ alias fix-wifi='sudo modprobe -r brcmfmac && sleep 10 $$ sudo modprobe brcmfmac'
 
  alias vpn='sudo cyberghostvpn --traffic --country-code US --city "Los Angeles" --connect'
  alias svpn='sudo cyberghostvpn --stop'
@@ -48,6 +49,7 @@
  alias dgs='dgit status'
  alias dgc='dgit commit -m'
  alias dga='dgit add -f'
+ alias dgp='dgit push origin master'
 
  alias grep='grep --color=auto --exclude-dir={.git,.svn}'
 
@@ -71,6 +73,7 @@
  
  alias v='vim'
  alias nv='nvim'
+ alias vim='nvim'
 
  alias py='python3'
 

@@ -87,8 +87,9 @@ font-4 = Source Code Pro:style=Medium:size=25;5
 font-5 = Source Code Pro:style=Medium:size=30;8
 font-6 = Source Code Pro:style=Medium:size=25;4
 font-7 = Weather Icons:style=Bold:size=25;8
-font-8 = Material Design Icons:style=Regular:size=25;5
+font-8 = Material Design Icons:style=Regular:size=25;7
 font-9 = mplus Nerd Font:style=Medium:size=22;3
+font-10 = Font Awesome 5 Free:style=Regular:size=10
 
 }}}
 
@@ -111,8 +112,11 @@ inherit = bar/base
 ;radius = 10
 
 modules-left = rofi right-end-power right-arrow-tail right-arrow-head i3
-modules-center = 
-modules-right = left-arrow-head left-arrow-tail left-arrow-head popup-calendar weather-simple left-arrow-tail left-arrow-head powermenu
+modules-center = popup-calendar 
+modules-right = left-arrow-head left-arrow-tail left-arrow-head wlan bluetooth xbacklight alsa battery left-arrow-tail left-arrow-head powermenu
+
+;modules-right = left-arrow-head left-arrow-tail left-arrow-head popup-calendar left-arrow-tail left-arrow-head powermenu
+;modules-right = left-arrow-head left-arrow-tail left-arrow-head popup-calendar left-arrow-tail left-arrow-head powermenu
 ;modules-right = left-arrow-head left-arrow-tail left-arrow-head date-alt 
 
 }}}
@@ -131,7 +135,6 @@ inherit = bar/top-primary
 
 [bar/bottom-transparent]
 background     = #0000000a
-
 height = 90
 modules-center =  i3
 
@@ -436,7 +439,8 @@ type = internal/network
 interface = ${env:IFACE_WLAN}
 interval = 3
 
-label-connected = %{A1:networkmanager_dmenu:} 直%{A}
+;label-connected = %{A1:networkmanager_dmenu:} 直%{A}
+label-connected = %{A1:networkmanager_dmenu:} 直%{A} %essid%
 label-disconnected = %{A1:networkmanager_dmenu:} 睊%{A}
 
 format-connected-background = ${color.module-bg}
@@ -489,6 +493,7 @@ label-connected-background = ${color.module-bg}
 [module/bluetooth]
 type = custom/script
 exec = ~/.bin/polybar/bluetooth.sh
+click-left = exec blueman-manager &
 interval = 100
 label = %{T9}%output%%{T-}
 label-background = ${color.module-bg}
@@ -518,9 +523,9 @@ exec = ~/.bin/polybar/popup-calendar.sh
 interval = 5
 click-left = ~/.bin/polybar/popup-calendar.sh --popup &
 format-foreground = ${color.text-fg}
-format-background = ${color.module-bg}
+;format-background = ${color.module-bg}
 format-padding = 2
-format-prefix = %{T7} %{T-} 
+;format-prefix = %{T7} %{T-} 
 
 [module/date-alt]
 type = internal/date
@@ -607,13 +612,12 @@ content-foreground = ${color.text-fg}
 
 [module/spotify]
 type = custom/script
-inherit = generic-format-style
-format-prefix = %{T6} %{T-}
+;inherit = generic-format-style
+;format-prefix = %{T6} %{T-}
 format-prefix-foreground = ${color.icon-fg-alt}
 exec = $HOME/.bin/polybar/spotify.sh %artist% - %title%
 tail = true
 interval = 2
-
 click-left = playerctl next
 click-middle = playerctl play-pause
 click-right = playerctl previous
@@ -626,23 +630,29 @@ click-right = playerctl previous
 type = internal/alsa
 
 ; Not muted
-format-volume = <ramp-volume><bar-volume>
+;format-volume = <ramp-volume>
+format-volume = <ramp-volume><label-volume>
+;format-volume = <ramp-volume><bar-volume>
 format-volume-background = ${color.module-bg}
 ;format-volume-padding = ${layout.module-padding}
-format-volume-padding = 1
+;format-volume-padding = 1
 
 ramp-volume-font = ${layout.icon-font}
-ramp-volume-foreground = ${color.icon-fg}
+;ramp-volume-foreground = ${color.icon-fg}
 
 ramp-volume-padding-right = ${layout.icon-padding}
+ramp-volume-padding-left = ${layout.icon-padding}
 
-ramp-volume-0 = %{T6}墳%{T-}
+ramp-volume-0 = %{T11}%{T-}
+ramp-volume-1 = %{T11}%{T-}
+ramp-volume-2 = %{T11}%{T-}
+;ramp-volume-1 = %{T6}墳%{T-}
 
 ; Bar
 bar-volume-format = ${layout.bar-format}
 bar-volume-foreground-0 = ${color.bar-fg}
 
-bar-volume-width = 6
+bar-volume-width = 5
 bar-volume-fill = ${layout.bar-fill-icon}
 bar-volume-indicator =
 bar-volume-empty = ${layout.bar-fill-icon}
@@ -654,7 +664,7 @@ format-muted-padding = ${layout.module-padding}
 
 format-muted-prefix = %{T6}婢%{T-} 
 format-muted-prefix-font = ${layout.icon-font}
-format-muted-prefix-foreground = ${color.icon-fg}
+;format-muted-prefix-foreground = ${color.icon-fg}
 format-muted-prefix-padding-right = ${layout.icon-padding}
 
 label-muted = muted
@@ -729,27 +739,28 @@ ramp-capacity-font = ${layout.icon-font}
 ramp-capacity-foreground = ${color.text-fg}
 ramp-capacity-padding-right = ${layout.icon-padding}
 
-ramp-capacity-0 = %{T6}%{T-}
+ramp-capacity-0 = %{T6}󱃍%{T-}
 ramp-capacity-0-foreground = #fb4934
 
-ramp-capacity-1 = %{T6}%{T-}
+ramp-capacity-1 = %{T6}󰁺%{T-}
 ramp-capacity-1-foreground = #fb4934
 
-ramp-capacity-2 = %{T6}%{T-}
+ramp-capacity-2 = %{T6}󰁻%{T-}
 ramp-capacity-2-foreground = #fb4934
 
-ramp-capacity-3 = %{T6}%{T-}
+ramp-capacity-3 = %{T6}󰁼%{T-}
 ramp-capacity-3-foreground = #fabd2f
 
-ramp-capacity-4 = %{T6}%{T-}
-ramp-capacity-5 = %{T6}%{T-}
-ramp-capacity-6 = %{T6}%{T-}
-ramp-capacity-7 = %{T6}%{T-}
-ramp-capacity-8 = %{T6}%{T-}
-ramp-capacity-9 = %{T6}%{T-}
-ramp-capacity-10 = %{T6}%{T-}
+ramp-capacity-4 = %{T6}󰁽%{T-}
+ramp-capacity-5 = %{T6}󰁾%{T-}
+ramp-capacity-6 = %{T6}󰁿%{T-}
+ramp-capacity-7 = %{T6}󰂀%{T-}
+ramp-capacity-8 = %{T6}󰂁%{T-}
+ramp-capacity-9 = %{T6}󰂂%{T-}
+ramp-capacity-10 = %{T6}󰁹%{T-}
 
-label-discharging = %percentage%
+;label-discharging = 
+label-discharging = %percentage%%
 ;label-discharging = %percentage%％
 
 ; Charging
@@ -764,13 +775,15 @@ animation-charging-padding-right = ${layout.icon-padding}
 ;animation-charging-padding-left = ${layout.icon-padding}
 
 animation-charging-framerate = 500
-animation-charging-0 = %{T6}%{T-}
-animation-charging-1 = %{T6}%{T-}
-animation-charging-2 = %{T6}%{T-}
-animation-charging-3 = %{T6}%{T-}
-animation-charging-4 = %{T6}%{T-}
-animation-charging-5 = %{T6}%{T-}
-animation-charging-6 = %{T6}%{T-}
+animation-charging-0 = %{T6}󰢜%{T-}
+animation-charging-1 = %{T6}󰂆%{T-}
+animation-charging-2 = %{T6}󰂇%{T-}
+animation-charging-3 = %{T6}󰂈%{T-}
+animation-charging-4 = %{T6}󰂉%{T-}
+animation-charging-5 = %{T6}󰢞%{T-}
+animation-charging-6 = %{T6}󰂊%{T-}
+animation-charging-7 = %{T6}󰂋%{T-}
+animation-charging-8 = %{T6}󰂅%{T-}
 
 label-charging = ${self.label-discharging}
 
@@ -780,12 +793,12 @@ label-charging-foreground = ${color.text-fg}
 format-full-background = ${color.module-bg}
 format-full-padding = ${layout.module-padding}
 
-;format-full-prefix = %{T6}%{T-}
+;format-full-prefix = %{T6}󰂄%{T-}
 ;format-full-prefix-font = ${layout.icon-font}
 ;format-full-prefix-foreground = ${color.text-fg}
 format-full-prefix-padding-right = ${layout.icon-padding}
 
-label-full = %{T6}%{T-}
+label-full = %{T6}󰂄%{T-}
 
 }}}
 
@@ -794,7 +807,7 @@ label-full = %{T6}%{T-}
 [module/battery_hack]
 type = custom/script
 inherit = generic-format-style
-exec = echo "%{T1} %{T-}"
+exec = echo "%{T1}%{T-}"
 click-left = $HOME/.bin/polybar/battery
 
 }}}
