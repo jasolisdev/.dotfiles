@@ -406,7 +406,7 @@ bindsym $mod+Tab workspace next
 
 ################### WALLPAPER ################### {{{
 
-exec_always feh --bg-fill $HOME/.wallpapers/wall.png
+exec_always feh --bg-fill $HOME/.wallpapers/wall-alt.png
 
 #}}}
 

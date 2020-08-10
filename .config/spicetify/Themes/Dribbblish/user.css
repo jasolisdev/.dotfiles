@@ -1081,7 +1081,7 @@ body.video-full-screen .view-player .player-controls-container .progress-contain
 
 .view-player .player-controls-container {
     text-align: left;
-    flex: 1 1;
+    flex: 0;
     order: 0;
     min-width: 220px;
 }
@@ -1092,13 +1092,13 @@ body.video-full-screen .view-player .player-controls-container .progress-contain
 
 .view-player .now-playing-container {
     flex: 2 1;
-    order: 2;
+    /* order: 2; */
     min-width: 0;
 }
 
 .view-player .now-playing-container .caption {
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     font-family: var(--info-font-family);
 }
 

@@ -113,7 +113,7 @@ inherit = bar/base
 
 modules-left = rofi right-end-power right-arrow-tail right-arrow-head i3
 modules-center = popup-calendar 
-modules-right = left-arrow-head left-arrow-tail left-arrow-head wlan bluetooth xbacklight alsa battery left-arrow-tail left-arrow-head powermenu
+modules-right = left-arrow-head left-arrow-tail left-arrow-head powermenu
 
 ;modules-right = left-arrow-head left-arrow-tail left-arrow-head popup-calendar left-arrow-tail left-arrow-head powermenu
 ;modules-right = left-arrow-head left-arrow-tail left-arrow-head popup-calendar left-arrow-tail left-arrow-head powermenu
@@ -151,9 +151,8 @@ bottom = true
 ;offset-y = 20
 ;radius = 10
 
-
 modules-left = spotify alsa right-arrow-head right-arrow-tail right-arrow-head
-modules-right = left-arrow-head left-arrow-tail left-arrow-head wlan vpn redshift xbacklight battery
+modules-right = left-arrow-head left-arrow-tail left-arrow-head wlan bluetooth redshift xbacklight battery
 
 ;tray-position = right
 ;tray-background = ${color.module-bg}
@@ -439,8 +438,8 @@ type = internal/network
 interface = ${env:IFACE_WLAN}
 interval = 3
 
-;label-connected = %{A1:networkmanager_dmenu:} 直%{A}
-label-connected = %{A1:networkmanager_dmenu:} 直%{A} %essid%
+label-connected = %{A1:networkmanager_dmenu:} 直%{A}
+;label-connected = %{A1:networkmanager_dmenu:} 直%{A} %essid%
 label-disconnected = %{A1:networkmanager_dmenu:} 睊%{A}
 
 format-connected-background = ${color.module-bg}
@@ -612,9 +611,9 @@ content-foreground = ${color.text-fg}
 
 [module/spotify]
 type = custom/script
-;inherit = generic-format-style
-;format-prefix = %{T6} %{T-}
-format-prefix-foreground = ${color.icon-fg-alt}
+inherit = generic-format-style
+format-prefix = %{T6} %{T-}
+format-prefix-foreground = #8ec07c
 exec = $HOME/.bin/polybar/spotify.sh %artist% - %title%
 tail = true
 interval = 2
@@ -631,8 +630,8 @@ type = internal/alsa
 
 ; Not muted
 ;format-volume = <ramp-volume>
-format-volume = <ramp-volume><label-volume>
-;format-volume = <ramp-volume><bar-volume>
+;format-volume = <ramp-volume><label-volume>
+format-volume = <ramp-volume><bar-volume>
 format-volume-background = ${color.module-bg}
 ;format-volume-padding = ${layout.module-padding}
 ;format-volume-padding = 1
@@ -690,7 +689,7 @@ format-padding = ${layout.module-padding}
 type = internal/xbacklight
 inherit = generic-format-style
 
-;format = <ramp> <label>
+;format = <ramp><label>%
 format = <ramp>
 
 label = %percentage%
