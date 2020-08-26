@@ -1,0 +1,567 @@
+2020-07-09 20:08:42	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:08:42	--	Channel #its_jay_phillz: 1 nick (0 ops, 0 voices, 1 normal)
+2020-07-09 20:08:42		-- Title is "Pull Up & Code! Thursdays are for bite-sized proejcts!.Svelte, Typescript, Tachyons -  build our own linktr.ee/carrd page. "
+2020-07-09 20:08:54	-->	weazelbeast2020 (weazelbeast2020@weazelbeast2020.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:08:54	-->	boston_mass (boston_mass@boston_mass.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:08:54	-->	its_jay_phillz (its_jay_phillz@its_jay_phillz.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:08:54	-->	jsonpbot (jsonpbot@jsonpbot.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:08:54	-->	l33t_rose (l33t_rose@l33t_rose.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:08:54	-->	seafilmz (seafilmz@seafilmz.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:09:38	pretzelrocks	Now Playing: EHFAR by B-Turn -> https://prtzl.to/gxHyqgaDfb
+2020-07-09 20:10:40	pretzelrocks	Now Playing: If I Were a Jedi (That Would be Hella Awesome) (feat. Brian Mazzaferri) by Brian Mazzaferri & MC Lars -> https://prtzl.to/LxHQAyEQT5
+2020-07-09 20:12:05	-->	rollerss (rollerss@rollerss.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:12:43	pretzelrocks	Now Playing: Work of Art by Petravita -> https://prtzl.to/WBHz7o7bSy
+2020-07-09 20:13:10	l33t_rose	Man as much I want to rip on Apple for its decision I'd be lying if I said it's OS wasn't cool. Having unix a d then going back to cmd was so sad 😥
+2020-07-09 20:13:28	l33t_rose	and*
+2020-07-09 20:16:07	pretzelrocks	Now Playing: Destiny 2 (Ft Mega Ran) by Mega Ran & Creative Mind Frame -> https://prtzl.to/ABHxAWzBIB
+2020-07-09 20:19:40	pretzelrocks	Now Playing: Cure (ft. 13th Son) by James Flamestar & 13th Son -> https://prtzl.to/J3H5bn5XCy
+2020-07-09 20:20:12	-->	randomtorage (randomtorage@randomtorage.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:20:12	-->	thedevilisob (thedevilisob@thedevilisob.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:22:06	l33t_rose	Do you have to add typescript everytime you start a new project?
+2020-07-09 20:22:19	pretzelrocks	Now Playing: Dragon Blood (Instrumental) by MC Lars -> https://prtzl.to/0OHLAV3zSJ
+2020-07-09 20:22:19	fraynklin	New to the stream, what are you currently building up Jay
+2020-07-09 20:22:28	randomtorage	yo, you doing alright today? also staying hydrated
+2020-07-09 20:22:46	fraynklin	I thought Svelte didn't have TS support yet?!?!
+2020-07-09 20:23:52	fraynklin	I'm currently a Sr. UI Engineer, but I'm kinda burnt on coding as much, is it very difficult to move to managing engineer teams?
+2020-07-09 20:24:18	-->	drawntolife (drawntolife@drawntolife.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:24:18	-->	fraynklin (fraynklin@fraynklin.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:24:18	-->	raycatwhodat (raycatwhodat@raycatwhodat.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:24:18	<--	boston_mass (boston_mass@boston_mass.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:25:21	pretzelrocks	Now Playing: Take It Back to Define (Dmaic) by Creative Mind Frame -> https://prtzl.to/14HNG5lBfr
+2020-07-09 20:25:39	fraynklin	I'm ready for the people management aspect, i want to code less at work and instead write it at home for enjoyment moreso
+2020-07-09 20:26:32	-->	twisted_mentat (twisted_mentat@twisted_mentat.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:26:32	<--	drawntolife (drawntolife@drawntolife.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:26:38	l33t_rose	What responsibilities do you undertake when managing devs?
+2020-07-09 20:27:06	raycatwhodat	Your job moves from showing how good you are and amplifying how good other people are.
+2020-07-09 20:27:15	raycatwhodat	to*
+2020-07-09 20:27:41	-->	commanderroot (commanderroot@commanderroot.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:27:41	-->	tottiquijano (tottiquijano@tottiquijano.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:28:26	raycatwhodat	You'll also find out just how much employee churn hurts.
+2020-07-09 20:29:06	pretzelrocks	Now Playing: Baskets by James Flamestar -> https://prtzl.to/P2HOJpadfn
+2020-07-09 20:29:46	-->	om_n0m_n0m (om_n0m_n0m@om_n0m_n0m.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:29:46	-->	thealtf4stream (thealtf4stream@thealtf4stream.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:29:46	<--	tottiquijano (tottiquijano@tottiquijano.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:30:13	l33t_rose	Hello friends VoHiYo
+2020-07-09 20:30:24	thealtf4stream	Thanks my dude!
+2020-07-09 20:30:24	its_jay_phillz	!so thealtf4stream
+2020-07-09 20:30:25	jsonpbot	Shout out to @thealtf4stream! Make sure you hit them up at https://twitch.tv/thealtf4stream
+2020-07-09 20:30:33	twisted_mentat	itsjay20GODTIER itsjay20GODTIER
+2020-07-09 20:31:28	thealtf4stream	It was great my dude! Was working on Symphony - the cloud one LUL
+2020-07-09 20:31:36	thealtf4stream	Love working with Go - do it as much as I can
+2020-07-09 20:31:40	fleerless	Sup bromoigo!
+2020-07-09 20:31:54	pretzelrocks	Now Playing: The Sea On A Sunny Afternoon by James Flamestar -> https://prtzl.to/oLH9jyleFA
+2020-07-09 20:31:56	-->	eileenthedev (eileenthedev@eileenthedev.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:31:56	-->	shipshupe (shipshupe@shipshupe.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:31:56	-->	bhanu475 (bhanu475@bhanu475.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:31:56	-->	razzberry_v2 (razzberry_v2@razzberry_v2.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:31:56	-->	offtheband (offtheband@offtheband.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:31:56	-->	2ndwitness (2ndwitness@2ndwitness.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:31:56	-->	allanisgud (allanisgud@allanisgud.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:31:56	-->	literally_a_cat (literally_a_cat@literally_a_cat.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:31:56	-->	oomariaoo (oomariaoo@oomariaoo.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:31:56	-->	nanaboiboi (nanaboiboi@nanaboiboi.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:31:56	-->	funkycatz (funkycatz@funkycatz.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:31:56	-->	cmgriffing (cmgriffing@cmgriffing.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:31:56	-->	pauldala (pauldala@pauldala.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:31:56	-->	poppinintheclub11 (poppinintheclub11@poppinintheclub11.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:31:56	-->	foreignlive (foreignlive@foreignlive.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:33:16	fearfulboi	Hi is your background blue because you are sad?
+2020-07-09 20:33:21	raycatwhodat	tksTF
+2020-07-09 20:34:02	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:34:02	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:34:02	-->	fleerless (fleerless@fleerless.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:34:02	-->	htime1 (htime1@htime1.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:34:02	-->	biggysnails (biggysnails@biggysnails.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:34:02	-->	fearfulboi (fearfulboi@fearfulboi.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:34:02	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:34:02	<--	fraynklin (fraynklin@fraynklin.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:35:04	l33t_rose	Wait so did you convert from the tailwind cult? LUL
+2020-07-09 20:35:20	pretzelrocks	Now Playing: Puddles And Splashes by James Flamestar -> https://prtzl.to/oLH9jy9GIA
+2020-07-09 20:36:02	skyrainlightning	hello
+2020-07-09 20:36:02	raycatwhodat	Tailwind stands on Tachyons' shoulders
+2020-07-09 20:36:21	-->	marcelobonow (marcelobonow@marcelobonow.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:36:21	<--	biggysnails (biggysnails@biggysnails.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:36:21	<--	shipshupe (shipshupe@shipshupe.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:36:21	<--	htime1 (htime1@htime1.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:36:34	raycatwhodat	yuh
+2020-07-09 20:37:13	its_jay_phillz	itsjay20GODTIER
+2020-07-09 20:37:33	skyrainlightning	I want to develop correctly but I am too much new
+2020-07-09 20:37:46	skyrainlightning	unity is good I heard
+2020-07-09 20:38:15	pretzelrocks	Now Playing: Pi(E) Day by Ohm-I & Creative Mind Frame -> https://prtzl.to/GRHlBa5ls8
+2020-07-09 20:38:24	-->	biggysnails (biggysnails@biggysnails.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:38:24	-->	skyrainlightning (skyrainlightning@skyrainlightning.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:38:24	<--	om_n0m_n0m (om_n0m_n0m@om_n0m_n0m.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:38:24	<--	bhanu475 (bhanu475@bhanu475.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:38:33	skyrainlightning	Yeah game development
+2020-07-09 20:39:17	l33t_rose	SkyRain what are you doing to start game dev?
+2020-07-09 20:40:21	skyrainlightning	I will start some basic 2D then I try 3D
+2020-07-09 20:40:24	raycatwhodat	And if you plan on making an MMO, don't.
+2020-07-09 20:40:31	-->	aten (aten@aten.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:40:31	<--	raycatwhodat (raycatwhodat@raycatwhodat.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:41:07	skyrainlightning	unity is good ?
+2020-07-09 20:41:26	l33t_rose	It's a great place to start game dev imo
+2020-07-09 20:41:28	pretzelrocks	Now Playing: Con Life by Vince Vandal & Creative Mind Frame -> https://prtzl.to/WBHz7Y4jCy
+2020-07-09 20:41:38	raycatwhodat	Are you asking for an opinion or are you trying to avoid making a "wrong choice"?
+2020-07-09 20:41:38	skyrainlightning	I am searching for easy game engine
+2020-07-09 20:42:34	l33t_rose	Am I allowed to suggest a great source jay?
+2020-07-09 20:42:46	-->	keysenz (keysenz@keysenz.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:42:46	-->	raycatwhodat (raycatwhodat@raycatwhodat.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:42:46	-->	trainmike (trainmike@trainmike.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:43:00	skyrainlightning	I need opinions so please anything helps
+2020-07-09 20:43:13	raycatwhodat	Just choose one and go for it.
+2020-07-09 20:43:20	raycatwhodat	Don't worry about wrong choices.
+2020-07-09 20:43:26	weazelbeast2020	pygame :P
+2020-07-09 20:43:32	skyrainlightning	Yeah I think I go with unity
+2020-07-09 20:43:37	raycatwhodat	Still fine. @weazelbeast2020
+2020-07-09 20:44:10	l33t_rose	Aight lit. There is a great channel called Brackey's that deals with Unity.
+2020-07-09 20:44:14	weazelbeast2020	thanks @Its_Jay_Phillz
+2020-07-09 20:44:25	skyrainlightning	Yeah I know it
+2020-07-09 20:44:33	skyrainlightning	I watched some
+2020-07-09 20:44:39	skyrainlightning	I liked unity
+2020-07-09 20:44:43	<--	trainmike (trainmike@trainmike.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:45:06	l33t_rose	Oh awesome!
+2020-07-09 20:45:06	skyrainlightning	It is for beginners that is what I want
+2020-07-09 20:45:07	pretzelrocks	Now Playing: The Ballad of Hans Moleman by MC Lars -> https://prtzl.to/mVH3ewn6tW
+2020-07-09 20:46:19	oomariaoo	HeyGuys
+2020-07-09 20:46:51	<--	offtheband (offtheband@offtheband.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:46:51	<--	marcelobonow (marcelobonow@marcelobonow.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:47:55	l33t_rose	skyrain once you feel comfortable creating games I think you shoupd try out a game jam
+2020-07-09 20:48:04	l33t_rose	should*
+2020-07-09 20:48:21	seafilmz	Hello, I just followed you on twitter. My twitter is https://twitter.com/SeaFilmz
+2020-07-09 20:48:30	pretzelrocks	Now Playing: Forever - Original Mix by Poolz -> https://prtzl.to/DnHrDLybTo
+2020-07-09 20:48:39	oomariaoo	What project are you working on rn looranLurk
+2020-07-09 20:49:13	raycatwhodat	man, people are weird
+2020-07-09 20:50:03	<--	skyrainlightning (skyrainlightning@skyrainlightning.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:50:10	oomariaoo	ahaa
+2020-07-09 20:50:14	oomariaoo	sounds cool
+2020-07-09 20:50:44	twisted_mentat	itsjay20SUCCESS itsjay20SUCCESS itsjay20SUCCESS
+2020-07-09 20:51:20	raycatwhodat	The curse of new JS projects
+2020-07-09 20:51:43	twisted_mentat	You know fearfulboi personally, Jay :D. In case you weren't sure lol
+2020-07-09 20:51:55	skyrainlightning	The coding is a problem for me but I am learning
+2020-07-09 20:52:01	-->	bloodlustr (bloodlustr@bloodlustr.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:52:01	-->	beachamc (beachamc@beachamc.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:52:01	<--	2ndwitness (2ndwitness@2ndwitness.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:52:19	pretzelrocks	Now Playing: Zombie T-Rex (featuring STZA Crack) by MC Lars -> https://prtzl.to/rlHg7wBdIE
+2020-07-09 20:52:24	raycatwhodat	NAH
+2020-07-09 20:52:27	raycatwhodat	NEVER FEAR
+2020-07-09 20:52:31	twisted_mentat	That's what up, man, it's a good thing lol
+2020-07-09 20:52:33	raycatwhodat	Tell 'em to square up
+2020-07-09 20:53:55	weazelbeast2020	Getting these dataframes understood is a nightmare for me right now, my executive function disorder aint helping one bit either
+2020-07-09 20:54:14	-->	skyrainlightning (skyrainlightning@skyrainlightning.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:54:14	<--	randomtorage (randomtorage@randomtorage.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:54:23	raycatwhodat	Is TypeScript looking for the right extension?
+2020-07-09 20:54:36	skyrainlightning	I am learning the Python language it is the easiest but still have some hardness
+2020-07-09 20:54:47	pretzelrocks	Now Playing: LEVEL UP by DUELLE -> https://prtzl.to/pYHk0VjYfV
+2020-07-09 20:54:52	raycatwhodat	mmhmm
+2020-07-09 20:55:05	fearfulboi	Pizza Roll Player
+2020-07-09 20:55:17	raycatwhodat	Isn't that a separate plugin with separate config
+2020-07-09 20:56:19	-->	xtremedaf0rest (xtremedaf0rest@xtremedaf0rest.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:56:19	-->	neuromancer2 (neuromancer2@neuromancer2.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:56:19	-->	zraida (zraida@zraida.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 20:56:19	<--	bloodlustr (bloodlustr@bloodlustr.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:57:15	eileenthedev	i'm new here. i love the senior engr to manager talk. I'm probably heading that way but it's hard to let go ....
+2020-07-09 20:57:44	pretzelrocks	Now Playing: Don't Be a Cyberbully (feat. Wheatus & Ash Wednesday) by MC Lars, Wheatus & Ash Wednesday -> https://prtzl.to/xyHL7kGjUy
+2020-07-09 20:58:07	raycatwhodat	@EileenTheDev You don't have to give it up if you can configure your editor with code tksSell
+2020-07-09 20:58:25	raycatwhodat	What was the problem?
+2020-07-09 20:58:29	<--	zraida (zraida@zraida.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:58:29	<--	skyrainlightning (skyrainlightning@skyrainlightning.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:58:29	<--	neuromancer2 (neuromancer2@neuromancer2.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 20:59:47	eileenthedev	yes, you hit it.
+2020-07-09 21:00:39	-->	roman553 (roman553@roman553.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:00:39	<--	beachamc (beachamc@beachamc.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:00:52	raycatwhodat	oh
+2020-07-09 21:00:59	raycatwhodat	small tidbit
+2020-07-09 21:01:18	raycatwhodat	Is allowJS true in your tsconfig.json?
+2020-07-09 21:01:33	pretzelrocks	Now Playing: Coolside by James Flamestar -> https://prtzl.to/j6HaJQP7fQ
+2020-07-09 21:02:11	markitomagic	no being lazy fam
+2020-07-09 21:02:40	-->	stackoverflows (stackoverflows@stackoverflows.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:02:40	-->	gwalterix (gwalterix@gwalterix.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:02:40	<--	xtremedaf0rest (xtremedaf0rest@xtremedaf0rest.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:02:54	markitomagic	it's me, Mark!
+2020-07-09 21:02:59	raycatwhodat	peep them commits, when did you yeet it
+2020-07-09 21:03:50	raycatwhodat	hawt
+2020-07-09 21:03:53	markitomagic	just peeping out the magic baby
+2020-07-09 21:04:02	pretzelrocks	Now Playing: For RENE BROWN by D.R.U -> https://prtzl.to/BJHb4QA5CN
+2020-07-09 21:04:41	raycatwhodat	whew
+2020-07-09 21:04:52	-->	relativeabsolute (relativeabsolute@relativeabsolute.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:04:52	-->	markitomagic (markitomagic@markitomagic.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:04:52	<--	gwalterix (gwalterix@gwalterix.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:04:52	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:05:00	raycatwhodat	I've been drinking this Liquid Death and this ish is SHARP
+2020-07-09 21:05:40	raycatwhodat	Yep!
+2020-07-09 21:05:52	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:05:52	<--	thealtf4stream (thealtf4stream@thealtf4stream.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:07:53	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:07:53	-->	dota2attitude (dota2attitude@dota2attitude.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:07:53	<--	keysenz (keysenz@keysenz.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:08:16	raycatwhodat	tsc init is a good tool
+2020-07-09 21:08:46	pretzelrocks	Now Playing: Choose Player by Beats With Kev -> https://prtzl.to/2GH3JRBYIy
+2020-07-09 21:09:00	ravonus	whats up
+2020-07-09 21:10:56	-->	ravonus (ravonus@ravonus.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:10:56	-->	nicthrow (nicthrow@nicthrow.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:10:56	<--	markitomagic (markitomagic@markitomagic.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:11:26	pretzelrocks	Now Playing: Socks and Slides by Creative Mind Frame -> https://prtzl.to/blH0yLz7Fq
+2020-07-09 21:13:03	-->	novedies (novedies@novedies.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:13:03	<--	raycatwhodat (raycatwhodat@raycatwhodat.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:13:03	<--	dota2attitude (dota2attitude@dota2attitude.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:13:58	<--	rollerss (rollerss@rollerss.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:15:52	-->	cerebral3d (cerebral3d@cerebral3d.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:15:52	-->	davecodes (davecodes@davecodes.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:15:52	<--	novedies (novedies@novedies.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:15:52	<--	roman553 (roman553@roman553.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:17:12	mewtru	omg hiiii
+2020-07-09 21:17:14	vinny_code	mewtruCool itsjay20GODTIER itsjay20SUCCESS itsjay20RAID
+2020-07-09 21:17:29	its_jay_phillz	!so mewtru
+2020-07-09 21:17:30	jsonpbot	Shout out to @mewtru! Make sure you hit them up at https://twitch.tv/mewtru
+2020-07-09 21:18:03	-->	mewtru (mewtru@mewtru.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:18:03	-->	99kr (99kr@99kr.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:18:03	-->	impossiblemushroom (impossiblemushroom@impossiblemushroom.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:18:03	-->	snapshot0573 (snapshot0573@snapshot0573.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:18:03	-->	ccesar88 (ccesar88@ccesar88.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:18:03	-->	doctorvem (doctorvem@doctorvem.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:18:03	<--	pauldala (pauldala@pauldala.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:18:21	twisted_mentat	How's it going, everyone? :D
+2020-07-09 21:19:44	ravonus	@twisted_mentat oh its going
+2020-07-09 21:20:08	raycatwhodat	This joint ain't maintained
+2020-07-09 21:20:09	-->	me_jtz (me_jtz@me_jtz.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	-->	samueltheboi (samueltheboi@samueltheboi.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	-->	vapejuicejordan (vapejuicejordan@vapejuicejordan.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	-->	gl0ckner (gl0ckner@gl0ckner.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	-->	pauldala (pauldala@pauldala.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	-->	fangskillz (fangskillz@fangskillz.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	-->	plnrnd (plnrnd@plnrnd.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	-->	mrbladebrownjr (mrbladebrownjr@mrbladebrownjr.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	-->	daneharnett (daneharnett@daneharnett.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	-->	cachong (cachong@cachong.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	-->	vladimir_cabrera (vladimir_cabrera@vladimir_cabrera.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	-->	likwidoxigen (likwidoxigen@likwidoxigen.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	-->	vinny_code (vinny_code@vinny_code.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	-->	mournistark (mournistark@mournistark.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	-->	type_theory (type_theory@type_theory.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	-->	pablo1416 (pablo1416@pablo1416.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	-->	ragelol (ragelol@ragelol.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	-->	sinncere (sinncere@sinncere.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:20:09	<--	mewtru (mewtru@mewtru.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:20:09	<--	l33t_rose (l33t_rose@l33t_rose.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:20:09	<--	ccesar88 (ccesar88@ccesar88.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:20:09	<--	impossiblemushroom (impossiblemushroom@impossiblemushroom.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:20:11	raycatwhodat	Nah nah
+2020-07-09 21:20:36	raycatwhodat	We big hawkeyes rn
+2020-07-09 21:20:45	raycatwhodat	It was renamed thou
+2020-07-09 21:20:47	raycatwhodat	There it is
+2020-07-09 21:21:00	raycatwhodat	@r ollup/plugin-json
+2020-07-09 21:22:04	-->	raycatwhodat (raycatwhodat@raycatwhodat.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:22:04	-->	thecupieking (thecupieking@thecupieking.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:22:04	<--	sinncere (sinncere@sinncere.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:22:04	<--	snapshot0573 (snapshot0573@snapshot0573.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:22:04	<--	likwidoxigen (likwidoxigen@likwidoxigen.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:22:04	<--	biggysnails (biggysnails@biggysnails.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:22:09	ravonus	@Its_Jay_Phillz your just testing us :P
+2020-07-09 21:24:10	-->	tryptsomnus (tryptsomnus@tryptsomnus.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:24:10	<--	stackoverflows (stackoverflows@stackoverflows.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:24:10	<--	thecupieking (thecupieking@thecupieking.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:24:10	<--	gl0ckner (gl0ckner@gl0ckner.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:24:10	<--	pablo1416 (pablo1416@pablo1416.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:25:50	ravonus	magic!
+2020-07-09 21:26:17	ravonus	cant change it :P
+2020-07-09 21:26:18	<--	samueltheboi (samueltheboi@samueltheboi.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:26:18	<--	vinny_code (vinny_code@vinny_code.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:26:18	ravonus	lol
+2020-07-09 21:28:23	-->	mdsmithson (mdsmithson@mdsmithson.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:28:23	-->	jaketheprogrammer (jaketheprogrammer@jaketheprogrammer.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:28:23	<--	mournistark (mournistark@mournistark.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:28:23	<--	plnrnd (plnrnd@plnrnd.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:28:23	<--	raycatwhodat (raycatwhodat@raycatwhodat.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:28:23	<--	razzberry_v2 (razzberry_v2@razzberry_v2.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:30:25	-->	lmntbg (lmntbg@lmntbg.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:30:25	-->	stevec1331 (stevec1331@stevec1331.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:30:25	<--	davecodes (davecodes@davecodes.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:32:06	mdsmithson	Good Evening
+2020-07-09 21:32:13	mdsmithson	What are we coding tonight?
+2020-07-09 21:32:14	ravonus	Yeah straight God Tier!
+2020-07-09 21:32:24	-->	cookie042 (cookie042@cookie042.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:32:24	<--	vapejuicejordan (vapejuicejordan@vapejuicejordan.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:32:24	<--	stevec1331 (stevec1331@stevec1331.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:32:24	<--	poppinintheclub11 (poppinintheclub11@poppinintheclub11.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:32:24	<--	lmntbg (lmntbg@lmntbg.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:32:24	<--	fearfulboi (fearfulboi@fearfulboi.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:32:44	mdsmithson	<reads Stream Tasks>
+2020-07-09 21:32:48	mdsmithson	Im doing well
+2020-07-09 21:34:34	-->	mulgort (mulgort@mulgort.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:34:34	<--	cookie042 (cookie042@cookie042.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:34:34	<--	fangskillz (fangskillz@fangskillz.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:36:48	-->	americanpanda30 (americanpanda30@americanpanda30.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:36:48	<--	jaketheprogrammer (jaketheprogrammer@jaketheprogrammer.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:36:48	<--	ragelol (ragelol@ragelol.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:36:48	<--	mulgort (mulgort@mulgort.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:37:54	-->	nightbladebr (nightbladebr@nightbladebr.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:37:54	<--	vladimir_cabrera (vladimir_cabrera@vladimir_cabrera.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:37:54	<--	daneharnett (daneharnett@daneharnett.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:43:03	-->	thiccur (thiccur@thiccur.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:43:03	-->	stephane_vg (stephane_vg@stephane_vg.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:44:02	-->	kokogorilla1310 (kokogorilla1310@kokogorilla1310.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:44:02	<--	99kr (99kr@99kr.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:46:17	-->	lurxx (lurxx@lurxx.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:46:17	-->	satire_ (satire_@satire_.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:46:17	<--	kokogorilla1310 (kokogorilla1310@kokogorilla1310.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:46:17	<--	mdsmithson (mdsmithson@mdsmithson.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:46:19	stephane_vg	hey Jay, what's up! logging from France.
+2020-07-09 21:46:36	stephane_vg	can you explain what tachions is?
+2020-07-09 21:46:45	stephane_vg	yes, ça va, ça va ;)
+2020-07-09 21:48:14	stephane_vg	Ha, it is a bootstrap style of framework?
+2020-07-09 21:48:19	-->	l0gic23 (l0gic23@l0gic23.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:48:19	<--	tryptsomnus (tryptsomnus@tryptsomnus.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:48:19	<--	satire_ (satire_@satire_.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:48:19	<--	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:48:20	<--	stephane_vg (stephane_vg@stephane_vg.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:48:20	<--	nightbladebr (nightbladebr@nightbladebr.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:48:30	stephane_vg	any particular reason for choosing that one over another one?
+2020-07-09 21:48:38	ravonus	Oh I thought Tachyons was what enabled us to time travel...
+2020-07-09 21:48:45	stephane_vg	or just because you are use / like that one?
+2020-07-09 21:50:25	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:50:25	-->	stephane_vg (stephane_vg@stephane_vg.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:51:07	stephane_vg	Ha cool. discovering new stuff. OK. thx for clarifying SeemsGood
+2020-07-09 21:52:39	<--	americanpanda30 (americanpanda30@americanpanda30.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:54:34	-->	williammu6 (williammu6@williammu6.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:54:34	-->	mightycanine (mightycanine@mightycanine.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:56:38	-->	synecdokey (synecdokey@synecdokey.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 21:56:38	<--	williammu6 (williammu6@williammu6.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:56:38	<--	mrbladebrownjr (mrbladebrownjr@mrbladebrownjr.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:56:38	<--	cachong (cachong@cachong.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:56:38	<--	mightycanine (mightycanine@mightycanine.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 21:58:37	<--	synecdokey (synecdokey@synecdokey.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:00:53	<--	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:02:49	-->	drawntolife (drawntolife@drawntolife.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:04:51	<--	drawntolife (drawntolife@drawntolife.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:07:10	-->	mciasco (mciasco@mciasco.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:07:10	-->	joeyesko (joeyesko@joeyesko.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:08:08	<--	mciasco (mciasco@mciasco.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:08:08	<--	joeyesko (joeyesko@joeyesko.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:11:05	-->	beanbk (beanbk@beanbk.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:11:31	yamsinmybuppy	strageO
+2020-07-09 22:11:36	janpoonthong	hello
+2020-07-09 22:11:37	strager	nooooo
+2020-07-09 22:11:39	strager	Bad timing
+2020-07-09 22:11:42	r_u_ri_ui	Superfluous timing.
+2020-07-09 22:11:51	yamsinmybuppy	FailFish
+2020-07-09 22:12:13	-->	zippy_nz (zippy_nz@zippy_nz.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:12:13	-->	metalgldx12 (metalgldx12@metalgldx12.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:12:13	-->	r_u_ri_ui (r_u_ri_ui@r_u_ri_ui.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:12:13	-->	raycatwhodat (raycatwhodat@raycatwhodat.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:12:13	-->	justdelta_ (justdelta_@justdelta_.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:12:13	-->	biker_bee (biker_bee@biker_bee.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:12:13	-->	werrdd (werrdd@werrdd.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:12:13	-->	pro_4 (pro_4@pro_4.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:12:13	-->	alex_warlock (alex_warlock@alex_warlock.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:12:13	<--	beanbk (beanbk@beanbk.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:13:09	strager	Learning Svelte today?
+2020-07-09 22:14:07	strager	Stream was good
+2020-07-09 22:14:24	-->	ralugli (ralugli@ralugli.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	spielprogrammierer (spielprogrammierer@spielprogrammierer.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	hotbobby (hotbobby@hotbobby.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	jailandrade (jailandrade@jailandrade.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	faolan437 (faolan437@faolan437.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	drunken_seagull (drunken_seagull@drunken_seagull.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	peckssss (peckssss@peckssss.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	vizorkit (vizorkit@vizorkit.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	ca2software (ca2software@ca2software.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	m3talstorm (m3talstorm@m3talstorm.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	the_gaming_skulls (the_gaming_skulls@the_gaming_skulls.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	swaimware (swaimware@swaimware.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	ugrend (ugrend@ugrend.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	strager (strager@strager.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	realnectar (realnectar@realnectar.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	supadeviserr (supadeviserr@supadeviserr.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	nurukingu (nurukingu@nurukingu.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	yamsinmybuppy (yamsinmybuppy@yamsinmybuppy.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	1boi (1boi@1boi.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	9x19mm (9x19mm@9x19mm.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	marcelobonow (marcelobonow@marcelobonow.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	vexedkiller0071 (vexedkiller0071@vexedkiller0071.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	mid0nvy (mid0nvy@mid0nvy.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	-->	marzdor (marzdor@marzdor.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:14:24	<--	fleerless (fleerless@fleerless.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:14:24	<--	justdelta_ (justdelta_@justdelta_.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:14:24	<--	metalgldx12 (metalgldx12@metalgldx12.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:14:24	<--	raycatwhodat (raycatwhodat@raycatwhodat.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:14:35	ravonus	Strager straight God Tier with that reverse engineering
+2020-07-09 22:14:40	strager	Great. We are making good progress on NPCs. I need to solve the halting problem next, which is hopefully easy.
+2020-07-09 22:15:26	its_jay_phillz	!so strager
+2020-07-09 22:15:26	jsonpbot	Shout out to @strager! Make sure you hit them up at https://twitch.tv/strager
+2020-07-09 22:15:55	strager	Is Tachyons like Tailwind?
+2020-07-09 22:16:32	<--	r_u_ri_ui (r_u_ri_ui@r_u_ri_ui.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:16:32	<--	supadeviserr (supadeviserr@supadeviserr.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:16:48	marzdor	Native Css is best css
+2020-07-09 22:16:50	strager	^
+2020-07-09 22:17:34	marzdor	the initial code is usually more work but the freedom is so nice
+2020-07-09 22:18:41	-->	kalkoz (kalkoz@kalkoz.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:18:41	-->	yyoumu (yyoumu@yyoumu.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:18:41	-->	drake_2112 (drake_2112@drake_2112.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:18:41	<--	me_jtz (me_jtz@me_jtz.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:18:41	<--	1boi (1boi@1boi.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:18:41	<--	yamsinmybuppy (yamsinmybuppy@yamsinmybuppy.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:18:41	<--	allanisgud (allanisgud@allanisgud.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:18:41	<--	oomariaoo (oomariaoo@oomariaoo.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:19:40	rw_grim	rwgrimWave
+2020-07-09 22:19:41	raycatwhodat	Did you figure out your flexbox issue?
+2020-07-09 22:19:41	strager	Grim!
+2020-07-09 22:19:52	lostalgorithm	rwgrimWave
+2020-07-09 22:19:54	rw_grim	hiya @strager
+2020-07-09 22:20:14	6plus1_	double twitchRaid alvsjoConfused
+2020-07-09 22:20:15	iv4nhoe	not strager rwgrimLOL
+2020-07-09 22:20:19	raycatwhodat	Yeah, flexbox isn't a Tachyons class
+2020-07-09 22:20:24	raycatwhodat	it's just flex
+2020-07-09 22:20:25	iv4nhoe	ah there
+2020-07-09 22:20:28	iv4nhoe	!vanish
+2020-07-09 22:20:45	-->	ashrafr_ (ashrafr_@ashrafr_.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:20:45	-->	itsvodoo (itsvodoo@itsvodoo.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:20:45	-->	rw_grim (rw_grim@rw_grim.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:20:45	-->	ivanovic43 (ivanovic43@ivanovic43.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:20:45	<--	mid0nvy (mid0nvy@mid0nvy.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:20:45	<--	9x19mm (9x19mm@9x19mm.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:20:45	<--	kalkoz (kalkoz@kalkoz.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:20:52	marzdor	Yeah I am in a spot in my coding journey where I think way to much about time spent on a feature compared to how clean the code is
+2020-07-09 22:21:14	rw_grim	you're very welcome :)
+2020-07-09 22:21:22	its_jay_phillz	!so rw_grim
+2020-07-09 22:21:23	jsonpbot	Shout out to @rw_grim! Make sure you hit them up at https://twitch.tv/rw_grim
+2020-07-09 22:21:31	rw_grim	good good, was working on pidgin, but got stuck at the end and have to refactor some stuff rwgrimFail
+2020-07-09 22:22:02	rw_grim	yep this one rwgrimPidgin
+2020-07-09 22:22:05	6plus1_	everything client
+2020-07-09 22:22:07	raycatwhodat	I think Grim is *the* Pidgin maintainer
+2020-07-09 22:22:22	rw_grim	yes, i am the maintainer, i took it over in 2016 but i've worked on the project since 2003 ;)
+2020-07-09 22:22:39	x3mlinux	Everything client is s best description of pidgin
+2020-07-09 22:22:53	-->	corith44 (corith44@corith44.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	iamzerofreak (iamzerofreak@iamzerofreak.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	funcdev (funcdev@funcdev.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	x3mlinux (x3mlinux@x3mlinux.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	iv4nhoe (iv4nhoe@iv4nhoe.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	timfreund (timfreund@timfreund.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	raycatwhodat (raycatwhodat@raycatwhodat.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	rollerss (rollerss@rollerss.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	lemonlas (lemonlas@lemonlas.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	lostalgorithm (lostalgorithm@lostalgorithm.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	1alexon (1alexon@1alexon.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	fortwenty (fortwenty@fortwenty.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	babursh (babursh@babursh.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	microbic_music (microbic_music@microbic_music.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	hampsterj (hampsterj@hampsterj.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	piq9117 (piq9117@piq9117.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	soakingwetsci (soakingwetsci@soakingwetsci.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	p_r_deltoid (p_r_deltoid@p_r_deltoid.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	naiknnn (naiknnn@naiknnn.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	6plus1_ (6plus1_@6plus1_.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	genreshinobi (genreshinobi@genreshinobi.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	qulogic (qulogic@qulogic.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	cerras0981 (cerras0981@cerras0981.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	mummarolf (mummarolf@mummarolf.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	-->	alegendarycow (alegendarycow@alegendarycow.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:22:53	<--	ugrend (ugrend@ugrend.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:22:53	<--	ashrafr_ (ashrafr_@ashrafr_.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:23:37	rw_grim	i wouldn't say "super active" .. but it still looks the same, i've been working on the next major version who's primary purpose is being able to support modern chat network features likes messaged editing, reactions, threads, etc
+2020-07-09 22:24:03	rw_grim	i've been overhauling the way we handle messages and I made a bad decision in a sub library involving message attachments that I need to go and fix
+2020-07-09 22:24:49	microbic_music	Cool first time I've seen svelte on twitch
+2020-07-09 22:24:50	rw_grim	well pidgin3 has been in development for 10+ years now.. was my point :)
+2020-07-09 22:25:02	<--	qulogic (qulogic@qulogic.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:25:02	<--	1alexon (1alexon@1alexon.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:25:02	<--	drake_2112 (drake_2112@drake_2112.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:25:02	<--	iamzerofreak (iamzerofreak@iamzerofreak.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:25:02	<--	babursh (babursh@babursh.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:25:02	<--	ivanovic43 (ivanovic43@ivanovic43.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:25:12	chrthemighty	hey what do you use serverside?
+2020-07-09 22:25:24	raycatwhodat	Sublime Text 3 beta, baby
+2020-07-09 22:25:33	iv4nhoe	ivanhoe :)
+2020-07-09 22:27:06	-->	chocolatecitysim (chocolatecitysim@chocolatecitysim.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:27:06	-->	ballcuzzii (ballcuzzii@ballcuzzii.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:27:06	-->	chrthemighty (chrthemighty@chrthemighty.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:27:06	-->	leviathan303 (leviathan303@leviathan303.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:27:06	<--	x3mlinux (x3mlinux@x3mlinux.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:27:06	<--	stephane_vg (stephane_vg@stephane_vg.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:27:06	<--	zippy_nz (zippy_nz@zippy_nz.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:28:12	-->	drake_2112 (drake_2112@drake_2112.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:28:12	-->	stephane_vg (stephane_vg@stephane_vg.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:28:12	-->	whoastonic (whoastonic@whoastonic.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:28:12	<--	lemonlas (lemonlas@lemonlas.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:28:12	<--	chocolatecitysim (chocolatecitysim@chocolatecitysim.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:28:12	<--	ballcuzzii (ballcuzzii@ballcuzzii.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:28:12	<--	type_theory (type_theory@type_theory.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:28:56	marzdor	from what framework to react?
+2020-07-09 22:30:24	<--	6plus1_ (6plus1_@6plus1_.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:30:24	<--	stephane_vg (stephane_vg@stephane_vg.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:30:24	<--	naiknnn (naiknnn@naiknnn.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:30:24	<--	raycatwhodat (raycatwhodat@raycatwhodat.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:30:24	<--	alegendarycow (alegendarycow@alegendarycow.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:32:16	chrthemighty	did u answer my question?
+2020-07-09 22:32:17	marzdor	Yeah, that would be fascinating I have only really coded in react/react native professionally at least
+2020-07-09 22:32:30	-->	rob1nhocs (rob1nhocs@rob1nhocs.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:32:30	-->	dfpedroso (dfpedroso@dfpedroso.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:32:30	-->	nanapuri (nanapuri@nanapuri.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:32:30	-->	devlatam (devlatam@devlatam.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:32:30	<--	fortwenty (fortwenty@fortwenty.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:32:30	<--	vexedkiller0071 (vexedkiller0071@vexedkiller0071.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:32:30	<--	mummarolf (mummarolf@mummarolf.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:33:18	chrthemighty	do you share types between client and server when you use typescript both?
+2020-07-09 22:33:36	piq9117	godTierOS itsjay20GODTIER itsjay20GODTIER itsjay20GODTIER itsjay20GODTIER
+2020-07-09 22:33:47	chrthemighty	when you do, what is the way you do it?
+2020-07-09 22:34:45	-->	mummarolf (mummarolf@mummarolf.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:34:45	-->	henek59 (henek59@henek59.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:34:45	-->	sampker7 (sampker7@sampker7.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:34:45	-->	mid0nvy (mid0nvy@mid0nvy.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:34:45	<--	spielprogrammierer (spielprogrammierer@spielprogrammierer.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:34:45	<--	the_gaming_skulls (the_gaming_skulls@the_gaming_skulls.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:34:45	<--	devlatam (devlatam@devlatam.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:34:45	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:34:45	<--	leviathan303 (leviathan303@leviathan303.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:34:59	lyinglengyel	is your voice and stream skipping frames
+2020-07-09 22:35:01	lyinglengyel	or am i trippin
+2020-07-09 22:35:29	nurukingu	same here for voice. robot
+2020-07-09 22:35:41	hotbobby	sounds like clipping almost
+2020-07-09 22:35:57	nurukingu	but it's ok
+2020-07-09 22:36:00	lyinglengyel	like ur cursor is skipping around randomly
+2020-07-09 22:36:01	lyinglengyel	along with ur voice
+2020-07-09 22:36:06	chrthemighty	seems like this is your mic setting like noise supression
+2020-07-09 22:36:10	strager	Voice is skipping for me. Music is not. Not frame drops. Sounds like a 44.1 kHz 48 kHz mismatch somewhere.
+2020-07-09 22:36:20	lyinglengyel	^
+2020-07-09 22:36:45	soakingwetsci	Your still understandable, just like a tiny fraction of every few words sounds like it's being clipped or something. But we can still hear and see you clearly
+2020-07-09 22:36:49	-->	paulhill74 (paulhill74@paulhill74.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:36:49	-->	sweethali (sweethali@sweethali.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:36:49	-->	lyinglengyel (lyinglengyel@lyinglengyel.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:36:49	-->	bright_iron (bright_iron@bright_iron.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:36:49	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:36:49	-->	chocolatecitysim (chocolatecitysim@chocolatecitysim.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-09 22:36:49	<--	p_r_deltoid (p_r_deltoid@p_r_deltoid.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:36:49	<--	mid0nvy (mid0nvy@mid0nvy.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:36:49	<--	marzdor (marzdor@marzdor.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:36:49	<--	ca2software (ca2software@ca2software.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-09 22:37:12	soakingwetsci	*you're
+2020-07-09 22:37:28	chrthemighty	can you shortly explain the first way of sharing types again please
+2020-07-10 08:14:17	--	irc: disconnected from server
+2020-07-10 08:14:42	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-10 08:14:42	--	Channel #its_jay_phillz: 1 nick (0 ops, 0 voices, 1 normal)
+2020-07-10 08:14:59	-->	thedevilisob (thedevilisob@thedevilisob.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-10 08:14:59	-->	world_origin (world_origin@world_origin.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-10 08:14:59	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-10 08:14:59	-->	its_jay_phillz (its_jay_phillz@its_jay_phillz.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-10 08:14:59	-->	jsonpbot (jsonpbot@jsonpbot.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-10 08:14:59	-->	literally_a_cat (literally_a_cat@literally_a_cat.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-10 08:14:59	-->	mournistark (mournistark@mournistark.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-10 08:22:04	<--	mournistark (mournistark@mournistark.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-10 08:24:16	-->	mournistark (mournistark@mournistark.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-10 08:28:26	<--	mournistark (mournistark@mournistark.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-10 08:30:40	-->	mournistark (mournistark@mournistark.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-10 08:36:01	<--	mournistark (mournistark@mournistark.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-10 08:40:08	-->	mournistark (mournistark@mournistark.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-10 08:44:22	<--	mournistark (mournistark@mournistark.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-10 08:46:22	-->	mournistark (mournistark@mournistark.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-10 08:48:27	<--	mournistark (mournistark@mournistark.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-10 08:52:42	-->	mournistark (mournistark@mournistark.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-10 08:54:43	<--	mournistark (mournistark@mournistark.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-10 08:57:51	-->	mournistark (mournistark@mournistark.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-10 09:02:49	<--	mournistark (mournistark@mournistark.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-10 09:09:09	-->	mournistark (mournistark@mournistark.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-10 09:16:37	<--	mournistark (mournistark@mournistark.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-10 09:18:40	-->	mournistark (mournistark@mournistark.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-10 09:20:48	<--	mournistark (mournistark@mournistark.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-10 09:22:52	-->	mournistark (mournistark@mournistark.tmi.twitch.tv) has joined #its_jay_phillz
+2020-07-10 09:24:53	<--	mournistark (mournistark@mournistark.tmi.twitch.tv) has left #its_jay_phillz
+2020-07-10 09:28:39	--	irc: disconnected from server

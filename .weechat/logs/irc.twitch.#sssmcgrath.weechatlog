@@ -1,0 +1,1202 @@
+2020-04-10 10:53:23	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:53:23	--	Channel #sssmcgrath: 1 nick (0 ops, 0 voices, 1 normal)
+2020-04-10 10:53:57	vaualbus	well the point of Sean Barret about he don't want to have code on which the branch predictor can have a difference.
+2020-04-10 10:54:00	napoleon89	oh man, feels good to hear those dulcet tones again
+2020-04-10 10:54:06	-->	wierzbix_ (wierzbix_@wierzbix_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	sognodivolare (sognodivolare@sognodivolare.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	arc0re1 (arc0re1@arc0re1.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	insofaras (insofaras@insofaras.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	onemoar (onemoar@onemoar.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	74c55639 (74c55639@74c55639.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	siltnamis (siltnamis@siltnamis.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	brandonzxcv (brandonzxcv@brandonzxcv.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	b_swales (b_swales@b_swales.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	johnrkd (johnrkd@johnrkd.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	0xdbf00 (0xdbf00@0xdbf00.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	universe (universe@universe.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	vaualbus (vaualbus@vaualbus.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	excessive_menace (excessive_menace@excessive_menace.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	mihau14 (mihau14@mihau14.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	dvkirn (dvkirn@dvkirn.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	the_8th_mage (the_8th_mage@the_8th_mage.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	julgodis (julgodis@julgodis.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	paul_morphy (paul_morphy@paul_morphy.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	icecoldtofu (icecoldtofu@icecoldtofu.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	phmongeau (phmongeau@phmongeau.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	d_fenz (d_fenz@d_fenz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	jwindahouse (jwindahouse@jwindahouse.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	miblo (miblo@miblo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	gene9 (gene9@gene9.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	eaterenrgy (eaterenrgy@eaterenrgy.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	sssmcgrath (sssmcgrath@sssmcgrath.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	silentst (silentst@silentst.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	revolxhd (revolxhd@revolxhd.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	its1z0 (its1z0@its1z0.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	rubberslayer (rubberslayer@rubberslayer.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	guphy_ (guphy_@guphy_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	technicolor_doggo (technicolor_doggo@technicolor_doggo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	blackarma (blackarma@blackarma.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	powlipow (powlipow@powlipow.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	andrewjdr (andrewjdr@andrewjdr.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	malwos (malwos@malwos.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	doublenibble (doublenibble@doublenibble.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	lightofhel1 (lightofhel1@lightofhel1.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	noxmentis (noxmentis@noxmentis.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	sc_zoro (sc_zoro@sc_zoro.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	cooper_k1ng (cooper_k1ng@cooper_k1ng.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	jsanchez__ (jsanchez__@jsanchez__.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	montyhimself (montyhimself@montyhimself.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	haliw_ (haliw_@haliw_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	commanderroot (commanderroot@commanderroot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	sauberfred (sauberfred@sauberfred.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	tntboythe3 (tntboythe3@tntboythe3.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	lurxx (lurxx@lurxx.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	craylton (craylton@craylton.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	insobot (insobot@insobot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	andrewgrim (andrewgrim@andrewgrim.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	abuffseagull (abuffseagull@abuffseagull.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	c__jm (c__jm@c__jm.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	kolfest (kolfest@kolfest.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	kodorobo (kodorobo@kodorobo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	0x626f74 (0x626f74@0x626f74.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	simon_s_80 (simon_s_80@simon_s_80.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	emlai (emlai@emlai.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	eaoruhgadfhjglajsdlfgj (eaoruhgadfhjglajsdlfgj@eaoruhgadfhjglajsdlfgj.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	addeponken (addeponken@addeponken.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	oliholli (oliholli@oliholli.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	terminalgain (terminalgain@terminalgain.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	kindly_sloth (kindly_sloth@kindly_sloth.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	coversine (coversine@coversine.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	guitarm87 (guitarm87@guitarm87.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	farm_hand (farm_hand@farm_hand.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	dmartinek (dmartinek@dmartinek.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	olssonhenriks (olssonhenriks@olssonhenriks.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	ravencgg (ravencgg@ravencgg.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	the_suisse (the_suisse@the_suisse.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	metalslurry (metalslurry@metalslurry.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	figglefratz (figglefratz@figglefratz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	marsol0x (marsol0x@marsol0x.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	printf_armin (printf_armin@printf_armin.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	blehman (blehman@blehman.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	palomablanca (palomablanca@palomablanca.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	crazycynical (crazycynical@crazycynical.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	efko__ (efko__@efko__.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	quickshift_ (quickshift_@quickshift_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	asafgartner (asafgartner@asafgartner.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	azertywatching (azertywatching@azertywatching.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	madmoose_dk (madmoose_dk@madmoose_dk.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	loonacuse (loonacuse@loonacuse.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	meocia (meocia@meocia.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	mutine (mutine@mutine.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	takerulol (takerulol@takerulol.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	lemonjuices12 (lemonjuices12@lemonjuices12.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	math_daemon_ (math_daemon_@math_daemon_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	hydrophob (hydrophob@hydrophob.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	ltlollo (ltlollo@ltlollo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	justsaul2 (justsaul2@justsaul2.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	philix001 (philix001@philix001.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	drive137 (drive137@drive137.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	alexkelbo (alexkelbo@alexkelbo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	rrdpc (rrdpc@rrdpc.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	d_w_roberts (d_w_roberts@d_w_roberts.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	xxthebigfoxx (xxthebigfoxx@xxthebigfoxx.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:06	-->	monsterthemessi (monsterthemessi@monsterthemessi.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:54:11	vaualbus	exactly that :)
+2020-04-10 10:55:04	-->	seldosk (seldosk@seldosk.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:55:04	-->	napoleon89 (napoleon89@napoleon89.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:55:04	<--	mihau14 (mihau14@mihau14.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 10:55:04	<--	0xdbf00 (0xdbf00@0xdbf00.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 10:55:04	<--	craylton (craylton@craylton.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 10:55:04	<--	excessive_menace (excessive_menace@excessive_menace.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 10:55:04	<--	icecoldtofu (icecoldtofu@icecoldtofu.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 10:57:13	-->	beethovenman (beethovenman@beethovenman.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:57:13	-->	icecoldtofu (icecoldtofu@icecoldtofu.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:57:13	<--	seldosk (seldosk@seldosk.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 10:57:13	<--	0x626f74 (0x626f74@0x626f74.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 10:57:13	<--	justsaul2 (justsaul2@justsaul2.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 10:57:13	<--	lemonjuices12 (lemonjuices12@lemonjuices12.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 10:57:38	vaualbus	by the way that 0<<2 is not a undefined behavior in C?
+2020-04-10 10:58:08	quickshift_	you can't make something out of nothing Kappa
+2020-04-10 10:58:11	xxthebigfoxx	Zeros just get fed in, its defined
+2020-04-10 10:59:14	-->	simco50 (simco50@simco50.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:59:14	-->	lemonjuices12 (lemonjuices12@lemonjuices12.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:59:14	-->	neocorttex (neocorttex@neocorttex.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:59:14	-->	thecith (thecith@thecith.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:59:14	-->	0x626f74 (0x626f74@0x626f74.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 10:59:43	yesamvegan	ur twitch profile pic is pretty good
+2020-04-10 11:00:37	abuffseagull	LUL
+2020-04-10 11:01:07	xxthebigfoxx	What is a good data structure for a graph? Is the edge matrix thing they teach in CS actually good?
+2020-04-10 11:01:19	quickshift_	pizza
+2020-04-10 11:01:23	-->	flopsidisc (flopsidisc@flopsidisc.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:01:23	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:01:23	-->	013c (013c@013c.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:01:23	-->	yesamvegan (yesamvegan@yesamvegan.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:01:23	-->	k3jru (k3jru@k3jru.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:01:23	<--	beethovenman (beethovenman@beethovenman.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:01:57	eaterenrgy	@xXthebigfoXx Do you mean an adjacency matrix?
+2020-04-10 11:01:58	vaualbus	well one time I spent some time figuring out why nothing was rendered on the screen, well I was drawing black on a black background LUL LUL
+2020-04-10 11:02:29	xxthebigfoxx	@eaterenrgy yeah adjacency matrix that's the name
+2020-04-10 11:03:10	xxthebigfoxx	adjacency lists?
+2020-04-10 11:03:39	-->	valseki (valseki@valseki.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:03:39	-->	bestalloys (bestalloys@bestalloys.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:03:39	<--	the_suisse (the_suisse@the_suisse.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:03:39	<--	yesamvegan (yesamvegan@yesamvegan.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:03:39	<--	simco50 (simco50@simco50.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:04:48	-->	bluewisbtw (bluewisbtw@bluewisbtw.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:04:48	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:04:48	<--	thecith (thecith@thecith.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:04:48	<--	printf_armin (printf_armin@printf_armin.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:04:48	<--	eaoruhgadfhjglajsdlfgj (eaoruhgadfhjglajsdlfgj@eaoruhgadfhjglajsdlfgj.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:04:48	<--	haliw_ (haliw_@haliw_.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:04:53	xxthebigfoxx	LUL
+2020-04-10 11:06:51	-->	dreamplay1 (dreamplay1@dreamplay1.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:06:51	-->	dmytropopov (dmytropopov@dmytropopov.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:06:51	-->	oznedrol (oznedrol@oznedrol.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:06:51	-->	skuwiph (skuwiph@skuwiph.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:06:51	-->	justsaul2 (justsaul2@justsaul2.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:06:51	-->	the_suisse (the_suisse@the_suisse.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:06:51	<--	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:06:51	<--	johnrkd (johnrkd@johnrkd.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:06:51	<--	bestalloys (bestalloys@bestalloys.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:07:17	xxthebigfoxx	OTF files sound like a lot of fun Kappa
+2020-04-10 11:07:31	arc0re1	You'll never be done mouhahahahaha
+2020-04-10 11:08:54	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:08:54	<--	dmytropopov (dmytropopov@dmytropopov.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:08:54	<--	skuwiph (skuwiph@skuwiph.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:08:54	<--	oznedrol (oznedrol@oznedrol.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:11:05	-->	zerorepent (zerorepent@zerorepent.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:11:05	-->	recursivechat (recursivechat@recursivechat.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:11:05	<--	bluewisbtw (bluewisbtw@bluewisbtw.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:11:05	<--	the_suisse (the_suisse@the_suisse.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:11:05	<--	eaterenrgy (eaterenrgy@eaterenrgy.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:12:06	sc_zoro	What gloves are you using?
+2020-04-10 11:12:46	sc_zoro	Ah
+2020-04-10 11:13:18	-->	meur_sault (meur_sault@meur_sault.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:13:18	-->	blarghameljones (blarghameljones@blarghameljones.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:13:18	<--	revolxhd (revolxhd@revolxhd.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:13:18	<--	justsaul2 (justsaul2@justsaul2.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:13:18	<--	dvkirn (dvkirn@dvkirn.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:13:18	<--	recursivechat (recursivechat@recursivechat.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:15:18	-->	eaoruhgadfhjglajsdlfgj (eaoruhgadfhjglajsdlfgj@eaoruhgadfhjglajsdlfgj.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:15:18	-->	thecith (thecith@thecith.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:15:18	-->	desu_used (desu_used@desu_used.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:15:18	<--	flopsidisc (flopsidisc@flopsidisc.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:17:24	-->	ramonvillar (ramonvillar@ramonvillar.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:17:24	-->	scanberg (scanberg@scanberg.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:17:24	-->	easygolicky (easygolicky@easygolicky.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:17:24	-->	bluespeck (bluespeck@bluespeck.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:17:24	<--	eaoruhgadfhjglajsdlfgj (eaoruhgadfhjglajsdlfgj@eaoruhgadfhjglajsdlfgj.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:19:40	-->	yeswecode (yeswecode@yeswecode.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:19:40	-->	simco50 (simco50@simco50.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:19:40	-->	officialsewot (officialsewot@officialsewot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:19:40	-->	turnip_face (turnip_face@turnip_face.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:19:40	<--	bluespeck (bluespeck@bluespeck.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:19:40	<--	farm_hand (farm_hand@farm_hand.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:19:40	<--	thecith (thecith@thecith.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:19:40	<--	meur_sault (meur_sault@meur_sault.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:19:40	<--	guphy_ (guphy_@guphy_.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:19:40	<--	scanberg (scanberg@scanberg.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:20:43	-->	haliw_ (haliw_@haliw_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:20:43	<--	sauberfred (sauberfred@sauberfred.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:20:43	<--	013c (013c@013c.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:23:52	-->	miguel_s_branco (miguel_s_branco@miguel_s_branco.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:23:52	-->	aclonegeek (aclonegeek@aclonegeek.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:23:52	-->	bmsclonix (bmsclonix@bmsclonix.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:23:52	-->	tupsan (tupsan@tupsan.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:23:52	-->	0xfelipe (0xfelipe@0xfelipe.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:23:52	-->	hotspur_ (hotspur_@hotspur_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:23:52	<--	icecoldtofu (icecoldtofu@icecoldtofu.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:23:52	<--	addeponken (addeponken@addeponken.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:23:52	<--	neocorttex (neocorttex@neocorttex.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:23:52	<--	yeswecode (yeswecode@yeswecode.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:23:52	<--	blarghameljones (blarghameljones@blarghameljones.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:23:52	<--	dreamplay1 (dreamplay1@dreamplay1.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:24:51	-->	dreamplay1 (dreamplay1@dreamplay1.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:24:51	-->	grimonja (grimonja@grimonja.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:24:51	-->	sneakybob_wot (sneakybob_wot@sneakybob_wot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:24:51	-->	bulmanator (bulmanator@bulmanator.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:24:51	-->	addeponken (addeponken@addeponken.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:24:51	<--	hotspur_ (hotspur_@hotspur_.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:24:51	<--	efko__ (efko__@efko__.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:24:51	<--	xxthebigfoxx (xxthebigfoxx@xxthebigfoxx.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:24:51	<--	andrewgrim (andrewgrim@andrewgrim.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:24:51	<--	bmsclonix (bmsclonix@bmsclonix.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:24:51	<--	easygolicky (easygolicky@easygolicky.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:26:57	-->	srizbot (srizbot@srizbot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:26:57	-->	localcanofdutchgold (localcanofdutchgold@localcanofdutchgold.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:26:57	-->	highflyer_nl (highflyer_nl@highflyer_nl.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:26:57	<--	0xfelipe (0xfelipe@0xfelipe.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:26:57	<--	wierzbix_ (wierzbix_@wierzbix_.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:26:57	<--	simco50 (simco50@simco50.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:26:57	<--	blehman (blehman@blehman.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:26:57	<--	noxmentis (noxmentis@noxmentis.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:26:57	<--	turnip_face (turnip_face@turnip_face.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:26:57	<--	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:26:57	<--	takerulol (takerulol@takerulol.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:26:57	<--	officialsewot (officialsewot@officialsewot.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:26:57	<--	dreamplay1 (dreamplay1@dreamplay1.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:26:57	<--	guitarm87 (guitarm87@guitarm87.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:26:57	<--	palomablanca (palomablanca@palomablanca.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:29:03	-->	wierzbix_ (wierzbix_@wierzbix_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:29:03	-->	dreamplay1 (dreamplay1@dreamplay1.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:29:03	-->	stejar2 (stejar2@stejar2.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:29:03	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:29:03	-->	jabubab (jabubab@jabubab.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:29:03	-->	thebaker__ (thebaker__@thebaker__.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:29:03	-->	blehman (blehman@blehman.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:29:03	<--	tntboythe3 (tntboythe3@tntboythe3.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:29:03	<--	highflyer_nl (highflyer_nl@highflyer_nl.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:30:29	sevrinalmighty	no, you go fuyck yoruself.
+2020-04-10 11:31:04	-->	fa_danym (fa_danym@fa_danym.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:31:04	-->	nbxbee (nbxbee@nbxbee.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:31:04	-->	xxthebigfoxx (xxthebigfoxx@xxthebigfoxx.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:31:04	-->	grimch007 (grimch007@grimch007.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:31:04	<--	0x626f74 (0x626f74@0x626f74.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:31:04	<--	thebaker__ (thebaker__@thebaker__.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:31:04	<--	blackarma (blackarma@blackarma.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:31:04	<--	lemonjuices12 (lemonjuices12@lemonjuices12.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:31:04	<--	universe (universe@universe.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:31:04	<--	zerorepent (zerorepent@zerorepent.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:31:04	<--	stejar2 (stejar2@stejar2.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:31:18	sevrinalmighty	miss the beard
+2020-04-10 11:33:05	-->	apurifoy (apurifoy@apurifoy.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:33:05	-->	blackarma (blackarma@blackarma.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:33:05	-->	0x626f74 (0x626f74@0x626f74.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:33:05	-->	finnxly (finnxly@finnxly.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:33:05	-->	daddliestdad (daddliestdad@daddliestdad.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:33:05	-->	lemonjuices12 (lemonjuices12@lemonjuices12.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:33:05	-->	sevrinalmighty (sevrinalmighty@sevrinalmighty.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:33:05	<--	ramonvillar (ramonvillar@ramonvillar.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:33:05	<--	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:33:05	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:35:13	-->	cypryss (cypryss@cypryss.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:35:13	-->	filiadelski (filiadelski@filiadelski.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:35:13	-->	nandmade (nandmade@nandmade.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:35:13	<--	daddliestdad (daddliestdad@daddliestdad.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:35:13	<--	fa_danym (fa_danym@fa_danym.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:35:13	<--	sevrinalmighty (sevrinalmighty@sevrinalmighty.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:35:55	xxthebigfoxx	that's a lot of 63
+2020-04-10 11:37:18	-->	thegeekpirate (thegeekpirate@thegeekpirate.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:37:18	-->	onemorecommit (onemorecommit@onemorecommit.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:37:18	-->	calvo00 (calvo00@calvo00.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:37:18	<--	grimonja (grimonja@grimonja.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:37:18	<--	jabubab (jabubab@jabubab.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:39:25	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:39:25	-->	theintrojuicer (theintrojuicer@theintrojuicer.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:39:25	-->	yeswecode (yeswecode@yeswecode.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:39:25	<--	miguel_s_branco (miguel_s_branco@miguel_s_branco.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:41:26	-->	thevaneity (thevaneity@thevaneity.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:41:26	-->	recursiondev (recursiondev@recursiondev.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:41:26	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:41:26	-->	lstmlayer (lstmlayer@lstmlayer.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:41:26	-->	pa1les (pa1les@pa1les.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:41:26	<--	onemorecommit (onemorecommit@onemorecommit.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:41:26	<--	theintrojuicer (theintrojuicer@theintrojuicer.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:41:26	<--	yeswecode (yeswecode@yeswecode.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:43:32	-->	irazorx0 (irazorx0@irazorx0.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:43:32	-->	ommos61 (ommos61@ommos61.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:43:32	<--	finnxly (finnxly@finnxly.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:43:32	<--	math_daemon_ (math_daemon_@math_daemon_.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:43:32	<--	metalslurry (metalslurry@metalslurry.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:43:32	<--	dreamplay1 (dreamplay1@dreamplay1.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:43:32	<--	recursiondev (recursiondev@recursiondev.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:43:32	<--	calvo00 (calvo00@calvo00.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:43:32	<--	lstmlayer (lstmlayer@lstmlayer.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:45:32	-->	turnip_face (turnip_face@turnip_face.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:45:32	-->	calvo00 (calvo00@calvo00.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:45:32	<--	powlipow (powlipow@powlipow.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:45:32	<--	lightofhel1 (lightofhel1@lightofhel1.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:45:32	<--	dmartinek (dmartinek@dmartinek.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:45:32	<--	nandmade (nandmade@nandmade.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:47:42	-->	dandymcgee (dandymcgee@dandymcgee.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:47:42	<--	calvo00 (calvo00@calvo00.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:47:42	<--	nbxbee (nbxbee@nbxbee.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:47:42	<--	rrdpc (rrdpc@rrdpc.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:47:42	<--	meocia (meocia@meocia.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:47:42	<--	cypryss (cypryss@cypryss.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:48:50	-->	islidius (islidius@islidius.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:48:50	-->	mookie18 (mookie18@mookie18.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:48:50	-->	rrdpc (rrdpc@rrdpc.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:49:03	quickshift_	camera froze again :(
+2020-04-10 11:50:13	printf_armin	I thought he was just sitting like that there ;)
+2020-04-10 11:50:57	-->	andrewgrim (andrewgrim@andrewgrim.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:50:57	-->	stealthtuga (stealthtuga@stealthtuga.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:50:57	-->	printf_armin (printf_armin@printf_armin.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:50:57	-->	pistey (pistey@pistey.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:50:57	-->	g33kmozzy (g33kmozzy@g33kmozzy.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:50:57	<--	jsanchez__ (jsanchez__@jsanchez__.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:50:57	<--	turnip_face (turnip_face@turnip_face.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:50:57	<--	pa1les (pa1les@pa1les.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:50:57	<--	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:50:57	<--	mookie18 (mookie18@mookie18.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:51:34	abuffseagull	your mic is up
+2020-04-10 11:51:43	addeponken	addepoB
+2020-04-10 11:51:52	abuffseagull	LUL
+2020-04-10 11:53:01	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:53:01	<--	printf_armin (printf_armin@printf_armin.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:53:01	<--	pistey (pistey@pistey.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:53:01	<--	andrewgrim (andrewgrim@andrewgrim.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:53:01	<--	islidius (islidius@islidius.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:53:01	<--	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:53:01	<--	crazycynical (crazycynical@crazycynical.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:55:05	-->	krustythepilot (krustythepilot@krustythepilot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:55:05	-->	farm_hand (farm_hand@farm_hand.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:55:05	-->	claytron (claytron@claytron.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:55:05	<--	gene9 (gene9@gene9.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:55:05	<--	thegeekpirate (thegeekpirate@thegeekpirate.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:55:05	<--	coversine (coversine@coversine.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:56:43	xxthebigfoxx	More if statements PogChamp
+2020-04-10 11:57:10	-->	crazycynical (crazycynical@crazycynical.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:57:10	-->	dulocka (dulocka@dulocka.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-10 11:57:10	<--	haliw_ (haliw_@haliw_.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:57:10	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:57:10	<--	farm_hand (farm_hand@farm_hand.tmi.twitch.tv) has left #sssmcgrath
+2020-04-10 11:57:37	--	irc: disconnected from server
+2020-04-12 08:25:41	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:25:41	--	Channel #sssmcgrath: 1 nick (0 ops, 0 voices, 1 normal)
+2020-04-12 08:26:02	-->	commanderroot (commanderroot@commanderroot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	nullyuki (nullyuki@nullyuki.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	bilikirs (bilikirs@bilikirs.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	spoco (spoco@spoco.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	zhal (zhal@zhal.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	doublenibble (doublenibble@doublenibble.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	biggz_ (biggz_@biggz_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	simon_s_80 (simon_s_80@simon_s_80.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	rubberslayer (rubberslayer@rubberslayer.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	sharlock93 (sharlock93@sharlock93.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	haliw_ (haliw_@haliw_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	thespacebandit (thespacebandit@thespacebandit.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	hufo (hufo@hufo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	koschei_ (koschei_@koschei_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	oldganon (oldganon@oldganon.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	cypryss (cypryss@cypryss.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	sssmcgrath (sssmcgrath@sssmcgrath.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	gandri35 (gandri35@gandri35.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	tommy_t90 (tommy_t90@tommy_t90.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	xxthebigfoxx (xxthebigfoxx@xxthebigfoxx.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	datblindarcher (datblindarcher@datblindarcher.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	sognodivolare (sognodivolare@sognodivolare.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	turnip_face (turnip_face@turnip_face.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	0x626f74 (0x626f74@0x626f74.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	sneakybob_wot (sneakybob_wot@sneakybob_wot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	meocia (meocia@meocia.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	rohallav (rohallav@rohallav.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	nudistbeeeeach (nudistbeeeeach@nudistbeeeeach.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	tykkimies (tykkimies@tykkimies.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	insobot (insobot@insobot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	surprisekatadoption (surprisekatadoption@surprisekatadoption.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	lightofhel1 (lightofhel1@lightofhel1.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	frozenzerker (frozenzerker@frozenzerker.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	miblo (miblo@miblo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	alxtr (alxtr@alxtr.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	addeponken (addeponken@addeponken.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	julgodis (julgodis@julgodis.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	lemonjuices12 (lemonjuices12@lemonjuices12.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	czero64 (czero64@czero64.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	plurmorant (plurmorant@plurmorant.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	insofaras (insofaras@insofaras.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	oliholli (oliholli@oliholli.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	asafgartner (asafgartner@asafgartner.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	onemoar (onemoar@onemoar.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	grimonja (grimonja@grimonja.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	ravencgg (ravencgg@ravencgg.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	silentst (silentst@silentst.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	roryjmhoward (roryjmhoward@roryjmhoward.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	islidius (islidius@islidius.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	coderguy (coderguy@coderguy.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	lurxx (lurxx@lurxx.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	andrewjdr (andrewjdr@andrewjdr.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	kodorobo (kodorobo@kodorobo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	74c55639 (74c55639@74c55639.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	fierydrake (fierydrake@fierydrake.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	sygnom (sygnom@sygnom.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	luckyman79uk (luckyman79uk@luckyman79uk.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	brajanowski (brajanowski@brajanowski.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	drive137 (drive137@drive137.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	srizbot (srizbot@srizbot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	kindly_sloth (kindly_sloth@kindly_sloth.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	localcanofdutchgold (localcanofdutchgold@localcanofdutchgold.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	enemymouse (enemymouse@enemymouse.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	vaualbus (vaualbus@vaualbus.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	technicolor_doggo (technicolor_doggo@technicolor_doggo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	terminalgain (terminalgain@terminalgain.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	sikmofo (sikmofo@sikmofo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	goomer (goomer@goomer.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:26:02	-->	eaterenrgy (eaterenrgy@eaterenrgy.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:27:01	-->	monsterthemessi (monsterthemessi@monsterthemessi.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:27:01	-->	begui (begui@begui.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:27:01	<--	ravencgg (ravencgg@ravencgg.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:27:01	<--	lightofhel1 (lightofhel1@lightofhel1.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:27:01	<--	datblindarcher (datblindarcher@datblindarcher.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:27:01	<--	rohallav (rohallav@rohallav.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:27:01	<--	luckyman79uk (luckyman79uk@luckyman79uk.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:29:14	-->	lightofhel1 (lightofhel1@lightofhel1.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:29:14	-->	luckyman79uk (luckyman79uk@luckyman79uk.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:29:14	-->	rohallav (rohallav@rohallav.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:29:14	-->	abuffseagull (abuffseagull@abuffseagull.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:29:14	<--	oldganon (oldganon@oldganon.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:29:14	<--	surprisekatadoption (surprisekatadoption@surprisekatadoption.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:30:40	sharlock93	alright now to the good parts i suppose :D
+2020-04-12 08:31:16	-->	hexadecimalinteger (hexadecimalinteger@hexadecimalinteger.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:31:16	-->	turniphill (turniphill@turniphill.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:31:16	-->	filipe225 (filipe225@filipe225.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:31:16	<--	thespacebandit (thespacebandit@thespacebandit.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:33:11	<--	hexadecimalinteger (hexadecimalinteger@hexadecimalinteger.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:33:11	<--	turniphill (turniphill@turniphill.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:33:11	<--	nullyuki (nullyuki@nullyuki.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:35:25	-->	hamishjm (hamishjm@hamishjm.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:35:25	<--	goomer (goomer@goomer.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:35:30	sharlock93	i need some tea
+2020-04-12 08:37:28	-->	hoffs (hoffs@hoffs.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:37:28	<--	biggz_ (biggz_@biggz_.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:37:28	<--	hamishjm (hamishjm@hamishjm.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:37:28	<--	brajanowski (brajanowski@brajanowski.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:37:47	frozenzerker	I like the fully gray outfit :D
+2020-04-12 08:39:31	-->	kitirobot (kitirobot@kitirobot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:39:31	-->	dreamplay1 (dreamplay1@dreamplay1.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:39:31	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:39:31	<--	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:39:31	<--	hoffs (hoffs@hoffs.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:39:31	<--	fierydrake (fierydrake@fierydrake.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:41:39	-->	tmellemseter (tmellemseter@tmellemseter.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:41:39	-->	horthrax (horthrax@horthrax.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:41:39	-->	emlai (emlai@emlai.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:41:39	<--	dreamplay1 (dreamplay1@dreamplay1.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:41:39	<--	monsterthemessi (monsterthemessi@monsterthemessi.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:41:39	<--	nudistbeeeeach (nudistbeeeeach@nudistbeeeeach.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:42:15	sharlock93	why are we blue?
+2020-04-12 08:42:20	sharlock93	is that a plane?
+2020-04-12 08:42:41	-->	dreamplay1 (dreamplay1@dreamplay1.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:43:56	xxthebigfoxx	the green one is more chill imo
+2020-04-12 08:44:11	sharlock93	the powershell blue is atrocious
+2020-04-12 08:44:53	-->	dulocka (dulocka@dulocka.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:44:53	-->	xaii212 (xaii212@xaii212.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:44:53	-->	dazeru (dazeru@dazeru.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:44:53	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:44:55	xxthebigfoxx	that kind of blue hurts my eyes so bad
+2020-04-12 08:45:11	sharlock93	i use alacritty for terminals and it allows recoloring and super nice for windows actually
+2020-04-12 08:47:02	-->	rrdpc (rrdpc@rrdpc.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:47:02	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:47:04	sharlock93	lol he saw moving colors and noped the fuck out :D that was funny
+2020-04-12 08:47:43	dulocka	What is this application for? i missed the last few streams
+2020-04-12 08:48:34	sharlock93	twitter being called out :D
+2020-04-12 08:49:05	<--	kitirobot (kitirobot@kitirobot.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:49:05	<--	frozenzerker (frozenzerker@frozenzerker.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:49:05	<--	xaii212 (xaii212@xaii212.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:49:30	sharlock93	not Fabian fast :D
+2020-04-12 08:50:07	sharlock93	"if its not fast enough" someone is getting fired
+2020-04-12 08:50:30	enemymouse	"pffft it only takes 10ms to process 20 characters"
+2020-04-12 08:51:21	enemymouse	yeah
+2020-04-12 08:51:22	-->	coder_gimmic (coder_gimmic@coder_gimmic.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:51:22	-->	segfault720 (segfault720@segfault720.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:51:22	<--	dreamplay1 (dreamplay1@dreamplay1.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:51:22	<--	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:51:23	sharlock93	a page is like 500 characters? no?
+2020-04-12 08:51:40	sharlock93	aha
+2020-04-12 08:52:06	sharlock93	well its 2000 bytes
+2020-04-12 08:52:16	sharlock93	unicode would be bigger
+2020-04-12 08:53:01	enemymouse	harf is not fast
+2020-04-12 08:53:06	enemymouse	on that level
+2020-04-12 08:53:17	sharlock93	well, which will come first Shawn going insane with OTF or fast speedy code
+2020-04-12 08:53:33	-->	pushupek84 (pushupek84@pushupek84.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:53:33	-->	theintrojuicer (theintrojuicer@theintrojuicer.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:53:34	-->	bushinn (bushinn@bushinn.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:53:34	<--	xxthebigfoxx (xxthebigfoxx@xxthebigfoxx.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:55:24	sharlock93	you are substituting a glyph if you are doing the original text you had
+2020-04-12 08:55:30	enemymouse	I thought alternate was to do with various ligatures
+2020-04-12 08:55:34	sharlock93	as in you should change the base letter to be an initial letter
+2020-04-12 08:55:37	-->	0redline9 (0redline9@0redline9.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:55:37	-->	jwindahouse (jwindahouse@jwindahouse.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:55:37	-->	kontura (kontura@kontura.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:55:37	-->	kernelist (kernelist@kernelist.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:55:37	<--	luckyman79uk (luckyman79uk@luckyman79uk.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:55:37	<--	bushinn (bushinn@bushinn.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:55:37	<--	plurmorant (plurmorant@plurmorant.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:56:35	-->	heloszia1 (heloszia1@heloszia1.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 08:56:35	<--	hufo (hufo@hufo.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:56:35	<--	0redline9 (0redline9@0redline9.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:56:35	<--	haliw_ (haliw_@haliw_.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:56:35	<--	kontura (kontura@kontura.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:58:36	<--	dazeru (dazeru@dazeru.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:58:36	<--	heloszia1 (heloszia1@heloszia1.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:58:36	<--	gandri35 (gandri35@gandri35.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 08:59:37	sharlock93	lol
+2020-04-12 08:59:38	enemymouse	lol that music interrupts every few minutes and freezes you
+2020-04-12 08:59:51	enemymouse	and it's matrix music to top it off
+2020-04-12 09:00:48	-->	sizzlorr (sizzlorr@sizzlorr.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:00:48	-->	davidservn (davidservn@davidservn.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:00:48	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:00:48	-->	incodegames (incodegames@incodegames.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:00:59	sharlock93	that is a valid letter
+2020-04-12 09:01:19	enemymouse	you didn't hear the music?
+2020-04-12 09:01:51	enemymouse	your cam freezes while some where techno music plays every once in a while
+2020-04-12 09:02:36	enemymouse	doesn't really mater
+2020-04-12 09:02:40	sharlock93	should be initial as you are starting the sentence
+2020-04-12 09:02:55	-->	windssd (windssd@windssd.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:02:55	-->	wazza (wazza@wazza.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:02:55	-->	k3jru (k3jru@k3jru.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:02:55	-->	siltnamis (siltnamis@siltnamis.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:02:55	-->	universe (universe@universe.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:02:55	-->	peepeemode (peepeemode@peepeemode.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:02:55	-->	filiadelski (filiadelski@filiadelski.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:02:55	-->	efko__ (efko__@efko__.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:02:55	<--	sneakybob_wot (sneakybob_wot@sneakybob_wot.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:02:55	<--	incodegames (incodegames@incodegames.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:02:55	<--	sygnom (sygnom@sygnom.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:02:55	<--	kernelist (kernelist@kernelist.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:03:28	sharlock93	its exactly pronounced as Seen :D
+2020-04-12 09:04:53	-->	mutine (mutine@mutine.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:04:53	-->	zerorepent (zerorepent@zerorepent.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:04:53	<--	windssd (windssd@windssd.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:05:19	sharlock93	so the letter "seen" can have 4 forms, one at the start, one isolated, one at the end and one if middle of two letters
+2020-04-12 09:05:20	sharlock93	https://puu.sh/Fwz9D/7ece3c12ed.png
+2020-04-12 09:05:28	sharlock93	here is a picture to see all 4 forms
+2020-04-12 09:06:47	sharlock93	its very possible that they are in another range too,this website just lists them under the arabic language so idk
+2020-04-12 09:06:48	sharlock93	https://unicode-table.com/en/alphabets/arab/
+2020-04-12 09:06:55	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:06:55	-->	kwojn (kwojn@kwojn.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:06:55	<--	efko__ (efko__@efko__.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:07:58	sharlock93	no it definitely should be in the FE range
+2020-04-12 09:08:04	sharlock93	https://en.wikipedia.org/wiki/Arabic_script_in_Unicode
+2020-04-12 09:08:43	sharlock93	"Arabic Presentation Forms-B (FE70–FEFF, 141 characters)"
+2020-04-12 09:08:46	sharlock93	and then
+2020-04-12 09:08:58	-->	figglefratz (figglefratz@figglefratz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:08:58	<--	lightofhel1 (lightofhel1@lightofhel1.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:08:58	<--	sizzlorr (sizzlorr@sizzlorr.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:08:58	<--	kwojn (kwojn@kwojn.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:08:58	<--	segfault720 (segfault720@segfault720.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:08:58	<--	0x626f74 (0x626f74@0x626f74.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:09:10	sharlock93	"The Arabic Presentation Forms-B range encodes spacing forms of Arabic diacritics, and more contextual letter forms"
+2020-04-12 09:09:43	sharlock93	however it does say its there for backwards compatibility...weird ass shit
+2020-04-12 09:10:43	sharlock93	oh yeah right this doesn't give you a unicode hex code back but another index id or something
+2020-04-12 09:11:08	-->	tilgagaluwen (tilgagaluwen@tilgagaluwen.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:11:08	-->	powlipow (powlipow@powlipow.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:11:08	-->	0x626f74 (0x626f74@0x626f74.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:11:08	-->	empulselol (empulselol@empulselol.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:11:08	-->	mad_croc999 (mad_croc999@mad_croc999.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:11:08	<--	davidservn (davidservn@davidservn.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:11:13	sharlock93	and it does it correctly!
+2020-04-12 09:11:23	sharlock93	that 2nd form is the initial form of the letter
+2020-04-12 09:12:51	sharlock93	lol video froze..
+2020-04-12 09:13:03	-->	who_yes_os (who_yes_os@who_yes_os.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:13:03	-->	sblyvwx (sblyvwx@sblyvwx.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:13:03	-->	everyrelease (everyrelease@everyrelease.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:13:03	-->	miguel_s_branco (miguel_s_branco@miguel_s_branco.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:13:03	-->	rol1510 (rol1510@rol1510.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:13:03	-->	turniphill (turniphill@turniphill.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:13:03	-->	xxthebigfoxx (xxthebigfoxx@xxthebigfoxx.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:13:03	-->	aldrikboy (aldrikboy@aldrikboy.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:13:05	enemymouse	the music can't be contained
+2020-04-12 09:13:20	sharlock93	what are you using for rendering?
+2020-04-12 09:13:31	xxthebigfoxx	working as intended Kappa
+2020-04-12 09:13:37	sharlock93	wut?
+2020-04-12 09:13:44	sharlock93	i mean how are you rendering the outlines
+2020-04-12 09:14:23	sharlock93	i mean they are curves and you tessellating the curves?
+2020-04-12 09:14:47	czero64	why is it every time the cam freezes theres electronic music screaming for freedom
+2020-04-12 09:14:57	sharlock93	aight
+2020-04-12 09:15:09	-->	brandonzxcv (brandonzxcv@brandonzxcv.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:15:09	-->	ivanalexis01 (ivanalexis01@ivanalexis01.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:15:09	-->	haliw_ (haliw_@haliw_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:15:09	<--	sblyvwx (sblyvwx@sblyvwx.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:15:09	<--	rol1510 (rol1510@rol1510.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:15:14	sharlock93	the video is suppressing the audio
+2020-04-12 09:15:47	sharlock93	"im gonna mess up some code to do what I want"
+2020-04-12 09:17:02	dulocka	are you going to make this open source?
+2020-04-12 09:17:10	sharlock93	nope he isn't
+2020-04-12 09:17:15	-->	notsoblaha (notsoblaha@notsoblaha.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:17:15	-->	gmonxyz (gmonxyz@gmonxyz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:17:15	<--	ivanalexis01 (ivanalexis01@ivanalexis01.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:17:15	<--	turniphill (turniphill@turniphill.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:17:15	<--	everyrelease (everyrelease@everyrelease.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:17:59	sharlock93	he ain't open sourcing it because its called FontFuck
+2020-04-12 09:18:07	xxthebigfoxx	@sssmcgrath not even a shady pastebin? Kappa
+2020-04-12 09:18:49	cypryss	sorry, are you saying harthbuzz?
+2020-04-12 09:18:58	sharlock93	harfbuzz
+2020-04-12 09:19:03	cypryss	thanks
+2020-04-12 09:19:08	dulocka	https://github.com/harfbuzz/harfbuzz/wiki
+2020-04-12 09:19:09	insobot	↑ GitHub: harfbuzz/harfbuzz [HarfBuzz text shaping engine] [C++] [NOASSERTION]
+2020-04-12 09:19:26	-->	alepharr (alepharr@alepharr.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:19:26	<--	rrdpc (rrdpc@rrdpc.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:19:26	<--	empulselol (empulselol@empulselol.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:21:00	filiadelski	Those two characters the same, but in different forms
+2020-04-12 09:21:27	<--	alepharr (alepharr@alepharr.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:21:27	<--	notsoblaha (notsoblaha@notsoblaha.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:21:27	<--	mad_croc999 (mad_croc999@mad_croc999.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:23:42	-->	b_swales (b_swales@b_swales.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:23:42	-->	highflyer_nl (highflyer_nl@highflyer_nl.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:24:44	<--	highflyer_nl (highflyer_nl@highflyer_nl.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:24:44	<--	doublenibble (doublenibble@doublenibble.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:26:20	enemymouse	excuse my font, I would like the gsub features please
+2020-04-12 09:26:39	sharlock93	"arabic...what the fuck"
+2020-04-12 09:26:50	-->	tiefietis (tiefietis@tiefietis.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:26:50	-->	litmusik (litmusik@litmusik.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:26:50	-->	c0y0t3m3t4l (c0y0t3m3t4l@c0y0t3m3t4l.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:33:26	--	irc: disconnected from server
+2020-04-12 09:33:38	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:33:38	--	Channel #sssmcgrath: 1 nick (0 ops, 0 voices, 1 normal)
+2020-04-12 09:34:33	-->	pushupek84 (pushupek84@pushupek84.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	kodorobo (kodorobo@kodorobo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	zhal (zhal@zhal.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	asafgartner (asafgartner@asafgartner.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	julgodis (julgodis@julgodis.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	meocia (meocia@meocia.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	emlai (emlai@emlai.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	nupsi (nupsi@nupsi.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	terminalgain (terminalgain@terminalgain.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	b_swales (b_swales@b_swales.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	brandonzxcv (brandonzxcv@brandonzxcv.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	sikmofo (sikmofo@sikmofo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	haliw_ (haliw_@haliw_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	xxthebigfoxx (xxthebigfoxx@xxthebigfoxx.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	lemonjuices12 (lemonjuices12@lemonjuices12.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	wolverinegator (wolverinegator@wolverinegator.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	koschei_ (koschei_@koschei_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	wazza (wazza@wazza.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	powlipow (powlipow@powlipow.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	technicolor_doggo (technicolor_doggo@technicolor_doggo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	alxtr (alxtr@alxtr.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	eaterenrgy (eaterenrgy@eaterenrgy.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	insobot (insobot@insobot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	aldrikboy (aldrikboy@aldrikboy.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	simon_s_80 (simon_s_80@simon_s_80.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	tiefietis (tiefietis@tiefietis.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	sssmcgrath (sssmcgrath@sssmcgrath.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	kindly_sloth (kindly_sloth@kindly_sloth.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	miblo (miblo@miblo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	universe (universe@universe.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	andrewjdr (andrewjdr@andrewjdr.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	highflyer_nl (highflyer_nl@highflyer_nl.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	filipe225 (filipe225@filipe225.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	gmce (gmce@gmce.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	sharlock93 (sharlock93@sharlock93.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	addeponken (addeponken@addeponken.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	rohallav (rohallav@rohallav.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	tommy_t90 (tommy_t90@tommy_t90.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	miguel_s_branco (miguel_s_branco@miguel_s_branco.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	mutine (mutine@mutine.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	enemymouse (enemymouse@enemymouse.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	lurxx (lurxx@lurxx.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	siltnamis (siltnamis@siltnamis.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	begui (begui@begui.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	localcanofdutchgold (localcanofdutchgold@localcanofdutchgold.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	onemoar (onemoar@onemoar.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	islidius (islidius@islidius.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	coder_gimmic (coder_gimmic@coder_gimmic.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	bilikirs (bilikirs@bilikirs.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	zerorepent (zerorepent@zerorepent.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	turnip_face (turnip_face@turnip_face.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	spoco (spoco@spoco.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	abuffseagull (abuffseagull@abuffseagull.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	commanderroot (commanderroot@commanderroot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	drive137 (drive137@drive137.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	vaualbus (vaualbus@vaualbus.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	rubberslayer (rubberslayer@rubberslayer.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	oliholli (oliholli@oliholli.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	figglefratz (figglefratz@figglefratz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	dulocka (dulocka@dulocka.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	jwindahouse (jwindahouse@jwindahouse.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	tilgagaluwen (tilgagaluwen@tilgagaluwen.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	filiadelski (filiadelski@filiadelski.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	who_yes_os (who_yes_os@who_yes_os.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	tykkimies (tykkimies@tykkimies.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	horthrax (horthrax@horthrax.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	coderguy (coderguy@coderguy.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	grimonja (grimonja@grimonja.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	74c55639 (74c55639@74c55639.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	0x626f74 (0x626f74@0x626f74.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	czero64 (czero64@czero64.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	k3jru (k3jru@k3jru.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	insofaras (insofaras@insofaras.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	gmonxyz (gmonxyz@gmonxyz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	roryjmhoward (roryjmhoward@roryjmhoward.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	tmellemseter (tmellemseter@tmellemseter.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	silentst (silentst@silentst.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	mindfulkid (mindfulkid@mindfulkid.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:34:33	-->	srizbot (srizbot@srizbot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:35:41	-->	yayap13 (yayap13@yayap13.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:35:41	-->	ketsugan (ketsugan@ketsugan.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:35:41	-->	toteload (toteload@toteload.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:35:41	-->	jumpingsheepsheep (jumpingsheepsheep@jumpingsheepsheep.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:35:41	<--	highflyer_nl (highflyer_nl@highflyer_nl.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:35:41	<--	gmce (gmce@gmce.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:35:41	<--	nupsi (nupsi@nupsi.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:35:41	<--	zhal (zhal@zhal.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:36:29	sharlock93	brb grabbing dinner
+2020-04-12 09:36:50	-->	psiwray (psiwray@psiwray.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:36:50	-->	d_fenz (d_fenz@d_fenz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:36:50	<--	toteload (toteload@toteload.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:36:50	<--	yayap13 (yayap13@yayap13.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:36:50	<--	powlipow (powlipow@powlipow.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:36:50	<--	jumpingsheepsheep (jumpingsheepsheep@jumpingsheepsheep.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:36:53	sharlock93	look at the 4 forms of the letter picture i sent you, the sub is wrong
+2020-04-12 09:38:50	-->	eaoruhgadfhjglajsdlfgj (eaoruhgadfhjglajsdlfgj@eaoruhgadfhjglajsdlfgj.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:38:50	-->	amfetamax (amfetamax@amfetamax.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:38:50	-->	crazycynical (crazycynical@crazycynical.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:38:50	<--	gmonxyz (gmonxyz@gmonxyz.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:38:50	<--	coder_gimmic (coder_gimmic@coder_gimmic.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:38:50	<--	psiwray (psiwray@psiwray.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:38:50	<--	coderguy (coderguy@coderguy.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:38:50	<--	b_swales (b_swales@b_swales.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:45:37	--	irc: disconnected from server
+2020-04-12 09:45:49	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:45:49	--	Channel #sssmcgrath: 1 nick (0 ops, 0 voices, 1 normal)
+2020-04-12 09:46:07	-->	figglefratz (figglefratz@figglefratz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	srizbot (srizbot@srizbot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	xxthebigfoxx (xxthebigfoxx@xxthebigfoxx.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	filiadelski (filiadelski@filiadelski.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	vaualbus (vaualbus@vaualbus.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	localcanofdutchgold (localcanofdutchgold@localcanofdutchgold.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	koschei_ (koschei_@koschei_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	rohallav (rohallav@rohallav.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	silentst (silentst@silentst.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	technicolor_doggo (technicolor_doggo@technicolor_doggo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	lurxx (lurxx@lurxx.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	begui (begui@begui.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	tmellemseter (tmellemseter@tmellemseter.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	julgodis (julgodis@julgodis.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	grimonja (grimonja@grimonja.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	brandonzxcv (brandonzxcv@brandonzxcv.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	powlipow (powlipow@powlipow.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	siltnamis (siltnamis@siltnamis.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	spoco (spoco@spoco.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	coderguy (coderguy@coderguy.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	commanderroot (commanderroot@commanderroot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	miblo (miblo@miblo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	ketsugan (ketsugan@ketsugan.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	simon_s_80 (simon_s_80@simon_s_80.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	bilikirs (bilikirs@bilikirs.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	74c55639 (74c55639@74c55639.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	sssmcgrath (sssmcgrath@sssmcgrath.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	addeponken (addeponken@addeponken.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	dulocka (dulocka@dulocka.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	islidius (islidius@islidius.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	oliholli (oliholli@oliholli.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	alxtr (alxtr@alxtr.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	tilgagaluwen (tilgagaluwen@tilgagaluwen.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	kontura (kontura@kontura.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	wolverinegator (wolverinegator@wolverinegator.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	jwindahouse (jwindahouse@jwindahouse.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	asafgartner (asafgartner@asafgartner.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	drive137 (drive137@drive137.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	0x626f74 (0x626f74@0x626f74.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	filipe225 (filipe225@filipe225.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	universe (universe@universe.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	abuffseagull (abuffseagull@abuffseagull.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	who_yes_os (who_yes_os@who_yes_os.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	aldrikboy (aldrikboy@aldrikboy.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	andrewjdr (andrewjdr@andrewjdr.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	roryjmhoward (roryjmhoward@roryjmhoward.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	sharlock93 (sharlock93@sharlock93.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	crazycynical (crazycynical@crazycynical.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	terminalgain (terminalgain@terminalgain.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	k3jru (k3jru@k3jru.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	miguel_s_branco (miguel_s_branco@miguel_s_branco.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	emlai (emlai@emlai.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	sikmofo (sikmofo@sikmofo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	roblon (roblon@roblon.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	enemymouse (enemymouse@enemymouse.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	czero64 (czero64@czero64.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	coder_gimmic (coder_gimmic@coder_gimmic.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	d_fenz (d_fenz@d_fenz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	zerorepent (zerorepent@zerorepent.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	pushupek84 (pushupek84@pushupek84.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	insofaras (insofaras@insofaras.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	insobot (insobot@insobot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	lemonjuices12 (lemonjuices12@lemonjuices12.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	onemoar (onemoar@onemoar.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	turnip_face (turnip_face@turnip_face.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	haliw_ (haliw_@haliw_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	meocia (meocia@meocia.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	eaterenrgy (eaterenrgy@eaterenrgy.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	rubberslayer (rubberslayer@rubberslayer.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	wazza (wazza@wazza.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	tykkimies (tykkimies@tykkimies.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	kodorobo (kodorobo@kodorobo.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	mutine (mutine@mutine.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	tommy_t90 (tommy_t90@tommy_t90.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	kindly_sloth (kindly_sloth@kindly_sloth.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:07	-->	horthrax (horthrax@horthrax.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:46:11	sharlock93	bacj
+2020-04-12 09:46:27	sharlock93	what is up?
+2020-04-12 09:46:44	sharlock93	the first one
+2020-04-12 09:46:47	filiadelski	yes
+2020-04-12 09:46:47	sharlock93	yeah that is initial
+2020-04-12 09:47:02	sharlock93	yep
+2020-04-12 09:47:11	-->	poned11 (poned11@poned11.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:47:11	-->	grimch007 (grimch007@grimch007.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:47:11	-->	jooda12 (jooda12@jooda12.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:47:11	<--	kontura (kontura@kontura.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:47:11	<--	who_yes_os (who_yes_os@who_yes_os.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:47:11	<--	roblon (roblon@roblon.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:47:29	sharlock93	no first one is iso
+2020-04-12 09:47:45	filiadelski	im surprised the middle has rounded corners on the left side as it connects the next letter
+2020-04-12 09:47:52	sharlock93	wait first one from the right :D
+2020-04-12 09:47:53	filiadelski	the first one from the right is iso
+2020-04-12 09:47:59	filiadelski	Arabic is read from the right :P
+2020-04-12 09:48:24	sharlock93	yes sir
+2020-04-12 09:48:41	filiadelski	You'd pronounce it sss
+2020-04-12 09:48:43	filiadelski	:D
+2020-04-12 09:49:26	-->	maamplsmarryme (maamplsmarryme@maamplsmarryme.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:49:26	<--	alxtr (alxtr@alxtr.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:49:26	<--	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:49:33	sharlock93	hold up the unicode rules has that
+2020-04-12 09:49:34	sharlock93	one sec
+2020-04-12 09:49:47	sharlock93	https://www.unicode.org/versions/Unicode13.0.0/ch09.pdf
+2020-04-12 09:50:00	sharlock93	page 10
+2020-04-12 09:50:30	krimpsok	DansGame
+2020-04-12 09:50:30	sharlock93	page 365
+2020-04-12 09:50:53	sharlock93	you can see just from that one picture how shit is laid out
+2020-04-12 09:51:04	sharlock93	you have three of the same letters in order
+2020-04-12 09:51:34	-->	eaoruhgadfhjglajsdlfgj (eaoruhgadfhjglajsdlfgj@eaoruhgadfhjglajsdlfgj.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:51:34	-->	krimpsok (krimpsok@krimpsok.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:51:34	<--	mutine (mutine@mutine.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:51:34	<--	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:52:21	filiadelski	Are they saying the memory representation is left to right?
+2020-04-12 09:52:22	insobot	Confronted by a well stocked with buttloads of la...
+2020-04-12 09:52:40	sharlock93	yes mem representation is always left to right
+2020-04-12 09:53:12	filiadelski	No im saying the first letter of a word is at the lowest address, right?
+2020-04-12 09:53:27	enemymouse	yes
+2020-04-12 09:53:27	sharlock93	the first picture you saw in the pdf is how arabic normally works and everything else is exceptions
+2020-04-12 09:53:34	xxthebigfoxx	Rightmost letter is first in memory
+2020-04-12 09:53:37	-->	cacheoverride (cacheoverride@cacheoverride.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:53:37	-->	justsaul2 (justsaul2@justsaul2.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:55:07	filiadelski	Are joiners to hint what form of the next character should be used?
+2020-04-12 09:55:50	-->	datblindarcher (datblindarcher@datblindarcher.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:55:50	-->	mayjerwinning (mayjerwinning@mayjerwinning.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:55:50	-->	laggynewbie (laggynewbie@laggynewbie.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:55:50	-->	cbasedatacode (cbasedatacode@cbasedatacode.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:55:50	<--	jwindahouse (jwindahouse@jwindahouse.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:55:50	<--	wolverinegator (wolverinegator@wolverinegator.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:55:57	sharlock93	okay what is your problem with it?
+2020-04-12 09:55:59	filiadelski	Yeah it looks like it. So if you want to write a cursive letter withouth any adjacent characters
+2020-04-12 09:56:28	sharlock93	spaces
+2020-04-12 09:56:46	sharlock93	yes most of the time
+2020-04-12 09:56:50	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:56:50	-->	skandza (skandza@skandza.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:56:50	<--	justsaul2 (justsaul2@justsaul2.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:56:50	<--	laggynewbie (laggynewbie@laggynewbie.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:56:50	<--	mayjerwinning (mayjerwinning@mayjerwinning.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:57:16	filiadelski	In handwritten arabic spaces work the same way
+2020-04-12 09:57:16	insobot	Conference stream today anyway. Angel island someday will show up in the foreseeable future.
+2020-04-12 09:57:18	sharlock93	there isn't a set of exceptions
+2020-04-12 09:57:51	sharlock93	yes
+2020-04-12 09:58:31	sharlock93	context
+2020-04-12 09:58:31	insobot	Transformations are fast, and track the spotlight as an incompetent person, not sure what that just never freeing.
+2020-04-12 09:58:37	sharlock93	or position
+2020-04-12 09:58:52	filiadelski	@insobot stfu you're not helping
+2020-04-12 09:58:59	sharlock93	its a bot mate
+2020-04-12 09:59:02	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:59:02	-->	myop (myop@myop.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:59:02	-->	justsaul2 (justsaul2@justsaul2.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:59:02	-->	michi42_42 (michi42_42@michi42_42.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 09:59:02	<--	abuffseagull (abuffseagull@abuffseagull.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:59:02	<--	datblindarcher (datblindarcher@datblindarcher.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:59:02	<--	ketsugan (ketsugan@ketsugan.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 09:59:09	filiadelski	Haha i know
+2020-04-12 10:00:32	sharlock93	do be careful though about the whole joiner-non-joiner stuff
+2020-04-12 10:00:44	sharlock93	iso only happens when the letter is literally alone
+2020-04-12 10:01:01	sharlock93	as in between two white spaces no letter comes after
+2020-04-12 10:01:10	-->	abuffseagull (abuffseagull@abuffseagull.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:01:10	-->	e_bosher (e_bosher@e_bosher.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:01:10	-->	floxwoop (floxwoop@floxwoop.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:01:10	-->	topflightgames (topflightgames@topflightgames.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:01:10	<--	skandza (skandza@skandza.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:01:10	<--	michi42_42 (michi42_42@michi42_42.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:01:10	<--	myop (myop@myop.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:03:19	-->	icarusmad (icarusmad@icarusmad.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:03:19	-->	the_suisse (the_suisse@the_suisse.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:03:19	-->	aameen951 (aameen951@aameen951.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:03:19	-->	kolfest (kolfest@kolfest.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:03:24	sharlock93	the init state of the shaping should always start assuming that the first letter is in its initial form except if there is a joiner at the start
+2020-04-12 10:04:13	aameen951	writing a shaping engine?
+2020-04-12 10:04:26	sharlock93	joiner like the standard says is to make a letter be in its other forms when there is no other letters around it
+2020-04-12 10:05:17	filiadelski	Then its the end form
+2020-04-12 10:05:18	sharlock93	yes
+2020-04-12 10:05:26	-->	mutine (mutine@mutine.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:05:26	-->	zatrik1 (zatrik1@zatrik1.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:05:26	<--	maamplsmarryme (maamplsmarryme@maamplsmarryme.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:05:26	<--	justsaul2 (justsaul2@justsaul2.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:05:28	sharlock93	yep yep
+2020-04-12 10:05:41	sharlock93	it acts like a non writable letter
+2020-04-12 10:05:54	filiadelski	I thought joiner applies to the next character not the previous?
+2020-04-12 10:06:47	sharlock93	"The use of a joiner adjacent to a suitable letter permits that letter to form a cursive connection without a visible neighbor."
+2020-04-12 10:06:56	sharlock93	does not indicate the letter after or before
+2020-04-12 10:07:18	-->	sir_pinecone (sir_pinecone@sir_pinecone.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:07:18	<--	floxwoop (floxwoop@floxwoop.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:07:18	<--	topflightgames (topflightgames@topflightgames.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:07:18	<--	e_bosher (e_bosher@e_bosher.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:07:18	<--	the_suisse (the_suisse@the_suisse.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:07:27	sharlock93	yes
+2020-04-12 10:07:35	filiadelski	Leftmost character is lowest address?
+2020-04-12 10:07:45	enemymouse	initial isn't on the right is screen layout??
+2020-04-12 10:07:54	enemymouse	feels backwards
+2020-04-12 10:08:10	xxthebigfoxx	the RTL layout is written LTR but yea
+2020-04-12 10:09:32	-->	justsaul2 (justsaul2@justsaul2.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:09:32	-->	hoffs (hoffs@hoffs.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:09:32	-->	shornty (shornty@shornty.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:09:32	-->	drspectra (drspectra@drspectra.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:09:32	<--	cbasedatacode (cbasedatacode@cbasedatacode.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:09:32	<--	poned11 (poned11@poned11.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:09:32	<--	zatrik1 (zatrik1@zatrik1.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:10:00	xxthebigfoxx	It's an initial if it comes on the right of the word when printed out right?
+2020-04-12 10:10:12	filiadelski	If you have _C meaning first a joiner, and after that in memory a C, then the C should be in end form assuming after C comes a space.
+2020-04-12 10:10:20	aameen951	These are all the shapes of Sen: https://i.imgur.com/OZmJAWd.png
+2020-04-12 10:10:29	sharlock93	https://puu.sh/FwAoj/d084879921.png
+2020-04-12 10:10:38	sharlock93	in mem layout
+2020-04-12 10:11:18	enemymouse	I swear my brain thinks you wrote it backwards
+2020-04-12 10:11:32	enemymouse	but nevermind
+2020-04-12 10:11:44	-->	thevcard (thevcard@thevcard.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:11:44	-->	johnw1cklul (johnw1cklul@johnw1cklul.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:11:44	<--	sir_pinecone (sir_pinecone@sir_pinecone.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:11:44	<--	hoffs (hoffs@hoffs.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:12:38	xxthebigfoxx	anyways its gonna be easy to see if you get it right because the letters in a word will join right?
+2020-04-12 10:12:53	-->	atanasov_ (atanasov_@atanasov_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:12:53	-->	montyhimself (montyhimself@montyhimself.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:12:53	<--	shornty (shornty@shornty.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:12:53	<--	koschei_ (koschei_@koschei_.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:12:53	<--	drspectra (drspectra@drspectra.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:12:56	vaualbus	microsoft just retweet that they ship 10 years ago the begin of the fall of VS as apparently VS10 was released 10 years ago!
+2020-04-12 10:13:36	sharlock93	"The use of a non-joiner between two letters prevents those letters from forming a cursive connection with each other when rendered, as shown in Figure 9-3"
+2020-04-12 10:13:52	sharlock93	as in it overrides the normal behavior on connections
+2020-04-12 10:13:52	insobot	Retailed mode gui with an unreleased language then.
+2020-04-12 10:14:12	xxthebigfoxx	so you use an end and then an init between non joiners?
+2020-04-12 10:14:22	sharlock93	one between two letters they wouldn't connect
+2020-04-12 10:14:26	sharlock93	and there wouldn't be a space between them
+2020-04-12 10:14:46	sharlock93	yes
+2020-04-12 10:14:55	-->	kamro_ (kamro_@kamro_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:14:55	-->	pommicket (pommicket@pommicket.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:14:55	-->	zatrik1 (zatrik1@zatrik1.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:14:55	<--	turnip_face (turnip_face@turnip_face.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:14:55	<--	atanasov_ (atanasov_@atanasov_.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:15:13	xxthebigfoxx	How do you guys write tell this stuff to your text editro?
+2020-04-12 10:15:26	filiadelski	So a non-joiner between two letters makes the first one in the end form and the second one in the inital form?
+2020-04-12 10:16:00	sharlock93	depends on context @Filiadelski and other letters around the other two letters
+2020-04-12 10:16:09	enemymouse	lol
+2020-04-12 10:16:21	xxthebigfoxx	I don't know what i wrote, but i what i meant is how do you tell your text editor where you want to have joiners/non-joiners etc
+2020-04-12 10:16:35	sharlock93	there is a keyboard shortcut for it
+2020-04-12 10:16:57	sharlock93	like how you capitalize stuff in english there is a shift letter that inputs a non-joiner/joiner
+2020-04-12 10:17:03	-->	pawanspace (pawanspace@pawanspace.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:17:03	-->	turnip_face (turnip_face@turnip_face.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:17:03	<--	zatrik1 (zatrik1@zatrik1.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:17:03	<--	begui (begui@begui.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:17:05	filiadelski	I'm guessing a joiners/non-joiners are almost never used by people who actually write in arabic on a keyboard
+2020-04-12 10:17:20	aameen951	no
+2020-04-12 10:17:20	sharlock93	no there is no upper case
+2020-04-12 10:17:31	stackmann0	no upper case in arabic
+2020-04-12 10:17:35	cbasedatacode	Hello, what are you working on?
+2020-04-12 10:17:59	filiadelski	I should buy keycaps with arabic symbols
+2020-04-12 10:18:00	sharlock93	@Filiadelski its used in certain places that want the arabic to be in its cursive form, like when you write hijri dates with the letter H
+2020-04-12 10:18:15	xxthebigfoxx	Does arabic also have a non cursive form?
+2020-04-12 10:18:58	-->	begui (begui@begui.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:18:58	-->	cbasedatacode (cbasedatacode@cbasedatacode.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:18:58	-->	stackmann0 (stackmann0@stackmann0.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:18:58	<--	thevcard (thevcard@thevcard.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:18:58	<--	montyhimself (montyhimself@montyhimself.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:18:58	<--	pawanspace (pawanspace@pawanspace.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:18:58	<--	powlipow (powlipow@powlipow.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:19:16	aameen951	Last time I tried this I got lost between (fonts, bidi algorithm, and shaping) ... bidi makes it very hard so I gave up :(
+2020-04-12 10:19:18	sharlock93	you could do something else that kurdish does, using the kurdish keyboard maps the keyboard letters to the kurdish ones as in S will be "س"
+2020-04-12 10:21:00	<--	justsaul2 (justsaul2@justsaul2.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:21:00	<--	stackmann0 (stackmann0@stackmann0.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:23:17	<--	tilgagaluwen (tilgagaluwen@tilgagaluwen.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:23:17	<--	aameen951 (aameen951@aameen951.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:25:28	-->	its1z0 (its1z0@its1z0.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:25:28	-->	axonneq (axonneq@axonneq.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:27:25	-->	copysh (copysh@copysh.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:28:01	filiadelski	Hm, yeah S becomes س but A is ش and G ل which doesn't really makes sense to me
+2020-04-12 10:28:09	filiadelski	Atleast not phonetically
+2020-04-12 10:28:35	sharlock93	that is a normal arabic keyboard, the kurdish keyboard layout is different
+2020-04-12 10:29:19	filiadelski	No that is Central Kurdish selected on Windows
+2020-04-12 10:29:20	sharlock93	why not edit the previous glyph instead of keeping the next glyph?
+2020-04-12 10:29:31	-->	b_swales (b_swales@b_swales.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:29:31	-->	chuache (chuache@chuache.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:29:31	<--	johnw1cklul (johnw1cklul@johnw1cklul.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:29:31	<--	axonneq (axonneq@axonneq.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:29:31	<--	copysh (copysh@copysh.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:29:35	sharlock93	yes I now @Filiadelski
+2020-04-12 10:30:01	sharlock93	that is how most kurdish text is written in iraq nowadays
+2020-04-12 10:31:06	filiadelski	https://i.redd.it/8zza9bzeq1m41.jpg
+2020-04-12 10:31:11	filiadelski	I dont like that :(
+2020-04-12 10:31:29	-->	quickshift_ (quickshift_@quickshift_.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:31:29	-->	irazorx0 (irazorx0@irazorx0.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:31:29	-->	fargobitwise (fargobitwise@fargobitwise.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:31:29	<--	cbasedatacode (cbasedatacode@cbasedatacode.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:31:29	<--	chuache (chuache@chuache.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:31:29	<--	k3jru (k3jru@k3jru.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:32:05	cacheoverride	I need my f keys
+2020-04-12 10:32:13	filiadelski	I could get used to it but I'd want L to me laam and D to be da and so on
+2020-04-12 10:32:49	cacheoverride	also I need right shift to be full size I think
+2020-04-12 10:33:27	-->	013c (013c@013c.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:33:27	-->	jsanchez__ (jsanchez__@jsanchez__.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:33:27	-->	elbaaa (elbaaa@elbaaa.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:33:27	-->	k3jru (k3jru@k3jru.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:33:27	-->	fai0thx (fai0thx@fai0thx.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:33:27	<--	quickshift_ (quickshift_@quickshift_.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:33:27	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:33:27	<--	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:33:55	cacheoverride	Yeh Kappa
+2020-04-12 10:33:55	filiadelski	Yes
+2020-04-12 10:33:56	aameen951	Yes
+2020-04-12 10:34:23	aameen951	no without dots is different
+2020-04-12 10:34:25	filiadelski	That letter can be without the dots
+2020-04-12 10:34:55	cacheoverride	more dots!
+2020-04-12 10:35:19	cacheoverride	wow meme
+2020-04-12 10:35:20	aameen951	I don't think, both exists (one with dots and one without)
+2020-04-12 10:35:29	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:35:29	-->	hozaku (hozaku@hozaku.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:35:29	-->	nandmade (nandmade@nandmade.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:35:29	-->	aameen951 (aameen951@aameen951.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:35:29	-->	drspectra (drspectra@drspectra.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:35:29	-->	realbrokenprogrammer (realbrokenprogrammer@realbrokenprogrammer.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:35:36	filiadelski	Mooar dots
+2020-04-12 10:35:42	filiadelski	hit very hard
+2020-04-12 10:36:11	sharlock93	what happened what did I miss?
+2020-04-12 10:36:26	cacheoverride	many whelps
+2020-04-12 10:36:27	cacheoverride	handle it
+2020-04-12 10:36:56	sharlock93	hold up
+2020-04-12 10:37:37	-->	hlina_cz (hlina_cz@hlina_cz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:37:37	-->	azertywatching (azertywatching@azertywatching.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:37:37	<--	coderguy (coderguy@coderguy.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:37:37	<--	abuffseagull (abuffseagull@abuffseagull.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:37:46	sharlock93	if you are using that text you originally showed its a bit too exotic I would say because of one words is the word for "allah" and its shape is a bit different normally
+2020-04-12 10:38:04	sharlock93	so what are you trying to do ? lets give you a text that is a bit normal :D
+2020-04-12 10:38:46	sharlock93	its not complicated in the normal sense
+2020-04-12 10:38:49	aameen951	no those are regular names
+2020-04-12 10:39:25	sharlock93	its talking about Khawarizmi a Persian mathematician
+2020-04-12 10:39:42	-->	abuffseagull (abuffseagull@abuffseagull.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:39:42	-->	keithzz0r (keithzz0r@keithzz0r.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:39:42	<--	azertywatching (azertywatching@azertywatching.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:39:42	<--	kamro_ (kamro_@kamro_.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:39:42	<--	hlina_cz (hlina_cz@hlina_cz.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:40:39	aameen951	@Sharlock93 Khawarizmi has something to do with algorithms (which is interesting)
+2020-04-12 10:40:44	sharlock93	https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi
+2020-04-12 10:40:58	sharlock93	etymology of the word algorithm came from his name
+2020-04-12 10:41:57	<--	nandmade (nandmade@nandmade.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:43:05	-->	zakedodead (zakedodead@zakedodead.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:43:05	<--	keithzz0r (keithzz0r@keithzz0r.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:43:05	<--	fargobitwise (fargobitwise@fargobitwise.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:43:09	sharlock93	so use this sentence "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق " for text testing, its the brown fox lazy dog for arabic
+2020-04-12 10:45:03	-->	joltoh (joltoh@joltoh.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:45:03	-->	everyrelease (everyrelease@everyrelease.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:45:03	<--	zakedodead (zakedodead@zakedodead.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:45:03	<--	krimpsok (krimpsok@krimpsok.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:45:22	sharlock93	be right back~
+2020-04-12 10:47:11	sharlock93	back
+2020-04-12 10:47:15	-->	khorm (khorm@khorm.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:47:15	-->	tc85 (tc85@tc85.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:47:15	<--	figglefratz (figglefratz@figglefratz.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:47:15	<--	grimonja (grimonja@grimonja.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:47:15	<--	joltoh (joltoh@joltoh.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:47:15	<--	everyrelease (everyrelease@everyrelease.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:47:55	arc0re1	There is no god in programming
+2020-04-12 10:48:00	bestalloys	what's the goal?
+2020-04-12 10:48:03	arc0re1	only bugs
+2020-04-12 10:48:33	sharlock93	:D glad I could help
+2020-04-12 10:49:18	-->	mindfulkid (mindfulkid@mindfulkid.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:49:18	-->	justsaul2 (justsaul2@justsaul2.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:49:18	-->	0redline9 (0redline9@0redline9.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:49:18	-->	everyrelease (everyrelease@everyrelease.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:49:18	-->	alexander0153 (alexander0153@alexander0153.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:49:18	-->	figglefratz (figglefratz@figglefratz.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:49:18	-->	solo_techno (solo_techno@solo_techno.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:49:18	-->	arc0re1 (arc0re1@arc0re1.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:49:18	<--	abuffseagull (abuffseagull@abuffseagull.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:49:18	<--	tc85 (tc85@tc85.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:49:25	cacheoverride	are you doing all languages?
+2020-04-12 10:49:38	sharlock93	aight some warzone time for me, need anything else?
+2020-04-12 10:50:03	cacheoverride	that makes sense
+2020-04-12 10:51:16	cacheoverride	bye
+2020-04-12 10:51:19	-->	the_suisse (the_suisse@the_suisse.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:51:19	-->	floorislava (floorislava@floorislava.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:51:19	-->	lnter0 (lnter0@lnter0.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:51:19	-->	bestalloys (bestalloys@bestalloys.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:51:19	-->	frugle (frugle@frugle.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:51:19	-->	segfault720 (segfault720@segfault720.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:51:19	<--	mindfulkid (mindfulkid@mindfulkid.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:51:19	<--	islidius (islidius@islidius.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:51:19	<--	julgodis (julgodis@julgodis.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:51:19	<--	srizbot (srizbot@srizbot.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:51:19	<--	hozaku (hozaku@hozaku.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:51:19	<--	everyrelease (everyrelease@everyrelease.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:51:19	<--	haliw_ (haliw_@haliw_.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:51:27	xxthebigfoxx	see ya
+2020-04-12 10:53:17	-->	srizbot (srizbot@srizbot.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:53:17	<--	justsaul2 (justsaul2@justsaul2.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:53:17	<--	sssmcgrath (sssmcgrath@sssmcgrath.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:53:17	<--	figglefratz (figglefratz@figglefratz.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:53:17	<--	realbrokenprogrammer (realbrokenprogrammer@realbrokenprogrammer.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:53:17	<--	vaualbus (vaualbus@vaualbus.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:53:17	<--	irazorx0 (irazorx0@irazorx0.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:53:17	<--	sikmofo (sikmofo@sikmofo.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:53:17	<--	silentst (silentst@silentst.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:53:17	<--	meocia (meocia@meocia.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:53:17	<--	lnter0 (lnter0@lnter0.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:53:17	<--	tommy_t90 (tommy_t90@tommy_t90.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:53:17	<--	xxthebigfoxx (xxthebigfoxx@xxthebigfoxx.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:53:17	<--	bestalloys (bestalloys@bestalloys.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:53:17	<--	pommicket (pommicket@pommicket.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:53:17	<--	floorislava (floorislava@floorislava.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:53:17	<--	frugle (frugle@frugle.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:53:17	<--	segfault720 (segfault720@segfault720.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:53:17	<--	cacheoverride (cacheoverride@cacheoverride.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:55:21	-->	kwojn (kwojn@kwojn.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:55:21	<--	filiadelski (filiadelski@filiadelski.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:55:21	<--	terminalgain (terminalgain@terminalgain.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:55:21	<--	0redline9 (0redline9@0redline9.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:55:21	<--	eaterenrgy (eaterenrgy@eaterenrgy.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:55:21	<--	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:55:21	<--	d_fenz (d_fenz@d_fenz.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:55:21	<--	khorm (khorm@khorm.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:55:21	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:55:21	<--	013c (013c@013c.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:55:21	<--	arc0re1 (arc0re1@arc0re1.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:55:21	<--	dulocka (dulocka@dulocka.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:57:22	<--	drspectra (drspectra@drspectra.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:57:22	<--	its1z0 (its1z0@its1z0.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:57:22	<--	jsanchez__ (jsanchez__@jsanchez__.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:59:23	-->	calvo00 (calvo00@calvo00.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 10:59:23	<--	coder_gimmic (coder_gimmic@coder_gimmic.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:59:23	<--	eaoruhgadfhjglajsdlfgj (eaoruhgadfhjglajsdlfgj@eaoruhgadfhjglajsdlfgj.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:59:23	<--	aameen951 (aameen951@aameen951.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 10:59:23	<--	elbaaa (elbaaa@elbaaa.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:01:40	<--	jooda12 (jooda12@jooda12.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:01:40	<--	emlai (emlai@emlai.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:01:40	<--	fai0thx (fai0thx@fai0thx.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:03:50	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:03:50	<--	wazza (wazza@wazza.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:05:46	<--	kolfest (kolfest@kolfest.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:07:51	<--	b_swales (b_swales@b_swales.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:07:51	<--	calvo00 (calvo00@calvo00.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:07:51	<--	icarusmad (icarusmad@icarusmad.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:07:51	<--	simon_s_80 (simon_s_80@simon_s_80.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:11:11	<--	oliholli (oliholli@oliholli.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:11:11	<--	filipe225 (filipe225@filipe225.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:11:11	<--	solo_techno (solo_techno@solo_techno.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:13:14	-->	calvo00 (calvo00@calvo00.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 11:13:14	<--	czero64 (czero64@czero64.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:13:14	<--	grimch007 (grimch007@grimch007.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:13:14	<--	kwojn (kwojn@kwojn.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:15:23	-->	kwojn (kwojn@kwojn.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 11:19:24	<--	calvo00 (calvo00@calvo00.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:19:24	<--	tmellemseter (tmellemseter@tmellemseter.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:21:32	-->	calvo00 (calvo00@calvo00.tmi.twitch.tv) has joined #sssmcgrath
+2020-04-12 11:21:32	<--	sharlock93 (sharlock93@sharlock93.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:25:44	<--	localcanofdutchgold (localcanofdutchgold@localcanofdutchgold.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:31:18	<--	brandonzxcv (brandonzxcv@brandonzxcv.tmi.twitch.tv) has left #sssmcgrath
+2020-04-12 11:32:00	--	irc: disconnected from server

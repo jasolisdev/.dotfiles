@@ -1,0 +1,334 @@
+2020-04-13 10:22:43	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:22:43	--	Channel #sonsixe: 1 nick (0 ops, 0 voices, 1 normal)
+2020-04-13 10:22:43		-- Title is "Game Engine Programming: Skeletal Animation"
+2020-04-13 10:23:20	-->	rubberslayer (rubberslayer@rubberslayer.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:23:20	-->	maddielearns (maddielearns@maddielearns.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:23:20	-->	donho (donho@donho.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:23:20	-->	guphy_ (guphy_@guphy_.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:23:20	-->	lemonjuices12 (lemonjuices12@lemonjuices12.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:23:20	-->	aten (aten@aten.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:23:20	-->	thedevilisob (thedevilisob@thedevilisob.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:23:20	-->	barakpizzuto (barakpizzuto@barakpizzuto.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:23:20	-->	frogbottom (frogbottom@frogbottom.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:23:20	-->	auroralgames (auroralgames@auroralgames.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:23:20	-->	skumshop (skumshop@skumshop.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:23:20	-->	sonsixe (sonsixe@sonsixe.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:23:20	-->	commanderroot (commanderroot@commanderroot.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:23:20	-->	crazycynical (crazycynical@crazycynical.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:25:22	-->	wangliang0414 (wangliang0414@wangliang0414.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:25:22	-->	kiwwisk (kiwwisk@kiwwisk.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:25:22	<--	guphy_ (guphy_@guphy_.tmi.twitch.tv) has left #sonsixe
+2020-04-13 10:28:29	-->	rredemtion (rredemtion@rredemtion.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:29:34	maddielearns	i prefer not thinking about memory
+2020-04-13 10:29:44	maddielearns	memory allocation is too confusing
+2020-04-13 10:32:36	<--	rredemtion (rredemtion@rredemtion.tmi.twitch.tv) has left #sonsixe
+2020-04-13 10:32:55	maddielearns	Assuming the user isnt a big dummy is not always the best idea
+2020-04-13 10:33:35	maddielearns	I mean i assume im the big idiot as well but that just might be a me thing
+2020-04-13 10:35:21	maddielearns	professors have no idea what they're talking about in my experience
+2020-04-13 10:36:30	maddielearns	for all the hate Java gets I really like Java
+2020-04-13 10:37:45	maddielearns	Yes it is limiting in some respects and there is also a lot of boilerplate
+2020-04-13 10:38:45	maddielearns	Some things I am not going to do in java directly. like no way im writing all the UI in java. Writing a language parser to handle that
+2020-04-13 10:39:24	maddielearns	My UI library is custom. JavaFX is good tho
+2020-04-13 10:40:01	maddielearns	it is super confusing in some respects. the TextField class gave me such a headache
+2020-04-13 10:40:49	maddielearns	Well it is like shifting a window around based on the length of the text and the caret location
+2020-04-13 10:42:23	maddielearns	tbh i have no idea what that means
+2020-04-13 10:43:16	-->	magistr_y0d0 (magistr_y0d0@magistr_y0d0.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:43:33	maddielearns	It stores the data. It doesnt reconstruct the data from scratch. It changes certain data when need be
+2020-04-13 10:44:14	<--	magistr_y0d0 (magistr_y0d0@magistr_y0d0.tmi.twitch.tv) has left #sonsixe
+2020-04-13 10:44:16	maddielearns	Reconstructing the data every frame sounds like it would be slow
+2020-04-13 10:44:54	maddielearns	but you have to load the data every frame?
+2020-04-13 10:45:47	maddielearns	I probably just dont understand but for the most part it just stores information in a class for each ui element and then updates it
+2020-04-13 10:48:19	maddielearns	I mean windows will be opened and closed but I was just thinking of having a hide option for UI elements
+2020-04-13 10:48:25	maddielearns	Then you just call hide on a window
+2020-04-13 10:50:06	maddielearns	honestly im not sure if it will be a good idea to keep all of it in memory all at once tho. like should i re-read the UI files when u open a window or just keep them all in memory? idk
+2020-04-13 10:50:39	-->	glassofethanol (glassofethanol@glassofethanol.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:51:25	maddielearns	My only concerned with re-reading files is speed. Like i could imagine a large UI file taking 20 milliseconds to read
+2020-04-13 10:51:30	maddielearns	which idk if that will be bad
+2020-04-13 10:52:00	maddielearns	I have a language that parses them
+2020-04-13 10:52:24	maddielearns	What might be more efficient is to only keep the parse trees in memory
+2020-04-13 10:52:44	<--	glassofethanol (glassofethanol@glassofethanol.tmi.twitch.tv) has left #sonsixe
+2020-04-13 10:52:51	maddielearns	Yeah the thing is trade off between memory space and speed
+2020-04-13 10:54:11	maddielearns	Also do you have any idea how to write a plugin for coloring files in eclipse? Atm the files just make everything gray which is kinda hard to read
+2020-04-13 10:55:02	-->	draco401 (draco401@draco401.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 10:55:02	<--	thedevilisob (thedevilisob@thedevilisob.tmi.twitch.tv) has left #sonsixe
+2020-04-13 10:55:13	maddielearns	yeah but i dont just want a theme i need something for coloring a custom file
+2020-04-13 10:55:26	maddielearns	the language is one i came up for for ui
+2020-04-13 10:56:35	maddielearns	It doesnt have very similar syntax at all haha
+2020-04-13 10:57:00	maddielearns	No you're fine :D
+2020-04-13 10:57:04	-->	thedevilisob (thedevilisob@thedevilisob.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 11:02:10	-->	ry2003ca (ry2003ca@ry2003ca.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 11:04:16	-->	wazza (wazza@wazza.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 11:04:16	-->	universe (universe@universe.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 11:09:15	<--	ry2003ca (ry2003ca@ry2003ca.tmi.twitch.tv) has left #sonsixe
+2020-04-13 11:09:15	<--	wazza (wazza@wazza.tmi.twitch.tv) has left #sonsixe
+2020-04-13 11:09:15	<--	universe (universe@universe.tmi.twitch.tv) has left #sonsixe
+2020-04-13 11:14:40	<--	draco401 (draco401@draco401.tmi.twitch.tv) has left #sonsixe
+2020-04-13 11:16:57	-->	realtopkek (realtopkek@realtopkek.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 11:18:52	-->	srizbot (srizbot@srizbot.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 11:22:51	-->	d_evgen (d_evgen@d_evgen.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 11:24:49	<--	d_evgen (d_evgen@d_evgen.tmi.twitch.tv) has left #sonsixe
+2020-04-13 11:26:46	<--	thedevilisob (thedevilisob@thedevilisob.tmi.twitch.tv) has left #sonsixe
+2020-04-13 11:28:49	-->	thedevilisob (thedevilisob@thedevilisob.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 11:32:59	-->	rohallav (rohallav@rohallav.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 11:32:59	<--	crazycynical (crazycynical@crazycynical.tmi.twitch.tv) has left #sonsixe
+2020-04-13 11:34:58	<--	rohallav (rohallav@rohallav.tmi.twitch.tv) has left #sonsixe
+2020-04-13 11:37:16	maddielearns	backwards in my mine
+2020-04-13 11:37:19	maddielearns	i should make more cofee
+2020-04-13 11:41:20	-->	ferbracaroto (ferbracaroto@ferbracaroto.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 11:42:26	<--	barakpizzuto (barakpizzuto@barakpizzuto.tmi.twitch.tv) has left #sonsixe
+2020-04-13 11:42:26	<--	ferbracaroto (ferbracaroto@ferbracaroto.tmi.twitch.tv) has left #sonsixe
+2020-04-13 11:44:31	-->	prophetltu (prophetltu@prophetltu.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 11:44:48	coyotefries	hewo
+2020-04-13 11:45:01	coyotefries	its will
+2020-04-13 11:45:09	coyotefries	coyote
+2020-04-13 11:45:29	coyotefries	this is gonna be my 3D channel
+2020-04-13 11:45:59	coyotefries	oh yeah you havent seen me sculpt on stream yet
+2020-04-13 11:46:19	coyotefries	havent started here yet
+2020-04-13 11:46:23	-->	coyotefries (coyotefries@coyotefries.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 11:46:23	<--	prophetltu (prophetltu@prophetltu.tmi.twitch.tv) has left #sonsixe
+2020-04-13 11:46:23	coyotefries	maybe today
+2020-04-13 11:47:10	maddielearns	im back
+2020-04-13 11:47:15	maddielearns	more coffee
+2020-04-13 11:47:56	prophetltu	why create your own game engine
+2020-04-13 11:48:01	maddielearns	i think i still get energy from it but im not super sure
+2020-04-13 11:48:02	coyotefries	seems like it works better if I get a little, like a shot
+2020-04-13 11:48:09	coyotefries	but my meds interact with it kinda
+2020-04-13 11:48:17	coyotefries	its fun
+2020-04-13 11:48:25	coyotefries	to suffer
+2020-04-13 11:48:26	-->	prophetltu (prophetltu@prophetltu.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 11:49:05	coyotefries	fun to suffer
+2020-04-13 11:49:30	coyotefries	its magical and artistic to write your own engine
+2020-04-13 11:49:42	coyotefries	you can do more fancy stuff if you have unorthadox ideas
+2020-04-13 11:49:46	coyotefries	for performance Im sure
+2020-04-13 11:50:10	prophetltu	do you have any endgoal of this game engine. I mean when it's finished and what kind of games you can make with it ?
+2020-04-13 11:50:14	coyotefries	like performance with unorthadox ideas
+2020-04-13 11:50:35	coyotefries	yep
+2020-04-13 11:50:46	coyotefries	SPLICER
+2020-04-13 11:50:58	coyotefries	not yet
+2020-04-13 11:51:40	maddielearns	in my case i dont think unity even comes with what i need. Like out of the box i dont think unity has chunk rendering and terrains that map textures to colors
+2020-04-13 11:51:46	prophetltu	where you can learn about Game engine architecture and stuff. Cuz if you never did that is not just that obvious what to do
+2020-04-13 11:54:48	maddielearns	Unity terrain/unreal terrain expects you to use modern approaches to things like multi-texture sampling
+2020-04-13 11:54:48	coyotefries	the internet
+2020-04-13 11:54:48	coyotefries	XD
+2020-04-13 11:54:48	coyotefries	I suggest you make a website at some point, dustin. To show people how to do this
+2020-04-13 11:54:48	coyotefries	if no good resources exist, there is a need somewhat :0
+2020-04-13 11:55:37	coyotefries	hopefuly the computer doesn't explode
+2020-04-13 11:55:54	coyotefries	Yeah but that bits and pieces approach is a great methodology I think
+2020-04-13 11:56:03	coyotefries	Im working on character stuff that way
+2020-04-13 11:56:16	coyotefries	rip money
+2020-04-13 11:56:47	coyotefries	Especially with 3D character building, its alot of weird intersections between art and tech
+2020-04-13 11:57:00	coyotefries	there are alot of resources but specifically what you NEED isn't always clear, you have to try stuff
+2020-04-13 11:57:15	prophetltu	Whats the future goal for you? Wanna be indie game developer with your own tools, or be programmer in a big company
+2020-04-13 11:57:38	coyotefries	Im going for indie game dev myself
+2020-04-13 11:57:48	coyotefries	or character designer
+2020-04-13 11:58:35	coyotefries	Can you run me through what you've done so far?
+2020-04-13 11:58:39	coyotefries	I missed a few hours
+2020-04-13 11:58:43	prophetltu	did you saw Star Citizen: Bugsmashers episodes ?
+2020-04-13 11:58:48	-->	justanotherantiantiplayer (justanotherantiantiplayer@justanotherantiantiplayer.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 11:58:48	-->	claytron (claytron@claytron.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 11:58:57	coyotefries	k
+2020-04-13 11:58:59	maddielearns	He has probably done a lot to go through it all
+2020-04-13 11:59:30	coyotefries	not surprising to me at this point XD
+2020-04-13 11:59:37	maddielearns	Well that is good. in my case i feel like i have an absurd amount of code already
+2020-04-13 12:00:07	coyotefries	I'd like to try a 2D game engine at some point
+2020-04-13 12:00:11	coyotefries	but rn, I have no time lol
+2020-04-13 12:00:22	coyotefries	he is majestic
+2020-04-13 12:00:35	prophetltu	Its series about how Star Citizen developers are solving bugs through out of development and alpha stage. They show bug , talk about it, then solve it. It is I think in CryEngine. And the game is huge
+2020-04-13 12:00:43	maddielearns	Well I have a terrain editor built in so what is one of the reasons why
+2020-04-13 12:00:58	prophetltu	is on youtube
+2020-04-13 12:01:00	coyotefries	so just dealin with all the bits and shit in the output files from blender?
+2020-04-13 12:01:03	prophetltu	its*
+2020-04-13 12:01:15	maddielearns	CryEngine can make some really nice looking games
+2020-04-13 12:02:23	coyotefries	but you will
+2020-04-13 12:02:29	coyotefries	cuz we should use mosst updated
+2020-04-13 12:02:34	coyotefries	coo
+2020-04-13 12:02:51	coyotefries	wait but like, I made a model in 2/82
+2020-04-13 12:02:55	<--	justanotherantiantiplayer (justanotherantiantiplayer@justanotherantiantiplayer.tmi.twitch.tv) has left #sonsixe
+2020-04-13 12:02:57	coyotefries	and sculpted on it and it did render in your engine
+2020-04-13 12:03:01	coyotefries	thats why im confused
+2020-04-13 12:03:50	coyotefries	thats a good point, how does a skeletal mesh work in engine
+2020-04-13 12:03:56	coyotefries	like, don't I need a specific bone template
+2020-04-13 12:04:03	coyotefries	or does it maybe look for a name
+2020-04-13 12:04:08	coyotefries	for specific bones
+2020-04-13 12:04:16	coyotefries	oh shit picasso
+2020-04-13 12:04:55	-->	kearney401 (kearney401@kearney401.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 12:04:57	coyotefries	neat
+2020-04-13 12:05:01	prophetltu	you mentioned Handmade hero, I'm also sometime watch Jonathan Blow streams or videos. And they recently did some of discussion collaboration
+2020-04-13 12:05:24	coyotefries	oh you right
+2020-04-13 12:06:20	coyotefries	you mean xroatatoion, y transform etc?
+2020-04-13 12:06:40	coyotefries	oh good
+2020-04-13 12:06:45	coyotefries	that would be horrid
+2020-04-13 12:07:01	-->	crazycynical (crazycynical@crazycynical.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 12:08:09	coyotefries	very complicatedical
+2020-04-13 12:08:24	prophetltu	can you guys tell me the difference between Game Designer and Game Programmer, cuz for my understanding Game Designer should only do game designs and stuff, and not do programming. And vice versa. But often Game Designers does everything
+2020-04-13 12:08:44	coyotefries	i THINK game design is a vague term
+2020-04-13 12:08:47	coyotefries	umbrealla for stuff
+2020-04-13 12:08:53	coyotefries	game artist, game programmer etc
+2020-04-13 12:09:09	coyotefries	design vaguely can mean art and function
+2020-04-13 12:09:10	-->	lurxx (lurxx@lurxx.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 12:09:10	-->	dublevskyi (dublevskyi@dublevskyi.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 12:09:47	coyotefries	I think game design is like saying "I work in games"
+2020-04-13 12:09:57	coyotefries	or I"I make games"
+2020-04-13 12:10:09	prophetltu	Blow is Game Designer but he is writing his freaking own Language :D
+2020-04-13 12:10:15	coyotefries	ooooo
+2020-04-13 12:10:36	coyotefries	Wait, is a game concept artist a game designer?
+2020-04-13 12:10:46	coyotefries	I wasn't using game design that specifically
+2020-04-13 12:10:51	coyotefries	I just thought it was like anything in games
+2020-04-13 12:10:55	prophetltu	So you Game Programmer does just the programming stuff and they dont think about designs and art ?
+2020-04-13 12:11:11	prophetltu	and game designer can do both
+2020-04-13 12:11:14	coyotefries	Depends on the specificity
+2020-04-13 12:11:23	-->	cogwhistle (cogwhistle@cogwhistle.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 12:11:23	<--	kearney401 (kearney401@kearney401.tmi.twitch.tv) has left #sonsixe
+2020-04-13 12:11:23	<--	wangliang0414 (wangliang0414@wangliang0414.tmi.twitch.tv) has left #sonsixe
+2020-04-13 12:11:23	<--	dublevskyi (dublevskyi@dublevskyi.tmi.twitch.tv) has left #sonsixe
+2020-04-13 12:11:24	coyotefries	with a small team, both of us SORTA contribute to each other
+2020-04-13 12:11:30	coyotefries	he does to mine more so than me him
+2020-04-13 12:11:50	prophetltu	yeah
+2020-04-13 12:11:53	prophetltu	thanks
+2020-04-13 12:12:24	coyotefries	It can help me somewhat to know how this works for rigging too
+2020-04-13 12:12:34	coyotefries	I dont know if thats common but seems to for me
+2020-04-13 12:12:45	coyotefries	PFFF
+2020-04-13 12:12:47	coyotefries	true
+2020-04-13 12:12:52	coyotefries	eventually though
+2020-04-13 12:12:54	coyotefries	: P
+2020-04-13 12:13:14	coyotefries	My teacher told me once, no matter how much money or people you have
+2020-04-13 12:13:18	coyotefries	you will always sacrfice
+2020-04-13 12:13:20	coyotefries	always
+2020-04-13 12:13:27	coyotefries	indie or AAA company
+2020-04-13 12:13:34	prophetltu	especially if you wanna be Indie game developer and have no team, you should know a lot of stuff
+2020-04-13 12:13:35	coyotefries	your ideas always will feel limited in some way
+2020-04-13 12:14:10	coyotefries	I'd like to do that with something 2D
+2020-04-13 12:14:14	maddielearns	art is just feels so different
+2020-04-13 12:14:18	maddielearns	and so time consuming
+2020-04-13 12:14:20	coyotefries	or attempt unity or unreal 3D
+2020-04-13 12:14:26	maddielearns	I feel like there is no real way to shortcut art
+2020-04-13 12:14:36	coyotefries	no there is not
+2020-04-13 12:14:37	<--	claytron (claytron@claytron.tmi.twitch.tv) has left #sonsixe
+2020-04-13 12:14:38	coyotefries	lol
+2020-04-13 12:14:57	coyotefries	I feel most people who do both started in one
+2020-04-13 12:15:03	coyotefries	for many years before learning the other
+2020-04-13 12:15:15	coyotefries	learning both at once is... kinda impossible imo but im could be wrong
+2020-04-13 12:15:23	prophetltu	For me it's always epic how one guy does all the programming and design and publishing, and the project tooks for example 5 years
+2020-04-13 12:15:30	prophetltu	and he keeps motivation
+2020-04-13 12:15:55	coyotefries	after being in film school couple years, a year feels like nothing for a project
+2020-04-13 12:15:57	coyotefries	lol
+2020-04-13 12:16:22	prophetltu	yeah I know, I'm working on a single project for 4 years
+2020-04-13 12:16:34	prophetltu	I'm web developer
+2020-04-13 12:16:59	coyotefries	lol
+2020-04-13 12:17:04	coyotefries	its so pickyyyy
+2020-04-13 12:17:10	coyotefries	too many browsers
+2020-04-13 12:17:17	prophetltu	but it was always a dream for me to be in game industry
+2020-04-13 12:17:28	prophetltu	like indie developer
+2020-04-13 12:17:41	prophetltu	I'm working at strartup called whatagraph.com
+2020-04-13 12:17:52	maddielearns	if u dont have a boss u can do stuff ur way
+2020-04-13 12:18:01	coyotefries	Im stubborn and stupid so I force myself to do art professsionally XD
+2020-04-13 12:18:07	coyotefries	I feel like theres nothing else r me
+2020-04-13 12:18:10	coyotefries	for*
+2020-04-13 12:18:14	maddielearns	and dont have to think ur boss is an idiot for the way he wants to do things
+2020-04-13 12:18:35	prophetltu	yeah, we have an web app to build social reports
+2020-04-13 12:18:38	coyotefries	yes
+2020-04-13 12:18:45	prophetltu	but it's not as fun as games
+2020-04-13 12:18:51	coyotefries	yesI call my brain an idiot
+2020-04-13 12:18:55	coyotefries	on a regular basis
+2020-04-13 12:18:56	maddielearns	Well I'm okay with calling myself an idiot because ill listen to myself a change things
+2020-04-13 12:19:04	prophetltu	I stuck in tutorial purgatory
+2020-04-13 12:19:27	coyotefries	yep
+2020-04-13 12:19:42	coyotefries	I find that you have to do something harder alot to be better at the eiaser thing and level up
+2020-04-13 12:20:10	coyotefries	or trying something and you dont know what you're doing
+2020-04-13 12:20:14	coyotefries	deviate
+2020-04-13 12:20:22	coyotefries	you will fail but thats how you learn the most
+2020-04-13 12:21:51	prophetltu	I guess for me Unity would be enough. For things that I would like to achieve and create. I'm probably always will be a web developer for my main income. I like and i's interesting, but I always was a gamer. And it feels so close now to create some
+2020-04-13 12:22:14	coyotefries	unity is hella powerful
+2020-04-13 12:22:20	coyotefries	as long as you customize things enough
+2020-04-13 12:22:29	coyotefries	its a tool really
+2020-04-13 12:22:53	coyotefries	idk either way, Ive not spent enough time in engines
+2020-04-13 12:23:03	coyotefries	im always burried in art till my eyes bleed
+2020-04-13 12:23:08	prophetltu	great games are made with Unity
+2020-04-13 12:23:11	<--	donho (donho@donho.tmi.twitch.tv) has left #sonsixe
+2020-04-13 12:23:22	prophetltu	ones that made huge amount of money
+2020-04-13 12:23:40	coyotefries	YESS
+2020-04-13 12:23:42	coyotefries	ikr
+2020-04-13 12:23:49	prophetltu	Yeah I agreee
+2020-04-13 12:23:56	coyotefries	the graphical look is all the same with unreal cuz they use the stock shaders probably
+2020-04-13 12:24:07	coyotefries	but its a poweful engine
+2020-04-13 12:24:36	coyotefries	personally, I kinda like unity's simpler building graound up flow
+2020-04-13 12:24:44	coyotefries	uniity feels more like blender
+2020-04-13 12:24:47	coyotefries	or a 3D program
+2020-04-13 12:24:56	coyotefries	lot of buttosn to click
+2020-04-13 12:24:58	coyotefries	ALOT
+2020-04-13 12:25:26	coyotefries	sweet
+2020-04-13 12:25:41	coyotefries	I dont mind complicated interfaces
+2020-04-13 12:25:51	coyotefries	but more so, I'd rather type code than blue prints
+2020-04-13 12:26:08	coyotefries	also my mac hates it so
+2020-04-13 12:26:10	coyotefries	XD
+2020-04-13 12:27:46	coyotefries	A pointer is basically like a thing tying nodes togeher
+2020-04-13 12:27:53	coyotefries	like a string
+2020-04-13 12:27:55	coyotefries	or wire
+2020-04-13 12:28:01	coyotefries	I finally get that
+2020-04-13 12:28:02	coyotefries	XD
+2020-04-13 12:28:09	coyotefries	NO ONE CALLS IT THAT
+2020-04-13 12:28:15	coyotefries	Like no one said a pointer is like a wire
+2020-04-13 12:28:23	coyotefries	pointer a wire
+2020-04-13 12:28:46	coyotefries	like teleporting sometimes?
+2020-04-13 12:29:02	coyotefries	not connecting
+2020-04-13 12:29:06	coyotefries	its like,
+2020-04-13 12:29:09	coyotefries	just a place to go
+2020-04-13 12:29:20	coyotefries	its like a room i suppose
+2020-04-13 12:29:21	<--	prophetltu (prophetltu@prophetltu.tmi.twitch.tv) has left #sonsixe
+2020-04-13 12:29:21	<--	srizbot (srizbot@srizbot.tmi.twitch.tv) has left #sonsixe
+2020-04-13 12:29:21	<--	commanderroot (commanderroot@commanderroot.tmi.twitch.tv) has left #sonsixe
+2020-04-13 12:29:25	coyotefries	room number
+2020-04-13 12:29:55	coyotefries	that makes sense
+2020-04-13 12:31:18	-->	commanderroot (commanderroot@commanderroot.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 12:31:18	-->	srizbot (srizbot@srizbot.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 12:31:18	<--	auroralgames (auroralgames@auroralgames.tmi.twitch.tv) has left #sonsixe
+2020-04-13 12:35:24	<--	realtopkek (realtopkek@realtopkek.tmi.twitch.tv) has left #sonsixe
+2020-04-13 12:35:53	coyotefries	like 24 fps
+2020-04-13 12:35:58	coyotefries	what r u trying to do atm
+2020-04-13 12:36:02	coyotefries	specifically
+2020-04-13 12:37:29	coyotefries	sampler platter?
+2020-04-13 12:39:40	coyotefries	will there be srhimp
+2020-04-13 12:39:42	coyotefries	XD
+2020-04-13 12:39:47	coyotefries	shrimp
+2020-04-13 12:39:57	coyotefries	nothing im just being stupid
+2020-04-13 12:41:10	coyotefries	lol
+2020-04-13 12:42:38	-->	rohallav (rohallav@rohallav.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 12:43:44	coyotefries	brb
+2020-04-13 12:47:13	coyotefries	back
+2020-04-13 12:47:45	coyotefries	I see mix
+2020-04-13 12:47:51	-->	007mix (007mix@007mix.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 12:48:19	007mix	I just got home today haha and Hi
+2020-04-13 12:48:28	coyotefries	sorry no garbage here
+2020-04-13 12:48:52	coyotefries	he is a raccoon
+2020-04-13 12:48:53	coyotefries	so
+2020-04-13 12:49:05	007mix	Haha xP
+2020-04-13 12:49:10	007mix	I am the garbage king
+2020-04-13 12:50:24	coyotefries	lol
+2020-04-13 12:50:44	coyotefries	he gon move?
+2020-04-13 12:51:00	coyotefries	rip
+2020-04-13 12:51:23	coyotefries	lol thats not long
+2020-04-13 12:51:31	coyotefries	that would be cool
+2020-04-13 12:52:24	coyotefries	RAWR
+2020-04-13 12:52:28	coyotefries	I wont tolerate it
+2020-04-13 12:52:33	coyotefries	hehe
+2020-04-13 12:56:04	coyotefries	oh
+2020-04-13 12:56:35	coyotefries	emissive
+2020-04-13 12:56:38	coyotefries	is that like particles
+2020-04-13 12:56:57	coyotefries	oh
+2020-04-13 12:57:11	-->	norberdo (norberdo@norberdo.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 12:57:11	<--	srizbot (srizbot@srizbot.tmi.twitch.tv) has left #sonsixe
+2020-04-13 12:57:11	<--	007mix (007mix@007mix.tmi.twitch.tv) has left #sonsixe
+2020-04-13 12:57:16	coyotefries	or u can get an oil painting effect
+2020-04-13 12:57:22	frogbottom	yo you're still going huh
+2020-04-13 12:57:24	coyotefries	ifi t glows
+2020-04-13 12:57:42	coyotefries	wow
+2020-04-13 12:57:59	frogbottom	radical
+2020-04-13 12:59:21	-->	srizbot (srizbot@srizbot.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 17:06:14	--	irc: disconnected from server
+2020-04-13 17:06:30	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 17:06:30	--	Channel #sonsixe: 1 nick (0 ops, 0 voices, 1 normal)
+2020-04-13 17:07:16	-->	lurxx (lurxx@lurxx.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 17:07:16	-->	norberdo (norberdo@norberdo.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 17:07:16	-->	thedevilisob (thedevilisob@thedevilisob.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 17:07:16	-->	aten (aten@aten.tmi.twitch.tv) has joined #sonsixe
+2020-04-13 17:13:54	--	irc: disconnected from server

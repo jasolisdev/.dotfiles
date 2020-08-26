@@ -1,0 +1,2061 @@
+2020-04-20 15:01:28	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:28	--	Channel #aws: 1 nick (0 ops, 0 voices, 1 normal)
+2020-04-20 15:01:29		-- Title is "AWS Howdy Partner: Let’s Meet Epsagon!"
+2020-04-20 15:01:42	-->	thewritinger (thewritinger@thewritinger.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	guamiedinho (guamiedinho@guamiedinho.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	commanderroot (commanderroot@commanderroot.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	digitalhex (digitalhex@digitalhex.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	treboro2 (treboro2@treboro2.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	andrewpirie (andrewpirie@andrewpirie.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	siltax (siltax@siltax.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	hypnoticnoah (hypnoticnoah@hypnoticnoah.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	dragoncds (dragoncds@dragoncds.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	kultiviert (kultiviert@kultiviert.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	twitchprimereminder (twitchprimereminder@twitchprimereminder.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	jd_hirsch (jd_hirsch@jd_hirsch.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	moealhassan (moealhassan@moealhassan.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	beansenzu_ (beansenzu_@beansenzu_.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	owgreat (owgreat@owgreat.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	amir_mr47 (amir_mr47@amir_mr47.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	iamghv (iamghv@iamghv.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	wlami (wlami@wlami.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	lguevarae (lguevarae@lguevarae.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	sadttan (sadttan@sadttan.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	aten (aten@aten.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	the_fraud11 (the_fraud11@the_fraud11.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	dinofrost (dinofrost@dinofrost.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	darf53 (darf53@darf53.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	matissetec (matissetec@matissetec.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	88opus88 (88opus88@88opus88.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	janisku7 (janisku7@janisku7.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	kupferhirn_ (kupferhirn_@kupferhirn_.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	chuck_l33 (chuck_l33@chuck_l33.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	ensthor (ensthor@ensthor.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	eternaldevcoder (eternaldevcoder@eternaldevcoder.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	rogerm444 (rogerm444@rogerm444.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	boebf_fgb (boebf_fgb@boebf_fgb.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	willsaunderstwitch (willsaunderstwitch@willsaunderstwitch.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	ningato (ningato@ningato.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	ezulich (ezulich@ezulich.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	mkrq (mkrq@mkrq.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	m1n_machine (m1n_machine@m1n_machine.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	bigdogaxel (bigdogaxel@bigdogaxel.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	universe (universe@universe.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	slashuzero (slashuzero@slashuzero.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	foxymuoxyl (foxymuoxyl@foxymuoxyl.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	gazny (gazny@gazny.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	idthief (idthief@idthief.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	rvanderwerf (rvanderwerf@rvanderwerf.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	zkai7 (zkai7@zkai7.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	moallen (moallen@moallen.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	yuptheladsdownthecans (yuptheladsdownthecans@yuptheladsdownthecans.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	davidhamseattle (davidhamseattle@davidhamseattle.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	ksh912 (ksh912@ksh912.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	ortiz89 (ortiz89@ortiz89.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	cookiepointz (cookiepointz@cookiepointz.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	dont_taze_me (dont_taze_me@dont_taze_me.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	gm_knight (gm_knight@gm_knight.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	wukequdai20 (wukequdai20@wukequdai20.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	kharad (kharad@kharad.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	drupark93 (drupark93@drupark93.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	codigofalado (codigofalado@codigofalado.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	youngjeong (youngjeong@youngjeong.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	b4npls (b4npls@b4npls.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	noblethylacine (noblethylacine@noblethylacine.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	0n_dray (0n_dray@0n_dray.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	whiskardo (whiskardo@whiskardo.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	vladutzul123 (vladutzul123@vladutzul123.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	1080pleb (1080pleb@1080pleb.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	jneim (jneim@jneim.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	mergjadur (mergjadur@mergjadur.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	braedenqueue (braedenqueue@braedenqueue.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	r3mote (r3mote@r3mote.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	rydannn (rydannn@rydannn.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	amgrob (amgrob@amgrob.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	methodiacal (methodiacal@methodiacal.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	ze_chm (ze_chm@ze_chm.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	penthoy (penthoy@penthoy.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	mrbdeveloper (mrbdeveloper@mrbdeveloper.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	pearlus (pearlus@pearlus.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	mykre (mykre@mykre.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	edlerdurst (edlerdurst@edlerdurst.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	dgksk8lif (dgksk8lif@dgksk8lif.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	kitefite (kitefite@kitefite.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	robert1279 (robert1279@robert1279.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	amandarein717 (amandarein717@amandarein717.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	itsvodoo (itsvodoo@itsvodoo.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	tentakle (tentakle@tentakle.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	awschatlogger (awschatlogger@awschatlogger.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	bigflatus (bigflatus@bigflatus.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	gray_twin (gray_twin@gray_twin.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	moobot (moobot@moobot.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	sunshiiiiine (sunshiiiiine@sunshiiiiine.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	ilkobg89 (ilkobg89@ilkobg89.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	bitstorm_ (bitstorm_@bitstorm_.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	lurxx (lurxx@lurxx.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	mryayap (mryayap@mryayap.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	pyroquelson (pyroquelson@pyroquelson.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	the_sysop (the_sysop@the_sysop.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:42	-->	bohargs (bohargs@bohargs.tmi.twitch.tv) has joined #aws
+2020-04-20 15:01:44	dgksk8lif	right
+2020-04-20 15:02:42	-->	luggy_b0i (luggy_b0i@luggy_b0i.tmi.twitch.tv) has joined #aws
+2020-04-20 15:02:42	-->	technanner (technanner@technanner.tmi.twitch.tv) has joined #aws
+2020-04-20 15:02:42	-->	pwnbase (pwnbase@pwnbase.tmi.twitch.tv) has joined #aws
+2020-04-20 15:02:42	-->	krinitsin (krinitsin@krinitsin.tmi.twitch.tv) has joined #aws
+2020-04-20 15:02:42	-->	kshhbeep (kshhbeep@kshhbeep.tmi.twitch.tv) has joined #aws
+2020-04-20 15:02:42	-->	foxreymann (foxreymann@foxreymann.tmi.twitch.tv) has joined #aws
+2020-04-20 15:02:42	-->	spyw4rehr (spyw4rehr@spyw4rehr.tmi.twitch.tv) has joined #aws
+2020-04-20 15:02:42	-->	veronicageek (veronicageek@veronicageek.tmi.twitch.tv) has joined #aws
+2020-04-20 15:02:42	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-04-20 15:02:42	-->	rachid_o (rachid_o@rachid_o.tmi.twitch.tv) has joined #aws
+2020-04-20 15:02:42	<--	noblethylacine (noblethylacine@noblethylacine.tmi.twitch.tv) has left #aws
+2020-04-20 15:02:42	<--	mergjadur (mergjadur@mergjadur.tmi.twitch.tv) has left #aws
+2020-04-20 15:02:42	<--	jd_hirsch (jd_hirsch@jd_hirsch.tmi.twitch.tv) has left #aws
+2020-04-20 15:02:42	<--	beansenzu_ (beansenzu_@beansenzu_.tmi.twitch.tv) has left #aws
+2020-04-20 15:04:40	dgksk8lif	what technology was used for the architecture graph feature in epsagon
+2020-04-20 15:04:46	-->	fox_why (fox_why@fox_why.tmi.twitch.tv) has joined #aws
+2020-04-20 15:04:46	-->	victorbelmont16 (victorbelmont16@victorbelmont16.tmi.twitch.tv) has joined #aws
+2020-04-20 15:04:46	-->	cloudsectv (cloudsectv@cloudsectv.tmi.twitch.tv) has joined #aws
+2020-04-20 15:04:46	-->	imorochi_ (imorochi_@imorochi_.tmi.twitch.tv) has joined #aws
+2020-04-20 15:04:46	-->	gameboy_link (gameboy_link@gameboy_link.tmi.twitch.tv) has joined #aws
+2020-04-20 15:04:46	-->	catac9cs (catac9cs@catac9cs.tmi.twitch.tv) has joined #aws
+2020-04-20 15:04:46	-->	aleksacu (aleksacu@aleksacu.tmi.twitch.tv) has joined #aws
+2020-04-20 15:04:46	<--	krinitsin (krinitsin@krinitsin.tmi.twitch.tv) has left #aws
+2020-04-20 15:04:46	<--	pyroquelson (pyroquelson@pyroquelson.tmi.twitch.tv) has left #aws
+2020-04-20 15:04:46	<--	sunshiiiiine (sunshiiiiine@sunshiiiiine.tmi.twitch.tv) has left #aws
+2020-04-20 15:04:46	<--	pearlus (pearlus@pearlus.tmi.twitch.tv) has left #aws
+2020-04-20 15:04:46	<--	luggy_b0i (luggy_b0i@luggy_b0i.tmi.twitch.tv) has left #aws
+2020-04-20 15:04:46	<--	veronicageek (veronicageek@veronicageek.tmi.twitch.tv) has left #aws
+2020-04-20 15:04:46	<--	technanner (technanner@technanner.tmi.twitch.tv) has left #aws
+2020-04-20 15:05:03	amgrob	this is really a big piece of debugging a distributed architecture as well
+2020-04-20 15:05:18	the_fraud11	cardinality is the moneymaker in tracing for sure
+2020-04-20 15:05:58	dgksk8lif	yeah
+2020-04-20 15:06:37	amgrob	@DGKSK8LIF i'll get that question out in just a second
+2020-04-20 15:06:50	-->	viperrager3 (viperrager3@viperrager3.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	new_winds (new_winds@new_winds.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	amba_lance (amba_lance@amba_lance.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	forcedtosignuptwitch (forcedtosignuptwitch@forcedtosignuptwitch.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	agemonkey (agemonkey@agemonkey.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	drbeardsly (drbeardsly@drbeardsly.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	cs494econcsofficehours (cs494econcsofficehours@cs494econcsofficehours.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	anikg420 (anikg420@anikg420.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	t00big2fl4il (t00big2fl4il@t00big2fl4il.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	bbrak (bbrak@bbrak.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	pwnieluver (pwnieluver@pwnieluver.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	yoremeofga (yoremeofga@yoremeofga.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	shevskyy (shevskyy@shevskyy.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	greve360 (greve360@greve360.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	fl4fl (fl4fl@fl4fl.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	theillestever (theillestever@theillestever.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	lasercow5 (lasercow5@lasercow5.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	cslectures (cslectures@cslectures.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	-->	stenella (stenella@stenella.tmi.twitch.tv) has joined #aws
+2020-04-20 15:06:50	<--	aleksacu (aleksacu@aleksacu.tmi.twitch.tv) has left #aws
+2020-04-20 15:06:50	<--	victorbelmont16 (victorbelmont16@victorbelmont16.tmi.twitch.tv) has left #aws
+2020-04-20 15:06:50	<--	the_sysop (the_sysop@the_sysop.tmi.twitch.tv) has left #aws
+2020-04-20 15:06:50	<--	fox_why (fox_why@fox_why.tmi.twitch.tv) has left #aws
+2020-04-20 15:06:50	<--	cloudsectv (cloudsectv@cloudsectv.tmi.twitch.tv) has left #aws
+2020-04-20 15:06:50	<--	spyw4rehr (spyw4rehr@spyw4rehr.tmi.twitch.tv) has left #aws
+2020-04-20 15:06:50	<--	moallen (moallen@moallen.tmi.twitch.tv) has left #aws
+2020-04-20 15:06:50	<--	boebf_fgb (boebf_fgb@boebf_fgb.tmi.twitch.tv) has left #aws
+2020-04-20 15:07:07	dgksk8lif	ty!
+2020-04-20 15:08:46	amgrob	@DGKSK8LIF ran is a machine!
+2020-04-20 15:09:04	-->	nega161 (nega161@nega161.tmi.twitch.tv) has joined #aws
+2020-04-20 15:09:04	-->	flamingbanz (flamingbanz@flamingbanz.tmi.twitch.tv) has joined #aws
+2020-04-20 15:09:04	-->	skarsh (skarsh@skarsh.tmi.twitch.tv) has joined #aws
+2020-04-20 15:09:04	-->	rng_r (rng_r@rng_r.tmi.twitch.tv) has joined #aws
+2020-04-20 15:09:04	-->	idankober (idankober@idankober.tmi.twitch.tv) has joined #aws
+2020-04-20 15:09:04	-->	bearow (bearow@bearow.tmi.twitch.tv) has joined #aws
+2020-04-20 15:09:04	-->	gueguetvp57 (gueguetvp57@gueguetvp57.tmi.twitch.tv) has joined #aws
+2020-04-20 15:09:04	-->	nefrayu (nefrayu@nefrayu.tmi.twitch.tv) has joined #aws
+2020-04-20 15:09:04	<--	catac9cs (catac9cs@catac9cs.tmi.twitch.tv) has left #aws
+2020-04-20 15:09:04	<--	greve360 (greve360@greve360.tmi.twitch.tv) has left #aws
+2020-04-20 15:09:04	<--	lasercow5 (lasercow5@lasercow5.tmi.twitch.tv) has left #aws
+2020-04-20 15:09:04	<--	foxymuoxyl (foxymuoxyl@foxymuoxyl.tmi.twitch.tv) has left #aws
+2020-04-20 15:09:04	<--	theillestever (theillestever@theillestever.tmi.twitch.tv) has left #aws
+2020-04-20 15:09:04	<--	amir_mr47 (amir_mr47@amir_mr47.tmi.twitch.tv) has left #aws
+2020-04-20 15:09:04	<--	1080pleb (1080pleb@1080pleb.tmi.twitch.tv) has left #aws
+2020-04-20 15:09:04	<--	anikg420 (anikg420@anikg420.tmi.twitch.tv) has left #aws
+2020-04-20 15:09:04	<--	amba_lance (amba_lance@amba_lance.tmi.twitch.tv) has left #aws
+2020-04-20 15:09:20	dgksk8lif	ty
+2020-04-20 15:10:26	dragoncds	Hi , what is behind the logs ingestion ? Kinesis ?
+2020-04-20 15:10:39	dont_taze_me	@amgrob DGK Skate Life
+2020-04-20 15:10:50	moealhassan	https://js.cytoscape.org/
+2020-04-20 15:10:56	amgrob	wow, i feel really stupid now @dont_taze_me
+2020-04-20 15:10:58	amgrob	thank you
+2020-04-20 15:10:59	dgksk8lif	and for the backend?
+2020-04-20 15:11:18	-->	sarujuktomush (sarujuktomush@sarujuktomush.tmi.twitch.tv) has joined #aws
+2020-04-20 15:11:18	-->	vkaracic (vkaracic@vkaracic.tmi.twitch.tv) has joined #aws
+2020-04-20 15:11:18	-->	akashbarry (akashbarry@akashbarry.tmi.twitch.tv) has joined #aws
+2020-04-20 15:11:18	-->	outforjustix (outforjustix@outforjustix.tmi.twitch.tv) has joined #aws
+2020-04-20 15:11:18	-->	wally322 (wally322@wally322.tmi.twitch.tv) has joined #aws
+2020-04-20 15:11:18	-->	djconcarne (djconcarne@djconcarne.tmi.twitch.tv) has joined #aws
+2020-04-20 15:11:18	-->	vanely1 (vanely1@vanely1.tmi.twitch.tv) has joined #aws
+2020-04-20 15:11:18	<--	nefrayu (nefrayu@nefrayu.tmi.twitch.tv) has left #aws
+2020-04-20 15:11:18	<--	wukequdai20 (wukequdai20@wukequdai20.tmi.twitch.tv) has left #aws
+2020-04-20 15:11:18	<--	gazny (gazny@gazny.tmi.twitch.tv) has left #aws
+2020-04-20 15:11:18	<--	andrewpirie (andrewpirie@andrewpirie.tmi.twitch.tv) has left #aws
+2020-04-20 15:11:18	<--	cslectures (cslectures@cslectures.tmi.twitch.tv) has left #aws
+2020-04-20 15:11:18	<--	edlerdurst (edlerdurst@edlerdurst.tmi.twitch.tv) has left #aws
+2020-04-20 15:11:18	<--	skarsh (skarsh@skarsh.tmi.twitch.tv) has left #aws
+2020-04-20 15:11:18	<--	gueguetvp57 (gueguetvp57@gueguetvp57.tmi.twitch.tv) has left #aws
+2020-04-20 15:11:18	<--	flamingbanz (flamingbanz@flamingbanz.tmi.twitch.tv) has left #aws
+2020-04-20 15:11:18	<--	bearow (bearow@bearow.tmi.twitch.tv) has left #aws
+2020-04-20 15:11:18	<--	bbrak (bbrak@bbrak.tmi.twitch.tv) has left #aws
+2020-04-20 15:11:39	the_fraud11	monolithic java is my startup experience guess lol
+2020-04-20 15:11:50	dgksk8lif	wow that's super cool!
+2020-04-20 15:12:05	dgksk8lif	been thinking about implement elastisearch lol
+2020-04-20 15:12:21	-->	muski_ (muski_@muski_.tmi.twitch.tv) has joined #aws
+2020-04-20 15:12:21	-->	coolmanabhi (coolmanabhi@coolmanabhi.tmi.twitch.tv) has joined #aws
+2020-04-20 15:12:21	-->	suspicioussoap (suspicioussoap@suspicioussoap.tmi.twitch.tv) has joined #aws
+2020-04-20 15:12:21	-->	notmin0r (notmin0r@notmin0r.tmi.twitch.tv) has joined #aws
+2020-04-20 15:12:21	-->	cslectures (cslectures@cslectures.tmi.twitch.tv) has joined #aws
+2020-04-20 15:12:21	-->	krn0x2 (krn0x2@krn0x2.tmi.twitch.tv) has joined #aws
+2020-04-20 15:12:21	-->	holly_carruthers (holly_carruthers@holly_carruthers.tmi.twitch.tv) has joined #aws
+2020-04-20 15:12:21	-->	zbadsom (zbadsom@zbadsom.tmi.twitch.tv) has joined #aws
+2020-04-20 15:12:21	<--	wally322 (wally322@wally322.tmi.twitch.tv) has left #aws
+2020-04-20 15:12:21	<--	rng_r (rng_r@rng_r.tmi.twitch.tv) has left #aws
+2020-04-20 15:12:21	<--	djconcarne (djconcarne@djconcarne.tmi.twitch.tv) has left #aws
+2020-04-20 15:12:29	dgksk8lif	lmao maybe when I'm not a minor
+2020-04-20 15:13:06	dgksk8lif	what about internships? Problem is that i'm 14 NotLikeThis
+2020-04-20 15:13:24	pwnbase	im 12
+2020-04-20 15:13:26	janisku7	interships later perhaps right
+2020-04-20 15:13:45	amgrob	@Janisku7 that's right, one day maybe
+2020-04-20 15:13:53	dgksk8lif	lmao was thinking about like nonpaid; I have to do a 1 week internship for school next week
+2020-04-20 15:13:58	the_fraud11	you know who does have internships... AWS
+2020-04-20 15:14:06	dgksk8lif	I'm in houston; probably wouldn't be too much of a chore to go to austin
+2020-04-20 15:15:19	amgrob	i believe AWS internships are reserved for college students, but we'll likely still be here in 4 years @DGKSK8LIF
+2020-04-20 15:15:22	-->	zabuza001 (zabuza001@zabuza001.tmi.twitch.tv) has joined #aws
+2020-04-20 15:15:22	-->	snipeydev (snipeydev@snipeydev.tmi.twitch.tv) has joined #aws
+2020-04-20 15:15:22	-->	pikadasgalaxiasrj (pikadasgalaxiasrj@pikadasgalaxiasrj.tmi.twitch.tv) has joined #aws
+2020-04-20 15:15:22	-->	rojaster (rojaster@rojaster.tmi.twitch.tv) has joined #aws
+2020-04-20 15:15:22	-->	okawoo (okawoo@okawoo.tmi.twitch.tv) has joined #aws
+2020-04-20 15:15:22	-->	crimson_labrat (crimson_labrat@crimson_labrat.tmi.twitch.tv) has joined #aws
+2020-04-20 15:15:22	-->	gators (gators@gators.tmi.twitch.tv) has joined #aws
+2020-04-20 15:15:22	<--	holly_carruthers (holly_carruthers@holly_carruthers.tmi.twitch.tv) has left #aws
+2020-04-20 15:15:22	<--	suspicioussoap (suspicioussoap@suspicioussoap.tmi.twitch.tv) has left #aws
+2020-04-20 15:15:22	<--	rachid_o (rachid_o@rachid_o.tmi.twitch.tv) has left #aws
+2020-04-20 15:15:22	<--	coolmanabhi (coolmanabhi@coolmanabhi.tmi.twitch.tv) has left #aws
+2020-04-20 15:15:22	<--	zbadsom (zbadsom@zbadsom.tmi.twitch.tv) has left #aws
+2020-04-20 15:15:22	<--	iamghv (iamghv@iamghv.tmi.twitch.tv) has left #aws
+2020-04-20 15:15:22	<--	outforjustix (outforjustix@outforjustix.tmi.twitch.tv) has left #aws
+2020-04-20 15:15:22	<--	m1n_machine (m1n_machine@m1n_machine.tmi.twitch.tv) has left #aws
+2020-04-20 15:15:27	kultiviert	when will serverless be free tho? Pog
+2020-04-20 15:15:35	amgrob	there's an AWS office in houston
+2020-04-20 15:16:02	amgrob	lol @Kultiviert 1 million lambda invocations per month are free! even beyond the free tier
+2020-04-20 15:16:04	kultiviert	serverless should consume less dollars imho
+2020-04-20 15:17:17	dgksk8lif	@amgrob yeah ik but I'm pretty sure that's it's business only, right?
+2020-04-20 15:17:28	dgksk8lif	@amgrob let's hope you'll still be here in 4 years lol
+2020-04-20 15:17:30	-->	drake_hawke (drake_hawke@drake_hawke.tmi.twitch.tv) has joined #aws
+2020-04-20 15:17:30	-->	groov1234 (groov1234@groov1234.tmi.twitch.tv) has joined #aws
+2020-04-20 15:17:30	-->	svolard (svolard@svolard.tmi.twitch.tv) has joined #aws
+2020-04-20 15:17:30	-->	ohnoaduck (ohnoaduck@ohnoaduck.tmi.twitch.tv) has joined #aws
+2020-04-20 15:17:30	-->	takebo_ (takebo_@takebo_.tmi.twitch.tv) has joined #aws
+2020-04-20 15:17:30	-->	averesttv (averesttv@averesttv.tmi.twitch.tv) has joined #aws
+2020-04-20 15:17:30	<--	okawoo (okawoo@okawoo.tmi.twitch.tv) has left #aws
+2020-04-20 15:17:30	<--	whiskardo (whiskardo@whiskardo.tmi.twitch.tv) has left #aws
+2020-04-20 15:17:30	<--	pikadasgalaxiasrj (pikadasgalaxiasrj@pikadasgalaxiasrj.tmi.twitch.tv) has left #aws
+2020-04-20 15:17:30	<--	viperrager3 (viperrager3@viperrager3.tmi.twitch.tv) has left #aws
+2020-04-20 15:17:30	<--	t00big2fl4il (t00big2fl4il@t00big2fl4il.tmi.twitch.tv) has left #aws
+2020-04-20 15:17:30	<--	nega161 (nega161@nega161.tmi.twitch.tv) has left #aws
+2020-04-20 15:17:30	<--	snipeydev (snipeydev@snipeydev.tmi.twitch.tv) has left #aws
+2020-04-20 15:17:30	<--	chuck_l33 (chuck_l33@chuck_l33.tmi.twitch.tv) has left #aws
+2020-04-20 15:17:30	<--	zabuza001 (zabuza001@zabuza001.tmi.twitch.tv) has left #aws
+2020-04-20 15:17:55	amgrob	there's a program here called TechU, @moealhassan can tell you more i bet
+2020-04-20 15:18:33	-->	bloodwithmilk25 (bloodwithmilk25@bloodwithmilk25.tmi.twitch.tv) has joined #aws
+2020-04-20 15:18:33	-->	neilsweb (neilsweb@neilsweb.tmi.twitch.tv) has joined #aws
+2020-04-20 15:18:33	-->	jimi_2 (jimi_2@jimi_2.tmi.twitch.tv) has joined #aws
+2020-04-20 15:18:33	-->	ydidyah (ydidyah@ydidyah.tmi.twitch.tv) has joined #aws
+2020-04-20 15:18:33	-->	therealallstarhunter (therealallstarhunter@therealallstarhunter.tmi.twitch.tv) has joined #aws
+2020-04-20 15:18:33	-->	klik_7 (klik_7@klik_7.tmi.twitch.tv) has joined #aws
+2020-04-20 15:18:33	<--	takebo_ (takebo_@takebo_.tmi.twitch.tv) has left #aws
+2020-04-20 15:18:33	<--	imorochi_ (imorochi_@imorochi_.tmi.twitch.tv) has left #aws
+2020-04-20 15:18:33	<--	shevskyy (shevskyy@shevskyy.tmi.twitch.tv) has left #aws
+2020-04-20 15:18:33	<--	groov1234 (groov1234@groov1234.tmi.twitch.tv) has left #aws
+2020-04-20 15:18:33	<--	idankober (idankober@idankober.tmi.twitch.tv) has left #aws
+2020-04-20 15:18:33	<--	bigdogaxel (bigdogaxel@bigdogaxel.tmi.twitch.tv) has left #aws
+2020-04-20 15:18:56	dont_taze_me	Then you'll have to put up with my ugly mug for a couple hours
+2020-04-20 15:19:16	amgrob	yes!!! you'll all get to meet @dont_taze_me for the Auth0 episdoe!
+2020-04-20 15:19:20	amgrob	episode*
+2020-04-20 15:19:23	gators	Wow there are some younger coders in this chat.
+2020-04-20 15:20:20	dgksk8lif	yeah man can't believe I haven't been banned yet LUL @gao
+2020-04-20 15:20:26	dgksk8lif	@Gators *
+2020-04-20 15:20:31	-->	g3kbyte (g3kbyte@g3kbyte.tmi.twitch.tv) has joined #aws
+2020-04-20 15:20:31	-->	psichko0 (psichko0@psichko0.tmi.twitch.tv) has joined #aws
+2020-04-20 15:20:31	-->	peshyy (peshyy@peshyy.tmi.twitch.tv) has joined #aws
+2020-04-20 15:20:31	-->	astr0potato (astr0potato@astr0potato.tmi.twitch.tv) has joined #aws
+2020-04-20 15:20:31	-->	periselite (periselite@periselite.tmi.twitch.tv) has joined #aws
+2020-04-20 15:20:31	-->	pottersys (pottersys@pottersys.tmi.twitch.tv) has joined #aws
+2020-04-20 15:20:31	<--	gameboy_link (gameboy_link@gameboy_link.tmi.twitch.tv) has left #aws
+2020-04-20 15:20:31	<--	bloodwithmilk25 (bloodwithmilk25@bloodwithmilk25.tmi.twitch.tv) has left #aws
+2020-04-20 15:20:31	<--	neilsweb (neilsweb@neilsweb.tmi.twitch.tv) has left #aws
+2020-04-20 15:20:31	<--	ydidyah (ydidyah@ydidyah.tmi.twitch.tv) has left #aws
+2020-04-20 15:20:31	<--	mkrq (mkrq@mkrq.tmi.twitch.tv) has left #aws
+2020-04-20 15:20:31	<--	akashbarry (akashbarry@akashbarry.tmi.twitch.tv) has left #aws
+2020-04-20 15:20:31	<--	crimson_labrat (crimson_labrat@crimson_labrat.tmi.twitch.tv) has left #aws
+2020-04-20 15:20:31	<--	agemonkey (agemonkey@agemonkey.tmi.twitch.tv) has left #aws
+2020-04-20 15:20:31	<--	kitefite (kitefite@kitefite.tmi.twitch.tv) has left #aws
+2020-04-20 15:20:31	<--	klik_7 (klik_7@klik_7.tmi.twitch.tv) has left #aws
+2020-04-20 15:20:31	<--	stenella (stenella@stenella.tmi.twitch.tv) has left #aws
+2020-04-20 15:20:31	<--	jimi_2 (jimi_2@jimi_2.tmi.twitch.tv) has left #aws
+2020-04-20 15:20:31	<--	hypnoticnoah (hypnoticnoah@hypnoticnoah.tmi.twitch.tv) has left #aws
+2020-04-20 15:20:31	<--	vanely1 (vanely1@vanely1.tmi.twitch.tv) has left #aws
+2020-04-20 15:20:31	<--	therealallstarhunter (therealallstarhunter@therealallstarhunter.tmi.twitch.tv) has left #aws
+2020-04-20 15:20:31	<--	averesttv (averesttv@averesttv.tmi.twitch.tv) has left #aws
+2020-04-20 15:20:31	<--	vkaracic (vkaracic@vkaracic.tmi.twitch.tv) has left #aws
+2020-04-20 15:20:42	moealhassan	@DGKSK8LIF and anyone else who's interested in TechU https://www.amazon.jobs/en/landing_pages/AWS-techu
+2020-04-20 15:21:20	dgksk8lif	ty @moealhassan will save this for 4 years :Joy
+2020-04-20 15:21:28	dgksk8lif	LUL*
+2020-04-20 15:21:45	ilkobg89	honestly this seems too complex for some error logging
+2020-04-20 15:22:44	-->	dennez_ (dennez_@dennez_.tmi.twitch.tv) has joined #aws
+2020-04-20 15:22:44	-->	s8credgamin (s8credgamin@s8credgamin.tmi.twitch.tv) has joined #aws
+2020-04-20 15:22:44	-->	ooj_utopia (ooj_utopia@ooj_utopia.tmi.twitch.tv) has joined #aws
+2020-04-20 15:22:44	-->	hypnoticnoah (hypnoticnoah@hypnoticnoah.tmi.twitch.tv) has joined #aws
+2020-04-20 15:22:44	-->	crowz4k (crowz4k@crowz4k.tmi.twitch.tv) has joined #aws
+2020-04-20 15:22:44	-->	pardyharty (pardyharty@pardyharty.tmi.twitch.tv) has joined #aws
+2020-04-20 15:22:44	-->	agemonkey (agemonkey@agemonkey.tmi.twitch.tv) has joined #aws
+2020-04-20 15:22:44	-->	gratsukoo (gratsukoo@gratsukoo.tmi.twitch.tv) has joined #aws
+2020-04-20 15:22:44	<--	pottersys (pottersys@pottersys.tmi.twitch.tv) has left #aws
+2020-04-20 15:22:44	<--	astr0potato (astr0potato@astr0potato.tmi.twitch.tv) has left #aws
+2020-04-20 15:22:44	<--	ohnoaduck (ohnoaduck@ohnoaduck.tmi.twitch.tv) has left #aws
+2020-04-20 15:22:44	<--	periselite (periselite@periselite.tmi.twitch.tv) has left #aws
+2020-04-20 15:23:13	ilkobg89	I mean I am building microservices with microfrontends and sentry is pretty handy for that
+2020-04-20 15:23:19	ilkobg89	and easily handled
+2020-04-20 15:23:26	dgksk8lif	wonder whether I'll be accepted to TechU if I apply
+2020-04-20 15:23:40	dgksk8lif	is the admission process similar to getting a Job at Amazon?
+2020-04-20 15:23:48	the_fraud11	it when you have a super complex fanout to different services downstream that this comes in super handy
+2020-04-20 15:24:25	ilkobg89	weell yeah maybe if the scale is too huge
+2020-04-20 15:24:44	the_fraud11	frontend by itself has its own errors, but if you're calling a ton of services to generate 1 page (like loading an item on amazon's site), this is where there's a ton of value
+2020-04-20 15:24:49	-->	tenguterror (tenguterror@tenguterror.tmi.twitch.tv) has joined #aws
+2020-04-20 15:24:49	-->	utahjazz777 (utahjazz777@utahjazz777.tmi.twitch.tv) has joined #aws
+2020-04-20 15:24:49	-->	fr1zle (fr1zle@fr1zle.tmi.twitch.tv) has joined #aws
+2020-04-20 15:24:49	-->	edud3 (edud3@edud3.tmi.twitch.tv) has joined #aws
+2020-04-20 15:24:49	-->	shevskyy (shevskyy@shevskyy.tmi.twitch.tv) has joined #aws
+2020-04-20 15:24:49	<--	gm_knight (gm_knight@gm_knight.tmi.twitch.tv) has left #aws
+2020-04-20 15:24:49	<--	gators (gators@gators.tmi.twitch.tv) has left #aws
+2020-04-20 15:24:49	<--	pardyharty (pardyharty@pardyharty.tmi.twitch.tv) has left #aws
+2020-04-20 15:24:49	<--	ooj_utopia (ooj_utopia@ooj_utopia.tmi.twitch.tv) has left #aws
+2020-04-20 15:24:49	<--	crowz4k (crowz4k@crowz4k.tmi.twitch.tv) has left #aws
+2020-04-20 15:24:49	<--	psichko0 (psichko0@psichko0.tmi.twitch.tv) has left #aws
+2020-04-20 15:24:49	<--	drupark93 (drupark93@drupark93.tmi.twitch.tv) has left #aws
+2020-04-20 15:24:51	dgksk8lif	wow that is a lot of logging; imagine how long even binary search would take on it lol
+2020-04-20 15:25:30	the_fraud11	that's why you fail every dependency and request path to find faults before you need to - aka... chaos engineering (shameless plug)
+2020-04-20 15:26:53	amgrob	hmm i've heard of this chaos engineering...
+2020-04-20 15:26:56	-->	huntbw (huntbw@huntbw.tmi.twitch.tv) has joined #aws
+2020-04-20 15:26:56	-->	equally (equally@equally.tmi.twitch.tv) has joined #aws
+2020-04-20 15:26:56	-->	darundo01 (darundo01@darundo01.tmi.twitch.tv) has joined #aws
+2020-04-20 15:26:56	-->	conorwashere (conorwashere@conorwashere.tmi.twitch.tv) has joined #aws
+2020-04-20 15:26:56	-->	code_smell (code_smell@code_smell.tmi.twitch.tv) has joined #aws
+2020-04-20 15:26:56	-->	apo2g (apo2g@apo2g.tmi.twitch.tv) has joined #aws
+2020-04-20 15:26:56	-->	fearexploit (fearexploit@fearexploit.tmi.twitch.tv) has joined #aws
+2020-04-20 15:26:56	-->	sundin (sundin@sundin.tmi.twitch.tv) has joined #aws
+2020-04-20 15:26:56	-->	officialgametek (officialgametek@officialgametek.tmi.twitch.tv) has joined #aws
+2020-04-20 15:26:56	-->	wtherockb (wtherockb@wtherockb.tmi.twitch.tv) has joined #aws
+2020-04-20 15:26:56	-->	fortypercnt (fortypercnt@fortypercnt.tmi.twitch.tv) has joined #aws
+2020-04-20 15:26:56	<--	g3kbyte (g3kbyte@g3kbyte.tmi.twitch.tv) has left #aws
+2020-04-20 15:26:56	<--	shevskyy (shevskyy@shevskyy.tmi.twitch.tv) has left #aws
+2020-04-20 15:26:56	<--	utahjazz777 (utahjazz777@utahjazz777.tmi.twitch.tv) has left #aws
+2020-04-20 15:26:56	<--	zkai7 (zkai7@zkai7.tmi.twitch.tv) has left #aws
+2020-04-20 15:26:56	<--	tenguterror (tenguterror@tenguterror.tmi.twitch.tv) has left #aws
+2020-04-20 15:26:56	<--	gratsukoo (gratsukoo@gratsukoo.tmi.twitch.tv) has left #aws
+2020-04-20 15:26:56	<--	dennez_ (dennez_@dennez_.tmi.twitch.tv) has left #aws
+2020-04-20 15:26:56	<--	youngjeong (youngjeong@youngjeong.tmi.twitch.tv) has left #aws
+2020-04-20 15:26:56	<--	kupferhirn_ (kupferhirn_@kupferhirn_.tmi.twitch.tv) has left #aws
+2020-04-20 15:27:48	dgksk8lif	"Chaos engineering is the discipline of experimenting on a software system in production in order to build confidence in the system's capability to withstand turbulent and unexpected conditions."; sounds like DOS mitigation practices
+2020-04-20 15:29:11	-->	kloppo (kloppo@kloppo.tmi.twitch.tv) has joined #aws
+2020-04-20 15:29:11	-->	mmftl (mmftl@mmftl.tmi.twitch.tv) has joined #aws
+2020-04-20 15:29:11	-->	ceridande (ceridande@ceridande.tmi.twitch.tv) has joined #aws
+2020-04-20 15:29:11	-->	vjzelynxykat (vjzelynxykat@vjzelynxykat.tmi.twitch.tv) has joined #aws
+2020-04-20 15:29:11	<--	conorwashere (conorwashere@conorwashere.tmi.twitch.tv) has left #aws
+2020-04-20 15:29:11	<--	huntbw (huntbw@huntbw.tmi.twitch.tv) has left #aws
+2020-04-20 15:29:11	<--	darundo01 (darundo01@darundo01.tmi.twitch.tv) has left #aws
+2020-04-20 15:29:11	<--	yuptheladsdownthecans (yuptheladsdownthecans@yuptheladsdownthecans.tmi.twitch.tv) has left #aws
+2020-04-20 15:29:11	<--	fortypercnt (fortypercnt@fortypercnt.tmi.twitch.tv) has left #aws
+2020-04-20 15:29:11	<--	matissetec (matissetec@matissetec.tmi.twitch.tv) has left #aws
+2020-04-20 15:29:11	<--	hypnoticnoah (hypnoticnoah@hypnoticnoah.tmi.twitch.tv) has left #aws
+2020-04-20 15:29:11	<--	sundin (sundin@sundin.tmi.twitch.tv) has left #aws
+2020-04-20 15:29:11	<--	fearexploit (fearexploit@fearexploit.tmi.twitch.tv) has left #aws
+2020-04-20 15:29:11	<--	fr1zle (fr1zle@fr1zle.tmi.twitch.tv) has left #aws
+2020-04-20 15:29:11	<--	equally (equally@equally.tmi.twitch.tv) has left #aws
+2020-04-20 15:29:11	<--	code_smell (code_smell@code_smell.tmi.twitch.tv) has left #aws
+2020-04-20 15:30:04	dragoncds	What about the retention time of logs on Epsagon ?
+2020-04-20 15:31:13	-->	rockerboo (rockerboo@rockerboo.tmi.twitch.tv) has joined #aws
+2020-04-20 15:31:13	-->	haliw_ (haliw_@haliw_.tmi.twitch.tv) has joined #aws
+2020-04-20 15:31:13	-->	fr1zle (fr1zle@fr1zle.tmi.twitch.tv) has joined #aws
+2020-04-20 15:31:13	<--	kloppo (kloppo@kloppo.tmi.twitch.tv) has left #aws
+2020-04-20 15:31:13	<--	edud3 (edud3@edud3.tmi.twitch.tv) has left #aws
+2020-04-20 15:31:13	<--	peshyy (peshyy@peshyy.tmi.twitch.tv) has left #aws
+2020-04-20 15:31:13	<--	b4npls (b4npls@b4npls.tmi.twitch.tv) has left #aws
+2020-04-20 15:31:13	<--	mmftl (mmftl@mmftl.tmi.twitch.tv) has left #aws
+2020-04-20 15:31:13	<--	rogerm444 (rogerm444@rogerm444.tmi.twitch.tv) has left #aws
+2020-04-20 15:31:13	<--	krn0x2 (krn0x2@krn0x2.tmi.twitch.tv) has left #aws
+2020-04-20 15:31:47	amgrob	@dragoncds i've got you, i'll ask ran in just a moment
+2020-04-20 15:33:27	-->	sammyteahan (sammyteahan@sammyteahan.tmi.twitch.tv) has joined #aws
+2020-04-20 15:33:27	-->	btwiamsonia (btwiamsonia@btwiamsonia.tmi.twitch.tv) has joined #aws
+2020-04-20 15:33:27	-->	mclabraid (mclabraid@mclabraid.tmi.twitch.tv) has joined #aws
+2020-04-20 15:33:27	-->	reeburger (reeburger@reeburger.tmi.twitch.tv) has joined #aws
+2020-04-20 15:33:27	-->	apurifoy (apurifoy@apurifoy.tmi.twitch.tv) has joined #aws
+2020-04-20 15:33:27	<--	s8credgamin (s8credgamin@s8credgamin.tmi.twitch.tv) has left #aws
+2020-04-20 15:33:27	<--	rockerboo (rockerboo@rockerboo.tmi.twitch.tv) has left #aws
+2020-04-20 15:33:27	<--	eternaldevcoder (eternaldevcoder@eternaldevcoder.tmi.twitch.tv) has left #aws
+2020-04-20 15:33:27	<--	notmin0r (notmin0r@notmin0r.tmi.twitch.tv) has left #aws
+2020-04-20 15:33:27	<--	ceridande (ceridande@ceridande.tmi.twitch.tv) has left #aws
+2020-04-20 15:34:25	-->	bravr_ (bravr_@bravr_.tmi.twitch.tv) has joined #aws
+2020-04-20 15:34:25	-->	tulikeppi (tulikeppi@tulikeppi.tmi.twitch.tv) has joined #aws
+2020-04-20 15:34:25	-->	gunnershents (gunnershents@gunnershents.tmi.twitch.tv) has joined #aws
+2020-04-20 15:34:25	-->	xanlantos (xanlantos@xanlantos.tmi.twitch.tv) has joined #aws
+2020-04-20 15:34:25	-->	asapdylano (asapdylano@asapdylano.tmi.twitch.tv) has joined #aws
+2020-04-20 15:34:25	-->	khronicz (khronicz@khronicz.tmi.twitch.tv) has joined #aws
+2020-04-20 15:34:25	-->	bdougieyo (bdougieyo@bdougieyo.tmi.twitch.tv) has joined #aws
+2020-04-20 15:34:25	<--	mclabraid (mclabraid@mclabraid.tmi.twitch.tv) has left #aws
+2020-04-20 15:34:25	<--	fr1zle (fr1zle@fr1zle.tmi.twitch.tv) has left #aws
+2020-04-20 15:34:25	<--	mrbdeveloper (mrbdeveloper@mrbdeveloper.tmi.twitch.tv) has left #aws
+2020-04-20 15:34:25	<--	robert1279 (robert1279@robert1279.tmi.twitch.tv) has left #aws
+2020-04-20 15:34:25	<--	sarujuktomush (sarujuktomush@sarujuktomush.tmi.twitch.tv) has left #aws
+2020-04-20 15:34:25	<--	sammyteahan (sammyteahan@sammyteahan.tmi.twitch.tv) has left #aws
+2020-04-20 15:34:25	<--	btwiamsonia (btwiamsonia@btwiamsonia.tmi.twitch.tv) has left #aws
+2020-04-20 15:34:54	dgksk8lif	ok I think I'm going to head out..anyway I can contact you guys or?
+2020-04-20 15:35:08	moealhassan	@DGKSK8LIF I guess you might have to tune in a few weeks when Gremlin comes on the show too
+2020-04-20 15:36:38	-->	releathh (releathh@releathh.tmi.twitch.tv) has joined #aws
+2020-04-20 15:36:38	-->	tifflia_ (tifflia_@tifflia_.tmi.twitch.tv) has joined #aws
+2020-04-20 15:36:38	-->	aggthar (aggthar@aggthar.tmi.twitch.tv) has joined #aws
+2020-04-20 15:36:38	-->	rickster3141 (rickster3141@rickster3141.tmi.twitch.tv) has joined #aws
+2020-04-20 15:36:38	-->	tmiguel27 (tmiguel27@tmiguel27.tmi.twitch.tv) has joined #aws
+2020-04-20 15:36:38	-->	field_tensor (field_tensor@field_tensor.tmi.twitch.tv) has joined #aws
+2020-04-20 15:36:38	-->	kimchimonger (kimchimonger@kimchimonger.tmi.twitch.tv) has joined #aws
+2020-04-20 15:36:38	-->	robert1279 (robert1279@robert1279.tmi.twitch.tv) has joined #aws
+2020-04-20 15:36:38	-->	babecafe (babecafe@babecafe.tmi.twitch.tv) has joined #aws
+2020-04-20 15:36:38	-->	mrbdeveloper (mrbdeveloper@mrbdeveloper.tmi.twitch.tv) has joined #aws
+2020-04-20 15:36:38	<--	bravr_ (bravr_@bravr_.tmi.twitch.tv) has left #aws
+2020-04-20 15:36:38	<--	bdougieyo (bdougieyo@bdougieyo.tmi.twitch.tv) has left #aws
+2020-04-20 15:36:38	<--	tulikeppi (tulikeppi@tulikeppi.tmi.twitch.tv) has left #aws
+2020-04-20 15:36:38	<--	svolard (svolard@svolard.tmi.twitch.tv) has left #aws
+2020-04-20 15:36:38	<--	khronicz (khronicz@khronicz.tmi.twitch.tv) has left #aws
+2020-04-20 15:36:38	<--	asapdylano (asapdylano@asapdylano.tmi.twitch.tv) has left #aws
+2020-04-20 15:36:38	<--	gunnershents (gunnershents@gunnershents.tmi.twitch.tv) has left #aws
+2020-04-20 15:37:56	kultiviert	when will you add support for GCP and Azure?
+2020-04-20 15:38:16	moealhassan	https://dashboard.epsagon.com/signup?ref=howdy
+2020-04-20 15:38:17	dgksk8lif	sry stream is lagging hard for me; what did I miss?
+2020-04-20 15:38:40	-->	k3jru (k3jru@k3jru.tmi.twitch.tv) has joined #aws
+2020-04-20 15:38:40	-->	liquafool (liquafool@liquafool.tmi.twitch.tv) has joined #aws
+2020-04-20 15:38:40	-->	35h0 (35h0@35h0.tmi.twitch.tv) has joined #aws
+2020-04-20 15:38:40	-->	lagface (lagface@lagface.tmi.twitch.tv) has joined #aws
+2020-04-20 15:38:40	-->	bichid69 (bichid69@bichid69.tmi.twitch.tv) has joined #aws
+2020-04-20 15:38:40	-->	kuruptt_ (kuruptt_@kuruptt_.tmi.twitch.tv) has joined #aws
+2020-04-20 15:38:40	<--	aggthar (aggthar@aggthar.tmi.twitch.tv) has left #aws
+2020-04-20 15:38:40	<--	tifflia_ (tifflia_@tifflia_.tmi.twitch.tv) has left #aws
+2020-04-20 15:38:40	<--	xanlantos (xanlantos@xanlantos.tmi.twitch.tv) has left #aws
+2020-04-20 15:38:40	<--	wtherockb (wtherockb@wtherockb.tmi.twitch.tv) has left #aws
+2020-04-20 15:38:40	<--	tmiguel27 (tmiguel27@tmiguel27.tmi.twitch.tv) has left #aws
+2020-04-20 15:38:40	<--	releathh (releathh@releathh.tmi.twitch.tv) has left #aws
+2020-04-20 15:38:40	<--	apo2g (apo2g@apo2g.tmi.twitch.tv) has left #aws
+2020-04-20 15:38:40	<--	kimchimonger (kimchimonger@kimchimonger.tmi.twitch.tv) has left #aws
+2020-04-20 15:38:48	moealhassan	Sign up! https://dashboard.epsagon.com/signup?ref=howdy
+2020-04-20 15:39:11	dgksk8lif	welp just signed up lol
+2020-04-20 15:39:15	dgksk8lif	rip stream is not playing
+2020-04-20 15:39:19	dgksk8lif	cya lads!
+2020-04-20 15:39:28	amgrob	thanks for joining!
+2020-04-20 15:39:30	kultiviert	how many engineers are working on epsagon at the moment?
+2020-04-20 15:40:01	kultiviert	what is the avg. salary of an engineer working on epsagon?
+2020-04-20 15:40:23	enchantedasian	🌊<====✊🏽====3
+2020-04-20 15:40:37	amgrob	oh wow, swag
+2020-04-20 15:40:40	-->	robomatrix (robomatrix@robomatrix.tmi.twitch.tv) has joined #aws
+2020-04-20 15:40:40	-->	emersoncode (emersoncode@emersoncode.tmi.twitch.tv) has joined #aws
+2020-04-20 15:40:40	-->	bernax691 (bernax691@bernax691.tmi.twitch.tv) has joined #aws
+2020-04-20 15:40:40	-->	roberttables (roberttables@roberttables.tmi.twitch.tv) has joined #aws
+2020-04-20 15:40:40	-->	enchantedasian (enchantedasian@enchantedasian.tmi.twitch.tv) has joined #aws
+2020-04-20 15:40:40	<--	drbeardsly (drbeardsly@drbeardsly.tmi.twitch.tv) has left #aws
+2020-04-20 15:40:40	<--	lagface (lagface@lagface.tmi.twitch.tv) has left #aws
+2020-04-20 15:40:40	<--	haliw_ (haliw_@haliw_.tmi.twitch.tv) has left #aws
+2020-04-20 15:40:40	<--	bichid69 (bichid69@bichid69.tmi.twitch.tv) has left #aws
+2020-04-20 15:40:40	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #aws
+2020-04-20 15:40:42	moealhassan	http://epsagon.com/twitch/
+2020-04-20 15:40:44	moealhassan	http://epsagon.com/twitch/
+2020-04-20 15:40:44	moealhassan	http://epsagon.com/twitch/
+2020-04-20 15:40:45	moealhassan	http://epsagon.com/twitch/
+2020-04-20 15:40:45	moealhassan	http://epsagon.com/twitch/
+2020-04-20 15:40:51	dragoncds	Thnaks
+2020-04-20 15:40:55	dgksk8lif	banned from spam/???! /s
+2020-04-20 15:40:59	kultiviert	I WANT THAT SHIRT
+2020-04-20 15:41:14	dgksk8lif	free swag plz
+2020-04-20 15:41:20	enchantedasian	Bruh you loser haha jk
+2020-04-20 15:41:29	dgksk8lif	lmao I really am though
+2020-04-20 15:41:31	owgreat	nicee
+2020-04-20 15:42:05	pwnbase	will you ship the shirt to canada?
+2020-04-20 15:42:18	ningato	what if the chat is prerecorded :)
+2020-04-20 15:42:51	dgksk8lif	POG DEMO SCHEDULED; FREE SWAG IMMINENT
+2020-04-20 15:42:51	-->	sasuagemagician (sasuagemagician@sasuagemagician.tmi.twitch.tv) has joined #aws
+2020-04-20 15:42:51	-->	desist0 (desist0@desist0.tmi.twitch.tv) has joined #aws
+2020-04-20 15:42:51	-->	spiky_rj (spiky_rj@spiky_rj.tmi.twitch.tv) has joined #aws
+2020-04-20 15:42:51	-->	kdom (kdom@kdom.tmi.twitch.tv) has joined #aws
+2020-04-20 15:42:51	-->	rimander (rimander@rimander.tmi.twitch.tv) has joined #aws
+2020-04-20 15:42:51	<--	robomatrix (robomatrix@robomatrix.tmi.twitch.tv) has left #aws
+2020-04-20 15:42:51	<--	kuruptt_ (kuruptt_@kuruptt_.tmi.twitch.tv) has left #aws
+2020-04-20 15:42:51	<--	bernax691 (bernax691@bernax691.tmi.twitch.tv) has left #aws
+2020-04-20 15:42:51	<--	pwnbase (pwnbase@pwnbase.tmi.twitch.tv) has left #aws
+2020-04-20 15:43:10	dgksk8lif	I only did it for the swag
+2020-04-20 15:43:11	the_fraud11	deepfake demo with an AI patner incoming!
+2020-04-20 15:43:21	dgksk8lif	oh god now I have to interact with humans
+2020-04-20 15:43:23	dgksk8lif	uh oh
+2020-04-20 15:43:44	kultiviert	where do I get the shirt for free tho?
+2020-04-20 15:44:18	dont_taze_me	AND CHAOS
+2020-04-20 15:44:38	ilkobg89	nice stream
+2020-04-20 15:44:43	ilkobg89	thanks for the presentation
+2020-04-20 15:44:46	ilkobg89	will check it out
+2020-04-20 15:44:52	-->	tirpux (tirpux@tirpux.tmi.twitch.tv) has joined #aws
+2020-04-20 15:44:52	-->	skimono1 (skimono1@skimono1.tmi.twitch.tv) has joined #aws
+2020-04-20 15:44:52	-->	pwnbase (pwnbase@pwnbase.tmi.twitch.tv) has joined #aws
+2020-04-20 15:44:52	-->	jambis2 (jambis2@jambis2.tmi.twitch.tv) has joined #aws
+2020-04-20 15:44:52	<--	kdom (kdom@kdom.tmi.twitch.tv) has left #aws
+2020-04-20 15:44:52	<--	bohargs (bohargs@bohargs.tmi.twitch.tv) has left #aws
+2020-04-20 15:44:52	<--	cslectures (cslectures@cslectures.tmi.twitch.tv) has left #aws
+2020-04-20 15:44:52	<--	spiky_rj (spiky_rj@spiky_rj.tmi.twitch.tv) has left #aws
+2020-04-20 15:44:52	<--	enchantedasian (enchantedasian@enchantedasian.tmi.twitch.tv) has left #aws
+2020-04-20 15:44:52	<--	mryayap (mryayap@mryayap.tmi.twitch.tv) has left #aws
+2020-04-20 15:44:52	<--	sasuagemagician (sasuagemagician@sasuagemagician.tmi.twitch.tv) has left #aws
+2020-04-20 15:44:52	<--	rimander (rimander@rimander.tmi.twitch.tv) has left #aws
+2020-04-20 15:45:02	ksh912	awesome
+2020-04-20 15:45:02	rvanderwerf	great job yall!
+2020-04-20 15:45:03	dont_taze_me	@IlkoBG89 Thanks for coming!
+2020-04-20 15:45:34	bigflatus	what in tarnation
+2020-04-20 15:45:59	kultiviert	you missed 2 of my very important questions!
+2020-04-20 15:46:05	dgksk8lif	YEEHAW TSHIRTS
+2020-04-20 15:46:16	dgksk8lif	welp
+2020-04-20 15:47:04	-->	bytecodes (bytecodes@bytecodes.tmi.twitch.tv) has joined #aws
+2020-04-20 15:47:04	-->	allsjr (allsjr@allsjr.tmi.twitch.tv) has joined #aws
+2020-04-20 15:47:04	-->	matteob99 (matteob99@matteob99.tmi.twitch.tv) has joined #aws
+2020-04-20 15:47:04	-->	peterramaldes (peterramaldes@peterramaldes.tmi.twitch.tv) has joined #aws
+2020-04-20 15:47:04	-->	ro_nny (ro_nny@ro_nny.tmi.twitch.tv) has joined #aws
+2020-04-20 15:47:04	-->	theradiooperator (theradiooperator@theradiooperator.tmi.twitch.tv) has joined #aws
+2020-04-20 15:47:04	<--	tirpux (tirpux@tirpux.tmi.twitch.tv) has left #aws
+2020-04-20 15:47:04	<--	jambis2 (jambis2@jambis2.tmi.twitch.tv) has left #aws
+2020-04-20 15:47:04	<--	roberttables (roberttables@roberttables.tmi.twitch.tv) has left #aws
+2020-04-20 15:47:04	<--	amandarein717 (amandarein717@amandarein717.tmi.twitch.tv) has left #aws
+2020-04-20 15:47:04	<--	desist0 (desist0@desist0.tmi.twitch.tv) has left #aws
+2020-04-20 15:47:04	<--	skimono1 (skimono1@skimono1.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	-->	ijo3 (ijo3@ijo3.tmi.twitch.tv) has joined #aws
+2020-04-20 15:49:09	-->	atomsart (atomsart@atomsart.tmi.twitch.tv) has joined #aws
+2020-04-20 15:49:09	<--	liquafool (liquafool@liquafool.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	robert1279 (robert1279@robert1279.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	owgreat (owgreat@owgreat.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	sadttan (sadttan@sadttan.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	rojaster (rojaster@rojaster.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	universe (universe@universe.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	peterramaldes (peterramaldes@peterramaldes.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	bytecodes (bytecodes@bytecodes.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	janisku7 (janisku7@janisku7.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	emersoncode (emersoncode@emersoncode.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	foxreymann (foxreymann@foxreymann.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	braedenqueue (braedenqueue@braedenqueue.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	mykre (mykre@mykre.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	rickster3141 (rickster3141@rickster3141.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	kultiviert (kultiviert@kultiviert.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	pwnieluver (pwnieluver@pwnieluver.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	35h0 (35h0@35h0.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	dgksk8lif (dgksk8lif@dgksk8lif.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	itsvodoo (itsvodoo@itsvodoo.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	wlami (wlami@wlami.tmi.twitch.tv) has left #aws
+2020-04-20 15:49:09	<--	theradiooperator (theradiooperator@theradiooperator.tmi.twitch.tv) has left #aws
+2020-04-20 15:51:21	-->	caiofinn (caiofinn@caiofinn.tmi.twitch.tv) has joined #aws
+2020-04-20 15:51:21	<--	rvanderwerf (rvanderwerf@rvanderwerf.tmi.twitch.tv) has left #aws
+2020-04-20 15:51:21	<--	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has left #aws
+2020-04-20 15:51:21	<--	atomsart (atomsart@atomsart.tmi.twitch.tv) has left #aws
+2020-04-20 15:51:21	<--	88opus88 (88opus88@88opus88.tmi.twitch.tv) has left #aws
+2020-04-20 15:51:21	<--	dragoncds (dragoncds@dragoncds.tmi.twitch.tv) has left #aws
+2020-04-20 15:51:21	<--	ijo3 (ijo3@ijo3.tmi.twitch.tv) has left #aws
+2020-04-20 15:51:21	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #aws
+2020-04-20 15:51:21	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-04-20 15:52:24	-->	thetreknerd (thetreknerd@thetreknerd.tmi.twitch.tv) has joined #aws
+2020-04-20 15:52:24	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #aws
+2020-04-20 15:52:24	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-04-20 15:52:24	<--	fl4fl (fl4fl@fl4fl.tmi.twitch.tv) has left #aws
+2020-04-20 15:54:48	cookiepointz	!title Tune in 4/21 at 10am PT for IoT All The Things!
+2020-04-20 15:54:49	moobot	The title was set to "Tune in 4/21 at 10am PT for IoT All The Things!"
+2020-04-20 15:55:29	-->	itsvodoo (itsvodoo@itsvodoo.tmi.twitch.tv) has joined #aws
+2020-04-20 15:55:29	<--	ilkobg89 (ilkobg89@ilkobg89.tmi.twitch.tv) has left #aws
+2020-04-20 15:55:29	<--	ksh912 (ksh912@ksh912.tmi.twitch.tv) has left #aws
+2020-04-20 15:55:29	<--	thetreknerd (thetreknerd@thetreknerd.tmi.twitch.tv) has left #aws
+2020-04-20 15:55:29	<--	ortiz89 (ortiz89@ortiz89.tmi.twitch.tv) has left #aws
+2020-04-20 15:57:33	-->	d1v3rdown (d1v3rdown@d1v3rdown.tmi.twitch.tv) has joined #aws
+2020-04-20 15:57:33	<--	itsvodoo (itsvodoo@itsvodoo.tmi.twitch.tv) has left #aws
+2020-04-20 15:57:33	<--	ro_nny (ro_nny@ro_nny.tmi.twitch.tv) has left #aws
+2020-04-20 15:57:33	<--	the_fraud11 (the_fraud11@the_fraud11.tmi.twitch.tv) has left #aws
+2020-04-20 15:57:33	<--	slashuzero (slashuzero@slashuzero.tmi.twitch.tv) has left #aws
+2020-04-20 15:57:33	<--	dont_taze_me (dont_taze_me@dont_taze_me.tmi.twitch.tv) has left #aws
+2020-04-20 15:58:42	<--	d1v3rdown (d1v3rdown@d1v3rdown.tmi.twitch.tv) has left #aws
+2020-04-20 16:00:47	-->	universe (universe@universe.tmi.twitch.tv) has joined #aws
+2020-04-20 16:00:47	<--	cs494econcsofficehours (cs494econcsofficehours@cs494econcsofficehours.tmi.twitch.tv) has left #aws
+2020-04-20 16:00:47	<--	bigflatus (bigflatus@bigflatus.tmi.twitch.tv) has left #aws
+2020-04-20 16:04:53	<--	pwnbase (pwnbase@pwnbase.tmi.twitch.tv) has left #aws
+2020-04-20 16:04:53	<--	r3mote (r3mote@r3mote.tmi.twitch.tv) has left #aws
+2020-04-20 16:04:53	<--	muski_ (muski_@muski_.tmi.twitch.tv) has left #aws
+2020-04-20 16:04:53	<--	ze_chm (ze_chm@ze_chm.tmi.twitch.tv) has left #aws
+2020-04-20 16:04:53	<--	moealhassan (moealhassan@moealhassan.tmi.twitch.tv) has left #aws
+2020-04-20 16:09:04	<--	allsjr (allsjr@allsjr.tmi.twitch.tv) has left #aws
+2020-04-20 16:11:04	-->	hianji (hianji@hianji.tmi.twitch.tv) has joined #aws
+2020-04-20 16:11:04	<--	tentakle (tentakle@tentakle.tmi.twitch.tv) has left #aws
+2020-04-20 16:13:07	<--	kshhbeep (kshhbeep@kshhbeep.tmi.twitch.tv) has left #aws
+2020-04-20 16:13:07	<--	treboro2 (treboro2@treboro2.tmi.twitch.tv) has left #aws
+2020-04-20 16:13:07	<--	reeburger (reeburger@reeburger.tmi.twitch.tv) has left #aws
+2020-04-20 16:15:06	<--	field_tensor (field_tensor@field_tensor.tmi.twitch.tv) has left #aws
+2020-04-20 16:15:06	<--	digitalhex (digitalhex@digitalhex.tmi.twitch.tv) has left #aws
+2020-04-20 16:15:06	<--	babecafe (babecafe@babecafe.tmi.twitch.tv) has left #aws
+2020-04-20 16:19:15	-->	rickster3141 (rickster3141@rickster3141.tmi.twitch.tv) has joined #aws
+2020-04-20 16:21:23	<--	k3jru (k3jru@k3jru.tmi.twitch.tv) has left #aws
+2020-04-20 16:21:23	<--	codigofalado (codigofalado@codigofalado.tmi.twitch.tv) has left #aws
+2020-04-20 16:21:23	<--	rickster3141 (rickster3141@rickster3141.tmi.twitch.tv) has left #aws
+2020-04-20 16:23:27	-->	k3jru (k3jru@k3jru.tmi.twitch.tv) has joined #aws
+2020-04-20 16:28:42	-->	sadttan (sadttan@sadttan.tmi.twitch.tv) has joined #aws
+2020-04-20 16:28:42	<--	guamiedinho (guamiedinho@guamiedinho.tmi.twitch.tv) has left #aws
+2020-04-20 16:34:56	<--	commanderroot (commanderroot@commanderroot.tmi.twitch.tv) has left #aws
+2020-04-20 16:34:56	<--	hianji (hianji@hianji.tmi.twitch.tv) has left #aws
+2020-04-20 16:39:04	<--	matteob99 (matteob99@matteob99.tmi.twitch.tv) has left #aws
+2020-04-20 16:41:05	<--	sadttan (sadttan@sadttan.tmi.twitch.tv) has left #aws
+2020-04-20 16:41:05	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-04-20 16:43:15	-->	hianji (hianji@hianji.tmi.twitch.tv) has joined #aws
+2020-04-20 16:43:15	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-04-20 16:43:15	-->	caitlin2411 (caitlin2411@caitlin2411.tmi.twitch.tv) has joined #aws
+2020-04-20 16:43:15	<--	drake_hawke (drake_hawke@drake_hawke.tmi.twitch.tv) has left #aws
+2020-04-20 16:45:21	-->	drake_hawke (drake_hawke@drake_hawke.tmi.twitch.tv) has joined #aws
+2020-04-20 16:49:20	<--	cookiepointz (cookiepointz@cookiepointz.tmi.twitch.tv) has left #aws
+2020-04-20 16:49:20	<--	hianji (hianji@hianji.tmi.twitch.tv) has left #aws
+2020-04-20 16:51:25	-->	hianji (hianji@hianji.tmi.twitch.tv) has joined #aws
+2020-04-20 16:51:25	-->	manix186 (manix186@manix186.tmi.twitch.tv) has joined #aws
+2020-04-20 16:51:25	<--	jneim (jneim@jneim.tmi.twitch.tv) has left #aws
+2020-04-20 16:53:41	-->	jneim (jneim@jneim.tmi.twitch.tv) has joined #aws
+2020-04-20 16:53:41	-->	swampfootmusic (swampfootmusic@swampfootmusic.tmi.twitch.tv) has joined #aws
+2020-04-20 16:54:42	<--	manix186 (manix186@manix186.tmi.twitch.tv) has left #aws
+2020-04-20 16:56:46	-->	manix186 (manix186@manix186.tmi.twitch.tv) has joined #aws
+2020-04-20 16:58:54	<--	lguevarae (lguevarae@lguevarae.tmi.twitch.tv) has left #aws
+2020-04-20 16:58:54	<--	caitlin2411 (caitlin2411@caitlin2411.tmi.twitch.tv) has left #aws
+2020-04-20 16:58:54	<--	swampfootmusic (swampfootmusic@swampfootmusic.tmi.twitch.tv) has left #aws
+2020-04-20 17:01:05	<--	manix186 (manix186@manix186.tmi.twitch.tv) has left #aws
+2020-04-20 17:07:11	<--	jneim (jneim@jneim.tmi.twitch.tv) has left #aws
+2020-04-20 17:11:29	<--	davidhamseattle (davidhamseattle@davidhamseattle.tmi.twitch.tv) has left #aws
+2020-04-20 17:11:29	<--	new_winds (new_winds@new_winds.tmi.twitch.tv) has left #aws
+2020-04-20 17:11:29	<--	hianji (hianji@hianji.tmi.twitch.tv) has left #aws
+2020-04-20 17:14:40	-->	cookiepointz (cookiepointz@cookiepointz.tmi.twitch.tv) has joined #aws
+2020-04-20 17:16:45	-->	davidhamseattle (davidhamseattle@davidhamseattle.tmi.twitch.tv) has joined #aws
+2020-04-20 17:21:04	-->	hianji (hianji@hianji.tmi.twitch.tv) has joined #aws
+2020-04-20 17:25:26	<--	hianji (hianji@hianji.tmi.twitch.tv) has left #aws
+2020-04-20 17:27:23	<--	methodiacal (methodiacal@methodiacal.tmi.twitch.tv) has left #aws
+2020-04-20 17:27:23	<--	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has left #aws
+2020-04-20 17:29:29	-->	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has joined #aws
+2020-04-20 17:29:29	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-04-20 17:30:30	-->	hianji (hianji@hianji.tmi.twitch.tv) has joined #aws
+2020-04-20 17:30:30	<--	amgrob (amgrob@amgrob.tmi.twitch.tv) has left #aws
+2020-04-20 17:33:25	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-04-20 17:35:21	<--	cookiepointz (cookiepointz@cookiepointz.tmi.twitch.tv) has left #aws
+2020-04-20 17:39:40	<--	gray_twin (gray_twin@gray_twin.tmi.twitch.tv) has left #aws
+2020-04-20 17:40:48	-->	gray_twin (gray_twin@gray_twin.tmi.twitch.tv) has joined #aws
+2020-04-20 17:40:48	<--	penthoy (penthoy@penthoy.tmi.twitch.tv) has left #aws
+2020-04-20 17:43:49	-->	penthoy (penthoy@penthoy.tmi.twitch.tv) has joined #aws
+2020-04-20 17:43:49	<--	forcedtosignuptwitch (forcedtosignuptwitch@forcedtosignuptwitch.tmi.twitch.tv) has left #aws
+2020-04-20 17:44:52	<--	hianji (hianji@hianji.tmi.twitch.tv) has left #aws
+2020-04-20 17:46:50	<--	dinofrost (dinofrost@dinofrost.tmi.twitch.tv) has left #aws
+2020-04-20 17:48:49	<--	kharad (kharad@kharad.tmi.twitch.tv) has left #aws
+2020-04-20 17:50:49	-->	kharad (kharad@kharad.tmi.twitch.tv) has joined #aws
+2020-04-20 17:50:49	<--	caiofinn (caiofinn@caiofinn.tmi.twitch.tv) has left #aws
+2020-04-20 17:52:51	<--	universe (universe@universe.tmi.twitch.tv) has left #aws
+2020-04-20 17:54:56	-->	universe (universe@universe.tmi.twitch.tv) has joined #aws
+2020-04-20 17:59:14	-->	drakedeitch (drakedeitch@drakedeitch.tmi.twitch.tv) has joined #aws
+2020-04-20 17:59:14	<--	davidhamseattle (davidhamseattle@davidhamseattle.tmi.twitch.tv) has left #aws
+2020-04-20 18:03:21	-->	donschieble (donschieble@donschieble.tmi.twitch.tv) has joined #aws
+2020-04-20 18:05:31	<--	donschieble (donschieble@donschieble.tmi.twitch.tv) has left #aws
+2020-04-20 18:07:42	<--	drake_hawke (drake_hawke@drake_hawke.tmi.twitch.tv) has left #aws
+2020-04-20 18:09:43	-->	drake_hawke (drake_hawke@drake_hawke.tmi.twitch.tv) has joined #aws
+2020-04-20 18:11:54	<--	drakedeitch (drakedeitch@drakedeitch.tmi.twitch.tv) has left #aws
+2020-04-20 18:15:02	<--	idthief (idthief@idthief.tmi.twitch.tv) has left #aws
+2020-04-20 18:21:11	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-04-20 18:23:12	-->	davidhamseattle (davidhamseattle@davidhamseattle.tmi.twitch.tv) has joined #aws
+2020-04-20 18:23:12	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-04-20 18:23:12	<--	officialgametek (officialgametek@officialgametek.tmi.twitch.tv) has left #aws
+2020-04-20 18:29:26	<--	ezulich (ezulich@ezulich.tmi.twitch.tv) has left #aws
+2020-04-20 18:31:33	<--	darf53 (darf53@darf53.tmi.twitch.tv) has left #aws
+2020-04-20 18:31:33	<--	ensthor (ensthor@ensthor.tmi.twitch.tv) has left #aws
+2020-04-20 18:33:46	-->	darf53 (darf53@darf53.tmi.twitch.tv) has joined #aws
+2020-04-20 18:33:46	-->	ensthor (ensthor@ensthor.tmi.twitch.tv) has joined #aws
+2020-04-20 18:33:46	<--	davidhamseattle (davidhamseattle@davidhamseattle.tmi.twitch.tv) has left #aws
+2020-04-20 18:34:55	<--	agemonkey (agemonkey@agemonkey.tmi.twitch.tv) has left #aws
+2020-04-20 18:37:00	<--	vjzelynxykat (vjzelynxykat@vjzelynxykat.tmi.twitch.tv) has left #aws
+2020-04-20 18:47:20	<--	universe (universe@universe.tmi.twitch.tv) has left #aws
+2020-04-20 18:49:33	<--	willsaunderstwitch (willsaunderstwitch@willsaunderstwitch.tmi.twitch.tv) has left #aws
+2020-04-20 18:49:33	<--	k3jru (k3jru@k3jru.tmi.twitch.tv) has left #aws
+2020-04-20 18:49:33	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #aws
+2020-04-20 19:05:13	<--	penthoy (penthoy@penthoy.tmi.twitch.tv) has left #aws
+2020-04-20 19:07:16	-->	sznniiku (sznniiku@sznniiku.tmi.twitch.tv) has joined #aws
+2020-04-20 19:11:29	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-04-20 19:13:30	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-04-20 19:15:35	<--	sznniiku (sznniiku@sznniiku.tmi.twitch.tv) has left #aws
+2020-04-20 19:19:42	-->	magrah (magrah@magrah.tmi.twitch.tv) has joined #aws
+2020-04-20 19:21:58	<--	magrah (magrah@magrah.tmi.twitch.tv) has left #aws
+2020-04-20 19:21:58	<--	rydannn (rydannn@rydannn.tmi.twitch.tv) has left #aws
+2020-04-20 19:23:05	-->	rydannn (rydannn@rydannn.tmi.twitch.tv) has joined #aws
+2020-04-20 19:27:09	-->	yojota (yojota@yojota.tmi.twitch.tv) has joined #aws
+2020-04-20 19:29:25	<--	yojota (yojota@yojota.tmi.twitch.tv) has left #aws
+2020-04-20 19:51:21	-->	the_sysop (the_sysop@the_sysop.tmi.twitch.tv) has joined #aws
+2020-04-20 19:55:35	-->	sadnahm (sadnahm@sadnahm.tmi.twitch.tv) has joined #aws
+2020-04-20 19:59:36	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-04-20 20:03:40	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-04-20 20:13:10	<--	awschatlogger (awschatlogger@awschatlogger.tmi.twitch.tv) has left #aws
+2020-04-20 20:16:07	-->	awschatlogger (awschatlogger@awschatlogger.tmi.twitch.tv) has joined #aws
+2020-04-20 20:29:56	<--	drake_hawke (drake_hawke@drake_hawke.tmi.twitch.tv) has left #aws
+2020-04-20 20:32:03	-->	drake_hawke (drake_hawke@drake_hawke.tmi.twitch.tv) has joined #aws
+2020-04-20 20:32:03	-->	amandarein717 (amandarein717@amandarein717.tmi.twitch.tv) has joined #aws
+2020-04-20 20:32:03	<--	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has left #aws
+2020-04-20 20:34:04	-->	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has joined #aws
+2020-04-20 20:38:15	<--	amandarein717 (amandarein717@amandarein717.tmi.twitch.tv) has left #aws
+2020-04-20 20:49:32	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-04-20 20:51:37	<--	aten (aten@aten.tmi.twitch.tv) has left #aws
+2020-04-20 20:53:38	-->	aten (aten@aten.tmi.twitch.tv) has joined #aws
+2020-04-20 20:53:38	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-04-20 20:53:38	<--	kharad (kharad@kharad.tmi.twitch.tv) has left #aws
+2020-04-20 21:02:16	<--	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has left #aws
+2020-04-20 21:03:19	-->	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has joined #aws
+2020-04-20 21:03:19	-->	andresms30 (andresms30@andresms30.tmi.twitch.tv) has joined #aws
+2020-04-20 21:07:29	<--	andresms30 (andresms30@andresms30.tmi.twitch.tv) has left #aws
+2020-04-20 21:21:41	<--	the_sysop (the_sysop@the_sysop.tmi.twitch.tv) has left #aws
+2020-04-20 21:29:39	-->	dadbod (dadbod@dadbod.tmi.twitch.tv) has joined #aws
+2020-04-20 21:38:05	-->	moatjds (moatjds@moatjds.tmi.twitch.tv) has joined #aws
+2020-04-20 21:40:13	<--	ningato (ningato@ningato.tmi.twitch.tv) has left #aws
+2020-04-20 21:40:13	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-04-20 21:42:21	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-04-20 21:42:21	<--	moatjds (moatjds@moatjds.tmi.twitch.tv) has left #aws
+2020-04-20 21:45:27	-->	amandarein717 (amandarein717@amandarein717.tmi.twitch.tv) has joined #aws
+2020-04-20 21:55:38	<--	amandarein717 (amandarein717@amandarein717.tmi.twitch.tv) has left #aws
+2020-04-20 21:57:38	-->	dirk_f5r_aws (dirk_f5r_aws@dirk_f5r_aws.tmi.twitch.tv) has joined #aws
+2020-04-20 22:06:11	<--	dadbod (dadbod@dadbod.tmi.twitch.tv) has left #aws
+2020-04-20 22:08:21	<--	twitchprimereminder (twitchprimereminder@twitchprimereminder.tmi.twitch.tv) has left #aws
+2020-04-20 22:26:07	-->	twitchprimereminder (twitchprimereminder@twitchprimereminder.tmi.twitch.tv) has joined #aws
+2020-04-20 22:30:17	<--	apurifoy (apurifoy@apurifoy.tmi.twitch.tv) has left #aws
+2020-04-20 22:30:17	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-04-20 22:32:31	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-04-20 22:34:35	<--	sadnahm (sadnahm@sadnahm.tmi.twitch.tv) has left #aws
+2020-04-21 09:58:48	=!=	twitch.py: error communicating with twitch api
+2020-04-21 09:59:53	--	irc: disconnected from server
+2020-04-21 10:00:05	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:05	--	Channel #aws: 1 nick (0 ops, 0 voices, 1 normal)
+2020-04-21 10:00:06		-- Title is "IoT All the Things Season2 Ep4 - "Ask Me Anything" Edition"
+2020-04-21 10:00:23	-->	johan_cloudguru (johan_cloudguru@johan_cloudguru.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	atomyy (atomyy@atomyy.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	idthief (idthief@idthief.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	ramonleo (ramonleo@ramonleo.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	afework2019 (afework2019@afework2019.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	drake_hawke (drake_hawke@drake_hawke.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	lschles (lschles@lschles.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	sarujuktomush (sarujuktomush@sarujuktomush.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	siltax (siltax@siltax.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	pekter (pekter@pekter.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	quaggabot (quaggabot@quaggabot.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	awschatlogger (awschatlogger@awschatlogger.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	osympecetesi (osympecetesi@osympecetesi.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	robimus_one (robimus_one@robimus_one.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	scotnoco (scotnoco@scotnoco.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	dinofrost (dinofrost@dinofrost.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	ezulich (ezulich@ezulich.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	mizzonne (mizzonne@mizzonne.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	pogal81 (pogal81@pogal81.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	usergroup_awsgirlsperu (usergroup_awsgirlsperu@usergroup_awsgirlsperu.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	robsutter (robsutter@robsutter.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	rvanderwerf (rvanderwerf@rvanderwerf.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	walsh9 (walsh9@walsh9.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	twitchprimereminder (twitchprimereminder@twitchprimereminder.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	bossmansnake (bossmansnake@bossmansnake.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	moobot (moobot@moobot.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	pman3d (pman3d@pman3d.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	xenoprincess (xenoprincess@xenoprincess.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	aws_hannahnilsson (aws_hannahnilsson@aws_hannahnilsson.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	rob_aws (rob_aws@rob_aws.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	gamebuoy_ (gamebuoy_@gamebuoy_.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	ensthor (ensthor@ensthor.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	bustopher (bustopher@bustopher.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	mrbdeveloper (mrbdeveloper@mrbdeveloper.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	undeadkiller19 (undeadkiller19@undeadkiller19.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	thebigwizard99 (thebigwizard99@thebigwizard99.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	bitstorm_ (bitstorm_@bitstorm_.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	greyhands (greyhands@greyhands.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	theocas (theocas@theocas.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	dankakon (dankakon@dankakon.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	tentakle (tentakle@tentakle.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	aws (aws@aws.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	cookiepointz (cookiepointz@cookiepointz.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	spahedi (spahedi@spahedi.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	thewritinger (thewritinger@thewritinger.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	rydannn (rydannn@rydannn.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	gray_twin (gray_twin@gray_twin.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:23	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-04-21 10:00:35	aws_hannahnilsson	Welcome to our first ever “Ask Me Anything” edition of IoT All The Things! The rules today are simple… ask us ANYTHING! From feature “how tos” to industry trends, we are excited to hear what you want to learn about. Thank you to our community for submitting questions in advance — we will do our very best to answer all of the presubmitted question in addition to those asked live here today. So, what do you want to ask Rudy & Wale?
+2020-04-21 10:00:39	pekter	here we go!
+2020-04-21 10:01:27	-->	delta_wolf_09 (delta_wolf_09@delta_wolf_09.tmi.twitch.tv) has joined #aws
+2020-04-21 10:01:27	-->	flipflop_5 (flipflop_5@flipflop_5.tmi.twitch.tv) has joined #aws
+2020-04-21 10:01:27	-->	heywyer (heywyer@heywyer.tmi.twitch.tv) has joined #aws
+2020-04-21 10:01:27	-->	zabuza001 (zabuza001@zabuza001.tmi.twitch.tv) has joined #aws
+2020-04-21 10:01:27	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #aws
+2020-04-21 10:01:27	-->	fufufufufufu6 (fufufufufufu6@fufufufufufu6.tmi.twitch.tv) has joined #aws
+2020-04-21 10:01:27	-->	frenchdrop (frenchdrop@frenchdrop.tmi.twitch.tv) has joined #aws
+2020-04-21 10:01:27	<--	thebigwizard99 (thebigwizard99@thebigwizard99.tmi.twitch.tv) has left #aws
+2020-04-21 10:01:27	<--	ramonleo (ramonleo@ramonleo.tmi.twitch.tv) has left #aws
+2020-04-21 10:01:32	cookiepointz	!colour green
+2020-04-21 10:01:32	quaggabot	Changing colour to: green
+2020-04-21 10:02:16	thexdgame	are u also talking about iiot ?
+2020-04-21 10:02:35	aws_hannahnilsson	@TheXDGame we certainly can! Do you have any specific questions about IIoT?
+2020-04-21 10:03:35	-->	paniicoper (paniicoper@paniicoper.tmi.twitch.tv) has joined #aws
+2020-04-21 10:03:35	-->	moose198 (moose198@moose198.tmi.twitch.tv) has joined #aws
+2020-04-21 10:03:35	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #aws
+2020-04-21 10:03:35	-->	cmarin96 (cmarin96@cmarin96.tmi.twitch.tv) has joined #aws
+2020-04-21 10:03:35	-->	brofessional33 (brofessional33@brofessional33.tmi.twitch.tv) has joined #aws
+2020-04-21 10:03:35	-->	zeflow14 (zeflow14@zeflow14.tmi.twitch.tv) has joined #aws
+2020-04-21 10:03:35	-->	federalsp (federalsp@federalsp.tmi.twitch.tv) has joined #aws
+2020-04-21 10:03:35	-->	thexdgame (thexdgame@thexdgame.tmi.twitch.tv) has joined #aws
+2020-04-21 10:03:35	-->	tchaikovskydev (tchaikovskydev@tchaikovskydev.tmi.twitch.tv) has joined #aws
+2020-04-21 10:03:35	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #aws
+2020-04-21 10:03:35	<--	frenchdrop (frenchdrop@frenchdrop.tmi.twitch.tv) has left #aws
+2020-04-21 10:03:35	<--	fufufufufufu6 (fufufufufufu6@fufufufufufu6.tmi.twitch.tv) has left #aws
+2020-04-21 10:03:35	<--	usergroup_awsgirlsperu (usergroup_awsgirlsperu@usergroup_awsgirlsperu.tmi.twitch.tv) has left #aws
+2020-04-21 10:03:46	heywyer	iot encore
+2020-04-21 10:04:27	cookiepointz	!colour blue
+2020-04-21 10:04:27	quaggabot	Changing colour to: blue
+2020-04-21 10:04:37	-->	a_space_man (a_space_man@a_space_man.tmi.twitch.tv) has joined #aws
+2020-04-21 10:04:37	-->	ro_nny (ro_nny@ro_nny.tmi.twitch.tv) has joined #aws
+2020-04-21 10:04:37	-->	mastercatrat (mastercatrat@mastercatrat.tmi.twitch.tv) has joined #aws
+2020-04-21 10:04:37	-->	randomblather (randomblather@randomblather.tmi.twitch.tv) has joined #aws
+2020-04-21 10:04:37	-->	ultrarift_x (ultrarift_x@ultrarift_x.tmi.twitch.tv) has joined #aws
+2020-04-21 10:04:37	<--	paniicoper (paniicoper@paniicoper.tmi.twitch.tv) has left #aws
+2020-04-21 10:04:37	<--	moose198 (moose198@moose198.tmi.twitch.tv) has left #aws
+2020-04-21 10:04:37	<--	dankakon (dankakon@dankakon.tmi.twitch.tv) has left #aws
+2020-04-21 10:04:37	<--	cmarin96 (cmarin96@cmarin96.tmi.twitch.tv) has left #aws
+2020-04-21 10:04:37	<--	brofessional33 (brofessional33@brofessional33.tmi.twitch.tv) has left #aws
+2020-04-21 10:04:37	<--	sarujuktomush (sarujuktomush@sarujuktomush.tmi.twitch.tv) has left #aws
+2020-04-21 10:05:17	pogal81	!colour random
+2020-04-21 10:05:17	quaggabot	Changing colour to: random
+2020-04-21 10:05:39	pogal81	!colour red
+2020-04-21 10:05:39	quaggabot	Changing colour to: red
+2020-04-21 10:06:49	-->	kevinoyunda (kevinoyunda@kevinoyunda.tmi.twitch.tv) has joined #aws
+2020-04-21 10:06:49	-->	shadowlogrus (shadowlogrus@shadowlogrus.tmi.twitch.tv) has joined #aws
+2020-04-21 10:06:49	-->	seylessgaming (seylessgaming@seylessgaming.tmi.twitch.tv) has joined #aws
+2020-04-21 10:06:49	-->	bear_breaker20 (bear_breaker20@bear_breaker20.tmi.twitch.tv) has joined #aws
+2020-04-21 10:06:49	-->	menf1sss (menf1sss@menf1sss.tmi.twitch.tv) has joined #aws
+2020-04-21 10:06:49	-->	3r1ck_ve (3r1ck_ve@3r1ck_ve.tmi.twitch.tv) has joined #aws
+2020-04-21 10:06:49	<--	mastercatrat (mastercatrat@mastercatrat.tmi.twitch.tv) has left #aws
+2020-04-21 10:06:49	<--	federalsp (federalsp@federalsp.tmi.twitch.tv) has left #aws
+2020-04-21 10:06:49	<--	ro_nny (ro_nny@ro_nny.tmi.twitch.tv) has left #aws
+2020-04-21 10:06:49	<--	pman3d (pman3d@pman3d.tmi.twitch.tv) has left #aws
+2020-04-21 10:06:49	<--	ultrarift_x (ultrarift_x@ultrarift_x.tmi.twitch.tv) has left #aws
+2020-04-21 10:06:49	<--	randomblather (randomblather@randomblather.tmi.twitch.tv) has left #aws
+2020-04-21 10:06:49	<--	tchaikovskydev (tchaikovskydev@tchaikovskydev.tmi.twitch.tv) has left #aws
+2020-04-21 10:08:55	-->	eabykov (eabykov@eabykov.tmi.twitch.tv) has joined #aws
+2020-04-21 10:08:55	-->	issacchun1 (issacchun1@issacchun1.tmi.twitch.tv) has joined #aws
+2020-04-21 10:08:55	-->	tinny_ton (tinny_ton@tinny_ton.tmi.twitch.tv) has joined #aws
+2020-04-21 10:08:55	<--	shadowlogrus (shadowlogrus@shadowlogrus.tmi.twitch.tv) has left #aws
+2020-04-21 10:08:55	<--	seylessgaming (seylessgaming@seylessgaming.tmi.twitch.tv) has left #aws
+2020-04-21 10:08:55	<--	3r1ck_ve (3r1ck_ve@3r1ck_ve.tmi.twitch.tv) has left #aws
+2020-04-21 10:08:55	<--	mizzonne (mizzonne@mizzonne.tmi.twitch.tv) has left #aws
+2020-04-21 10:08:55	<--	delta_wolf_09 (delta_wolf_09@delta_wolf_09.tmi.twitch.tv) has left #aws
+2020-04-21 10:08:55	<--	afework2019 (afework2019@afework2019.tmi.twitch.tv) has left #aws
+2020-04-21 10:08:55	<--	bear_breaker20 (bear_breaker20@bear_breaker20.tmi.twitch.tv) has left #aws
+2020-04-21 10:08:55	<--	gamebuoy_ (gamebuoy_@gamebuoy_.tmi.twitch.tv) has left #aws
+2020-04-21 10:11:10	-->	heyitsthatchrisguy (heyitsthatchrisguy@heyitsthatchrisguy.tmi.twitch.tv) has joined #aws
+2020-04-21 10:11:10	-->	aquaritus (aquaritus@aquaritus.tmi.twitch.tv) has joined #aws
+2020-04-21 10:11:10	-->	kharad (kharad@kharad.tmi.twitch.tv) has joined #aws
+2020-04-21 10:11:10	-->	janisku7 (janisku7@janisku7.tmi.twitch.tv) has joined #aws
+2020-04-21 10:11:10	<--	a_space_man (a_space_man@a_space_man.tmi.twitch.tv) has left #aws
+2020-04-21 10:11:10	<--	greyhands (greyhands@greyhands.tmi.twitch.tv) has left #aws
+2020-04-21 10:11:10	<--	issacchun1 (issacchun1@issacchun1.tmi.twitch.tv) has left #aws
+2020-04-21 10:11:10	<--	flipflop_5 (flipflop_5@flipflop_5.tmi.twitch.tv) has left #aws
+2020-04-21 10:11:10	<--	zeflow14 (zeflow14@zeflow14.tmi.twitch.tv) has left #aws
+2020-04-21 10:11:10	<--	heywyer (heywyer@heywyer.tmi.twitch.tv) has left #aws
+2020-04-21 10:11:10	<--	tinny_ton (tinny_ton@tinny_ton.tmi.twitch.tv) has left #aws
+2020-04-21 10:11:10	<--	eabykov (eabykov@eabykov.tmi.twitch.tv) has left #aws
+2020-04-21 10:11:11	pogal81	!commands
+2020-04-21 10:11:11	quaggabot	@pogal81, please type !colour <colour> where <colour> is red, blue, green or random
+2020-04-21 10:11:11	moobot	@pogal81 You can find the command list over at https://moo.bot/r/commands#aws
+2020-04-21 10:11:21	janisku7	!colour blue
+2020-04-21 10:11:21	quaggabot	Changing colour to: blue
+2020-04-21 10:11:31	osympecetesi	Could you please inform us about the application of CNN architectures on microcontrollers such as Arduino UNO? Have you ever checked the paper titled as "SpArSe" written by Federov et al. , from May 2019 ?
+2020-04-21 10:11:43	pekter	!colour blue
+2020-04-21 10:12:59	johan_cloudguru	!colour yellow
+2020-04-21 10:13:00	 *	quaggabot An error occurred, please type !colour <colour> where <colour> is red, blue, green or random
+2020-04-21 10:13:22	-->	kultiviert (kultiviert@kultiviert.tmi.twitch.tv) has joined #aws
+2020-04-21 10:13:22	-->	geodnbb (geodnbb@geodnbb.tmi.twitch.tv) has joined #aws
+2020-04-21 10:13:22	-->	mkhajuriwala (mkhajuriwala@mkhajuriwala.tmi.twitch.tv) has joined #aws
+2020-04-21 10:13:22	-->	damiandrozd (damiandrozd@damiandrozd.tmi.twitch.tv) has joined #aws
+2020-04-21 10:13:22	-->	88opus88 (88opus88@88opus88.tmi.twitch.tv) has joined #aws
+2020-04-21 10:13:22	-->	twinbrother8 (twinbrother8@twinbrother8.tmi.twitch.tv) has joined #aws
+2020-04-21 10:13:22	-->	flipflop_5 (flipflop_5@flipflop_5.tmi.twitch.tv) has joined #aws
+2020-04-21 10:13:22	-->	dead_drifter (dead_drifter@dead_drifter.tmi.twitch.tv) has joined #aws
+2020-04-21 10:13:22	-->	stevemaster92 (stevemaster92@stevemaster92.tmi.twitch.tv) has joined #aws
+2020-04-21 10:13:22	-->	ottoelite45 (ottoelite45@ottoelite45.tmi.twitch.tv) has joined #aws
+2020-04-21 10:13:22	<--	menf1sss (menf1sss@menf1sss.tmi.twitch.tv) has left #aws
+2020-04-21 10:13:22	<--	aquaritus (aquaritus@aquaritus.tmi.twitch.tv) has left #aws
+2020-04-21 10:13:22	<--	zabuza001 (zabuza001@zabuza001.tmi.twitch.tv) has left #aws
+2020-04-21 10:13:22	<--	lschles (lschles@lschles.tmi.twitch.tv) has left #aws
+2020-04-21 10:13:22	<--	heyitsthatchrisguy (heyitsthatchrisguy@heyitsthatchrisguy.tmi.twitch.tv) has left #aws
+2020-04-21 10:13:22	<--	scotnoco (scotnoco@scotnoco.tmi.twitch.tv) has left #aws
+2020-04-21 10:14:57	janisku7	!colour random
+2020-04-21 10:14:58	quaggabot	Changing colour to: random
+2020-04-21 10:15:02	thexdgame	do u have some tips for design and implementation of acontainer orchestration framework for fog computong
+2020-04-21 10:15:29	-->	skittl3z45 (skittl3z45@skittl3z45.tmi.twitch.tv) has joined #aws
+2020-04-21 10:15:29	-->	commanderroot (commanderroot@commanderroot.tmi.twitch.tv) has joined #aws
+2020-04-21 10:15:29	-->	jakazuuu (jakazuuu@jakazuuu.tmi.twitch.tv) has joined #aws
+2020-04-21 10:15:29	-->	devyx_ (devyx_@devyx_.tmi.twitch.tv) has joined #aws
+2020-04-21 10:15:29	-->	astronomic4l_ (astronomic4l_@astronomic4l_.tmi.twitch.tv) has joined #aws
+2020-04-21 10:15:29	-->	sepphiros (sepphiros@sepphiros.tmi.twitch.tv) has joined #aws
+2020-04-21 10:15:29	<--	flipflop_5 (flipflop_5@flipflop_5.tmi.twitch.tv) has left #aws
+2020-04-21 10:15:29	<--	stevemaster92 (stevemaster92@stevemaster92.tmi.twitch.tv) has left #aws
+2020-04-21 10:15:29	<--	geodnbb (geodnbb@geodnbb.tmi.twitch.tv) has left #aws
+2020-04-21 10:15:29	<--	osympecetesi (osympecetesi@osympecetesi.tmi.twitch.tv) has left #aws
+2020-04-21 10:15:29	<--	damiandrozd (damiandrozd@damiandrozd.tmi.twitch.tv) has left #aws
+2020-04-21 10:15:29	<--	pekter (pekter@pekter.tmi.twitch.tv) has left #aws
+2020-04-21 10:17:43	-->	greybush42 (greybush42@greybush42.tmi.twitch.tv) has joined #aws
+2020-04-21 10:17:43	-->	roboticmind90 (roboticmind90@roboticmind90.tmi.twitch.tv) has joined #aws
+2020-04-21 10:17:43	-->	talizmansolutions (talizmansolutions@talizmansolutions.tmi.twitch.tv) has joined #aws
+2020-04-21 10:17:43	-->	lewispe (lewispe@lewispe.tmi.twitch.tv) has joined #aws
+2020-04-21 10:17:43	-->	herkii (herkii@herkii.tmi.twitch.tv) has joined #aws
+2020-04-21 10:17:43	-->	jenkins_one (jenkins_one@jenkins_one.tmi.twitch.tv) has joined #aws
+2020-04-21 10:17:43	-->	dancwpark (dancwpark@dancwpark.tmi.twitch.tv) has joined #aws
+2020-04-21 10:17:43	<--	astronomic4l_ (astronomic4l_@astronomic4l_.tmi.twitch.tv) has left #aws
+2020-04-21 10:17:43	<--	theocas (theocas@theocas.tmi.twitch.tv) has left #aws
+2020-04-21 10:17:43	<--	devyx_ (devyx_@devyx_.tmi.twitch.tv) has left #aws
+2020-04-21 10:17:43	<--	skittl3z45 (skittl3z45@skittl3z45.tmi.twitch.tv) has left #aws
+2020-04-21 10:17:43	<--	kultiviert (kultiviert@kultiviert.tmi.twitch.tv) has left #aws
+2020-04-21 10:17:45	janisku7	so colour was black
+2020-04-21 10:17:55	pogal81	@TheXDGame Have you looked at AWS IoT Greengrass - https://aws.amazon.com/blogs/aws/new-aws-iot-greengrass-adds-docker-support-and-streams-management-at-the-edge/ and https://aws.amazon.com/greengrass/
+2020-04-21 10:18:53	-->	usergroup_awsgirlsperu (usergroup_awsgirlsperu@usergroup_awsgirlsperu.tmi.twitch.tv) has joined #aws
+2020-04-21 10:18:53	-->	crombiie (crombiie@crombiie.tmi.twitch.tv) has joined #aws
+2020-04-21 10:18:53	-->	rapfaria (rapfaria@rapfaria.tmi.twitch.tv) has joined #aws
+2020-04-21 10:18:53	-->	arder19 (arder19@arder19.tmi.twitch.tv) has joined #aws
+2020-04-21 10:18:53	-->	empasmdyd (empasmdyd@empasmdyd.tmi.twitch.tv) has joined #aws
+2020-04-21 10:18:53	-->	alimoeeny (alimoeeny@alimoeeny.tmi.twitch.tv) has joined #aws
+2020-04-21 10:18:53	-->	reeman264 (reeman264@reeman264.tmi.twitch.tv) has joined #aws
+2020-04-21 10:18:53	<--	dancwpark (dancwpark@dancwpark.tmi.twitch.tv) has left #aws
+2020-04-21 10:18:53	<--	roboticmind90 (roboticmind90@roboticmind90.tmi.twitch.tv) has left #aws
+2020-04-21 10:18:53	<--	lewispe (lewispe@lewispe.tmi.twitch.tv) has left #aws
+2020-04-21 10:19:02	janisku7	!colour green
+2020-04-21 10:19:02	quaggabot	Changing colour to: green
+2020-04-21 10:19:10	janisku7	green for greengrass
+2020-04-21 10:19:16	pogal81	@Janisku7 :)
+2020-04-21 10:20:57	-->	ilkobg89 (ilkobg89@ilkobg89.tmi.twitch.tv) has joined #aws
+2020-04-21 10:20:57	-->	do_it_for_jonny (do_it_for_jonny@do_it_for_jonny.tmi.twitch.tv) has joined #aws
+2020-04-21 10:20:57	-->	rbsilva21 (rbsilva21@rbsilva21.tmi.twitch.tv) has joined #aws
+2020-04-21 10:20:57	-->	ti0ma (ti0ma@ti0ma.tmi.twitch.tv) has joined #aws
+2020-04-21 10:20:57	-->	bjomolf (bjomolf@bjomolf.tmi.twitch.tv) has joined #aws
+2020-04-21 10:20:57	-->	kaceytronismoe (kaceytronismoe@kaceytronismoe.tmi.twitch.tv) has joined #aws
+2020-04-21 10:20:57	-->	joeyreddy (joeyreddy@joeyreddy.tmi.twitch.tv) has joined #aws
+2020-04-21 10:20:57	-->	dshytv (dshytv@dshytv.tmi.twitch.tv) has joined #aws
+2020-04-21 10:20:57	<--	reeman264 (reeman264@reeman264.tmi.twitch.tv) has left #aws
+2020-04-21 10:20:57	<--	crombiie (crombiie@crombiie.tmi.twitch.tv) has left #aws
+2020-04-21 10:20:57	<--	arder19 (arder19@arder19.tmi.twitch.tv) has left #aws
+2020-04-21 10:20:57	<--	usergroup_awsgirlsperu (usergroup_awsgirlsperu@usergroup_awsgirlsperu.tmi.twitch.tv) has left #aws
+2020-04-21 10:20:57	<--	rapfaria (rapfaria@rapfaria.tmi.twitch.tv) has left #aws
+2020-04-21 10:23:15	-->	funkyzhroom (funkyzhroom@funkyzhroom.tmi.twitch.tv) has joined #aws
+2020-04-21 10:23:15	-->	chipsdeguerre (chipsdeguerre@chipsdeguerre.tmi.twitch.tv) has joined #aws
+2020-04-21 10:23:15	-->	uriasafer (uriasafer@uriasafer.tmi.twitch.tv) has joined #aws
+2020-04-21 10:23:15	<--	88opus88 (88opus88@88opus88.tmi.twitch.tv) has left #aws
+2020-04-21 10:23:15	<--	atomyy (atomyy@atomyy.tmi.twitch.tv) has left #aws
+2020-04-21 10:23:15	<--	sepphiros (sepphiros@sepphiros.tmi.twitch.tv) has left #aws
+2020-04-21 10:23:15	<--	ti0ma (ti0ma@ti0ma.tmi.twitch.tv) has left #aws
+2020-04-21 10:23:15	<--	do_it_for_jonny (do_it_for_jonny@do_it_for_jonny.tmi.twitch.tv) has left #aws
+2020-04-21 10:23:15	<--	rbsilva21 (rbsilva21@rbsilva21.tmi.twitch.tv) has left #aws
+2020-04-21 10:25:18	-->	nicolauns (nicolauns@nicolauns.tmi.twitch.tv) has joined #aws
+2020-04-21 10:25:18	-->	aten (aten@aten.tmi.twitch.tv) has joined #aws
+2020-04-21 10:25:18	-->	bigflatus (bigflatus@bigflatus.tmi.twitch.tv) has joined #aws
+2020-04-21 10:25:18	-->	flipflop_5 (flipflop_5@flipflop_5.tmi.twitch.tv) has joined #aws
+2020-04-21 10:25:18	-->	niemnd (niemnd@niemnd.tmi.twitch.tv) has joined #aws
+2020-04-21 10:25:18	-->	fursane (fursane@fursane.tmi.twitch.tv) has joined #aws
+2020-04-21 10:25:18	<--	funkyzhroom (funkyzhroom@funkyzhroom.tmi.twitch.tv) has left #aws
+2020-04-21 10:25:18	<--	jenkins_one (jenkins_one@jenkins_one.tmi.twitch.tv) has left #aws
+2020-04-21 10:25:18	<--	dshytv (dshytv@dshytv.tmi.twitch.tv) has left #aws
+2020-04-21 10:25:18	<--	uriasafer (uriasafer@uriasafer.tmi.twitch.tv) has left #aws
+2020-04-21 10:25:18	<--	undeadkiller19 (undeadkiller19@undeadkiller19.tmi.twitch.tv) has left #aws
+2020-04-21 10:25:18	<--	thexdgame (thexdgame@thexdgame.tmi.twitch.tv) has left #aws
+2020-04-21 10:25:18	<--	bjomolf (bjomolf@bjomolf.tmi.twitch.tv) has left #aws
+2020-04-21 10:25:18	<--	mkhajuriwala (mkhajuriwala@mkhajuriwala.tmi.twitch.tv) has left #aws
+2020-04-21 10:25:20	aws_hannahnilsson	Here are a few questions from earlier in the chat as well: 1/ Can you tell us about IIoT? 2/ Could you please inform us about the application of CNN architectures on microcontrollers such as Arduino UNO? Have you ever checked the paper titled as "SpArSe" written by Federov et al. , from May 2019 ?
+2020-04-21 10:25:58	aws_hannahnilsson	Learn about AWS IoT Greengrass connectors here —> https://docs.aws.amazon.com/greengrass/latest/developerguide/connectors-list.html
+2020-04-21 10:27:22	-->	itsvodoo (itsvodoo@itsvodoo.tmi.twitch.tv) has joined #aws
+2020-04-21 10:27:22	-->	joeysbytes (joeysbytes@joeysbytes.tmi.twitch.tv) has joined #aws
+2020-04-21 10:27:22	-->	elevatorguy (elevatorguy@elevatorguy.tmi.twitch.tv) has joined #aws
+2020-04-21 10:27:22	-->	keskidev (keskidev@keskidev.tmi.twitch.tv) has joined #aws
+2020-04-21 10:27:22	-->	caine_corp (caine_corp@caine_corp.tmi.twitch.tv) has joined #aws
+2020-04-21 10:27:22	-->	lee_w (lee_w@lee_w.tmi.twitch.tv) has joined #aws
+2020-04-21 10:27:22	<--	niemnd (niemnd@niemnd.tmi.twitch.tv) has left #aws
+2020-04-21 10:27:22	<--	herkii (herkii@herkii.tmi.twitch.tv) has left #aws
+2020-04-21 10:27:22	<--	greybush42 (greybush42@greybush42.tmi.twitch.tv) has left #aws
+2020-04-21 10:27:51	aws_hannahnilsson	AWS IoT SiteWise: https://aws.amazon.com/iot-sitewise/
+2020-04-21 10:29:11	janisku7	!colour yellow
+2020-04-21 10:29:11	 *	quaggabot An error occurred, please type !colour <colour> where <colour> is red, blue, green or random
+2020-04-21 10:29:18	aws_hannahnilsson	https://www.youtube.com/watch?v=Gy-5LtX_yfY :)
+2020-04-21 10:29:29	janisku7	!colour random
+2020-04-21 10:29:29	quaggabot	Changing colour to: random
+2020-04-21 10:29:34	-->	atomray420 (atomray420@atomray420.tmi.twitch.tv) has joined #aws
+2020-04-21 10:29:34	-->	doraemon_without_gadgets (doraemon_without_gadgets@doraemon_without_gadgets.tmi.twitch.tv) has joined #aws
+2020-04-21 10:29:34	-->	mightyjrgaming (mightyjrgaming@mightyjrgaming.tmi.twitch.tv) has joined #aws
+2020-04-21 10:29:34	-->	andrelrreis (andrelrreis@andrelrreis.tmi.twitch.tv) has joined #aws
+2020-04-21 10:29:34	<--	caine_corp (caine_corp@caine_corp.tmi.twitch.tv) has left #aws
+2020-04-21 10:29:34	<--	chipsdeguerre (chipsdeguerre@chipsdeguerre.tmi.twitch.tv) has left #aws
+2020-04-21 10:29:34	<--	dinofrost (dinofrost@dinofrost.tmi.twitch.tv) has left #aws
+2020-04-21 10:29:34	<--	lee_w (lee_w@lee_w.tmi.twitch.tv) has left #aws
+2020-04-21 10:29:34	<--	elevatorguy (elevatorguy@elevatorguy.tmi.twitch.tv) has left #aws
+2020-04-21 10:29:34	<--	joeysbytes (joeysbytes@joeysbytes.tmi.twitch.tv) has left #aws
+2020-04-21 10:29:46	janisku7	also showing when the light change
+2020-04-21 10:31:32	-->	loktharogargg (loktharogargg@loktharogargg.tmi.twitch.tv) has joined #aws
+2020-04-21 10:31:32	-->	utahjazz777 (utahjazz777@utahjazz777.tmi.twitch.tv) has joined #aws
+2020-04-21 10:31:32	-->	lschles (lschles@lschles.tmi.twitch.tv) has joined #aws
+2020-04-21 10:31:32	-->	mikzufin_ (mikzufin_@mikzufin_.tmi.twitch.tv) has joined #aws
+2020-04-21 10:31:32	-->	g3r0nimo (g3r0nimo@g3r0nimo.tmi.twitch.tv) has joined #aws
+2020-04-21 10:31:32	<--	doraemon_without_gadgets (doraemon_without_gadgets@doraemon_without_gadgets.tmi.twitch.tv) has left #aws
+2020-04-21 10:31:32	<--	kaceytronismoe (kaceytronismoe@kaceytronismoe.tmi.twitch.tv) has left #aws
+2020-04-21 10:31:32	<--	robimus_one (robimus_one@robimus_one.tmi.twitch.tv) has left #aws
+2020-04-21 10:31:32	<--	mightyjrgaming (mightyjrgaming@mightyjrgaming.tmi.twitch.tv) has left #aws
+2020-04-21 10:31:32	<--	atomray420 (atomray420@atomray420.tmi.twitch.tv) has left #aws
+2020-04-21 10:31:32	<--	keskidev (keskidev@keskidev.tmi.twitch.tv) has left #aws
+2020-04-21 10:33:25	aws_hannahnilsson	https://github.com/aws-samples/aws-appsync-iot-core-realtime-dashboard
+2020-04-21 10:33:30	-->	amgrob (amgrob@amgrob.tmi.twitch.tv) has joined #aws
+2020-04-21 10:33:30	-->	andrey2g (andrey2g@andrey2g.tmi.twitch.tv) has joined #aws
+2020-04-21 10:33:30	-->	ryzocx (ryzocx@ryzocx.tmi.twitch.tv) has joined #aws
+2020-04-21 10:33:30	-->	finexlive (finexlive@finexlive.tmi.twitch.tv) has joined #aws
+2020-04-21 10:33:30	-->	khronicz (khronicz@khronicz.tmi.twitch.tv) has joined #aws
+2020-04-21 10:33:30	-->	geodnbb (geodnbb@geodnbb.tmi.twitch.tv) has joined #aws
+2020-04-21 10:33:30	-->	lurxx (lurxx@lurxx.tmi.twitch.tv) has joined #aws
+2020-04-21 10:33:30	<--	mikzufin_ (mikzufin_@mikzufin_.tmi.twitch.tv) has left #aws
+2020-04-21 10:33:30	<--	utahjazz777 (utahjazz777@utahjazz777.tmi.twitch.tv) has left #aws
+2020-04-21 10:33:30	<--	dead_drifter (dead_drifter@dead_drifter.tmi.twitch.tv) has left #aws
+2020-04-21 10:33:30	<--	bossmansnake (bossmansnake@bossmansnake.tmi.twitch.tv) has left #aws
+2020-04-21 10:34:07	amgrob	hi rudy!
+2020-04-21 10:34:18	pogal81	hey @amgrob :D
+2020-04-21 10:35:24	-->	hookem124 (hookem124@hookem124.tmi.twitch.tv) has joined #aws
+2020-04-21 10:35:24	-->	hajdam (hajdam@hajdam.tmi.twitch.tv) has joined #aws
+2020-04-21 10:35:24	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-04-21 10:35:24	<--	g3r0nimo (g3r0nimo@g3r0nimo.tmi.twitch.tv) has left #aws
+2020-04-21 10:35:24	<--	khronicz (khronicz@khronicz.tmi.twitch.tv) has left #aws
+2020-04-21 10:35:24	<--	geodnbb (geodnbb@geodnbb.tmi.twitch.tv) has left #aws
+2020-04-21 10:35:24	<--	finexlive (finexlive@finexlive.tmi.twitch.tv) has left #aws
+2020-04-21 10:35:33	dore95	16% battery life !!
+2020-04-21 10:35:46	amgrob	iot rabbit launcher, out of the hat
+2020-04-21 10:36:09	janisku7	!colour red
+2020-04-21 10:36:09	quaggabot	Changing colour to: red
+2020-04-21 10:36:13	janisku7	its am
+2020-04-21 10:36:25	amgrob	@Janisku7 what's up!!
+2020-04-21 10:37:28	-->	macmonstercz (macmonstercz@macmonstercz.tmi.twitch.tv) has joined #aws
+2020-04-21 10:37:28	-->	edlerdurst (edlerdurst@edlerdurst.tmi.twitch.tv) has joined #aws
+2020-04-21 10:37:28	-->	docscan (docscan@docscan.tmi.twitch.tv) has joined #aws
+2020-04-21 10:37:28	-->	kortahl (kortahl@kortahl.tmi.twitch.tv) has joined #aws
+2020-04-21 10:37:28	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-04-21 10:37:28	-->	dore95 (dore95@dore95.tmi.twitch.tv) has joined #aws
+2020-04-21 10:37:28	-->	dirk_f5r_aws (dirk_f5r_aws@dirk_f5r_aws.tmi.twitch.tv) has joined #aws
+2020-04-21 10:37:28	-->	erichammond (erichammond@erichammond.tmi.twitch.tv) has joined #aws
+2020-04-21 10:37:28	<--	itsvodoo (itsvodoo@itsvodoo.tmi.twitch.tv) has left #aws
+2020-04-21 10:37:28	<--	andrelrreis (andrelrreis@andrelrreis.tmi.twitch.tv) has left #aws
+2020-04-21 10:37:28	<--	hajdam (hajdam@hajdam.tmi.twitch.tv) has left #aws
+2020-04-21 10:37:42	janisku7	chilling
+2020-04-21 10:38:37	walsh9	KonCha
+2020-04-21 10:38:50	aws_hannahnilsson	Anyone have any questions for Rudy and Wale? Remember - ask us anything!
+2020-04-21 10:38:59	amgrob	@walsh9 DUDE! long time, no see
+2020-04-21 10:39:21	walsh9	@amgrob howdy partner ;)
+2020-04-21 10:39:34	-->	antarcticggbear (antarcticggbear@antarcticggbear.tmi.twitch.tv) has joined #aws
+2020-04-21 10:39:34	-->	boamorte55 (boamorte55@boamorte55.tmi.twitch.tv) has joined #aws
+2020-04-21 10:39:34	<--	andrey2g (andrey2g@andrey2g.tmi.twitch.tv) has left #aws
+2020-04-21 10:39:34	<--	loktharogargg (loktharogargg@loktharogargg.tmi.twitch.tv) has left #aws
+2020-04-21 10:39:40	amgrob	rudy, what is your favorite service and why is it amplify?
+2020-04-21 10:40:26	amgrob	@walsh9 :-)
+2020-04-21 10:41:06	amgrob	no tricks!
+2020-04-21 10:41:15	janisku7	@walsh9 that so much smart db
+2020-04-21 10:41:41	-->	beavtifvl (beavtifvl@beavtifvl.tmi.twitch.tv) has joined #aws
+2020-04-21 10:41:41	-->	janluca_6379 (janluca_6379@janluca_6379.tmi.twitch.tv) has joined #aws
+2020-04-21 10:41:41	-->	n3kz (n3kz@n3kz.tmi.twitch.tv) has joined #aws
+2020-04-21 10:41:41	-->	enricopp89 (enricopp89@enricopp89.tmi.twitch.tv) has joined #aws
+2020-04-21 10:41:41	-->	jravagnani (jravagnani@jravagnani.tmi.twitch.tv) has joined #aws
+2020-04-21 10:41:41	-->	allisdark (allisdark@allisdark.tmi.twitch.tv) has joined #aws
+2020-04-21 10:41:41	<--	boamorte55 (boamorte55@boamorte55.tmi.twitch.tv) has left #aws
+2020-04-21 10:41:41	<--	antarcticggbear (antarcticggbear@antarcticggbear.tmi.twitch.tv) has left #aws
+2020-04-21 10:41:47	janisku7	!colour random
+2020-04-21 10:41:48	quaggabot	Changing colour to: random
+2020-04-21 10:42:04	amgrob	nobody ever says route53
+2020-04-21 10:42:11	ilkobg89	yeah and in the end Cloudfront does 90% of the work
+2020-04-21 10:42:28	janisku7	@amgrob routeColour66
+2020-04-21 10:43:06	amgrob	lol @Janisku7 setting the DNS to radiator springs
+2020-04-21 10:43:14	joeyreddy	@Wale your battery life is stressing me ;-)
+2020-04-21 10:43:43	-->	hoozter9 (hoozter9@hoozter9.tmi.twitch.tv) has joined #aws
+2020-04-21 10:43:43	-->	livestep (livestep@livestep.tmi.twitch.tv) has joined #aws
+2020-04-21 10:43:43	-->	dimagv (dimagv@dimagv.tmi.twitch.tv) has joined #aws
+2020-04-21 10:43:43	-->	rdedekind (rdedekind@rdedekind.tmi.twitch.tv) has joined #aws
+2020-04-21 10:43:43	-->	bastlwe (bastlwe@bastlwe.tmi.twitch.tv) has joined #aws
+2020-04-21 10:43:43	-->	yu1928 (yu1928@yu1928.tmi.twitch.tv) has joined #aws
+2020-04-21 10:43:43	-->	infernapegamers (infernapegamers@infernapegamers.tmi.twitch.tv) has joined #aws
+2020-04-21 10:43:43	-->	ganymede_j3 (ganymede_j3@ganymede_j3.tmi.twitch.tv) has joined #aws
+2020-04-21 10:43:43	-->	yuptheladsdownthecans (yuptheladsdownthecans@yuptheladsdownthecans.tmi.twitch.tv) has joined #aws
+2020-04-21 10:43:43	-->	forgottenchamp (forgottenchamp@forgottenchamp.tmi.twitch.tv) has joined #aws
+2020-04-21 10:43:43	<--	twinbrother8 (twinbrother8@twinbrother8.tmi.twitch.tv) has left #aws
+2020-04-21 10:43:43	<--	jravagnani (jravagnani@jravagnani.tmi.twitch.tv) has left #aws
+2020-04-21 10:43:43	<--	n3kz (n3kz@n3kz.tmi.twitch.tv) has left #aws
+2020-04-21 10:44:24	pablobedoya_	!uptime
+2020-04-21 10:44:25	moobot	AWS has been streaming for 51m 47s
+2020-04-21 10:44:42	-->	epomama (epomama@epomama.tmi.twitch.tv) has joined #aws
+2020-04-21 10:44:42	-->	quinngt (quinngt@quinngt.tmi.twitch.tv) has joined #aws
+2020-04-21 10:44:42	-->	wickednash (wickednash@wickednash.tmi.twitch.tv) has joined #aws
+2020-04-21 10:44:42	-->	sc2tvhotsizzle (sc2tvhotsizzle@sc2tvhotsizzle.tmi.twitch.tv) has joined #aws
+2020-04-21 10:44:42	-->	zyki123 (zyki123@zyki123.tmi.twitch.tv) has joined #aws
+2020-04-21 10:44:42	-->	twinbrother8 (twinbrother8@twinbrother8.tmi.twitch.tv) has joined #aws
+2020-04-21 10:44:42	<--	dimagv (dimagv@dimagv.tmi.twitch.tv) has left #aws
+2020-04-21 10:44:42	<--	bastlwe (bastlwe@bastlwe.tmi.twitch.tv) has left #aws
+2020-04-21 10:44:42	<--	infernapegamers (infernapegamers@infernapegamers.tmi.twitch.tv) has left #aws
+2020-04-21 10:44:42	<--	yuptheladsdownthecans (yuptheladsdownthecans@yuptheladsdownthecans.tmi.twitch.tv) has left #aws
+2020-04-21 10:44:42	<--	hoozter9 (hoozter9@hoozter9.tmi.twitch.tv) has left #aws
+2020-04-21 10:44:42	<--	livestep (livestep@livestep.tmi.twitch.tv) has left #aws
+2020-04-21 10:44:42	<--	macmonstercz (macmonstercz@macmonstercz.tmi.twitch.tv) has left #aws
+2020-04-21 10:44:42	<--	hookem124 (hookem124@hookem124.tmi.twitch.tv) has left #aws
+2020-04-21 10:45:53	janisku7	battery life based on colour would be funny too
+2020-04-21 10:46:01	rvanderwerf	never present on battery :)
+2020-04-21 10:46:27	walsh9	"Battery-life driven development"
+2020-04-21 10:46:28	rdedekind	monkaS
+2020-04-21 10:46:45	rvanderwerf	make it blink for the last couple mins
+2020-04-21 10:46:58	-->	rulkanoow (rulkanoow@rulkanoow.tmi.twitch.tv) has joined #aws
+2020-04-21 10:46:58	-->	seyloc (seyloc@seyloc.tmi.twitch.tv) has joined #aws
+2020-04-21 10:46:58	<--	johan_cloudguru (johan_cloudguru@johan_cloudguru.tmi.twitch.tv) has left #aws
+2020-04-21 10:46:58	<--	yu1928 (yu1928@yu1928.tmi.twitch.tv) has left #aws
+2020-04-21 10:46:58	<--	zyki123 (zyki123@zyki123.tmi.twitch.tv) has left #aws
+2020-04-21 10:46:58	<--	erichammond (erichammond@erichammond.tmi.twitch.tv) has left #aws
+2020-04-21 10:46:58	<--	quinngt (quinngt@quinngt.tmi.twitch.tv) has left #aws
+2020-04-21 10:47:01	amgrob	can we build an IoT killswitch for your machine while you present, rudy?
+2020-04-21 10:47:01	allisdark	this is my architecture is awesome :)
+2020-04-21 10:47:27	aws_hannahnilsson	Here is the link to the architecture blog channel referenced, lots of good resources here! https://aws.amazon.com/blogs/architecture/
+2020-04-21 10:48:24	aws_hannahnilsson	It is not too late to submit your questions! What are you curious about?
+2020-04-21 10:48:30	amgrob	any advice on how to stay motivated and keep those sensors from just living on a shelf in my closet?
+2020-04-21 10:48:57	-->	whiskardo (whiskardo@whiskardo.tmi.twitch.tv) has joined #aws
+2020-04-21 10:48:57	-->	ctheguilt (ctheguilt@ctheguilt.tmi.twitch.tv) has joined #aws
+2020-04-21 10:48:57	-->	mrcloudzerg (mrcloudzerg@mrcloudzerg.tmi.twitch.tv) has joined #aws
+2020-04-21 10:48:57	-->	slowlyrunnin (slowlyrunnin@slowlyrunnin.tmi.twitch.tv) has joined #aws
+2020-04-21 10:48:57	-->	elcamisdaroc (elcamisdaroc@elcamisdaroc.tmi.twitch.tv) has joined #aws
+2020-04-21 10:48:57	-->	luanslf (luanslf@luanslf.tmi.twitch.tv) has joined #aws
+2020-04-21 10:48:57	-->	cresar47 (cresar47@cresar47.tmi.twitch.tv) has joined #aws
+2020-04-21 10:48:57	-->	krangence (krangence@krangence.tmi.twitch.tv) has joined #aws
+2020-04-21 10:48:57	-->	solemnmagus (solemnmagus@solemnmagus.tmi.twitch.tv) has joined #aws
+2020-04-21 10:48:57	<--	rulkanoow (rulkanoow@rulkanoow.tmi.twitch.tv) has left #aws
+2020-04-21 10:48:57	<--	epomama (epomama@epomama.tmi.twitch.tv) has left #aws
+2020-04-21 10:48:57	<--	seyloc (seyloc@seyloc.tmi.twitch.tv) has left #aws
+2020-04-21 10:49:00	ctheguilt	do you think piezoelectric film sensor could detect a rice weevil for rice weevil detection? this is a focused question lol sorry
+2020-04-21 10:49:09	rvanderwerf	I have the same problem!
+2020-04-21 10:50:59	-->	keviv0 (keviv0@keviv0.tmi.twitch.tv) has joined #aws
+2020-04-21 10:50:59	-->	darwel51 (darwel51@darwel51.tmi.twitch.tv) has joined #aws
+2020-04-21 10:50:59	<--	cresar47 (cresar47@cresar47.tmi.twitch.tv) has left #aws
+2020-04-21 10:50:59	<--	whiskardo (whiskardo@whiskardo.tmi.twitch.tv) has left #aws
+2020-04-21 10:50:59	<--	luanslf (luanslf@luanslf.tmi.twitch.tv) has left #aws
+2020-04-21 10:50:59	<--	krangence (krangence@krangence.tmi.twitch.tv) has left #aws
+2020-04-21 10:50:59	<--	slowlyrunnin (slowlyrunnin@slowlyrunnin.tmi.twitch.tv) has left #aws
+2020-04-21 10:50:59	<--	ilkobg89 (ilkobg89@ilkobg89.tmi.twitch.tv) has left #aws
+2020-04-21 10:50:59	<--	nicolauns (nicolauns@nicolauns.tmi.twitch.tv) has left #aws
+2020-04-21 10:51:18	amgrob	that would be fun to hear that quack in the middle of the night
+2020-04-21 10:51:37	janisku7	flowers moist
+2020-04-21 10:51:38	walsh9	brb hooking up Polly to my Roomba to say that
+2020-04-21 10:52:34	rvanderwerf	this might be for agriculture, rice in a silo
+2020-04-21 10:52:46	pogal81	Ah that makes sense
+2020-04-21 10:53:10	-->	emegrossic (emegrossic@emegrossic.tmi.twitch.tv) has joined #aws
+2020-04-21 10:53:10	-->	realdragonwingz (realdragonwingz@realdragonwingz.tmi.twitch.tv) has joined #aws
+2020-04-21 10:53:10	<--	ganymede_j3 (ganymede_j3@ganymede_j3.tmi.twitch.tv) has left #aws
+2020-04-21 10:53:10	<--	kortahl (kortahl@kortahl.tmi.twitch.tv) has left #aws
+2020-04-21 10:53:10	<--	keviv0 (keviv0@keviv0.tmi.twitch.tv) has left #aws
+2020-04-21 12:11:07	=!=	twitch.py: error communicating with twitch api
+2020-04-21 12:14:59	--	irc: disconnected from server
+2020-07-17 09:51:08	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #aws
+2020-07-17 09:51:08	--	Channel #aws: 97 nicks (0 ops, 0 voices, 97 normals)
+2020-07-17 09:51:08		-- Title is "AWS"
+2020-07-17 09:51:16	-->	ensthor (ensthor@ensthor.tmi.twitch.tv) has joined #aws
+2020-07-17 09:51:16	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #aws
+2020-07-17 09:51:16	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #aws
+2020-07-17 09:51:16	-->	pr0jectwolf (pr0jectwolf@pr0jectwolf.tmi.twitch.tv) has joined #aws
+2020-07-17 09:51:16	-->	gray_twin (gray_twin@gray_twin.tmi.twitch.tv) has joined #aws
+2020-07-17 09:51:16	-->	jaredrogersword (jaredrogersword@jaredrogersword.tmi.twitch.tv) has joined #aws
+2020-07-17 09:51:16	<--	jckanthem (jckanthem@jckanthem.tmi.twitch.tv) has left #aws
+2020-07-17 09:51:34	achyuta786	please give answer. i am available for discussion..
+2020-07-17 09:53:29	-->	nge001 (nge001@nge001.tmi.twitch.tv) has joined #aws
+2020-07-17 09:53:29	-->	hongyi_ (hongyi_@hongyi_.tmi.twitch.tv) has joined #aws
+2020-07-17 09:53:29	-->	meg_be (meg_be@meg_be.tmi.twitch.tv) has joined #aws
+2020-07-17 09:53:29	<--	jaredrogersword (jaredrogersword@jaredrogersword.tmi.twitch.tv) has left #aws
+2020-07-17 09:53:29	<--	yuptheladsdownthecans (yuptheladsdownthecans@yuptheladsdownthecans.tmi.twitch.tv) has left #aws
+2020-07-17 09:53:29	<--	pr0jectwolf (pr0jectwolf@pr0jectwolf.tmi.twitch.tv) has left #aws
+2020-07-17 09:53:29	<--	flukeyj20 (flukeyj20@flukeyj20.tmi.twitch.tv) has left #aws
+2020-07-17 09:53:29	<--	jpaulkey (jpaulkey@jpaulkey.tmi.twitch.tv) has left #aws
+2020-07-17 09:54:54	shshnkp	@achyuta786 could you elaborate? XGBoost doesn't make any distributional assumptions on your features.
+2020-07-17 09:55:46	-->	kishan1807 (kishan1807@kishan1807.tmi.twitch.tv) has joined #aws
+2020-07-17 09:55:46	-->	metalslayer316 (metalslayer316@metalslayer316.tmi.twitch.tv) has joined #aws
+2020-07-17 09:55:46	-->	toufe (toufe@toufe.tmi.twitch.tv) has joined #aws
+2020-07-17 09:55:46	<--	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has left #aws
+2020-07-17 09:55:46	<--	nge001 (nge001@nge001.tmi.twitch.tv) has left #aws
+2020-07-17 09:55:46	<--	its_rpm (its_rpm@its_rpm.tmi.twitch.tv) has left #aws
+2020-07-17 09:55:46	<--	hongyi_ (hongyi_@hongyi_.tmi.twitch.tv) has left #aws
+2020-07-17 09:55:46	<--	meg_be (meg_be@meg_be.tmi.twitch.tv) has left #aws
+2020-07-17 09:55:46	<--	mrburgandy (mrburgandy@mrburgandy.tmi.twitch.tv) has left #aws
+2020-07-17 09:56:21	letsgoaws	Please let us know any feedback on SageMaker Fridays and any topics you would like to see for future episodes. We would love to hear from you
+2020-07-17 09:57:45	letsgoaws	You can let us know here or email us at sagemaker-fridays@amazon.com
+2020-07-17 09:57:47	achyuta786	@shshnkp yeah. do you think XGBoost should care about it ?
+2020-07-17 09:57:55	-->	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has joined #aws
+2020-07-17 09:57:55	<--	yashad (yashad@yashad.tmi.twitch.tv) has left #aws
+2020-07-17 09:57:55	<--	toufe (toufe@toufe.tmi.twitch.tv) has left #aws
+2020-07-17 09:57:55	<--	hambone_he (hambone_he@hambone_he.tmi.twitch.tv) has left #aws
+2020-07-17 09:57:55	<--	kurrysamir (kurrysamir@kurrysamir.tmi.twitch.tv) has left #aws
+2020-07-17 09:59:28	shshnkp	@achyuta786 that information is not relevant to decision tree building
+2020-07-17 09:59:53	-->	jaredrogersword (jaredrogersword@jaredrogersword.tmi.twitch.tv) has joined #aws
+2020-07-17 09:59:53	-->	josef1668 (josef1668@josef1668.tmi.twitch.tv) has joined #aws
+2020-07-17 09:59:53	-->	ospflsa7 (ospflsa7@ospflsa7.tmi.twitch.tv) has joined #aws
+2020-07-17 09:59:53	-->	girish8282 (girish8282@girish8282.tmi.twitch.tv) has joined #aws
+2020-07-17 09:59:53	-->	kurrysamir (kurrysamir@kurrysamir.tmi.twitch.tv) has joined #aws
+2020-07-17 09:59:53	-->	friedkitteh (friedkitteh@friedkitteh.tmi.twitch.tv) has joined #aws
+2020-07-17 09:59:53	-->	space___man (space___man@space___man.tmi.twitch.tv) has joined #aws
+2020-07-17 09:59:53	<--	kishan1807 (kishan1807@kishan1807.tmi.twitch.tv) has left #aws
+2020-07-17 09:59:53	<--	bmsamaha323 (bmsamaha323@bmsamaha323.tmi.twitch.tv) has left #aws
+2020-07-17 09:59:53	<--	xdddddhelloworld (xdddddhelloworld@xdddddhelloworld.tmi.twitch.tv) has left #aws
+2020-07-17 10:00:02	vullanki	Thanks for this Episode on XGBoost
+2020-07-17 10:00:03	achyuta786	thanks guys. it's a great session.
+2020-07-17 10:00:14	achyuta786	thanks @shshnkp
+2020-07-17 10:02:03	-->	avinashhawk1 (avinashhawk1@avinashhawk1.tmi.twitch.tv) has joined #aws
+2020-07-17 10:02:03	-->	laxmi25 (laxmi25@laxmi25.tmi.twitch.tv) has joined #aws
+2020-07-17 10:02:03	-->	tokyo_pad (tokyo_pad@tokyo_pad.tmi.twitch.tv) has joined #aws
+2020-07-17 10:02:03	-->	erin_aws (erin_aws@erin_aws.tmi.twitch.tv) has joined #aws
+2020-07-17 10:02:03	-->	samflender (samflender@samflender.tmi.twitch.tv) has joined #aws
+2020-07-17 10:02:03	-->	feet (feet@feet.tmi.twitch.tv) has joined #aws
+2020-07-17 10:02:03	<--	tighu (tighu@tighu.tmi.twitch.tv) has left #aws
+2020-07-17 10:02:03	<--	whisperaylea (whisperaylea@whisperaylea.tmi.twitch.tv) has left #aws
+2020-07-17 10:02:03	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-07-17 10:02:03	<--	kurrysamir (kurrysamir@kurrysamir.tmi.twitch.tv) has left #aws
+2020-07-17 10:02:28	aws	!Title DynamoDB | Office Hours with Rick Houlihan
+2020-07-17 10:02:29	moobot	The title was set to "DynamoDB | Office Hours with Rick Houlihan"
+2020-07-17 10:03:11	-->	rickrfarina (rickrfarina@rickrfarina.tmi.twitch.tv) has joined #aws
+2020-07-17 10:03:11	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-07-17 10:03:11	<--	friedkitteh (friedkitteh@friedkitteh.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	ospflsa7 (ospflsa7@ospflsa7.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	vullanki (vullanki@vullanki.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	forevejia (forevejia@forevejia.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	laxmi25 (laxmi25@laxmi25.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	airbogdan (airbogdan@airbogdan.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	connectedthings (connectedthings@connectedthings.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	sundin (sundin@sundin.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	abditimer (abditimer@abditimer.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	tokyo_pad (tokyo_pad@tokyo_pad.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	erin_aws (erin_aws@erin_aws.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	samflender (samflender@samflender.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	tonyarbour (tonyarbour@tonyarbour.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	nag22fr (nag22fr@nag22fr.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	girish8282 (girish8282@girish8282.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	milan200099 (milan200099@milan200099.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	shushi2000 (shushi2000@shushi2000.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	space___man (space___man@space___man.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:11	<--	shshnkp (shshnkp@shshnkp.tmi.twitch.tv) has left #aws
+2020-07-17 10:03:39	surya12788	g
+2020-07-17 10:03:59	surya12788	\:-?(o|O) \:-?(o|O)
+2020-07-17 10:05:11	-->	i3artowski_i3rutalloy (i3artowski_i3rutalloy@i3artowski_i3rutalloy.tmi.twitch.tv) has joined #aws
+2020-07-17 10:05:11	-->	r3yn (r3yn@r3yn.tmi.twitch.tv) has joined #aws
+2020-07-17 10:05:11	<--	achyuta786 (achyuta786@achyuta786.tmi.twitch.tv) has left #aws
+2020-07-17 10:05:11	<--	bhagirathl (bhagirathl@bhagirathl.tmi.twitch.tv) has left #aws
+2020-07-17 10:05:11	<--	raj36 (raj36@raj36.tmi.twitch.tv) has left #aws
+2020-07-17 10:05:11	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #aws
+2020-07-17 10:05:11	<--	makerofsages (makerofsages@makerofsages.tmi.twitch.tv) has left #aws
+2020-07-17 10:05:11	<--	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has left #aws
+2020-07-17 10:05:11	<--	josef1668 (josef1668@josef1668.tmi.twitch.tv) has left #aws
+2020-07-17 10:05:11	<--	rickrfarina (rickrfarina@rickrfarina.tmi.twitch.tv) has left #aws
+2020-07-17 10:07:21	-->	go2jun (go2jun@go2jun.tmi.twitch.tv) has joined #aws
+2020-07-17 10:07:21	-->	dempofan (dempofan@dempofan.tmi.twitch.tv) has joined #aws
+2020-07-17 10:07:21	<--	i3artowski_i3rutalloy (i3artowski_i3rutalloy@i3artowski_i3rutalloy.tmi.twitch.tv) has left #aws
+2020-07-17 10:07:21	<--	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has left #aws
+2020-07-17 10:07:21	<--	surya12788 (surya12788@surya12788.tmi.twitch.tv) has left #aws
+2020-07-17 10:07:21	<--	letsgoaws (letsgoaws@letsgoaws.tmi.twitch.tv) has left #aws
+2020-07-17 10:07:21	<--	23hagbard23 (23hagbard23@23hagbard23.tmi.twitch.tv) has left #aws
+2020-07-17 10:07:21	<--	r3yn (r3yn@r3yn.tmi.twitch.tv) has left #aws
+2020-07-17 10:09:28	-->	jpalomo1 (jpalomo1@jpalomo1.tmi.twitch.tv) has joined #aws
+2020-07-17 10:09:28	<--	itsvodoo (itsvodoo@itsvodoo.tmi.twitch.tv) has left #aws
+2020-07-17 10:09:28	<--	dempofan (dempofan@dempofan.tmi.twitch.tv) has left #aws
+2020-07-17 10:09:28	<--	awschatlogger (awschatlogger@awschatlogger.tmi.twitch.tv) has left #aws
+2020-07-17 10:09:28	<--	vallikyokshi (vallikyokshi@vallikyokshi.tmi.twitch.tv) has left #aws
+2020-07-17 10:09:28	<--	stripfang (stripfang@stripfang.tmi.twitch.tv) has left #aws
+2020-07-17 10:11:39	-->	stripfang (stripfang@stripfang.tmi.twitch.tv) has joined #aws
+2020-07-17 10:11:39	-->	awschatlogger (awschatlogger@awschatlogger.tmi.twitch.tv) has joined #aws
+2020-07-17 10:11:39	<--	joinjess (joinjess@joinjess.tmi.twitch.tv) has left #aws
+2020-07-17 10:11:39	<--	jpalomo1 (jpalomo1@jpalomo1.tmi.twitch.tv) has left #aws
+2020-07-17 10:13:43	<--	anilmalyala (anilmalyala@anilmalyala.tmi.twitch.tv) has left #aws
+2020-07-17 10:15:47	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #aws
+2020-07-17 10:17:55	-->	samflender (samflender@samflender.tmi.twitch.tv) has joined #aws
+2020-07-17 10:17:55	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #aws
+2020-07-17 10:17:55	<--	go2jun (go2jun@go2jun.tmi.twitch.tv) has left #aws
+2020-07-17 10:17:55	<--	ypangy (ypangy@ypangy.tmi.twitch.tv) has left #aws
+2020-07-17 10:17:55	<--	nvprasad43 (nvprasad43@nvprasad43.tmi.twitch.tv) has left #aws
+2020-07-17 10:19:01	-->	flukeyj20 (flukeyj20@flukeyj20.tmi.twitch.tv) has joined #aws
+2020-07-17 10:19:01	-->	pedzindm (pedzindm@pedzindm.tmi.twitch.tv) has joined #aws
+2020-07-17 10:19:01	-->	nvprasad43 (nvprasad43@nvprasad43.tmi.twitch.tv) has joined #aws
+2020-07-17 10:19:01	-->	erin_aws (erin_aws@erin_aws.tmi.twitch.tv) has joined #aws
+2020-07-17 10:19:01	-->	thy_cc (thy_cc@thy_cc.tmi.twitch.tv) has joined #aws
+2020-07-17 10:19:01	-->	ypangy (ypangy@ypangy.tmi.twitch.tv) has joined #aws
+2020-07-17 10:19:01	<--	jonexume77 (jonexume77@jonexume77.tmi.twitch.tv) has left #aws
+2020-07-17 10:19:01	<--	samflender (samflender@samflender.tmi.twitch.tv) has left #aws
+2020-07-17 10:22:16	-->	robmccauley (robmccauley@robmccauley.tmi.twitch.tv) has joined #aws
+2020-07-17 10:22:16	-->	ahsan1011 (ahsan1011@ahsan1011.tmi.twitch.tv) has joined #aws
+2020-07-17 10:22:16	-->	isabellarossi (isabellarossi@isabellarossi.tmi.twitch.tv) has joined #aws
+2020-07-17 10:22:16	<--	amgrob (amgrob@amgrob.tmi.twitch.tv) has left #aws
+2020-07-17 10:22:16	<--	jaredrogersword (jaredrogersword@jaredrogersword.tmi.twitch.tv) has left #aws
+2020-07-17 10:23:16	<--	boris_rh (boris_rh@boris_rh.tmi.twitch.tv) has left #aws
+2020-07-17 10:25:31	<--	nickloop_ttv (nickloop_ttv@nickloop_ttv.tmi.twitch.tv) has left #aws
+2020-07-17 10:25:31	<--	isabellarossi (isabellarossi@isabellarossi.tmi.twitch.tv) has left #aws
+2020-07-17 10:29:35	-->	girish8282 (girish8282@girish8282.tmi.twitch.tv) has joined #aws
+2020-07-17 10:29:35	-->	tentypes (tentypes@tentypes.tmi.twitch.tv) has joined #aws
+2020-07-17 10:29:55	erin_aws	!Title DynamoDB Office Hours | Deep Dive on Lambda with Streams workloads with Rick Houlihan
+2020-07-17 10:29:56	moobot	The title was set to "DynamoDB Office Hours | Deep Dive on Lambda with Streams workloads with Rick Houlihan"
+2020-07-17 10:31:51	-->	rickrfarina (rickrfarina@rickrfarina.tmi.twitch.tv) has joined #aws
+2020-07-17 10:33:50	-->	zila_ (zila_@zila_.tmi.twitch.tv) has joined #aws
+2020-07-17 10:33:50	-->	sundin (sundin@sundin.tmi.twitch.tv) has joined #aws
+2020-07-17 10:34:06	rickrfarina	Can you share your screen? :)
+2020-07-17 10:34:25	ahsan1011	yup. Can't see your screen for now Rick.
+2020-07-17 10:35:06	thy_cc	screen?
+2020-07-17 10:35:35	intuido	sharing screen? not seeing it
+2020-07-17 10:35:38	cityzen2017	do you all have t shirts with that dynamodb logo on it?
+2020-07-17 10:35:40	ahsan1011	Thanks! :D
+2020-07-17 10:35:41	thy_cc	thanks!
+2020-07-17 10:35:48	-->	tarunaamshuche (tarunaamshuche@tarunaamshuche.tmi.twitch.tv) has joined #aws
+2020-07-17 10:35:48	-->	twentythreeshouts (twentythreeshouts@twentythreeshouts.tmi.twitch.tv) has joined #aws
+2020-07-17 10:35:48	-->	whisperaylea (whisperaylea@whisperaylea.tmi.twitch.tv) has joined #aws
+2020-07-17 10:35:48	-->	qbitronx (qbitronx@qbitronx.tmi.twitch.tv) has joined #aws
+2020-07-17 10:35:48	-->	braceta (braceta@braceta.tmi.twitch.tv) has joined #aws
+2020-07-17 10:37:50	-->	sloopy_dan (sloopy_dan@sloopy_dan.tmi.twitch.tv) has joined #aws
+2020-07-17 10:37:50	-->	oi_o_io (oi_o_io@oi_o_io.tmi.twitch.tv) has joined #aws
+2020-07-17 10:37:50	-->	nullstv (nullstv@nullstv.tmi.twitch.tv) has joined #aws
+2020-07-17 10:37:50	-->	r3mote (r3mote@r3mote.tmi.twitch.tv) has joined #aws
+2020-07-17 10:37:50	-->	dempofan (dempofan@dempofan.tmi.twitch.tv) has joined #aws
+2020-07-17 10:37:50	-->	jaysonskywalker (jaysonskywalker@jaysonskywalker.tmi.twitch.tv) has joined #aws
+2020-07-17 10:37:50	-->	uttern76 (uttern76@uttern76.tmi.twitch.tv) has joined #aws
+2020-07-17 10:37:50	-->	cityzen2017 (cityzen2017@cityzen2017.tmi.twitch.tv) has joined #aws
+2020-07-17 10:37:50	-->	intuido (intuido@intuido.tmi.twitch.tv) has joined #aws
+2020-07-17 10:39:41	erin_aws	If you have any questions throughout this session, we have a number of DynamoDB team members on to help you! Please feel free to ask questions :)
+2020-07-17 10:39:42	cesgach	hi
+2020-07-17 10:40:04	-->	deviarc (deviarc@deviarc.tmi.twitch.tv) has joined #aws
+2020-07-17 10:40:04	-->	friedkitteh (friedkitteh@friedkitteh.tmi.twitch.tv) has joined #aws
+2020-07-17 10:40:04	-->	jarvanvlol (jarvanvlol@jarvanvlol.tmi.twitch.tv) has joined #aws
+2020-07-17 10:40:04	-->	ortiz89 (ortiz89@ortiz89.tmi.twitch.tv) has joined #aws
+2020-07-17 10:40:04	-->	giselle_aws (giselle_aws@giselle_aws.tmi.twitch.tv) has joined #aws
+2020-07-17 10:40:04	<--	jaysonskywalker (jaysonskywalker@jaysonskywalker.tmi.twitch.tv) has left #aws
+2020-07-17 10:41:08	-->	cesgach (cesgach@cesgach.tmi.twitch.tv) has joined #aws
+2020-07-17 10:41:08	-->	poppaptolemy (poppaptolemy@poppaptolemy.tmi.twitch.tv) has joined #aws
+2020-07-17 10:41:08	-->	hiesenberg25 (hiesenberg25@hiesenberg25.tmi.twitch.tv) has joined #aws
+2020-07-17 10:41:08	<--	gray_twin (gray_twin@gray_twin.tmi.twitch.tv) has left #aws
+2020-07-17 10:41:08	<--	flukeyj20 (flukeyj20@flukeyj20.tmi.twitch.tv) has left #aws
+2020-07-17 10:41:08	<--	tentypes (tentypes@tentypes.tmi.twitch.tv) has left #aws
+2020-07-17 10:41:08	<--	friedkitteh (friedkitteh@friedkitteh.tmi.twitch.tv) has left #aws
+2020-07-17 10:41:08	<--	jarvanvlol (jarvanvlol@jarvanvlol.tmi.twitch.tv) has left #aws
+2020-07-17 10:41:14	intuido	are these sessions later posted somewhere else to view on-demand?
+2020-07-17 10:44:11	-->	vealot (vealot@vealot.tmi.twitch.tv) has joined #aws
+2020-07-17 10:44:11	-->	gray_twin (gray_twin@gray_twin.tmi.twitch.tv) has joined #aws
+2020-07-17 10:44:11	<--	alexawsml (alexawsml@alexawsml.tmi.twitch.tv) has left #aws
+2020-07-17 10:45:15	nullstv	how many mysql engines currently support dynamo :P
+2020-07-17 10:45:17	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #aws
+2020-07-17 10:45:17	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #aws
+2020-07-17 10:45:17	-->	visigotenuy (visigotenuy@visigotenuy.tmi.twitch.tv) has joined #aws
+2020-07-17 10:45:17	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #aws
+2020-07-17 10:45:17	-->	ajdzi23 (ajdzi23@ajdzi23.tmi.twitch.tv) has joined #aws
+2020-07-17 10:45:17	<--	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has left #aws
+2020-07-17 10:45:17	<--	hiesenberg25 (hiesenberg25@hiesenberg25.tmi.twitch.tv) has left #aws
+2020-07-17 10:45:17	<--	zila_ (zila_@zila_.tmi.twitch.tv) has left #aws
+2020-07-17 10:45:17	<--	r3mote (r3mote@r3mote.tmi.twitch.tv) has left #aws
+2020-07-17 10:45:17	<--	vealot (vealot@vealot.tmi.twitch.tv) has left #aws
+2020-07-17 10:45:17	<--	braceta (braceta@braceta.tmi.twitch.tv) has left #aws
+2020-07-17 10:45:42	erin_aws	@intuido yes this video will be available no later than Monday. Please check back to Rick's Twitch page for the links to past sessions as well: https://www.twitch.tv/thedynamodbguy
+2020-07-17 10:46:00	chunkygerbil	dynamo is nosql
+2020-07-17 10:47:25	-->	jeremiahoh1 (jeremiahoh1@jeremiahoh1.tmi.twitch.tv) has joined #aws
+2020-07-17 10:47:25	-->	chunkygerbil (chunkygerbil@chunkygerbil.tmi.twitch.tv) has joined #aws
+2020-07-17 10:47:25	-->	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has joined #aws
+2020-07-17 10:47:25	<--	visigotenuy (visigotenuy@visigotenuy.tmi.twitch.tv) has left #aws
+2020-07-17 10:47:25	<--	tarunaamshuche (tarunaamshuche@tarunaamshuche.tmi.twitch.tv) has left #aws
+2020-07-17 10:47:25	<--	raghavbijjula (raghavbijjula@raghavbijjula.tmi.twitch.tv) has left #aws
+2020-07-17 10:49:36	-->	tond5 (tond5@tond5.tmi.twitch.tv) has joined #aws
+2020-07-17 10:49:36	-->	hitfaced (hitfaced@hitfaced.tmi.twitch.tv) has joined #aws
+2020-07-17 10:49:36	<--	oi_o_io (oi_o_io@oi_o_io.tmi.twitch.tv) has left #aws
+2020-07-17 10:49:36	<--	nullstv (nullstv@nullstv.tmi.twitch.tv) has left #aws
+2020-07-17 10:49:36	<--	travua (travua@travua.tmi.twitch.tv) has left #aws
+2020-07-17 10:49:36	<--	uttern76 (uttern76@uttern76.tmi.twitch.tv) has left #aws
+2020-07-17 10:49:36	<--	kargozar (kargozar@kargozar.tmi.twitch.tv) has left #aws
+2020-07-17 10:51:52	-->	nitti1329 (nitti1329@nitti1329.tmi.twitch.tv) has joined #aws
+2020-07-17 10:51:52	-->	osympecetesi (osympecetesi@osympecetesi.tmi.twitch.tv) has joined #aws
+2020-07-17 10:51:52	-->	amdbenny (amdbenny@amdbenny.tmi.twitch.tv) has joined #aws
+2020-07-17 10:51:52	-->	allisdark (allisdark@allisdark.tmi.twitch.tv) has joined #aws
+2020-07-17 10:51:52	<--	giselle_aws (giselle_aws@giselle_aws.tmi.twitch.tv) has left #aws
+2020-07-17 10:51:52	<--	sapintegrated (sapintegrated@sapintegrated.tmi.twitch.tv) has left #aws
+2020-07-17 10:51:52	<--	sloopy_dan (sloopy_dan@sloopy_dan.tmi.twitch.tv) has left #aws
+2020-07-17 10:51:52	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-07-17 10:51:52	<--	hansv64 (hansv64@hansv64.tmi.twitch.tv) has left #aws
+2020-07-17 10:54:02	-->	dmrlark (dmrlark@dmrlark.tmi.twitch.tv) has joined #aws
+2020-07-17 10:54:02	-->	uttern76 (uttern76@uttern76.tmi.twitch.tv) has joined #aws
+2020-07-17 10:54:02	-->	sapintegrated (sapintegrated@sapintegrated.tmi.twitch.tv) has joined #aws
+2020-07-17 10:54:02	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-07-17 10:54:02	-->	steamstreet (steamstreet@steamstreet.tmi.twitch.tv) has joined #aws
+2020-07-17 10:54:02	<--	osympecetesi (osympecetesi@osympecetesi.tmi.twitch.tv) has left #aws
+2020-07-17 10:54:02	<--	dempofan (dempofan@dempofan.tmi.twitch.tv) has left #aws
+2020-07-17 10:54:02	<--	allisdark (allisdark@allisdark.tmi.twitch.tv) has left #aws
+2020-07-17 10:54:02	<--	intuido (intuido@intuido.tmi.twitch.tv) has left #aws
+2020-07-17 10:54:02	<--	amdbenny (amdbenny@amdbenny.tmi.twitch.tv) has left #aws
+2020-07-17 10:56:05	-->	thextremeperson (thextremeperson@thextremeperson.tmi.twitch.tv) has joined #aws
+2020-07-17 10:56:05	-->	mcithegod (mcithegod@mcithegod.tmi.twitch.tv) has joined #aws
+2020-07-17 10:56:05	<--	cityzen2017 (cityzen2017@cityzen2017.tmi.twitch.tv) has left #aws
+2020-07-17 10:56:05	<--	wumarikfn (wumarikfn@wumarikfn.tmi.twitch.tv) has left #aws
+2020-07-17 10:58:13	-->	duarten_ (duarten_@duarten_.tmi.twitch.tv) has joined #aws
+2020-07-17 10:58:13	-->	freez_99 (freez_99@freez_99.tmi.twitch.tv) has joined #aws
+2020-07-17 10:58:13	-->	ulseth (ulseth@ulseth.tmi.twitch.tv) has joined #aws
+2020-07-17 10:58:13	-->	grumpug (grumpug@grumpug.tmi.twitch.tv) has joined #aws
+2020-07-17 10:58:13	-->	manushv (manushv@manushv.tmi.twitch.tv) has joined #aws
+2020-07-17 10:58:13	-->	claudefranco (claudefranco@claudefranco.tmi.twitch.tv) has joined #aws
+2020-07-17 10:58:13	-->	krennan (krennan@krennan.tmi.twitch.tv) has joined #aws
+2020-07-17 10:58:13	<--	thextremeperson (thextremeperson@thextremeperson.tmi.twitch.tv) has left #aws
+2020-07-17 10:58:13	<--	steamstreet (steamstreet@steamstreet.tmi.twitch.tv) has left #aws
+2020-07-17 10:59:19	<--	tentakle (tentakle@tentakle.tmi.twitch.tv) has left #aws
+2020-07-17 10:59:19	<--	claudefranco (claudefranco@claudefranco.tmi.twitch.tv) has left #aws
+2020-07-17 10:59:19	<--	helm (helm@helm.tmi.twitch.tv) has left #aws
+2020-07-17 10:59:19	<--	jeremiahoh1 (jeremiahoh1@jeremiahoh1.tmi.twitch.tv) has left #aws
+2020-07-17 10:59:19	<--	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has left #aws
+2020-07-17 10:59:19	<--	duarten_ (duarten_@duarten_.tmi.twitch.tv) has left #aws
+2020-07-17 10:59:19	<--	freez_99 (freez_99@freez_99.tmi.twitch.tv) has left #aws
+2020-07-17 10:59:21	giskarded	Can you advise what options exist for testing the performance of lambda functions
+2020-07-17 10:59:43	dmrlark	gg rick
+2020-07-17 11:01:29	-->	tentakle (tentakle@tentakle.tmi.twitch.tv) has joined #aws
+2020-07-17 11:01:29	-->	hansv64 (hansv64@hansv64.tmi.twitch.tv) has joined #aws
+2020-07-17 11:01:29	-->	jlemmetti (jlemmetti@jlemmetti.tmi.twitch.tv) has joined #aws
+2020-07-17 11:01:29	-->	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has joined #aws
+2020-07-17 11:01:29	-->	thabetamer (thabetamer@thabetamer.tmi.twitch.tv) has joined #aws
+2020-07-17 11:01:30	-->	helm (helm@helm.tmi.twitch.tv) has joined #aws
+2020-07-17 11:01:30	-->	giskarded (giskarded@giskarded.tmi.twitch.tv) has joined #aws
+2020-07-17 11:01:30	<--	manushv (manushv@manushv.tmi.twitch.tv) has left #aws
+2020-07-17 11:01:30	<--	nitti1329 (nitti1329@nitti1329.tmi.twitch.tv) has left #aws
+2020-07-17 11:02:31	pedzindm	@Giskarded Are you referring to fastest or lowest cost options for memory allocation on the function? There are several great options for checking for the best option setting on Github but this is one of my personal favorites. https://github.com/alexcasalboni/aws-lambda-power-tuning
+2020-07-17 11:03:34	girish8282	@Giskarded Take a look at this video - https://www.youtube.com/watch?v=FTCaOQJvG6Y
+2020-07-17 11:03:35	-->	oi_o_io (oi_o_io@oi_o_io.tmi.twitch.tv) has joined #aws
+2020-07-17 11:03:35	-->	euphoria187 (euphoria187@euphoria187.tmi.twitch.tv) has joined #aws
+2020-07-17 11:03:35	-->	montyz0 (montyz0@montyz0.tmi.twitch.tv) has joined #aws
+2020-07-17 11:03:35	<--	mcithegod (mcithegod@mcithegod.tmi.twitch.tv) has left #aws
+2020-07-17 11:03:35	<--	grumpug (grumpug@grumpug.tmi.twitch.tv) has left #aws
+2020-07-17 11:03:35	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #aws
+2020-07-17 11:04:40	montyz0	I get the idea behind defining the next day's total entry so when the day changes it doesn't fail because the entry is missing, but what's the better way to handle that assuming that not every customer will have an update every day? Do you actually have to query the db? Or can you define a function on the db side to handle the case when the expected map attribute is missing?
+2020-07-17 11:04:44	giskarded	@pedzindm I mean, given a selected plan, how can one benchmark the performance of a lambda function. Thank you for sharing those links, let me look into them.
+2020-07-17 11:05:13	mtuckerphx	When running in production, how often will this lambda be called? How do multiple events get passed if it is called for every table update?
+2020-07-17 11:05:53	-->	russell1111111 (russell1111111@russell1111111.tmi.twitch.tv) has joined #aws
+2020-07-17 11:05:53	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #aws
+2020-07-17 11:05:53	-->	flukeyj20 (flukeyj20@flukeyj20.tmi.twitch.tv) has joined #aws
+2020-07-17 11:05:53	-->	sirajan (sirajan@sirajan.tmi.twitch.tv) has joined #aws
+2020-07-17 11:05:53	-->	itsvodoo (itsvodoo@itsvodoo.tmi.twitch.tv) has joined #aws
+2020-07-17 11:05:53	<--	jlemmetti (jlemmetti@jlemmetti.tmi.twitch.tv) has left #aws
+2020-07-17 11:06:21	giskarded	Also, as an aside (hope it doesnt break any channel rules). Can someone advise what is the AWS equivalent product to Azure eventgrids?
+2020-07-17 11:07:07	robmccauley	@mtuckerphx hi! the Lambda will be called for every change unless you specify batch options on the trigger: https://docs.aws.amazon.com/lambda/latest/dg/with-ddb.html#services-dynamodb-eventsourcemapping
+2020-07-17 11:07:53	-->	suspicioussoap (suspicioussoap@suspicioussoap.tmi.twitch.tv) has joined #aws
+2020-07-17 11:07:53	-->	mtuckerphx (mtuckerphx@mtuckerphx.tmi.twitch.tv) has joined #aws
+2020-07-17 11:07:53	<--	sirajan (sirajan@sirajan.tmi.twitch.tv) has left #aws
+2020-07-17 11:07:53	<--	russell1111111 (russell1111111@russell1111111.tmi.twitch.tv) has left #aws
+2020-07-17 11:07:53	<--	flukeyj20 (flukeyj20@flukeyj20.tmi.twitch.tv) has left #aws
+2020-07-17 11:08:17	pedzindm	@Giskarded Performance is relative. Some customers optimize for speed with disregard to cost. Some optimize for cost.... It depends. Check out that github link it should clear it up
+2020-07-17 11:09:46	pedzindm	@Giskarded Azure eventgrids would be similar to Amazon EventBridge
+2020-07-17 11:09:49	dmrlark	is there a better way to process one group of update events one way and another group another way than if/else statements in the lambda? i want to send all updates to one group of records to an s3 bucket for data science, but there's a second group of records they don't need to know about
+2020-07-17 11:10:03	-->	shakesx (shakesx@shakesx.tmi.twitch.tv) has joined #aws
+2020-07-17 11:10:03	-->	master_grey_ll (master_grey_ll@master_grey_ll.tmi.twitch.tv) has joined #aws
+2020-07-17 11:10:03	-->	anilmalyala (anilmalyala@anilmalyala.tmi.twitch.tv) has joined #aws
+2020-07-17 11:10:03	<--	ajdzi23 (ajdzi23@ajdzi23.tmi.twitch.tv) has left #aws
+2020-07-17 11:10:03	<--	moobot (moobot@moobot.tmi.twitch.tv) has left #aws
+2020-07-17 11:10:03	<--	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has left #aws
+2020-07-17 11:10:03	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #aws
+2020-07-17 11:10:03	<--	awschatlogger (awschatlogger@awschatlogger.tmi.twitch.tv) has left #aws
+2020-07-17 11:10:03	<--	stripfang (stripfang@stripfang.tmi.twitch.tv) has left #aws
+2020-07-17 11:10:03	<--	suspicioussoap (suspicioussoap@suspicioussoap.tmi.twitch.tv) has left #aws
+2020-07-17 11:10:03	<--	whisperaylea (whisperaylea@whisperaylea.tmi.twitch.tv) has left #aws
+2020-07-17 11:11:46	girish8282	@montyz0 Right. In Rick's example, he wanted to update the sub props within a map. Another way to do it is to check if the item exists before you try to update it. So you don't have to proactively insert it especially if you don't know when the next update is going to come
+2020-07-17 11:12:14	-->	stripfang (stripfang@stripfang.tmi.twitch.tv) has joined #aws
+2020-07-17 11:12:14	-->	moobot (moobot@moobot.tmi.twitch.tv) has joined #aws
+2020-07-17 11:12:14	-->	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has joined #aws
+2020-07-17 11:12:14	-->	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has joined #aws
+2020-07-17 11:12:14	-->	tuxedotv (tuxedotv@tuxedotv.tmi.twitch.tv) has joined #aws
+2020-07-17 11:12:14	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #aws
+2020-07-17 11:12:14	-->	sweethali (sweethali@sweethali.tmi.twitch.tv) has joined #aws
+2020-07-17 11:12:14	-->	awschatlogger (awschatlogger@awschatlogger.tmi.twitch.tv) has joined #aws
+2020-07-17 11:12:14	<--	uttern76 (uttern76@uttern76.tmi.twitch.tv) has left #aws
+2020-07-17 11:12:14	<--	krennan (krennan@krennan.tmi.twitch.tv) has left #aws
+2020-07-17 11:12:51	thy_cc	screen please...
+2020-07-17 11:13:38	cesgach	can we see your screen??
+2020-07-17 11:14:04	dmrlark	if you want to go faster try bunnyhopping
+2020-07-17 11:14:23	-->	kabirooo (kabirooo@kabirooo.tmi.twitch.tv) has joined #aws
+2020-07-17 11:14:23	-->	groovemechanic (groovemechanic@groovemechanic.tmi.twitch.tv) has joined #aws
+2020-07-17 11:14:23	-->	fowlmoves (fowlmoves@fowlmoves.tmi.twitch.tv) has joined #aws
+2020-07-17 11:14:23	<--	master_grey_ll (master_grey_ll@master_grey_ll.tmi.twitch.tv) has left #aws
+2020-07-17 11:14:58	pedzindm	@dmrlark Not really. There isn't a filtering capability on the stream.
+2020-07-17 11:16:28	-->	suhemparack (suhemparack@suhemparack.tmi.twitch.tv) has joined #aws
+2020-07-17 11:16:28	-->	sent1men (sent1men@sent1men.tmi.twitch.tv) has joined #aws
+2020-07-17 11:16:28	-->	ywanes (ywanes@ywanes.tmi.twitch.tv) has joined #aws
+2020-07-17 11:16:28	-->	jonexume77 (jonexume77@jonexume77.tmi.twitch.tv) has joined #aws
+2020-07-17 11:16:28	<--	fowlmoves (fowlmoves@fowlmoves.tmi.twitch.tv) has left #aws
+2020-07-17 11:16:42	tuxedotv	Will there be a link to a GitHub repo with the sample code for itemgenerator and the lambda?
+2020-07-17 11:17:34	-->	wlami (wlami@wlami.tmi.twitch.tv) has joined #aws
+2020-07-17 11:17:34	-->	oakflakes (oakflakes@oakflakes.tmi.twitch.tv) has joined #aws
+2020-07-17 11:17:34	-->	fraeroktv (fraeroktv@fraeroktv.tmi.twitch.tv) has joined #aws
+2020-07-17 11:17:34	-->	darrenweiner (darrenweiner@darrenweiner.tmi.twitch.tv) has joined #aws
+2020-07-17 11:17:34	-->	lurxx (lurxx@lurxx.tmi.twitch.tv) has joined #aws
+2020-07-17 11:17:34	<--	oi_o_io (oi_o_io@oi_o_io.tmi.twitch.tv) has left #aws
+2020-07-17 11:17:34	<--	veenadega (veenadega@veenadega.tmi.twitch.tv) has left #aws
+2020-07-17 11:17:34	<--	sent1men (sent1men@sent1men.tmi.twitch.tv) has left #aws
+2020-07-17 11:17:34	<--	ywanes (ywanes@ywanes.tmi.twitch.tv) has left #aws
+2020-07-17 11:17:34	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #aws
+2020-07-17 11:18:14	dmrlark	@pedzindm thx. is it recommended/desireable to push the one tranche of updates into a secondary pipeline (like SQS) and apply the send-to-data-science-bucket lambda to the SQS, or would it be better to just do the forking via an if/else in the original lambda?
+2020-07-17 11:18:24	pedzindm	@TuxedoTV Rick will be providing the code via twitter. A good reference to get started would be: https://docs.aws.amazon.com/lambda/latest/dg/with-ddb-example.html
+2020-07-17 11:19:31	thy_cc	Rick, can you show your Java window when you run the script...
+2020-07-17 11:19:37	-->	a_solntsev (a_solntsev@a_solntsev.tmi.twitch.tv) has joined #aws
+2020-07-17 11:19:37	-->	antpaw (antpaw@antpaw.tmi.twitch.tv) has joined #aws
+2020-07-17 11:19:37	-->	nimbusarchitect (nimbusarchitect@nimbusarchitect.tmi.twitch.tv) has joined #aws
+2020-07-17 11:19:37	-->	lschles (lschles@lschles.tmi.twitch.tv) has joined #aws
+2020-07-17 11:19:37	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #aws
+2020-07-17 11:19:37	<--	wearesamurai (wearesamurai@wearesamurai.tmi.twitch.tv) has left #aws
+2020-07-17 11:19:37	<--	euphoria187 (euphoria187@euphoria187.tmi.twitch.tv) has left #aws
+2020-07-17 11:19:37	<--	poppaptolemy (poppaptolemy@poppaptolemy.tmi.twitch.tv) has left #aws
+2020-07-17 11:20:12	wlami	What would be the strategy for reprosessing the whole table? say after updating the processing logic.in lamda.
+2020-07-17 11:21:05	giskarded	Thanks @pedzindm
+2020-07-17 11:21:45	<--	sweethali (sweethali@sweethali.tmi.twitch.tv) has left #aws
+2020-07-17 11:21:45	<--	lschles (lschles@lschles.tmi.twitch.tv) has left #aws
+2020-07-17 11:21:45	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #aws
+2020-07-17 11:21:45	<--	antpaw (antpaw@antpaw.tmi.twitch.tv) has left #aws
+2020-07-17 11:21:45	<--	erin_aws (erin_aws@erin_aws.tmi.twitch.tv) has left #aws
+2020-07-17 11:22:25	robmccauley	@wlami the Lambda trigger only sees changes as they happen. You could have some other code that performs a scan of the table to receive all items.
+2020-07-17 11:22:54	girish8282	@wlami DynamoDB Streams writes a stream record with the primary key attributes of the items that were modified by a create/update/delete action. So unless there's a write, the event will not show up in the stream and will not be processed by the lambda. So if you want to re-process the table, you'll need to figure out a way to trigger those changes
+2020-07-17 11:22:56	pedzindm	@dmrlark It really depends.... This would be a tradeoff on costs and operations. If you wanted to go the alt pipeline, you would process the event twice (once with org lambda then second lambda from SQS), plus the cost of the queue. However, the blast radius is smaller if an error occurs on one of the lambdas. And when changes happen on the code base, it is smaller and cleaner.
+2020-07-17 11:23:23	mtuckerphx	How are table data and data1 configured differently?
+2020-07-17 11:23:44	pedzindm	@dmrlark To further elaborate, if the operation for the two pipelines are small. I would just do it via a single trigger
+2020-07-17 11:23:52	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #aws
+2020-07-17 11:23:52	-->	uttern76 (uttern76@uttern76.tmi.twitch.tv) has joined #aws
+2020-07-17 11:23:52	-->	kristall01 (kristall01@kristall01.tmi.twitch.tv) has joined #aws
+2020-07-17 11:23:52	-->	euphoria187 (euphoria187@euphoria187.tmi.twitch.tv) has joined #aws
+2020-07-17 11:23:52	-->	sweethali (sweethali@sweethali.tmi.twitch.tv) has joined #aws
+2020-07-17 11:23:52	<--	giskarded (giskarded@giskarded.tmi.twitch.tv) has left #aws
+2020-07-17 11:24:09	girish8282	@mtuckerphx data1 has more provisioned write throughput capacity than data
+2020-07-17 11:24:13	wlami	RobMcCauley would that scan code "fit into lambda" given the 15min execution limit, or would you rather go with containers in e.g. fargate?
+2020-07-17 11:25:05	dmrlark	@pedzindm makes sense. i mean, obviously it depends, but yeah, i see what the tradeoffs are & that makes sense.
+2020-07-17 11:26:07	-->	boris_rh (boris_rh@boris_rh.tmi.twitch.tv) has joined #aws
+2020-07-17 11:26:07	-->	kishan1807 (kishan1807@kishan1807.tmi.twitch.tv) has joined #aws
+2020-07-17 11:26:07	<--	uttern76 (uttern76@uttern76.tmi.twitch.tv) has left #aws
+2020-07-17 11:26:12	dmrlark	if my lambda function throws a (transient) error on the dynamodb stream, is it going to retry the lambda on that particular event? can it be configured to do so?
+2020-07-17 11:26:27	dmrlark	ggs rick
+2020-07-17 11:26:58	robmccauley	@wlami it depends on the size of your table. SCAN returns items in 1MB chunks (and there is a parallel scan option). You might scan and write to S3 for further processing.
+2020-07-17 11:27:13	rickrfarina	Can you talk pricing /cost
+2020-07-17 11:28:12	wlami	RobMcCauley thanks
+2020-07-17 11:28:16	-->	jhowoficial1 (jhowoficial1@jhowoficial1.tmi.twitch.tv) has joined #aws
+2020-07-17 11:28:16	-->	iresprite (iresprite@iresprite.tmi.twitch.tv) has joined #aws
+2020-07-17 11:28:16	-->	uttern76 (uttern76@uttern76.tmi.twitch.tv) has joined #aws
+2020-07-17 11:28:16	-->	dizzzzney (dizzzzney@dizzzzney.tmi.twitch.tv) has joined #aws
+2020-07-17 11:28:16	-->	13vijaykumar (13vijaykumar@13vijaykumar.tmi.twitch.tv) has joined #aws
+2020-07-17 11:28:16	<--	kristall01 (kristall01@kristall01.tmi.twitch.tv) has left #aws
+2020-07-17 11:28:31	rickrfarina	meaning, the difference between on demand vs. standard
+2020-07-17 11:30:09	waitingbirdmf	can we get a code sample somewhere from the lambda you were working with today?
+2020-07-17 11:30:34	-->	barrenone (barrenone@barrenone.tmi.twitch.tv) has joined #aws
+2020-07-17 11:30:34	-->	knightmare50 (knightmare50@knightmare50.tmi.twitch.tv) has joined #aws
+2020-07-17 11:30:34	-->	fearmodez (fearmodez@fearmodez.tmi.twitch.tv) has joined #aws
+2020-07-17 11:30:34	-->	omarmiranda (omarmiranda@omarmiranda.tmi.twitch.tv) has joined #aws
+2020-07-17 11:30:34	<--	13vijaykumar (13vijaykumar@13vijaykumar.tmi.twitch.tv) has left #aws
+2020-07-17 11:30:34	<--	jhowoficial1 (jhowoficial1@jhowoficial1.tmi.twitch.tv) has left #aws
+2020-07-17 11:30:34	<--	metalslayer316 (metalslayer316@metalslayer316.tmi.twitch.tv) has left #aws
+2020-07-17 11:30:34	<--	deviarc (deviarc@deviarc.tmi.twitch.tv) has left #aws
+2020-07-17 11:30:34	<--	anilmalyala (anilmalyala@anilmalyala.tmi.twitch.tv) has left #aws
+2020-07-17 11:30:34	<--	euphoria187 (euphoria187@euphoria187.tmi.twitch.tv) has left #aws
+2020-07-17 11:30:34	<--	groovemechanic (groovemechanic@groovemechanic.tmi.twitch.tv) has left #aws
+2020-07-17 11:30:34	<--	tuxedotv (tuxedotv@tuxedotv.tmi.twitch.tv) has left #aws
+2020-07-17 11:30:34	<--	thabetamer (thabetamer@thabetamer.tmi.twitch.tv) has left #aws
+2020-07-17 11:30:34	<--	dloader (dloader@dloader.tmi.twitch.tv) has left #aws
+2020-07-17 11:31:32	-->	waitingbirdmf (waitingbirdmf@waitingbirdmf.tmi.twitch.tv) has joined #aws
+2020-07-17 11:31:32	-->	bluelightningdt (bluelightningdt@bluelightningdt.tmi.twitch.tv) has joined #aws
+2020-07-17 11:31:32	-->	synthfinch (synthfinch@synthfinch.tmi.twitch.tv) has joined #aws
+2020-07-17 11:31:32	<--	suhemparack (suhemparack@suhemparack.tmi.twitch.tv) has left #aws
+2020-07-17 11:31:32	<--	omarmiranda (omarmiranda@omarmiranda.tmi.twitch.tv) has left #aws
+2020-07-17 11:31:37	mtuckerphx	Can you talk briefing about (or show) the capacity configurations between data and data1 tables.
+2020-07-17 11:32:56	ulseth	Is it at all possible to change the number of partitions after creation? Or should we create all tables with e.g. 100 partitions, and then go to on-demand?
+2020-07-17 11:33:53	ulseth	(I guess answered by the current description - you avoid splitting etc if you go big right away)
+2020-07-17 11:34:31	mtuckerphx	How do you set the number of partitions for a table? Isn't it just based on the values for Partition Key?
+2020-07-17 11:34:42	-->	anto6ka108 (anto6ka108@anto6ka108.tmi.twitch.tv) has joined #aws
+2020-07-17 11:34:42	-->	barneyparker (barneyparker@barneyparker.tmi.twitch.tv) has joined #aws
+2020-07-17 11:34:42	-->	23hagbard23 (23hagbard23@23hagbard23.tmi.twitch.tv) has joined #aws
+2020-07-17 11:34:42	<--	synthfinch (synthfinch@synthfinch.tmi.twitch.tv) has left #aws
+2020-07-17 11:34:42	<--	barrenone (barrenone@barrenone.tmi.twitch.tv) has left #aws
+2020-07-17 11:34:42	<--	kishan1807 (kishan1807@kishan1807.tmi.twitch.tv) has left #aws
+2020-07-17 11:35:21	pedzindm	@ulseth Right, it creates partitions dynamically as the table grows.
+2020-07-17 11:35:38	<--	dmrlark (dmrlark@dmrlark.tmi.twitch.tv) has left #aws
+2020-07-17 11:35:38	<--	bluelightningdt (bluelightningdt@bluelightningdt.tmi.twitch.tv) has left #aws
+2020-07-17 11:35:38	<--	fraeroktv (fraeroktv@fraeroktv.tmi.twitch.tv) has left #aws
+2020-07-17 11:35:38	<--	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has left #aws
+2020-07-17 11:35:38	<--	uttern76 (uttern76@uttern76.tmi.twitch.tv) has left #aws
+2020-07-17 11:36:58	ulseth	Thanks!
+2020-07-17 11:36:59	uttern76	For the retry question posted earlier, this is a good read on the retry features of streams and lambda: https://aws.amazon.com/about-aws/whats-new/2019/11/aws-lambda-supports-failure-handling-features-for-kinesis-and-dynamodb-event-sources/
+2020-07-17 11:37:18	anto6ka108	is it real interior on the background?
+2020-07-17 11:37:40	-->	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has joined #aws
+2020-07-17 11:37:40	<--	a_solntsev (a_solntsev@a_solntsev.tmi.twitch.tv) has left #aws
+2020-07-17 11:38:16	anto6ka108	)))))
+2020-07-17 11:38:22	ulseth	:D
+2020-07-17 11:38:49	cesgach	THANKS A LOT!!!
+2020-07-17 11:38:57	ulseth	Thanks!
+2020-07-17 11:38:58	thy_cc	SeemsGood SeemsGood
+2020-07-17 11:39:03	rickrfarina	thank you, Rick!!
+2020-07-17 11:39:09	mtuckerphx	great job!
+2020-07-17 11:39:09	ulseth	Data modeling always welcome!
+2020-07-17 11:39:16	johann2357	Thanks a lot Rick 🙌🏻
+2020-07-17 11:39:52	-->	uttern76 (uttern76@uttern76.tmi.twitch.tv) has joined #aws
+2020-07-17 11:39:52	-->	joaocolussii (joaocolussii@joaocolussii.tmi.twitch.tv) has joined #aws
+2020-07-17 11:39:52	-->	skilay (skilay@skilay.tmi.twitch.tv) has joined #aws
+2020-07-17 11:39:52	-->	johann2357 (johann2357@johann2357.tmi.twitch.tv) has joined #aws
+2020-07-17 11:39:52	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-07-17 11:39:52	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #aws
+2020-07-17 11:39:52	<--	stripfang (stripfang@stripfang.tmi.twitch.tv) has left #aws
+2020-07-17 11:39:52	<--	awschatlogger (awschatlogger@awschatlogger.tmi.twitch.tv) has left #aws
+2020-07-17 11:42:05	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #aws
+2020-07-17 11:42:05	-->	stripfang (stripfang@stripfang.tmi.twitch.tv) has joined #aws
+2020-07-17 11:42:05	-->	awschatlogger (awschatlogger@awschatlogger.tmi.twitch.tv) has joined #aws
+2020-07-17 11:42:05	-->	truebitwarrior (truebitwarrior@truebitwarrior.tmi.twitch.tv) has joined #aws
+2020-07-17 11:42:05	-->	tal_x_tal (tal_x_tal@tal_x_tal.tmi.twitch.tv) has joined #aws
+2020-07-17 11:42:05	<--	rickrfarina (rickrfarina@rickrfarina.tmi.twitch.tv) has left #aws
+2020-07-17 11:42:05	<--	tond5 (tond5@tond5.tmi.twitch.tv) has left #aws
+2020-07-17 11:42:05	<--	23hagbard23 (23hagbard23@23hagbard23.tmi.twitch.tv) has left #aws
+2020-07-17 11:42:05	<--	uttern76 (uttern76@uttern76.tmi.twitch.tv) has left #aws
+2020-07-17 11:42:05	<--	girish8282 (girish8282@girish8282.tmi.twitch.tv) has left #aws
+2020-07-17 11:42:05	<--	waitingbirdmf (waitingbirdmf@waitingbirdmf.tmi.twitch.tv) has left #aws
+2020-07-17 11:42:05	<--	ahsan1011 (ahsan1011@ahsan1011.tmi.twitch.tv) has left #aws
+2020-07-17 11:42:05	<--	mtuckerphx (mtuckerphx@mtuckerphx.tmi.twitch.tv) has left #aws
+2020-07-17 11:42:05	<--	anto6ka108 (anto6ka108@anto6ka108.tmi.twitch.tv) has left #aws
+2020-07-17 11:42:05	<--	barneyparker (barneyparker@barneyparker.tmi.twitch.tv) has left #aws
+2020-07-17 11:42:05	<--	joaocolussii (joaocolussii@joaocolussii.tmi.twitch.tv) has left #aws
+2020-07-17 11:42:05	<--	pedzindm (pedzindm@pedzindm.tmi.twitch.tv) has left #aws
+2020-07-17 11:42:05	<--	montyz0 (montyz0@montyz0.tmi.twitch.tv) has left #aws
+2020-07-17 11:44:10	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-07-17 11:44:10	-->	tanzilzil (tanzilzil@tanzilzil.tmi.twitch.tv) has joined #aws
+2020-07-17 11:44:10	<--	robmccauley (robmccauley@robmccauley.tmi.twitch.tv) has left #aws
+2020-07-17 11:44:10	<--	chunkygerbil (chunkygerbil@chunkygerbil.tmi.twitch.tv) has left #aws
+2020-07-17 11:44:10	<--	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has left #aws
+2020-07-17 11:44:10	<--	sundin (sundin@sundin.tmi.twitch.tv) has left #aws
+2020-07-17 11:44:10	<--	hitfaced (hitfaced@hitfaced.tmi.twitch.tv) has left #aws
+2020-07-17 11:44:10	<--	ortiz89 (ortiz89@ortiz89.tmi.twitch.tv) has left #aws
+2020-07-17 11:46:23	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #aws
+2020-07-17 11:46:23	<--	tal_x_tal (tal_x_tal@tal_x_tal.tmi.twitch.tv) has left #aws
+2020-07-17 11:46:23	<--	johann2357 (johann2357@johann2357.tmi.twitch.tv) has left #aws
+2020-07-17 11:48:38	<--	dizzzzney (dizzzzney@dizzzzney.tmi.twitch.tv) has left #aws
+2020-07-17 11:48:38	<--	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has left #aws
+2020-07-17 11:48:38	<--	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has left #aws
+2020-07-17 11:48:38	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #aws
+2020-07-17 11:48:38	<--	skilay (skilay@skilay.tmi.twitch.tv) has left #aws
+2020-07-17 11:49:32	-->	giselle_aws (giselle_aws@giselle_aws.tmi.twitch.tv) has joined #aws
+2020-07-17 11:49:32	-->	marcioemiranda (marcioemiranda@marcioemiranda.tmi.twitch.tv) has joined #aws
+2020-07-17 11:49:32	<--	tentakle (tentakle@tentakle.tmi.twitch.tv) has left #aws
+2020-07-17 11:49:32	<--	electricallongboard (electricallongboard@electricallongboard.tmi.twitch.tv) has left #aws
+2020-07-17 11:49:32	<--	helm (helm@helm.tmi.twitch.tv) has left #aws
+2020-07-17 11:49:32	<--	itsvodoo (itsvodoo@itsvodoo.tmi.twitch.tv) has left #aws
+2020-07-17 11:49:32	<--	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has left #aws
+2020-07-17 11:49:32	<--	kunalb (kunalb@kunalb.tmi.twitch.tv) has left #aws
+2020-07-17 11:51:42	-->	electricallongboard (electricallongboard@electricallongboard.tmi.twitch.tv) has joined #aws
+2020-07-17 11:51:42	-->	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has joined #aws
+2020-07-17 11:51:42	-->	bukakesake (bukakesake@bukakesake.tmi.twitch.tv) has joined #aws
+2020-07-17 11:51:42	-->	tentakle (tentakle@tentakle.tmi.twitch.tv) has joined #aws
+2020-07-17 11:51:42	-->	helm (helm@helm.tmi.twitch.tv) has joined #aws
+2020-07-17 11:51:42	<--	gray_twin (gray_twin@gray_twin.tmi.twitch.tv) has left #aws
+2020-07-17 11:53:47	-->	gray_twin (gray_twin@gray_twin.tmi.twitch.tv) has joined #aws
+2020-07-17 11:53:47	<--	bukakesake (bukakesake@bukakesake.tmi.twitch.tv) has left #aws
+2020-07-17 11:53:47	<--	marcioemiranda (marcioemiranda@marcioemiranda.tmi.twitch.tv) has left #aws
+2020-07-17 11:53:47	<--	truebitwarrior (truebitwarrior@truebitwarrior.tmi.twitch.tv) has left #aws
+2020-07-17 11:55:50	<--	thy_cc (thy_cc@thy_cc.tmi.twitch.tv) has left #aws
+2020-07-17 11:55:50	<--	fvmh97c (fvmh97c@fvmh97c.tmi.twitch.tv) has left #aws
+2020-07-17 11:58:02	-->	raghavbijjula (raghavbijjula@raghavbijjula.tmi.twitch.tv) has joined #aws
+2020-07-17 11:58:02	<--	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has left #aws
+2020-07-17 12:00:08	-->	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has joined #aws
+2020-07-17 12:02:17	-->	kunalb (kunalb@kunalb.tmi.twitch.tv) has joined #aws
+2020-07-17 12:02:17	-->	s7471c (s7471c@s7471c.tmi.twitch.tv) has joined #aws
+2020-07-17 12:02:17	<--	fearmodez (fearmodez@fearmodez.tmi.twitch.tv) has left #aws
+2020-07-17 12:04:20	<--	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has left #aws
+2020-07-17 12:06:25	-->	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has joined #aws
+2020-07-17 12:06:25	-->	anilmalyala (anilmalyala@anilmalyala.tmi.twitch.tv) has joined #aws
+2020-07-17 12:08:25	-->	dalwork (dalwork@dalwork.tmi.twitch.tv) has joined #aws
+2020-07-17 12:08:25	<--	cesgach (cesgach@cesgach.tmi.twitch.tv) has left #aws
+2020-07-17 12:08:25	<--	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has left #aws
+2020-07-17 12:08:25	<--	moobot (moobot@moobot.tmi.twitch.tv) has left #aws
+2020-07-17 12:10:37	-->	moobot (moobot@moobot.tmi.twitch.tv) has joined #aws
+2020-07-17 12:10:37	-->	varunvs (varunvs@varunvs.tmi.twitch.tv) has joined #aws
+2020-07-17 12:10:37	-->	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has joined #aws
+2020-07-17 12:10:37	<--	raghavbijjula (raghavbijjula@raghavbijjula.tmi.twitch.tv) has left #aws
+2020-07-17 12:12:45	<--	kunalb (kunalb@kunalb.tmi.twitch.tv) has left #aws
+2020-07-17 12:13:43	<--	s7471c (s7471c@s7471c.tmi.twitch.tv) has left #aws
+2020-07-17 12:15:50	<--	commanderroot (commanderroot@commanderroot.tmi.twitch.tv) has left #aws
+2020-07-17 12:15:50	<--	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has left #aws
+2020-07-17 12:17:52	<--	oakflakes (oakflakes@oakflakes.tmi.twitch.tv) has left #aws
+2020-07-17 12:21:03	-->	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has joined #aws
+2020-07-17 12:21:03	<--	anilmalyala (anilmalyala@anilmalyala.tmi.twitch.tv) has left #aws
+2020-07-17 12:22:10	-->	whisperaylea (whisperaylea@whisperaylea.tmi.twitch.tv) has joined #aws
+2020-07-17 12:22:10	-->	setwitch19 (setwitch19@setwitch19.tmi.twitch.tv) has joined #aws
+2020-07-17 12:24:24	-->	jafa123 (jafa123@jafa123.tmi.twitch.tv) has joined #aws
+2020-07-17 12:24:24	<--	helm (helm@helm.tmi.twitch.tv) has left #aws
+2020-07-17 12:24:24	<--	tentakle (tentakle@tentakle.tmi.twitch.tv) has left #aws
+2020-07-17 12:24:24	<--	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has left #aws
+2020-07-17 12:24:24	<--	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has left #aws
+2020-07-17 12:24:24	<--	twentythreeshouts (twentythreeshouts@twentythreeshouts.tmi.twitch.tv) has left #aws
+2020-07-17 12:26:26	-->	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has joined #aws
+2020-07-17 12:26:26	-->	helm (helm@helm.tmi.twitch.tv) has joined #aws
+2020-07-17 12:26:26	-->	tentakle (tentakle@tentakle.tmi.twitch.tv) has joined #aws
+2020-07-17 12:26:26	<--	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has left #aws
+2020-07-17 12:26:26	<--	jafa123 (jafa123@jafa123.tmi.twitch.tv) has left #aws
+2020-07-17 12:26:26	<--	jonexume77 (jonexume77@jonexume77.tmi.twitch.tv) has left #aws
+2020-07-17 12:28:32	-->	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has joined #aws
+2020-07-17 12:28:32	-->	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has joined #aws
+2020-07-17 12:28:32	-->	vicdecode (vicdecode@vicdecode.tmi.twitch.tv) has joined #aws
+2020-07-17 12:30:32	<--	jayak20 (jayak20@jayak20.tmi.twitch.tv) has left #aws
+2020-07-17 12:30:32	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-07-17 12:32:47	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-07-17 12:32:47	-->	ksun2 (ksun2@ksun2.tmi.twitch.tv) has joined #aws
+2020-07-17 12:32:47	<--	qbitronx (qbitronx@qbitronx.tmi.twitch.tv) has left #aws
+2020-07-17 12:32:47	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #aws
+2020-07-17 12:32:47	<--	sweethali (sweethali@sweethali.tmi.twitch.tv) has left #aws
+2020-07-17 12:32:47	<--	whisperaylea (whisperaylea@whisperaylea.tmi.twitch.tv) has left #aws
+2020-07-17 12:33:47	-->	sweethali (sweethali@sweethali.tmi.twitch.tv) has joined #aws
+2020-07-17 12:33:47	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #aws
+2020-07-17 12:38:01	-->	gabsters (gabsters@gabsters.tmi.twitch.tv) has joined #aws
+2020-07-17 12:38:01	-->	blanksteg1 (blanksteg1@blanksteg1.tmi.twitch.tv) has joined #aws
+2020-07-17 12:38:01	<--	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has left #aws
+2020-07-17 12:38:01	<--	wlami (wlami@wlami.tmi.twitch.tv) has left #aws
+2020-07-17 12:40:07	-->	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has joined #aws
+2020-07-17 12:40:07	-->	guptavik (guptavik@guptavik.tmi.twitch.tv) has joined #aws
+2020-07-17 12:42:06	-->	s7471c (s7471c@s7471c.tmi.twitch.tv) has joined #aws
+2020-07-17 12:42:06	-->	cassies81 (cassies81@cassies81.tmi.twitch.tv) has joined #aws
+2020-07-17 12:44:16	<--	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has left #aws
+2020-07-17 12:44:16	<--	avinashhawk1 (avinashhawk1@avinashhawk1.tmi.twitch.tv) has left #aws
+2020-07-17 12:44:16	<--	setwitch19 (setwitch19@setwitch19.tmi.twitch.tv) has left #aws
+2020-07-17 12:46:15	-->	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has joined #aws
+2020-07-17 12:46:15	<--	dalwork (dalwork@dalwork.tmi.twitch.tv) has left #aws
+2020-07-17 12:46:15	<--	kevinxuzio (kevinxuzio@kevinxuzio.tmi.twitch.tv) has left #aws
+2020-07-17 12:48:27	-->	stefanodindo (stefanodindo@stefanodindo.tmi.twitch.tv) has joined #aws
+2020-07-17 12:48:27	<--	ksun2 (ksun2@ksun2.tmi.twitch.tv) has left #aws
+2020-07-17 12:48:27	<--	shakesx (shakesx@shakesx.tmi.twitch.tv) has left #aws
+2020-07-17 12:50:35	-->	ccrrvvaa (ccrrvvaa@ccrrvvaa.tmi.twitch.tv) has joined #aws
+2020-07-17 12:50:35	<--	blanksteg1 (blanksteg1@blanksteg1.tmi.twitch.tv) has left #aws
+2020-07-17 12:50:35	<--	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has left #aws
+2020-07-17 12:52:29	-->	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has joined #aws
+2020-07-17 12:52:29	<--	stefanodindo (stefanodindo@stefanodindo.tmi.twitch.tv) has left #aws
+2020-07-17 12:52:29	<--	ccrrvvaa (ccrrvvaa@ccrrvvaa.tmi.twitch.tv) has left #aws
+2020-07-17 12:54:42	-->	chinochiva1908 (chinochiva1908@chinochiva1908.tmi.twitch.tv) has joined #aws
+2020-07-17 12:54:42	-->	whisperaylea (whisperaylea@whisperaylea.tmi.twitch.tv) has joined #aws
+2020-07-17 12:54:42	<--	cassies81 (cassies81@cassies81.tmi.twitch.tv) has left #aws
+2020-07-17 12:54:42	<--	s7471c (s7471c@s7471c.tmi.twitch.tv) has left #aws
+2020-07-17 12:55:47	-->	kunalb (kunalb@kunalb.tmi.twitch.tv) has joined #aws
+2020-07-17 12:55:47	<--	helm (helm@helm.tmi.twitch.tv) has left #aws
+2020-07-17 12:55:47	<--	tentakle (tentakle@tentakle.tmi.twitch.tv) has left #aws
+2020-07-17 12:55:47	<--	sweethali (sweethali@sweethali.tmi.twitch.tv) has left #aws
+2020-07-17 12:55:47	<--	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has left #aws
+2020-07-17 12:55:47	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #aws
+2020-07-17 12:57:53	-->	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has joined #aws
+2020-07-17 12:57:53	-->	tentakle (tentakle@tentakle.tmi.twitch.tv) has joined #aws
+2020-07-17 12:57:53	-->	sweethali (sweethali@sweethali.tmi.twitch.tv) has joined #aws
+2020-07-17 12:57:53	-->	helm (helm@helm.tmi.twitch.tv) has joined #aws
+2020-07-17 12:57:53	-->	ksun2 (ksun2@ksun2.tmi.twitch.tv) has joined #aws
+2020-07-17 12:57:53	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #aws
+2020-07-17 12:57:53	<--	feet (feet@feet.tmi.twitch.tv) has left #aws
+2020-07-17 12:59:53	<--	guptavik (guptavik@guptavik.tmi.twitch.tv) has left #aws
+2020-07-17 12:59:53	<--	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has left #aws
+2020-07-17 12:59:53	<--	kabirooo (kabirooo@kabirooo.tmi.twitch.tv) has left #aws
+2020-07-17 13:03:09	-->	kabirooo (kabirooo@kabirooo.tmi.twitch.tv) has joined #aws
+2020-07-17 13:03:09	-->	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has joined #aws
+2020-07-17 13:03:09	<--	furqankamani (furqankamani@furqankamani.tmi.twitch.tv) has left #aws
+2020-07-17 13:03:09	<--	darrenweiner (darrenweiner@darrenweiner.tmi.twitch.tv) has left #aws
+2020-07-17 13:04:12	-->	darrenweiner (darrenweiner@darrenweiner.tmi.twitch.tv) has joined #aws
+2020-07-17 13:04:12	<--	praveenashivaram (praveenashivaram@praveenashivaram.tmi.twitch.tv) has left #aws
+2020-07-17 13:06:16	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #aws
+2020-07-17 13:06:16	<--	sweethali (sweethali@sweethali.tmi.twitch.tv) has left #aws
+2020-07-17 13:08:22	-->	getadam99 (getadam99@getadam99.tmi.twitch.tv) has joined #aws
+2020-07-17 13:08:22	<--	ksun2 (ksun2@ksun2.tmi.twitch.tv) has left #aws
+2020-07-17 13:10:21	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #aws
+2020-07-17 13:10:21	-->	sweethali (sweethali@sweethali.tmi.twitch.tv) has joined #aws
+2020-07-17 13:12:36	<--	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has left #aws
+2020-07-17 13:14:50	-->	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has joined #aws
+2020-07-17 13:15:56	-->	a_solntsev (a_solntsev@a_solntsev.tmi.twitch.tv) has joined #aws
+2020-07-17 13:15:56	<--	nimbusarchitect (nimbusarchitect@nimbusarchitect.tmi.twitch.tv) has left #aws
+2020-07-17 13:15:56	<--	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has left #aws
+2020-07-17 13:17:54	-->	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has joined #aws
+2020-07-17 13:17:54	<--	a_solntsev (a_solntsev@a_solntsev.tmi.twitch.tv) has left #aws
+2020-07-17 13:19:51	<--	helm (helm@helm.tmi.twitch.tv) has left #aws
+2020-07-17 13:19:51	<--	tentakle (tentakle@tentakle.tmi.twitch.tv) has left #aws
+2020-07-17 13:19:51	<--	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has left #aws
+2020-07-17 13:19:51	<--	whisperaylea (whisperaylea@whisperaylea.tmi.twitch.tv) has left #aws
+2020-07-17 13:19:51	<--	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has left #aws
+2020-07-17 13:19:51	<--	moobot (moobot@moobot.tmi.twitch.tv) has left #aws
+2020-07-17 13:22:00	-->	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has joined #aws
+2020-07-17 13:22:00	-->	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has joined #aws
+2020-07-17 13:22:00	-->	tentakle (tentakle@tentakle.tmi.twitch.tv) has joined #aws
+2020-07-17 13:22:00	-->	moobot (moobot@moobot.tmi.twitch.tv) has joined #aws
+2020-07-17 13:22:00	-->	helm (helm@helm.tmi.twitch.tv) has joined #aws
+2020-07-17 13:22:00	-->	thedynamodbguy (thedynamodbguy@thedynamodbguy.tmi.twitch.tv) has joined #aws
+2020-07-17 13:22:00	<--	getadam99 (getadam99@getadam99.tmi.twitch.tv) has left #aws
+2020-07-17 13:25:09	<--	moobot (moobot@moobot.tmi.twitch.tv) has left #aws
+2020-07-17 13:25:09	<--	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has left #aws
+2020-07-17 13:26:21	-->	moobot (moobot@moobot.tmi.twitch.tv) has joined #aws
+2020-07-17 13:26:21	-->	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has joined #aws
+2020-07-17 13:26:21	<--	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has left #aws
+2020-07-17 13:28:15	-->	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has joined #aws
+2020-07-17 13:30:18	<--	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has left #aws
+2020-07-17 13:32:32	-->	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has joined #aws
+2020-07-17 13:32:32	-->	anilmalyala (anilmalyala@anilmalyala.tmi.twitch.tv) has joined #aws
+2020-07-17 13:34:30	-->	2am5am (2am5am@2am5am.tmi.twitch.tv) has joined #aws
+2020-07-17 13:36:27	<--	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has left #aws
+2020-07-17 13:38:37	-->	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has joined #aws
+2020-07-17 13:38:37	<--	thedynamodbguy (thedynamodbguy@thedynamodbguy.tmi.twitch.tv) has left #aws
+2020-07-17 13:38:37	<--	kabirooo (kabirooo@kabirooo.tmi.twitch.tv) has left #aws
+2020-07-17 13:38:37	<--	varunvs (varunvs@varunvs.tmi.twitch.tv) has left #aws
+2020-07-17 13:40:55	<--	knightmare50 (knightmare50@knightmare50.tmi.twitch.tv) has left #aws
+2020-07-17 13:48:05	<--	anilmalyala (anilmalyala@anilmalyala.tmi.twitch.tv) has left #aws
+2020-07-17 13:48:05	<--	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has left #aws
+2020-07-17 13:50:12	-->	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has joined #aws
+2020-07-17 13:50:12	-->	rittalamin (rittalamin@rittalamin.tmi.twitch.tv) has joined #aws
+2020-07-17 13:50:12	<--	onelineofme (onelineofme@onelineofme.tmi.twitch.tv) has left #aws
+2020-07-17 13:52:22	<--	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has left #aws
+2020-07-17 13:52:22	<--	darrenweiner (darrenweiner@darrenweiner.tmi.twitch.tv) has left #aws
+2020-07-17 13:54:22	-->	darrenweiner (darrenweiner@darrenweiner.tmi.twitch.tv) has joined #aws
+2020-07-17 13:54:22	-->	ebfortin (ebfortin@ebfortin.tmi.twitch.tv) has joined #aws
+2020-07-17 13:54:22	-->	mraelstone1755 (mraelstone1755@mraelstone1755.tmi.twitch.tv) has joined #aws
+2020-07-17 13:57:25	-->	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has joined #aws
+2020-07-17 13:57:25	-->	knightmare50 (knightmare50@knightmare50.tmi.twitch.tv) has joined #aws
+2020-07-17 13:57:25	<--	ebfortin (ebfortin@ebfortin.tmi.twitch.tv) has left #aws
+2020-07-17 13:58:32	<--	knightmare50 (knightmare50@knightmare50.tmi.twitch.tv) has left #aws
+2020-07-17 14:00:46	-->	praveenashivaram (praveenashivaram@praveenashivaram.tmi.twitch.tv) has joined #aws
+2020-07-17 14:00:46	-->	kirikou_petit_voyou (kirikou_petit_voyou@kirikou_petit_voyou.tmi.twitch.tv) has joined #aws
+2020-07-17 14:00:46	<--	mraelstone1755 (mraelstone1755@mraelstone1755.tmi.twitch.tv) has left #aws
+2020-07-17 14:00:46	<--	gray_twin (gray_twin@gray_twin.tmi.twitch.tv) has left #aws
+2020-07-17 14:02:44	-->	gray_twin (gray_twin@gray_twin.tmi.twitch.tv) has joined #aws
+2020-07-17 14:02:44	<--	kirikou_petit_voyou (kirikou_petit_voyou@kirikou_petit_voyou.tmi.twitch.tv) has left #aws
+2020-07-17 14:06:07	<--	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has left #aws
+2020-07-17 14:06:07	<--	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has left #aws
+2020-07-17 14:09:16	-->	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has joined #aws
+2020-07-17 14:09:16	-->	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has joined #aws
+2020-07-17 14:09:16	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #aws
+2020-07-17 14:09:16	<--	sweethali (sweethali@sweethali.tmi.twitch.tv) has left #aws
+2020-07-17 14:10:20	-->	sweethali (sweethali@sweethali.tmi.twitch.tv) has joined #aws
+2020-07-17 14:10:20	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #aws
+2020-07-17 14:10:20	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-07-17 14:12:33	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-07-17 14:12:33	<--	gray_twin (gray_twin@gray_twin.tmi.twitch.tv) has left #aws
+2020-07-17 14:14:52	-->	gray_twin (gray_twin@gray_twin.tmi.twitch.tv) has joined #aws
+2020-07-17 14:14:52	<--	maltarraya (maltarraya@maltarraya.tmi.twitch.tv) has left #aws
+2020-07-17 14:16:53	<--	tentakle (tentakle@tentakle.tmi.twitch.tv) has left #aws
+2020-07-17 14:18:59	-->	dehvix (dehvix@dehvix.tmi.twitch.tv) has joined #aws
+2020-07-17 14:22:58	<--	rittalamin (rittalamin@rittalamin.tmi.twitch.tv) has left #aws
+2020-07-17 14:24:58	<--	2am5am (2am5am@2am5am.tmi.twitch.tv) has left #aws
+2020-07-17 14:27:00	<--	dehvix (dehvix@dehvix.tmi.twitch.tv) has left #aws
+2020-07-17 14:28:57	<--	hansv64 (hansv64@hansv64.tmi.twitch.tv) has left #aws
+2020-07-17 14:28:57	<--	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has left #aws
+2020-07-17 14:31:09	-->	cloud_phil (cloud_phil@cloud_phil.tmi.twitch.tv) has joined #aws
+2020-07-17 14:31:09	-->	lbellysmit (lbellysmit@lbellysmit.tmi.twitch.tv) has joined #aws
+2020-07-17 14:31:09	<--	kunalb (kunalb@kunalb.tmi.twitch.tv) has left #aws
+2020-07-17 14:34:15	-->	hansv64 (hansv64@hansv64.tmi.twitch.tv) has joined #aws
+2020-07-17 14:38:14	-->	whisperaylea (whisperaylea@whisperaylea.tmi.twitch.tv) has joined #aws
+2020-07-17 14:38:14	<--	xjialin (xjialin@xjialin.tmi.twitch.tv) has left #aws
+2020-07-18 08:16:27	--	irc: disconnected from server
+2020-07-18 08:16:46	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #aws
+2020-07-18 08:16:46	--	Channel #aws: 47 nicks (0 ops, 0 voices, 47 normals)
+2020-07-18 08:19:21	-->	zaintpedro (zaintpedro@zaintpedro.tmi.twitch.tv) has joined #aws
+2020-07-18 08:19:21	<--	tentypes (tentypes@tentypes.tmi.twitch.tv) has left #aws
+2020-07-18 08:19:21	<--	rittalamin (rittalamin@rittalamin.tmi.twitch.tv) has left #aws
+2020-07-18 08:20:29	-->	atiti25 (atiti25@atiti25.tmi.twitch.tv) has joined #aws
+2020-07-18 08:20:29	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #aws
+2020-07-18 08:23:41	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #aws
+2020-07-18 08:31:02	-->	kunalb (kunalb@kunalb.tmi.twitch.tv) has joined #aws
+2020-07-18 08:31:02	<--	atiti25 (atiti25@atiti25.tmi.twitch.tv) has left #aws
+2020-07-18 08:31:02	<--	zaintpedro (zaintpedro@zaintpedro.tmi.twitch.tv) has left #aws
+2020-07-18 08:33:13	-->	oddnothic (oddnothic@oddnothic.tmi.twitch.tv) has joined #aws
+2020-07-18 08:35:08	-->	raghavbijjula (raghavbijjula@raghavbijjula.tmi.twitch.tv) has joined #aws
+2020-07-18 08:37:17	<--	stripfang (stripfang@stripfang.tmi.twitch.tv) has left #aws
+2020-07-18 08:37:17	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-07-18 08:37:17	<--	awschatlogger (awschatlogger@awschatlogger.tmi.twitch.tv) has left #aws
+2020-07-18 08:37:17	<--	praveenashivaram (praveenashivaram@praveenashivaram.tmi.twitch.tv) has left #aws
+2020-07-18 08:37:17	<--	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has left #aws
+2020-07-18 08:39:11	-->	awschatlogger (awschatlogger@awschatlogger.tmi.twitch.tv) has joined #aws
+2020-07-18 08:39:11	-->	praveenashivaram (praveenashivaram@praveenashivaram.tmi.twitch.tv) has joined #aws
+2020-07-18 08:39:11	-->	stripfang (stripfang@stripfang.tmi.twitch.tv) has joined #aws
+2020-07-18 08:39:11	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-07-18 08:41:20	-->	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has joined #aws
+2020-07-18 08:43:16	<--	kunalb (kunalb@kunalb.tmi.twitch.tv) has left #aws
+2020-07-18 08:45:36	<--	kevinxuzio (kevinxuzio@kevinxuzio.tmi.twitch.tv) has left #aws
+2020-07-18 08:45:36	<--	gray_twin (gray_twin@gray_twin.tmi.twitch.tv) has left #aws
+2020-07-18 08:46:41	-->	k4fk4r (k4fk4r@k4fk4r.tmi.twitch.tv) has joined #aws
+2020-07-18 08:46:41	-->	kevinxuzio (kevinxuzio@kevinxuzio.tmi.twitch.tv) has joined #aws
+2020-07-18 08:46:41	-->	gray_twin (gray_twin@gray_twin.tmi.twitch.tv) has joined #aws
+2020-07-18 08:46:41	<--	pvloff (pvloff@pvloff.tmi.twitch.tv) has left #aws
+2020-07-18 08:48:55	-->	pvloff (pvloff@pvloff.tmi.twitch.tv) has joined #aws
+2020-07-18 08:50:57	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #aws
+2020-07-18 08:50:57	<--	k4fk4r (k4fk4r@k4fk4r.tmi.twitch.tv) has left #aws
+2020-07-18 08:53:00	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #aws
+2020-07-18 08:54:56	<--	ireshdudeja11 (ireshdudeja11@ireshdudeja11.tmi.twitch.tv) has left #aws
+2020-07-18 08:57:11	-->	mikisho (mikisho@mikisho.tmi.twitch.tv) has joined #aws
+2020-07-18 08:57:11	-->	ireshdudeja11 (ireshdudeja11@ireshdudeja11.tmi.twitch.tv) has joined #aws
+2020-07-18 08:59:30	<--	kevinxuzio (kevinxuzio@kevinxuzio.tmi.twitch.tv) has left #aws
+2020-07-18 08:59:30	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #aws
+2020-07-18 09:00:37	-->	kevinxuzio (kevinxuzio@kevinxuzio.tmi.twitch.tv) has joined #aws
+2020-07-18 09:00:37	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #aws
+2020-07-18 09:00:37	<--	minnesotavikings (minnesotavikings@minnesotavikings.tmi.twitch.tv) has left #aws
+2020-07-18 09:03:37	-->	zaintpedro (zaintpedro@zaintpedro.tmi.twitch.tv) has joined #aws
+2020-07-18 09:03:37	-->	minnesotavikings (minnesotavikings@minnesotavikings.tmi.twitch.tv) has joined #aws
+2020-07-18 09:03:37	<--	axhay (axhay@axhay.tmi.twitch.tv) has left #aws
+2020-07-18 09:06:55	<--	idthief (idthief@idthief.tmi.twitch.tv) has left #aws
+2020-07-18 09:06:55	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #aws
+2020-07-18 09:09:02	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #aws
+2020-07-18 09:09:02	-->	idthief (idthief@idthief.tmi.twitch.tv) has joined #aws
+2020-07-18 09:11:04	-->	sandeepjk11 (sandeepjk11@sandeepjk11.tmi.twitch.tv) has joined #aws
+2020-07-18 09:11:04	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #aws
+2020-07-18 09:11:04	<--	kevinxuzio (kevinxuzio@kevinxuzio.tmi.twitch.tv) has left #aws
+2020-07-18 09:13:04	-->	kevinxuzio (kevinxuzio@kevinxuzio.tmi.twitch.tv) has joined #aws
+2020-07-18 09:13:04	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #aws
+2020-07-18 09:15:16	<--	zaintpedro (zaintpedro@zaintpedro.tmi.twitch.tv) has left #aws
+2020-07-18 09:21:34	-->	s7471c (s7471c@s7471c.tmi.twitch.tv) has joined #aws
+2020-07-18 09:21:34	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #aws
+2020-07-18 09:21:34	<--	suchroot (suchroot@suchroot.tmi.twitch.tv) has left #aws
+2020-07-18 09:21:34	<--	kevinxuzio (kevinxuzio@kevinxuzio.tmi.twitch.tv) has left #aws
+2020-07-18 09:23:33	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #aws
+2020-07-18 09:23:33	-->	kevinxuzio (kevinxuzio@kevinxuzio.tmi.twitch.tv) has joined #aws
+2020-07-18 09:23:33	<--	raghavbijjula (raghavbijjula@raghavbijjula.tmi.twitch.tv) has left #aws
+2020-07-18 09:27:44	<--	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has left #aws
+2020-07-18 09:27:44	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-07-18 09:29:49	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-07-18 09:29:49	-->	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has joined #aws
+2020-07-18 09:29:49	<--	s7471c (s7471c@s7471c.tmi.twitch.tv) has left #aws
+2020-07-18 09:30:48	<--	kevinxuzio (kevinxuzio@kevinxuzio.tmi.twitch.tv) has left #aws
+2020-07-18 09:32:47	-->	axhay (axhay@axhay.tmi.twitch.tv) has joined #aws
+2020-07-18 09:32:47	<--	helm (helm@helm.tmi.twitch.tv) has left #aws
+2020-07-18 09:32:47	<--	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has left #aws
+2020-07-18 09:34:50	-->	raghavbijjula (raghavbijjula@raghavbijjula.tmi.twitch.tv) has joined #aws
+2020-07-18 09:34:50	-->	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has joined #aws
+2020-07-18 09:34:50	-->	helm (helm@helm.tmi.twitch.tv) has joined #aws
+2020-07-18 09:34:50	<--	stripfang (stripfang@stripfang.tmi.twitch.tv) has left #aws
+2020-07-18 09:34:50	<--	awschatlogger (awschatlogger@awschatlogger.tmi.twitch.tv) has left #aws
+2020-07-18 09:36:54	-->	dalwork (dalwork@dalwork.tmi.twitch.tv) has joined #aws
+2020-07-18 09:36:54	-->	stripfang (stripfang@stripfang.tmi.twitch.tv) has joined #aws
+2020-07-18 09:36:54	-->	awschatlogger (awschatlogger@awschatlogger.tmi.twitch.tv) has joined #aws
+2020-07-18 09:39:56	-->	acorsmx (acorsmx@acorsmx.tmi.twitch.tv) has joined #aws
+2020-07-18 09:39:56	<--	xjialin (xjialin@xjialin.tmi.twitch.tv) has left #aws
+2020-07-18 09:40:59	-->	xjialin (xjialin@xjialin.tmi.twitch.tv) has joined #aws
+2020-07-18 09:40:59	<--	gray_twin (gray_twin@gray_twin.tmi.twitch.tv) has left #aws
+2020-07-18 09:40:59	<--	acorsmx (acorsmx@acorsmx.tmi.twitch.tv) has left #aws
+2020-07-18 09:43:10	-->	gray_twin (gray_twin@gray_twin.tmi.twitch.tv) has joined #aws
+2020-07-18 09:43:10	<--	axhay (axhay@axhay.tmi.twitch.tv) has left #aws
+2020-07-18 09:49:49	<--	aymanace97 (aymanace97@aymanace97.tmi.twitch.tv) has left #aws
+2020-07-18 09:49:49	<--	dalwork (dalwork@dalwork.tmi.twitch.tv) has left #aws
+2020-07-18 09:51:43	-->	name100015 (name100015@name100015.tmi.twitch.tv) has joined #aws
+2020-07-18 09:53:51	<--	name100015 (name100015@name100015.tmi.twitch.tv) has left #aws
+2020-07-18 09:58:52	-->	walsh9 (walsh9@walsh9.tmi.twitch.tv) has joined #aws
+2020-07-18 09:58:52	<--	mikisho (mikisho@mikisho.tmi.twitch.tv) has left #aws
+2020-07-18 09:58:52	<--	ibuchh_aws (ibuchh_aws@ibuchh_aws.tmi.twitch.tv) has left #aws
+2020-07-18 10:00:58	-->	arkeixix (arkeixix@arkeixix.tmi.twitch.tv) has joined #aws
+2020-07-18 10:00:58	-->	ibuchh_aws (ibuchh_aws@ibuchh_aws.tmi.twitch.tv) has joined #aws
+2020-07-18 10:00:58	-->	mikisho (mikisho@mikisho.tmi.twitch.tv) has joined #aws
+2020-07-18 10:00:58	<--	praveenashivaram (praveenashivaram@praveenashivaram.tmi.twitch.tv) has left #aws
+2020-07-18 10:05:02	<--	hansv64 (hansv64@hansv64.tmi.twitch.tv) has left #aws
+2020-07-18 10:09:07	-->	hansv64 (hansv64@hansv64.tmi.twitch.tv) has joined #aws
+2020-07-18 10:11:18	-->	praveenashivaram (praveenashivaram@praveenashivaram.tmi.twitch.tv) has joined #aws
+2020-07-18 10:11:18	<--	hansv64 (hansv64@hansv64.tmi.twitch.tv) has left #aws
+2020-07-18 10:13:24	-->	dont_taze_me (dont_taze_me@dont_taze_me.tmi.twitch.tv) has joined #aws
+2020-07-18 10:13:24	-->	hansv64 (hansv64@hansv64.tmi.twitch.tv) has joined #aws
+2020-07-18 10:13:24	<--	tentakle (tentakle@tentakle.tmi.twitch.tv) has left #aws
+2020-07-18 10:13:24	<--	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has left #aws
+2020-07-18 10:13:24	<--	minnesotavikings (minnesotavikings@minnesotavikings.tmi.twitch.tv) has left #aws
+2020-07-18 10:13:24	<--	moobot (moobot@moobot.tmi.twitch.tv) has left #aws
+2020-07-18 10:15:21	-->	minnesotavikings (minnesotavikings@minnesotavikings.tmi.twitch.tv) has joined #aws
+2020-07-18 10:15:21	-->	moobot (moobot@moobot.tmi.twitch.tv) has joined #aws
+2020-07-18 10:15:21	-->	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has joined #aws
+2020-07-18 10:15:21	-->	tentakle (tentakle@tentakle.tmi.twitch.tv) has joined #aws
+2020-07-18 10:17:34	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-07-18 10:17:34	<--	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has left #aws
+2020-07-18 10:19:39	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-07-18 10:19:39	-->	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has joined #aws
+2020-07-18 10:22:54	<--	helm (helm@helm.tmi.twitch.tv) has left #aws
+2020-07-18 10:22:54	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #aws
+2020-07-18 10:22:54	<--	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has left #aws
+2020-07-18 10:25:00	-->	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has joined #aws
+2020-07-18 10:25:00	-->	helm (helm@helm.tmi.twitch.tv) has joined #aws
+2020-07-18 10:25:00	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #aws
+2020-07-18 10:29:04	<--	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has left #aws
+2020-07-18 10:29:04	<--	minnesotavikings (minnesotavikings@minnesotavikings.tmi.twitch.tv) has left #aws
+2020-07-18 10:29:04	<--	moobot (moobot@moobot.tmi.twitch.tv) has left #aws
+2020-07-18 10:29:04	<--	tentakle (tentakle@tentakle.tmi.twitch.tv) has left #aws
+2020-07-18 10:29:04	<--	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has left #aws
+2020-07-18 10:31:08	-->	minnesotavikings (minnesotavikings@minnesotavikings.tmi.twitch.tv) has joined #aws
+2020-07-18 10:31:08	-->	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has joined #aws
+2020-07-18 10:31:08	-->	tentakle (tentakle@tentakle.tmi.twitch.tv) has joined #aws
+2020-07-18 10:31:08	-->	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has joined #aws
+2020-07-18 10:31:08	-->	kunalb (kunalb@kunalb.tmi.twitch.tv) has joined #aws
+2020-07-18 10:31:08	-->	moobot (moobot@moobot.tmi.twitch.tv) has joined #aws
+2020-07-18 10:31:08	<--	hansv64 (hansv64@hansv64.tmi.twitch.tv) has left #aws
+2020-07-18 10:31:08	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #aws
+2020-07-18 10:33:08	-->	hansv64 (hansv64@hansv64.tmi.twitch.tv) has joined #aws
+2020-07-18 10:33:08	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #aws
+2020-07-18 10:33:08	<--	arkeixix (arkeixix@arkeixix.tmi.twitch.tv) has left #aws
+2020-07-18 10:35:18	<--	hansv64 (hansv64@hansv64.tmi.twitch.tv) has left #aws
+2020-07-18 10:37:26	-->	hansv64 (hansv64@hansv64.tmi.twitch.tv) has joined #aws
+2020-07-18 10:37:26	<--	ireshdudeja11 (ireshdudeja11@ireshdudeja11.tmi.twitch.tv) has left #aws
+2020-07-18 10:39:38	<--	raghavbijjula (raghavbijjula@raghavbijjula.tmi.twitch.tv) has left #aws
+2020-07-18 10:41:52	-->	raghavbijjula (raghavbijjula@raghavbijjula.tmi.twitch.tv) has joined #aws
+2020-07-18 10:44:00	<--	hansv64 (hansv64@hansv64.tmi.twitch.tv) has left #aws
+2020-07-18 10:45:02	-->	braceta (braceta@braceta.tmi.twitch.tv) has joined #aws
+2020-07-18 10:45:02	-->	hansv64 (hansv64@hansv64.tmi.twitch.tv) has joined #aws
+2020-07-18 10:51:23	<--	hansv64 (hansv64@hansv64.tmi.twitch.tv) has left #aws
+2020-07-18 10:51:23	<--	stripfang (stripfang@stripfang.tmi.twitch.tv) has left #aws
+2020-07-18 10:51:23	<--	awschatlogger (awschatlogger@awschatlogger.tmi.twitch.tv) has left #aws
+2020-07-18 10:53:32	-->	hansv64 (hansv64@hansv64.tmi.twitch.tv) has joined #aws
+2020-07-18 10:53:32	-->	awschatlogger (awschatlogger@awschatlogger.tmi.twitch.tv) has joined #aws
+2020-07-18 10:53:32	-->	stripfang (stripfang@stripfang.tmi.twitch.tv) has joined #aws
+2020-07-18 10:53:32	<--	braceta (braceta@braceta.tmi.twitch.tv) has left #aws
+2020-07-18 10:53:32	<--	raghavbijjula (raghavbijjula@raghavbijjula.tmi.twitch.tv) has left #aws
+2020-07-18 10:55:28	-->	alexribeirodev (alexribeirodev@alexribeirodev.tmi.twitch.tv) has joined #aws
+2020-07-18 10:57:24	<--	alexribeirodev (alexribeirodev@alexribeirodev.tmi.twitch.tv) has left #aws
+2020-07-18 10:59:40	<--	kunalb (kunalb@kunalb.tmi.twitch.tv) has left #aws
+2020-07-18 11:01:42	-->	raghavbijjula (raghavbijjula@raghavbijjula.tmi.twitch.tv) has joined #aws
+2020-07-18 11:01:42	<--	veenadega (veenadega@veenadega.tmi.twitch.tv) has left #aws
+2020-07-18 11:03:48	-->	axhay (axhay@axhay.tmi.twitch.tv) has joined #aws
+2020-07-18 11:06:06	<--	praveenashivaram (praveenashivaram@praveenashivaram.tmi.twitch.tv) has left #aws
+2020-07-18 11:07:12	-->	praveenashivaram (praveenashivaram@praveenashivaram.tmi.twitch.tv) has joined #aws
+2020-07-18 11:13:35	<--	axhay (axhay@axhay.tmi.twitch.tv) has left #aws
+2020-07-18 11:13:35	<--	helm (helm@helm.tmi.twitch.tv) has left #aws
+2020-07-18 11:13:35	<--	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has left #aws
+2020-07-18 11:15:39	-->	feedbirds (feedbirds@feedbirds.tmi.twitch.tv) has joined #aws
+2020-07-18 11:15:39	-->	helm (helm@helm.tmi.twitch.tv) has joined #aws
+2020-07-18 11:15:39	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #aws
+2020-07-18 11:17:53	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #aws
+2020-07-18 11:17:53	<--	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has left #aws
+2020-07-18 11:21:55	-->	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has joined #aws
+2020-07-18 11:27:18	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-07-18 11:29:26	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-07-18 11:29:26	<--	pvloff (pvloff@pvloff.tmi.twitch.tv) has left #aws
+2020-07-18 11:31:43	-->	pvloff (pvloff@pvloff.tmi.twitch.tv) has joined #aws
+2020-07-18 11:31:43	-->	kunalb (kunalb@kunalb.tmi.twitch.tv) has joined #aws
+2020-07-18 11:35:54	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #aws
+2020-07-18 11:37:59	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #aws
+2020-07-18 11:42:03	<--	mzcolor (mzcolor@mzcolor.tmi.twitch.tv) has left #aws
+2020-07-18 11:43:03	-->	mzcolor (mzcolor@mzcolor.tmi.twitch.tv) has joined #aws
+2020-07-18 11:55:38	<--	sandeepjk11 (sandeepjk11@sandeepjk11.tmi.twitch.tv) has left #aws
+2020-07-18 11:57:43	-->	aws (aws@aws.tmi.twitch.tv) has joined #aws
+2020-07-18 11:59:57	<--	aws (aws@aws.tmi.twitch.tv) has left #aws
+2020-07-18 11:59:57	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #aws
+2020-07-18 12:02:14	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #aws
+2020-07-18 12:03:21	<--	helm (helm@helm.tmi.twitch.tv) has left #aws
+2020-07-18 12:07:41	<--	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has left #aws
+2020-07-18 12:09:45	<--	anilmalyala (anilmalyala@anilmalyala.tmi.twitch.tv) has left #aws
+2020-07-18 12:11:52	-->	unixcf_ (unixcf_@unixcf_.tmi.twitch.tv) has joined #aws
+2020-07-18 12:14:05	-->	ebouhdadi (ebouhdadi@ebouhdadi.tmi.twitch.tv) has joined #aws
+2020-07-18 12:17:22	-->	axhay (axhay@axhay.tmi.twitch.tv) has joined #aws
+2020-07-18 12:19:27	-->	oop_io (oop_io@oop_io.tmi.twitch.tv) has joined #aws
+2020-07-18 12:25:39	-->	johannes_pirmann (johannes_pirmann@johannes_pirmann.tmi.twitch.tv) has joined #aws
+2020-07-18 12:25:39	<--	oop_io (oop_io@oop_io.tmi.twitch.tv) has left #aws
+2020-07-18 12:25:39	<--	ebouhdadi (ebouhdadi@ebouhdadi.tmi.twitch.tv) has left #aws
+2020-07-18 12:29:46	<--	johannes_pirmann (johannes_pirmann@johannes_pirmann.tmi.twitch.tv) has left #aws
+2020-07-18 12:33:57	-->	timmattison (timmattison@timmattison.tmi.twitch.tv) has joined #aws
+2020-07-18 12:33:57	<--	eubyt (eubyt@eubyt.tmi.twitch.tv) has left #aws
+2020-07-18 12:33:57	<--	moobot (moobot@moobot.tmi.twitch.tv) has left #aws
+2020-07-18 12:33:57	<--	tentakle (tentakle@tentakle.tmi.twitch.tv) has left #aws
+2020-07-18 12:33:57	<--	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has left #aws
+2020-07-18 12:33:57	<--	minnesotavikings (minnesotavikings@minnesotavikings.tmi.twitch.tv) has left #aws
+2020-07-18 12:36:13	-->	eubyt (eubyt@eubyt.tmi.twitch.tv) has joined #aws
+2020-07-18 12:36:13	-->	moobot (moobot@moobot.tmi.twitch.tv) has joined #aws
+2020-07-18 12:36:13	-->	nightmarejoker2 (nightmarejoker2@nightmarejoker2.tmi.twitch.tv) has joined #aws
+2020-07-18 12:36:13	-->	minnesotavikings (minnesotavikings@minnesotavikings.tmi.twitch.tv) has joined #aws
+2020-07-18 12:36:13	-->	tentakle (tentakle@tentakle.tmi.twitch.tv) has joined #aws
+2020-07-18 12:37:14	<--	kunalb (kunalb@kunalb.tmi.twitch.tv) has left #aws
+2020-07-18 12:40:15	-->	kunalb (kunalb@kunalb.tmi.twitch.tv) has joined #aws
+2020-07-18 12:41:07	--	irc: disconnected from server

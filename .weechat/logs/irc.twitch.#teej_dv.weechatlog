@@ -1,0 +1,424 @@
+2020-07-09 20:05:51	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:05:51	--	Channel #teej_dv: 1 nick (0 ops, 0 voices, 1 normal)
+2020-07-09 20:05:51		-- Title is "[Neovim Core Dev][Lua] - Popup Api "
+2020-07-09 20:06:12	pikaprogram	lmao
+2020-07-09 20:06:33	stupac62	i tried mask: [[0,30, 1, 20]] and it crashed
+2020-07-09 20:06:34	stupac62	vim
+2020-07-09 20:06:53	-->	poe_brewinbob (poe_brewinbob@poe_brewinbob.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	stephenyeet (stephenyeet@stephenyeet.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	jjjetsetter (jjjetsetter@jjjetsetter.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	fredhawk (fredhawk@fredhawk.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	heroicmatt (heroicmatt@heroicmatt.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	wazabydev (wazabydev@wazabydev.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	danielcr101 (danielcr101@danielcr101.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	jackyalcine (jackyalcine@jackyalcine.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	stupac62 (stupac62@stupac62.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	jonexume77 (jonexume77@jonexume77.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	pikaprogram (pikaprogram@pikaprogram.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	lemonjuices12 (lemonjuices12@lemonjuices12.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	rainyy (rainyy@rainyy.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	misterforeigner (misterforeigner@misterforeigner.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	crypticwit (crypticwit@crypticwit.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	rustcompiler (rustcompiler@rustcompiler.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	lonewolf_n7 (lonewolf_n7@lonewolf_n7.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	relliknoon (relliknoon@relliknoon.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	jzelinskie (jzelinskie@jzelinskie.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	tomcat5555 (tomcat5555@tomcat5555.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	mccannch (mccannch@mccannch.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	tkdboy555 (tkdboy555@tkdboy555.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	muniter_ (muniter_@muniter_.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	fearms1 (fearms1@fearms1.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	sunzoje (sunzoje@sunzoje.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	tck3 (tck3@tck3.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	cuzzie91 (cuzzie91@cuzzie91.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	baraujo25 (baraujo25@baraujo25.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	electricallongboard (electricallongboard@electricallongboard.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	rubberslayer (rubberslayer@rubberslayer.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	commanderroot (commanderroot@commanderroot.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	teej_dv (teej_dv@teej_dv.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	bearclawwednesda (bearclawwednesda@bearclawwednesda.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	iron_mam_tony_stark (iron_mam_tony_stark@iron_mam_tony_stark.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	don_hizzy (don_hizzy@don_hizzy.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	aten (aten@aten.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	euclidianace (euclidianace@euclidianace.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:06:53	-->	hideoo (hideoo@hideoo.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:07:09	stupac62	try your hello world with mask: [[0,20, 1,1]]
+2020-07-09 20:07:22	stupac62	okay you got it
+2020-07-09 20:07:24	stupac62	I can't see it
+2020-07-09 20:07:35	stupac62	oh yeah it was when I cleared popup that it crashed
+2020-07-09 20:07:55	-->	plasticxme (plasticxme@plasticxme.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:08:00	pikaprogram	LUL
+2020-07-09 20:08:08	stupac62	mask: [[ 0, 30, 1, 20]] makes invisible the entire first row
+2020-07-09 20:08:18	stupac62	for "hello world"
+2020-07-09 20:08:32	stupac62	ROUNDED CORNERS BABY LUL LUL LUL
+2020-07-09 20:08:47	stupac62	mask for rounded corners hack
+2020-07-09 20:08:50	stupac62	just thinking
+2020-07-09 20:09:07	stupac62	read the docs again
+2020-07-09 20:09:14	stupac62	they show a example with 4 corners transparent
+2020-07-09 20:09:33	stupac62	To make the four corners transparent: [[1, 1, 1, 1], [-1, -1, 1, 1], [1, 1, -1, -1], [-1, -1, -1, -1]]
+2020-07-09 20:09:34	stupac62	from docs
+2020-07-09 20:09:56	<--	rustcompiler (rustcompiler@rustcompiler.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:10:53	stupac62	OMG try that ^
+2020-07-09 20:10:55	stupac62	it's so bad
+2020-07-09 20:11:14	jzelinskie	mdlayhGopher
+2020-07-09 20:11:21	stupac62	It's soo bad LUL
+2020-07-09 20:11:38	pikaprogram	LUL
+2020-07-09 20:11:41	stupac62	I have border: []
+2020-07-09 20:11:42	pikaprogram	wth is that
+2020-07-09 20:11:58	stupac62	LUL
+2020-07-09 20:12:01	pikaprogram	LMAO
+2020-07-09 20:12:06	pikaprogram	LUL LUL LUL LUL LUL
+2020-07-09 20:12:15	jzelinskie	i'm gonna write some vim malware that draws invisible windows all over the place
+2020-07-09 20:12:23	stupac62	like why?
+2020-07-09 20:12:57	stupac62	LUL
+2020-07-09 20:13:01	stupac62	I bet you could make an = sign
+2020-07-09 20:13:09	pikaprogram	some real r/unixporn guys
+2020-07-09 20:13:57	stupac62	[1,20,2,2] for making equal sign LUL
+2020-07-09 20:14:09	-->	loremipsumfoobar (loremipsumfoobar@loremipsumfoobar.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:14:09	-->	wickedelm (wickedelm@wickedelm.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:14:09	-->	iamzerofreak (iamzerofreak@iamzerofreak.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:14:26	haorenw	Yo TJ:)
+2020-07-09 20:14:52	jzelinskie	wtf
+2020-07-09 20:15:01	jzelinskie	the overlay is dope
+2020-07-09 20:15:13	stupac62	the string is "hello world" though for equal
+2020-07-09 20:15:24	haorenw	oh wow I haven't used vim in a long time so I know nothing about that..
+2020-07-09 20:15:44	stupac62	LUL
+2020-07-09 20:15:48	pikaprogram	is it bad to like backend more?
+2020-07-09 20:15:50	pikaprogram	LUL
+2020-07-09 20:16:06	stupac62	and they're gonna be better
+2020-07-09 20:16:15	-->	erickgnavar (erickgnavar@erickgnavar.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:16:15	-->	haorenw (haorenw@haorenw.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:16:15	-->	jadireddi (jadireddi@jadireddi.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:16:15	-->	lurxx (lurxx@lurxx.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:16:15	<--	stephenyeet (stephenyeet@stephenyeet.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:16:15	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:16:15	<--	loremipsumfoobar (loremipsumfoobar@loremipsumfoobar.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:16:25	stupac62	you better not implement that mask garbage haha
+2020-07-09 20:16:33	haorenw	Sounds great!
+2020-07-09 20:16:35	stupac62	Unless you find out what it's for
+2020-07-09 20:16:58	stupac62	Yeah, I get it. I'm just messing around
+2020-07-09 20:17:03	stupac62	I am curious what the heck it's for tho
+2020-07-09 20:18:18	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:18:18	<--	erickgnavar (erickgnavar@erickgnavar.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:18:18	<--	jadireddi (jadireddi@jadireddi.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:18:18	<--	wickedelm (wickedelm@wickedelm.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:18:54	pikaprogram	Pick a port number for me
+2020-07-09 20:19:17	teej_dv	83290
+2020-07-09 20:19:20	stupac62	1337
+2020-07-09 20:19:27	muniter_	Noo
+2020-07-09 20:19:31	stupac62	8008
+2020-07-09 20:19:35	pikaprogram	no leet allowed here LUL
+2020-07-09 20:19:48	stupac62	8675309
+2020-07-09 20:19:50	stupac62	LUL
+2020-07-09 20:20:00	stupac62	22
+2020-07-09 20:20:12	<--	euclidianace (euclidianace@euclidianace.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:20:18	pikaprogram	should be less or equal 65526
+2020-07-09 20:20:38	teej_dv	654321
+2020-07-09 20:20:42	teej_dv	65432
+2020-07-09 20:20:48	stupac62	@PikaProgram this is what it's in reference to https://youtu.be/6WTdTwcmxyo?t=51
+2020-07-09 20:21:09	stupac62	3389 a little msft rdp port LUL
+2020-07-09 20:22:11	-->	thiago9222 (thiago9222@thiago9222.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:23:51	stupac62	wrap is on by default
+2020-07-09 20:24:18	-->	sudqijawabreh (sudqijawabreh@sudqijawabreh.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:24:18	<--	thiago9222 (thiago9222@thiago9222.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:24:18	<--	plasticxme (plasticxme@plasticxme.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:26:05	pikaprogram	i need to go now, someone clip amber if she show up
+2020-07-09 20:26:08	pikaprogram	or is it a he
+2020-07-09 20:26:12	teej_dv	ember
+2020-07-09 20:26:19	pikaprogram	oh crap
+2020-07-09 20:26:32	-->	euclidianace (euclidianace@euclidianace.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:26:32	<--	wazabydev (wazabydev@wazabydev.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:26:50	stupac62	you proly need to walk around anyway
+2020-07-09 20:26:55	pikaprogram	i could stay for like a bit more
+2020-07-09 20:27:07	stupac62	good plan. then I can go to bed LUL
+2020-07-09 20:27:28	stupac62	or do I start a wes anderson movie.. Hmm
+2020-07-09 20:27:40	pikaprogram	yeah i just lurk
+2020-07-09 20:27:41	-->	barbatuul (barbatuul@barbatuul.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:27:41	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:27:41	<--	rainyy (rainyy@rainyy.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:28:31	stupac62	bottle rocket
+2020-07-09 20:28:44	stupac62	from 1996
+2020-07-09 20:28:50	stupac62	beginbot said it's funny
+2020-07-09 20:29:05	stupac62	was it a vim popup window?
+2020-07-09 20:29:46	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:29:46	-->	rainyy (rainyy@rainyy.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:29:46	-->	rustcompiler (rustcompiler@rustcompiler.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:29:46	<--	barbatuul (barbatuul@barbatuul.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:29:46	<--	jzelinskie (jzelinskie@jzelinskie.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:29:46	pikaprogram	good news, i dont have to go!
+2020-07-09 20:30:15	stupac62	i don't understand filter or filtermode
+2020-07-09 20:30:44	stupac62	why are you putting on one line?
+2020-07-09 20:31:56	-->	lamb003 (lamb003@lamb003.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:31:56	<--	rustcompiler (rustcompiler@rustcompiler.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:32:00	stupac62	i've never seen a scrollbar in vim
+2020-07-09 20:32:05	stupac62	but I am still a noob
+2020-07-09 20:32:20	haorenw	I think popup for completion also have scrollbar
+2020-07-09 20:32:38	stupac62	title?
+2020-07-09 20:32:58	muniter_	Hey tj, I'm going off.
+2020-07-09 20:33:02	muniter_	Thanks for the stream
+2020-07-09 20:33:05	muniter_	Have a good night
+2020-07-09 20:33:59	stupac62	it does have something. I can see like the scroll bar background but I don't have a scroll indicator showing where I'm at in the list
+2020-07-09 20:34:02	-->	igni_sign (igni_sign@igni_sign.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:34:02	<--	lamb003 (lamb003@lamb003.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:35:26	haorenw	Hmm not sure if it's the same thing though. If you have a super long completion you can see a bar in the side.
+2020-07-09 20:35:38	haorenw	I think you can test that with line completion?
+2020-07-09 20:35:45	stupac62	PmenuSbar
+2020-07-09 20:36:21	-->	nevmn (nevmn@nevmn.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:36:21	-->	nickshix (nickshix@nickshix.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:37:20	stupac62	close
+2020-07-09 20:37:37	haorenw	I think it'd be nice to have. Can be used in hover window of lsp:)
+2020-07-09 20:38:24	-->	suiiii (suiiii@suiiii.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:38:24	-->	gwalterix (gwalterix@gwalterix.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:38:24	<--	nickshix (nickshix@nickshix.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:40:31	<--	igni_sign (igni_sign@igni_sign.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:40:31	<--	lonewolf_n7 (lonewolf_n7@lonewolf_n7.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:40:31	<--	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:40:31	<--	nevmn (nevmn@nevmn.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:41:26	whatsinmyopsec	if a terminal emulator supports sixel can nvim show images?
+2020-07-09 20:41:31	zombiebrainz7800	hows it goin?
+2020-07-09 20:42:46	-->	whatsinmyopsec (whatsinmyopsec@whatsinmyopsec.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:42:46	-->	nevmn (nevmn@nevmn.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:42:46	-->	legotux (legotux@legotux.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:42:46	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:42:52	zombiebrainz7800	so I went to go play minecraft w my mom, I'm teaching her how to play the game
+2020-07-09 20:43:12	sunzoje	Thanks for the PrideRise @brydenfogelman
+2020-07-09 20:43:22	brydenfogelman	ANYTIME
+2020-07-09 20:43:31	whatsinmyopsec	plugin idea...
+2020-07-09 20:43:36	brydenfogelman	$$$$$
+2020-07-09 20:43:44	zombiebrainz7800	GG @brydenfogelman
+2020-07-09 20:44:08	stupac62	line, col, pos, posinvert, textprop, textpropwin, textpropid, fixed, flip, maxheight, minheight, maxwidth, minwidth, firstline, hidden, tabpage, title, wrap, drag, resize, close, highlight, padding, border, borderhighlight, borderchars, scrollbar, scrollbarhighlight, thumbhighlight, zindex, mask, time, moved, mousemoved, cursorline, filter, mapping, filtermode, callback
+2020-07-09 20:44:10	stupac62	all the options
+2020-07-09 20:44:22	zombiebrainz7800	like tooltips?
+2020-07-09 20:44:41	stupac62	yes no dialogue
+2020-07-09 20:44:43	-->	srgpqt (srgpqt@srgpqt.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:44:43	-->	vgalves (vgalves@vgalves.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:44:43	-->	brydenfogelman (brydenfogelman@brydenfogelman.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:44:43	-->	nestac (nestac@nestac.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:44:43	-->	moonaura123 (moonaura123@moonaura123.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:44:43	-->	zombiebrainz7800 (zombiebrainz7800@zombiebrainz7800.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:44:43	-->	craznk (craznk@craznk.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:44:43	<--	sudqijawabreh (sudqijawabreh@sudqijawabreh.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:44:43	<--	legotux (legotux@legotux.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:44:43	<--	iamzerofreak (iamzerofreak@iamzerofreak.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:45:18	teej_dv	https://github.com/nvim-lua/popup.nvim
+2020-07-09 20:45:19	zombiebrainz7800	ohhhh good
+2020-07-09 20:46:38	zombiebrainz7800	!discord
+2020-07-09 20:46:51	<--	craznk (craznk@craznk.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:46:51	<--	srgpqt (srgpqt@srgpqt.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:46:51	<--	moonaura123 (moonaura123@moonaura123.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:47:05	stupac62	!sub2teej_dv ;)
+2020-07-09 20:47:59	<--	gwalterix (gwalterix@gwalterix.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:47:59	<--	nestac (nestac@nestac.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:47:59	<--	whatsinmyopsec (whatsinmyopsec@whatsinmyopsec.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:47:59	<--	sunzoje (sunzoje@sunzoje.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:47:59	<--	hideoo (hideoo@hideoo.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:47:59	<--	muniter_ (muniter_@muniter_.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:48:15	zombiebrainz7800	could u drop some links?
+2020-07-09 20:48:16	stupac62	i missedit, what happened?
+2020-07-09 20:48:23	stupac62	!dotfiles
+2020-07-09 20:48:23	nightbot	Find my dotfiles here: https://github.com/tjdevries/config_manager/tree/master/xdg_config/nvim/
+2020-07-09 20:48:27	teej_dv	gitter.im
+2020-07-09 20:48:53	stupac62	OH LUL
+2020-07-09 20:49:02	sunzoje	https://gitter.im/neovim/neovim
+2020-07-09 20:49:30	zombiebrainz7800	thx @sunzoje
+2020-07-09 20:50:00	zombiebrainz7800	bookmarked
+2020-07-09 20:50:02	-->	hideoo (hideoo@hideoo.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:50:02	-->	gwalterix (gwalterix@gwalterix.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:50:02	-->	sunzoje (sunzoje@sunzoje.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:50:02	-->	tomaakola (tomaakola@tomaakola.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:50:02	<--	suiiii (suiiii@suiiii.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:50:02	<--	vgalves (vgalves@vgalves.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:50:49	stupac62	flip?
+2020-07-09 20:51:11	stupac62	OH didn't catch that
+2020-07-09 20:51:25	stupac62	I didn't know there were wishlist itmes in the docs haha
+2020-07-09 20:51:55	zombiebrainz7800	a laundry list huh
+2020-07-09 20:52:01	-->	otor0 (otor0@otor0.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:52:01	-->	cptvanko (cptvanko@cptvanko.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:52:01	<--	tomaakola (tomaakola@tomaakola.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:52:50	stupac62	zindex?
+2020-07-09 20:54:13	-->	suiiii (suiiii@suiiii.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:56:19	-->	neuromancer2 (neuromancer2@neuromancer2.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 20:56:19	<--	otor0 (otor0@otor0.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:56:19	<--	cptvanko (cptvanko@cptvanko.tmi.twitch.tv) has left #teej_dv
+2020-07-09 20:56:30	pikaprogram	i should do some personal project and not make it private on github
+2020-07-09 20:56:43	pikaprogram	LUL
+2020-07-09 20:57:00	stupac62	just do it on gitlab.. ;)
+2020-07-09 20:57:07	pikaprogram	fair enough
+2020-07-09 20:57:24	stupac62	@PikaProgram i'm just messing. you do you! :)
+2020-07-09 20:57:35	stupac62	scrollbar takes precedence
+2020-07-09 20:57:44	stupac62	or is it not a scrollbar? h
+2020-07-09 20:57:51	stupac62	ah
+2020-07-09 20:58:42	stupac62	no i think they each start at 0,0 and go to the end, but stop before next sides 0,0
+2020-07-09 20:59:06	stupac62	oh nvm the bottom and left are diff haha
+2020-07-09 21:00:35	stupac62	I'm heading out. have a good one!
+2020-07-09 21:00:39	<--	gwalterix (gwalterix@gwalterix.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:00:39	<--	neuromancer2 (neuromancer2@neuromancer2.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:01:12	stupac62	good laughs were had. great stream
+2020-07-09 21:01:23	pikaprogram	popup
+2020-07-09 21:01:24	stupac62	(jupyter plugin ;)
+2020-07-09 21:01:25	pikaprogram	LUL
+2020-07-09 21:01:41	zombiebrainz7800	great stream for sure
+2020-07-09 21:02:40	-->	imsnts (imsnts@imsnts.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:02:40	-->	relativeimpact (relativeimpact@relativeimpact.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:03:03	zombiebrainz7800	whats the next prodject for u?
+2020-07-09 21:03:38	zombiebrainz7800	nvm
+2020-07-09 21:03:57	zombiebrainz7800	I'll find out lol
+2020-07-09 21:04:53	-->	jack_mousseau (jack_mousseau@jack_mousseau.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:04:53	-->	roman553 (roman553@roman553.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:04:53	<--	imsnts (imsnts@imsnts.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:04:53	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:04:53	<--	relativeimpact (relativeimpact@relativeimpact.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:04:53	<--	danielcr101 (danielcr101@danielcr101.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:04:53	<--	stupac62 (stupac62@stupac62.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:05:40	sunzoje	what'll be feature-complete for nvim 0.5?
+2020-07-09 21:05:52	-->	xeo31 (xeo31@xeo31.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:05:52	-->	moonsh4ke (moonsh4ke@moonsh4ke.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:05:52	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:05:52	<--	roman553 (roman553@roman553.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:05:52	<--	jack_mousseau (jack_mousseau@jack_mousseau.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:06:22	euclidianace	related to nvim do you know if nvim modifes luas require other than changing the package paths?
+2020-07-09 21:06:24	pikaprogram	if lua didn't exists, which one will it use?
+2020-07-09 21:06:35	pikaprogram	nvim use *
+2020-07-09 21:07:53	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:07:53	-->	sergeiten (sergeiten@sergeiten.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:07:53	<--	moonsh4ke (moonsh4ke@moonsh4ke.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:07:53	<--	xeo31 (xeo31@xeo31.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:08:17	sunzoje	that'll be great. nvim-lsp is confusing sometime.
+2020-07-09 21:08:58	euclidianace	cuz if it doesnt modify it, putting a "lua require'tl'.loader()" should let you directly require teal files from a lua state
+2020-07-09 21:09:59	<--	brydenfogelman (brydenfogelman@brydenfogelman.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:09:59	<--	tomcat5555 (tomcat5555@tomcat5555.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:10:13	pikaprogram	which lang
+2020-07-09 21:11:29	euclidianace	python can be embedded but ive heard its a bit of a nightmare
+2020-07-09 21:11:55	sunzoje	micropython?
+2020-07-09 21:11:57	-->	sness23 (sness23@sness23.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:11:57	<--	tck3 (tck3@tck3.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:11:59	euclidianace	i think lisp is easily embeddable which is why emacs uses it
+2020-07-09 21:12:19	pikaprogram	Go?
+2020-07-09 21:12:51	euclidianace	embedding a compiled lang seems odd
+2020-07-09 21:12:54	pikaprogram	javascript LUL
+2020-07-09 21:13:10	haorenw	Maybe Rust LUL
+2020-07-09 21:13:18	pikaprogram	LUL
+2020-07-09 21:13:35	pikaprogram	Java LUL
+2020-07-09 21:13:52	pikaprogram	need a vps to compile
+2020-07-09 21:13:58	-->	baasherzombie (baasherzombie@baasherzombie.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:13:58	-->	relativeabsolute (relativeabsolute@relativeabsolute.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:13:58	<--	sness23 (sness23@sness23.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:14:01	zombiebrainz7800	C# LUL
+2020-07-09 21:14:16	pikaprogram	ember woofs
+2020-07-09 21:15:09	pikaprogram	lua is like a specific set of lang that pretty hard to replace
+2020-07-09 21:16:08	zombiebrainz7800	wow
+2020-07-09 21:16:14	haorenw	Wow TJ your good at that!
+2020-07-09 21:16:34	zombiebrainz7800	was it hard to set up?
+2020-07-09 21:16:53	-->	r0j0_jp (r0j0_jp@r0j0_jp.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:16:53	<--	electricallongboard (electricallongboard@electricallongboard.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:16:53	<--	suiiii (suiiii@suiiii.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:16:53	<--	sergeiten (sergeiten@sergeiten.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:16:53	<--	iron_mam_tony_stark (iron_mam_tony_stark@iron_mam_tony_stark.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:16:55	zombiebrainz7800	good
+2020-07-09 21:17:17	sunzoje	nice, let's wake up neighbors
+2020-07-09 21:17:22	haorenw	Sounds great
+2020-07-09 21:17:24	pikaprogram	lmao
+2020-07-09 21:17:34	pikaprogram	chat
+2020-07-09 21:18:03	-->	electricallongboard (electricallongboard@electricallongboard.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:18:03	-->	suiiii (suiiii@suiiii.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:18:03	<--	r0j0_jp (r0j0_jp@r0j0_jp.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:18:03	<--	baasherzombie (baasherzombie@baasherzombie.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:18:54	pikaprogram	no
+2020-07-09 21:18:55	zombiebrainz7800	adds
+2020-07-09 21:18:56	sunzoje	yup
+2020-07-09 21:18:59	haorenw	Yo
+2020-07-09 21:19:43	pikaprogram	yes
+2020-07-09 21:19:46	zombiebrainz7800	good plan great plannnnn!!!!!!!!
+2020-07-09 21:19:56	pikaprogram	11/10 camera angle
+2020-07-09 21:20:10	<--	fredhawk (fredhawk@fredhawk.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:20:10	<--	euclidianace (euclidianace@euclidianace.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:20:10	<--	rainyy (rainyy@rainyy.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:20:10	<--	nevmn (nevmn@nevmn.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:20:10	<--	poe_brewinbob (poe_brewinbob@poe_brewinbob.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:20:10	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:21:37	pikaprogram	now this is music
+2020-07-09 21:22:03	-->	nevmn (nevmn@nevmn.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:22:03	-->	rainyy (rainyy@rainyy.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:22:03	<--	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:22:03	<--	hideoo (hideoo@hideoo.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:22:03	<--	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:22:58	haorenw	Wow
+2020-07-09 21:23:03	pikaprogram	amazing
+2020-07-09 21:23:04	sunzoje	nice
+2020-07-09 21:23:07	haorenw	That's great
+2020-07-09 21:23:14	zombiebrainz7800	*clapping*
+2020-07-09 21:23:32	pikaprogram	CoolCat CoolCat CoolCat
+2020-07-09 21:23:51	zombiebrainz7800	wow 5?
+2020-07-09 21:24:06	zombiebrainz7800	ok bye man
+2020-07-09 21:24:10	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:24:10	-->	rvsantos (rvsantos@rvsantos.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:24:10	<--	jonexume77 (jonexume77@jonexume77.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:24:10	<--	heroicmatt (heroicmatt@heroicmatt.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:24:10	zombiebrainz7800	gn
+2020-07-09 21:24:12	pikaprogram	bye
+2020-07-09 21:24:25	sunzoje	gn all
+2020-07-09 21:24:34	haorenw	Night!
+2020-07-09 21:24:34	zombiebrainz7800	yea gn all
+2020-07-09 21:26:17	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:26:17	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:26:17	-->	jonexume77 (jonexume77@jonexume77.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:26:17	<--	sunzoje (sunzoje@sunzoje.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:26:17	<--	nevmn (nevmn@nevmn.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:28:23	<--	suiiii (suiiii@suiiii.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:28:23	<--	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:28:23	<--	haorenw (haorenw@haorenw.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:28:23	<--	zombiebrainz7800 (zombiebrainz7800@zombiebrainz7800.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:28:23	<--	pikaprogram (pikaprogram@pikaprogram.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:30:25	<--	rvsantos (rvsantos@rvsantos.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:30:25	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:30:25	<--	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:30:25	<--	don_hizzy (don_hizzy@don_hizzy.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:32:24	<--	mccannch (mccannch@mccannch.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:36:48	<--	bearclawwednesda (bearclawwednesda@bearclawwednesda.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:36:48	<--	jonexume77 (jonexume77@jonexume77.tmi.twitch.tv) has left #teej_dv
+2020-07-09 21:56:38	-->	mrlalobot (mrlalobot@mrlalobot.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 21:58:37	<--	mrlalobot (mrlalobot@mrlalobot.tmi.twitch.tv) has left #teej_dv
+2020-07-09 22:02:49	-->	hideoo (hideoo@hideoo.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 22:04:51	<--	commanderroot (commanderroot@commanderroot.tmi.twitch.tv) has left #teej_dv
+2020-07-09 22:04:51	<--	hideoo (hideoo@hideoo.tmi.twitch.tv) has left #teej_dv
+2020-07-09 22:16:33	<--	rainyy (rainyy@rainyy.tmi.twitch.tv) has left #teej_dv
+2020-07-09 22:18:41	-->	rainyy (rainyy@rainyy.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 22:34:45	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #teej_dv
+2020-07-09 22:36:49	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #teej_dv
+2020-07-09 22:36:49	<--	jjjetsetter (jjjetsetter@jjjetsetter.tmi.twitch.tv) has left #teej_dv
+2020-07-10 08:14:17	--	irc: disconnected from server
+2020-07-10 08:14:38	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 08:14:38	--	Channel #teej_dv: 1 nick (0 ops, 0 voices, 1 normal)
+2020-07-10 08:14:59	-->	crypticwit (crypticwit@crypticwit.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 08:14:59	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 08:14:59	-->	fearms1 (fearms1@fearms1.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 08:14:59	-->	haorenw (haorenw@haorenw.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 08:14:59	-->	jjjetsetter (jjjetsetter@jjjetsetter.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 08:14:59	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 08:14:59	-->	rainyy (rainyy@rainyy.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 08:14:59	-->	jonexume77 (jonexume77@jonexume77.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 08:14:59	-->	lurxx (lurxx@lurxx.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 08:14:59	-->	relliknoon (relliknoon@relliknoon.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 08:28:27	-->	simpathey (simpathey@simpathey.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 08:30:40	<--	simpathey (simpathey@simpathey.tmi.twitch.tv) has left #teej_dv
+2020-07-10 08:33:56	<--	haorenw (haorenw@haorenw.tmi.twitch.tv) has left #teej_dv
+2020-07-10 08:44:22	-->	haorenw (haorenw@haorenw.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 08:46:22	<--	rainyy (rainyy@rainyy.tmi.twitch.tv) has left #teej_dv
+2020-07-10 08:48:27	-->	rainyy (rainyy@rainyy.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 08:50:31	<--	haorenw (haorenw@haorenw.tmi.twitch.tv) has left #teej_dv
+2020-07-10 08:52:42	<--	jonexume77 (jonexume77@jonexume77.tmi.twitch.tv) has left #teej_dv
+2020-07-10 08:55:48	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #teej_dv
+2020-07-10 08:57:51	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 09:02:48	<--	rainyy (rainyy@rainyy.tmi.twitch.tv) has left #teej_dv
+2020-07-10 09:04:51	-->	rainyy (rainyy@rainyy.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 09:08:00	<--	relliknoon (relliknoon@relliknoon.tmi.twitch.tv) has left #teej_dv
+2020-07-10 09:10:13	-->	haorenw (haorenw@haorenw.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 09:20:48	-->	misterforeigner (misterforeigner@misterforeigner.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 09:23:57	<--	fearms1 (fearms1@fearms1.tmi.twitch.tv) has left #teej_dv
+2020-07-10 09:23:57	<--	haorenw (haorenw@haorenw.tmi.twitch.tv) has left #teej_dv
+2020-07-10 09:27:00	-->	fearms1 (fearms1@fearms1.tmi.twitch.tv) has joined #teej_dv
+2020-07-10 09:28:39	--	irc: disconnected from server

@@ -1,0 +1,1482 @@
+2020-08-24 16:36:40	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:36:40	--	Channel #mastermndio: 101 nicks (0 ops, 0 voices, 101 normals)
+2020-08-24 16:36:40		-- Title is "TRACKS! - Git Masterclass Pt 1 of 4 #Git"
+2020-08-24 16:36:47	stephenyeet	Microsoft has been doing great with open source though
+2020-08-24 16:36:51	stephenyeet	With the new CEo
+2020-08-24 16:37:31	bedwards89	was a windows admin in a shop that used old-style SVN and still does, I think the main difference being that SVN does NOT have distributed setup correct? A central server holds the source of truth.
+2020-08-24 16:37:49	the_she_boss	Yes, adding direct access to vscode
+2020-08-24 16:37:57	eyawson	It will be really nice if there was something comparable to aws macie in version control
+2020-08-24 16:38:07	stephenyeet	@mastermndio What do u think of github actions?
+2020-08-24 16:38:29	-->	ceo3p (ceo3p@ceo3p.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:38:29	-->	bai_tosh0 (bai_tosh0@bai_tosh0.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:38:29	<--	jaythedeveloper (jaythedeveloper@jaythedeveloper.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:38:29	<--	aliwolfi1 (aliwolfi1@aliwolfi1.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:38:29	<--	asdfmonkey (asdfmonkey@asdfmonkey.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:38:29	<--	themrsoftware (themrsoftware@themrsoftware.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:38:29	<--	dnbull (dnbull@dnbull.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:38:29	<--	donny_dee (donny_dee@donny_dee.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:38:29	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:40:17	987465416165	!youtube
+2020-08-24 16:40:17	nightbot	Subscribe to my youtube channel https://www.youtube.com/mastermndio
+2020-08-24 16:40:37	stephenyeet	You made bill gates sad :(
+2020-08-24 16:40:42	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:40:42	-->	thealtf4stream (thealtf4stream@thealtf4stream.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:40:42	-->	king_christoph212 (king_christoph212@king_christoph212.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:40:42	-->	recur_ (recur_@recur_.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:40:42	-->	sesquized (sesquized@sesquized.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:40:42	-->	societyofbeats (societyofbeats@societyofbeats.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:40:42	-->	dragonatom (dragonatom@dragonatom.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:40:42	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:40:42	<--	bai_tosh0 (bai_tosh0@bai_tosh0.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:40:42	<--	arsenelefacko (arsenelefacko@arsenelefacko.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:40:42	<--	windblow_ (windblow_@windblow_.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:40:42	<--	virtualassistant (virtualassistant@virtualassistant.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:41:25	crumbswastaken	Heyoo!
+2020-08-24 16:41:36	rougue_cow	Sad Gates :(
+2020-08-24 16:41:53	flavcreations	Hundred dollar bills? Pretty sure his bills have more than 2 0s :D
+2020-08-24 16:42:26	stephenyeet	I didn't like it when I did it ;/
+2020-08-24 16:42:27	rougue_cow	he uses amex centurion
+2020-08-24 16:42:38	neopeace	i left github back before they didn't have any free private repos
+2020-08-24 16:42:55	-->	tdroque (tdroque@tdroque.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:42:55	-->	orunmila1 (orunmila1@orunmila1.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:42:55	-->	tyonar (tyonar@tyonar.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:42:55	-->	crumbswastaken (crumbswastaken@crumbswastaken.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:42:55	-->	flavcreations (flavcreations@flavcreations.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:42:55	-->	universe (universe@universe.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:42:55	<--	new_winds (new_winds@new_winds.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:42:55	<--	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:42:55	<--	thealtf4stream (thealtf4stream@thealtf4stream.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:43:18	bedwards89	we're in the process of moving from github enterprise to gitlab. Lower price and the CI/CD is solid
+2020-08-24 16:44:24	knohr	Back in time to say "what about codecommit?" :P
+2020-08-24 16:44:33	stephenyeet	Ew....
+2020-08-24 16:44:45	rougue_cow	atlassian is a good platform
+2020-08-24 16:45:01	-->	tsgt_green (tsgt_green@tsgt_green.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:45:01	-->	tacbliw (tacbliw@tacbliw.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:45:01	-->	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:45:01	-->	pthedev (pthedev@pthedev.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:45:01	-->	dreadedrasta (dreadedrasta@dreadedrasta.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:45:01	-->	gosupotential (gosupotential@gosupotential.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:45:01	-->	bryptik (bryptik@bryptik.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:45:01	-->	peteraramaldes (peteraramaldes@peteraramaldes.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:45:01	-->	dreammee (dreammee@dreammee.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:45:01	<--	blinkythemage_ (blinkythemage_@blinkythemage_.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:45:01	<--	tyonar (tyonar@tyonar.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:45:01	<--	sweethali (sweethali@sweethali.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:45:11	knohr	CodeCommit is great, it's GIT but webhooks don't constantly go down ;)
+2020-08-24 16:45:43	rougue_cow	like you said atlassian tools are more geared towards enterprise users
+2020-08-24 16:46:02	flavcreations	CI/CD?
+2020-08-24 16:46:44	rougue_cow	continous integrations/continous deployment
+2020-08-24 16:47:06	-->	knohr (knohr@knohr.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:47:06	-->	shapeelectronics (shapeelectronics@shapeelectronics.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:47:06	-->	two_eight (two_eight@two_eight.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:47:06	<--	nfantome (nfantome@nfantome.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:47:06	<--	jjmc89 (jjmc89@jjmc89.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:47:06	<--	blackmikewhite (blackmikewhite@blackmikewhite.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:47:06	<--	pthedev (pthedev@pthedev.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:47:06	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:47:06	<--	king_christoph212 (king_christoph212@king_christoph212.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:47:14	flavcreations	ahh I see, thanks :D
+2020-08-24 16:47:35	bedwards89	Jira and confluence are great, nobody needs HIpchat
+2020-08-24 16:47:42	rollerss	I have you tried Azure DevOps?
+2020-08-24 16:47:46	rougue_cow	i love jira and confluence. as you said they are the best at what they do
+2020-08-24 16:47:53	the_she_boss	Sounds like how I feel about apple lol. Good in their space but sucks otherwise. Don't @ me
+2020-08-24 16:48:11	-->	faberfaaabe (faberfaaabe@faberfaaabe.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:48:11	-->	blackmikewhite (blackmikewhite@blackmikewhite.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:48:11	-->	erikdotdev (erikdotdev@erikdotdev.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:48:11	-->	pinotnoirsuperstar (pinotnoirsuperstar@pinotnoirsuperstar.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:48:11	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:48:11	<--	nanoaquila (nanoaquila@nanoaquila.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:48:40	societyofbeats	Dope that Jira is free now
+2020-08-24 16:48:44	stephenyeet	@mastermndio Future of the cloud?
+2020-08-24 16:49:06	officiallyjustkidding	Thinkpads are the best
+2020-08-24 16:49:31	sillybaboy	then you'll love dell rugged notebooks if you like to drop them :P
+2020-08-24 16:49:37	stephenyeet	New term coming out called OpsDev including CI/CD I think
+2020-08-24 16:50:04	erikdotdev	it's like calling VMs "AWS" or "Azure"
+2020-08-24 16:50:14	piq9117	"git is to github, as porn is to pornhub" from what i read from reddit once
+2020-08-24 16:50:17	sillybaboy	or "put them down very rapidly"
+2020-08-24 16:50:44	knohr	ah yes, good old DevSecPerfOps
+2020-08-24 16:51:09	stephenyeet	We really out here
+2020-08-24 16:51:21	-->	panhandier (panhandier@panhandier.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:51:21	-->	astayonix (astayonix@astayonix.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:51:21	-->	piotr_ilych (piotr_ilych@piotr_ilych.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:51:21	-->	acid_spark (acid_spark@acid_spark.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:51:21	-->	nanoaquila (nanoaquila@nanoaquila.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:51:21	<--	ceo3p (ceo3p@ceo3p.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:51:21	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:51:21	<--	mulattoexpress (mulattoexpress@mulattoexpress.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:51:21	<--	two_eight (two_eight@two_eight.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:51:32	officiallyjustkidding	Will this stream be available to watch later tonight?
+2020-08-24 16:51:38	sincity909	Python and Javascript porn on Github..:)
+2020-08-24 16:51:49	sillybaboy	oh boy there are graphical interfaces? :O
+2020-08-24 16:51:57	rougue_cow	command line??? But but thats my favourite place for control
+2020-08-24 16:52:01	crumbswastaken	the best mnemonic's are often a little edgy haha
+2020-08-24 16:52:05	beobachtereffekt	@sincity909 Kreygasm
+2020-08-24 16:52:34	knohr	python porn? you mean " if 1 < b < c < d: doSomething()"? one of my favorite python features :D
+2020-08-24 16:52:44	userzpoi	how long does it take to learn git on avarage?
+2020-08-24 16:52:57	tookietookie	git history SirPrise
+2020-08-24 16:53:07	stephenyeet	@mastermndio Best way to do pull request rerviews with git
+2020-08-24 16:53:13	mrdemonwolf	Git good Kappa
+2020-08-24 16:53:13	the_she_boss	The GUI is helpful but git is most powerful in the command line IMO
+2020-08-24 16:53:23	knohr	Is GitFlow part of this course?
+2020-08-24 16:53:26	-->	ryhig (ryhig@ryhig.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:53:26	-->	bromythical (bromythical@bromythical.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:53:26	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:53:26	-->	vcervantes1970 (vcervantes1970@vcervantes1970.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:53:26	<--	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:53:26	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:53:26	<--	malicexo (malicexo@malicexo.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:53:26	<--	flavcreations (flavcreations@flavcreations.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:53:26	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:53:40	mrdemonwolf	Got my server working with private networking on IPV6 mrdemo1Pog
+2020-08-24 16:53:41	rougue_cow	git is like othello, a minute to learn, a lifetime to master
+2020-08-24 16:53:47	knohr	GUIs are excuses to play with tools instead of write code ;)
+2020-08-24 16:53:50	the_she_boss	Getting good at git (say that 5 times fast) requires constant use
+2020-08-24 16:54:31	-->	bigjamdod (bigjamdod@bigjamdod.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:54:31	-->	drottin (drottin@drottin.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:54:31	-->	ryan1473 (ryan1473@ryan1473.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:54:31	-->	zerostheory (zerostheory@zerostheory.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:54:31	-->	pawnmuncher (pawnmuncher@pawnmuncher.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:54:31	-->	felixspitzer (felixspitzer@felixspitzer.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:54:31	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:54:31	-->	userzpoi (userzpoi@userzpoi.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:54:31	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:54:31	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:54:31	-->	moneymakingd72 (moneymakingd72@moneymakingd72.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:54:31	<--	piotr_ilych (piotr_ilych@piotr_ilych.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:54:31	<--	societyofbeats (societyofbeats@societyofbeats.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:54:31	<--	vcervantes1970 (vcervantes1970@vcervantes1970.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:54:48	userzpoi	how is github diffrent from gitlab?
+2020-08-24 16:54:56	gamingmetrichard	Will this stream be a video as well?
+2020-08-24 16:55:00	eyawson	open vscode; git pull; git status; start working..... commit and then a world of errors
+2020-08-24 16:55:03	987465416165	what is being installed rn?
+2020-08-24 16:55:20	knohr	they are both companies that provide access to hosted "git". They have different tools to support you as a developer.
+2020-08-24 16:55:20	astayonix	When did you start your SWE journey?
+2020-08-24 16:55:33	gamingmetrichard	!youtube
+2020-08-24 16:55:33	nightbot	Subscribe to my youtube channel https://www.youtube.com/mastermndio
+2020-08-24 16:55:51	987465416165	okay thanks
+2020-08-24 16:56:17	ruemouffetard	I use git for personal projects, but I have never used it for peer programming. I'm sure i'll learn something here, thanks for the stream man
+2020-08-24 16:56:28	rougue_cow	git install git?
+2020-08-24 16:56:40	-->	malicexo (malicexo@malicexo.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:56:40	-->	theswurtle12 (theswurtle12@theswurtle12.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:56:40	<--	tdroque (tdroque@tdroque.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:56:40	<--	sesquized (sesquized@sesquized.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:56:40	<--	zerostheory (zerostheory@zerostheory.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:56:40	<--	bigjamdod (bigjamdod@bigjamdod.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:56:40	<--	felixspitzer (felixspitzer@felixspitzer.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:57:10	tookietookie	muted :D
+2020-08-24 16:57:11	mastermndio	one sec
+2020-08-24 16:57:11	pinotnoirsuperstar	that's like chicken install egg
+2020-08-24 16:57:14	the_she_boss	@Rougue_Cow it will be git init but there's a bit more to learn first. I'm sure he'll get into it
+2020-08-24 16:57:19	stephenyeet	What do u write in tho
+2020-08-24 16:57:24	joeysbytes	no sound
+2020-08-24 16:57:25	knohr	damn you pingdom! :P
+2020-08-24 16:57:33	sincity909	audio gone?
+2020-08-24 16:57:38	tookietookie	just type @mastermndio
+2020-08-24 16:57:41	knohr	yeh
+2020-08-24 16:57:42	mastermndio	yup , its my mixer
+2020-08-24 16:57:45	the_she_boss	@StephenYeet He normally writes in GO and python
+2020-08-24 16:57:45	userzpoi	no audio
+2020-08-24 16:57:49	rougue_cow	one sec
+2020-08-24 16:57:51	maztercom	audio crash
+2020-08-24 16:57:55	beobachtereffekt	git push audio away ;D
+2020-08-24 16:57:55	shamukhan	show off that wpm
+2020-08-24 16:57:58	bedwards89	@StephenYeet my diary.
+2020-08-24 16:58:02	stephenyeet	back to 2010 where tutorials were written in text versus audio
+2020-08-24 16:58:03	knohr	welp, text2speech the rest of the stream
+2020-08-24 16:58:08	astayonix	Audio?
+2020-08-24 16:58:17	knohr	"jite is a great solution"
+2020-08-24 16:58:28	sillybaboy	monkaS
+2020-08-24 16:58:32	maztercom	plug off
+2020-08-24 16:58:36	-->	bastlwe (bastlwe@bastlwe.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:58:36	-->	ruemouffetard (ruemouffetard@ruemouffetard.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:58:36	-->	marss112 (marss112@marss112.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:58:36	-->	sir_danielson (sir_danielson@sir_danielson.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 16:58:36	<--	moneymakingd72 (moneymakingd72@moneymakingd72.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:58:36	<--	shapeelectronics (shapeelectronics@shapeelectronics.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:58:36	<--	ryhig (ryhig@ryhig.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:58:36	<--	recur_ (recur_@recur_.tmi.twitch.tv) has left #mastermndio
+2020-08-24 16:58:41	king_christoph212	!tracks
+2020-08-24 16:58:46	eyawson	Big Brain Club?
+2020-08-24 16:58:53	neopeace	damn windows
+2020-08-24 16:59:01	beobachtereffekt	so many silence out there ;D
+2020-08-24 16:59:01	rougue_cow	Windows am i right :)
+2020-08-24 16:59:06	mastermndio	almost there
+2020-08-24 16:59:08	the_she_boss	Insert windows joke here lol!
+2020-08-24 16:59:10	eyawson	lolol @neopeace
+2020-08-24 16:59:14	knohr	Any other devops in the channel? ^5 if so
+2020-08-24 16:59:15	the_she_boss	I knew they were coming
+2020-08-24 16:59:37	rougue_cow	^5ish
+2020-08-24 16:59:37	sincity909	maybe the audio out source got switched by plugging something in
+2020-08-24 16:59:43	userzpoi	audio conspiracy TheIlluminati
+2020-08-24 16:59:45	sincity909	Windows always messed with settings
+2020-08-24 16:59:48	eyawson	We out here @knohr
+2020-08-24 16:59:59	knohr	heck yeh
+2020-08-24 17:00:10	tjobremannen	its bill gates who sent a audio block because he got sad :(
+2020-08-24 17:00:12	rougue_cow	you know why you shouldnt install windows in an existing house, because they will always close
+2020-08-24 17:00:12	knohr	may your on-call schedule be merciful
+2020-08-24 17:00:20	mastermndio	No its the goxlr itself, my hand hit it. gonna restart the stream master353SOB
+2020-08-24 17:00:31	beobachtereffekt	usb? plug it off and on again ;D
+2020-08-24 17:00:42	stephenyeet	This has turned into a mime stream
+2020-08-24 17:00:45	-->	king_christoph212 (king_christoph212@king_christoph212.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:00:45	-->	maztercom (maztercom@maztercom.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:00:45	-->	desma3 (desma3@desma3.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:00:45	-->	laughnowcrynever (laughnowcrynever@laughnowcrynever.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:00:45	-->	edufilipes (edufilipes@edufilipes.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:00:45	<--	sir_danielson (sir_danielson@sir_danielson.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:00:45	<--	tryptsomnus (tryptsomnus@tryptsomnus.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:00:45	<--	marss112 (marss112@marss112.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:00:45	<--	tacbliw (tacbliw@tacbliw.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:00:45	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:00:45	<--	bromythical (bromythical@bromythical.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:00:45	<--	david3chorvath (david3chorvath@david3chorvath.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:00:45	<--	malicexo (malicexo@malicexo.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:00:53	 *	rougue_cow plays elevator music
+2020-08-24 17:00:54	sincity909	LOL
+2020-08-24 17:00:54	knohr	good to know...i just backordered a goxlr
+2020-08-24 17:00:55	the_she_boss	"Did you turn it off then on again?"
+2020-08-24 17:00:56	eyawson	Yello!
+2020-08-24 17:00:59	sincity909	sign language teaching GIT
+2020-08-24 17:01:06	mastermndio	sigh
+2020-08-24 17:01:08	joeysbytes	guess we all need to learn sign language fast
+2020-08-24 17:01:11	knohr	everyone restack the furniture, quick, change the screensavers!
+2020-08-24 17:01:15	astayonix	:D
+2020-08-24 17:01:18	knohr	oh wait, he can still see us
+2020-08-24 17:01:20	mastermndio	this happened once before, I'll be back in like 45 seconds
+2020-08-24 17:01:20	tjobremannen	https://www.youtube.com/watch?v=VBlFHuCzPgY
+2020-08-24 17:01:27	mastermndio	haha yea I can see you
+2020-08-24 17:01:45	rougue_cow	Does that mean we have to be good?
+2020-08-24 17:01:52	eyawson	Folks Discord is growing muscles!
+2020-08-24 17:02:00	beobachtereffekt	O_o
+2020-08-24 17:02:04	knohr	Someone said they were working with Azure. What's that like? I only drink AWS Koolaid, but have heard good things about MS
+2020-08-24 17:02:40	dajoramos	WutFace
+2020-08-24 17:02:54	-->	bluesmokemonster (bluesmokemonster@bluesmokemonster.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:02:54	-->	mrprofessoryib3 (mrprofessoryib3@mrprofessoryib3.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:02:54	-->	prestonkeeley (prestonkeeley@prestonkeeley.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:02:54	-->	dumpertalk (dumpertalk@dumpertalk.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:02:54	<--	edufilipes (edufilipes@edufilipes.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:02:54	<--	desma3 (desma3@desma3.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:02:54	<--	ryan1473 (ryan1473@ryan1473.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:02:55	bedwards89	you've heard good things about MS? MS caused THIS.
+2020-08-24 17:03:25	mastermndio	okay, were back i think
+2020-08-24 17:03:26	stephenyeet	Has it been 45 seconds
+2020-08-24 17:03:29	knohr	Underpaid driver developers caused this ;)
+2020-08-24 17:03:31	sincity909	Yea spend $3000 on a mac this wouldnt happen
+2020-08-24 17:03:34	eyawson	@mastermndio had to delete the cloudformation stack and rebuild. He will be here in5 seconds
+2020-08-24 17:03:35	beobachtereffekt	wb
+2020-08-24 17:03:45	tookietookie	aleluia :D
+2020-08-24 17:04:05	astayonix	Huzzah!
+2020-08-24 17:04:07	knohr	master353COMPUTE master353LOL
+2020-08-24 17:04:09	the_she_boss	why hello there
+2020-08-24 17:04:27	sincity909	Damn USB plug and play
+2020-08-24 17:04:30	987465416165	my sound works now
+2020-08-24 17:04:36	knohr	@mastermndio A recent windows update hit audio drivers, after stream double check that your Default Devices are correct.
+2020-08-24 17:04:57	-->	desma3 (desma3@desma3.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:04:57	-->	chadb_d_n00b (chadb_d_n00b@chadb_d_n00b.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:04:57	-->	vtcn_ (vtcn_@vtcn_.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:04:57	<--	king_christoph212 (king_christoph212@king_christoph212.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:04:57	<--	userzpoi (userzpoi@userzpoi.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:04:57	<--	prestonkeeley (prestonkeeley@prestonkeeley.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:04:57	<--	shamukhan (shamukhan@shamukhan.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:04:57	<--	laughnowcrynever (laughnowcrynever@laughnowcrynever.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:04:57	<--	macattack138 (macattack138@macattack138.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:04:57	<--	stonecoldstreamaustin (stonecoldstreamaustin@stonecoldstreamaustin.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:04:57	<--	bluesmokemonster (bluesmokemonster@bluesmokemonster.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:04:57	<--	dfdx2 (dfdx2@dfdx2.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:04:57	<--	pawnmuncher (pawnmuncher@pawnmuncher.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:05:11	stephenyeet	@mastermndio maybe we can do a open source project on steam?
+2020-08-24 17:05:12	knohr	Always too much to know ><
+2020-08-24 17:05:28	mastermndio	https://git-scm.com/downloads
+2020-08-24 17:05:32	knohr	at least until neuralink launches
+2020-08-24 17:05:54	-->	doc_jones (doc_jones@doc_jones.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:05:54	-->	ashlybr1 (ashlybr1@ashlybr1.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:05:54	-->	xmetrix (xmetrix@xmetrix.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:05:54	-->	dfdx2 (dfdx2@dfdx2.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:05:54	<--	maztercom (maztercom@maztercom.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:05:54	<--	nuislance (nuislance@nuislance.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:05:54	<--	orunmila1 (orunmila1@orunmila1.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:05:54	<--	whatsinmyopsec (whatsinmyopsec@whatsinmyopsec.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:05:55	the_she_boss	or sudo apt install git on wsl2
+2020-08-24 17:06:23	the_she_boss	git-bash was the go-to before windows terminal came out
+2020-08-24 17:07:30	joeysbytes	git bash would be the best way to learn git command line
+2020-08-24 17:07:38	knohr	Chocolatey is useful if you are starting development on windows. It's a package manger for windows. After installed, you can use "choco install git"
+2020-08-24 17:07:44	sincity909	Git also works in WSL
+2020-08-24 17:07:45	knohr	oh it's listed nm
+2020-08-24 17:07:58	sincity909	Gitbash if you dont want to mess with WSL
+2020-08-24 17:08:45	tookietookie	winget install git
+2020-08-24 17:08:47	astayonix	Anaconda distro has conda package manager. I use that on my Windows box.
+2020-08-24 17:08:59	madpeanut	windows people also have "winget" now, officially from MS
+2020-08-24 17:09:11	-->	987465416165 (987465416165@987465416165.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:09:11	-->	ploxier2 (ploxier2@ploxier2.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:09:11	-->	hjenyc83 (hjenyc83@hjenyc83.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:09:11	-->	kicho94 (kicho94@kicho94.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:09:11	<--	ruemouffetard (ruemouffetard@ruemouffetard.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:09:11	<--	erikdotdev (erikdotdev@erikdotdev.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:09:11	<--	bastlwe (bastlwe@bastlwe.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:09:11	<--	xmetrix (xmetrix@xmetrix.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:09:11	<--	theswurtle12 (theswurtle12@theswurtle12.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:09:11	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:09:11	<--	l3thaln3ss (l3thaln3ss@l3thaln3ss.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:09:11	<--	blackmikewhite (blackmikewhite@blackmikewhite.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:09:11	<--	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:09:11	<--	mrdemonwolf (mrdemonwolf@mrdemonwolf.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:09:11	<--	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:09:16	knohr	Smart. A lot of kiddies might be starting out with limited storage space on their pcs.
+2020-08-24 17:10:18	the_she_boss	Same for students. I have to use it for work and school
+2020-08-24 17:10:23	-->	1lucasvinicius (1lucasvinicius@1lucasvinicius.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:10:23	<--	kicho94 (kicho94@kicho94.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:10:23	<--	drottin (drottin@drottin.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:10:23	<--	bryptik (bryptik@bryptik.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:10:23	<--	987465416165 (987465416165@987465416165.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:10:23	<--	ploxier2 (ploxier2@ploxier2.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:10:45	neopeace	im starting to like wsl2. i almost have it to a point where i can just use wsl
+2020-08-24 17:10:52	tookietookie	winget-cli is getting better slowly
+2020-08-24 17:11:39	sincity909	You should check out Microsoft Flight simulator since you said you wanted to be a fighter pilot.. kinda different but get to fly a plan without leaving your seat
+2020-08-24 17:11:49	neopeace	one thing that bugs me about windows terminal is that you have to change the tab color everytime you launch it.
+2020-08-24 17:11:57	knohr	There's more than this, but this cheat sheet will cover 95% of what you will do ["git clone", "git checkout", "git branch", "git rebase", "git stash", "git push", "git rm", "git commit"] <--If you are new, copy this.
+2020-08-24 17:12:18	-->	shamukhan (shamukhan@shamukhan.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:12:18	-->	sala19 (sala19@sala19.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:12:18	<--	1lucasvinicius (1lucasvinicius@1lucasvinicius.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:12:18	<--	gamingmetrichard (gamingmetrichard@gamingmetrichard.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:12:18	<--	acid_spark (acid_spark@acid_spark.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:12:18	<--	chadb_d_n00b (chadb_d_n00b@chadb_d_n00b.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:12:18	<--	doc_jones (doc_jones@doc_jones.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:12:18	<--	vtcn_ (vtcn_@vtcn_.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:12:18	<--	gipatrick (gipatrick@gipatrick.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:12:38	atraxx	No problem, going through your devops course on youtube
+2020-08-24 17:12:41	the_she_boss	"git pull" should definitely be in that list
+2020-08-24 17:12:57	knohr	yes it should, dunno how i missed that
+2020-08-24 17:13:00	the_she_boss	and "git add"
+2020-08-24 17:13:17	the_she_boss	Nice list though!
+2020-08-24 17:13:18	knohr	that too, thank you
+2020-08-24 17:13:25	987465416165	what I installed is called gitBASH
+2020-08-24 17:13:48	987465416165	lul xD "I have the best words"
+2020-08-24 17:13:49	the_she_boss	git bash will do what you need it to do
+2020-08-24 17:14:01	987465416165	okay thx
+2020-08-24 17:14:03	dajoramos	master353LOL
+2020-08-24 17:14:54	the_she_boss	WORD PLAY!
+2020-08-24 17:14:56	atraxx	!slack
+2020-08-24 17:14:57	nightbot	https://join.slack.com/t/mastermnd/shared_invite/enQtODMwNTY3MDg4MzA0LTE1NDkzNGFjYWZlODkxYWFkZGFhMmU2NDk1NzVmNWFjMjc1MGFhZGU0ZDFhZGM2OTkxOWFmNGU0ODJlMWRlMGE
+2020-08-24 17:15:21	shamukhan	can't forget it with execution like that
+2020-08-24 17:15:33	eyawson	@mastermndio commited a word play. This branch is ahead of master
+2020-08-24 17:15:37	-->	atraxx (atraxx@atraxx.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:15:37	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:15:37	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:15:37	-->	doc_jones (doc_jones@doc_jones.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:15:37	-->	malicexo (malicexo@malicexo.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:15:37	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:15:37	-->	drottin (drottin@drottin.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:15:37	-->	soulpawa (soulpawa@soulpawa.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:15:37	<--	piq9117 (piq9117@piq9117.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:15:37	stephenyeet	spoilers!
+2020-08-24 17:16:17	shamukhan	right? hit him with that /s!
+2020-08-24 17:16:23	knohr	Dr Strange uses git to apply an emergency patch. Got it
+2020-08-24 17:16:40	-->	th3hunter_ (th3hunter_@th3hunter_.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:16:40	-->	the_nonoy (the_nonoy@the_nonoy.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:16:40	-->	987465416165 (987465416165@987465416165.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:16:40	<--	soulpawa (soulpawa@soulpawa.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:16:40	<--	ashlybr1 (ashlybr1@ashlybr1.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:16:40	<--	bedwards89 (bedwards89@bedwards89.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:17:11	shamukhan	Dr strange used stackoverflow and called it AI
+2020-08-24 17:17:15	shamukhan	Kappa
+2020-08-24 17:17:39	astayonix	I have just found your stream from the livecoders page. Do you recommend any other livecoders?
+2020-08-24 17:17:46	tjobremannen	0x0004
+2020-08-24 17:18:14	knohr	wait, he just did a "curl ... | bash" ? greaaat no wonder we ended up with 2020
+2020-08-24 17:18:39	-->	theswurtle12 (theswurtle12@theswurtle12.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:18:39	-->	fatcowdisease (fatcowdisease@fatcowdisease.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:18:39	-->	bedwards89 (bedwards89@bedwards89.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:18:39	<--	desma3 (desma3@desma3.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:18:39	<--	sala19 (sala19@sala19.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:18:39	<--	laethum (laethum@laethum.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:18:39	<--	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:18:39	<--	987465416165 (987465416165@987465416165.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:18:39	<--	z33ky (z33ky@z33ky.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:18:39	<--	tookietookie (tookietookie@tookietookie.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:18:39	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:18:48	eyawson	@knohr master353LOL master353LOL master353LOL master353LOL
+2020-08-24 17:19:03	the_she_boss	@Astayonix There are soooo many! Coding Garden with CJ, cmgriffing, JitterTed, NepaFX
+2020-08-24 17:19:12	sillybaboy	I just stepped on a PSU FeelsBadMan
+2020-08-24 17:19:21	shamukhan	cringe26 knohr
+2020-08-24 17:19:31	crumbswastaken	@strager blows minds
+2020-08-24 17:19:35	the_she_boss	NipaFX (correcting spelling)
+2020-08-24 17:19:42	astayonix	Thanks!
+2020-08-24 17:20:15	madpeanut	maybe i should start streaming, and ya'll can come laugh at me 🤔
+2020-08-24 17:20:17	the_she_boss	@Astayonix what language are you most interested in?
+2020-08-24 17:20:52	astayonix	@THE_SHE_BOSS Python and Javascript :)
+2020-08-24 17:20:58	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:20:58	-->	blackmikewhite (blackmikewhite@blackmikewhite.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:20:58	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:20:58	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:20:58	<--	marko_dev (marko_dev@marko_dev.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:20:58	<--	malicexo (malicexo@malicexo.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:20:58	<--	teddymcw (teddymcw@teddymcw.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:20:58	<--	th3hunter_ (th3hunter_@th3hunter_.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:20:58	<--	atraxx (atraxx@atraxx.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:21:34	knohr	@MadPeanut do it, we need more content creators :)
+2020-08-24 17:21:36	the_she_boss	Yeah, that list will be great for you. Nipa and JitterTed are more Java based but they do some JS. The rest are mostly JS, some python.
+2020-08-24 17:21:53	the_she_boss	^ I agree
+2020-08-24 17:21:54	eyawson	Git checkout cmgriffing
+2020-08-24 17:22:02	-->	frequency_hop (frequency_hop@frequency_hop.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:22:02	-->	evelardiez (evelardiez@evelardiez.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:22:02	-->	migzm (migzm@migzm.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:22:02	<--	faberfaaabe (faberfaaabe@faberfaaabe.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:22:02	<--	drottin (drottin@drottin.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:22:02	<--	slaythor (slaythor@slaythor.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:22:10	knohr	and the community is pretty supportive. as long as your not a dirty emacs heathen.
+2020-08-24 17:22:13	astayonix	Thank you so much for the recommenation!
+2020-08-24 17:22:23	--	irc: disconnected from server
+2020-08-24 17:56:24	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:56:24	--	Channel #mastermndio: 102 nicks (0 ops, 0 voices, 102 normals)
+2020-08-24 17:56:24		-- Title is "TRACKS! - Git Masterclass Pt 1 of 4 #Git"
+2020-08-24 17:56:36	crumbswastaken	Tahsnk @anon
+2020-08-24 17:56:40	crumbswastaken	for the sub
+2020-08-24 17:56:42	eateren	I think I could name my baby Hydra PixelBob
+2020-08-24 17:56:43	crumbswastaken	<3
+2020-08-24 17:57:05	neopeace	i use irc so i don't know what any of these emotes look like rip
+2020-08-24 17:57:06	astayonix	I remember when only Bitbucket had free tier private repos.
+2020-08-24 17:57:59	astayonix	IRC in 2020? :) . Wow! :)
+2020-08-24 17:58:12	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:58:12	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:58:12	-->	doccoones (doccoones@doccoones.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 17:58:12	<--	devoted_monk (devoted_monk@devoted_monk.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:58:12	<--	j_gets (j_gets@j_gets.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:58:12	<--	tjobremannen (tjobremannen@tjobremannen.tmi.twitch.tv) has left #mastermndio
+2020-08-24 17:58:16	shamukhan	irc never dies
+2020-08-24 17:58:31	astayonix	True! ❤️
+2020-08-24 17:58:42	rougue_cow	#6667IsLife
+2020-08-24 17:58:44	the_she_boss	https://www.toptal.com/developers/gitignore is wonderful for creating your gitignore
+2020-08-24 17:58:57	shamukhan	wait are you watching in irc right now neopeace?
+2020-08-24 17:59:20	eternaldevcoder	How's your Monday going @mastermndio ?
+2020-08-24 18:00:03	astayonix	ALWAYS HTTPS!
+2020-08-24 18:00:39	-->	eternaldevcoder (eternaldevcoder@eternaldevcoder.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:00:39	-->	theprimgod (theprimgod@theprimgod.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:00:39	<--	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:00:39	<--	superflycks (superflycks@superflycks.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:00:39	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:00:39	<--	kagato75 (kagato75@kagato75.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:00:39	<--	universe (universe@universe.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:00:39	<--	knohr (knohr@knohr.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:01:24	neopeace	yea lol 
+2020-08-24 18:02:20	the_she_boss	Na SSH all the way (only if you're comfortable is SSH keys and such)
+2020-08-24 18:02:32	-->	saunaofmen (saunaofmen@saunaofmen.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:02:32	-->	viableclanmember (viableclanmember@viableclanmember.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:02:32	-->	bobjoeal (bobjoeal@bobjoeal.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:02:32	-->	aenopixel (aenopixel@aenopixel.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:02:32	-->	unodosthree (unodosthree@unodosthree.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:02:32	-->	omarmiranda (omarmiranda@omarmiranda.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:02:32	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:02:32	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:02:32	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:02:32	-->	hopsain (hopsain@hopsain.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:02:32	-->	gregf_ (gregf_@gregf_.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:02:32	<--	blackmikewhite (blackmikewhite@blackmikewhite.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:02:32	<--	stephenyeet (stephenyeet@stephenyeet.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:02:40	scriptautomate	ls -l # On Linux/Mac, but ls will work fine in PowerShell on Windows
+2020-08-24 18:02:50	toddlibby	I use SSH as well
+2020-08-24 18:02:51	scriptautomate	I'm also a huge fan of SSH as opposed to HTTPS for git
+2020-08-24 18:03:04	eateren	i use Windows! ("Im in danger" voice)
+2020-08-24 18:03:06	neopeace	https://imgur.com/a/13h8rif
+2020-08-24 18:03:43	astayonix	That is pretty cool! :)
+2020-08-24 18:04:01	sincity909	how did you get the chat in IRC thats cool
+2020-08-24 18:04:32	frequency_hop	what DE are you using @neopeace ?
+2020-08-24 18:04:34	shamukhan	nicely done neopeace!
+2020-08-24 18:04:38	-->	cgodc (cgodc@cgodc.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:04:38	-->	jpreyer (jpreyer@jpreyer.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:04:38	-->	stephenyeet (stephenyeet@stephenyeet.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:04:38	-->	sweethali (sweethali@sweethali.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:04:38	-->	zamuro89 (zamuro89@zamuro89.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:04:38	-->	nobleyad (nobleyad@nobleyad.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:04:38	<--	saunaofmen (saunaofmen@saunaofmen.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:04:38	<--	gregf_ (gregf_@gregf_.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:04:38	<--	aenopixel (aenopixel@aenopixel.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:05:10	scriptautomate	For @eateren and others: If on Windows, and wanting to go into the land of Windows Subsystem for Linux (WSL), checkout my gist as a starting place: https://gist.github.com/ScriptAutomate/f94cd44dacd0f420fae65414e717212d -- gets Ubuntu in WSL locally. There is also a link to get Chocolatey setup on Windows, which allows you to do things like install git automatically from within PowerShell
+2020-08-24 18:05:27	neopeace	im using arch. irc is weechat and i search twitch using streamlink and that launches a video player
+2020-08-24 18:06:17	toddlibby	I use status all the time to make sure I know what I got going on before I goof it up
+2020-08-24 18:06:32	-->	baggiotwitch15934 (baggiotwitch15934@baggiotwitch15934.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:06:32	-->	r0j0_jp (r0j0_jp@r0j0_jp.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:06:32	-->	skumshop (skumshop@skumshop.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:06:32	<--	ant_man617 (ant_man617@ant_man617.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:06:32	<--	zamuro89 (zamuro89@zamuro89.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:06:32	<--	bobjoeal (bobjoeal@bobjoeal.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:06:32	<--	crumbswastaken (crumbswastaken@crumbswastaken.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:06:32	<--	viableclanmember (viableclanmember@viableclanmember.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:06:32	<--	unodosthree (unodosthree@unodosthree.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:06:47	eateren	@scriptautomate thanks!
+2020-08-24 18:07:06	the_she_boss	git config --global alias.l "log --oneline --graph --decorate --all"
+2020-08-24 18:07:07	julttik	what if I got the fatal not a git repository?
+2020-08-24 18:07:28	neopeace	julttik: you need to create the repo in github first
+2020-08-24 18:07:33	the_she_boss	git config --global alias.s "status -s"
+2020-08-24 18:07:37	sincity909	@jutlik you have to go into that directory
+2020-08-24 18:07:40	sincity909	then CD into it
+2020-08-24 18:07:45	shamukhan	thanks neopeace! looks like I have to peek a look at arch now
+2020-08-24 18:08:23	the_she_boss	Those aliases make status and log easy to work with and nice to look at 8-)
+2020-08-24 18:08:28	neopeace	@shamukhan i'll whisper you some screenshots of my setup
+2020-08-24 18:08:39	-->	jumpingw0rm (jumpingw0rm@jumpingw0rm.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:08:39	-->	nosuchmethodexception (nosuchmethodexception@nosuchmethodexception.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:08:39	-->	jerome_devz (jerome_devz@jerome_devz.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:08:39	-->	unodosthree (unodosthree@unodosthree.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:08:39	-->	isniperteamdango (isniperteamdango@isniperteamdango.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:08:39	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:08:39	<--	jundishi (jundishi@jundishi.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:08:39	<--	codewithsean (codewithsean@codewithsean.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:08:39	<--	nobleyad (nobleyad@nobleyad.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:08:39	<--	hopsain (hopsain@hopsain.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:10:11	scriptautomate	Chocolatey bootstrap for folks on Windows systems, to help get git and other tools automatically installed and setup: https://gist.github.com/ScriptAutomate/02e0cf33786f869740ee963ed6a913c1 :)
+2020-08-24 18:10:41	-->	al_degenaar (al_degenaar@al_degenaar.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:10:41	-->	j_gets (j_gets@j_gets.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:10:41	-->	blackmikewhite (blackmikewhite@blackmikewhite.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:10:41	-->	dfdx2 (dfdx2@dfdx2.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:10:41	<--	isniperteamdango (isniperteamdango@isniperteamdango.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:10:41	<--	omarmiranda (omarmiranda@omarmiranda.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:10:41	<--	rednecktech51 (rednecktech51@rednecktech51.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:10:59	rowgibbs	That good ol green you see after you run git add
+2020-08-24 18:12:38	toddlibby	or git add * to add all files
+2020-08-24 18:12:59	-->	rednecktech51 (rednecktech51@rednecktech51.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:12:59	<--	cmatskas (cmatskas@cmatskas.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:12:59	<--	j_gets (j_gets@j_gets.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:12:59	<--	jumpingw0rm (jumpingw0rm@jumpingw0rm.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:12:59	<--	r0j0_jp (r0j0_jp@r0j0_jp.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:13:14	eyawson	Does it matter the tense of the commit message?
+2020-08-24 18:13:17	scriptautomate	git commit -p # Get prompts based on modifications you've made and want to commit
+2020-08-24 18:13:27	the_she_boss	I was wondering how you format your messages lol "there's a debate there"
+2020-08-24 18:13:32	sincity909	how do you do it so you dont have to authorize with your pass/login when you want to git push?
+2020-08-24 18:14:00	-->	sunjava (sunjava@sunjava.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:14:00	-->	benzkid89 (benzkid89@benzkid89.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:14:00	-->	pondduck (pondduck@pondduck.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:14:00	-->	jahbuhdahut (jahbuhdahut@jahbuhdahut.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:14:00	-->	bjkegley (bjkegley@bjkegley.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:14:00	<--	unodosthree (unodosthree@unodosthree.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:14:07	rowgibbs	so between git commit -m or -a what do you advise?
+2020-08-24 18:14:24	the_she_boss	I was taught when first learning that your message should answer the question "if working probably, this commit should...". ie "update description ..."
+2020-08-24 18:15:18	sincity909	What if Im afraid of "commit"ment? lol
+2020-08-24 18:15:22	bedwards89	our team uses commit -a because we require a subjectline and then a detailed message about what/why the commit
+2020-08-24 18:15:48	rowgibbs	@sincity909 then you go git "entangle"ment
+2020-08-24 18:15:54	the_she_boss	@sincity909 lol nice
+2020-08-24 18:16:48	scriptautomate	@sincity909 One of the reasons people go the SSH route is to no longer need to do this: https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
+2020-08-24 18:17:13	-->	mrsmoofy (mrsmoofy@mrsmoofy.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:17:13	-->	alex_warlock (alex_warlock@alex_warlock.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:17:13	<--	jahbuhdahut (jahbuhdahut@jahbuhdahut.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:17:13	<--	sunjava (sunjava@sunjava.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:17:13	<--	bjkegley (bjkegley@bjkegley.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:17:38	neopeace	https://imgur.com/a/4glqmMn my setup
+2020-08-24 18:17:39	sincity909	ya entering a password/log is annoying for every push
+2020-08-24 18:18:05	the_she_boss	@scriptautomate you're a much better helper than me. I just answer questions, you answer with links! Nice
+2020-08-24 18:18:14	-->	mrdemonwolf (mrdemonwolf@mrdemonwolf.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:18:14	-->	mrdeviate (mrdeviate@mrdeviate.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:18:14	<--	benzkid89 (benzkid89@benzkid89.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:18:14	<--	blackmikewhite (blackmikewhite@blackmikewhite.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:18:14	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:18:14	<--	pondduck (pondduck@pondduck.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:18:14	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:18:14	<--	dragonatom (dragonatom@dragonatom.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:18:21	scriptautomate	;D
+2020-08-24 18:18:37	bedwards89	(But of course, always read the code and understand it before blindly running someone else's code.)
+2020-08-24 18:18:45	mrdemonwolf	Wait you work for the goverment
+2020-08-24 18:19:08	astayonix	Srsly! Jaw on the floor! What's it like working at the SBA?
+2020-08-24 18:19:46	shamukhan	everyone works for the government
+2020-08-24 18:19:49	the_she_boss	Now you don't have name your files v1, v2, v3... anymore! Oh the beauty of version control
+2020-08-24 18:19:52	knohr	caugh branch caugh
+2020-08-24 18:20:03	shamukhan	unless you don't pay taxes I suppose
+2020-08-24 18:20:04	eyawson	do you recommend pull frequently?
+2020-08-24 18:20:12	astayonix	Yeah. Checking branch is super important.
+2020-08-24 18:20:29	sincity909	https://media.giphy.com/media/j5Qgf8rf2VYnoWH3SY/giphy.gif
+2020-08-24 18:20:33	bedwards89	powershell_script_v1.5.6.9.fixed.ps1
+2020-08-24 18:20:34	-->	hhqr (hhqr@hhqr.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:20:34	-->	knohr (knohr@knohr.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:20:34	-->	eljefededarto (eljefededarto@eljefededarto.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:20:34	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:20:34	-->	cbxpounce (cbxpounce@cbxpounce.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:20:34	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:20:34	-->	averysaltybiscuitwizard (averysaltybiscuitwizard@averysaltybiscuitwizard.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:20:34	-->	darthpantaloons (darthpantaloons@darthpantaloons.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:20:34	<--	fatcowdisease (fatcowdisease@fatcowdisease.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:20:34	<--	dreammee (dreammee@dreammee.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:20:34	<--	rougue_cow (rougue_cow@rougue_cow.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:20:52	scriptautomate	Big fan of vscode
+2020-08-24 18:20:55	bedwards89	^my old life
+2020-08-24 18:21:23	shamukhan	not gonna lie I finally fixed adcopyv3.ps1
+2020-08-24 18:21:32	wa7ch	The new version of VS Code has an even better interface
+2020-08-24 18:21:36	the_she_boss	IntelliJ's git inclusion is also great. I use vscode for smaller projects and IntelliJ for larger projects
+2020-08-24 18:21:43	sincity909	wait is this an extension for VS code?
+2020-08-24 18:21:43	wa7ch	For that git side of the app
+2020-08-24 18:22:06	eyawson	I relied on it for a while and forgot cli commands
+2020-08-24 18:22:13	sincity909	makes sense MS bought them
+2020-08-24 18:22:26	astayonix	^_^
+2020-08-24 18:22:27	-->	fatcowdisease (fatcowdisease@fatcowdisease.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:22:27	-->	hirez (hirez@hirez.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:22:27	-->	cipher18j (cipher18j@cipher18j.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:22:27	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:22:27	<--	eternaldevcoder (eternaldevcoder@eternaldevcoder.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:22:27	<--	averysaltybiscuitwizard (averysaltybiscuitwizard@averysaltybiscuitwizard.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:22:27	<--	eyawson (eyawson@eyawson.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:22:27	<--	darthpantaloons (darthpantaloons@darthpantaloons.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:22:28	joeysbytes	you can also double-click your file in vscode to see the file differences
+2020-08-24 18:22:33	shamukhan	they do like to buy good shit to be fair
+2020-08-24 18:22:58	the_she_boss	git log
+2020-08-24 18:23:02	scriptautomate	To upgrade your git game and insight with vscode, run this at the cli: code --install-extension eamodio.gitlens # Gives extra cool insight into your project as to who added what lines and when
+2020-08-24 18:23:06	shamukhan	they make something (mixer, zune) well...
+2020-08-24 18:23:23	eyawson	get git lens extension if you use vscode lol
+2020-08-24 18:23:38	sincity909	and they run it out of business.. lol
+2020-08-24 18:24:00	astayonix	What is the music or channel that you use in the stream?
+2020-08-24 18:24:07	sincity909	Git Gud at Git!!
+2020-08-24 18:24:28	-->	eyawson (eyawson@eyawson.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:24:28	-->	zamuro89 (zamuro89@zamuro89.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:24:28	-->	elddik (elddik@elddik.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:24:28	-->	togoforfood (togoforfood@togoforfood.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:24:28	-->	lil_reaper1 (lil_reaper1@lil_reaper1.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:24:28	<--	dfdx2 (dfdx2@dfdx2.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:24:28	<--	knohr (knohr@knohr.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:24:28	<--	cipher18j (cipher18j@cipher18j.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:24:28	<--	doc_jones (doc_jones@doc_jones.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:24:28	<--	mrdemonwolf (mrdemonwolf@mrdemonwolf.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:24:29	shamukhan	sudo git gud
+2020-08-24 18:24:32	shamukhan	Kappa
+2020-08-24 18:24:41	scriptautomate	For some good git ref for common mistakes: https://dangitgit.com/
+2020-08-24 18:24:49	eyawson	master353LOL
+2020-08-24 18:24:50	sillybaboy	git gud
+2020-08-24 18:25:41	rowgibbs	Git your Groove On!!!
+2020-08-24 18:25:46	neopeace	i learned git on my own. watched a couple of videos before but damn im really enjoying this course/stream. 
+2020-08-24 18:25:57	sincity909	What are they sneak peak?
+2020-08-24 18:25:59	the_she_boss	Status Add Commit Push - S A C P - Sometimes A Computer Prints lol. That's probably not a use mnemonic
+2020-08-24 18:26:00	eateren	thank you!
+2020-08-24 18:26:01	eyawson	Git on discord!
+2020-08-24 18:26:09	toddlibby	Enjoyed this. Thanks @mastermndio !
+2020-08-24 18:26:26	shamukhan	4part kubes!
+2020-08-24 18:26:41	shamukhan	kubes for days!
+2020-08-24 18:26:42	sincity909	Mastermnd for president of Devops country!
+2020-08-24 18:26:46	astayonix	Great session! Appreciate you!
+2020-08-24 18:26:51	scriptautomate	@THE_SHE_BOSS Awesome haha
+2020-08-24 18:27:00	neopeace	oh you in the east coast
+2020-08-24 18:27:03	eyawson	I'm gonna be working as devops engineer the end of the year thanks to you
+2020-08-24 18:27:11	barkbell	git is the best
+2020-08-24 18:27:31	-->	swagboori (swagboori@swagboori.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:27:31	-->	astroterfprime (astroterfprime@astroterfprime.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:27:31	<--	wa7ch (wa7ch@wa7ch.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:27:31	<--	ataz30 (ataz30@ataz30.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:27:31	<--	togoforfood (togoforfood@togoforfood.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:27:31	<--	frequency_hop (frequency_hop@frequency_hop.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:27:31	<--	alex_warlock (alex_warlock@alex_warlock.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:27:31	<--	jonwilsonmn (jonwilsonmn@jonwilsonmn.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:27:31	<--	eljefededarto (eljefededarto@eljefededarto.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:27:31	<--	hampsterj (hampsterj@hampsterj.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:27:31	<--	nosuchmethodexception (nosuchmethodexception@nosuchmethodexception.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:27:52	scriptautomate	Bonus: If you have a GitHub account, you can auth against GitLab with your GitHub account without having to make an entirely new account for that repository site
+2020-08-24 18:28:00	rookie1337	Will you be touching on pruning?
+2020-08-24 18:28:03	sillybaboy	git status, git commit, git gud
+2020-08-24 18:28:32	-->	ianrlivingstone (ianrlivingstone@ianrlivingstone.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:28:32	-->	not_a_pumpkin (not_a_pumpkin@not_a_pumpkin.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:28:32	-->	thechrisdrew (thechrisdrew@thechrisdrew.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:28:32	-->	shoestros (shoestros@shoestros.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:28:32	<--	cthulhuplus (cthulhuplus@cthulhuplus.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:28:32	<--	hhqr (hhqr@hhqr.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:28:32	<--	astroterfprime (astroterfprime@astroterfprime.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:28:32	<--	julttik (julttik@julttik.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:28:32	<--	swagboori (swagboori@swagboori.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:28:32	<--	joeysbytes (joeysbytes@joeysbytes.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:28:39	toddlibby	Have a great night!
+2020-08-24 18:28:41	the_she_boss	Last semester in school, @mastermndio going full time, this fall is going to be great!
+2020-08-24 18:28:42	sillybaboy	grim just came online
+2020-08-24 18:28:45	sillybaboy	rw_grim
+2020-08-24 18:28:49	sincity909	to bad Lana Lux isnt on she is hot
+2020-08-24 18:28:56	the_she_boss	melkydev is on
+2020-08-24 18:29:21	rollerss	can you raid roxkstar74
+2020-08-24 18:29:37	astayonix	Do you have a specific raid message?
+2020-08-24 18:30:06	sillybaboy	goodguy mastermnd, has no adblocker
+2020-08-24 18:30:34	-->	purkinje_ (purkinje_@purkinje_.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:30:34	-->	gofunc (gofunc@gofunc.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:30:34	<--	swonder92 (swonder92@swonder92.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:30:34	<--	theswurtle12 (theswurtle12@theswurtle12.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:30:34	<--	not_a_pumpkin (not_a_pumpkin@not_a_pumpkin.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:30:34	<--	neopran (neopran@neopran.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:30:34	<--	hurikennn (hurikennn@hurikennn.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:30:38	the_she_boss	master353COMPUTE RAID
+2020-08-24 18:30:42	sillybaboy	ok bye
+2020-08-24 18:30:45	sillybaboy	big boi
+2020-08-24 18:30:50	scriptautomate	https://www.twitch.tv/roxkstar74
+2020-08-24 18:32:41	-->	swonder92 (swonder92@swonder92.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:32:41	-->	tevieb (tevieb@tevieb.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:32:41	-->	hurikennn (hurikennn@hurikennn.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:32:41	-->	universe (universe@universe.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:32:41	<--	lachiu (lachiu@lachiu.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	sincity909 (sincity909@sincity909.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	dumpertalk (dumpertalk@dumpertalk.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	ur_levelup (ur_levelup@ur_levelup.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	ianrlivingstone (ianrlivingstone@ianrlivingstone.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	theprimgod (theprimgod@theprimgod.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	rollerss (rollerss@rollerss.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	doccoones (doccoones@doccoones.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	sheared07 (sheared07@sheared07.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	tsgt_green (tsgt_green@tsgt_green.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	rimastino (rimastino@rimastino.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	baggiotwitch15934 (baggiotwitch15934@baggiotwitch15934.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	rednecktech51 (rednecktech51@rednecktech51.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	cbxpounce (cbxpounce@cbxpounce.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	bedwards89 (bedwards89@bedwards89.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	shamukhan (shamukhan@shamukhan.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	ikarus456 (ikarus456@ikarus456.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	toddlibby (toddlibby@toddlibby.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	cgodc (cgodc@cgodc.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	teischente (teischente@teischente.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	mrsmoofy (mrsmoofy@mrsmoofy.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	madpeanut (madpeanut@madpeanut.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	xbash001 (xbash001@xbash001.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:32:41	<--	eateren (eateren@eateren.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:34:29	--	irc: disconnected from server
+2020-08-24 18:34:33	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:34:33	--	Channel #mastermndio: 76 nicks (0 ops, 0 voices, 76 normals)
+2020-08-24 18:35:00	-->	its_jay_phillz (its_jay_phillz@its_jay_phillz.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:35:00	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:35:00	<--	swonder92 (swonder92@swonder92.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	rowgibbs (rowgibbs@rowgibbs.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	hurikennn (hurikennn@hurikennn.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	lacerated_digits (lacerated_digits@lacerated_digits.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	eyawson (eyawson@eyawson.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	faberfaaabe (faberfaaabe@faberfaaabe.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	kik369 (kik369@kik369.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	techbek (techbek@techbek.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	hjenyc83 (hjenyc83@hjenyc83.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	zamuro89 (zamuro89@zamuro89.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	dajoramos (dajoramos@dajoramos.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	gofunc (gofunc@gofunc.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	hubzado (hubzado@hubzado.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	sillybaboy (sillybaboy@sillybaboy.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	shoestros (shoestros@shoestros.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	al_degenaar (al_degenaar@al_degenaar.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	stephenyeet (stephenyeet@stephenyeet.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	the_nonoy (the_nonoy@the_nonoy.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	zaid_se (zaid_se@zaid_se.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	wadevi (wadevi@wadevi.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	excessive0 (excessive0@excessive0.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	elddik (elddik@elddik.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	scriptautomate (scriptautomate@scriptautomate.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	gard1ok (gard1ok@gard1ok.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	evelardiez (evelardiez@evelardiez.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	pocketkk_22 (pocketkk_22@pocketkk_22.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	officiallyjustkidding (officiallyjustkidding@officiallyjustkidding.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	annacodes (annacodes@annacodes.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	chaoxs2mvp (chaoxs2mvp@chaoxs2mvp.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	collussus13 (collussus13@collussus13.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	jpreyer (jpreyer@jpreyer.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	itsnovalis (itsnovalis@itsnovalis.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	foreignlive (foreignlive@foreignlive.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	dreadedrasta (dreadedrasta@dreadedrasta.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	novedies (novedies@novedies.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	shaun_cameron (shaun_cameron@shaun_cameron.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	thechrisdrew (thechrisdrew@thechrisdrew.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	rookie1337 (rookie1337@rookie1337.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	the_she_boss (the_she_boss@the_she_boss.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	anesst (anesst@anesst.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	finickydev (finickydev@finickydev.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	nanoaquila (nanoaquila@nanoaquila.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	hirez (hirez@hirez.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	beobachtereffekt (beobachtereffekt@beobachtereffekt.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	tevieb (tevieb@tevieb.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	nelpers (nelpers@nelpers.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	mrprofessoryib3 (mrprofessoryib3@mrprofessoryib3.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	nethercleft (nethercleft@nethercleft.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	pewwtd (pewwtd@pewwtd.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	bot34935 (bot34935@bot34935.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	cookiebow (cookiebow@cookiebow.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	purkinje_ (purkinje_@purkinje_.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	fatcowdisease (fatcowdisease@fatcowdisease.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	lil_reaper1 (lil_reaper1@lil_reaper1.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	jerome_devz (jerome_devz@jerome_devz.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:35:00	<--	astayonix (astayonix@astayonix.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:36:02	-->	eyawson (eyawson@eyawson.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:36:02	<--	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:36:02	<--	mrdeviate (mrdeviate@mrdeviate.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:36:02	<--	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:36:02	<--	its_jay_phillz (its_jay_phillz@its_jay_phillz.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:36:02	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:39:15	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:39:15	-->	cyprus07007 (cyprus07007@cyprus07007.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:40:21	<--	cyprus07007 (cyprus07007@cyprus07007.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:43:35	-->	vtcn_ (vtcn_@vtcn_.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:44:37	-->	teischente (teischente@teischente.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:44:37	<--	bryptik (bryptik@bryptik.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:44:37	<--	vtcn_ (vtcn_@vtcn_.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:46:33	-->	pondduck (pondduck@pondduck.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:46:33	<--	eyawson (eyawson@eyawson.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:50:58	<--	feet (feet@feet.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:52:09	-->	tsgt_green (tsgt_green@tsgt_green.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:56:29	-->	unarmedzombie (unarmedzombie@unarmedzombie.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 18:58:22	<--	unarmedzombie (unarmedzombie@unarmedzombie.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:58:22	<--	universe (universe@universe.tmi.twitch.tv) has left #mastermndio
+2020-08-24 18:58:22	<--	mastermndio (mastermndio@mastermndio.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:00:30	-->	quelninn (quelninn@quelninn.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 19:02:35	-->	bryptik (bryptik@bryptik.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 19:02:35	<--	quelninn (quelninn@quelninn.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:06:54	-->	ikarus456 (ikarus456@ikarus456.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 19:06:54	<--	commanderroot (commanderroot@commanderroot.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:11:09	-->	roxkstar74 (roxkstar74@roxkstar74.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 19:11:09	-->	mastermndio (mastermndio@mastermndio.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 19:11:09	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:13:16	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 19:13:16	<--	roxkstar74 (roxkstar74@roxkstar74.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:13:16	<--	mastermndio (mastermndio@mastermndio.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:15:27	<--	bryptik (bryptik@bryptik.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:15:27	<--	ikarus456 (ikarus456@ikarus456.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:16:31	-->	raaslyn (raaslyn@raaslyn.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 19:21:31	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:22:27	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 19:24:32	<--	borkstick (borkstick@borkstick.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:24:32	<--	pondduck (pondduck@pondduck.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:24:32	<--	teischente (teischente@teischente.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:27:40	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 19:27:40	-->	eyawson (eyawson@eyawson.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 19:27:40	<--	raaslyn (raaslyn@raaslyn.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:31:41	<--	tsgt_green (tsgt_green@tsgt_green.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:32:50	-->	cmatskas (cmatskas@cmatskas.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 19:36:55	<--	eyawson (eyawson@eyawson.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:51:34	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:52:48	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 19:54:47	<--	cmatskas (cmatskas@cmatskas.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:56:53	<--	borkstick (borkstick@borkstick.tmi.twitch.tv) has left #mastermndio
+2020-08-24 19:58:55	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 20:00:48	-->	eyawson (eyawson@eyawson.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 20:09:10	-->	gard1ok (gard1ok@gard1ok.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 20:14:24	-->	tsgt_green (tsgt_green@tsgt_green.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 20:16:29	<--	gosupotential (gosupotential@gosupotential.tmi.twitch.tv) has left #mastermndio
+2020-08-24 20:19:31	<--	sweethali (sweethali@sweethali.tmi.twitch.tv) has left #mastermndio
+2020-08-24 20:19:31	<--	mr (mr@mr.tmi.twitch.tv) has left #mastermndio
+2020-08-24 20:21:41	-->	mr (mr@mr.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 20:21:41	-->	sweethali (sweethali@sweethali.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 20:22:36	<--	eyawson (eyawson@eyawson.tmi.twitch.tv) has left #mastermndio
+2020-08-24 20:29:00	-->	captainfiddytucks (captainfiddytucks@captainfiddytucks.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 20:29:00	<--	tsgt_green (tsgt_green@tsgt_green.tmi.twitch.tv) has left #mastermndio
+2020-08-24 20:35:18	<--	captainfiddytucks (captainfiddytucks@captainfiddytucks.tmi.twitch.tv) has left #mastermndio
+2020-08-24 20:35:18	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-24 20:37:21	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 20:41:30	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #mastermndio
+2020-08-24 20:43:29	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 20:43:29	<--	sweethali (sweethali@sweethali.tmi.twitch.tv) has left #mastermndio
+2020-08-24 20:43:29	<--	mr (mr@mr.tmi.twitch.tv) has left #mastermndio
+2020-08-24 20:44:37	-->	sweethali (sweethali@sweethali.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 20:44:37	-->	mr (mr@mr.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 20:47:47	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-24 20:48:54	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 20:55:02	<--	skumshop (skumshop@skumshop.tmi.twitch.tv) has left #mastermndio
+2020-08-24 20:57:07	-->	skumshop (skumshop@skumshop.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 21:06:37	<--	borkstick (borkstick@borkstick.tmi.twitch.tv) has left #mastermndio
+2020-08-24 21:09:53	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 21:10:51	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #mastermndio
+2020-08-24 21:12:52	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 21:27:50	<--	dinu (dinu@dinu.tmi.twitch.tv) has left #mastermndio
+2020-08-24 21:28:56	-->	dinu (dinu@dinu.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 21:57:13	<--	mr (mr@mr.tmi.twitch.tv) has left #mastermndio
+2020-08-24 21:57:13	<--	sweethali (sweethali@sweethali.tmi.twitch.tv) has left #mastermndio
+2020-08-24 21:57:13	<--	borkstick (borkstick@borkstick.tmi.twitch.tv) has left #mastermndio
+2020-08-24 21:59:32	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 21:59:32	-->	sweethali (sweethali@sweethali.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 21:59:32	-->	mr (mr@mr.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 22:01:40	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #mastermndio
+2020-08-24 22:03:37	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 22:08:51	-->	bhavinjparmar (bhavinjparmar@bhavinjparmar.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 22:08:51	-->	darwinjm (darwinjm@darwinjm.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 22:08:51	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #mastermndio
+2020-08-24 22:10:55	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 22:13:55	<--	darwinjm (darwinjm@darwinjm.tmi.twitch.tv) has left #mastermndio
+2020-08-24 22:16:06	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-24 22:17:58	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 22:17:58	-->	cmatskas (cmatskas@cmatskas.tmi.twitch.tv) has joined #mastermndio
+2020-08-24 22:21:50	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-25 07:51:59	--	irc: disconnected from server
+2020-08-25 07:52:34	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 07:52:35	--	Channel #mastermndio: 9 nicks (0 ops, 0 voices, 9 normals)
+2020-08-25 07:53:47	--	irc: disconnected from server
+2020-08-25 07:53:52	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 07:53:53	--	Channel #mastermndio: 1 nick (0 ops, 0 voices, 1 normal)
+2020-08-25 07:55:14	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 07:55:14	-->	clashofcodebot (clashofcodebot@clashofcodebot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 07:55:14	-->	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 07:55:14	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 07:55:14	-->	panhandier (panhandier@panhandier.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 07:55:14	-->	skumshop (skumshop@skumshop.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 07:55:14	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 07:57:22	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 07:58:54	--	irc: disconnected from server
+2020-08-25 07:58:58	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 07:58:58	--	Channel #mastermndio: 9 nicks (0 ops, 0 voices, 9 normals)
+2020-08-25 07:59:59	-->	tdroque (tdroque@tdroque.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 08:00:58	<--	tdroque (tdroque@tdroque.tmi.twitch.tv) has left #mastermndio
+2020-08-25 08:03:29	--	irc: disconnected from server
+2020-08-25 08:03:33	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 08:03:33	--	Channel #mastermndio: 1 nick (0 ops, 0 voices, 1 normal)
+2020-08-25 08:04:27	-->	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 08:04:27	-->	panhandier (panhandier@panhandier.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 08:04:27	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 08:04:27	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 08:04:27	-->	skumshop (skumshop@skumshop.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 08:04:27	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 08:04:27	-->	clashofcodebot (clashofcodebot@clashofcodebot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 08:04:27	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 08:12:38	--	irc: disconnected from server
+2020-08-25 13:44:50	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 13:44:50	--	Channel #mastermndio: 9 nicks (0 ops, 0 voices, 9 normals)
+2020-08-25 13:47:04	-->	bryptik (bryptik@bryptik.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 13:48:53	--	irc: disconnected from server
+2020-08-25 13:48:58	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 13:48:58	--	Channel #mastermndio: 10 nicks (0 ops, 0 voices, 10 normals)
+2020-08-25 13:49:20	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 13:49:40	--	irc: disconnected from server
+2020-08-25 13:49:45	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 13:49:45	--	Channel #mastermndio: 9 nicks (0 ops, 0 voices, 9 normals)
+2020-08-25 13:50:35	--	irc: disconnected from server
+2020-08-25 13:50:39	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 13:50:39	--	Channel #mastermndio: 9 nicks (0 ops, 0 voices, 9 normals)
+2020-08-25 13:51:21	--	irc: disconnected from server
+2020-08-25 13:51:26	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 13:51:26	--	Channel #mastermndio: 1 nick (0 ops, 0 voices, 1 normal)
+2020-08-25 13:52:48	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 13:52:48	-->	panhandier (panhandier@panhandier.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 13:52:48	-->	skumshop (skumshop@skumshop.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 13:52:48	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 13:52:48	-->	clashofcodebot (clashofcodebot@clashofcodebot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 13:52:48	-->	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 13:54:51	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 13:54:51	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 13:54:51	<--	borkstick (borkstick@borkstick.tmi.twitch.tv) has left #mastermndio
+2020-08-25 13:54:51	<--	clashofcodebot (clashofcodebot@clashofcodebot.tmi.twitch.tv) has left #mastermndio
+2020-08-25 13:57:00	-->	clashofcodebot (clashofcodebot@clashofcodebot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 13:57:00	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 13:59:02	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 14:00:52	--	irc: disconnected from server
+2020-08-25 14:00:59	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:00:59	--	Channel #mastermndio: 1 nick (0 ops, 0 voices, 1 normal)
+2020-08-25 14:02:20	-->	clashofcodebot (clashofcodebot@clashofcodebot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:02:20	-->	skumshop (skumshop@skumshop.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:02:20	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:02:20	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:02:20	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:02:20	-->	panhandier (panhandier@panhandier.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:02:20	-->	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:02:20	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:03:28	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 14:04:33	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:04:33	<--	panhandier (panhandier@panhandier.tmi.twitch.tv) has left #mastermndio
+2020-08-25 14:06:44	-->	panhandier (panhandier@panhandier.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:06:44	<--	borkstick (borkstick@borkstick.tmi.twitch.tv) has left #mastermndio
+2020-08-25 14:08:25	--	irc: disconnected from server
+2020-08-25 14:08:30	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:08:30	--	Channel #mastermndio: 8 nicks (0 ops, 0 voices, 8 normals)
+2020-08-25 14:09:14	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:09:14	<--	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has left #mastermndio
+2020-08-25 14:11:15	-->	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:14:27	-->	bryptik (bryptik@bryptik.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:21:53	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 14:23:02	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:24:35	--	irc: disconnected from server
+2020-08-25 14:24:39	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:24:39	--	Channel #mastermndio: 1 nick (0 ops, 0 voices, 1 normal)
+2020-08-25 14:25:19	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:25:19	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:25:19	-->	bryptik (bryptik@bryptik.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:25:19	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:25:19	-->	clashofcodebot (clashofcodebot@clashofcodebot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:25:19	-->	panhandier (panhandier@panhandier.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:25:19	-->	skumshop (skumshop@skumshop.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:25:19	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:25:19	-->	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:26:25	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 14:28:46	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:30:51	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 14:33:00	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #mastermndio
+2020-08-25 14:35:06	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:37:19	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:42:41	<--	bryptik (bryptik@bryptik.tmi.twitch.tv) has left #mastermndio
+2020-08-25 14:46:46	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 14:49:01	--	irc: disconnected from server
+2020-08-25 14:49:07	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:49:07	--	Channel #mastermndio: 1 nick (0 ops, 0 voices, 1 normal)
+2020-08-25 14:49:59	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:49:59	-->	panhandier (panhandier@panhandier.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:49:59	-->	skumshop (skumshop@skumshop.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:49:59	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:49:59	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:49:59	-->	clashofcodebot (clashofcodebot@clashofcodebot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:49:59	-->	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:50:51	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:52:50	-->	bryptik (bryptik@bryptik.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:58:07	--	irc: disconnected from server
+2020-08-25 14:58:11	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:58:11	--	Channel #mastermndio: 1 nick (0 ops, 0 voices, 1 normal)
+2020-08-25 14:58:45	-->	clashofcodebot (clashofcodebot@clashofcodebot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:58:45	-->	bryptik (bryptik@bryptik.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:58:45	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:58:45	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:58:45	-->	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:58:45	-->	panhandier (panhandier@panhandier.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:58:45	-->	skumshop (skumshop@skumshop.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:58:45	-->	tasouken90 (tasouken90@tasouken90.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:58:45	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:58:45	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:59:39	--	irc: disconnected from server
+2020-08-25 14:59:43	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 14:59:43	--	Channel #mastermndio: 1 nick (0 ops, 0 voices, 1 normal)
+2020-08-25 15:00:59	-->	bryptik (bryptik@bryptik.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:00:59	-->	clashofcodebot (clashofcodebot@clashofcodebot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:00:59	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:00:59	-->	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:00:59	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:00:59	-->	panhandier (panhandier@panhandier.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:00:59	-->	skumshop (skumshop@skumshop.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:00:59	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:03:14	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:05:16	<--	bryptik (bryptik@bryptik.tmi.twitch.tv) has left #mastermndio
+2020-08-25 15:07:25	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 15:07:35	--	irc: disconnected from server
+2020-08-25 15:09:18	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:09:18	--	Channel #mastermndio: 8 nicks (0 ops, 0 voices, 8 normals)
+2020-08-25 15:11:19	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:11:19	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-25 15:13:14	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:13:14	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 15:13:57	--	irc: disconnected from server
+2020-08-25 15:14:01	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:14:01	--	Channel #mastermndio: 1 nick (0 ops, 0 voices, 1 normal)
+2020-08-25 15:14:33	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:14:33	-->	panhandier (panhandier@panhandier.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:14:33	-->	skumshop (skumshop@skumshop.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:14:33	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:14:33	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:14:33	-->	clashofcodebot (clashofcodebot@clashofcodebot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:14:33	-->	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:17:34	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:19:39	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 15:21:49	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:32:56	--	irc: disconnected from server
+2020-08-25 15:33:00	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:33:00	--	Channel #mastermndio: 1 nick (0 ops, 0 voices, 1 normal)
+2020-08-25 15:33:23	-->	panhandier (panhandier@panhandier.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:33:23	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:33:23	-->	skumshop (skumshop@skumshop.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:33:23	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:33:23	-->	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:33:23	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:33:23	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:33:23	-->	clashofcodebot (clashofcodebot@clashofcodebot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:35:23	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-25 15:37:32	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:39:45	<--	borkstick (borkstick@borkstick.tmi.twitch.tv) has left #mastermndio
+2020-08-25 15:40:49	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:47:32	--	irc: disconnected from server
+2020-08-25 15:47:36	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:47:36	--	Channel #mastermndio: 9 nicks (0 ops, 0 voices, 9 normals)
+2020-08-25 15:49:35	--	irc: disconnected from server
+2020-08-25 15:49:40	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:49:41	--	Channel #mastermndio: 1 nick (0 ops, 0 voices, 1 normal)
+2020-08-25 15:50:30	-->	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:50:30	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:50:30	-->	skumshop (skumshop@skumshop.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:50:30	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:50:30	-->	panhandier (panhandier@panhandier.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:50:30	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:50:30	-->	clashofcodebot (clashofcodebot@clashofcodebot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:50:30	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:53:56	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 15:54:53	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:59:24	--	irc: disconnected from server
+2020-08-25 15:59:29	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 15:59:29	--	Channel #mastermndio: 9 nicks (0 ops, 0 voices, 9 normals)
+2020-08-25 16:01:23	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 16:02:21	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 16:04:40	--	irc: disconnected from server
+2020-08-25 18:17:22	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 18:17:22	--	Channel #mastermndio: 9 nicks (0 ops, 0 voices, 9 normals)
+2020-08-25 18:25:20	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 18:27:24	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 18:27:24	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #mastermndio
+2020-08-25 18:29:43	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 18:31:49	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #mastermndio
+2020-08-25 18:31:49	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 18:33:43	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 18:33:43	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 18:33:43	<--	borkstick (borkstick@borkstick.tmi.twitch.tv) has left #mastermndio
+2020-08-25 18:36:01	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 18:36:01	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 18:38:21	-->	thechrisdrew (thechrisdrew@thechrisdrew.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 18:38:21	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 18:43:39	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 18:49:46	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 18:52:51	<--	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has left #mastermndio
+2020-08-25 18:55:03	<--	borkstick (borkstick@borkstick.tmi.twitch.tv) has left #mastermndio
+2020-08-25 18:57:00	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 18:57:00	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 18:59:57	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 19:04:09	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-25 19:05:03	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 19:08:12	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 19:08:12	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #mastermndio
+2020-08-25 19:09:20	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 19:09:20	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 19:13:25	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 19:15:27	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 19:15:27	<--	thechrisdrew (thechrisdrew@thechrisdrew.tmi.twitch.tv) has left #mastermndio
+2020-08-25 19:23:52	-->	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 19:23:52	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 19:26:00	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 19:28:07	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 19:30:03	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 19:36:15	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 19:38:27	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 19:38:27	<--	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has left #mastermndio
+2020-08-25 19:45:52	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 19:48:00	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 19:59:43	<--	borkstick (borkstick@borkstick.tmi.twitch.tv) has left #mastermndio
+2020-08-25 20:02:05	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 20:02:05	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 20:02:53	--	irc: disconnected from server
+2020-08-25 20:02:59	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 20:02:59	--	Channel #mastermndio: 7 nicks (0 ops, 0 voices, 7 normals)
+2020-08-25 20:05:20	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 20:07:21	<--	borkstick (borkstick@borkstick.tmi.twitch.tv) has left #mastermndio
+2020-08-25 20:09:32	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 20:15:31	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 20:17:25	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 20:21:33	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 20:23:53	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 20:28:11	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 20:29:19	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 20:29:19	-->	elevicted (elevicted@elevicted.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 20:31:22	<--	elevicted (elevicted@elevicted.tmi.twitch.tv) has left #mastermndio
+2020-08-25 20:37:52	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 20:39:47	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 20:49:48	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 20:52:02	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 20:52:02	<--	borkstick (borkstick@borkstick.tmi.twitch.tv) has left #mastermndio
+2020-08-25 20:54:07	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 20:58:15	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 21:00:26	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-25 21:02:26	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 21:02:26	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 21:04:26	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 21:06:37	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 21:09:53	-->	bhavinjparmar (bhavinjparmar@bhavinjparmar.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 21:12:00	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 21:14:04	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 21:16:02	-->	foehammer_419 (foehammer_419@foehammer_419.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 21:16:02	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 21:18:09	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 21:18:09	<--	foehammer_419 (foehammer_419@foehammer_419.tmi.twitch.tv) has left #mastermndio
+2020-08-25 21:20:20	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 21:22:40	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 21:24:44	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 21:25:39	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 21:30:56	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 21:31:53	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 21:36:04	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 21:38:03	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 21:42:15	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-25 21:44:14	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 21:44:14	<--	panhandier (panhandier@panhandier.tmi.twitch.tv) has left #mastermndio
+2020-08-25 21:44:14	<--	skumshop (skumshop@skumshop.tmi.twitch.tv) has left #mastermndio
+2020-08-25 21:46:15	-->	panhandier (panhandier@panhandier.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 21:46:15	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 21:50:44	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 21:51:44	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 21:53:46	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 21:55:45	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 21:57:53	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 22:00:05	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-25 22:02:15	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 22:02:15	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 22:04:23	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 22:09:56	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 22:09:56	<--	bhavinjparmar (bhavinjparmar@bhavinjparmar.tmi.twitch.tv) has left #mastermndio
+2020-08-25 22:12:05	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 22:20:33	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 22:24:47	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 22:30:04	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 22:32:03	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 22:34:11	<--	borkstick (borkstick@borkstick.tmi.twitch.tv) has left #mastermndio
+2020-08-25 22:36:14	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 22:36:14	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 22:38:24	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 22:50:04	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-25 22:52:18	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 22:52:18	<--	panhandier (panhandier@panhandier.tmi.twitch.tv) has left #mastermndio
+2020-08-25 22:54:14	-->	panhandier (panhandier@panhandier.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 22:56:12	<--	borkstick (borkstick@borkstick.tmi.twitch.tv) has left #mastermndio
+2020-08-25 22:58:14	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 22:58:14	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 23:00:29	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 23:04:26	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 23:06:36	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 23:10:38	-->	bryptik (bryptik@bryptik.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 23:12:50	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-25 23:15:01	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 23:15:01	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 23:18:23	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 23:18:23	<--	bryptik (bryptik@bryptik.tmi.twitch.tv) has left #mastermndio
+2020-08-25 23:26:35	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 23:28:44	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 23:32:58	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 23:36:09	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 23:43:10	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 23:49:16	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 23:52:24	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 23:54:37	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 23:56:45	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-25 23:57:53	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-25 23:57:53	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #mastermndio
+2020-08-26 00:01:04	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 00:12:41	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-26 00:20:59	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 00:25:14	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-26 00:26:19	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 00:42:42	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-26 00:44:46	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 00:48:03	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-26 00:48:03	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-26 00:51:12	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 00:51:12	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 00:56:16	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-26 00:59:16	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 01:01:20	-->	kbaily (kbaily@kbaily.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 01:03:23	<--	kbaily (kbaily@kbaily.tmi.twitch.tv) has left #mastermndio
+2020-08-26 01:07:34	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-26 01:08:27	<--	borkstick (borkstick@borkstick.tmi.twitch.tv) has left #mastermndio
+2020-08-26 01:10:35	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 01:10:35	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 01:33:44	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-26 01:34:40	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 01:36:46	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #mastermndio
+2020-08-26 01:38:55	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 01:54:56	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-26 01:57:02	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 01:57:02	<--	borkstick (borkstick@borkstick.tmi.twitch.tv) has left #mastermndio
+2020-08-26 01:59:03	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 02:23:01	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #mastermndio
+2020-08-26 02:25:01	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 02:33:31	<--	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has left #mastermndio
+2020-08-26 02:37:42	-->	anotherttvviewer (anotherttvviewer@anotherttvviewer.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 02:41:43	<--	borkstick (borkstick@borkstick.tmi.twitch.tv) has left #mastermndio
+2020-08-26 02:42:50	-->	borkstick (borkstick@borkstick.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 02:50:46	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #mastermndio
+2020-08-26 08:08:16	--	irc: disconnected from server
+2020-08-26 16:06:04		-- Title is "TRACKS! - Git Masterclass Pt 2 of 4 #Git, Cloning, Pull Requests, Branching, Tagging"
+2020-08-26 16:06:06	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:06:07	--	Channel #mastermndio: 37 nicks (0 ops, 0 voices, 37 normals)
+2020-08-26 16:06:33	 *	LAUNCHING: streamlink http://www.twitch.tv/mastermndio best
+2020-08-26 16:06:35		[cli][info] Found matching plugin twitch for URL http://www.twitch.tv/mastermndio
+2020-08-26 16:06:35		[cli][info] Available streams: audio_only, 160p (worst), 360p, 480p, 720p60, 1080p60 (best)
+2020-08-26 16:06:35		[cli][info] Opening stream: 1080p60 (hls)
+2020-08-26 16:06:35		error: The default player (VLC) does not seem to be installed. You must specify the path to a player executable with --player.
+2020-08-26 16:06:35		[cli][info] Closing currently open stream...
+2020-08-26 16:06:45	sillybaboy	comcast is not an angel either @ToddLibby
+2020-08-26 16:06:56	mastermndio	https://docs.google.com/presentation/d/1GS4RNXwLo4dUdsCFW_ge9wbgpHDIjAc2zJ-A6EnPokk/edit?usp=sharing
+2020-08-26 16:06:56	 *	LAUNCHING: streamlink http://www.twitch.tv/mastermndio best
+2020-08-26 16:07:04	mastermndio	https://www.notion.so/mastermnd/Basic-Git-Commands-74a6c6623b954bef9d60d11babe8af14
+2020-08-26 16:07:20	toddlibby	I've had both. Comcast was the better of the two for me @sillybaboy lol
+2020-08-26 16:08:00	-->	asbjornhaland (asbjornhaland@asbjornhaland.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:08:00	-->	aten (aten@aten.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:08:00	-->	wuzztwitch12 (wuzztwitch12@wuzztwitch12.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:08:00	-->	datsparrow (datsparrow@datsparrow.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:08:00	<--	dnbull (dnbull@dnbull.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:08:00	<--	pereca303 (pereca303@pereca303.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:08:00	<--	nightbot (nightbot@nightbot.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:08:30	asbjornhaland	Just started watching pt 1. Have do go to bed - work tomorrow. Nights from the future. #timezones
+2020-08-26 16:08:34	neopeace	hey whats up o/
+2020-08-26 16:09:05	sillybaboy	@neopeace o/
+2020-08-26 16:11:20	-->	theswurtle12 (theswurtle12@theswurtle12.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:11:20	-->	kadawi__ (kadawi__@kadawi__.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:11:20	-->	madpeanut (madpeanut@madpeanut.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:11:20	-->	p4nthe (p4nthe@p4nthe.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:11:20	-->	nightbot (nightbot@nightbot.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:11:20	<--	datsparrow (datsparrow@datsparrow.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:11:20	<--	wuzztwitch12 (wuzztwitch12@wuzztwitch12.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:12:19	-->	liijit (liijit@liijit.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:12:19	-->	blooverh (blooverh@blooverh.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:12:19	-->	beardedbaldor (beardedbaldor@beardedbaldor.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:12:19	-->	br4nd0np (br4nd0np@br4nd0np.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:12:19	-->	rookie1337 (rookie1337@rookie1337.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:12:19	<--	bedwards89 (bedwards89@bedwards89.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:12:19	<--	tdjordan (tdjordan@tdjordan.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:12:19	<--	yaulthoon (yaulthoon@yaulthoon.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:12:19	<--	pequenojalapeno (pequenojalapeno@pequenojalapeno.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:12:19	<--	meloman_22 (meloman_22@meloman_22.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:14:14	eyawson	Howdy!
+2020-08-26 16:14:37	-->	lil_reaper1 (lil_reaper1@lil_reaper1.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:14:37	-->	bedwards89 (bedwards89@bedwards89.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:14:37	-->	dajoramos (dajoramos@dajoramos.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:14:37	-->	dreadedrasta (dreadedrasta@dreadedrasta.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:14:37	-->	sirlantzlot (sirlantzlot@sirlantzlot.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:14:37	<--	basramul (basramul@basramul.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:14:37	<--	br4nd0np (br4nd0np@br4nd0np.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:16:34	-->	leonardosnt (leonardosnt@leonardosnt.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:16:34	-->	hnnazm (hnnazm@hnnazm.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:16:34	-->	eyawson (eyawson@eyawson.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:16:34	-->	dreadin29 (dreadin29@dreadin29.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:16:34	-->	codewithsean (codewithsean@codewithsean.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:16:34	-->	commanderroot (commanderroot@commanderroot.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:16:34	-->	gravityphd (gravityphd@gravityphd.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:16:34	-->	basramul (basramul@basramul.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:16:34	-->	kaliapollo (kaliapollo@kaliapollo.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:16:34	-->	tramstarzz (tramstarzz@tramstarzz.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:16:34	-->	alex_warlock (alex_warlock@alex_warlock.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:16:34	<--	lotsir (lotsir@lotsir.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:16:34	<--	lokahsamastasukinobavantu (lokahsamastasukinobavantu@lokahsamastasukinobavantu.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:16:34	<--	liijit (liijit@liijit.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:16:34	<--	sirlantzlot (sirlantzlot@sirlantzlot.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:16:45	sullyinatx	@mastermndio Did you ever check out that Github repo with 200+ DevOps bash tools I sent you?
+2020-08-26 16:17:53	deva73	!PROJECT
+2020-08-26 16:17:54	nightbot	We are building an Open Source Course Building Tool, Think Pluralsight or Udemy, but where authors can build courses from all the free content that already exists on the web
+2020-08-26 16:18:00	deva73	!project
+2020-08-26 16:18:27	rowgibbs	can anyone please drop the clone link again?
+2020-08-26 16:18:33	deva73	ok cool
+2020-08-26 16:18:33	mastermndio	https://github.com/EbookFoundation/free-programming-books.git
+2020-08-26 16:18:41	-->	r0j0_jp (r0j0_jp@r0j0_jp.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:18:41	-->	swonder92 (swonder92@swonder92.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:18:41	-->	sabi_2217 (sabi_2217@sabi_2217.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:18:41	-->	bryptik (bryptik@bryptik.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:18:41	-->	alireza_farhadi (alireza_farhadi@alireza_farhadi.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:18:41	-->	danutz214 (danutz214@danutz214.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:18:41	<--	dreadedrasta (dreadedrasta@dreadedrasta.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:18:41	<--	ayokaaye (ayokaaye@ayokaaye.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:18:41	<--	naturalcauz (naturalcauz@naturalcauz.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:20:49	sullyinatx	Any programmers/hackers in chat? Sold/gave away my 3 monitors because I was going to travel and move, but medical issues held me back from that... Now I need new monitors, both USB-C, one for MacBook Pro (main work computer + use for photography) and a System76 laptop (daily driver). Looking for 2-3 matching 24-27" monitors.
+2020-08-26 16:20:56	-->	hjenyc83 (hjenyc83@hjenyc83.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:20:56	-->	isatisfied (isatisfied@isatisfied.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:20:56	-->	85filter (85filter@85filter.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:20:56	-->	cutdmx12 (cutdmx12@cutdmx12.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:20:56	-->	deva73 (deva73@deva73.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:20:56	<--	beardedbaldor (beardedbaldor@beardedbaldor.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:20:56	<--	asbjornhaland (asbjornhaland@asbjornhaland.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:20:56	<--	gravityphd (gravityphd@gravityphd.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:20:56	<--	hnnazm (hnnazm@hnnazm.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:20:56	<--	p4nthe (p4nthe@p4nthe.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:21:51	-->	wisdomfruit (wisdomfruit@wisdomfruit.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:21:51	-->	dreadedrasta (dreadedrasta@dreadedrasta.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:21:51	<--	doc_jones (doc_jones@doc_jones.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:21:51	<--	85filter (85filter@85filter.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:22:17	sillybaboy	master353LUV
+2020-08-26 16:22:39	sullyinatx	Don't care about gaming, response time, Hz, etc. Just want good color accuracy and reliability. Was using 2 LG 27UD88-W and a Dell U2715H (rip one of the best monitors of all time). I could just get the LGs again.
+2020-08-26 16:23:00	deva73	anyone can create a branch? also how is master brach selected?
+2020-08-26 16:23:38	nespoke	Thanks for the HyperCrown @sullyinatx
+2020-08-26 16:23:42	swonder92	Thanks for the HyperCrate @sullyinatx
+2020-08-26 16:23:43	eddydrocchic	Thanks for the HyperReveal @sullyinatx
+2020-08-26 16:23:45	madpeanut	Thanks for the HyperParkour @sullyinatx
+2020-08-26 16:23:47	kicho94	Thanks for the HyperLost @sullyinatx
+2020-08-26 16:23:48	dajoramos	Thanks for the HyperCheese @sullyinatx
+2020-08-26 16:23:52	sullyinatx	No prob! Everyone join Discord!
+2020-08-26 16:23:54	danutz214	Thanks for the HyperCrate @sullyinatx
+2020-08-26 16:23:54	sullyinatx	!discord
+2020-08-26 16:23:55	nightbot	https://discord.gg/47D7aJF
+2020-08-26 16:24:01	jpreyer	Thanks for the HyperCheese @sullyinatx!!
+2020-08-26 16:24:04	eyawson	Ooh thanks for the HyperCooldown @sullyinatx
+2020-08-26 16:24:20	sullyinatx	Np everyone!
+2020-08-26 16:24:35	sillybaboy	:O
+2020-08-26 16:24:54	deva73	ok👍
+2020-08-26 16:25:08	mastermndio	https://github.com/mastermndio/brenton.git
+2020-08-26 16:25:17	-->	thechrisdrew (thechrisdrew@thechrisdrew.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:25:17	-->	ellmo06 (ellmo06@ellmo06.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:25:17	-->	new_winds (new_winds@new_winds.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:25:17	<--	wisdomfruit (wisdomfruit@wisdomfruit.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:25:47	ellmo06	what shell are you using on windows ?
+2020-08-26 16:26:09	neopeace	windows terminal
+2020-08-26 16:26:09	mastermndio	https://www.notion.so/mastermnd/Basic-Git-Commands-74a6c6623b954bef9d60d11babe8af14
+2020-08-26 16:26:11	-->	eljefededarto (eljefededarto@eljefededarto.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:26:11	-->	ayokaaye (ayokaaye@ayokaaye.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:26:11	-->	dumpertalk (dumpertalk@dumpertalk.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:26:11	-->	foreignlive (foreignlive@foreignlive.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:26:11	-->	mattosai (mattosai@mattosai.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:26:11	<--	new_winds (new_winds@new_winds.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:26:11	<--	thechrisdrew (thechrisdrew@thechrisdrew.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:26:22	neopeace	you can get it from the microsoft store
+2020-08-26 16:26:25	toddlibby	Thanks for the HyperGravity @sullyinatx
+2020-08-26 16:27:38	alireza_farhadi	hey there my freind !
+2020-08-26 16:27:53	alireza_farhadi	Thanks for the HyperCrown @sullyinatx
+2020-08-26 16:28:01	balsamovan	!slack
+2020-08-26 16:28:01	nightbot	https://join.slack.com/t/mastermnd/shared_invite/enQtODMwNTY3MDg4MzA0LTE1NDkzNGFjYWZlODkxYWFkZGFhMmU2NDk1NzVmNWFjMjc1MGFhZGU0ZDFhZGM2OTkxOWFmNGU0ODJlMWRlMGE
+2020-08-26 16:28:09	-->	collussus13 (collussus13@collussus13.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:28:09	<--	hjenyc83 (hjenyc83@hjenyc83.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:28:38	deva73	freebooks is local right
+2020-08-26 16:29:00	sullyinatx	np @ToddLibby and @alireza_Farhadi
+2020-08-26 16:29:08	sullyinatx	!discord
+2020-08-26 16:29:08	nightbot	https://discord.gg/47D7aJF
+2020-08-26 16:30:17	-->	frequency_hop (frequency_hop@frequency_hop.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:30:17	-->	unclebilldrouin (unclebilldrouin@unclebilldrouin.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:30:17	-->	balsamovan (balsamovan@balsamovan.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:30:17	-->	bristlerich (bristlerich@bristlerich.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:30:17	<--	bedwards89 (bedwards89@bedwards89.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:30:17	<--	alex_warlock (alex_warlock@alex_warlock.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:30:17	<--	ellmo06 (ellmo06@ellmo06.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:31:06	alireza_farhadi	I Said Hi ! Bro ! BibleThump BibleThump
+2020-08-26 16:31:22	unclebilldrouin	🤓 👋 YELL'o Y'all™
+2020-08-26 16:31:42	sullyinatx	There's no crying in DevOps!
+2020-08-26 16:31:53	alireza_farhadi	no ,i'm only joking ! You Are Amazing
+2020-08-26 16:32:26	-->	navinsoni (navinsoni@navinsoni.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:32:26	-->	sasankthapa (sasankthapa@sasankthapa.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:32:26	-->	bedwards89 (bedwards89@bedwards89.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:32:26	-->	phdhorrible (phdhorrible@phdhorrible.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:32:26	-->	bastlwe (bastlwe@bastlwe.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:32:26	-->	maeriens (maeriens@maeriens.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:32:26	<--	ayokaaye (ayokaaye@ayokaaye.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:32:26	<--	leonardosnt (leonardosnt@leonardosnt.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:32:26	<--	kaliapollo (kaliapollo@kaliapollo.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:32:26	<--	frequency_hop (frequency_hop@frequency_hop.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:32:29	alireza_farhadi	@sullyinatx okey !
+2020-08-26 16:32:33	alireza_farhadi	:D
+2020-08-26 16:33:07	sullyinatx	Haha, it was a movie reference @alireza_Farhadi
+2020-08-26 16:34:22	swonder92	!slack
+2020-08-26 16:34:22	nightbot	https://join.slack.com/t/mastermnd/shared_invite/enQtODMwNTY3MDg4MzA0LTE1NDkzNGFjYWZlODkxYWFkZGFhMmU2NDk1NzVmNWFjMjc1MGFhZGU0ZDFhZGM2OTkxOWFmNGU0ODJlMWRlMGE
+2020-08-26 16:34:28	maeriens	Recently, git switch was added to make it more explicit than checkout - but It does not sound as cool as checkout
+2020-08-26 16:34:35	-->	mrdeviate (mrdeviate@mrdeviate.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:34:35	-->	itsvodoo (itsvodoo@itsvodoo.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:34:35	-->	sincity909 (sincity909@sincity909.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:34:35	-->	khvld_ (khvld_@khvld_.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:34:35	<--	eddydrocchic (eddydrocchic@eddydrocchic.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:34:35	<--	bastlwe (bastlwe@bastlwe.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:34:35	<--	remixxer93 (remixxer93@remixxer93.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:34:35	<--	deva73 (deva73@deva73.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:34:35	<--	dajoramos (dajoramos@dajoramos.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:34:35	<--	balsamovan (balsamovan@balsamovan.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:35:13	rowgibbs	Whats that branch plugin you have installed?
+2020-08-26 16:36:04	danutz214	!terminalsettings
+2020-08-26 16:36:05	nightbot	Here is the config file to make your terminal look like mine:https://github.com/mastermndio/configFiles/blob/master/.hyper.js
+2020-08-26 16:36:08	mastermndio	https://github.com/sindresorhus/pure
+2020-08-26 16:36:13	the_she_boss	powerline works well also
+2020-08-26 16:36:44	-->	sly__penguin (sly__penguin@sly__penguin.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:36:44	-->	devoted_monk (devoted_monk@devoted_monk.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:36:44	-->	atraxx (atraxx@atraxx.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:36:44	<--	mattosai (mattosai@mattosai.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:36:44	<--	dumpertalk (dumpertalk@dumpertalk.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:36:44	<--	alireza_farhadi (alireza_farhadi@alireza_farhadi.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:36:54	neopeace	are you using ubuntu in wsl?
+2020-08-26 16:37:28	nespoke	oh cool it looks like its available for bash thx
+2020-08-26 16:38:45	sincity909	would your girlfriend get jealous if you are "checking out" the git branch?
+2020-08-26 16:38:52	nespoke	is there any form commenting what purpose a branch purpose?
+2020-08-26 16:38:56	-->	falseindie (falseindie@falseindie.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:38:56	-->	jonwilsonmn (jonwilsonmn@jonwilsonmn.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:38:56	-->	gorex4z (gorex4z@gorex4z.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:38:56	-->	innermanarts (innermanarts@innermanarts.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:38:56	<--	sly__penguin (sly__penguin@sly__penguin.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:38:56	<--	tramstarzz (tramstarzz@tramstarzz.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:38:56	<--	devoted_monk (devoted_monk@devoted_monk.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:38:56	<--	sullyinatx (sullyinatx@sullyinatx.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:38:56	<--	atraxx (atraxx@atraxx.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:38:56	<--	khvld_ (khvld_@khvld_.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:39:08	sincity909	lol
+2020-08-26 16:39:17	danutz214	LUL
+2020-08-26 16:39:36	isatisfied	!terminal
+2020-08-26 16:39:37	nightbot	Here is the terminal I am using. Its available on Windows Mac and Linux!: https://hyper.is/
+2020-08-26 16:39:38	nespoke	sorry for the repeatpurpose
+2020-08-26 16:40:04	-->	demonazo (demonazo@demonazo.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:40:04	-->	sullyinatx (sullyinatx@sullyinatx.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:40:04	-->	xbash001 (xbash001@xbash001.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:40:04	<--	innermanarts (innermanarts@innermanarts.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:40:04	<--	maeriens (maeriens@maeriens.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:40:04	<--	kicho94 (kicho94@kicho94.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:40:04	<--	jonwilsonmn (jonwilsonmn@jonwilsonmn.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:40:41	nespoke	i do agree to have meaningful names over comments but could be handy at times
+2020-08-26 16:42:10	bebytesback	What do you do if you accidentally delete a branch TearGlove
+2020-08-26 16:42:23	-->	samwixx (samwixx@samwixx.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:42:23	-->	beardedbaldor (beardedbaldor@beardedbaldor.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:42:23	-->	kicho94 (kicho94@kicho94.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:42:23	-->	bebytesback (bebytesback@bebytesback.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:42:23	-->	martinivodka10 (martinivodka10@martinivodka10.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:42:23	-->	crateless (crateless@crateless.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:42:23	-->	fatcowdisease (fatcowdisease@fatcowdisease.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:42:23	-->	iizmerkk (iizmerkk@iizmerkk.tmi.twitch.tv) has joined #mastermndio
+2020-08-26 16:42:23	<--	demonazo (demonazo@demonazo.tmi.twitch.tv) has left #mastermndio
+2020-08-26 16:42:51	--	irc: disconnected from server

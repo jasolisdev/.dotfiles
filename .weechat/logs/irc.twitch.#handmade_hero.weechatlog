@@ -1,0 +1,955 @@
+2020-04-05 13:33:06	-->	neopeace (neopeace@neopeace.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:06	--	Channel #handmade_hero: 1 nick (0 ops, 0 voices, 1 normal)
+2020-04-05 13:33:07	ivereadthesequel	yeah, debug views and stuff!
+2020-04-05 13:33:15	ivereadthesequel	lmao
+2020-04-05 13:33:21	mexdave1997	@timsteg you can't really compare the two. one is a low level API for graphics cards, while the other is a cross-platform library to achieve graphics rendering
+2020-04-05 13:33:38	ivereadthesequel	ads... FOR WINDOWS
+2020-04-05 13:33:50	ivereadthesequel	ads for Xbox
+2020-04-05 13:33:54	-->	robgeel (robgeel@robgeel.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	grubenbroketv (grubenbroketv@grubenbroketv.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	pavelks18 (pavelks18@pavelks18.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	cirmic (cirmic@cirmic.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	omgagiantrock (omgagiantrock@omgagiantrock.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ricmarinovic (ricmarinovic@ricmarinovic.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	therealmyster0n (therealmyster0n@therealmyster0n.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	icecoldtofu (icecoldtofu@icecoldtofu.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	varjo78 (varjo78@varjo78.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	whoawhoawhoawhoa (whoawhoawhoawhoa@whoawhoawhoawhoa.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mmozeiko (mmozeiko@mmozeiko.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	anerag (anerag@anerag.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	corn_forever (corn_forever@corn_forever.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	eaterenrgy (eaterenrgy@eaterenrgy.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	pristinebanana (pristinebanana@pristinebanana.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	fletchergoss (fletchergoss@fletchergoss.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	jpsilva22 (jpsilva22@jpsilva22.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	falkesand (falkesand@falkesand.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	tommy_t90 (tommy_t90@tommy_t90.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	technicolor_doggo (technicolor_doggo@technicolor_doggo.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	badhombre23 (badhombre23@badhombre23.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	read_my_code (read_my_code@read_my_code.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	fmega (fmega@fmega.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	dyrand (dyrand@dyrand.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	d0psh (d0psh@d0psh.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	constar42 (constar42@constar42.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	d4mmitjoe (d4mmitjoe@d4mmitjoe.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	victorkamenov (victorkamenov@victorkamenov.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	yesyesyourmother (yesyesyourmother@yesyesyourmother.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	matthiasvel (matthiasvel@matthiasvel.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	vtlmks (vtlmks@vtlmks.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	babaquon (babaquon@babaquon.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	garyclinch (garyclinch@garyclinch.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	digggitv (digggitv@digggitv.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ozkayace (ozkayace@ozkayace.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	vivitsu (vivitsu@vivitsu.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	k1ng_k3v1n (k1ng_k3v1n@k1ng_k3v1n.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	aldrikboy (aldrikboy@aldrikboy.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	niko_cs (niko_cs@niko_cs.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	doublenibble (doublenibble@doublenibble.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	drive137 (drive137@drive137.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	notta (notta@notta.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	kalinmagus (kalinmagus@kalinmagus.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mysterious_j_ (mysterious_j_@mysterious_j_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	4headciyiz (4headciyiz@4headciyiz.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	zhelezodev (zhelezodev@zhelezodev.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	lapislife (lapislife@lapislife.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	romaniahate (romaniahate@romaniahate.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	luggy_b0i (luggy_b0i@luggy_b0i.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	devlix (devlix@devlix.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	paulygon104 (paulygon104@paulygon104.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	zioyuri78 (zioyuri78@zioyuri78.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	jd96x (jd96x@jd96x.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	blaos1 (blaos1@blaos1.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	naughtyusername (naughtyusername@naughtyusername.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	zoox___ (zoox___@zoox___.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	753encore (753encore@753encore.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	al13n321 (al13n321@al13n321.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	piterm21 (piterm21@piterm21.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	tsoding (tsoding@tsoding.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	stason_____ (stason_____@stason_____.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	kokyshaped (kokyshaped@kokyshaped.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ace_grimm (ace_grimm@ace_grimm.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	boofingwhiteclaw (boofingwhiteclaw@boofingwhiteclaw.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	flopsidisc (flopsidisc@flopsidisc.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	johnw71 (johnw71@johnw71.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	treborrentro (treborrentro@treborrentro.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	andrewaagesorensen (andrewaagesorensen@andrewaagesorensen.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	haliw_ (haliw_@haliw_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	filiadelski (filiadelski@filiadelski.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	robertsdionne (robertsdionne@robertsdionne.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	nimsix (nimsix@nimsix.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	beerchug (beerchug@beerchug.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	eurytion14 (eurytion14@eurytion14.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	zauberlou (zauberlou@zauberlou.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	insobot (insobot@insobot.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	cutemath (cutemath@cutemath.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	thrennenne (thrennenne@thrennenne.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	matheusms (matheusms@matheusms.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	brian_nevec (brian_nevec@brian_nevec.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	claytron (claytron@claytron.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	aska49 (aska49@aska49.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	abuffseagull (abuffseagull@abuffseagull.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	djp6 (djp6@djp6.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	genos3 (genos3@genos3.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	tafonath (tafonath@tafonath.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mimnim1 (mimnim1@mimnim1.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	syndamera (syndamera@syndamera.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	zygzak_mcqueen_ (zygzak_mcqueen_@zygzak_mcqueen_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	everyrelease (everyrelease@everyrelease.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	dradius (dradius@dradius.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	tfopro (tfopro@tfopro.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	cookie042 (cookie042@cookie042.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	esert (esert@esert.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	chefcook__ (chefcook__@chefcook__.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	evine (evine@evine.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	aten (aten@aten.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	desu_used (desu_used@desu_used.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	wolverinegator (wolverinegator@wolverinegator.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	venrus (venrus@venrus.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	3dextended (3dextended@3dextended.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	achalpandeyy (achalpandeyy@achalpandeyy.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	koschei_ (koschei_@koschei_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	crude_prototype (crude_prototype@crude_prototype.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	gabivlj (gabivlj@gabivlj.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	liquidprogrammer1 (liquidprogrammer1@liquidprogrammer1.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	bbasuchan (bbasuchan@bbasuchan.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	alegendarycow (alegendarycow@alegendarycow.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	brooksbishop (brooksbishop@brooksbishop.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	moosaystheduck (moosaystheduck@moosaystheduck.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	013c (013c@013c.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	st4ll1 (st4ll1@st4ll1.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	the_revolting_blob (the_revolting_blob@the_revolting_blob.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	stubbesauruss (stubbesauruss@stubbesauruss.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	malwos (malwos@malwos.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	dukrath (dukrath@dukrath.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	temdisponivel (temdisponivel@temdisponivel.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mouch (mouch@mouch.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	avalier (avalier@avalier.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	jfpowell (jfpowell@jfpowell.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	hork71 (hork71@hork71.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	topflightgames (topflightgames@topflightgames.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	stovecat (stovecat@stovecat.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ian_reed (ian_reed@ian_reed.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	pkey1 (pkey1@pkey1.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	quickshift_ (quickshift_@quickshift_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	swenkmeister (swenkmeister@swenkmeister.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	x13pixels (x13pixels@x13pixels.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	rimastino (rimastino@rimastino.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	thinkimlazy (thinkimlazy@thinkimlazy.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	wintrytbs (wintrytbs@wintrytbs.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	its1z0 (its1z0@its1z0.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mexdave1997 (mexdave1997@mexdave1997.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	xeons (xeons@xeons.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	rohallav (rohallav@rohallav.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	karakondzho (karakondzho@karakondzho.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	snowcoffee1 (snowcoffee1@snowcoffee1.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	derpzerker (derpzerker@derpzerker.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	keewaii (keewaii@keewaii.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ommos61 (ommos61@ommos61.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	vincemabuse (vincemabuse@vincemabuse.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	kernelist (kernelist@kernelist.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	larsenhupin (larsenhupin@larsenhupin.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	kapten_keff (kapten_keff@kapten_keff.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	godsonjreid (godsonjreid@godsonjreid.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	kossa (kossa@kossa.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	xavexgoem (xavexgoem@xavexgoem.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	cyber_shadow42 (cyber_shadow42@cyber_shadow42.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ernugui (ernugui@ernugui.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	neshomebrew (neshomebrew@neshomebrew.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mr427 (mr427@mr427.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	lodff (lodff@lodff.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	silen_z (silen_z@silen_z.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	wiwoawahi (wiwoawahi@wiwoawahi.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	relvet (relvet@relvet.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	wubbleduff (wubbleduff@wubbleduff.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	inr7 (inr7@inr7.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	soysaucethekid (soysaucethekid@soysaucethekid.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	keshancs (keshancs@keshancs.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	the_o_miked (the_o_miked@the_o_miked.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	atomicnibble (atomicnibble@atomicnibble.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	toideng (toideng@toideng.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	chateauent (chateauent@chateauent.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	somebody_took_my_name (somebody_took_my_name@somebody_took_my_name.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ikojan (ikojan@ikojan.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	commanderroot (commanderroot@commanderroot.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	easttno (easttno@easttno.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	rinxlr (rinxlr@rinxlr.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	areriff (areriff@areriff.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	artjomv2 (artjomv2@artjomv2.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	vanyle (vanyle@vanyle.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	daemund (daemund@daemund.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	drigien (drigien@drigien.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	siipimaa (siipimaa@siipimaa.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	freddo669 (freddo669@freddo669.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	phaero81 (phaero81@phaero81.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	invertedgold (invertedgold@invertedgold.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	anonyte (anonyte@anonyte.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	zucker1990 (zucker1990@zucker1990.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	noobadin (noobadin@noobadin.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mr__shelby (mr__shelby@mr__shelby.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	yatko (yatko@yatko.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	aetherraito (aetherraito@aetherraito.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	androthi (androthi@androthi.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	shazrobot (shazrobot@shazrobot.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	divankun (divankun@divankun.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	vaualbus (vaualbus@vaualbus.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	suleyth (suleyth@suleyth.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	blackarma (blackarma@blackarma.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	x1y47z (x1y47z@x1y47z.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	chicken_is_op (chicken_is_op@chicken_is_op.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	justy989 (justy989@justy989.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	theintrojuicer (theintrojuicer@theintrojuicer.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	steelgolem (steelgolem@steelgolem.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	sneakybob_wot (sneakybob_wot@sneakybob_wot.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	gabedeape (gabedeape@gabedeape.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ineol (ineol@ineol.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	jesobuild (jesobuild@jesobuild.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	sithys (sithys@sithys.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	forsaken_box (forsaken_box@forsaken_box.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	tkln0 (tkln0@tkln0.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	griloox (griloox@griloox.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	jimdopango (jimdopango@jimdopango.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	turkeymeatloaf_ (turkeymeatloaf_@turkeymeatloaf_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	azertywatching (azertywatching@azertywatching.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	fcatalan (fcatalan@fcatalan.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	viashimo (viashimo@viashimo.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ophicleidon (ophicleidon@ophicleidon.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	plasticooo (plasticooo@plasticooo.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	npincomplete (npincomplete@npincomplete.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	forkingpathsdev (forkingpathsdev@forkingpathsdev.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	michaelangel007 (michaelangel007@michaelangel007.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	xcaocao (xcaocao@xcaocao.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	pragmascrypt (pragmascrypt@pragmascrypt.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	alborisninvel (alborisninvel@alborisninvel.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	derbchen (derbchen@derbchen.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	nickito97 (nickito97@nickito97.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	sneakyjach (sneakyjach@sneakyjach.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	lorddankington (lorddankington@lorddankington.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	tyzorz (tyzorz@tyzorz.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	niumgfx (niumgfx@niumgfx.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	cemuzunlar (cemuzunlar@cemuzunlar.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	sverd_ (sverd_@sverd_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	lun9u (lun9u@lun9u.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	hexadecimalinteger (hexadecimalinteger@hexadecimalinteger.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	dindondingo (dindondingo@dindondingo.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mythundare (mythundare@mythundare.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mrbusinessdds (mrbusinessdds@mrbusinessdds.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	andremm2 (andremm2@andremm2.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	calphorus (calphorus@calphorus.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	craterlord (craterlord@craterlord.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	andno330 (andno330@andno330.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	lawnon (lawnon@lawnon.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	stickygame01 (stickygame01@stickygame01.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	thehopelessgamer (thehopelessgamer@thehopelessgamer.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	level5hm (level5hm@level5hm.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	drvader129 (drvader129@drvader129.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	davosk2 (davosk2@davosk2.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	cirdanvalen (cirdanvalen@cirdanvalen.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	andrewgrim (andrewgrim@andrewgrim.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	qazicle (qazicle@qazicle.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	jimiclapdrix (jimiclapdrix@jimiclapdrix.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	bnzzlo (bnzzlo@bnzzlo.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	kristoff_it (kristoff_it@kristoff_it.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	flttl (flttl@flttl.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	jim0_o (jim0_o@jim0_o.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	potatisknugen1 (potatisknugen1@potatisknugen1.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	skelecore (skelecore@skelecore.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	gloriousplantedtree (gloriousplantedtree@gloriousplantedtree.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	floorislava (floorislava@floorislava.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	dylanyasen (dylanyasen@dylanyasen.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	harmless93 (harmless93@harmless93.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	l_zard (l_zard@l_zard.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	attackadahi (attackadahi@attackadahi.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	nimada (nimada@nimada.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	blarghameljones (blarghameljones@blarghameljones.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	blob537 (blob537@blob537.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	soulflare3 (soulflare3@soulflare3.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	xaii212 (xaii212@xaii212.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	blindwind (blindwind@blindwind.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	partytron1 (partytron1@partytron1.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	godgifts (godgifts@godgifts.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	oliholli (oliholli@oliholli.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	obeahman (obeahman@obeahman.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	happylittlerat (happylittlerat@happylittlerat.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	miblo (miblo@miblo.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	themakaron (themakaron@themakaron.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	talonfire (talonfire@talonfire.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	derimagia (derimagia@derimagia.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	valjevski (valjevski@valjevski.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	butich_ex (butich_ex@butich_ex.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	rezzmk (rezzmk@rezzmk.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	aamo (aamo@aamo.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	noxmentis (noxmentis@noxmentis.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	sirralex (sirralex@sirralex.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	phildunstan (phildunstan@phildunstan.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	4n0n (4n0n@4n0n.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mahakhef (mahakhef@mahakhef.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	aruseus (aruseus@aruseus.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	drachenbart (drachenbart@drachenbart.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	stenodyon (stenodyon@stenodyon.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	cerlet (cerlet@cerlet.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	indyio (indyio@indyio.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	zazouza23 (zazouza23@zazouza23.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	hayai (hayai@hayai.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	philoez98 (philoez98@philoez98.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	6odm0de (6odm0de@6odm0de.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	tfnw (tfnw@tfnw.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	adeadfox (adeadfox@adeadfox.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	gincola (gincola@gincola.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	jonkellino (jonkellino@jonkellino.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	insofaras (insofaras@insofaras.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	samvandane (samvandane@samvandane.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	korvgrillaren (korvgrillaren@korvgrillaren.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mextroxtm (mextroxtm@mextroxtm.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	wgts1 (wgts1@wgts1.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	peer_1 (peer_1@peer_1.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ludomantis (ludomantis@ludomantis.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	tinybiggames (tinybiggames@tinybiggames.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	hitech417 (hitech417@hitech417.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	schoenhs (schoenhs@schoenhs.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	imaginaryfreedom (imaginaryfreedom@imaginaryfreedom.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	senjai (senjai@senjai.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	hodgeconjecture (hodgeconjecture@hodgeconjecture.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ttbjm (ttbjm@ttbjm.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	danyguag (danyguag@danyguag.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	shadiyy (shadiyy@shadiyy.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	andidy_ (andidy_@andidy_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	gmonxyz (gmonxyz@gmonxyz.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	enyo_enev (enyo_enev@enyo_enev.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	teamrandb (teamrandb@teamrandb.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	croepha (croepha@croepha.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	whtpq96 (whtpq96@whtpq96.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	owyoow (owyoow@owyoow.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	halfvector (halfvector@halfvector.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	recyrillic (recyrillic@recyrillic.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	xsinxdx (xsinxdx@xsinxdx.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	drpacman (drpacman@drpacman.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	drewbarbs (drewbarbs@drewbarbs.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	maavelar (maavelar@maavelar.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	nitrixen (nitrixen@nitrixen.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	guy_inc0gnito (guy_inc0gnito@guy_inc0gnito.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	stetec80 (stetec80@stetec80.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	venald (venald@venald.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	gendakens (gendakens@gendakens.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	posila87cz (posila87cz@posila87cz.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	segfault720 (segfault720@segfault720.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	fabik_lpu (fabik_lpu@fabik_lpu.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	csaknezlek (csaknezlek@csaknezlek.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	riklowe (riklowe@riklowe.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ordyh_hydro (ordyh_hydro@ordyh_hydro.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	inubis_ (inubis_@inubis_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	udlos (udlos@udlos.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	pookyo_o (pookyo_o@pookyo_o.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	tc85 (tc85@tc85.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	jarput (jarput@jarput.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	simon_s_80 (simon_s_80@simon_s_80.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	rob_graham (rob_graham@rob_graham.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	vpr555 (vpr555@vpr555.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ixale (ixale@ixale.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	krakhan (krakhan@krakhan.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	cleffing (cleffing@cleffing.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	forsheezay (forsheezay@forsheezay.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	eetrexx (eetrexx@eetrexx.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	spimort (spimort@spimort.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	gekidors (gekidors@gekidors.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	i1uvatar (i1uvatar@i1uvatar.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	naysayer88 (naysayer88@naysayer88.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	graememcc (graememcc@graememcc.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	corpusc (corpusc@corpusc.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	jessef (jessef@jessef.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	z3r07h (z3r07h@z3r07h.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	slimygrub (slimygrub@slimygrub.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	nmcela (nmcela@nmcela.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	geemili (geemili@geemili.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	alani_ (alani_@alani_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	logicalxx (logicalxx@logicalxx.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	miguel_s_branco (miguel_s_branco@miguel_s_branco.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ptranquil (ptranquil@ptranquil.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	khiarshoo (khiarshoo@khiarshoo.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	vortexspherex (vortexspherex@vortexspherex.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	frozenzerker (frozenzerker@frozenzerker.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mateusf777 (mateusf777@mateusf777.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	oshide (oshide@oshide.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	corujanova (corujanova@corujanova.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	nandmade (nandmade@nandmade.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	zhirr (zhirr@zhirr.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	theazgraa (theazgraa@theazgraa.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mutine (mutine@mutine.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	tatersdave (tatersdave@tatersdave.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	morning29 (morning29@morning29.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	pavan_k (pavan_k@pavan_k.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	drunkendarknut (drunkendarknut@drunkendarknut.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ambiguous_panda (ambiguous_panda@ambiguous_panda.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	execsss (execsss@execsss.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	aodhneine (aodhneine@aodhneine.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	sc4llywag (sc4llywag@sc4llywag.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	bulmanator (bulmanator@bulmanator.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	desario57 (desario57@desario57.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	alxtr (alxtr@alxtr.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	neebry21 (neebry21@neebry21.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	hyp3rlol (hyp3rlol@hyp3rlol.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	elseb283 (elseb283@elseb283.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	smack_ssbm (smack_ssbm@smack_ssbm.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	elbaaa (elbaaa@elbaaa.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	forthesadistik (forthesadistik@forthesadistik.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	xephelium (xephelium@xephelium.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ionutcava (ionutcava@ionutcava.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	metalmuncher (metalmuncher@metalmuncher.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mekagem (mekagem@mekagem.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	dekcarki (dekcarki@dekcarki.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ilomaf (ilomaf@ilomaf.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	pickledpokute (pickledpokute@pickledpokute.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ollydebug (ollydebug@ollydebug.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	koppercraft (koppercraft@koppercraft.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	nexomichael (nexomichael@nexomichael.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	demius9 (demius9@demius9.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	0x626f74 (0x626f74@0x626f74.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	sy7447 (sy7447@sy7447.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	hamp (hamp@hamp.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	timsteg (timsteg@timsteg.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	rane_descartes (rane_descartes@rane_descartes.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	camisul (camisul@camisul.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mattiamanzati (mattiamanzati@mattiamanzati.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mihau14 (mihau14@mihau14.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	nervousdescent (nervousdescent@nervousdescent.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	marcos_don (marcos_don@marcos_don.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ormone88 (ormone88@ormone88.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	v_and_k (v_and_k@v_and_k.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	nerdrays (nerdrays@nerdrays.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	novaquark (novaquark@novaquark.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ashiroksc (ashiroksc@ashiroksc.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	abecderic (abecderic@abecderic.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	i_am_seabass (i_am_seabass@i_am_seabass.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	skeletonstickbug (skeletonstickbug@skeletonstickbug.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	nsaibot (nsaibot@nsaibot.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	dmartinek (dmartinek@dmartinek.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	raulrita (raulrita@raulrita.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	xxthebigfoxx (xxthebigfoxx@xxthebigfoxx.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	levia7han (levia7han@levia7han.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	jackednripped (jackednripped@jackednripped.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	hardtarget4 (hardtarget4@hardtarget4.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	degretor (degretor@degretor.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	emprosthotonos (emprosthotonos@emprosthotonos.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	charsd_ (charsd_@charsd_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ostkaka0 (ostkaka0@ostkaka0.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	funcolad (funcolad@funcolad.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	slowmodecheatcode (slowmodecheatcode@slowmodecheatcode.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	kolfest (kolfest@kolfest.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	devonvac (devonvac@devonvac.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	twitchprimereminder (twitchprimereminder@twitchprimereminder.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mougatron (mougatron@mougatron.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mattyfr3sh (mattyfr3sh@mattyfr3sh.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	shammalaka (shammalaka@shammalaka.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	leandzz (leandzz@leandzz.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mrgoodmorning (mrgoodmorning@mrgoodmorning.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	cresar47 (cresar47@cresar47.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	thetedgt (thetedgt@thetedgt.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	steinlphd (steinlphd@steinlphd.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	aeestwitch (aeestwitch@aeestwitch.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	sharlock93 (sharlock93@sharlock93.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	dustygazongz (dustygazongz@dustygazongz.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	renoinmo (renoinmo@renoinmo.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	aricketycricket (aricketycricket@aricketycricket.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	star_prankster (star_prankster@star_prankster.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	emperormetallix (emperormetallix@emperormetallix.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	exanimusboy (exanimusboy@exanimusboy.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	tharsic (tharsic@tharsic.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ivereadthesequel (ivereadthesequel@ivereadthesequel.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	lightcuts (lightcuts@lightcuts.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	vurtun2 (vurtun2@vurtun2.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	bitstorm_ (bitstorm_@bitstorm_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	cvaucher (cvaucher@cvaucher.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	quylthulg (quylthulg@quylthulg.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	duckbillphil (duckbillphil@duckbillphil.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	yurasniper (yurasniper@yurasniper.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	neocorttex (neocorttex@neocorttex.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	biukai (biukai@biukai.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	itsvodoo (itsvodoo@itsvodoo.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	codeslasher (codeslasher@codeslasher.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	hovax99 (hovax99@hovax99.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	speciial (speciial@speciial.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	meliodaszz (meliodaszz@meliodaszz.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	trilorez (trilorez@trilorez.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	effj (effj@effj.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ttrace (ttrace@ttrace.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	cloudsshade (cloudsshade@cloudsshade.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	locopadre (locopadre@locopadre.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	beethovenman (beethovenman@beethovenman.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	virgoproz (virgoproz@virgoproz.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	statecb (statecb@statecb.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	andrewjdr (andrewjdr@andrewjdr.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	thonkas (thonkas@thonkas.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mrzaklaus (mrzaklaus@mrzaklaus.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	honorgamez (honorgamez@honorgamez.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	redunlocked (redunlocked@redunlocked.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	piratkopia13 (piratkopia13@piratkopia13.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	synaptk (synaptk@synaptk.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	zzyzzyxx (zzyzzyxx@zzyzzyxx.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	oberyndeschain (oberyndeschain@oberyndeschain.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	christofschardt (christofschardt@christofschardt.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mahakus (mahakus@mahakus.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ermarigo (ermarigo@ermarigo.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	infinum (infinum@infinum.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ra_bid (ra_bid@ra_bid.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	reckfulllies (reckfulllies@reckfulllies.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	whippywolf (whippywolf@whippywolf.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	hoshoyo (hoshoyo@hoshoyo.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	b_you (b_you@b_you.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	2hstrike (2hstrike@2hstrike.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	maliusarth (maliusarth@maliusarth.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	degran_ (degran_@degran_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	cmuratori (cmuratori@cmuratori.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	greyshawn (greyshawn@greyshawn.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	anticube0 (anticube0@anticube0.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	dohhh (dohhh@dohhh.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	cartmaniac69 (cartmaniac69@cartmaniac69.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	logischermendch (logischermendch@logischermendch.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	makesite (makesite@makesite.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mrkakaru (mrkakaru@mrkakaru.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	kiroxas (kiroxas@kiroxas.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ghostski (ghostski@ghostski.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	roepel (roepel@roepel.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	rooctag (rooctag@rooctag.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mikka3 (mikka3@mikka3.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	stopystop (stopystop@stopystop.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	coder_gimmic (coder_gimmic@coder_gimmic.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	bpaf (bpaf@bpaf.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	beastexmachina (beastexmachina@beastexmachina.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	reverlay (reverlay@reverlay.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	said6289 (said6289@said6289.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	zombiefoo (zombiefoo@zombiefoo.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mindspyke (mindspyke@mindspyke.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	drspectra (drspectra@drspectra.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	winsock (winsock@winsock.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	gettsu (gettsu@gettsu.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	fzes_95 (fzes_95@fzes_95.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	winter_squirrel (winter_squirrel@winter_squirrel.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	efko__ (efko__@efko__.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	xeo31 (xeo31@xeo31.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	b_swales (b_swales@b_swales.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	krakkos (krakkos@krakkos.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	uglycub (uglycub@uglycub.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	byte4c (byte4c@byte4c.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	bishop2978 (bishop2978@bishop2978.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	aljegu (aljegu@aljegu.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	y2k2u (y2k2u@y2k2u.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	rationalcoder (rationalcoder@rationalcoder.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	starychatopuz (starychatopuz@starychatopuz.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	silentst (silentst@silentst.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	lagmeester4000 (lagmeester4000@lagmeester4000.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	nojokes_ (nojokes_@nojokes_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	vackin (vackin@vackin.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	beth_zur (beth_zur@beth_zur.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	amazukirchi (amazukirchi@amazukirchi.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	steplery (steplery@steplery.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	euphius (euphius@euphius.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	uplinkcoder (uplinkcoder@uplinkcoder.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	asafgartner (asafgartner@asafgartner.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mehdi_tw (mehdi_tw@mehdi_tw.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	hozaku (hozaku@hozaku.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	tool787 (tool787@tool787.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	ingenero (ingenero@ingenero.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	spl1nes (spl1nes@spl1nes.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mrkaragoz (mrkaragoz@mrkaragoz.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	srgpqt (srgpqt@srgpqt.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	0xreself (0xreself@0xreself.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	b0th3r (b0th3r@b0th3r.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	gratsukoo (gratsukoo@gratsukoo.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	cemptiness (cemptiness@cemptiness.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	printf_armin (printf_armin@printf_armin.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	son0fachamp (son0fachamp@son0fachamp.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	dubric (dubric@dubric.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	liqz0r (liqz0r@liqz0r.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	nootropics (nootropics@nootropics.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	iwrestledabeer (iwrestledabeer@iwrestledabeer.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	marchin7 (marchin7@marchin7.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	-->	mulletmania1 (mulletmania1@mulletmania1.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:33:54	filiadelski	Q: VS does show ads for google unit test services, more or less
+2020-04-05 13:33:59	srgpqt	isn't Microsoft Account login essentially an ad?
+2020-04-05 13:34:04	neopeace	ads for handmade hero Kappa
+2020-04-05 13:34:08	toideng	and then you can buy ads in other people's ads
+2020-04-05 13:34:08	insobot	Also packaged with the skull then set it up.
+2020-04-05 13:34:12	printf_armin	Good that they also add candy crush saga to every windows 10 install.
+2020-04-05 13:34:13	xdylian	Q: how about renderdoc?
+2020-04-05 13:34:15	brian_nevec	I'm pretty sure I once saw an ad for some Roslyn code analysis
+2020-04-05 13:34:16	hexadecimalinteger	Maybe VS is mining bitcoins already
+2020-04-05 13:34:20	desu_used	@Filiadelski you what mate?
+2020-04-05 13:34:24	slimygrub	Q: What would you like someone to write a new fast tool for?
+2020-04-05 13:34:29	nickito97	!uptime
+2020-04-05 13:34:30	insobot	nickito97: The stream has been live for 1 hour, 21 minutes.
+2020-04-05 13:34:36	whoawhoawhoawhoa	A day of self care
+2020-04-05 13:34:37	hayai	handmade makeup
+2020-04-05 13:34:38	sc4llywag	Thanks for ranting, Casey :)
+2020-04-05 13:34:42	stovecat	i learned that we need to switch to cmake
+2020-04-05 13:34:44	i_am_seabass	Q: Its only a matter of time before MS adds a Microsoft Agent "Bonzi Buddy" to Visual Studio
+2020-04-05 13:34:44	printf_armin	@slimygrub photoshop.
+2020-04-05 13:34:49	michaelangel007	Faster C++ compiling
+2020-04-05 13:34:49	drunkendarknut	!uptime
+2020-04-05 13:34:49	insobot	Drunkendarknut: The stream has been live for 1 hour, 21 minutes.
+2020-04-05 13:34:50	jim0_o	@hexadecimalinteger nah just sending all your code to MS HQ for verification.
+2020-04-05 13:34:55	filiadelski	@Desu_Used So I get basically suggestion to use google unit test things when I open solutions
+2020-04-05 13:34:56	bulmanator	Operating system LUL
+2020-04-05 13:34:57	ivereadthesequel	SPRING PROJECT IDEAS! QUARANTINE PROJECTS!
+2020-04-05 13:35:03	read_my_code	@Bulmanator lmao
+2020-04-05 13:35:05	nimsix	web browsing
+2020-04-05 13:35:09	ivereadthesequel	gasp, i am ashamed
+2020-04-05 13:35:11	whoawhoawhoawhoa	@printf_armin check out Affinity Photo
+2020-04-05 13:35:12	emperormetallix	Q: Did there used to be more options for debuggers/IDEs on Windows. In XP and before?
+2020-04-05 13:35:25	slimygrub	Thanks for answering my questions, Casey!
+2020-04-05 13:35:28	areriff	Q: will this video will be uploaded? Never seen how fast old VC is.
+2020-04-05 13:35:28	michaelangel007	+1 for Affinity Photo
+2020-04-05 13:35:34	treborrentro	4coder, remedybg next is operating system. xD
+2020-04-05 13:35:37	abecderic	cue five new projects on handmade network tomorrow...
+2020-04-05 13:35:37	nandmade	Log View Tool
+2020-04-05 13:35:39	hexadecimalinteger	We must all thank the twitter guy, what an amazing stream we got thanks to him
+2020-04-05 13:35:44	ertugru1_	are you coding this game atm?
+2020-04-05 13:35:52	toideng	Q: You mean log viewer frontend lib? Because i believe that everyone uses their own format
+2020-04-05 13:35:55	slimygrub	Logger with accompanying viewer
+2020-04-05 13:36:00	sharlock93	Q: like renderdoc with data from the GPU?
+2020-04-05 13:36:01	-->	moinzenmeister (moinzenmeister@moinzenmeister.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	grandeggplant (grandeggplant@grandeggplant.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	arc0twitch (arc0twitch@arc0twitch.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	vrtxt (vrtxt@vrtxt.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	gogokodo (gogokodo@gogokodo.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	bozomcgee (bozomcgee@bozomcgee.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	xdylian (xdylian@xdylian.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	tinyscript (tinyscript@tinyscript.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	netrion1 (netrion1@netrion1.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	ramonvillar (ramonvillar@ramonvillar.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	ertugru1_ (ertugru1_@ertugru1_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	reallynotabotanist (reallynotabotanist@reallynotabotanist.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	arigato_corleone (arigato_corleone@arigato_corleone.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	durantula21 (durantula21@durantula21.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	pfeilbr (pfeilbr@pfeilbr.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	veins1 (veins1@veins1.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	rada27 (rada27@rada27.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	sapper123 (sapper123@sapper123.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	cixidota (cixidota@cixidota.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	maacl72 (maacl72@maacl72.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	i_never_asked_for_this (i_never_asked_for_this@i_never_asked_for_this.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	lustrouseudemon (lustrouseudemon@lustrouseudemon.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	exclusivelylex (exclusivelylex@exclusivelylex.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	pennywise0102 (pennywise0102@pennywise0102.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	-->	crazybatoner (crazybatoner@crazybatoner.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:36:01	<--	talonfire (talonfire@talonfire.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	reverlay (reverlay@reverlay.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	silen_z (silen_z@silen_z.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	mehdi_tw (mehdi_tw@mehdi_tw.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	degretor (degretor@degretor.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	obeahman (obeahman@obeahman.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	nervousdescent (nervousdescent@nervousdescent.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	rane_descartes (rane_descartes@rane_descartes.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	makesite (makesite@makesite.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	cresar47 (cresar47@cresar47.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	viashimo (viashimo@viashimo.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	753encore (753encore@753encore.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	neshomebrew (neshomebrew@neshomebrew.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	vaualbus (vaualbus@vaualbus.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	keewaii (keewaii@keewaii.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	forsheezay (forsheezay@forsheezay.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	mrkaragoz (mrkaragoz@mrkaragoz.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	stickygame01 (stickygame01@stickygame01.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	wubbleduff (wubbleduff@wubbleduff.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	ernugui (ernugui@ernugui.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	pickledpokute (pickledpokute@pickledpokute.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	starychatopuz (starychatopuz@starychatopuz.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	aldrikboy (aldrikboy@aldrikboy.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	androthi (androthi@androthi.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	alani_ (alani_@alani_.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	harmless93 (harmless93@harmless93.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	lawnon (lawnon@lawnon.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	oberyndeschain (oberyndeschain@oberyndeschain.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	mattyfr3sh (mattyfr3sh@mattyfr3sh.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	efko__ (efko__@efko__.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:01	<--	redunlocked (redunlocked@redunlocked.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:36:09	ivereadthesequel	ginger = rekt
+2020-04-05 13:36:12	yesyesyourmother	You can dump the logs in html
+2020-04-05 13:36:15	yesyesyourmother	maybe
+2020-04-05 13:36:24	vivitsu	Q: Is RAD still working on their debugger project?
+2020-04-05 13:36:33	sharlock93	shots fired at bill :D
+2020-04-05 13:36:47	ertugru1_	can somebody please explain me what's this stresm about
+2020-04-05 13:36:49	beastexmachina	yeah,... I've thought about what you were describing
+2020-04-05 13:36:49	ivereadthesequel	Q: Is this a Handmade chat now, or its own thing?
+2020-04-05 13:37:11	sithys	LUL
+2020-04-05 13:37:16	sapper123	LUL
+2020-04-05 13:37:16	drunkendarknut	LUL
+2020-04-05 13:37:21	rezzmk	You and John are teaching me so much stuff
+2020-04-05 13:37:22	mindspyke	but I want it FeelsBadMan
+2020-04-05 13:37:23	rezzmk	it's insane
+2020-04-05 13:37:28	maacl72	Q: How would you want to describe the log data - a schema of some sort?
+2020-04-05 13:37:38	toideng	Will JAI compiler be paid like the Borland stuff in ye old days?
+2020-04-05 13:37:42	aska49	Q: When did you begin your own editor? You've gone from emacs to 4coder over the course of HMH, just curious when you decided to roll your own at work
+2020-04-05 13:37:48	lightcuts	Handmade hero is better than a computer science education
+2020-04-05 13:38:04	mindspyke	@toideng that'd be suicide for the project I guess
+2020-04-05 13:38:06	star_prankster	Slayerizer actually follows me on twitter lol
+2020-04-05 13:38:07	michaelangel007	Jon is solving Real-World problems for programmers ... instead of ignoring them like the C++ committee tends to do
+2020-04-05 13:38:09	-->	lawnon (lawnon@lawnon.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	-->	kounga (kounga@kounga.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	-->	floppycrackers (floppycrackers@floppycrackers.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	-->	genusnymphicus (genusnymphicus@genusnymphicus.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	-->	dumblestore (dumblestore@dumblestore.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	-->	thraktatustv (thraktatustv@thraktatustv.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	-->	rulapro_ (rulapro_@rulapro_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	-->	binarycreations (binarycreations@binarycreations.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	-->	lunaticalligator (lunaticalligator@lunaticalligator.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	-->	invoketor (invoketor@invoketor.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	-->	iguffy (iguffy@iguffy.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	-->	nopy1 (nopy1@nopy1.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	-->	cybersnake64 (cybersnake64@cybersnake64.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	-->	vaualbus (vaualbus@vaualbus.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	-->	rustym (rustym@rustym.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	-->	spanzeri (spanzeri@spanzeri.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	-->	pzurita (pzurita@pzurita.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	-->	oliverw312 (oliverw312@oliverw312.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:38:09	<--	dradius (dradius@dradius.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	liquidprogrammer1 (liquidprogrammer1@liquidprogrammer1.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	soysaucethekid (soysaucethekid@soysaucethekid.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	amazukirchi (amazukirchi@amazukirchi.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	veins1 (veins1@veins1.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	floorislava (floorislava@floorislava.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	luggy_b0i (luggy_b0i@luggy_b0i.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	ttrace (ttrace@ttrace.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	degran_ (degran_@degran_.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	hodgeconjecture (hodgeconjecture@hodgeconjecture.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	mr427 (mr427@mr427.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	alegendarycow (alegendarycow@alegendarycow.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	i1uvatar (i1uvatar@i1uvatar.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	adeadfox (adeadfox@adeadfox.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	hork71 (hork71@hork71.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	omgagiantrock (omgagiantrock@omgagiantrock.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	siipimaa (siipimaa@siipimaa.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	statecb (statecb@statecb.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	thonkas (thonkas@thonkas.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	eurytion14 (eurytion14@eurytion14.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	logischermendch (logischermendch@logischermendch.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	coder_gimmic (coder_gimmic@coder_gimmic.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	calphorus (calphorus@calphorus.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	krakkos (krakkos@krakkos.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	pfeilbr (pfeilbr@pfeilbr.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	arc0twitch (arc0twitch@arc0twitch.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	lorddankington (lorddankington@lorddankington.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	arigato_corleone (arigato_corleone@arigato_corleone.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	segfault720 (segfault720@segfault720.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	steinlphd (steinlphd@steinlphd.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	matheusms (matheusms@matheusms.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	skeletonstickbug (skeletonstickbug@skeletonstickbug.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	karakondzho (karakondzho@karakondzho.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	ramonvillar (ramonvillar@ramonvillar.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	kapten_keff (kapten_keff@kapten_keff.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	vpr555 (vpr555@vpr555.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	gmonxyz (gmonxyz@gmonxyz.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	varjo78 (varjo78@varjo78.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	butich_ex (butich_ex@butich_ex.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	tinyscript (tinyscript@tinyscript.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	slowmodecheatcode (slowmodecheatcode@slowmodecheatcode.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	effj (effj@effj.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	schoenhs (schoenhs@schoenhs.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	sneakyjach (sneakyjach@sneakyjach.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	logicalxx (logicalxx@logicalxx.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	reallynotabotanist (reallynotabotanist@reallynotabotanist.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	gogokodo (gogokodo@gogokodo.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	nerdrays (nerdrays@nerdrays.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:09	<--	gabedeape (gabedeape@gabedeape.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:38:13	rezzmk	@lightcuts it is, 100%
+2020-04-05 13:38:14	sithys	the roman engineers sleeping under the bridge thing
+2020-04-05 13:38:18	yesyesyourmother	Yeah JAI is nowhere near release.
+2020-04-05 13:38:19	elseb283	Q: What GUI library is 4coder using / What is your own editor using
+2020-04-05 13:38:30	fcatalan	But I only want it for _those_ projects in _that_ folder _there_ who said anything about shipping KappaHD
+2020-04-05 13:38:53	suleyth	Q: Will you ever release your editor?
+2020-04-05 13:38:57	mikka3	Q: so many of my questions are answered or become irrelevant just by watching further handmade hero episodes and learning by doing. And if I'm impatient I end up wasting time in a rabbit hole. Does it (the rabbit holing on questions) change with experience, or is it just something you have to be aware of and be patient?
+2020-04-05 13:39:09	nexomichael	Q: Why don't you use your editor on streams?
+2020-04-05 13:39:09	sharlock93	I love everything about Casey, you are the best :D
+2020-04-05 13:39:15	achalpandeyy	Q: Just curious if you have seen Blender's code base? How do you feel about that? It works pretty smooth imo
+2020-04-05 13:39:28	mysterious_j_	Q: Can you show or talk about your editor?
+2020-04-05 13:39:49	star_prankster	We should get some HMH coding going on
+2020-04-05 13:40:05	rojaster	!uptime
+2020-04-05 13:40:05	insobot	Rojaster: The stream has been live for 1 hour, 27 minutes.
+2020-04-05 13:40:06	-->	rojaster (rojaster@rojaster.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	ramonvillar (ramonvillar@ramonvillar.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	lorddankington (lorddankington@lorddankington.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	divergent_eyes (divergent_eyes@divergent_eyes.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	shadower202 (shadower202@shadower202.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	ttrace (ttrace@ttrace.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	itscollinn (itscollinn@itscollinn.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	red___7 (red___7@red___7.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	davados_ (davados_@davados_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	gameboy_link (gameboy_link@gameboy_link.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	emilmcduck (emilmcduck@emilmcduck.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	embil (embil@embil.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	termoclaus (termoclaus@termoclaus.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	liquidprogrammer1 (liquidprogrammer1@liquidprogrammer1.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	arc0twitch (arc0twitch@arc0twitch.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	coder_gimmic (coder_gimmic@coder_gimmic.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	plannine (plannine@plannine.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	zimmental (zimmental@zimmental.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	davidnzl (davidnzl@davidnzl.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	karakondzho (karakondzho@karakondzho.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	tkotax (tkotax@tkotax.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	deni1111 (deni1111@deni1111.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	imgelling (imgelling@imgelling.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	gunny_611 (gunny_611@gunny_611.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	tinyscript (tinyscript@tinyscript.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	-->	giab_ (giab_@giab_.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:40:06	<--	samvandane (samvandane@samvandane.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	oliverw312 (oliverw312@oliverw312.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	beth_zur (beth_zur@beth_zur.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	khiarshoo (khiarshoo@khiarshoo.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	leandzz (leandzz@leandzz.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	desu_used (desu_used@desu_used.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	cemptiness (cemptiness@cemptiness.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	jackednripped (jackednripped@jackednripped.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	dumblestore (dumblestore@dumblestore.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	bozomcgee (bozomcgee@bozomcgee.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	thraktatustv (thraktatustv@thraktatustv.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	floppycrackers (floppycrackers@floppycrackers.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	the_o_miked (the_o_miked@the_o_miked.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	devlix (devlix@devlix.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	kounga (kounga@kounga.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	ollydebug (ollydebug@ollydebug.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	moinzenmeister (moinzenmeister@moinzenmeister.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	iguffy (iguffy@iguffy.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:06	<--	mexdave1997 (mexdave1997@mexdave1997.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:40:09	read_my_code	interesting
+2020-04-05 13:40:10	xaii212	Why wouldn't you use your own editor on the stream?
+2020-04-05 13:40:13	ivereadthesequel	4CODER JAM
+2020-04-05 13:40:15	ivereadthesequel	WOO
+2020-04-05 13:40:40	stovecat	hmm.. importing 4coder into a game engine could be a cool idea
+2020-04-05 13:40:40	fcatalan	Editor programming is interesting. I did the kilo editor tutorial last summer and researched a bit more. It was fun and illuminating.
+2020-04-05 13:40:54	toideng	Q: Will JAI compiler be paid like the Borland stuff in ye old days?
+2020-04-05 13:40:59	emperormetallix	Q: [HM Hero]. Dude less than 50,000 lines of code, HOOOOW?!
+2020-04-05 13:41:10	aska49	@Xaii212 presumably because it's meant to be educational, so users can follow along with the same tools
+2020-04-05 13:41:14	-->	koukou1214 (koukou1214@koukou1214.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:41:14	-->	rotlaus (rotlaus@rotlaus.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:41:14	-->	mindfulkid (mindfulkid@mindfulkid.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:41:14	-->	guschamp (guschamp@guschamp.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:41:14	-->	enemypanda (enemypanda@enemypanda.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:41:14	-->	kwojn (kwojn@kwojn.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:41:14	-->	soldat329x (soldat329x@soldat329x.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:41:14	-->	lowarago (lowarago@lowarago.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:41:14	-->	zivilyn (zivilyn@zivilyn.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:41:14	-->	kakamuza (kakamuza@kakamuza.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:41:14	-->	lolesp (lolesp@lolesp.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:41:14	-->	greenspock (greenspock@greenspock.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:41:14	-->	triumphaa (triumphaa@triumphaa.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:41:14	-->	pfeilbr (pfeilbr@pfeilbr.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:41:14	-->	talonfire (talonfire@talonfire.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:41:14	<--	the_revolting_blob (the_revolting_blob@the_revolting_blob.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	pennywise0102 (pennywise0102@pennywise0102.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	riklowe (riklowe@riklowe.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	rada27 (rada27@rada27.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	honorgamez (honorgamez@honorgamez.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	drpacman (drpacman@drpacman.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	nickito97 (nickito97@nickito97.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	lodff (lodff@lodff.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	attackadahi (attackadahi@attackadahi.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	mulletmania1 (mulletmania1@mulletmania1.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	emilmcduck (emilmcduck@emilmcduck.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	zhelezodev (zhelezodev@zhelezodev.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	divergent_eyes (divergent_eyes@divergent_eyes.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	arc0twitch (arc0twitch@arc0twitch.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	gunny_611 (gunny_611@gunny_611.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	spanzeri (spanzeri@spanzeri.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	imgelling (imgelling@imgelling.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	ertugru1_ (ertugru1_@ertugru1_.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	frozenzerker (frozenzerker@frozenzerker.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	gameboy_link (gameboy_link@gameboy_link.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	blob537 (blob537@blob537.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:14	<--	tc85 (tc85@tc85.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:41:18	forthesadistik	The thing about writing a language is you'll run into many forks-in-the-road and the *best* option depends on subjective situation, making it only the best in that situation. We need many languages with many options to fit all situations
+2020-04-05 13:41:29	yurasniper	Q: But if I'm going to write editor in my own language, will I be able to easily build on top of & integrate with 4coder?
+2020-04-05 13:41:33	toideng	@EmperorMetallix i just recently found out that TeX source is like 6k loc
+2020-04-05 13:42:01	emperormetallix	TeX in total?
+2020-04-05 13:42:11	toideng	the "engine"
+2020-04-05 13:42:24	toideng	not counting the format files
+2020-04-05 13:42:33	gendakens	Q: Just watched the stream with John and Sean can you elaborate on the branch prediction penalty you tried to explain in chat?
+2020-04-05 13:42:35	michaelangel007	@Mikka3 The more you learn the wider your base foundation of knowledge becomes and you have less basic question but you start asking more advanced questions. All programming == engineering == knowing the trade-offs of Design choice 1 vs choice 2 vs choice 3, etc.
+2020-04-05 13:42:42	emperormetallix	Including all the math rendering stuff?
+2020-04-05 13:43:14	nandmade	@ForTheSadistik Is your comment here a reply to something?
+2020-04-05 13:43:18	-->	guverner (guverner@guverner.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:43:18	-->	zhelezodev (zhelezodev@zhelezodev.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:43:18	-->	thevoodoopuppet (thevoodoopuppet@thevoodoopuppet.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:43:18	-->	redunlocked (redunlocked@redunlocked.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:43:18	-->	gresan6 (gresan6@gresan6.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:43:18	-->	arobots (arobots@arobots.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:43:18	-->	randomasker5566 (randomasker5566@randomasker5566.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:43:18	-->	the_8th_mage (the_8th_mage@the_8th_mage.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:43:18	-->	mrkaragoz (mrkaragoz@mrkaragoz.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:43:18	-->	xxxusernamexxx (xxxusernamexxx@xxxusernamexxx.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:43:18	-->	romanos14 (romanos14@romanos14.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:43:18	-->	calphorus (calphorus@calphorus.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:43:18	-->	ashensiege (ashensiege@ashensiege.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:43:18	-->	cryogenpro (cryogenpro@cryogenpro.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:43:18	-->	mtsmox (mtsmox@mtsmox.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:43:18	<--	talonfire (talonfire@talonfire.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	netrion1 (netrion1@netrion1.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	kakamuza (kakamuza@kakamuza.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	guschamp (guschamp@guschamp.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	euphius (euphius@euphius.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	deni1111 (deni1111@deni1111.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	udlos (udlos@udlos.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	embil (embil@embil.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	avalier (avalier@avalier.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	slimygrub (slimygrub@slimygrub.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	soldat329x (soldat329x@soldat329x.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	peer_1 (peer_1@peer_1.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	oshide (oshide@oshide.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	triumphaa (triumphaa@triumphaa.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	xeons (xeons@xeons.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	zhirr (zhirr@zhirr.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	itscollinn (itscollinn@itscollinn.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	pfeilbr (pfeilbr@pfeilbr.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:18	<--	4n0n (4n0n@4n0n.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:43:37	toideng	@EmperorMetallix yep. Well, not including fonts
+2020-04-05 13:43:48	smackin9	It's just crazy to emphasize performance that much and not measure it at all
+2020-04-05 13:43:59	forthesadistik	@Nandmade We were talking about JAI and how it will be a "good" language
+2020-04-05 13:44:01	vivitsu	@EmperorMetallix @toideng The TeX source is also available as annotated source code, including all the layout algorithms, etc (aka a "Literate Program") https://smile.amazon.com/Computers-Typesetting-B-TeX-Program/dp/0201134373?sa-no-redirect=1
+2020-04-05 13:44:18	vivitsu	I believe it's Pascal code
+2020-04-05 13:44:56	michaelangel007	For anyone curios how OOP, FP, and DOD do with banch misses check out CppCon 2019: Matt Godbolt “Path Tracing Three Ways: A Study of C++ Style” https://www.youtube.com/watch?v=HG6c4Kwbv4I
+2020-04-05 13:44:56	insobot	↑ YT Video: [CppCon 2019: Matt Godbolt “Path Tracing Three Ways: A Study of C++ Style”] [55:42]
+2020-04-05 13:44:59	toideng	@vivitsu i believe it was at some point ported to C and CWEB
+2020-04-05 13:45:02	i_am_seabass	Q: In an earlier stream, you talked about how working on an in-order core is so much better than working on an out-of order core. Can you explain the difference between the two and what one affords you over the other?
+2020-04-05 13:45:05	fletchergoss	Q: Apologies if we've moved on from this now but if you could direct people to areas/things to research/specific resources for creating software that loads/run as fast as you'd expect on current hardware, what would you suggest?
+2020-04-05 13:45:13	genos3	Q: how do you know if you have a cache miss?
+2020-04-05 13:45:25	vivitsu	@toideng yeah true, but I dont know if the book uses the C code or the original Pascal code
+2020-04-05 13:45:26	-->	tomtm666 (tomtm666@tomtm666.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	m__ega (m__ega@m__ega.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	wickedelm (wickedelm@wickedelm.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	drdrill (drdrill@drdrill.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	kakamuza (kakamuza@kakamuza.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	jaspi10 (jaspi10@jaspi10.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	whimax07 (whimax07@whimax07.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	belrsn (belrsn@belrsn.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	ix_trick (ix_trick@ix_trick.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	magnetic_llama (magnetic_llama@magnetic_llama.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	xspe (xspe@xspe.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	leviteral (leviteral@leviteral.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	smackin9 (smackin9@smackin9.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	steinlphd (steinlphd@steinlphd.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	ovan10 (ovan10@ovan10.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	0xfelipe (0xfelipe@0xfelipe.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	philliptrudeau (philliptrudeau@philliptrudeau.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	talonfire (talonfire@talonfire.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	yakvie (yakvie@yakvie.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	sivallysan (sivallysan@sivallysan.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	-->	430i (430i@430i.tmi.twitch.tv) has joined #handmade_hero
+2020-04-05 13:45:26	<--	hyp3rlol (hyp3rlol@hyp3rlol.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	binarycreations (binarycreations@binarycreations.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	gresan6 (gresan6@gresan6.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	relvet (relvet@relvet.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	randomasker5566 (randomasker5566@randomasker5566.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	tool787 (tool787@tool787.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	byte4c (byte4c@byte4c.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	nopy1 (nopy1@nopy1.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	eetrexx (eetrexx@eetrexx.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	guverner (guverner@guverner.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	romanos14 (romanos14@romanos14.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	dyrand (dyrand@dyrand.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	zucker1990 (zucker1990@zucker1990.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	vrtxt (vrtxt@vrtxt.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	xeo31 (xeo31@xeo31.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	rotlaus (rotlaus@rotlaus.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	npincomplete (npincomplete@npincomplete.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	suleyth (suleyth@suleyth.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	snowcoffee1 (snowcoffee1@snowcoffee1.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:26	<--	thevoodoopuppet (thevoodoopuppet@thevoodoopuppet.tmi.twitch.tv) has left #handmade_hero
+2020-04-05 13:45:31	nandmade	@ForTheSadistik It will be good for what it is for (making games) because it is being tested with a serious game with a larger code base.
+2020-04-05 13:46:01	--	irc: disconnected from server
