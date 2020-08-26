@@ -759,8 +759,8 @@ ramp-capacity-9 = %{T6}󰂂%{T-}
 ramp-capacity-10 = %{T6}󰁹%{T-}
 
 ;label-discharging = 
-label-discharging = %percentage%%
-;label-discharging = %percentage%％
+;label-discharging = %percentage%%
+label-discharging = %percentage%
 
 ; Charging
 ;format-charging = <animation-charging>

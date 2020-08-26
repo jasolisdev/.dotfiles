@@ -148,7 +148,7 @@ new_window 1pixel
  smart_borders on
 
 # i3-gaps-rounded
-border_radius 0
+border_radius 10
 
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
