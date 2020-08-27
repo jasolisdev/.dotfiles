@@ -22,6 +22,7 @@ def stream(data, buffer, args):
     bufserver = weechat.buffer_get_string(weechat.current_buffer(), "localvar_server")
     bufchannel = weechat.buffer_get_string(weechat.current_buffer(), "localvar_channel").lstrip("#")
     quality = "best"
+    player = "mpv"
 
     input = args.split()
     if not input:
@@ -56,7 +57,7 @@ def stream(data, buffer, args):
             weechat.prnt(weechat.current_buffer(), "    %s" % key)
         return weechat.WEECHAT_RC_ERROR
 
-    command = "streamlink %s %s" % (streamurl, quality)
+    command = "streamlink %s %s --player %s" % (streamurl, quality, player)
 
     weechat.prnt(weechat.current_buffer(), "%sLAUNCHING: %s" % (weechat.prefix("action"), command))
     weechat.hook_process("%s" % (command), 0, "handle_output", "")
