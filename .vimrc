@@ -1,12 +1,8 @@
-"""""""""""
+""""""""""
 "  VIMRC  "
 """"""""""" 
 
 " SETTINGS {{{
-
-if filereadable('/bin/zsh')
-    set shell=/bin/zsh\ --login
-endif
 
 " Allow saving of files as sudo
 command! W execute 'silent! w !sudo /usr/bin/tee % >/dev/null' <Bar> edit!
@@ -94,11 +90,11 @@ set foldenable
 set foldmethod=marker
 set foldnestmax=100
 
-augroup AutoRead
-    autocmd!
-    autocmd FocusGained,BufEnter,CursorHold,CursorHoldI ?* if getcmdwintype() == '' | checktime | endif
-    autocmd FileChangedShellPost * echohl WarningMsg | echo "File changed on disk. Buffer reloaded." | echohl None
-augroup END
+" augroup AutoRead
+"     autocmd!
+"     autocmd FocusGained,BufEnter,CursorHold,CursorHoldI ?* if getcmdwintype() == '' | checktime | endif
+"     autocmd FileChangedShellPost * echohl WarningMsg | echo "File changed on disk. Buffer reloaded." | echohl None
+" augroup END
 
 augroup CustomFolding
     autocmd!
@@ -163,36 +159,24 @@ Plug 'airblade/vim-rooter'
 "" MRU
 Plug 'yegappan/mru'
 
-"" ctrlp
-Plug 'ctrlpvim/ctrlp.vim'
-
-" NERD Tree
-Plug 'scrooloose/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
-" Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-
-Plug 'francoiscabrol/ranger.vim'
-Plug 'rbgrouleff/bclose.vim'
-
 " General
 Plug 'mhinz/vim-startify'
 Plug 'mbbill/undotree'
 Plug 'haya14busa/incsearch.vim'
-Plug 'terryma/vim-multiple-cursors'
-Plug 'jiangmiao/auto-pairs'
+" Plug 'terryma/vim-multiple-cursors'
+" Plug 'jiangmiao/auto-pairs'
 Plug 'Yggdroot/indentLine'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 "Plug 'wellle/targets.vim'
 "Plug 'easymotion/vim-easymotion'
 Plug 'airblade/vim-gitgutter'
-Plug 'tpope/vim-git'
+" Plug 'tpope/vim-git'
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-sleuth'
+" Plug 'tpope/vim-surround'
+" Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-speeddating'
-Plug 'mhinz/vim-grepper'
+" Plug 'mhinz/vim-grepper'
 Plug 'jceb/vim-orgmode'
 Plug 'vim-utils/vim-man'
 Plug 'justinmk/vim-sneak'
@@ -215,16 +199,6 @@ Plug 'ryanoasis/vim-devicons'
 " Completion
 Plug 'Shougo/echodoc.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Plug 'Valloric/YouCompleteMe', {
-"      \ 'build' : {
-"      \     'unix' : './install.py --clangd-completer --ts-completer --cs-completer --java-completer && git submodule update --init --recursive',
-"      \     'windows' : './install.sh --clang-completer --ts-completer && git submodule update --init --recursive'
-"      \    }
-"      \ }
-
-"" Snippets
-Plug 'SirVer/ultisnips'
-" Plug 'honza/vim-snippets'
 
 "" Language Specific
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
@@ -232,14 +206,14 @@ Plug 'mattn/emmet-vim'
 Plug 'alvan/vim-closetag'
 Plug 'rhysd/vim-clang-format'
 Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
-Plug 'prettier/vim-prettier', {
-  \ 'do': 'yarn install',
-  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+" Plug 'prettier/vim-prettier', {
+   " \ 'do': 'yarn install',
+   " \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 Plug 'maksimr/vim-jsbeautify'
 Plug 'ap/vim-css-color'
 Plug 'moll/vim-node'
 Plug 'jmcantrell/vim-virtualenv'
+Plug 'puremourning/vimspector'
 
 " Don't load in console
 if &term !=? 'linux' || has('gui_running')
@@ -263,6 +237,7 @@ let g:gruvbox_underline=1
 let g:gruvbox_undercurl=1
 colorscheme gruvbox
 
+highlight SignColumn guibg=bg
 
 "" Use environment variable
 " if !empty($VIM_COLOR)
@@ -303,7 +278,7 @@ let g:startify_bookmarks = [
             \ { 'c': '~/.config/i3/config' },
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'z': '~/.zshrc' },
-            \ '~/projects',
+            \ '~/dev',
             \ ]
 
 if &term !=? 'linux' || has('gui_running')
@@ -324,11 +299,10 @@ else
     augroup END
 endif
 
-
 " }}}
 
 "  MAPPINGS {{{
-
+"
 " Leader key
 nnoremap <Space> <Nop>
 nnoremap <CR> <Nop>
@@ -395,6 +369,12 @@ nnoremap <silent> <M-8> 8gt
 nnoremap <silent> <M-9> 9gt
 nnoremap <silent> <M-0> :tablast<CR>
 
+"" Buffer navigation
+"" TAB in normal mode will switch between open buffers.
+nnoremap <TAB> :bnext<CR>
+" SHIFT-TAB will go back
+nnoremap <S-TAB> :bprevious<CR>
+
 " Make Y behave like other commands
 nnoremap <silent> Y y$
 
@@ -442,34 +422,17 @@ nnoremap <silent> <M-b> :<C-u>nohlsearch<CR>
 
 " PLUGIN SETTINGS  {{{
 
+" vimspector
+let g:vimspector_enable_mappings = 'HUMAN'
+nmap <leader>dd :call vimspector#Launch()<CR>
+nmap <leader>dx :VimspectorReset<CR>
+nmap <leader>de :VimspectorEval 
+nmap <leader>dw :VimspectorWatch 
+nmap <leader>do :VimspectorShowOutput 
 
+"" vim-move
 let g:move_key_modifier = 'C'
-" vim-sneak
-let g:sneak#label = 1
 
-" case insensitive sneak
-let g:sneak#use_ic_scs = 1
-
-" imediately move tot the next instance of search, if you move the cursor sneak is back to default behavior
-let g:sneak#s_next = 1
-
-" remap so I can use , and ; with f and t
-map gS <Plug>Sneak_,
-map gs <Plug>Sneak_;
-
-" Change the colors
-highlight Sneak guifg=black guibg=#00C7DF ctermfg=black ctermbg=cyan
-highlight SneakScope guifg=red guibg=yellow ctermfg=red ctermbg=yellow
-
-" Cool prompts
-" let g:sneak#prompt = '🕵'
-" let g:sneak#prompt = '🔎'
-
-" I like quickscope better for this since it keeps me in the scope of a single line
-" map f <Plug>Sneak_f
-" map F <Plug>Sneak_F
-" map t <Plug>Sneak_t
-" map T <Plug>Sneak_T
 " vim-jsbeautify
 map <C-b> :call JsBeautify()<cr>
 " or
@@ -551,39 +514,24 @@ command! -bang -nargs=* GGrep
   \   'git grep --line-number '.shellescape(<q-args>), 0,
   \   fzf#vim#with_preview({'dir': systemlist('git rev-parse --show-toplevel')[0]}), <bang>0)
 
-" YouCompleteMe
-" Disable <tab> from YCM. Use Ctrl-n, Ctrl-p to navigate.
-let g:ycm_key_list_select_completion=[]
-let g:ycm_key_list_previous_completion=[]
-let g:ycm_key_list_stop_completion = ['<C-y>', '<CR>']
-" nnoremap <silent> <Leader>gd :YcmCompleter GoTo<CR>
-" nnoremap <silent> <Leader>gf :YcmCompleter FixIt<CR>
-
-" Let clangd fully control code completion
-let g:ycm_clangd_uses_ycmd_caching = 0
-
-" Use installed clangd, not YCM-bundled clangd which doesn't get updates.
-let g:ycm_clangd_binary_path = exepath("clangd")
-
 "" UltiSnips
-let g:UltiSnipsExpandTrigger='<Tab>'
-let g:UltiSnipsJumpForwardTrigger='<C-k>'
-let g:UltiSnipsJumpBackwardTrigger='<C-j>'
-let g:UltiSnipsEditSplit="vertical"
+" let g:UltiSnipsExpandTrigger='<Tab>'
+" let g:UltiSnipsJumpForwardTrigger='<C-k>'
+" let g:UltiSnipsJumpBackwardTrigger='<C-j>'
+" let g:UltiSnipsEditSplit="vertical"
 
-" Change the path to custom snippets.
-let g:UltiSnipsSnippetDirectories = ['~/.vim/UltiSnips', 'UltiSnips']
+" " Change the path to custom snippets.
+" let g:UltiSnipsSnippetDirectories = ['~/.vim/UltiSnips', 'UltiSnips']
 
 " coc 
 let g:coc_global_extensions = [
-  \ 'coc-snippets',
   \ 'coc-pairs',
+  \ 'coc-prettier',
+  \ 'coc-snippets',
+  \ 'coc-spell-checker',
   \ 'coc-tsserver',
   \ 'coc-eslint', 
-  \ 'coc-prettier', 
   \ 'coc-yank',
-  \ 'coc-spell-checker',
-  \ 'coc-prettier',
   \ 'coc-explorer',
   \ 'coc-highlight', 
   \ 'coc-git', 
@@ -598,7 +546,7 @@ let g:coc_global_extensions = [
   \ 'coc-flutter',
   \ 'coc-css',
   \ 'coc-cmake', 
-  \ 'coc-clangd', 
+  \ 'coc-clangd',
   \ ]
 
 " Some servers have issues with backup files, see #649.
@@ -704,8 +652,8 @@ omap af <Plug>(coc-funcobj-a)
 " Use <TAB> for selections ranges.
 " NOTE: Requires 'textDocument/selectionRange' support from the language server.
 " coc-tsserver, coc-python are the examples of servers that support it.
-nmap <silent> <TAB> <Plug>(coc-range-select)
-xmap <silent> <TAB> <Plug>(coc-range-select)
+" nmap <silent> <TAB> <Plug>(coc-range-select)
+" xmap <silent> <TAB> <Plug>(coc-range-select)
 
 " Add `:Format` command to format current buffer.
 command! -nargs=0 Format :call CocAction('format')
@@ -770,66 +718,8 @@ let g:coc_explorer_global_presets = {
 let g:echodoc#enable_at_startup=1
 let g:echodoc#type = 'echo' 
 
-" NERDTree
-map <leader>n :NERDTreeToggle<CR>
-
-"" NerdTree Syntax Highligting
-let g:NERDTreeFileExtensionHighlightFullName = 1
-let g:NERDTreeExactMatchHighlightFullName = 1
-let g:NERDTreePatternMatchHighlightFullName = 1
-
-let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
-let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder name
-
-" Customize NerdTree colors.
-let s:brown = "905532"
-let s:aqua =  "3AFFDB"
-let s:blue = "689FB6"
-let s:darkBlue = "44788E"
-let s:purple = "834F79"
-let s:lightPurple = "834F79"
-let s:red = "AE403F"
-let s:beige = "F5C06F"
-let s:yellow = "F09F17"
-let s:orange = "D4843E"
-let s:darkOrange = "F16529"
-let s:pink = "CB6F6F"
-let s:salmon = "EE6E73"
-let s:green = "8FAA54"
-let s:lightGreen = "31B53E"
-let s:white = "ebdbb2"
-let s:rspec_red = 'FE405F'
-let s:git_orange = 'F54D27'
-
-let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
-let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder namea
-
-let g:NERDTreeExtensionHighlightColor = {} " this line is needed to avoid error
-let g:NERDTreeExtensionHighlightColor['css'] = s:blue " sets the color of css files to blue
-
-let g:NERDTreeExactMatchHighlightColor = {} " this line is needed to avoid error
-let g:NERDTreeExactMatchHighlightColor['.gitignore'] = s:git_orange " sets the color for .gitignore files
-
-let g:NERDTreePatternMatchHighlightColor = {} " this line is needed to avoid error
-let g:NERDTreePatternMatchHighlightColor['.*_spec\.rb$'] = s:rspec_red " sets the color for files ending with _spec.rb
-
-" If you have vim-devicons you can customize your icons for each file type.
-" let g:NERDTreeExtensionHighlightColor = {} "this line is needed to avoid error
-" let g:NERDTreeExtensionHighlightColor['css'] = '' "assigning it to an empty string will skip highlight
-
-let g:NERDTreeIgnore = ['^node_modules$']
-
-"" Change Nerdtree path color
-" highlight NERDTreeCWD guifg=#ebdbb2 ctermfg=15
-highlight NERDTreeCWD guifg=#7b8748 ctermfg=15
-" 83a598
-
 "" Undotree
 nnoremap <silent> <leader>u :UndotreeToggle<CR>
-
-" ranger
-let g:ranger_map_keys = 0
-nnoremap <silent> <leader>r :Ranger<CR>
 
 " Incsearch
 map / <Plug>(incsearch-forward)
@@ -859,23 +749,23 @@ let g:indentLine_concealcursor = "is"
 " let g:AutoPairsShortcutBackInsert='<M-z>' "let g:AutoPairs={'(':')', '[':']', '{':'}',"'":"'",'"':'"', '`':'`', '<':'>'}
 
 "" Multiple-Cursors
-let g:multi_cursor_use_default_mapping=0
-let g:multi_cursor_start_key='<C-n>'
-let g:multi_cursor_select_all_key='<A-n>'
-let g:multi_cursor_start_word_key='g<C-n>'
-let g:multi_cursor_select_all_word_key='g<A-n>'
-let g:multi_cursor_next_key='<C-n>'
-let g:multi_cursor_prev_key='<C-p>'
-let g:multi_cursor_skip_key='<C-x>'
-let g:multi_cursor_quit_key='<Esc>'
-let g:multi_cursor_exit_from_visual_mode=0
-let g:multi_cursor_exit_from_insert_mode=0
+" let g:multi_cursor_use_default_mapping=0
+" let g:multi_cursor_start_key='<C-n>'
+" let g:multi_cursor_select_all_key='<A-n>'
+" let g:multi_cursor_start_word_key='g<C-n>'
+" let g:multi_cursor_select_all_word_key='g<A-n>'
+" let g:multi_cursor_next_key='<C-n>'
+" let g:multi_cursor_prev_key='<C-p>'
+" let g:multi_cursor_skip_key='<C-x>'
+" let g:multi_cursor_quit_key='<Esc>'
+" let g:multi_cursor_exit_from_visual_mode=0
+" let g:multi_cursor_exit_from_insert_mode=0
 
 " MRU
-" if !isdirectory($HOME . '/.vim/.mru')
-"     silent !mkdir -p ~/.vim/.mru >/dev/null 2>&1
-" endif
-" let MRU_File = '~/.vim/.mru/.vim_mru_files'
+if !isdirectory($HOME . '/.config/nvim/mru')
+    silent !mkdir -p ~/.config/nvim/mru >/dev/null 2>&1
+endif
+let MRU_File = '~/.config/nvim/mru/.vim_mru_files'
 
 "" Goyo + Limelight
 let g:goyo_width=90
@@ -1012,17 +902,26 @@ let g:airline#extensions#hunks#enabled=0
 
 """ GitGutter
 let g:gitgutter_map_keys=0
-nmap <leader>hp <Plug>GitGutterPrevHunk
-nmap <leader>ha <Plug>GitGutterStageHunk
-nmap <leader>hu <Plug>GitGutterUndoHunk
-nmap ]c <Plug>GitGutterNextHunk
-nmap [c <Plug>GitGutterPrevHunk
+" nmap <leader>hp <Plug>GitGutterPrevHunk
+" nmap <leader>ha <Plug>GitGutterStageHunk
+" nmap <leader>hu <Plug>GitGutterUndoHunk
+" nmap ]c <Plug>GitGutterNextHunk
+" nmap [c <Plug>GitGutterPrevHunk
 
-let g:gitgutter_sign_added='┃'
-let g:gitgutter_sign_modified='┃'
-let g:gitgutter_sign_removed='◢'
-let g:gitgutter_sign_removed_first_line='◥'
-let g:gitgutter_sign_modified_removed='◢'
+let g:gitgutter_async=0
+" let g:gitgutter_sign_added='┃'
+" let g:gitgutter_sign_modified='┃'
+" let g:gitgutter_sign_removed='◢'
+" let g:gitgutter_sign_removed_first_line='◥'
+" let g:gitgutter_sign_modified_removed='◢'
+
+highlight GitGutterDelete guifg=#d3869b
+highlight GitGutterAdd    guifg=#8ec07c
+highlight GitGutterChange guifg=#83a598
+
+" autocmd BufWritePost * GitGutter
+
+" set signcolumn=no
 
 " }}}
 
