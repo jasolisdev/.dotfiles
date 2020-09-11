@@ -1,0 +1,10 @@
+#!/bin/sh
+
+tmux has-session -t irc 2>/dev/null
+
+if [ "$?" -eq 1 ] ; then
+    tmux new-session -d -s irc -n weechat
+    tmux send-keys -t irc:weechat "weechat" Enter
+fi
+
+tmux attach-session -t irc
