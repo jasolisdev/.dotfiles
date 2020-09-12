@@ -112,8 +112,8 @@ inherit = bar/base
 ;radius = 10
 
 modules-left = rofi right-end-power right-arrow-tail right-arrow-head i3
-modules-center = popup-calendar 
-modules-right = left-arrow-head left-arrow-tail left-arrow-head powermenu
+modules-center = 
+modules-right = popup-calendar left-arrow-head left-arrow-tail left-arrow-head notification
 
 ;modules-right = left-arrow-head left-arrow-tail left-arrow-head popup-calendar left-arrow-tail left-arrow-head powermenu
 ;modules-right = left-arrow-head left-arrow-tail left-arrow-head popup-calendar left-arrow-tail left-arrow-head powermenu
@@ -604,6 +604,21 @@ click-left = exec $HOME/.bin/i3/rofi-session
 click-right = exec $HOME/.bin/i3/rofi-seesion
 content-background = ${color.module-bg}
 content-foreground = ${color.text-fg}
+
+}}}
+
+; Notification Module {{{
+
+[module/notification]
+type = custom/text
+content = "%{T9}%{T-}"
+content-padding = 1
+content-background = ${color.module-bg}
+content-foreground = ${color.text-fg}
+
+click-left = "kill -s USR1 $(pidof deadd-notification-center)"
+/* click-right = ~/.config/polybar/scripts/elementary-sysmenu-alt */
+
 
 }}}
 
