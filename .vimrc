@@ -32,7 +32,7 @@ set diffopt+=hiddenoff,algorithm:histogram
 set cursorline
 
 " make it obvious where 120 characters is
-set textwidth=120
+set textwidth=100
 set colorcolumn=+1
 set formatoptions+=w " for wraping long lines without broken words
 set wrapmargin=0
@@ -180,7 +180,7 @@ Plug 'tpope/vim-commentary'
 Plug 'jceb/vim-orgmode'
 Plug 'vim-utils/vim-man'
 Plug 'justinmk/vim-sneak'
-Plug 'matze/vim-move'
+" Plug 'matze/vim-move'
 
 " Tmux
 Plug 'benmills/vimux'
@@ -324,6 +324,15 @@ else
     nnoremap <silent> <C-l> <C-w><C-l>
 endif
 
+
+" "" Split navigation (vim-tmux-navigator)
+" let g:tmux_navigator_no_mappings=1
+" nnoremap <silent> <C-h> :TmuxNavigateLeft<CR>
+" nnoremap <silent> <C-j> :TmuxNavigateDown<CR>
+" nnoremap <silent> <C-k> :TmuxNavigateUp<CR>
+" nnoremap <silent> <C-BS> :TmuxNavigatePrevious<CR>
+
+
 "" Split resize
 nnoremap <silent> <C-w>h 5<C-w><
 nnoremap <silent> <C-w>j 5<C-w>-
@@ -402,13 +411,6 @@ nnoremap <silent> <leader>l :lopen<CR>
 map <silent> <ScrollWheelUp> <C-y>
 map <silent> <ScrollWheelDown> <C-e>
 
-"" Split navigation (vim-tmux-navigator)
-let g:tmux_navigator_no_mappings=1
-nnoremap <silent> <C-h> :TmuxNavigateLeft<CR>
-nnoremap <silent> <C-j> :TmuxNavigateDown<CR>
-nnoremap <silent> <C-k> :TmuxNavigateUp<CR>
-nnoremap <silent> <C-BS> :TmuxNavigatePrevious<CR>
-
 " Use CTRL-S for saving, also in Insert mode
 nnoremap <silent> <C-s> :write<CR>
 xnoremap <silent> <C-s> <Esc>:write<CR>
@@ -416,7 +418,7 @@ inoremap <silent> <C-s> <C-o>:write<CR><Esc>
 
 " No highlight
 " execute "set <M-g>=\<Esc>b"
-nnoremap <silent> <M-b> :<C-u>nohlsearch<CR>
+nnoremap <silent> <M-g> :<C-u>nohlsearch<CR>
 
 "  }}} 
 
@@ -431,7 +433,7 @@ nmap <leader>dw :VimspectorWatch
 nmap <leader>do :VimspectorShowOutput 
 
 "" vim-move
-let g:move_key_modifier = 'C'
+" let g:move_key_modifier = 'S'
 
 " vim-jsbeautify
 map <C-b> :call JsBeautify()<cr>

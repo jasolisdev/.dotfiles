@@ -52,6 +52,7 @@ bgnotify_formatted() {
 plugins=(
     # zsh-syntax-highlighting
     # zsh-completions
+    tmuxinator
     zsh-autosuggestions
     command-not-found
     colorize
