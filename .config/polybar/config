@@ -158,10 +158,10 @@ bottom = true
 ;radius = 10
 
 modules-left = spotify alsa right-arrow-head right-arrow-tail right-arrow-head
-modules-right = wlan bluetooth redshift xbacklight battery popup-calendar 
+;modules-right = wlan bluetooth redshift xbacklight battery popup-calendar 
 
 ;modules-left = spotify alsa right-arrow-head right-arrow-tail right-arrow-head
-;modules-right = left-arrow-head left-arrow-tail left-arrow-head wlan bluetooth redshift xbacklight battery popup-calendar 
+modules-right = left-arrow-head left-arrow-tail left-arrow-head wlan bluetooth redshift xbacklight battery popup-calendar 
 
 ;tray-position = right
 ;tray-background = ${color.module-bg}
