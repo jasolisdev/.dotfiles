@@ -8,14 +8,14 @@
 
 [xcolor]
 bg     = ${xrdb:color0:#0a0a0a}
-fg     = ${xrdb:color7:#c8c8c8}
-fg-alt = ${xrdb:foreground:#c8c8c8}
-color1 = ${xrdb:color1:#a54242}
-color2 = ${xrdb:color2:#8c9440}
-color3 = ${xrdb:color3:#de935f}
-color4 = ${xrdb:color4:#5f819d}
-color5 = ${xrdb:color5:#85678f}
-color6 = ${xrdb:color6:#5e8d87}
+fg     = ${xrdb:color7:#645b4f}
+fg-alt = ${xrdb:foreground:#ebdbb2}
+color1 = ${xrdb:color1:#cc241d}
+color2 = ${xrdb:color2:#98971a}
+color3 = ${xrdb:color3:#d79921}
+color4 = ${xrdb:color4:#458588}
+color5 = ${xrdb:color5:#b16286}
+color6 = ${xrdb:color6:#689d6a}
 color7 = ${xrdb:color7:#5e8d87}
 color8 = ${xrdb:color8:#373b41}
 
@@ -90,7 +90,10 @@ font-7 = Weather Icons:style=Bold:size=25;8
 font-8 = Material Design Icons:style=Regular:size=25;7
 font-9 = mplus Nerd Font:style=Medium:size=22;3
 font-10 = Font Awesome 5 Free:style=Regular:size=10
-
+font-11 = Product Sans:style=Regular:size=25;6
+font-12 = Material Design Icons:style=Regular:size=30;7
+font-13 = mplus Nerd Font:style=Medium:size=22;6
+font-14 = mplus Nerd Font:style=Medium:size=22;6
 }}}
 
 ; Top Bar - Primary {{{
@@ -111,9 +114,12 @@ inherit = bar/base
 ;offset-y = 20
 ;radius = 10
 
-modules-left = rofi right-end-power right-arrow-tail right-arrow-head i3
-modules-center = 
-modules-right = popup-calendar left-arrow-head left-arrow-tail left-arrow-head notification
+;modules-left =
+modules-center = i3
+;modules-right =
+
+modules-left = rofi right-end-power right-arrow-tail right-arrow-head 
+modules-right = left-arrow-head left-arrow-tail left-arrow-head powermenu
 
 ;modules-right = left-arrow-head left-arrow-tail left-arrow-head popup-calendar left-arrow-tail left-arrow-head powermenu
 ;modules-right = left-arrow-head left-arrow-tail left-arrow-head popup-calendar left-arrow-tail left-arrow-head powermenu
@@ -152,7 +158,10 @@ bottom = true
 ;radius = 10
 
 modules-left = spotify alsa right-arrow-head right-arrow-tail right-arrow-head
-modules-right = left-arrow-head left-arrow-tail left-arrow-head wlan bluetooth redshift xbacklight battery
+modules-right = wlan bluetooth redshift xbacklight battery popup-calendar 
+
+;modules-left = spotify alsa right-arrow-head right-arrow-tail right-arrow-head
+;modules-right = left-arrow-head left-arrow-tail left-arrow-head wlan bluetooth redshift xbacklight battery popup-calendar 
 
 ;tray-position = right
 ;tray-background = ${color.module-bg}
@@ -193,8 +202,9 @@ format-prefix-padding-right = ${layout.icon-padding}
 [module/rofi]
 type = custom/script
 inherit = generic-format-style
-exec = echo "%{T1}%{T-}"
+exec = echo "%{T1}󰣇%{T-}"
 click-left = rofi -modi run,drun,window -show drun
+;format-background = ${color.base-bg}
 format-padding = 1
 
 }}}
@@ -212,43 +222,34 @@ pin-workspaces = false
 ; Split the workspace label on ':' to get its name
 strip-wsnumbers = false
 
-label-focused = %{T10}%{T-}
-label-unfocused = %{T10}%{T-}
+;label-focused = %{T10}%{T-}
+;label-unfocused = %{T10}%{T-}
 
-  ws-icon-0 = 1;一
-  ws-icon-1 = 2;二
-  ws-icon-2 = 3;三
-  ws-icon-3 = 4;四
-  ws-icon-4 = 5;五
-  ws-icon-5 = 6;六
-  ws-icon-6 = 7;七
-  ws-icon-7 = 8;八
-  ws-icon-8 = 9;九
-  ws-icon-9 = 10;十
+  ws-icon-0 = 1;󰋜
+  ws-icon-1 = 2;%{T14}%{T-}
+  ws-icon-2 = 3;
+  ws-icon-3 = 4;󰅱
+  ws-icon-4 = 5;󰗚
+  ws-icon-5 = 6;󰉋
+  ws-icon-6 = 7;󰊠
+  ws-icon-7 = 8;󰖳
+  ws-icon-8 = 9;󰙯
+  ws-icon-9 = 10;󰓇
 
-  ;ws-icon-0 = 1;
-  ;ws-icon-1 = 2;
-  ;ws-icon-2 = 3;
-  ;ws-icon-3 = 4;
-  ;ws-icon-4 = 5;
-  ;ws-icon-5 = 6;6:
-  ;ws-icon-6 = 7;
-  ;ws-icon-7 = 8;
-  ;ws-icon-8 = 9;
-  ;ws-icon-9 = 10;
 
 format = <label-state> <label-mode>
 
 ; Active workspace on focused monitor
-;label-focused = %{T1}%icon%%{T-}
+label-focused = %{T1}%icon%%{T-}
 ;label-focused-underline = ${xcolor.color1}
-;label-focused-background = ${color.module-bg}
+label-focused-background = ${color.module-bg}
 label-focused-foreground = ${xcolor.color7}
 label-focused-padding = ${layout.i3-module-padding}
 
 ; Inactive workspace on any monitor
-;label-unfocused = ${self.label-focused}
+label-unfocused = ${self.label-focused}
 ;label-unfocused-background = ${color.module-bg}
+label-unfocused-foreground = #a89984
 label-unfocused-padding = ${layout.i3-module-padding}
 
 ; Active workspace on unfocused monitor
@@ -522,20 +523,21 @@ exec = ~/.bin/polybar/popup-calendar.sh
 interval = 5
 click-left = ~/.bin/polybar/popup-calendar.sh --popup &
 format-foreground = ${color.text-fg}
-;format-background = ${color.module-bg}
-format-padding = 2
+format-background = ${color.module-bg}
 ;format-prefix = %{T7} %{T-} 
+;format-padding = 2
+;format-padding-right = 2
 
 [module/date-alt]
 type = internal/date
 format-foreground = ${color.text-fg}
 format-background = ${color.module-bg}
-date = %{T7}%{T-} %{T1}%a, %b %d%{T-} %{T7}%{T-}%{T1}%l:%M %p%{T-}
-time-alt = %{T7}%{T-} %{T1}%a, %b %d%{T-} %{T7}%{T-}%{T1} %l:%M %p%{T-}
+date = %{T1}%l:%M %p%{T-}
 ;time-alt = %{T7}%{T-}%{T1}%l:%M %p%{T-}
 label = %date%%time%
-label-padding-left = 2
-label-padding = ${layout.module-padding}
+/* label-padding-left = 1 */
+label-padding-right = 1
+/* label-padding = ${layout.module-padding} */
 
 [module/date]
 type = internal/date
@@ -598,7 +600,7 @@ label-font = 8
 
 [module/powermenu]
 type = custom/text
-content = ⏻
+content = %{T15}%{T-}
 content-padding = 1
 click-left = exec $HOME/.bin/i3/rofi-session
 click-right = exec $HOME/.bin/i3/rofi-seesion
@@ -657,10 +659,9 @@ ramp-volume-font = ${layout.icon-font}
 ramp-volume-padding-right = ${layout.icon-padding}
 ramp-volume-padding-left = ${layout.icon-padding}
 
-ramp-volume-0 = %{T11}%{T-}
-ramp-volume-1 = %{T11}%{T-}
-ramp-volume-2 = %{T11}%{T-}
-;ramp-volume-1 = %{T6}墳%{T-}
+ramp-volume-0 = %{T11}󰕿%{T-}
+ramp-volume-1 = %{T11}󰖀%{T-}
+ramp-volume-2 = %{T11}󰕾%{T-}
 
 ; Bar
 bar-volume-format = ${layout.bar-format}
@@ -676,7 +677,7 @@ format-muted-background = ${color.module-bg}
 format-muted-foreground = ${xcolor.color3}
 format-muted-padding = ${layout.module-padding}
 
-format-muted-prefix = %{T6}婢%{T-} 
+format-muted-prefix = %{T6}󰸈%{T-} 
 format-muted-prefix-font = ${layout.icon-font}
 ;format-muted-prefix-foreground = ${color.icon-fg}
 format-muted-prefix-padding-right = ${layout.icon-padding}
@@ -774,8 +775,8 @@ ramp-capacity-9 = %{T6}󰂂%{T-}
 ramp-capacity-10 = %{T6}󰁹%{T-}
 
 ;label-discharging = 
-;label-discharging = %percentage%%
-label-discharging = %percentage%
+label-discharging = %percentage%%
+;label-discharging = %percentage%
 
 ; Charging
 ;format-charging = <animation-charging>
