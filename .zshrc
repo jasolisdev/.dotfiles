@@ -14,7 +14,7 @@ export UPDATE_ZSH_DAYS=7
 export EDITOR="nvim"
 export VISUAL="nvim"
 export TERMINAL="kitty"
-export BROWSER="brave"
+export BROWSER="google-chrome"
 export READER="zathura"
 
 export PATH="$PATH:`pwd`/flutter/bin"

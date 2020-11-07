@@ -1,16 +1,4 @@
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
-
-# Any items in the `env` entry below will be added as
-# environment variables. Some entries may override variables
-# set by alacritty itself.
-#env:
-  # TERM variable
-  # This value is used to set the `$TERM` environment variable for
-  # each instance of Alacritty. If it is not present, alacritty will
-  # check the local terminfo database and use `alacritty` if it is
-  # available, otherwise `xterm-256color` is used.
-  #TERM: xterm-256color
-
 window:
   # Window dimensions (changes require restart)
   #
@@ -21,7 +9,6 @@ window:
     # lines: 24
     columns: 0
     lines: 0
-
 
   # Window padding (changes require restart)
   #
@@ -80,7 +67,6 @@ scrolling:
 
 # Font configuration (changes require restart)
 font:
-  # Normal (roman) font face
   normal:
     family: 'Source Code Pro' 
     # Style can be specified to pick a specific face. 
@@ -114,22 +100,6 @@ font:
     x: 0
     y: 0
 
-  # Thin stroke font rendering (macOS only)
-  #
-  # Thin strokes are suitable for retina displays, but for non-retina screens
-  # it is recommended to set `use_thin_strokes` to `false`
-  #
-  # macOS >= 10.14.x:
-  #
-  # If the font quality on non-retina display looks bad then set
-  # `use_thin_strokes` to `true` and enable font smoothing by running the
-  # following command:
-  #   `defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO`
-  #
-  # This is a global setting and will require a log out or restart to take
-  # effect.
-  use_thin_strokes: true
-
 # Display the time it takes to redraw each frame.
 # render_timer: false
 
@@ -143,60 +113,34 @@ draw_bold_text_with_bright_colors: true
 colors:
   # Default colors
   primary:
-    background: '0x282828'
-    foreground: '0xebdbb2'
+    background: '#202020'
+    foreground: '#A89984'
 
-    # Bright and dim foreground colors
-    #
-    # The dimmed foreground color is calculated automatically if it is not present.
-    # If the bright foreground color is not set, or `draw_bold_text_with_bright_colors`
-    # is `false`, the normal foreground color will be used.
-    #dim_foreground: '0x9a9a9a'
-    #bright_foreground: '0xffffff'
-
-  # Cursor colors
-  #
-  # Colors which should be used to draw the terminal cursor. If these are unset,
-  # the cursor color will be the inverse of the cell color.
   #cursor:
   #  text: '0x000000'
   #  cursor: '0xffffff'
 
   # Normal colors
   normal:
-    black:   '0x232323'
-    red:     '0xcc241d'
-    green:   '0x98971a'
-    yellow:  '0xd79921'
-    blue:    '0x83a598'
-    magenta: '0xb16286'
-    cyan:    '0x689d6a'
-    white:   '0xa89984'
+    black:   '#202020'
+    red:     '#734541'
+    green:   '#5b6048'
+    yellow:  '#af865a'
+    blue:    '#535c5c'
+    magenta: '#775759'
+    cyan:    '#6d715e'
+    white:   '#A89984'
 
   # Bright colors
   bright:
-    black:   '0x928374'
-    red:     '0xfb4934'
-    green:   '0xb8bb26'
-    yellow:  '0xfabd2f'
-    blue:    '0x83a598'
-    magenta: '0xd3869b'
-    cyan:    '0x8ec07c'
-    white:   '0xebdbb2'
-
-  # Dim colors
-  #
-  # If the dim colors are not set, they will be calculated automatically based
-  # on the `normal` colors.
-  #dim:
-  #  black:   '0x333333'
-  #  red:     '0xf2777a'
-  #  green:   '0x99cc99'
-  #  yellow:  '0xffcc66'
-  #  blue:    '0x6699cc'
-  #  magenta: '0xcc99cc'
-  #  cyan:    '0x66cccc'
-  #  white:   '0xdddddd'
+    black:   '#402e2e'
+    red:     '#733a34'
+    green:   '#586039'
+    yellow:  '#8f6840'
+    blue:    '#444b4b'
+    magenta: '#614445'
+    cyan:    '#585c49'
+    white:   '#b0a390'
 
   # Indexed Colors
   #
@@ -206,7 +150,8 @@ colors:
   # Example:
   #   `- { index: 16, color: '0xff00ff' }`
   #
-  indexed_colors: []
+  indexed_colors: [
+  ]
 
 # Visual Bell
 #

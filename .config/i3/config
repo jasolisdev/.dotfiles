@@ -50,8 +50,9 @@ set $color15  #ebdbb2
 # Border
 set $color16 #404040
 
-set $borderInactive #504945
-set $borderActive   #928374
+# set $borderInactive #928374
+set $borderInactive #403a37
+set $borderActive   #504945
 
 # Window Colors
 #			Border		  Background          Text              Indicator
@@ -110,24 +111,26 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 # Assign application to start on a specific workspace
 # you can find the class with the program xprop
 
-# assign [class=""]							                                      → 1
-# assign [class=""]                                                   → 2
+# assign [class=""]                                                   → 1
+assign [class="Brave-browser|brave-browser"]                          → 2
 # assign [class=""]                                                   → 3
 # assign [class=""]                                                   → 4
 # assign [class=""]                                                   → 5
-# assign [class=""]                                                   → 6
+# assign [class="Thunar|thunar"]                                        → 6
 # assign [class=""]                                                   → 7
-# assign [class=""]                                                   → 8
-# assign [class=""]                                                   → 9
-assign [class="Spotify|spotify"]                                       → 10
+assign [class="Vmware|vmware"]                                        → 8
+assign [class="Discord|discord"]                                      → 9
+assign [class="Spotify|spotify"]                                      → 10
 #fix for spotify not moving to workspace 10
 for_window [class="Spotify"] move to workspace 10
 
-for_window [class="Oblogout"] fullscreen enable
+# enable floating on all windows
+# for_window [class="[.]*"] floating enable
 
-for_window [class="Yad" title="yad-calendar"] floating enable
-
-for_window [class="App" title="App"] floating enable
+for_window [class="SimpleScreenRecorder" instance="simplescreenrecorder" title="SimpleScreenRecorder"] floating enable
+for_window [class="Gnome-calculator" instance="gnome-calculator" title="Calculator" window_role="gnome-calcul46137358 ator"] floating enable move position center
+for_window [class="Nwggrid" instance="nwggrid" title="~nwggrid" window_role="~nwggrid"] fullscreen enable
+for_window [class="Connect4" instance="sfml_project" title="Connect4"] floating enable move position center
 #}}}
 
 ################### GAPS ######################## {{{
@@ -135,6 +138,7 @@ for_window [class="App" title="App"] floating enable
 # No titles, minimal borders
 for_window [class="^.*"] border pixel 3
 new_window 1pixel
+
 
 # You can also use any non-zero value if you'd like to have a border
 # for_window [class=".*"] border pixel 0
@@ -145,7 +149,7 @@ new_window 1pixel
  gaps inner 0
  gaps outer 0
 # smart_gaps on
- smart_borders on
+smart_borders on
 
 # i3-gaps-rounded
 border_radius 10
@@ -406,7 +410,7 @@ bindsym $mod+Tab workspace next
 
 ################### WALLPAPER ################### {{{
 
-exec_always feh --bg-fill $HOME/.wallpapers/wall-alt.png
+exec_always feh --bg-fill $HOME/.wallpapers/wal-alt-dark.png
 
 #}}}
 
@@ -424,11 +428,12 @@ exec_always --no-startup-id $HOME/.bin/polybar/launch_polybar
 exec_always --no-startup-id $HOME/.bin/ext_monitor
 
 # exec_always compton --config $HOME/.config/compton/compton.conf --respect-prop-shadow
-exec_always --no-startup-id picom
+# exec_always --no-startup-id picom
 
 #exec_always --no-startup-id mopidy
 
 exec_always --no-startup-id dunst
+# exec_always --no-startup-id deadd-notification-center
 
 # exec --no-startup-id nm-applet
 
@@ -455,9 +460,11 @@ bindsym $mod+Shift+m exec --no-startup-id sysmon
 
 # Add this to your i3 config (~/.config/i3/config) and restart i3 (Super+Shift+R)
 #for_window [class="kitty" title="^((?!Kitty Preferences).)*$"] move scratchpad, move position 0 0, resize set 1366 768;
-bindsym $mod+i [class="Alacritty|kitty|google-chrome|Google-chrome|brave-browser|Brave-browser|code|Code"] scratchpad show;
+bindsym $mod+i [class="SimpleScreenRecorder|Alacritty|kitty|google-chrome|Google-chrome|brave-browser|Brave-browser|code|Code"] scratchpad show;
 # send window to scratchpad
 bindsym $mod+n move scratchpad
-bindsym $mod+Shift+n scratchpad show
+
+
+# bindsym $mod+Shift+n exec kill -s USR1 $(pidof deadd-notification-center)
 
 #}}}

@@ -8,6 +8,7 @@
  alias l='ls -FA'
  # long list,size,show type,human readable
  alias ll='ls -lFh'
+ alias lla='ls -lFha'
  # long list,show almost all,show type,human readable
  alias la='ls -a'
  # sorted by date,recursive,show type,human readable
@@ -102,6 +103,8 @@
  alias cd..="cd .."
 
 alias yt="youtube-viewer"
+
+alias r="ranger"
 
 foreground-job() {
     fg

@@ -14,13 +14,13 @@
 -   [Setup Repository](#setup-repository)
 
 ### Screenshots
-## Current Updated Polybar
-![i3-gaps WM](.images/polybar-update.png)
-## Older Screenshots
-![i3-gaps WM](.images/screenshot_1.png)
-![i3-gaps WM](.images/screenshot_2.png)
-![i3-gaps WM](.images/screenshot_3.png)
-![i3-gaps WM](.images/screenshot_4.png)
+## Latest Screenshots
+![i3-gaps WM](.images/home.png)
+![i3-gaps WM](.images/unixporn.png)
+![i3-gaps WM](.images/startpage.png)
+![i3-gaps WM](.images/study.png)
+![i3-gaps WM](.images/discord.png)
+![i3-gaps WM](.images/spotify.png)
 
 ### Introduction
 

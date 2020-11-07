@@ -32,7 +32,7 @@ set diffopt+=hiddenoff,algorithm:histogram
 set cursorline
 
 " make it obvious where 120 characters is
-set textwidth=100
+set textwidth=80
 set colorcolumn=+1
 set formatoptions+=w " for wraping long lines without broken words
 set wrapmargin=0
@@ -90,11 +90,11 @@ set foldenable
 set foldmethod=marker
 set foldnestmax=100
 
-" augroup AutoRead
-"     autocmd!
-"     autocmd FocusGained,BufEnter,CursorHold,CursorHoldI ?* if getcmdwintype() == '' | checktime | endif
-"     autocmd FileChangedShellPost * echohl WarningMsg | echo "File changed on disk. Buffer reloaded." | echohl None
-" augroup END
+augroup AutoRead
+    autocmd!
+    autocmd FocusGained,BufEnter,CursorHold,CursorHoldI ?* if getcmdwintype() == '' | checktime | endif
+    autocmd FileChangedShellPost * echohl WarningMsg | echo "File changed on disk. Buffer reloaded." | echohl None
+augroup END
 
 augroup CustomFolding
     autocmd!
@@ -163,9 +163,9 @@ Plug 'yegappan/mru'
 Plug 'mhinz/vim-startify'
 Plug 'mbbill/undotree'
 Plug 'haya14busa/incsearch.vim'
-" Plug 'terryma/vim-multiple-cursors'
+Plug 'terryma/vim-multiple-cursors'
 " Plug 'jiangmiao/auto-pairs'
-Plug 'Yggdroot/indentLine'
+" Plug 'Yggdroot/indentLine'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 "Plug 'wellle/targets.vim'
@@ -214,6 +214,8 @@ Plug 'ap/vim-css-color'
 Plug 'moll/vim-node'
 Plug 'jmcantrell/vim-virtualenv'
 Plug 'puremourning/vimspector'
+Plug 'markwoodhall/vim-codelens'
+Plug 'turbio/bracey.vim'
 
 " Don't load in console
 if &term !=? 'linux' || has('gui_running')
@@ -237,8 +239,8 @@ let g:gruvbox_underline=1
 let g:gruvbox_undercurl=1
 colorscheme gruvbox
 
-highlight SignColumn guibg=bg
 
+highlight SignColumn guibg=bg
 "" Use environment variable
 " if !empty($VIM_COLOR)
 "     silent! colorscheme $VIM_COLOR
@@ -258,28 +260,88 @@ if &term !=? 'linux' || has('gui_running')
     " let &t_Cs="\<Esc>[4:3m"
 endif
 
-"" Startify
-" highlight StartifyBracket guifg=#ebdbb2 ctermfg=15 
-" highlight StartifyFooter  guifg=#ebdbb2 ctermfg=15 
-highlight StartifyHeader  guifg=#7b8748 ctermfg=10 
-" highlight StartifyNumber  guifg=#ebdbb2 ctermfg=15 
-" highlight StartifyPath ctermfg=4 
-" highlight StartifyPath ctermfg=4 
-" highlight StartifySlash   guifg=#a89984 ctermfg=7 
-" highlight StartifySpecial guifg=#a89984 ctermfg=7 
+ "" Startify
+ " highlight StartifyBracket guifg=#ebdbb2 ctermfg=15 
+ " highlight StartifyFooter  guifg=#ebdbb2 ctermfg=15 
+ highlight StartifyHeader  guifg=#5b6048 ctermfg=10 
+ " highlight StartifyNumber  guifg=#ebdbb2 ctermfg=15 
+ " highlight StartifyPath ctermfg=4 
+ " highlight StartifyPath ctermfg=4 
+ " highlight StartifySlash   guifg=#a89984 ctermfg=7 
+ " highlight StartifySpecial guifg=#a89984 ctermfg=7 
+
+ " Centers start screen vertically
+function! s:vercent(head)
+  let delt = ((&lines - len(a:head) - 15) / 2) - 1
+  if delt<0
+    return a:head
+  endif
+  let i = 0
+  let head = a:head
+  while i < delt
+    let head = [''] + head
+    let i = i + 1
+  endwhile
+  return head
+endfunction
+
+" Centers file entries horizontally. Hardcode offset, so long paths (over 50
+" len) will break
+function! s:horcent()
+  let leng = 25 " delete this line if you figure out dynamic alignment"
+  let delt = ((&columns - leng) / 2) - 1
+  if delt<0
+    return 0
+  endif
+  return delt
+endfunction
+
+let s:pad = <SID>horcent()
+
+" Centers section header entries
+function! s:bcent(str)
+  let delt = ((&columns - len(a:str)) / 2) - 1
+  if delt<0
+    return a:str
+  endif
+  let i = 0
+  let str = a:str
+  while i < delt
+    let str = " " . str
+    let i = i + 1
+  endwhile
+  return str
+endfunction
+
+" opts
+let g:startify_fortune_use_unicode = 1
+let g:startify_enable_special = 0
+let g:startify_padding_left = s:pad
+
+
+" formatted header/footer
+let s:footer= ['-------------------------------','  Real Programmers use Neovim  ','-------------------------------']
+" let g:exten = ["vim.kronos - an endgame neovim config"]
+let g:exten = [""]
+let s:header = startify#center(startify#fortune#cowsay())
+let g:startify_custom_header = <SID>vercent(s:header)
+let g:startify_custom_footer = startify#center(s:footer) + startify#center(g:exten)
+
 let g:startify_session_dir = '~/.config/nvim/session'
 let g:startify_lists = [
-          \ { 'type': 'files',     'header': ['   Files']            },
-          \ { 'type': 'dir',       'header': ['   Current Directory '. getcwd()] },
-          \ { 'type': 'sessions',  'header': ['   Sessions']       },
-          \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
+          \ { 'type': 'bookmarks', 'header': [<SID>bcent("Bookmarks")]      },
+           \ { 'type': 'sessions',  'header': [<SID>bcent("Sessions")]       },
           \ ]
+
 let g:startify_bookmarks = [
-            \ { 'c': '~/.config/i3/config' },
-            \ { 'i': '~/.config/nvim/init.vim' },
-            \ { 'z': '~/.zshrc' },
-            \ '~/dev',
+            \ {'c':'~/dev/repos/connect4'},
+            \ {'i': '~/.config/i3/config' },
+            \ {'n': '~/.config/nvim' },
+            \ {'p': '~/.config/polybar/config' },
+            \ {'t': '~/.tmux.conf' },
             \ ]
+
+
 
 if &term !=? 'linux' || has('gui_running')
     set listchars=tab:›\ ,extends:>,precedes:<,nbsp:˷,eol:⤶,trail:~
@@ -407,6 +469,19 @@ nnoremap gV `[v`]
 nnoremap <silent> <leader>q :copen<CR>
 nnoremap <silent> <leader>l :lopen<CR>
 
+" open quickfix with make
+noremap <M-m> :cd build/<CR> :make<BAR>copen<CR>
+
+" make run
+noremap <M-r> :cd build/<CR> :make run<CR>
+
+autocmd BufWinEnter quickfix nnoremap <silent> <buffer>
+                \   q :cclose<cr>:lclose<cr>
+    autocmd BufEnter * if (winnr('$') == 1 && &buftype ==# 'quickfix' ) |
+                \   bd|
+                \   q | endif
+
+
 " Scroll
 map <silent> <ScrollWheelUp> <C-y>
 map <silent> <ScrollWheelDown> <C-e>
@@ -423,6 +498,36 @@ nnoremap <silent> <M-g> :<C-u>nohlsearch<CR>
 "  }}} 
 
 " PLUGIN SETTINGS  {{{
+
+" bracey live-server
+let g:bracey_auto_start_browser= 1
+" let g:bracey_server_allow_remote_connections= 1
+let g:bracey_server_port = 8080
+
+" codelens
+" let g:codelens_auto = 1
+" let g:codelens_bg_colour='#1da374'
+" let g:codelens_fg_colour='#292D33'
+" let g:codelens_show_references = 1
+" let g:codelens_allow_same_line = 1
+
+" coc-yank
+nnoremap <silent> <space>y  :<C-u>CocList -A --normal yank<cr>
+hi HighlightedyankRegion term=bold ctermbg=0 guibg=#13354A
+
+let g:vimspector_enable_mappings = 'HUMAN'
+nmap <leader>dd :call vimspector#Launch()<CR>
+nmap <leader>dx :VimspectorReset<CR>
+nmap <leader>de :VimspectorEval 
+nmap <leader>dw :VimspectorWatch 
+nmap <leader>do :VimspectorShowOutput 
+
+" vim-commentary
+autocmd FileType c,cpp,cs,java setlocal commentstring=//\ %s
+
+
+" enable clang formater
+autocmd VimEnter * ClangFormatAutoEnable
 
 " vimspector
 let g:vimspector_enable_mappings = 'HUMAN'
@@ -466,7 +571,6 @@ map <leader>b :Buffers<CR>
 nnoremap <leader>g :Rg<CR>
 nnoremap <leader>t :Tags<CR>
 nnoremap <leader>m :Marks<CR>
-
 
 let g:fzf_tags_command = 'ctags -R'
 " Border color
@@ -549,6 +653,7 @@ let g:coc_global_extensions = [
   \ 'coc-css',
   \ 'coc-cmake', 
   \ 'coc-clangd',
+  \ 'coc-terminal',
   \ ]
 
 " Some servers have issues with backup files, see #649.
@@ -607,6 +712,9 @@ nmap <silent> gr <Plug>(coc-references)
 
 " Use K to show documentation in preview window.
 nnoremap <silent> K :call <SID>show_documentation()<CR>
+
+" Use Space f to open action
+nmap <space>f :CocAction<CR>
 
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
@@ -669,7 +777,9 @@ command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organize
 " Add (Neo)Vim's native statusline support.
 " NOTE: Please see `:h coc-status` for integrations with external plugins that
 " provide custom statusline: lightline.vim, vim-airline.
-set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+" set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+" set statusline^=%{get(g:,'coc_git_status','')}%{get(b:,'coc_git_status','')}%{get(b:,'coc_git_blame','')}
+autocmd CursorHold * :CocCommand git.refresh
 
 " Mappings using CoCList:
 " Show all diagnostics.
@@ -736,14 +846,14 @@ let g:incsearch#no_inc_hlsearch=1
 let g:incsearch#separate_highlight=1
 let g:incsearch#no_inc_hlsearch=1
 
-" Indentlines
-let g:indentLine_setConceal = 2
-" default ''.
-" n for Normal mode
-" v for Visual mode
-" i for Insert mode
-" c for Command line editing, for 'incsearch'
-let g:indentLine_concealcursor = "is"
+" " Indentlines
+" let g:indentLine_setConceal = 2
+" " default ''.
+" " n for Normal mode
+" " v for Visual mode
+" " i for Insert mode
+" " c for Command line editing, for 'incsearch'
+" let g:indentLine_concealcursor = "is"
 
 "" AutoPairs
 " execute "set <M-p>=\<Esc>p"
@@ -751,17 +861,17 @@ let g:indentLine_concealcursor = "is"
 " let g:AutoPairsShortcutBackInsert='<M-z>' "let g:AutoPairs={'(':')', '[':']', '{':'}',"'":"'",'"':'"', '`':'`', '<':'>'}
 
 "" Multiple-Cursors
-" let g:multi_cursor_use_default_mapping=0
-" let g:multi_cursor_start_key='<C-n>'
-" let g:multi_cursor_select_all_key='<A-n>'
-" let g:multi_cursor_start_word_key='g<C-n>'
-" let g:multi_cursor_select_all_word_key='g<A-n>'
-" let g:multi_cursor_next_key='<C-n>'
-" let g:multi_cursor_prev_key='<C-p>'
-" let g:multi_cursor_skip_key='<C-x>'
-" let g:multi_cursor_quit_key='<Esc>'
-" let g:multi_cursor_exit_from_visual_mode=0
-" let g:multi_cursor_exit_from_insert_mode=0
+let g:multi_cursor_use_default_mapping=0
+let g:multi_cursor_start_key='<C-n>'
+let g:multi_cursor_select_all_key='<A-n>'
+let g:multi_cursor_start_word_key='g<C-n>'
+let g:multi_cursor_select_all_word_key='g<A-n>'
+let g:multi_cursor_next_key='<C-n>'
+let g:multi_cursor_prev_key='<C-p>'
+let g:multi_cursor_skip_key='<C-x>'
+let g:multi_cursor_quit_key='<Esc>'
+let g:multi_cursor_exit_from_visual_mode=0
+let g:multi_cursor_exit_from_insert_mode=0
 
 " MRU
 if !isdirectory($HOME . '/.config/nvim/mru')
@@ -925,9 +1035,6 @@ highlight GitGutterChange guifg=#83a598
 
 " set signcolumn=no
 
-" }}}
-
-"  BACKUP / SWAP / UNDO  {{{
 
 if !isdirectory($HOME . '/.vim/.backup')
     silent !mkdir -p ~/.vim/.backup >/dev/null 2>&1

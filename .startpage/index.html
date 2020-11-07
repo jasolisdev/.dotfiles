@@ -1,148 +1,106 @@
 <html>
 
 <head>
-
-    <title>~</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto+Mono" rel="stylesheet">
-
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script src="https://kit.fontawesome.com/f00c14539b.js" crossorigin="anonymous"></script>
+    <title>Startpage</title>
 </head>
 
-<body onload='setFocusToTextBox()'>
+<body>
+    <div class="container">
+        <div id="time" class="time"></div>
 
-    <br>
+        <form method="GET" action="http://www.duckduckgo.com/">
+            <input name="q" class="search-field" autofocus>
+            <button type="submit" class="search-submit" value="" style="fill: white"></button>
+        </form>
 
-    <script>
-        function setFocusToTextBox()
-        {
-            document.getElementById("google").focus();
-        }
-    </script>
-
-    <script language="javascript">
-        var text = new Array();
-        text[0] = "Hello";
-        text[1] = "Hi";
-        text[2] = "Welcome";
-        text[3] = "Hey";
-
-        var i = Math.floor(text.length * Math.random());
-
-        document.write("<h1>" + text[i] + "</h1>");
-    </script>
-
-    <br>
-    <br>
-
-    <div class="all">
-        <div class="title general">
-            <h3>general</h3>
-        </div>
-        <div class="links">
-            <a target="_blank" href="https://www.duckduckgo.com/" autofocus>
-                <p>duckduckgo</p>
-            </a>
-            <a target="_blank" href="https:/www.gmail.com/">
-                <p>gmail</p>
-            </a>
-            <a target="_blank" href="https://www.youtube.com/">
-                <p>youtube</p>
-            </a>
-            <a target="_blank" href="https://www.netflix.com/">
-                <p>netflix</p>
-            </a>
-        </div>
-    </div>
-
-    <div class="all">
-        <div class="title school">
-            <h3>school</h3>
-        </div>
-        <div class="links">
-            <a target="_blank" href="https://www.udemy.com/">
-                <p>udemy</p>
-            </a>
-            <a target="_blank" href="https://www.skillshare.com/">
-                <p>skillshare</p>
-            </a>
-            <a target="_blank" href="https://de.wikipedia.org/">
-                <p>wikipedia</p>
-            </a>
-        </div>
-    </div>
-
-    <div class="all">
-        <div class="title social">
-            <h3>social</h3>
-        </div>
-        <div class="links">
-            <a target="_blank" href="https://twitter.com/">
-                <p>twitter</p>
-            </a>
-            <a target="_blank" href="https://www.instagram.com/">
-                <p>instagram</p>
-            </a>
-            <a target="_blank" href="https://web.whatsapp.com/">
-                <p>whatsapp</p>
-            </a>
-            <a target="_blank" href="https://www.reddit.com/">
-                <p>reddit</p>
-            </a>
-
-        </div>
-    </div>
-
-    <div class="all">
-        <div class="title programming">
-            <h3>programming</h3>
-        </div>
-        <div class="links">
-            <a target="_blank" href="https://github.com/">
-                <p>github</p>
-            </a>
-            <a target="_blank" href="https://stackoverflow.com/">
-                <p>stack overflow</p>
-            </a>
-            <a target="_blank" href="https://www.hackerrank.com/">
-                <p>hackerrank</p>
-            </a>
-            <a target="_blank" href="https://projecteuler.net/">
-                <p>project euler</p>
-            </a>
+        <div class="box">
+            <div class="box-container general">
+                <div class="heading">general</div>
+                <a href="https://www.gmail.com/" target="_blank">
+                    <div class="link" tabindex="1">Gmail</div>
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <div class="link" tabindex="2">Youtube</div>
+                </a>
+                <a href="https://www.netflix.com/" target="_blank">
+                    <div class="link" tabindex="3">Netflix</div>
+                </a>
+                <a href="https://www.spotify.com/de/" target="_blank">
+                    <div class="link" tabindex="3">Spotify</div>
+                </a>
+            </div>
+            <div class="box-container school">
+                <div class="heading">school</div>
+                <a href="https://canvas.cccd.edu/" target="_blank">
+                    <div class="link" tabindex="5">Canvas</div>
+                </a>
+                <a href="https://mycoast.cccd.edu/" target="_blank">
+                    <div class="link" tabindex="6">MyCoast</div>
+                </a>
+                <a href="https://www.udemy.com/" target="_blank">
+                    <div class="link" tabindex="7">Udemy</div>
+                </a>
+                <a href="https://github.com/" target="_blank">
+                    <div class="link" tabindex="8">Github</div>
+                </a>
+            </div>
+            <div class="box-container social">
+                <div class="heading">social</div>
+                <a href="https://www.twitter.com/" target="_blank">
+                    <div class="link" tabindex="9">Twitter</div>
+                </a>
+                <a href="https://unsplash.com/" target="_blank">
+                    <div class="link" tabindex="10">Instagram</div>
+                </a>
+                <a href="https://www.discord.com/" target="_blank">
+                    <div class="link" tabindex="12">Discord</div>
+                </a>
+                <a href="https://themeforest.net/" target="_blank">
+                    <div class="link" tabindex="11">Reddit</div>
+                </a>
+            </div>
+            <div class="box-container news">
+                <div class="heading">news</div>
+                <a href="https://www.ocregister.com/" target="_blank">
+                    <div class="link" tabindex="12">OC Register</div>
+                </a>
+                <a href="Reddit" target="_blank">
+                    <div class="link" tabindex="11">LA Times</div>
+                </a>
+                <a href="https://www.news.google.com/" target="_blank">
+                    <div class="link" tabindex="10">Google</div>
+                </a>
+                <a href="https://www.news.yahoo.com/" target="_blank">
+                    <div class="link" tabindex="9">Yahoo</div>
+                </a>
+            </div>
+            <div class="box-container linux">
+                <div class="heading">linux</div>
+                <a href="https://www.reddit.com/r/unixporn/" target="_blank">
+                    <div class="link" tabindex="11">r/unixporn</div>
+                </a>
+                <a href="https://www.wiki.archlinux.org/" target="_blank">
+                    <div class="link" tabindex="12">Arch Wiki</div>
+                </a>
+                <a href="Reddit" target="_blank">
+                    <div class="link" tabindex="11">AUR</div>
+                </a>
+            </div>
         </div>
     </div>
 
-    <div class="all">
-        <div class="title news">
-            <h3>news</h3>
-        </div>
-        <div class="links">
-            <a target="_blank" href="https://news.google.com/">
-                <p>google news</p>
-            </a>
-            <a target="_blank" href="https://www.ocregister.com/">
-                <p>oc register</p>
-            </a>
-            <a target="_blank" href="https://news.ycombinator.com/">
-                <p>hacker news</p>
-            </a>
 
-        </div>
+    <div class="wave-container">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
     </div>
 
-    <div class="all">
-        <div class="title linux">
-            <h3>linux</h3>
-        </div>
-        <div class="links">
-            <a target="_blank" href="https://wiki.archlinux.org/">
-                <p>archwiki</p>
-            </a>
-            <a target="_blank" href="https://aur.archlinux.org/">
-                <p>aur</p>
-            </a>
-        </div>
-    </div>
+    <script src="script.js"></script>
 
 </body>
 

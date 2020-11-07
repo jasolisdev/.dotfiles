@@ -227,8 +227,8 @@ strip-wsnumbers = false
 
   ws-icon-0 = 1;󰋜
   ws-icon-1 = 2;%{T14}%{T-}
-  ws-icon-2 = 3;
-  ws-icon-3 = 4;󰅱
+  ws-icon-2 = 3;󰅱
+  ws-icon-3 = 4;
   ws-icon-4 = 5;󰗚
   ws-icon-5 = 6;󰉋
   ws-icon-6 = 7;󰊠
@@ -598,16 +598,113 @@ label-font = 8
 
 ; Powermenu Module {{{
 
-[module/powermenu]
-type = custom/text
-content = %{T15}%{T-}
-content-padding = 1
-click-left = exec $HOME/.bin/i3/rofi-session
-click-right = exec $HOME/.bin/i3/rofi-seesion
-content-background = ${color.module-bg}
-content-foreground = ${color.text-fg}
+;[module/powermenu]
+;type = custom/text
+;content = %{T15}%{T-}
+;content-padding = 1
+;click-left = exec $HOME/.bin/i3/rofi-session
+;click-right = exec $HOME/.bin/i3/rofi-seesion
+;content-background = ${color.module-bg}
+;content-foreground = ${color.text-fg}
 
+[module/powermenu]
+type = custom/menu
+
+;      » 
+label-open = %{T15}      %{T-}
+label-open-font = 6
+label-open-foreground = ${color.text-fg}
+label-open-background = ${color.module-bg}
+label-close = 
+label-close-foreground = ${color.text-fg}
+label-close-background = ${color.module-bg}
+label-separator = " "
+label-separator-foreground = ${color.text-fg}
+label-separator-background = ${color.module-bg}
+
+; lock
+menu-0-0 = %{T15}  %{T-}
+menu-0-0-exec = bash ~/.bin/i3/lock
+menu-0-0-foreground = ${color.text-fg}
+menu-0-0-background = ${color.module-bg}
+; sleep
+menu-0-1 = %{T15}  %{T-}
+menu-0-1-exec = bash ~/scripts/lock.sh && systemctl suspend
+menu-0-1-foreground = ${color.text-fg}
+menu-0-1-background = ${color.module-bg}
+; logout
+menu-0-2 = %{T15}  %{T-}
+menu-0-2-exec = pkill x
+menu-0-2-foreground = ${color.text-fg}
+menu-0-2-background = ${color.module-bg}
+; reboot
+menu-0-3 = %{T15}  %{T-}
+menu-0-3-exec = systemctl reboot
+menu-0-3-foreground = ${color.text-fg}
+menu-0-3-background = ${color.module-bg}
+; shutdown
+menu-0-4 = %{T15}  %{T-}
+menu-0-4-exec = systemctl poweroff
+menu-0-4-foreground = ${color.text-fg}
+menu-0-4-background = ${color.module-bg}
+; end stripe
+menu-0-5 = "  "
+menu-0-5-font = 6
+menu-0-5-foreground = ${color.text-fg}
+menu-0-5-background = ${color.module-bg}
 }}}
+
+[module/appmenu]
+type = custom/menu
+
+;       
+label-open = " "
+label-open-font = 6
+label-open-foreground = ${colors.xcolor1}
+label-open-background = ${colors.xcolor0}
+label-close = " "
+label-close-foreground = ${colors.xcolor7}
+label-close-background = ${colors.xcolor0}
+label-separator = " "
+label-separator-foreground = ${colors.xcolor1}
+label-separator-background = ${colors.xcolor0}
+
+;                   
+; terminal
+menu-0-0 = "  "
+menu-0-0-exec = termite &
+menu-0-0-foreground = ${colors.xcolor7}
+menu-0-0-background = ${colors.xcolor0}
+; filemanager
+menu-0-1 = "  "
+menu-0-1-exec = thunar &
+menu-0-1-foreground = ${colors.xcolor7}
+menu-0-1-background = ${colors.xcolor0}
+; browser
+menu-0-2 = "  "
+menu-0-2-exec = firefox &
+menu-0-2-foreground = ${colors.xcolor7}
+menu-0-2-background = ${colors.xcolor0}
+; editor
+menu-0-3 = "  "
+menu-0-3-exec = atom &
+menu-0-3-foreground = ${colors.xcolor7}
+menu-0-3-background = ${colors.xcolor0}
+; chat client
+menu-0-4 = "  "
+menu-0-4-exec = discord &
+menu-0-4-foreground = ${colors.xcolor7}
+menu-0-4-background = ${colors.xcolor0}
+; media player
+menu-0-5 = "  "
+menu-0-5-exec = vlc &
+menu-0-5-foreground = ${colors.xcolor7}
+menu-0-5-background = ${colors.xcolor0}
+; end stripe
+menu-0-6 = " "
+menu-0-6-font = 6
+menu-0-6-foreground = ${colors.xcolor1}
+menu-0-6-background = ${colors.xcolor0}
 
 ; Notification Module {{{
 

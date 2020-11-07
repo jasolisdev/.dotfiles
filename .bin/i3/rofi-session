@@ -14,7 +14,7 @@ sleep 0.5
 [[ -z "$choice" ]] && exit 1
 
 case "$choice" in
-    0) exec ~/.bin/i3/lockscreen ;; 
+    0) exec ~/.bin/i3/lock ;; 
     1) exec ~/.bin/rofi/promptmenu.sh --yes-command "systemctl suspend" --query "Suspend?" & ;;
     2) exec ~/.bin/rofi/promptmenu.sh --yes-command "systemctl hibernate" --query "Hibernate?" & ;;
     3) exec i3-msg exit & dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop & ;;
