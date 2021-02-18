@@ -2,6 +2,7 @@
 #  ALIASES  #
 #############
 
+ alias colors='./.bin/rice/colors'
  alias ..='cd ..'
 
  # show type,show almost all
@@ -37,8 +38,10 @@
  alias pg='ping -c 1 www.google.com'
  alias fix-wifi='sudo modprobe -r brcmfmac && sleep 10 $$ sudo modprobe brcmfmac'
 
- alias vpn='sudo cyberghostvpn --traffic --country-code US --city "Los Angeles" --connect'
- alias svpn='sudo cyberghostvpn --stop'
+ alias nvpn='sudo nordvpn connect'
+ alias dvpn='sudo nordvpn disconnect'
+ alias vpns='sudo nordvpn status'
+
  alias netui=nmtui
 
  alias neofetch='echo "\\n\\n" && neofetch'
