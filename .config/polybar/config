@@ -10,13 +10,13 @@
 bg     = ${xrdb:color0:#0a0a0a}
 fg     = ${xrdb:color7:#645b4f}
 fg-alt = ${xrdb:foreground:#ebdbb2}
-color1 = ${xrdb:color1:#cc241d}
-color2 = ${xrdb:color2:#98971a}
-color3 = ${xrdb:color3:#d79921}
-color4 = ${xrdb:color4:#458588}
-color5 = ${xrdb:color5:#b16286}
-color6 = ${xrdb:color6:#689d6a}
-color7 = ${xrdb:color7:#5e8d87}
+color1 = ${xrdb:color1:#734541}
+color2 = ${xrdb:color2:#5b6048}
+color3 = ${xrdb:color3:#af865a}
+color4 = ${xrdb:color4:#535c5c}
+color5 = ${xrdb:color5:#775759}
+color6 = ${xrdb:color6:#6d715e}
+color7 = ${xrdb:color7:#A89984}
 color8 = ${xrdb:color8:#373b41}
 
 [color]
@@ -37,7 +37,7 @@ bar-fg  = ${xcolor.color8}
 red     = #821717
 orange  = #824517
 
-}}}
+;}}}
 
 ; Global {{{
 
@@ -55,7 +55,7 @@ bar-fill-icon = ﭳ
 ; Reload upon receiving XCB_RANDR_SCREEN_CHANGE_NOTIFY events
 screenchange-reload = true
 
-}}}
+;}}}
 
 ; Base Bar {{{
 
@@ -75,7 +75,7 @@ line-size = 1
 cursor-click = pointer
 cursor-scroll = ns-resize
 
-}}}
+;}}}
 
 ; Fonts {{{
 
@@ -94,7 +94,8 @@ font-11 = Product Sans:style=Regular:size=25;6
 font-12 = Material Design Icons:style=Regular:size=30;7
 font-13 = mplus Nerd Font:style=Medium:size=22;6
 font-14 = mplus Nerd Font:style=Medium:size=22;6
-}}}
+
+;}}}
 
 ; Top Bar - Primary {{{
 
@@ -102,7 +103,7 @@ font-14 = mplus Nerd Font:style=Medium:size=22;6
 background     = #0000000a
 
 height = 90
-modules-center =  i3
+;modules-center =  i3
 
 [bar/top-primary]
 inherit = bar/base
@@ -114,18 +115,16 @@ inherit = bar/base
 ;offset-y = 20
 ;radius = 10
 
-;modules-left =
-modules-center = i3
-;modules-right =
 
-modules-left = rofi right-end-power right-arrow-tail right-arrow-head 
+modules-left = rofi right-end-power right-arrow-tail right-arrow-head i3
+modules-center = 
 modules-right = left-arrow-head left-arrow-tail left-arrow-head powermenu
 
 ;modules-right = left-arrow-head left-arrow-tail left-arrow-head popup-calendar left-arrow-tail left-arrow-head powermenu
 ;modules-right = left-arrow-head left-arrow-tail left-arrow-head popup-calendar left-arrow-tail left-arrow-head powermenu
 ;modules-right = left-arrow-head left-arrow-tail left-arrow-head date-alt 
 
-}}}
+;}}}
 
 ; Top Bar - Secondary {{{
 
@@ -135,7 +134,7 @@ inherit = bar/top-primary
 ;modules-center = date time
 ;tray-position = 
 
-}}}
+;}}}
 
 ; Bottom Bar - Primary {{{
 
@@ -157,11 +156,12 @@ bottom = true
 ;offset-y = 20
 ;radius = 10
 
-modules-left = spotify alsa right-arrow-head right-arrow-tail right-arrow-head
+modules-left = spotify alsa right-arrow-head right-arrow-tail right-arrow-head 
 ;modules-right = wlan bluetooth redshift xbacklight battery popup-calendar 
 
 ;modules-left = spotify alsa right-arrow-head right-arrow-tail right-arrow-head
-modules-right = left-arrow-head left-arrow-tail left-arrow-head wlan bluetooth redshift xbacklight battery popup-calendar 
+;modules-right = left-arrow-head left-arrow-tail left-arrow-head wlan bluetooth redshift xbacklight battery popup-calendar powermenu
+modules-right = left-arrow-head left-arrow-tail left-arrow-head wlan redshift xbacklight battery popup-calendar
 
 ;tray-position = right
 ;tray-background = ${color.module-bg}
@@ -175,7 +175,7 @@ tray-maxsize = 100
 ;tray-padding = 1
 ;tray-scale = 1.0
 
-}}}
+;}}}
 
 ; Bottom Bar - Secondary {{{
 
@@ -195,7 +195,7 @@ format-prefix-foreground = ${color.icon-fg}
 format-prefix-padding-right = ${layout.icon-padding}
 
 
-}}}
+;}}}
 
 ; Rofi Module {{{
 
@@ -207,7 +207,7 @@ click-left = rofi -modi run,drun,window -show drun
 ;format-background = ${color.base-bg}
 format-padding = 1
 
-}}}
+;}}}
 
 ; i3 Module {{{
 
@@ -231,8 +231,8 @@ strip-wsnumbers = false
   ws-icon-3 = 4;
   ws-icon-4 = 5;󰗚
   ws-icon-5 = 6;󰉋
-  ws-icon-6 = 7;󰊠
-  ws-icon-7 = 8;󰖳
+  ws-icon-6 = 7;󰖳
+  ws-icon-7 = 8;󰕃
   ws-icon-8 = 9;󰙯
   ws-icon-9 = 10;󰓇
 
@@ -242,8 +242,8 @@ format = <label-state> <label-mode>
 ; Active workspace on focused monitor
 label-focused = %{T1}%icon%%{T-}
 ;label-focused-underline = ${xcolor.color1}
-label-focused-background = ${color.module-bg}
-label-focused-foreground = ${xcolor.color7}
+;label-focused-background = ${color.module-bg}
+label-focused-foreground = ${xcolor.color6}
 label-focused-padding = ${layout.i3-module-padding}
 
 ; Inactive workspace on any monitor
@@ -268,7 +268,37 @@ label-mode = %mode%
 label-mode-background = ${color.module-bg}
 label-mode-padding = ${layout.i3-module-padding}
 
-}}}
+;}}}
+
+[module/github]
+type = custom/text
+content = 
+content-padding = 1
+content-foreground = #734541
+click-left = xdg-open https://www.github.com &
+
+[module/reddit]
+type = custom/text
+content = 
+content-padding = 1
+content-foreground = #5b6048 
+click-left = xdg-open https://www.reddit.com &
+
+[module/youtube]
+type = custom/text
+content = 
+content-padding = 1
+content-foreground = #af865a
+click-left = xdg-open https://www.youtube.com &
+
+[module/mail]
+type = custom/text
+content = 
+content-padding = 1
+content-foreground = #535c5c
+click-left = xdg-open https://www.gmail.com &
+
+
 
 ; xwindow Module {{{
 
@@ -278,7 +308,7 @@ type = internal/xwindow
 
 label = %{T1}%title:0:35:...%%{T-}
 
-}}}
+;}}}
 
 ; CPU Module {{{
 
@@ -305,7 +335,7 @@ bar-load-fill = ${layout.bar-fill-icon}
 bar-load-indicator =
 bar-load-empty = ${layout.bar-fill-icon}
 
-}}}
+;}}}
 
 ; Memory Module {{{
 
@@ -323,7 +353,7 @@ label = %gb_used%
 ;format-prefix-foreground = ${color.icon-fg}
 format-prefix-padding-left = ${layout.icon-padding}
 
-}}}
+;}}}
 
 ; Temperature Module {{{
 
@@ -358,7 +388,7 @@ format-warn-prefix-padding-right = ${layout.icon-padding}
 label-warn = ${self.label}
 label-warn-foreground = ${color.red}
 
-}}}
+;}}}
 
 ; xkeyboard Module {{{
 
@@ -373,7 +403,7 @@ label-indicator-underline = ${xcolor.color1}
 label-indicator-padding = 1
 label-indicator-margin = 1
 
-}}}
+;}}}
 
 ; Filesystem Module {{{
 
@@ -405,7 +435,7 @@ format-unmounted-prefix-padding-right = ${layout.icon-padding}
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${xcolor.color1}
 
-}}}
+;}}}
 
 ; Network Module {{{
 
@@ -430,7 +460,7 @@ format-disconnected-prefix-font = ${layout.icon-font}
 format-disconnected-prefix-foreground = ${color.icon-fg}
 format-disconnected-prefix-padding-right = ${layout.icon-padding}
 
-}}}
+;}}}
 
 ; Wireless Network Module {{{
 
@@ -448,7 +478,7 @@ format-disconnected-background = ${color.module-bg}
 format-connected-padding = ${layout.module-padding}
 format-disconnected-padding = ${layout.module-padding}
 
-}}}
+;}}}
 
 ; Ethernet Module {{{
 
@@ -461,7 +491,7 @@ label-connected = %local_ip%
 
 format-disconnected =
 
-}}}
+;}}}
 
 ; Ping Module {{{
 
@@ -475,7 +505,7 @@ click-left = kill -USR1 %pid%
 
 format-prefix = %{T6} %{T-}
 
-}}}
+;}}}
 
 ; Network Status Module {{{
 
@@ -486,7 +516,7 @@ interval = 3.0
 label-connected = "%{F#fb4934} %{F-}%upspeed% %{F#b8bb26} %{F-}%downspeed% "
 label-connected-background = ${color.module-bg}
 
-}}}
+;}}}
 
 ; Bluetooth Module {{{
 
@@ -499,7 +529,7 @@ label = %{T9}%output%%{T-}
 label-background = ${color.module-bg}
 label-padding = ${layout.module-padding}
 
-}}}
+;}}}
 
 ; VPN Module {{{
 
@@ -513,7 +543,7 @@ label-padding = ${layout.module-padding}
 
 label-font = 9
 
-}}}
+;}}}
 
 ; Date & Time Modules {{{
 
@@ -535,9 +565,9 @@ format-background = ${color.module-bg}
 date = %{T1}%l:%M %p%{T-}
 ;time-alt = %{T7}%{T-}%{T1}%l:%M %p%{T-}
 label = %date%%time%
-/* label-padding-left = 1 */
+;label-padding-left = 1
 label-padding-right = 1
-/* label-padding = ${layout.module-padding} */
+;label-padding = ${layout.module-padding}
 
 [module/date]
 type = internal/date
@@ -570,7 +600,7 @@ label =%time%
 ;format-prefix-padding = 1
 format-padding = 1
 
-}}}
+;}}}
 
 ; Weather Modules {{{
 
@@ -594,7 +624,7 @@ format-foreground = ${color.text-fg}
 format-background = ${color.module-bg}
 label-font = 8
 
-}}}
+;}}}
 
 ; Powermenu Module {{{
 
@@ -602,8 +632,7 @@ label-font = 8
 ;type = custom/text
 ;content = %{T15}%{T-}
 ;content-padding = 1
-;click-left = exec $HOME/.bin/i3/rofi-session
-;click-right = exec $HOME/.bin/i3/rofi-seesion
+;click-left = exec $HOME/.bin/polybar/powermenu
 ;content-background = ${color.module-bg}
 ;content-foreground = ${color.text-fg}
 
@@ -611,7 +640,7 @@ label-font = 8
 type = custom/menu
 
 ;      » 
-label-open = %{T15}      %{T-}
+label-open = %{T15}      %{T-}
 label-open-font = 6
 label-open-foreground = ${color.text-fg}
 label-open-background = ${color.module-bg}
@@ -652,7 +681,57 @@ menu-0-5 = "  "
 menu-0-5-font = 6
 menu-0-5-foreground = ${color.text-fg}
 menu-0-5-background = ${color.module-bg}
-}}}
+
+;}}}
+
+
+[module/taskbarmenu]
+type = custom/menu
+
+;      » 
+label-open = %{T15}    %{T-}
+label-open-font = 6
+label-open-foreground = ${color.text-fg}
+label-open-background = ${color.module-bg}
+
+label-close = 
+label-close-foreground = ${color.text-fg}
+label-close-background = ${color.module-bg}
+
+label-separator = " "
+label-separator-foreground = ${color.text-fg}
+label-separator-background = ${color.module-bg}
+
+; wifi
+menu-0-0 = %{T1} %{A1:networkmanager_dmenu:} 直%{A} %{T-}
+menu-0-0-exec = bash ~/.bin/i3/lock
+menu-0-0-foreground = ${color.text-fg}
+menu-0-0-background = ${color.module-bg}
+
+; bluetooth 
+menu-0-1 = %{T15} 󰂰 %{T-}
+menu-0-1-exec = blueman-manager &
+menu-0-1-foreground = ${color.text-fg}
+menu-0-1-background = ${color.module-bg}
+
+; redshift 
+menu-0-2 = %{T15}  %{T-}
+menu-0-2-exec = bash ~/.bin/polybar/redshift.sh --toggle
+menu-0-2-foreground = ${color.text-fg}
+menu-0-2-background = ${color.module-bg}
+
+; xbacklight 
+menu-0-3 = %{T15} 󰃠 %{T-}
+menu-0-3-exec =
+menu-0-3-foreground = ${color.text-fg}
+menu-0-3-background = ${color.module-bg}
+
+; end stripe
+menu-0-4 = %{T15}    %{T-}
+
+menu-0-4-font = 6
+menu-0-4-foreground = ${color.text-fg}
+menu-0-4-background = ${color.module-bg}
 
 [module/appmenu]
 type = custom/menu
@@ -706,6 +785,14 @@ menu-0-6-font = 6
 menu-0-6-foreground = ${colors.xcolor1}
 menu-0-6-background = ${colors.xcolor0}
 
+[module/pkg]
+type = custom/script
+inherit = generic-format-style
+exec = ~/.bin/polybar/updates.sh
+click-left = "kitty sudo pacman -Syu --noconfirm"
+format-padding = 1
+tail = true
+
 ; Notification Module {{{
 
 [module/notification]
@@ -716,10 +803,10 @@ content-background = ${color.module-bg}
 content-foreground = ${color.text-fg}
 
 click-left = "kill -s USR1 $(pidof deadd-notification-center)"
-/* click-right = ~/.config/polybar/scripts/elementary-sysmenu-alt */
+;click-right = ~/.config/polybar/scripts/elementary-sysmenu-alt
 
 
-}}}
+;}}}
 
 ; Spotify Module {{{
 
@@ -735,7 +822,7 @@ click-left = playerctl next
 click-middle = playerctl play-pause
 click-right = playerctl previous
 
-}}}
+;}}}
 
 ; Volume Module {{{
 
@@ -781,7 +868,7 @@ format-muted-prefix-padding-right = ${layout.icon-padding}
 
 label-muted = muted
 
-}}}
+;}}}
 
 ; Redshift Module {{{
 
@@ -794,7 +881,7 @@ format-foreground = ${color.text-fg}
 format-background = ${color.module-bg}
 format-padding = ${layout.module-padding}
 
-}}}
+;}}}
 
 ; Backlight Module {{{
 
@@ -830,7 +917,7 @@ ramp-capacity-padding-right = ${layout.icon-padding}
 ramp-padding-left = 1
 ramp-padding-right = 1
 
-}}}
+;}}}
 
 ; Battery Module {{{
 
@@ -912,7 +999,7 @@ format-full-prefix-padding-right = ${layout.icon-padding}
 
 label-full = %{T6}󰂄%{T-}
 
-}}}
+;}}}
 
 ; Battery Hack Module {{{
 
@@ -922,7 +1009,7 @@ inherit = generic-format-style
 exec = echo "%{T1}%{T-}"
 click-left = $HOME/.bin/polybar/battery
 
-}}}
+;}}}
 
 ; Powerline Modules {{{
 
@@ -979,4 +1066,4 @@ content = "%{T3}%{T-}"
 inherit = module/decor-glyph
 content = "%{T3}%{T-}"
 
-}}}
+;}}}
