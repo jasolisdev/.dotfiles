@@ -10,14 +10,14 @@ command! W execute 'silent! w !sudo /usr/bin/tee % >/dev/null' <Bar> edit!
 " Set path to current file
 command! -bang -nargs=* Cd  cd %:p:h
 
-" create dir for new file
-function! s:MKDir(...)
-  if !a:0 || isdirectory(a:1) || filereadable(a:1) || isdirectory(fnamemodify(a:1, ':p:h'))
-    return
-  endif
-  return mkdir(fnamemodify(a:1, ':p:h'), 'p')
-endfunction
-command! -bang -bar -nargs=? -complete=file E :call s:MKDir(<f-args>) | e<bang> <args>
+"" this makes vim load super slow
+" " create dir for new file
+" function! s:MKDir(...) if !a:0 || isdirectory(a:1) || filereadable(a:1) || isdirectory(fnamemodify(a:1, ':p:h'))
+"     return
+"   endif
+"   return mkdir(fnamemodify(a:1, ':p:h'), 'p')
+" endfunction
+" command! -bang -bar -nargs=? -complete=file E :call s:MKDir(<f-args>) | e<bang> <args>
 
 set synmaxcol=800
 set number            " show
@@ -125,7 +125,7 @@ set wildignore+=*/.git/,*/.hg/,*/.svn/
 set wildignore+=*/.ccls-cache/,*/.clangd/
 set wildignore+=*.o,*.so,*.class,*.exe,*.dll,*.com
 set wildignore+=.tmux,.nvimrc,.vimrc,.exrc
-set wildignore+=tags,.tags,*/.backup/,*/.vim-backup/,*/.swap/,*/.vim-swap/,*/.undo/,*/.vim-undo/,*/._pkg/
+set wildignore+=tags,.tags,*/.backup/,*/.vim-backup/,*/.swap/*/.vim-swap/,*/.undo/,*/.vim-undo/,*/._pkg/
 set wildignore+=*.cache,*.log,*~,*#,*.bak,*.BAK,*.old,*.OLD,*.off,*.OFF,*.dist,*.DIST,*.orig,*.ORIG,*.rej,*.REJ,.DS_Store*
 set wildignore+=*.swp,*.swo,*.swn,*.swm,*.tmp
 set wildignore+=*.pid,*.state
@@ -181,6 +181,7 @@ Plug 'jceb/vim-orgmode'
 Plug 'vim-utils/vim-man'
 Plug 'justinmk/vim-sneak'
 " Plug 'matze/vim-move'
+Plug 'tweekmonster/startuptime.vim'
 
 " Tmux
 Plug 'benmills/vimux'
@@ -191,6 +192,7 @@ Plug 'tmux-plugins/vim-tmux-focus-events'
 " Themes
 " Plug 'morhetz/gruvbox'
 Plug 'jasolisdev/gruvbox' " fork of 'morhetz/gruvbox'
+" Plug 'lifepillar/vim-gruvbox8'
 " Plug 'alfunx/gruvbox'  " fork of 'morhetz/gruvbox'
 " Plug 'chriskempson/base16-vim'
 " Need to be last in Plugs
@@ -204,6 +206,10 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'mattn/emmet-vim'
 Plug 'alvan/vim-closetag'
+" Plug '9mm/vim-closer'
+" Plug 'rstacruz/vim-closer'
+Plug 'ericcurtin/CurtineIncSw.vim'
+
 Plug 'rhysd/vim-clang-format'
 Plug 'pangloss/vim-javascript'
 " Plug 'prettier/vim-prettier', {
@@ -212,7 +218,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'maksimr/vim-jsbeautify'
 Plug 'ap/vim-css-color'
 Plug 'moll/vim-node'
-Plug 'jmcantrell/vim-virtualenv'
+" Plug 'jmcantrell/vim-virtualenv'
 Plug 'puremourning/vimspector'
 Plug 'markwoodhall/vim-codelens'
 Plug 'turbio/bracey.vim'
@@ -238,7 +244,6 @@ let g:gruvbox_italic=1
 let g:gruvbox_underline=1
 let g:gruvbox_undercurl=1
 colorscheme gruvbox
-
 
 highlight SignColumn guibg=bg
 "" Use environment variable
@@ -499,6 +504,9 @@ nnoremap <silent> <M-g> :<C-u>nohlsearch<CR>
 
 " PLUGIN SETTINGS  {{{
 
+" curtineincsw switch between .c and .h 
+nnoremap <silent> <M-c> :call CurtineIncSw()<CR>
+
 " bracey live-server
 let g:bracey_auto_start_browser= 1
 " let g:bracey_server_allow_remote_connections= 1
@@ -527,7 +535,7 @@ autocmd FileType c,cpp,cs,java setlocal commentstring=//\ %s
 
 
 " enable clang formater
-autocmd VimEnter * ClangFormatAutoEnable
+" autocmd VimEnter * ClangFormatAutoEnable
 
 " vimspector
 let g:vimspector_enable_mappings = 'HUMAN'
@@ -713,8 +721,6 @@ nmap <silent> gr <Plug>(coc-references)
 " Use K to show documentation in preview window.
 nnoremap <silent> K :call <SID>show_documentation()<CR>
 
-" Use Space f to open action
-nmap <space>f :CocAction<CR>
 
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
@@ -949,30 +955,26 @@ if !exists('g:airline_symbols')
     let g:airline_symbols={}
 endif
 
-""" Unicode symbols
-let g:airline_left_alt_sep='»'
-let g:airline_left_sep='▶'
-let g:airline_right_alt_sep='«'
-let g:airline_right_sep='◀'
-let g:airline_symbols.crypt='🔒'
-let g:airline_symbols.linenr='☰'
-let g:airline_symbols.linenr='␊'
-let g:airline_symbols.linenr='␤'
-let g:airline_symbols.linenr='¶'
-let g:airline_symbols.maxlinenr='␤'
-let g:airline_symbols.branch='⎇'
-let g:airline_symbols.paste='ρ'
-let g:airline_symbols.paste='Þ'
-let g:airline_symbols.paste='∥'
-let g:airline_symbols.spell='Ꞩ'
-let g:airline_symbols.notexists='∄'
-let g:airline_symbols.whitespace='Ξ'
+" """ Unicode symbols
+" let g:airline_symbols.crypt='🔒'
+" let g:airline_symbols.linenr='☰'
+" let g:airline_symbols.linenr='␊'
+" let g:airline_symbols.linenr='␤'
+" let g:airline_symbols.linenr='¶'
+" let g:airline_symbols.maxlinenr='␤'
+" let g:airline_symbols.branch='⎇'
+" let g:airline_symbols.paste='ρ'
+" let g:airline_symbols.paste='Þ'
+" let g:airline_symbols.paste='∥'
+" let g:airline_symbols.spell='Ꞩ'
+" let g:airline_symbols.notexists='∄'
+" let g:airline_symbols.whitespace='Ξ'
 
-" Powerline    
-let g:airline_left_sep=''
-let g:airline_left_alt_sep='>'
-let g:airline_right_sep=''
-let g:airline_right_alt_sep=''
+" " Powerline    
+" let g:airline_left_sep=''
+" let g:airline_left_alt_sep='>'
+" let g:airline_right_sep=''
+" let g:airline_right_alt_sep=''
 
 " Straight ▌ │ ▐ │ or ▌ ▏ ▐ ▕
 " let g:airline_left_sep='▌'
@@ -981,10 +983,10 @@ let g:airline_right_alt_sep=''
 " let g:airline_right_alt_sep='│'
 
 """ Powerline symbols
-let g:airline_symbols.branch=''
-let g:airline_symbols.readonly=''
-let g:airline_symbols.linenr='☰'
-let g:airline_symbols.maxlinenr=''
+" let g:airline_symbols.branch=''
+" let g:airline_symbols.readonly=''
+" let g:airline_symbols.linenr='☰'
+" let g:airline_symbols.maxlinenr=''
 
 """ Airline settings
 let g:airline_theme='gruvbox'
@@ -1063,4 +1065,6 @@ if exists('+undofile')
     set undofile
 endif
 
+" Use Space f to open action
+nmap <leader>a :CocAction<CR>
 "  }}}
