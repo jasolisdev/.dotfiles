@@ -11,7 +11,7 @@ export TERMINAL='kitty'
 export VISUAL='vim'
 export EDITOR='vim'
 
-export BROWSER="brave"
+export BROWSER="google-chrome"
 export READER="zathura"
 
 # aurutils

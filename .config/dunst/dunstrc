@@ -3,7 +3,7 @@
 ###################
 
 [global]
-font = Source Code Pro 13
+font = Cascadia Mono 13
 markup = yes
 plain_text = no
 format = "<b>%s</b>\n%b"
