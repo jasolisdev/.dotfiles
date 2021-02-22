@@ -59,7 +59,6 @@ set $borderActive   #504945
 client.focused          $borderActive     $borderActive       $borderActive     $borderActive
 client.focused_inactive $borderInactive   $borderInactive     $borderInactive   $borderInactive
 client.unfocused        $borderInactive   $borderInactive     $borderInactive   $borderInactive
-
 client.urgent           $color9   	  $color9	      $color9    	$color9
 client.background       $bg-color
 
@@ -128,15 +127,13 @@ for_window [class="Spotify"] move to workspace 10
 # for_window [class="[.]*"] floating enable
 
 for_window [class="SimpleScreenRecorder" instance="simplescreenrecorder" title="SimpleScreenRecorder"] floating enable
-for_window [class="Gnome-calculator" instance="gnome-calculator" title="Calculator" window_role="gnome-calcul46137358 ator"] floating enable move position center
-for_window [class="Nwggrid" instance="nwggrid" title="~nwggrid" window_role="~nwggrid"] fullscreen enable
-for_window [class="Connect4" instance="sfml_project" title="Connect4"] floating enable move position center
-#}}}
+
+# }}}
 
 ################### GAPS ######################## {{{
 
 # No titles, minimal borders
-for_window [class="^.*"] border pixel 3
+for_window [class="^.*"] border pixel 4
 new_window 1pixel
 
 
@@ -152,7 +149,7 @@ new_window 1pixel
 smart_borders on
 
 # i3-gaps-rounded
-border_radius 10
+# border_radius 10
 
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
@@ -410,7 +407,7 @@ bindsym $mod+Tab workspace next
 
 ################### WALLPAPER ################### {{{
 
-exec_always feh --bg-fill $HOME/.wallpapers/wal-alt-dark.png
+exec_always feh --bg-fill $HOME/.wallpapers/wall-alt.png
 
 #}}}
 
