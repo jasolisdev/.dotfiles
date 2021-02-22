@@ -1,0 +1,27 @@
+#!/bin/bash
+
+source ~/.config/i3lock/i3lockrc
+
+blank=33000000
+
+khl="$(~/.bin/colorctl -o -$delta -h ${rc:0:6})${rc: -2}"
+bshl="$(~/.bin/colorctl -o +$delta -h ${rc:0:6})${rc: -2}"
+
+i3lock --blur $blur \
+	   --verifsize=16 \
+	   --veriftext="..." \
+	   --radius $radius \
+	   --ring-width $width \
+	   --indicator --clock \
+	   --timesize=$timesize \
+	   --datesize=$datesize \
+	   --timestr="%I:%M" \
+	   --datestr="%B %d, %Y" \
+	   --linecolor=$blank \
+	   --insidecolor=$ic --ringcolor=$rc \
+	   --datecolor=$rc --timecolor=$rc \
+	   --separatorcolor=$rc --keyhlcolor=${ic#\#} \
+	   --bshlcolor=${bshl#\#} \
+	   --verifcolor=$tc --wrongcolor=$rc \
+	   --ringvercolor=${rvc:-$rc} --ringwrongcolor=$wc \
+	   --insidevercolor=$ic --insidewrongcolor=$ic \

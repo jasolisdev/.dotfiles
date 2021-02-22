@@ -1,0 +1,101 @@
+#!/bin/bash
+#  ____ _____
+# |  _ \_   _|  Derek Taylor (DistroTube)
+# | | | || |    http://www.youtube.com/c/DistroTube
+# | |_| || |    http://www.gitlab.com/dwt1/
+# |____/ |_|
+#
+# Dmenu script for editing some of my more frequently edited config files.
+
+
+declare options=("alias
+alacritty
+bash
+dmenu-edit
+kitty
+picom
+doom.d/config.el
+doom.d/init.el
+dunst
+emacs.d/init.el
+i3
+polybar
+ranger
+termite
+tmux
+nvim
+xresources
+zsh
+quit")
+
+
+choice=$(echo -e "${options[@]}" | rofi -i -lines 6 -dmenu -p 'Edit config file')
+
+case "$choice" in
+	quit)
+		echo "Program terminated." && exit 1
+	;;
+	alias)
+		choice="$HOME/.zsh.d/alias.zsh"
+	;;
+
+	 alacritty)
+		choice="$HOME/.config/alacritty/alacritty.yml"
+	;;
+	dmenu-edit)
+		choice="$HOME/.bin/i3/dmenu-edit-configs"
+	;;
+
+	kitty)
+		choice="$HOME/.config/kitty/kitty.conf"
+	;;
+	bash)
+		choice="$HOME/.bashrc"
+	;;
+	picom)
+		choice="$HOME/.config/picom/picom.conf"
+	;;
+    doom.d/config.el)
+		choice="$HOME/.doom.d/config.el"
+	;;
+    doom.d/init.el)
+		choice="$HOME/.doom.d/init.el"
+	;;
+	dunst)
+		choice="$HOME/.config/dunst/dunstrc"
+	;;
+	emacs.d/init.el)
+		choice="$HOME/.emacs.d/init.el"
+	;;
+	i3)
+		choice="$HOME/.config/i3/config"
+	;;
+	polybar)
+		choice="$HOME/.config/polybar/config"
+	;;
+	ranger)
+		choice="$HOME/.config/ranger/rc.conf"
+	;;
+	termite)
+		choice="$HOME/.config/termite/config"
+	;;
+	tmux)
+		choice="$HOME/.tmux.conf"
+	;;
+	nvim)
+		choice="$HOME/.vimrc"
+	;;
+	xresources)
+		choice="$HOME/.Xresources"
+	;;
+	zsh)
+		choice="$HOME/.zshrc"
+	;;
+	*)
+		exit 1
+	;;
+esac
+
+# i3-msg scratchpad show
+tmux new-window nvim "$choice"
+

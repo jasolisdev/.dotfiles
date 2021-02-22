@@ -1,0 +1,3 @@
+#!/bin/sh
+
+xdo show -N "Polybar"

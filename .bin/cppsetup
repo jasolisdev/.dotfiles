@@ -1,0 +1,83 @@
+#!/bin/sh
+
+[[ -z $1 ]] && exit 0
+
+if [[ "$1" == "gradle" ]]; then
+	printf "Project name: "
+	read -r project
+	mkdir -p $project || exit
+	cd $project
+	git init
+	printf "Main class: "
+	read -r project
+	mkdir -p src/main/java
+	mkdir -p src/main/resources
+	printf "bin/*\n.project\n.gradle/*\n.settings/*\n.classpath\nbuild/*\n" > .gitignore
+	printf "plugins{\n\tid 'java'\n}\njar {\n\tmanifest {\n\t\tattributes 'Main-Class': '$project'\n\t}\n}\n" > build.gradle
+	folder="$(echo $project | sed "s/\./\//g" | xargs dirname)"
+	class="$(echo $project | sed "s/\./\//g" | xargs basename)"
+	mkdir -p src/main/java/$folder
+	touch src/main/java/$folder/$class.java
+elif [ "$1" == "cpp" ] || [ "$1" = "c"]; then
+	printf "Project name: "
+	read -r pname
+	mkdir $pname || exit
+	printf "Enter executable name: "
+	read -r exe_name
+	cd $pname
+	mkdir src
+	mkdir include
+	mkdir bin
+	mkdir debug
+	touch src/main.cpp
+	git init
+	echo "cmake_minimum_required(VERSION 2.8.9)" >> CMakeLists.txt
+	echo "project($pname)" >> CMakeLists.txt
+	echo "include_directories(include)" >> CMakeLists.txt
+	echo 'file(GLOB_RECURSE SOURCES "src/*".cpp)' >> CMakeLists.txt
+	echo "add_executable($exe_name \${SOURCES})" >> CMakeLists.txt
+	echo "install(TARGETS $exe_name DESTINATION /usr/bin)" >> CMakeLists.txt
+	echo "#!/bin/sh" >> build
+	echo 'if [[ -z $1 ]]; then' >> build
+		echo 'mkdir -p bin' >> build
+		echo 'cd bin' >> build
+		echo 'cmake ..' >> build
+		echo 'make' >> build
+	echo 'elif [[ "$1" == "install" ]]; then' >> build
+		echo 'mkdir -p bin' >> build
+		echo 'cd bin' >> build
+		echo 'cmake ..' >> build
+		echo 'sudo make install' >> build
+	echo 'elif [[ "$1" == "debug" ]]; then' >> build
+		echo 'mkdir -p debug' >> build
+		echo 'cd debug' >> build
+		echo 'cmake -DCMAKE_BUILD_TYPE=Debug ..' >> build
+		echo 'make' >> build
+	echo 'elif [[ "$1" == "project" ]]; then' >> build
+		echo 'mkdir -p bin' >> build
+		echo 'cd bin' >> build
+		echo 'cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 ..' >> build
+		echo 'cp compile_commands.json ..' >> build
+	echo 'fi' >> build
+	chmod u+x build
+	echo 'bin/*' >> .gitignore
+	echo 'debug/*' >> .gitignore
+	echo 'compile_commands.json' >> .gitignore
+	echo '.vimspector.json' >> .gitignore
+	echo '.clangd/*' >> .gitignore
+	echo '{' >> .vimspector.json
+	echo '"configurations": {' >> .vimspector.json
+	echo '"Launch": {' >> .vimspector.json
+	echo '"adapter": "vscode-cpptools",' >> .vimspector.json
+	echo '"configuration": {' >> .vimspector.json
+	echo '"request": "launch",' >> .vimspector.json
+	echo "\"program\": \"debug/$exe_name\"," >> .vimspector.json
+	echo "\"cwd\": \"`pwd`\"," >> .vimspector.json
+	echo '"externalConsole": true,' >> .vimspector.json
+	echo '"MIMode": "gdb"' >> .vimspector.json
+	echo '}' >> .vimspector.json
+	echo '}' >> .vimspector.json
+	echo '}' >> .vimspector.json
+	echo '}' >> .vimspector.json
+	./build project
+fi

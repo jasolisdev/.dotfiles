@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+if tmux has-session -t jasolisdev >> /dev/null; then
+    tmux attach -t jasolisdev
+fi
+
+tmux new-session -d -s jasolisdev -n vim
+
+# 1. Main window: vim, server, shell.
+tmux send-keys -t jasolisdev:vim "vim -c FZF" Enter
+tmux split-window -t jasolisdev:vim -h -c "PWD/app"
+tmux send-keys -t jasolisdev:vim.right "live-server" Enter
+tmux split-window -t jasolisdev:vim -h -c "PWD/app"
+tmux send-keys -t jasolisdev:vim.bottom-right "git status" Enter
