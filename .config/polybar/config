@@ -7,17 +7,17 @@
 ; Colors {{{
 
 [xcolor]
-bg     = ${xrdb:color0:#0a0a0a}
-fg     = ${xrdb:color7:#645b4f}
-fg-alt = ${xrdb:foreground:#ebdbb2}
-color1 = ${xrdb:color1:#734541}
-color2 = ${xrdb:color2:#5b6048}
-color3 = ${xrdb:color3:#af865a}
-color4 = ${xrdb:color4:#535c5c}
-color5 = ${xrdb:color5:#775759}
-color6 = ${xrdb:color6:#6d715e}
-color7 = ${xrdb:color7:#A89984}
-color8 = ${xrdb:color8:#373b41}
+bg     = #0a0a0a
+fg     = #645b4f
+fg-alt = #ebdbb2
+color1 = #734541
+color2 = #5b6048
+color3 = #af865a
+color4 = #535c5c
+color5 = #775759
+color6 = #689d6a
+color7 = #A89984
+color8 = #928374
 
 [color]
 ;base-bg     = #8c0a0a0a
@@ -683,7 +683,6 @@ menu-0-5-foreground = ${color.text-fg}
 menu-0-5-background = ${color.module-bg}
 
 ;}}}
-
 
 [module/taskbarmenu]
 type = custom/menu
