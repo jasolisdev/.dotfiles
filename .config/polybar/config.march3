@@ -46,7 +46,7 @@ icon-font = 12
 
 icon-padding = 1
 module-padding = 1
-i3-module-padding = 1
+i3-module-padding = 2
 
 bar-format = %{T4}%fill%%indicator%%{F#282828}%empty%%{F-}%{T-}
 bar-fill-icon = ﭳ
@@ -62,7 +62,7 @@ screenchange-reload = true
 [bar/base]
 monitor = ${env:MONITOR}
 ;width = 100%
-height = 55
+height = 50
 ;fixed-center = true
 
 background = ${color.base-bg}
@@ -100,65 +100,29 @@ font-14 = mplus Nerd Font:style=Medium:size=22;6
 ; Top Bar - Primary {{{
 
 [bar/top-transparent]
-background     = #282828
-height = 75
-modules-center = blank
+background     = #0000000a
 
-bottom = false
-
+height = 90
+;modules-center =  i3
 
 [bar/top-primary]
 inherit = bar/base
 
-background     = #3C3835
-override-redirect = true
+;override-redirect = true
 ;wm-restack = i3
 ;width = 3798
-width = 865
-offset-x = 20
-offset-y = 8
-radius = 20
+;offset-x = 20
+;offset-y = 20
+;radius = 10
 
 
-modules-left = rofi right-end-power right-arrow-tail i3
+modules-left = rofi right-end-power right-arrow-tail right-arrow-head i3
 modules-center = 
-modules-right = 
+modules-right = left-arrow-head left-arrow-tail left-arrow-head powermenu
 
 ;modules-right = left-arrow-head left-arrow-tail left-arrow-head popup-calendar left-arrow-tail left-arrow-head powermenu
 ;modules-right = left-arrow-head left-arrow-tail left-arrow-head popup-calendar left-arrow-tail left-arrow-head powermenu
 ;modules-right = left-arrow-head left-arrow-tail left-arrow-head date-alt 
-
-[bar/top-spotify]
-inherit = bar/base
-
-background     = #0000000a
-override-redirect = true
-;wm-restack = i3
-;width = 3798
-width = 1500
-offset-x = 920
-offset-y = 8
-radius = 20
-
-bottom = false
-
-modules-left = spotify
-
-[bar/top-right]
-inherit = bar/base
-
-background     = #3C3835
-override-redirect = true
-;wm-restack = i3
-;width = 3798
-width = 1070
-offset-x = 2750
-offset-y = 8
-radius = 20
-
-bottom = false
-
-modules-right = weather-simple alsa wlan vpn redshift xbacklight battery popup-calendar left-arrow-tail left-arrow-head powermenu
 
 ;}}}
 
@@ -197,7 +161,7 @@ modules-left = spotify alsa right-arrow-head right-arrow-tail right-arrow-head
 
 ;modules-left = spotify alsa right-arrow-head right-arrow-tail right-arrow-head
 ;modules-right = left-arrow-head left-arrow-tail left-arrow-head wlan bluetooth redshift xbacklight battery popup-calendar powermenu
-modules-right = left-arrow-head left-arrow-tail left-arrow-head cpu temp netstat 
+modules-right = left-arrow-head left-arrow-tail left-arrow-head wlan redshift xbacklight battery popup-calendar
 
 ;tray-position = right
 ;tray-background = ${color.module-bg}
@@ -279,8 +243,7 @@ format = <label-state> <label-mode>
 label-focused = %{T1}%icon%%{T-}
 ;label-focused-underline = ${xcolor.color1}
 ;label-focused-background = ${color.module-bg}
-label-focused-foreground = ${color.icon-fg}
-;label-focused-foreground = ${xcolor.color6}
+label-focused-foreground = ${xcolor.color6}
 label-focused-padding = ${layout.i3-module-padding}
 
 ; Inactive workspace on any monitor
@@ -306,64 +269,6 @@ label-mode-background = ${color.module-bg}
 label-mode-padding = ${layout.i3-module-padding}
 
 ;}}}
-
-[module/i3-commands]
-type = internal/i3
-
-index-sort = true
-; Don't wrap around when scrolling through workspaces
-wrapping-scroll = false
-; Only show workspaces on the same output as the bar 
-pin-workspaces = false
-; Split the workspace label on ':' to get its name
-strip-wsnumbers = true 
-
-;label-focused = %{T10}%{T-}
-;label-unfocused = %{T10}%{T-}
-
-format = <label-state> <label-mode>
-
-; Active workspace on focused monitor
-label-focused = %{T1}%icon%%{T-}
-;label-focused-underline = ${xcolor.color1}
-;label-focused-background = ${color.module-bg}
-label-focused-foreground = ${color.icon-fg}
-;label-focused-foreground = ${xcolor.color6}
-label-focused-padding = ${layout.i3-module-padding}
-
-; Inactive workspace on any monitor
-label-unfocused = ${self.label-focused}
-;label-unfocused-background = ${color.module-bg}
-label-unfocused-foreground = #a89984
-label-unfocused-padding = ${layout.i3-module-padding}
-
-; Active workspace on unfocused monitor
-label-visible = ${self.label-focused}
-label-visible-background = ${color.module-bg}
-label-visible-underline = ${xcolor.color1}
-label-visible-padding = ${layout.i3-module-padding}
-
-; Workspace with urgency hint set
-label-urgent = ${self.label-focused}
-label-urgent-background = ${color.module-bg}
-label-urgent-underline = ${color.red}
-label-urgent-padding = ${layout.i3-module-padding}
-
-label-mode = %mode%
-label-mode-background = ${color.module-bg}
-label-mode-padding = ${layout.i3-module-padding}
-
-;}}}
-
-
-
-
-
-
-
-
-
-
 
 [module/github]
 type = custom/text
@@ -454,26 +359,21 @@ format-prefix-padding-left = ${layout.icon-padding}
 
 [module/temp]
 type = internal/temperature
+inherit = generic-format-style
 
 interval = 2
-thermal-zone = 0
-hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon6/temp1_input
-
-; Base temperature for where to start the ramp (in degrees celsius)
-; Default: 0
-base-temperature = 20
-
-; Threshold temperature to display warning label (in degrees celsius)
-; Default: 80
-warn-temperature = 60
-
 
 units = true
+warn-temperature = 80
+
+format-padding = ${layout.icon-padding}
 
 format-prefix = %{T6}﨎%{T-}
 format-prefix-font = ${layout.icon-font}
 format-prefix-foreground = ${color.icon-fg}
 format-prefix-padding-right = ${layout.icon-padding}
+
+label = %temperature-c%
 
 ; Warning
 format-warn-background = ${color.module-bg}
@@ -635,13 +535,11 @@ label-padding = ${layout.module-padding}
 
 [module/vpn]
 type = custom/script
-interval = 1
+interval = 100
 exec = ~/.bin/polybar/vpn.sh 
 ;label = %{T9}🖧ﰼ%{T-}
 label-background = ${color.module-bg}
 label-padding = ${layout.module-padding}
-click-left = exec sudo nordvpn connect
-click-right= exec sudo nordvpn disconnect 
 
 label-font = 9
 
@@ -713,7 +611,7 @@ interval = 300
 format-foreground = ${color.text-fg}
 format-background = ${color.module-bg}
 label-font = 8
-;label-padding-right = 1
+label-padding-right = 1
 
 [module/weather]
 type = custom/script
@@ -913,10 +811,9 @@ click-left = "kill -s USR1 $(pidof deadd-notification-center)"
 
 [module/spotify]
 type = custom/script
-;inherit = generic-format-style
-;format-prefix = %{T6} %{T-}
-;format-prefix-foreground = #8ec07c
-format-foreground = ${color.icon-fg}
+inherit = generic-format-style
+format-prefix = %{T6} %{T-}
+format-prefix-foreground = #8ec07c
 exec = $HOME/.bin/polybar/spotify.sh %artist% - %title%
 tail = true
 interval = 2
@@ -978,7 +875,7 @@ label-muted = muted
 type = custom/script
 exec = ~/.bin/polybar/redshift.sh
 click-left = ~/.bin/polybar/redshift.sh --toggle
-interval = 1
+interval = 5
 format-foreground = ${color.text-fg}
 format-background = ${color.module-bg}
 format-padding = ${layout.module-padding}
@@ -1102,10 +999,6 @@ format-full-prefix-padding-right = ${layout.icon-padding}
 label-full = %{T6}󰂄%{T-}
 
 ;}}}
-
-[module/blank]
-type = custom/script
-label = ""
 
 ; Battery Hack Module {{{
 
