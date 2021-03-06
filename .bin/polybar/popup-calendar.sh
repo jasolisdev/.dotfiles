@@ -5,8 +5,10 @@ BORDER_SIZE=1  # border size from your wm settings
 YAD_WIDTH=400 # 222 is minimum possible value
 YAD_HEIGHT=193 # 193 is minimum possible value
 # DATE="$(date +"%a, %b %d %l:%M %p")"
+# DATE="$(date +"%b %d  | %l:%M")"
 # DATE="$(date +"%B %d, %Y %l:%M %p")"
-DATE="$(date +"%l:%M %p ")"
+DATE="$(date +"%l:%M ")"
+# DATE="$(date +"%l:%M %p ")"
 # DATE="$(date +"%a, %b %d%l:%M %p")"
 #
 case "$1" in
@@ -36,7 +38,7 @@ case "$1" in
 
 
     yad --calendar --undecorated --fixed --close-on-unfocus --no-buttons \
-        --width=$YAD_WIDTH --height=$YAD_HEIGHT --posx=1600 --posy=835 \
+        --width=$YAD_WIDTH --height=$YAD_HEIGHT --posx=1600 --posy=50 \
         --title="yad-calendar" --borders=0 >/dev/null &
 
     # yad --calendar --undecorated --fixed --close-on-unfocus --no-buttons \

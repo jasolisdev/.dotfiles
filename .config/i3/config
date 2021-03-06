@@ -111,7 +111,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 # you can find the class with the program xprop
 
 # assign [class=""]                                                   → 1
-assign [class="Brave-browser|brave-browser"]                          → 2
+assign [class="Google-chrome|google-chrome"]                          → 2
 # assign [class=""]                                                   → 3
 # assign [class=""]                                                   → 4
 # assign [class=""]                                                   → 5
@@ -149,7 +149,7 @@ new_window 1pixel
 smart_borders on
 
 # i3-gaps-rounded
-# border_radius 10
+border_radius 10
 
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
@@ -362,8 +362,8 @@ bindsym $mod+d exec "rofi -modi run,drun,window -show drun"
 ################### FUNCTION_KEYS ############### {{{
 
 # Change brightness
-bindsym XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 5
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5
+bindsym XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 2
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 2
 # bindsym XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 5 & exec ~/.bin/i3/brightness-notify
 # bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 & exec ~/.bin/i3/brightness-notify
 
@@ -407,7 +407,7 @@ bindsym $mod+Tab workspace next
 
 ################### WALLPAPER ################### {{{
 
-exec_always feh --bg-fill $HOME/.wallpapers/wall-alt.png
+exec_always feh --bg-fill $HOME/.wallpapers/wall-thiccc.png
 
 #}}}
 
@@ -423,36 +423,16 @@ exec_always --no-startup-id $HOME/.bin/polybar/launch_polybar
 ################### EXECUTE ##################### {{{
 
 exec_always --no-startup-id $HOME/.bin/ext_monitor
-
-# exec_always compton --config $HOME/.config/compton/compton.conf --respect-prop-shadow
-# exec_always --no-startup-id picom
-
-#exec_always --no-startup-id mopidy
-
 exec_always --no-startup-id dunst
-# exec_always --no-startup-id deadd-notification-center
-
-# exec --no-startup-id nm-applet
-
-# bluetooth
-#exec blueberry-tray
-#exec --no-startup-id blueman-applet
-
 exec_always --no-startup-id numlockx on
+exec_always --no-startup-id picom
 
 # get the mouse out of the way with unclutter
 exec_always unclutter -display :0.0 -idle 3
 
-# exec --no-startup-id cbatticon
-
-#exec --no-startup-id volumeicon
-
 bindsym $mod+Shift+s exec --no-startup-id ducksearch
-
 bindsym $mod+Shift+w exec --no-startup-id networkmanager_dmenu
-
 bindsym $mod+Shift+o exec --no-startup-id dmenu-edit-configs
-
 bindsym $mod+Shift+m exec --no-startup-id sysmon
 
 # Add this to your i3 config (~/.config/i3/config) and restart i3 (Super+Shift+R)
@@ -460,8 +440,5 @@ bindsym $mod+Shift+m exec --no-startup-id sysmon
 bindsym $mod+i [class="SimpleScreenRecorder|Alacritty|kitty|google-chrome|Google-chrome|brave-browser|Brave-browser|code|Code"] scratchpad show;
 # send window to scratchpad
 bindsym $mod+n move scratchpad
-
-
-# bindsym $mod+Shift+n exec kill -s USR1 $(pidof deadd-notification-center)
 
 #}}}

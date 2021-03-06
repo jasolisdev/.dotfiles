@@ -1,12 +1,9 @@
-#!/bin/bash
+#!/bin/sh
 
-icon_enabled=""
-icon_disabled="林"
-status=`cyberghostvpn --status | grep "VPN connections found."`
+connection=$(pgrep -a openvpn$ | head -n 1 | awk '{print $NF }' | cut -d '.' -f 1)
 
-if [ "$status" == "VPN connections found." ];
-then
-    echo "$icon_enabled"
+if [ -n "$connection" ]; then
+    echo "賓"
 else 
-    echo "$icon_disabled"
+    echo "輦"
 fi
