@@ -16,7 +16,7 @@ rofi.combi-modi:    window,drun,ssh
  rofi.eh:                             1
  rofi.bw:                             1
 
- rofi.font:                           Source Code Pro 25
+ rofi.font:                           Source Code Pro 12
 
 # rofi.width:                          20
  rofi.width:                          50

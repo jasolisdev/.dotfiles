@@ -1,14 +1,12 @@
 window:
   padding:
-    x: 5
-    y: 5
+    x: 10
+    y: 10
 scrolling:
-  # Maximum number of lines in the scrollback buffer.
-  # Specifying '0' will disable scrolling.
   history: 10000
 font:
   normal:
-    family: 'Cascadia Mono' 
+    family: 'Source Code Pro for Powerline' 
     style: Regular
   bold:
     family: 'Cascadia Mono'
@@ -24,7 +22,7 @@ draw_bold_text_with_bright_colors: true
 # Colors (Gruvbox dark)
 colors:
   primary:
-    background: '#202020'
+    background: '#282828'
     foreground: '#A89984'
 
   #cursor:

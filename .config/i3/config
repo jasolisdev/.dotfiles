@@ -111,13 +111,13 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 # you can find the class with the program xprop
 
 # assign [class=""]                                                   → 1
-assign [class="Google-chrome|google-chrome"]                          → 2
+assign [class="chromium|Chromium"]                                    → 2
 # assign [class=""]                                                   → 3
 # assign [class=""]                                                   → 4
 # assign [class=""]                                                   → 5
-# assign [class="Thunar|thunar"]                                        → 6
+assign [class="org.gnome.Nautilus|Org.gnome.Nautilus"]                → 6
 # assign [class=""]                                                   → 7
-assign [class="Vmware|vmware"]                                        → 8
+assign [class="vmplayer|Vmplayer"]                                        → 8
 assign [class="Discord|discord"]                                      → 9
 assign [class="Spotify|spotify"]                                      → 10
 #fix for spotify not moving to workspace 10
@@ -237,10 +237,10 @@ mode "resize" {
 # Pressing right will grow the window’s width.
 # Pressing up will shrink the window’s height.
 # Pressing down will grow the window’s height.
-  bindsym j resize shrink width 10 px or 10 ppt
-  bindsym k resize grow height 10 px or 10 ppt
-  bindsym l resize shrink height 10 px or 10 ppt
-  bindsym semicolon resize grow width 10 px or 10 ppt
+  bindsym j resize shrink width 5 px or 5 ppt
+  bindsym k resize grow height 5 px or 5 ppt
+  bindsym l resize shrink height 5 px or 5 ppt
+  bindsym semicolon resize grow width 5 px or 5 ppt
 
 # same bindings, but for the arrow keys
   bindsym Left resize shrink width 10 px or 10 ppt

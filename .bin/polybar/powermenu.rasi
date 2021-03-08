@@ -31,7 +31,7 @@ window {
     border-radius:                  20px;
     height:                         27%;
     width:                          17%;
-    x-offset:                       90;
+    x-offset:                       -90;
     y-offset:                       -50;
 }
 

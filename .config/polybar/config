@@ -729,59 +729,59 @@ label-font = 8
 
 ; Powermenu Module {{{
 
-;[module/powermenu]
-;type = custom/text
-;content = %{T15}%{T-}
-;content-padding = 1
-;click-left = exec $HOME/.bin/polybar/powermenu
-;content-background = ${color.module-bg}
-;content-foreground = ${color.text-fg}
-
 [module/powermenu]
-type = custom/menu
+type = custom/text
+content = %{T15}%{T-}
+content-padding = 1
+click-left = exec $HOME/.bin/i3/rofi-session
+content-background = ${color.module-bg}
+content-foreground = ${color.text-fg}
+
+;[module/powermenu]
+;type = custom/menu
 
 ;      » 
-label-open = %{T15}      %{T-}
-label-open-font = 6
-label-open-foreground = ${color.text-fg}
-label-open-background = ${color.module-bg}
-label-close = 
-label-close-foreground = ${color.text-fg}
-label-close-background = ${color.module-bg}
-label-separator = " "
-label-separator-foreground = ${color.text-fg}
-label-separator-background = ${color.module-bg}
+;label-open = %{T15}      %{T-}
+;label-open-font = 6
+;label-open-foreground = ${color.text-fg}
+;label-open-background = ${color.module-bg}
+;label-close = 
+;label-close-foreground = ${color.text-fg}
+;label-close-background = ${color.module-bg}
+;label-separator = " "
+;label-separator-foreground = ${color.text-fg}
+;label-separator-background = ${color.module-bg}
 
 ; lock
-menu-0-0 = %{T15}  %{T-}
-menu-0-0-exec = bash ~/.bin/i3/lock
-menu-0-0-foreground = ${color.text-fg}
-menu-0-0-background = ${color.module-bg}
+;menu-0-0 = %{T15}  %{T-}
+;menu-0-0-exec = bash ~/.bin/i3/lock
+;menu-0-0-foreground = ${color.text-fg}
+;menu-0-0-background = ${color.module-bg}
 ; sleep
-menu-0-1 = %{T15}  %{T-}
-menu-0-1-exec = bash ~/scripts/lock.sh && systemctl suspend
-menu-0-1-foreground = ${color.text-fg}
-menu-0-1-background = ${color.module-bg}
+;menu-0-1 = %{T15}  %{T-}
+;menu-0-1-exec = bash ~/scripts/lock.sh && systemctl suspend
+;menu-0-1-foreground = ${color.text-fg}
+;menu-0-1-background = ${color.module-bg}
 ; logout
-menu-0-2 = %{T15}  %{T-}
-menu-0-2-exec = pkill x
-menu-0-2-foreground = ${color.text-fg}
-menu-0-2-background = ${color.module-bg}
+;menu-0-2 = %{T15}  %{T-}
+;menu-0-2-exec = pkill x
+;menu-0-2-foreground = ${color.text-fg}
+;menu-0-2-background = ${color.module-bg}
 ; reboot
-menu-0-3 = %{T15}  %{T-}
-menu-0-3-exec = systemctl reboot
-menu-0-3-foreground = ${color.text-fg}
-menu-0-3-background = ${color.module-bg}
+;menu-0-3 = %{T15}  %{T-}
+;menu-0-3-exec = systemctl reboot
+;menu-0-3-foreground = ${color.text-fg}
+;menu-0-3-background = ${color.module-bg}
 ; shutdown
-menu-0-4 = %{T15}  %{T-}
-menu-0-4-exec = systemctl poweroff
-menu-0-4-foreground = ${color.text-fg}
-menu-0-4-background = ${color.module-bg}
+;menu-0-4 = %{T15}  %{T-}
+;menu-0-4-exec = systemctl poweroff
+;menu-0-4-foreground = ${color.text-fg}
+;menu-0-4-background = ${color.module-bg}
 ; end stripe
-menu-0-5 = "  "
-menu-0-5-font = 6
-menu-0-5-foreground = ${color.text-fg}
-menu-0-5-background = ${color.module-bg}
+;menu-0-5 = "  "
+;menu-0-5-font = 6
+;menu-0-5-foreground = ${color.text-fg}
+;menu-0-5-background = ${color.module-bg}
 
 ;}}}
 
@@ -1060,8 +1060,8 @@ ramp-capacity-9 = %{T6}󰂂%{T-}
 ramp-capacity-10 = %{T6}󰁹%{T-}
 
 ;label-discharging = 
-label-discharging = %percentage%%
-;label-discharging = %percentage%
+;label-discharging = %percentage%%
+label-discharging = %percentage%
 
 ; Charging
 ;format-charging = <animation-charging>
@@ -1098,7 +1098,7 @@ format-full-padding = ${layout.module-padding}
 ;format-full-prefix-foreground = ${color.text-fg}
 format-full-prefix-padding-right = ${layout.icon-padding}
 
-label-full = %{T6}󰂄%{T-}
+label-full = %{T6}󰂄 %{T-}%percentage%
 
 ;}}}
 

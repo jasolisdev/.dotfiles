@@ -159,6 +159,7 @@ EIGHTBIT 0
 #   05;37;41                         unclear in Putty dark
 
 
+#############################################################################
 ### By file type
 
 # global default
@@ -168,26 +169,17 @@ FILE 00
 # directory
 DIR 34
 # 777 directory
-OTHER_WRITABLE 34;40
+OTHER_WRITABLE 34
 # symbolic link
 LINK 35
-
-# pipe, socket, block device, character device (blue bg)
-FIFO 30;44
-SOCK 35;44
-DOOR 35;44 # Solaris 2.5 and later
-BLK 33;44
-CHR 37;44
 
 
 #############################################################################
 ### By file attributes
 
-# Orphaned symlinks (blinking white on red)
-# Blink may or may not work (works on iTerm dark or light, and Putty dark)
-ORPHAN 05;37;41
-# ... and the files that orphaned symlinks point to (blinking white on red)
-MISSING 05;37;41
+# orphaned symlinks
+ORPHAN 01;07;91
+MISSING 01
 
 # files with execute permission
 EXEC 91  # Unix
@@ -197,6 +189,18 @@ EXEC 91  # Unix
 .bat 91  # Win
 .reg 91  # Win
 .app 91  # OSX
+
+
+#############################################################################
+### By file type
+
+# pipe, socket, block device, character device
+FIFO 04;01;94
+SOCK 04;01;95
+DOOR 04;01;95
+BLK 04;01;93
+CHR 04;01;97
+
 
 #############################################################################
 ### By extension
@@ -265,9 +269,11 @@ EXEC 91  # Unix
 .p 32
 .pod 32
 .tex 32
+.rs 32
 .go 32
 .sql 32
 .csv 32
+.r 32
 
 ### Multimedia formats
 
@@ -374,33 +380,47 @@ EXEC 91  # Unix
 .psd 31
 
 # Archives, compressed
-.7z 1;35
-.apk 1;35
-.arj 1;35
-.bin 1;35
-.bz 1;35
-.bz2 1;35
-.cab 1;35  # Win
-.deb 1;35
-.dmg 1;35  # OSX
-.gem 1;35
-.gz 1;35
-.iso 1;35
-.jar 1;35
-.msi 1;35  # Win
-.rar 1;35
-.rpm 1;35
-.tar 1;35
-.tbz 1;35
-.tbz2 1;35
-.tgz 1;35
-.tx 1;35
-.war 1;35
-.xpi 1;35
-.xz 1;35
-.z 1;35
-.Z 1;35
-.zip 1;35
+.7z 95
+.ace 95
+.apk 95
+.arj 95
+.bin 95
+.br 95
+.bz 95
+.bz2 95
+.cab 95  # Win
+.cpio 95
+.deb 95
+.dmg 95  # OSX
+.dz 95
+.gem 95
+.gz 95
+.iso 95
+.jar 95
+.lz 95
+.lzh 95
+.lzma 95
+.msi 95  # Win
+.rar 95
+.rpm 95
+.rz 95
+.tar 95
+.taz 95
+.tbz 95
+.tbz2 95
+.tgz 95
+.tlz 95
+.tx 95
+.txz 95
+.tz 95
+.war 95
+.xpi 95
+.xz 95
+.z 95
+.Z 95
+.zip 95
+.zst 95
+.zoo 95
 
 # For testing
 .ANSI-30-black 30
@@ -429,31 +449,10 @@ EXEC 91  # Unix
 .log 92
 *~ 92
 *# 92
-#.log 94
-#*~ 94
-#*# 94
 
 # Unimportant non-text files
 # For universal scheme, use brightcyan 96
 # For optimal on dark bg (but too prominent on light bg), change to 93
-#.bak 96
-#.BAK 96
-#.old 96
-#.OLD 96
-#.org_archive 96
-#.off 96
-#.OFF 96
-#.dist 96
-#.DIST 96
-#.orig 96
-#.ORIG 96
-# .rej 96
-# .REJ 96
-#.swp 96
-#.swo 96
-#*,v 96
-#.pacnew 96
-#.pacsave 96
 .bak 93
 .BAK 93
 .old 93
@@ -469,15 +468,26 @@ EXEC 91  # Unix
 .REJ 93
 .swp 93
 .swo 93
+.swn 93
+.swm 93
 *,v 93
 .pacnew 93
 .pacsave 93
+.lock 93
 
-# Sensitive files
+# History
+*history 96
 *_history 96
 *_hist 96
+
+# Sensitive files
 *_rsa 96
+*_rsa.* 96
+*_dsa 96
+*_dsa.* 96
 *_keys 96
+.pem 96
+.key 96
 
 # The brightmagenta (Solarized: purple) color is free for you to use for your
 # custom file type
