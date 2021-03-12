@@ -62,7 +62,7 @@ screenchange-reload = true
 [bar/base]
 monitor = ${env:MONITOR}
 ;width = 100%
-height = 55
+height = 50
 ;fixed-center = true
 
 background = ${color.base-bg}
@@ -79,20 +79,12 @@ cursor-scroll = ns-resize
 ; Fonts {{{
 
 font-0 = Source Code Pro:style=Bold:size=25;6
-font-1 = Source Code Pro:style=Bold:size=25;6
-font-2 = Source Code Pro:style=Medium:size=32;9
-font-3 = mplus Nerd Font:style=Medium:size=26;8
-font-4 = Source Code Pro:style=Medium:size=25;5
-font-5 = Source Code Pro:style=Medium:size=30;8
-font-6 = Source Code Pro:style=Medium:size=25;4
-font-7 = Weather Icons:style=Bold:size=25;8
-font-8 = Material Design Icons:style=Regular:size=25;7
-font-9 = mplus Nerd Font:style=Medium:size=22;3
-font-10 = Font Awesome 5 Free:style=Regular:size=10
-font-11 = Product Sans:style=Regular:size=25;6
-font-12 = Material Design Icons:style=Regular:size=30;7
-font-13 = mplus Nerd Font:style=Medium:size=22;6
-font-14 = mplus Nerd Font:style=Medium:size=22;6
+font-1 = Material Design Icons:style=Regular:size=25;7
+font-2 = Weather Icons:style=Bold:size=25;8
+font-3 = mplus Nerd Font:style=Medium:size=25;7
+font-4 = mplus Nerd Font:style=Medium:size=20;5
+font-5 = Source Code Pro:style=Bold:size=30;6
+
 
 ;}}}
 
@@ -257,13 +249,13 @@ pin-workspaces = false
 ; Split the workspace label on ':' to get its name
 strip-wsnumbers = false
 
-;label-focused = %{T10}%{T-}
-;label-unfocused = %{T10}%{T-}
+;label-focused = %{T2}%{T-}
+;label-unfocused = %{T2}%{T-}
 
   ws-icon-0 = 1;󰋜
-  ws-icon-1 = 2;%{T14}%{T-}
+  ws-icon-1 = 2;%{T5}%{T-}
   ws-icon-2 = 3;󰅱
-  ws-icon-3 = 4;
+  ws-icon-3 = 4;󰅬
   ws-icon-4 = 5;󰗚
   ws-icon-5 = 6;󰉋
   ws-icon-6 = 7;󰖳
@@ -275,7 +267,7 @@ strip-wsnumbers = false
 format = <label-state> <label-mode>
 
 ; Active workspace on focused monitor
-label-focused = %{T1}%icon%%{T-}
+label-focused = %{T2}%icon%%{T-}
 ;label-focused-underline = ${xcolor.color1}
 ;label-focused-background = ${color.module-bg}
 label-focused-foreground = ${color.icon-fg}
@@ -568,9 +560,9 @@ type = internal/network
 interface = ${env:IFACE_WLAN}
 interval = 3
 
-label-connected = %{A1:networkmanager_dmenu:} 直%{A}
-;label-connected = %{A1:networkmanager_dmenu:} 直%{A} %essid%
-label-disconnected = %{A1:networkmanager_dmenu:} 睊%{A}
+label-connected = %{A1:networkmanager_dmenu:} 󰖩%{A}
+;label-connected = %{A1:networkmanager_dmenu:} 󰖩%{A} %essid%
+label-disconnected = %{A1:networkmanager_dmenu:} 󰖩%{A}
 
 format-connected-background = ${color.module-bg}
 format-disconnected-background = ${color.module-bg}
@@ -636,7 +628,6 @@ label-padding = ${layout.module-padding}
 type = custom/script
 interval = 1
 exec = ~/.bin/polybar/vpn.sh 
-;label = %{T9}🖧ﰼ%{T-}
 label-background = ${color.module-bg}
 label-padding = ${layout.module-padding}
 click-left = exec sudo nordvpn connect
@@ -711,19 +702,9 @@ exec = ~/.bin/polybar/openweathermap-simple.sh
 interval = 300
 format-foreground = ${color.text-fg}
 format-background = ${color.module-bg}
-label-font = 8
+label-font = 3
 ;label-padding-right = 1
 
-[module/weather]
-type = custom/script
-;inherit = generic-format-style
-format = <label>
-format-prefix = %{T6} %{T-}
-exec = $HOME/.bin/polybar/weather.sh
-interval = 1000
-format-foreground = ${color.text-fg}
-format-background = ${color.module-bg}
-label-font = 8
 
 ;}}}
 
@@ -731,159 +712,12 @@ label-font = 8
 
 [module/powermenu]
 type = custom/text
-content = %{T15}%{T-}
+content = 襤
 content-padding = 1
 click-left = exec $HOME/.bin/i3/rofi-session
 content-background = ${color.module-bg}
 content-foreground = ${color.text-fg}
-
-;[module/powermenu]
-;type = custom/menu
-
-;      » 
-;label-open = %{T15}      %{T-}
-;label-open-font = 6
-;label-open-foreground = ${color.text-fg}
-;label-open-background = ${color.module-bg}
-;label-close = 
-;label-close-foreground = ${color.text-fg}
-;label-close-background = ${color.module-bg}
-;label-separator = " "
-;label-separator-foreground = ${color.text-fg}
-;label-separator-background = ${color.module-bg}
-
-; lock
-;menu-0-0 = %{T15}  %{T-}
-;menu-0-0-exec = bash ~/.bin/i3/lock
-;menu-0-0-foreground = ${color.text-fg}
-;menu-0-0-background = ${color.module-bg}
-; sleep
-;menu-0-1 = %{T15}  %{T-}
-;menu-0-1-exec = bash ~/scripts/lock.sh && systemctl suspend
-;menu-0-1-foreground = ${color.text-fg}
-;menu-0-1-background = ${color.module-bg}
-; logout
-;menu-0-2 = %{T15}  %{T-}
-;menu-0-2-exec = pkill x
-;menu-0-2-foreground = ${color.text-fg}
-;menu-0-2-background = ${color.module-bg}
-; reboot
-;menu-0-3 = %{T15}  %{T-}
-;menu-0-3-exec = systemctl reboot
-;menu-0-3-foreground = ${color.text-fg}
-;menu-0-3-background = ${color.module-bg}
-; shutdown
-;menu-0-4 = %{T15}  %{T-}
-;menu-0-4-exec = systemctl poweroff
-;menu-0-4-foreground = ${color.text-fg}
-;menu-0-4-background = ${color.module-bg}
-; end stripe
-;menu-0-5 = "  "
-;menu-0-5-font = 6
-;menu-0-5-foreground = ${color.text-fg}
-;menu-0-5-background = ${color.module-bg}
-
-;}}}
-
-[module/taskbarmenu]
-type = custom/menu
-
-;      » 
-label-open = %{T15}    %{T-}
-label-open-font = 6
-label-open-foreground = ${color.text-fg}
-label-open-background = ${color.module-bg}
-
-label-close = 
-label-close-foreground = ${color.text-fg}
-label-close-background = ${color.module-bg}
-
-label-separator = " "
-label-separator-foreground = ${color.text-fg}
-label-separator-background = ${color.module-bg}
-
-; wifi
-menu-0-0 = %{T1} %{A1:networkmanager_dmenu:} 直%{A} %{T-}
-menu-0-0-exec = bash ~/.bin/i3/lock
-menu-0-0-foreground = ${color.text-fg}
-menu-0-0-background = ${color.module-bg}
-
-; bluetooth 
-menu-0-1 = %{T15} 󰂰 %{T-}
-menu-0-1-exec = blueman-manager &
-menu-0-1-foreground = ${color.text-fg}
-menu-0-1-background = ${color.module-bg}
-
-; redshift 
-menu-0-2 = %{T15}  %{T-}
-menu-0-2-exec = bash ~/.bin/polybar/redshift.sh --toggle
-menu-0-2-foreground = ${color.text-fg}
-menu-0-2-background = ${color.module-bg}
-
-; xbacklight 
-menu-0-3 = %{T15} 󰃠 %{T-}
-menu-0-3-exec =
-menu-0-3-foreground = ${color.text-fg}
-menu-0-3-background = ${color.module-bg}
-
-; end stripe
-menu-0-4 = %{T15}    %{T-}
-
-menu-0-4-font = 6
-menu-0-4-foreground = ${color.text-fg}
-menu-0-4-background = ${color.module-bg}
-
-[module/appmenu]
-type = custom/menu
-
-;       
-label-open = " "
-label-open-font = 6
-label-open-foreground = ${colors.xcolor1}
-label-open-background = ${colors.xcolor0}
-label-close = " "
-label-close-foreground = ${colors.xcolor7}
-label-close-background = ${colors.xcolor0}
-label-separator = " "
-label-separator-foreground = ${colors.xcolor1}
-label-separator-background = ${colors.xcolor0}
-
-;                   
-; terminal
-menu-0-0 = "  "
-menu-0-0-exec = termite &
-menu-0-0-foreground = ${colors.xcolor7}
-menu-0-0-background = ${colors.xcolor0}
-; filemanager
-menu-0-1 = "  "
-menu-0-1-exec = thunar &
-menu-0-1-foreground = ${colors.xcolor7}
-menu-0-1-background = ${colors.xcolor0}
-; browser
-menu-0-2 = "  "
-menu-0-2-exec = firefox &
-menu-0-2-foreground = ${colors.xcolor7}
-menu-0-2-background = ${colors.xcolor0}
-; editor
-menu-0-3 = "  "
-menu-0-3-exec = atom &
-menu-0-3-foreground = ${colors.xcolor7}
-menu-0-3-background = ${colors.xcolor0}
-; chat client
-menu-0-4 = "  "
-menu-0-4-exec = discord &
-menu-0-4-foreground = ${colors.xcolor7}
-menu-0-4-background = ${colors.xcolor0}
-; media player
-menu-0-5 = "  "
-menu-0-5-exec = vlc &
-menu-0-5-foreground = ${colors.xcolor7}
-menu-0-5-background = ${colors.xcolor0}
-; end stripe
-menu-0-6 = " "
-menu-0-6-font = 6
-menu-0-6-foreground = ${colors.xcolor1}
-menu-0-6-background = ${colors.xcolor0}
+label-font = 5
 
 [module/pkg]
 type = custom/script
@@ -982,6 +816,8 @@ format-foreground = ${color.text-fg}
 format-background = ${color.module-bg}
 format-padding = ${layout.module-padding}
 
+label-font = 2
+
 ;}}}
 
 ; Backlight Module {{{
@@ -996,21 +832,21 @@ format = <ramp>
 label = %percentage%
 ;label = %percentage%％
 
-ramp-0 = %{T6}%{T-}
-ramp-1 = %{T6}%{T-}
-ramp-2 = %{T6}%{T-}
-ramp-3 = %{T6}%{T-}
-ramp-4 = %{T6}%{T-}
-ramp-5 = %{T6}%{T-}
-ramp-6 = %{T6}%{T-}
-ramp-7 = %{T6}%{T-}
-ramp-8 = %{T6}%{T-}
-ramp-9 = %{T6}%{T-}
-ramp-10 = %{T6}%{T-}
-ramp-11 = %{T6}%{T-}
-ramp-12 = %{T6}%{T-}
-ramp-13 = %{T6}%{T-}
-ramp-14 = %{T6}%{T-}
+ramp-0 = %{T2}%{T-}
+ramp-1 = %{T2}%{T-}
+ramp-2 = %{T2}%{T-}
+ramp-3 = %{T2}%{T-}
+ramp-4 = %{T2}%{T-}
+ramp-5 = %{T2}%{T-}
+ramp-6 = %{T2}%{T-}
+ramp-7 = %{T2}%{T-}
+ramp-8 = %{T2}%{T-}
+ramp-9 = %{T2}%{T-}
+ramp-10 = %{T2}%{T-}
+ramp-11 = %{T2}%{T-}
+ramp-12 = %{T2}%{T-}
+ramp-13 = %{T2}%{T-}
+ramp-14 = %{T2}%{T-}
 
 ramp-foreground = ${color.text-fg}
 ramp-capacity-font = ${layout.icon-font}
@@ -1120,25 +956,25 @@ click-left = $HOME/.bin/polybar/battery
 
 [module/left-arrow-head]
 type = custom/text
-content = %{T3}%{T-}
+content = %{T1}%{T-}
 content-foreground = ${color.module-bg}
 content-background = ${color.base-bg}
 
 [module/left-arrow-tail]
 type = custom/text
-content = %{T3}%{T-}
+content = %{T6}%{T-}
 content-foreground = ${color.base-bg}
 content-background = ${color.module-bg}
 
 [module/right-arrow-head]
 type = custom/text
-content = %{T3}%{T-}
+content = %{T6}%{T-}
 content-foreground = ${color.module-bg}
 content-background = ${color.base-bg}
 
 [module/right-arrow-tail]
 type = custom/text
-content = %{T3}%{T-}
+content = %{T6}%{T-}
 content-foreground = ${color.base-bg}
 content-background = ${color.module-bg}
 

@@ -116,8 +116,8 @@ assign [class="chromium|Chromium"]                                    → 2
 # assign [class=""]                                                   → 4
 # assign [class=""]                                                   → 5
 assign [class="org.gnome.Nautilus|Org.gnome.Nautilus"]                → 6
-# assign [class=""]                                                   → 7
-assign [class="vmplayer|Vmplayer"]                                        → 8
+assign [class="vmplayer|Vmplayer"]                                    → 7
+# assign [class=""]                                                   → 8
 assign [class="Discord|discord"]                                      → 9
 assign [class="Spotify|spotify"]                                      → 10
 #fix for spotify not moving to workspace 10
@@ -149,7 +149,7 @@ new_window 1pixel
 smart_borders on
 
 # i3-gaps-rounded
-border_radius 10
+# border_radius 10
 
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
