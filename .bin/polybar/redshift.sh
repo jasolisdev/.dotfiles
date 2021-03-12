@@ -10,9 +10,9 @@ case "$1" in
         ;;
     *)
         if [ "$(pgrep -x redshift)" ]; then
-            echo ""
+            echo "󰌵"
         else
-            echo ""
+            echo "󰌶"
         fi
         ;;
 esac
