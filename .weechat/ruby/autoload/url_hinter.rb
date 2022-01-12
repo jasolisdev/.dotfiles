@@ -1,1 +1,0 @@
-../url_hinter.rb

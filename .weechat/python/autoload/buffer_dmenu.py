@@ -1,1 +1,0 @@
-../buffer_dmenu.py
