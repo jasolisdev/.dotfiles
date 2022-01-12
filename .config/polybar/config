@@ -62,7 +62,7 @@ screenchange-reload = true
 [bar/base]
 monitor = ${env:MONITOR}
 ;width = 100%
-height = 50
+height = 60
 ;fixed-center = true
 
 background = ${color.base-bg}
@@ -82,21 +82,18 @@ font-0 = Source Code Pro:style=Bold:size=25;6
 font-1 = Material Design Icons:style=Regular:size=25;7
 font-2 = Weather Icons:style=Bold:size=25;8
 font-3 = mplus Nerd Font:style=Medium:size=25;7
-font-4 = mplus Nerd Font:style=Medium:size=20;5
-font-5 = Source Code Pro:style=Bold:size=30;6
-
+font-4 = mplus Nerd Font:style=Medium:size=20;7
+font-5 = Source Code Pro:style=Bold:size=30;10
 
 ;}}}
 
 ; Top Bar - Primary {{{
 
 [bar/top-transparent]
-background     = #282828
-height = 75
+background     = #000000a0
+height = 103
 modules-center = blank
-
 bottom = false
-
 
 [bar/top-primary]
 inherit = bar/base
@@ -104,20 +101,18 @@ inherit = bar/base
 background     = #3C3835
 override-redirect = true
 ;wm-restack = i3
-;width = 3798
-width = 865
+width = 3798
+;width = 895
 offset-x = 20
-offset-y = 8
-radius = 20
+offset-y = 15
+;radius = 10
 
+border-color = #504945 
+border-size = 5
 
-modules-left = rofi right-end-power right-arrow-tail i3
+modules-left = i3
 modules-center = 
-modules-right = 
-
-;modules-right = left-arrow-head left-arrow-tail left-arrow-head popup-calendar left-arrow-tail left-arrow-head powermenu
-;modules-right = left-arrow-head left-arrow-tail left-arrow-head popup-calendar left-arrow-tail left-arrow-head powermenu
-;modules-right = left-arrow-head left-arrow-tail left-arrow-head date-alt 
+modules-right = spotify alsa wlan xbacklight battery popup-calendar
 
 [bar/top-spotify]
 inherit = bar/base
@@ -127,7 +122,7 @@ override-redirect = true
 ;wm-restack = i3
 ;width = 3798
 width = 1500
-offset-x = 920
+offset-x = 945
 offset-y = 8
 radius = 20
 
@@ -149,7 +144,7 @@ radius = 20
 
 bottom = false
 
-modules-right = weather-simple alsa wlan vpn redshift xbacklight battery popup-calendar left-arrow-tail left-arrow-head powermenu
+modules-right = alsa wlan xbacklight battery popup-calendar left-arrow-tail left-arrow-head powermenu
 
 ;}}}
 
@@ -183,12 +178,12 @@ bottom = true
 ;offset-y = 20
 ;radius = 10
 
-modules-left = spotify alsa right-arrow-head right-arrow-tail right-arrow-head 
+;modules-left = spotify alsa right-arrow-head right-arrow-tail right-arrow-head 
 ;modules-right = wlan bluetooth redshift xbacklight battery popup-calendar 
 
 ;modules-left = spotify alsa right-arrow-head right-arrow-tail right-arrow-head
 ;modules-right = left-arrow-head left-arrow-tail left-arrow-head wlan bluetooth redshift xbacklight battery popup-calendar powermenu
-modules-right = left-arrow-head left-arrow-tail left-arrow-head cpu temp netstat 
+;modules-right = left-arrow-head left-arrow-tail left-arrow-head cpu temp netstat 
 
 ;tray-position = right
 ;tray-background = ${color.module-bg}
@@ -229,7 +224,8 @@ format-prefix-padding-right = ${layout.icon-padding}
 [module/rofi]
 type = custom/script
 inherit = generic-format-style
-exec = echo "%{T1}󰣇%{T-}"
+;exec = echo "%{T1} 󰣇 %{T-}"
+exec = echo " 󰣇 "
 click-left = rofi -modi run,drun,window -show drun
 ;format-background = ${color.base-bg}
 format-padding = 1
@@ -252,16 +248,28 @@ strip-wsnumbers = false
 ;label-focused = %{T2}%{T-}
 ;label-unfocused = %{T2}%{T-}
 
-  ws-icon-0 = 1;󰋜
-  ws-icon-1 = 2;%{T5}%{T-}
-  ws-icon-2 = 3;󰅱
-  ws-icon-3 = 4;󰅬
-  ws-icon-4 = 5;󰗚
-  ws-icon-5 = 6;󰉋
-  ws-icon-6 = 7;󰖳
-  ws-icon-7 = 8;󰕃
-  ws-icon-8 = 9;󰙯
-  ws-icon-9 = 10;󰓇
+  ws-icon-0 = 1;1
+  ws-icon-1 = 2;2
+  ws-icon-2 = 3;3
+  ws-icon-3 = 4;4
+  ws-icon-4 = 5;5
+  ws-icon-5 = 6;6
+  ws-icon-6 = 7;7
+  ws-icon-7 = 8;8
+  ws-icon-8 = 9;9
+  ws-icon-9 = 10;10
+
+  ;ws-icon-0 = 1;󰋜
+  ;ws-icon-1 = 2;󰈹
+  ;ws-icon-1 = 2;%{T5}%{T-}
+  ;ws-icon-2 = 3;󰅱
+  ;ws-icon-3 = 4;󰅬
+  ;ws-icon-4 = 5;󰗚
+  ;ws-icon-5 = 6;󰉋
+  ;ws-icon-6 = 7;󰖳
+  ;ws-icon-7 = 8;󰕃
+  ;ws-icon-8 = 9;󰙯
+  ;ws-icon-9 = 10;󰓇
 
 
 format = <label-state> <label-mode>
@@ -269,16 +277,20 @@ format = <label-state> <label-mode>
 ; Active workspace on focused monitor
 label-focused = %{T2}%icon%%{T-}
 ;label-focused-underline = ${xcolor.color1}
-;label-focused-background = ${color.module-bg}
-label-focused-foreground = ${color.icon-fg}
+label-focused-background = #504945
+;label-focused-foreground = #ebdbb2 
+label-focused-foreground = ${color.text-fg}
 ;label-focused-foreground = ${xcolor.color6}
-label-focused-padding = ${layout.i3-module-padding}
+;label-focused-padding = ${layout.i3-module-padding}
+label-focused-padding = 1
 
 ; Inactive workspace on any monitor
 label-unfocused = ${self.label-focused}
 ;label-unfocused-background = ${color.module-bg}
-label-unfocused-foreground = #a89984
-label-unfocused-padding = ${layout.i3-module-padding}
+label-unfocused-foreground = #928374 
+;label-unfocused-foreground = #a89984
+;label-unfocused-padding = ${layout.i3-module-padding}
+label-unfocused-padding = 1
 
 ; Active workspace on unfocused monitor
 label-visible = ${self.label-focused}
@@ -346,16 +358,6 @@ label-mode-padding = ${layout.i3-module-padding}
 
 ;}}}
 
-
-
-
-
-
-
-
-
-
-
 [module/github]
 type = custom/text
 content = 
@@ -384,8 +386,6 @@ content-padding = 1
 content-foreground = #535c5c
 click-left = xdg-open https://www.gmail.com &
 
-
-
 ; xwindow Module {{{
 
 [module/xwindow]
@@ -402,8 +402,9 @@ label = %{T1}%title:0:35:...%%{T-}
 type = internal/cpu
 inherit = generic-format-style
 
-format = <label> <bar-load>
-format-prefix = %{T6} 漣%{T-}
+format = <label>
+;format = <label> <bar-load>
+format-prefix = %{T6}cpu%{T-}
 
 label =%percentage:2%％
 
@@ -458,10 +459,9 @@ base-temperature = 20
 ; Default: 80
 warn-temperature = 60
 
-
 units = true
 
-format-prefix = %{T6}﨎%{T-}
+format-prefix = %{T6}󰈸%{T-}
 format-prefix-font = ${layout.icon-font}
 format-prefix-foreground = ${color.icon-fg}
 format-prefix-padding-right = ${layout.icon-padding}
@@ -560,9 +560,9 @@ type = internal/network
 interface = ${env:IFACE_WLAN}
 interval = 3
 
-label-connected = %{A1:networkmanager_dmenu:} 󰖩%{A}
+label-connected = %{A1:networkmanager_dmenu:} 󰖩 %{A}
 ;label-connected = %{A1:networkmanager_dmenu:} 󰖩%{A} %essid%
-label-disconnected = %{A1:networkmanager_dmenu:} 󰖩%{A}
+label-disconnected = %{A1:networkmanager_dmenu:} 󰖪%{A}
 
 format-connected-background = ${color.module-bg}
 format-disconnected-background = ${color.module-bg}
@@ -646,7 +646,8 @@ interval = 5
 click-left = ~/.bin/polybar/popup-calendar.sh --popup &
 format-foreground = ${color.text-fg}
 format-background = ${color.module-bg}
-;format-prefix = %{T7} %{T-} 
+;format-prefix = %{T1}%{T-} 
+;format-prefix-padding-right = 1 
 ;format-padding = 1
 ;format-padding-right = 2
 
@@ -705,18 +706,19 @@ format-background = ${color.module-bg}
 label-font = 3
 ;label-padding-right = 1
 
-
 ;}}}
 
 ; Powermenu Module {{{
 
 [module/powermenu]
 type = custom/text
-content = 襤
-content-padding = 1
+;content = "%{T1}  󰍃󰐥  %{T-}"
+content = "󰐥 "
+
 click-left = exec $HOME/.bin/i3/rofi-session
 content-background = ${color.module-bg}
 content-foreground = ${color.text-fg}
+;content-padding = 2
 label-font = 5
 
 [module/pkg]
@@ -739,7 +741,6 @@ content-foreground = ${color.text-fg}
 click-left = "kill -s USR1 $(pidof deadd-notification-center)"
 ;click-right = ~/.config/polybar/scripts/elementary-sysmenu-alt
 
-
 ;}}}
 
 ; Spotify Module {{{
@@ -749,7 +750,8 @@ type = custom/script
 ;inherit = generic-format-style
 ;format-prefix = %{T6} %{T-}
 ;format-prefix-foreground = #8ec07c
-format-foreground = ${color.icon-fg}
+;format-foreground = ${color.icon-fg}
+format-foreground = ${color.icon-bg}
 exec = $HOME/.bin/polybar/spotify.sh %artist% - %title%
 tail = true
 interval = 2
@@ -766,8 +768,8 @@ type = internal/alsa
 
 ; Not muted
 ;format-volume = <ramp-volume>
-;format-volume = <ramp-volume><label-volume>
 format-volume = <ramp-volume><bar-volume>
+;format-volume = <ramp-volume><label-volume>
 format-volume-background = ${color.module-bg}
 ;format-volume-padding = ${layout.module-padding}
 ;format-volume-padding = 1
@@ -801,7 +803,7 @@ format-muted-prefix-font = ${layout.icon-font}
 ;format-muted-prefix-foreground = ${color.icon-fg}
 format-muted-prefix-padding-right = ${layout.icon-padding}
 
-label-muted = muted
+label-muted = M 
 
 ;}}}
 
@@ -826,10 +828,12 @@ label-font = 2
 type = internal/xbacklight
 inherit = generic-format-style
 
-;format = <ramp><label>%
-format = <ramp>
+format = <ramp><label>
+;format = <ramp>
 
 label = %percentage%
+label-padding-right = 1
+
 ;label = %percentage%％
 
 ramp-0 = %{T2}%{T-}
@@ -851,7 +855,7 @@ ramp-14 = %{T2}%{T-}
 ramp-foreground = ${color.text-fg}
 ramp-capacity-font = ${layout.icon-font}
 ramp-capacity-padding-right = ${layout.icon-padding}
-ramp-padding-left = 1
+;ramp-padding-left = 1
 ramp-padding-right = 1
 
 ;}}}
@@ -868,12 +872,14 @@ full-at = 100
 ; Discharging
 ;format-discharging = <ramp-capacity>
 format-discharging = <ramp-capacity><label-discharging>
+;format-discharging = <ramp-capacity><label-discharging>
 format-discharging-background = ${color.module-bg}
 format-discharging-padding = ${layout.icon-padding}
 
 ramp-capacity-font = ${layout.icon-font}
 ramp-capacity-foreground = ${color.text-fg}
-ramp-capacity-padding-right = ${layout.icon-padding}
+;ramp-capacity-padding-right = ${layout.icon-padding}
+ramp-capacity-padding-right = 1
 
 ramp-capacity-0 = %{T6}󱃍%{T-}
 ramp-capacity-0-foreground = #fb4934
@@ -897,7 +903,7 @@ ramp-capacity-10 = %{T6}󰁹%{T-}
 
 ;label-discharging = 
 ;label-discharging = %percentage%%
-label-discharging = %percentage%
+label-discharging = %percentage%  󰇙
 
 ; Charging
 ;format-charging = <animation-charging>
@@ -934,7 +940,9 @@ format-full-padding = ${layout.module-padding}
 ;format-full-prefix-foreground = ${color.text-fg}
 format-full-prefix-padding-right = ${layout.icon-padding}
 
-label-full = %{T6}󰂄 %{T-}%percentage%
+;label-full = %{T6}󰂄%{T-}%percentage%
+label-full = %{T6}󰂅%{T-} 100  󰇙
+;label-full-padding-right = 1
 
 ;}}}
 

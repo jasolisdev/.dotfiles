@@ -8,7 +8,7 @@
  # show type,show almost all
  alias l='ls -FA'
  # long list,size,show type,human readable
- alias ll='ls -lFh'
+ # alias ll='ls -lFh'
  alias lla='ls -lFha'
  # long list,show almost all,show type,human readable
  alias la='ls -a'
@@ -16,6 +16,10 @@
  alias lr='ls -tRFh'
  # long list,sorted by date,show type,human readable
  alias lt='ls -ltFh'
+
+ alias ll='n -Hde'
+
+ alias ssh='TERM="xterm-256color" ssh'
 
  alias ldot='ls -ld .*'
  alias lS='ls -1FSsh'
@@ -77,7 +81,7 @@
  
  alias v='vim'
  alias nv='nvim'
- alias vim='nvim'
+ alias vim='/home/jose/.local/bin/lvim'
 
  alias py='python3'
 
@@ -184,16 +188,6 @@ tre() {
         '.git|.hg|.svn|.tmux|.backup|.vim-backup|.swap|.vim-swap|.undo|.vim-undo|*.bak|tags' \
         --dirsfirst "$@" \
         | less
-}
-
-# switch from/to project/package dir
-pkg() {
-    current=$(pwd | sed "s@$HOME/@@" | sed 's@/.*@@')
-    if [[ "$current" == 'projects' ]]; then
-        cd "$(pwd | sed 's/projects/packages/')"
-    else
-        cd "$(pwd | sed 's/packages/projects/')"
-    fi
 }
 
 bak() {

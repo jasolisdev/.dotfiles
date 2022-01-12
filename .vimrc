@@ -224,9 +224,11 @@ Plug 'markwoodhall/vim-codelens'
 Plug 'turbio/bracey.vim'
 
 " Don't load in console
-if &term !=? 'linux' || has('gui_running')
-    Plug 'vim-airline/vim-airline'
-endif
+" if &term !=? 'linux' || has('gui_running')
+"     Plug 'vim-airline/vim-airline'
+" endif
+ 
+Plug 'itchyny/lightline.vim'
 
 call plug#end()
 
@@ -252,6 +254,11 @@ highlight SignColumn guibg=bg
 " else
 "     silent! colorscheme gruvbox
 " endif
+
+let g:lightline = {
+      \ 'colorscheme': 'gruvbox',
+      \ }
+
 
 "" Switch cursor according to mode
 if &term !=? 'linux' || has('gui_running')

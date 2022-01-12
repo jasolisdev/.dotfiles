@@ -1,5 +1,5 @@
 ###########################################################################
-############		        i3 CONFIG FILE	                ###############
+###########		        i3 CONFIG FILE	                ###############
 ###########################################################################
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 ################       Start of all the settings          #################
@@ -126,16 +126,13 @@ for_window [class="Spotify"] move to workspace 10
 # enable floating on all windows
 # for_window [class="[.]*"] floating enable
 
-for_window [class="SimpleScreenRecorder" instance="simplescreenrecorder" title="SimpleScreenRecorder"] floating enable
-
 # }}}
 
 ################### GAPS ######################## {{{
 
 # No titles, minimal borders
-for_window [class="^.*"] border pixel 4
+for_window [class="^.*"] border pixel 1
 new_window 1pixel
-
 
 # You can also use any non-zero value if you'd like to have a border
 # for_window [class=".*"] border pixel 0
@@ -146,7 +143,7 @@ new_window 1pixel
  gaps inner 0
  gaps outer 0
 # smart_gaps on
-smart_borders on
+ smart_borders on
 
 # i3-gaps-rounded
 # border_radius 10
@@ -193,7 +190,7 @@ mode "$mode_gaps_outer" {
 
 ################### WORKSPACE GAPS ############## {{{
 
-workspace 10 gaps inner 15
+#workspace 10 gaps inner 15
 
 #}}}
 
@@ -289,6 +286,7 @@ mode "move" {
 
 # script to open dmenu to poweroff,sleep,exit session
 bindsym $mod+Shift+e  exec $HOME/.bin/i3/rofi-session
+# bindsym $mod+w exec $HOME/.bin/rofi/rofi-wallpaper
 
 # Save Load or Delete Layouts
 bindsym $mod+Shift+i exec $HOME/.bin/i3/i3-layout-manager/layout_manager.sh 
@@ -298,7 +296,7 @@ bindsym $mod+Shift+i exec $HOME/.bin/i3/i3-layout-manager/layout_manager.sh
 ################### TERMINAL #################### {{{
 
 # bindsym $mod+Return exec alacritty
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec optirun kitty
 
 #}}}
 
@@ -362,8 +360,8 @@ bindsym $mod+d exec "rofi -modi run,drun,window -show drun"
 ################### FUNCTION_KEYS ############### {{{
 
 # Change brightness
-bindsym XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 2
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 2
+bindsym XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 5
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5
 # bindsym XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 5 & exec ~/.bin/i3/brightness-notify
 # bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 & exec ~/.bin/i3/brightness-notify
 
@@ -388,15 +386,12 @@ focus_follows_mouse no
 
 bindsym $mod+t exec $HOME/.bin/touchpad
 bindsym $mod+c exec $HOME/.bin/caps-lock
-# bindsym $mod+p exec $HOME/.bin/polybar/autohide.sh 
-bindsym $mod+y exec $HOME/.bin/polybar/hidepoly
-bindsym $mod+u exec $HOME/.bin/polybar/showpoly
-
 
 # Screen Shots
 bindsym Print exec $HOME/.bin/screenshot
 bindsym Control+Print exec gnome-screenshot -a
 bindsym Control+Shift+Print exec gnome-screenshot -s
+# bindsym $mod+Shift+s exec $HOME/.bin/rofi/rofi-screenshot
 
 # cycle workspaces
 bindsym $mod+q workspace back_and_forth
@@ -407,23 +402,26 @@ bindsym $mod+Tab workspace next
 
 ################### WALLPAPER ################### {{{
 
-exec_always feh --bg-fill $HOME/.wallpapers/wall-thiccc.png
+exec_always feh --bg-fill $HOME/.wallpapers/japan_gruvbox_1.png
 
 #}}}
 
 ################### POLYBAR ##################### {{{
 
 exec_always --no-startup-id $HOME/.bin/polybar/launch_polybar
+#bindsym $mod+p exec $HOME/.bin/polybar/autohide.sh 
+bindsym $mod+y exec $HOME/.bin/polybar/hidepoly
+bindsym $mod+u exec $HOME/.bin/polybar/showpoly
 
 # bar toggle, hide or show 
-#bindsym $mod+h exec $HOME/.bin/bar mode toggle
+#bindsym $mod+u exec $HOME/.bin/bar mode toggle
 
 #}}}
 
 ################### EXECUTE ##################### {{{
 
 exec_always --no-startup-id $HOME/.bin/ext_monitor
-exec_always --no-startup-id dunst
+# exec_always --no-startup-id dunst
 exec_always --no-startup-id numlockx on
 exec_always --no-startup-id picom
 
@@ -442,3 +440,4 @@ bindsym $mod+i [class="SimpleScreenRecorder|Alacritty|kitty|google-chrome|Google
 bindsym $mod+n move scratchpad
 
 #}}}
+

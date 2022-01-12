@@ -29,4 +29,3 @@ i3lock -n -i $HOME/.wallpapers/wall_25.jpg \
 sleep 5 && [ 4000 -lt "$(xssstate -i)" ] &&  pgrep -x i3lock && xset dpms force off
 # lock
 #
-
