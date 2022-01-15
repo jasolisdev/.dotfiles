@@ -1,0 +1,5 @@
+.config/ranger/colorschemes/__init__.py
+.config/ranger/colorschemes/__pycache__/
+.config/ranger/plugins/
+.config/ranger/rifle.conf
+.config/ranger/scope.sh
