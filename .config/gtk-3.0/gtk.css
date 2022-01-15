@@ -1,0 +1,45 @@
+/* Global Settings */
+.deadd-noti-center{
+	font-family: Source Code Pro Bold;
+}
+
+/* Notif Center Settigns */
+label.deadd-noti-center.noti-center.time{
+	font-size: 100px;
+	font-weight: 400;
+	margin-top: 1em;
+	margin-left: 6.3em;
+}
+
+.date{
+	font-size: 1em;
+	font-weight: 400;
+	margin-left: 9.5em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+label.deadd-noti-center.in-center.body{
+	font-size: 0.9em;
+	font-weight: 200;
+	margin-bottom: 1em;
+}
+label.deadd-noti-center.in-center.title{
+	font-size: 0.5em;
+	font-weight: 800;
+
+}
+label.title{
+	font-weight: 800;
+}
+
+/* Notification pop ups */
+label.deadd-noti-center.notification.body{
+	font-size: 0.8em;
+	font-weight: 200;
+}
+label.deadd-noti-center.notification.title{
+	margin-top: -0.3em;
+	font-size: 0.5em;
+	/* font-weight: 100em; */
+}

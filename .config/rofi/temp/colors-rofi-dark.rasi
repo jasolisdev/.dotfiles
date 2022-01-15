@@ -1,0 +1,91 @@
+/*  ___      __ _   _____ _
+ * | _ \___ / _(_) |_   _| |_  ___ _ __  ___
+ * |   / _ \  _| |   | | | ' \/ -_) '  \/ -_)
+ * |_|_\___/_| |_|   |_| |_||_\___|_|_|_\___|
+ *
+ * Author: Benedikt Vollmerhaus
+ * License: MIT
+ */
+
+configuration {{
+    show-icons: true;
+}}
+
+* {{
+    font: "mplus Nerd Font 12";
+
+    background-color: rgba(0, 0, 0, 0);
+    text-color: #c8c8c8;
+
+    main-bg-color: {background};
+    light-bg-color: #141414;
+    active-bg-color: {color3};
+}}
+
+window {{
+    fullscreen: true;
+
+    /* Spacing between the box and the top and left of the screen */
+    margin: 58px 30px;
+
+    orientation: horizontal;
+    children: [mainbox, dummy];
+}}
+
+/**
+ * A dummy container to fill the space on the right of the mainbox.
+ */
+dummy {{
+    expand: true;
+}}
+
+mainbox {{
+    background-color: @main-bg-color;
+    border: 2px solid;
+    border-color: @light-bg-color;
+
+    expand: false;
+    width: 30%;
+    margin: 0 0 70% 0;
+}}
+
+
+/*                 __
+ * | _  _    _|_  |__) _  _
+ * || ||_)|_| |   |__)(_||
+ *     |
+ */
+
+prompt {{
+    background-color: @light-bg-color;
+    padding: 10px;
+}}
+
+entry {{
+    border: 0 0 1px 0 solid;
+    border-color: @active-bg-color;
+
+    margin: 0 0 0 8px;
+    padding: 10px 5px;
+}}
+
+
+/*  __
+ * |__) _  _   | _|_  |  . __|_
+ * |  \(/__)|_||_ |   |__|_) |
+ */
+
+listview, element {{
+    padding: 10px;
+}}
+
+element normal, element alternate {{
+    border: 0 0 0 4px solid;
+    border-color: @main-bg-color;
+}}
+
+element selected {{
+    background-color: @light-bg-color;
+    border: 0 0 0 4px solid;
+    border-color: @active-bg-color;
+}}

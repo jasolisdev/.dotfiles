@@ -1,0 +1,104 @@
+window:
+  padding:
+    x: 10
+    y: 10
+scrolling:
+  history: 10000
+font:
+  normal:
+    family: 'Source Code Pro for Powerline' 
+    style: Regular
+  bold:
+    family: 'Cascadia Mono'
+    style: Bold
+  italic:
+    family: 'Cascadia Mono'
+    style: Italic
+  size: 12
+
+  # If `true`, bold text is drawn using the bright color variants.
+draw_bold_text_with_bright_colors: true
+
+# Colors (Gruvbox dark)
+colors:
+  primary:
+    background: '#282828'
+    foreground: '#A89984'
+
+  #cursor:
+  #  text: '0x000000'
+  #  cursor: '0xffffff'
+
+  normal:
+    black:   '#202020'
+    red:     '#734541'
+    green:   '#5b6048'
+    yellow:  '#af865a'
+    blue:    '#535c5c'
+    magenta: '#775759'
+    cyan:    '#6d715e'
+    white:   '#A89984'
+
+  # Bright colors
+  bright:
+    black:   '#402e2e'
+    red:     '#733a34'
+    green:   '#586039'
+    yellow:  '#8f6840'
+    blue:    '#444b4b'
+    magenta: '#614445'
+    cyan:    '#585c49'
+    white:   '#b0a390'
+
+  # Indexed Colors
+  #
+  # The indexed colors include all colors from 16 to 256.
+  # When these are not set, they're filled with sensible defaults.
+  #
+  # Example:
+  #   `- { index: 16, color: '0xff00ff' }`
+  #
+  indexed_colors: [
+  ]
+
+background_opacity: 1.0
+
+mouse_bindings:
+  - { mouse: Middle, action: PasteSelection }
+
+mouse:
+  # Click settings
+  #
+  # The `double_click` and `triple_click` settings control the time
+  # alacritty should wait for accepting multiple clicks as one double
+  # or triple click.
+  double_click: { threshold: 300 }
+  triple_click: { threshold: 300 }
+
+  # If this is `true`, the cursor is temporarily hidden when typing.
+  hide_when_typing: false
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>"
+
+  # When set to `true`, selected text will be copied to the primary clipboard.
+  save_to_clipboard: true
+
+# Allow terminal applications to change Alacritty's window title.
+window.dynamic_title: true
+
+cursor:
+  # Cursor style
+  #
+  # Values for `style`:
+  #   - ▇ Block
+  #   - _ Underline
+  #   - | Beam
+  style: Block
+
+  # If this is `true`, the cursor will be rendered as a hollow box when the
+  # window is not focused.
+  unfocused_hollow: true
+
+# Live config reload (changes require restart)
+live_config_reload: true

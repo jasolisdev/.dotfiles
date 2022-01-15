@@ -1,0 +1,49 @@
+* {
+	padding: 2;
+	border-color:				#b6966990;
+	foreground-color:			#d9b47d;
+	background-color:           #4e5065;
+	text-color:                 #d9b47d;
+	yellow:                     #e6d3ef;
+	grey:						#776d21;
+	font: "Inconsolata 10";
+}
+
+window {
+	border: 		0 2 2 2;
+	location:	 	north east;
+	anchor:		 	north east;
+	width:		 	350;
+	x-offset:		0;
+	y-offset: 		24;
+	orientation: 	horizontal;
+}
+
+inputbar {
+  children: [ prompt, entry ];
+  border: 1 0 1 0;
+  border-color: @yellow;
+  }
+
+prompt {
+  font: "Source Code Pro Bold 12";
+  text-color: @text-color;
+}
+
+entry {
+  text-color: @text-color;
+  font: "Source Code Pro 12";
+}
+
+listview {
+	lines: 10;
+}
+
+element {
+}
+
+element.selected {
+  text-color: @yellow;
+  border-color: @yellow;
+  border: 0 0 0 0;
+}
