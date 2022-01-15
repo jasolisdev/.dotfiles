@@ -414,7 +414,7 @@ bindsym $mod+Tab workspace next
 
 ################### WALLPAPER ################### {{{
 
-exec_always feh --bg-fill $HOME/.wallpapers/abstract_gruvbox.png
+exec_always feh --bg-fill $HOME/.wallpapers/japan_gruvbox_1.png
 
 #}}}
 
