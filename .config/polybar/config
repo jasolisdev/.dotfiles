@@ -77,13 +77,12 @@ cursor-scroll = ns-resize
 ;}}}
 
 ; Fonts {{{
-
-font-0 = Source Code Pro:style=Bold:size=25;6
+font-0 = Hasklig:style=Bold:size=25;6
 font-1 = Material Design Icons:style=Regular:size=25;7
 font-2 = Weather Icons:style=Bold:size=25;8
 font-3 = mplus Nerd Font:style=Medium:size=25;7
 font-4 = mplus Nerd Font:style=Medium:size=20;7
-font-5 = Source Code Pro:style=Bold:size=30;10
+font-5 = Hasklig:style=Bold:size=30;10
 
 ;}}}
 

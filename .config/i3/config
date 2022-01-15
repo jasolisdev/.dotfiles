@@ -126,6 +126,15 @@ for_window [class="Spotify"] move to workspace 10
 # enable floating on all windows
 # for_window [class="[.]*"] floating enable
 
+for_window [class="Gnome-calculator" instance="gnome-calculator" title="Calculator" window_role="gnome-calculator"] move position 0 0, floating enable
+
+for_window [class="Blueman-manager" instance="blueman-manager" title="Bluetooth Devices"] move position 0 0, floating enable
+
+#for_window [class="Lxappearance" instance="lxappearance" title="Customize Look and Feel"] floating enable, resize set 1366 768
+
+for_window [class="Lxappearance"] floating enable sticky enable border normal
+
+
 # }}}
 
 ################### GAPS ######################## {{{
@@ -296,7 +305,7 @@ bindsym $mod+Shift+i exec $HOME/.bin/i3/i3-layout-manager/layout_manager.sh
 ################### TERMINAL #################### {{{
 
 # bindsym $mod+Return exec alacritty
-bindsym $mod+Return exec optirun kitty
+bindsym $mod+Return exec kitty
 
 #}}}
 
@@ -360,8 +369,11 @@ bindsym $mod+d exec "rofi -modi run,drun,window -show drun"
 ################### FUNCTION_KEYS ############### {{{
 
 # Change brightness
-bindsym XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 5
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5
+
+bindsym XF86MonBrightnessUp   exec --no-startup-id brillo -q -A 1
+bindsym XF86MonBrightnessDown exec --no-startup-id brillo -q -U 1
+#bindsym XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 5
+#bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5
 # bindsym XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 5 & exec ~/.bin/i3/brightness-notify
 # bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 & exec ~/.bin/i3/brightness-notify
 
@@ -402,7 +414,7 @@ bindsym $mod+Tab workspace next
 
 ################### WALLPAPER ################### {{{
 
-exec_always feh --bg-fill $HOME/.wallpapers/japan_gruvbox_1.png
+exec_always feh --bg-fill $HOME/.wallpapers/abstract_gruvbox.png
 
 #}}}
 
@@ -423,7 +435,9 @@ bindsym $mod+u exec $HOME/.bin/polybar/showpoly
 exec_always --no-startup-id $HOME/.bin/ext_monitor
 # exec_always --no-startup-id dunst
 exec_always --no-startup-id numlockx on
-exec_always --no-startup-id picom
+exec_always --no-startup-id picom --experimental-backends --backend glx 
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
 
 # get the mouse out of the way with unclutter
 exec_always unclutter -display :0.0 -idle 3
