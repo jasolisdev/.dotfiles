@@ -48,12 +48,12 @@
 
  alias netui=nmtui
 
- alias neofetch='echo "\\n\\n" && neofetch'
+ alias neofetch='echo "\\n\\n" && neofetch --source /home/jose/.config/neofetch/arch'
  alias hardwareinfo="inxi -F"
 
  alias journalctl='journalctl -r'
 
- alias dgit='git --git-dir ~/.dotfiles/.git --work-tree=$HOME'
+ alias dgit='git --git-dir ~/.dotfiles/.git --work-tree=/home/jose/'
  alias dgs='dgit status'
  alias dgc='dgit commit -m'
  alias dga='dgit add -f'

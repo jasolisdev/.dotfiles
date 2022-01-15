@@ -10,10 +10,10 @@
 # convert /tmp/base.png -blur 0x8 /tmp/locked.png
 
 # Pause music (mocp, mpd and send the pause key to all mpv videos):
-mocp -P >/dev/null 2>&1
-mpc pause >/dev/null 2>&1
-pauseallmpv >/dev/null 2>&1
-dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop
+# mocp -P >/dev/null 2>&1
+# mpc pause >/dev/null 2>&1
+# pauseallmpv >/dev/null 2>&1
+# dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop
 
 
 i3lock -n -i $HOME/.wallpapers/wall_25.jpg \
