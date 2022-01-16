@@ -24,8 +24,8 @@ get_icon() {
     echo $icon
 }
 
-KEY="6165837fe4ac9e20213752dd0fba908e"
-CITY="Huntington Beach"
+KEY=""
+CITY=""
 # UNITS="metric"
 UNITS="imperial"
 SYMBOL="°"

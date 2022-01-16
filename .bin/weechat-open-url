@@ -1,3 +1,0 @@
-#/usr/bin/env zsh
-
-zsh -c "brave '$1'"

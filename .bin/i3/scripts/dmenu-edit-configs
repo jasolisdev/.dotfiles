@@ -1,13 +1,3 @@
-#!/bin/bash
-#  ____ _____
-# |  _ \_   _|  Derek Taylor (DistroTube)
-# | | | || |    http://www.youtube.com/c/DistroTube
-# | |_| || |    http://www.gitlab.com/dwt1/
-# |____/ |_|
-#
-# Dmenu script for editing some of my more frequently edited config files.
-
-
 declare options=("alias
 alacritty
 bash
@@ -29,7 +19,7 @@ zsh
 quit")
 
 
-choice=$(echo -e "${options[@]}" | rofi -i -lines 6 -dmenu -p 'Edit config file')
+choice=$(echo -e "${options[@]}" | rofi -i -lines 6 -dmenu -p 'Edit config file:')
 
 case "$choice" in
 	quit)

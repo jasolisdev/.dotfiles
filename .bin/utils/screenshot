@@ -80,7 +80,7 @@ if maim "${maim_args[@]}" "$output_file"; then
         --expire-time=10000 \
         --icon="$output_file" \
         'Screenshot' \
-"Saved $("$output_file")\in $("$HOME/.bin/show-short-dir" "$output_dir")"
+"Saved $("$output_file")\in $("$HOME/.bin/utils/show-short-dir" "$output_dir")"
 fi
 
 # vim: set et sw=4 sts=4 ft=sh:

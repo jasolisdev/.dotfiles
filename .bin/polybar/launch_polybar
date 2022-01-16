@@ -1,12 +1,5 @@
 #!/usr/bin/env sh
 
-# A launcher for Polybar which automatically starts the primary bar on the main
-# screen and the secondary bar on all other screens. Additionally, it retrieves
-# the system's first ethernet and wireless interfaces for the network module.
-#
-# Author: Benedikt Vollmerhaus
-# License: MIT
-
 NC='\033[0m'
 RED='\033[31m'
 BLUE='\033[34m'
