@@ -1,4 +1,4 @@
-;###########################################################################
+;#######o###################################################################
 ;############		        POLYBAR CONFIG FILE	                ############
 ;###########################################################################
 ;# Please see https://github.com/polybar/polybar/wiki or a complete reference!
@@ -82,7 +82,7 @@ font-1 = Material Design Icons:style=Regular:size=25;7
 font-2 = Weather Icons:style=Bold:size=25;8
 font-3 = mplus Nerd Font:style=Medium:size=25;7
 font-4 = mplus Nerd Font:style=Medium:size=20;7
-font-5 = Hasklig:style=Bold:size=30;10
+font-5 = Hasklig:style=Bold:size=3;10
 
 ;}}}
 
@@ -92,10 +92,11 @@ font-5 = Hasklig:style=Bold:size=30;10
 background     = #000000a0
 height = 103
 modules-center = blank
-bottom = false
+bottom = false 
 
 [bar/top-primary]
 inherit = bar/base
+bottom = false 
 
 background     = #3C3835
 override-redirect = true
@@ -109,9 +110,9 @@ offset-y = 15
 border-color = #504945 
 border-size = 5
 
-modules-left = i3
+modules-left = rofi i3 polywins
 modules-center = 
-modules-right = spotify alsa wlan xbacklight battery popup-calendar
+modules-right = spotify alsa wlan xbacklight redshift battery popup-calendar
 
 [bar/top-spotify]
 inherit = bar/base
@@ -227,7 +228,7 @@ inherit = generic-format-style
 exec = echo " 󰣇 "
 click-left = rofi -modi run,drun,window -show drun
 ;format-background = ${color.base-bg}
-format-padding = 1
+;format-padding = 1
 
 ;}}}
 
@@ -589,7 +590,7 @@ format-disconnected =
 type = custom/script
 inherit = generic-format-style
 
-exec = $HOME/.bin/polybar/measure_ping.py
+exec = $HOME/.bin/polybar/scripts/measure_ping.py
 tail = true
 click-left = kill -USR1 %pid%
 
@@ -612,7 +613,7 @@ label-connected-background = ${color.module-bg}
 
 [module/bluetooth]
 type = custom/script
-exec = ~/.bin/polybar/bluetooth.sh
+exec = ~/.bin/polybar/scripts/bluetooth.sh
 click-left = exec blueman-manager &
 interval = 100
 label = %{T9}%output%%{T-}
@@ -626,7 +627,7 @@ label-padding = ${layout.module-padding}
 [module/vpn]
 type = custom/script
 interval = 1
-exec = ~/.bin/polybar/vpn.sh 
+exec = ~/.bin/polybar/scripts/vpn.sh 
 label-background = ${color.module-bg}
 label-padding = ${layout.module-padding}
 click-left = exec sudo nordvpn connect
@@ -640,9 +641,9 @@ label-font = 9
 
 [module/popup-calendar]
 type = custom/script
-exec = ~/.bin/polybar/popup-calendar.sh
+exec = ~/.bin/polybar/scripts/popup-calendar.sh
 interval = 5
-click-left = ~/.bin/polybar/popup-calendar.sh --popup &
+click-left = ~/.bin/polybar/scripts/popup-calendar.sh --popup &
 format-foreground = ${color.text-fg}
 format-background = ${color.module-bg}
 ;format-prefix = %{T1}%{T-} 
@@ -698,7 +699,7 @@ format-padding = 1
 
 [module/weather-simple]
 type = custom/script
-exec = ~/.bin/polybar/openweathermap-simple.sh
+exec = ~/.bin/polybar/scripts/openweathermap-simple.sh
 interval = 300
 format-foreground = ${color.text-fg}
 format-background = ${color.module-bg}
@@ -711,22 +712,14 @@ label-font = 3
 
 [module/powermenu]
 type = custom/text
-;content = "%{T1}  󰍃󰐥  %{T-}"
-content = "󰐥 "
+;content = "%{T6}󰍃%{T-}"
+content = "󰍃 "
 
-click-left = exec $HOME/.bin/i3/rofi-session
+click-left = exec $HOME/.bin/polybar/scripts/powermenu.sh
 content-background = ${color.module-bg}
 content-foreground = ${color.text-fg}
-;content-padding = 2
+;content-padding-right = 2
 label-font = 5
-
-[module/pkg]
-type = custom/script
-inherit = generic-format-style
-exec = ~/.bin/polybar/updates.sh
-click-left = "kitty sudo pacman -Syu --noconfirm"
-format-padding = 1
-tail = true
 
 ; Notification Module {{{
 
@@ -751,7 +744,7 @@ type = custom/script
 ;format-prefix-foreground = #8ec07c
 ;format-foreground = ${color.icon-fg}
 format-foreground = ${color.icon-bg}
-exec = $HOME/.bin/polybar/spotify.sh %artist% - %title%
+exec = $HOME/.bin/polybar/scripts/spotify.sh %artist% - %title%
 tail = true
 interval = 2
 click-left = playerctl next
@@ -810,8 +803,8 @@ label-muted = M
 
 [module/redshift]
 type = custom/script
-exec = ~/.bin/polybar/redshift.sh
-click-left = ~/.bin/polybar/redshift.sh --toggle
+exec = ~/.bin/polybar/scripts/redshift.sh
+click-left = ~/.bin/polybar/scripts/redshift.sh --toggle
 interval = 1
 format-foreground = ${color.text-fg}
 format-background = ${color.module-bg}
@@ -945,19 +938,17 @@ label-full = %{T6}󰂅%{T-} 100  󰇙
 
 ;}}}
 
+[module/polywins]
+type = custom/script
+exec = ~/.bin/polybar/scripts/polywins.sh 2>/dev/null
+format = <label>
+label = %output%
+label-padding = 1
+tail = true
+
 [module/blank]
 type = custom/script
 label = ""
-
-; Battery Hack Module {{{
-
-[module/battery_hack]
-type = custom/script
-inherit = generic-format-style
-exec = echo "%{T1}%{T-}"
-click-left = $HOME/.bin/polybar/battery
-
-;}}}
 
 ; Powerline Modules {{{
 

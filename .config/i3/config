@@ -140,7 +140,7 @@ for_window [class="Lxappearance"] floating enable sticky enable border normal
 ################### GAPS ######################## {{{
 
 # No titles, minimal borders
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 2
 new_window 1pixel
 
 # You can also use any non-zero value if you'd like to have a border
@@ -294,7 +294,7 @@ mode "move" {
   bindsym $mod+Shift+r restart
 
 # script to open dmenu to poweroff,sleep,exit session
-bindsym $mod+Shift+e  exec $HOME/.bin/i3/rofi-session
+bindsym $mod+Shift+e  exec $HOME/.bin/rofi/scripts/powermenu.sh
 # bindsym $mod+w exec $HOME/.bin/rofi/rofi-wallpaper
 
 # Save Load or Delete Layouts
@@ -313,7 +313,7 @@ bindsym $mod+Return exec kitty
 
 # Uncomment to enable with Icons
 #bindsym $mod+d exec "rofi -show drun"
-bindsym $mod+d exec "rofi -modi run,drun,window -show drun"
+bindsym $mod+d exec "rofi -no-lazy-grab -show drun -modi drun"
 
 #}}}
 
@@ -396,13 +396,13 @@ bindsym XF86AudioNext         exec --no-startup-id playerctl next
 
 focus_follows_mouse no
 
-bindsym $mod+t exec $HOME/.bin/touchpad
-bindsym $mod+c exec $HOME/.bin/caps-lock
+# bindsym $mod+t exec $HOME/.bin/touchpad
+bindsym $mod+c exec $HOME/.bin/i3/scripts/caps-lock
 
 # Screen Shots
-bindsym Print exec $HOME/.bin/screenshot
+bindsym Print exec $HOME/.bin/utils/screenshot
 bindsym Control+Print exec gnome-screenshot -a
-bindsym Control+Shift+Print exec gnome-screenshot -s
+bindsym Control+Shift+Print exec gnome-screenshot -i
 # bindsym $mod+Shift+s exec $HOME/.bin/rofi/rofi-screenshot
 
 # cycle workspaces
@@ -422,8 +422,8 @@ exec_always feh --bg-fill $HOME/.wallpapers/wall83.png
 
 exec_always --no-startup-id $HOME/.bin/polybar/launch_polybar
 #bindsym $mod+p exec $HOME/.bin/polybar/autohide.sh 
-bindsym $mod+y exec $HOME/.bin/polybar/hidepoly
-bindsym $mod+u exec $HOME/.bin/polybar/showpoly
+bindsym $mod+y exec $HOME/.bin/polybar/scripts/hidepoly
+bindsym $mod+u exec $HOME/.bin/polybar/scripts/showpoly
 
 # bar toggle, hide or show 
 #bindsym $mod+u exec $HOME/.bin/bar mode toggle
@@ -432,12 +432,11 @@ bindsym $mod+u exec $HOME/.bin/polybar/showpoly
 
 ################### EXECUTE ##################### {{{
 
-exec_always --no-startup-id $HOME/.bin/ext_monitor
-# exec_always --no-startup-id dunst
+# exec_always --no-startup-id $HOME/.bin/ext_monitor
+exec_always --no-startup-id dunst
 exec_always --no-startup-id numlockx on
 exec_always --no-startup-id picom --experimental-backends --backend glx 
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-
 
 # get the mouse out of the way with unclutter
 exec_always unclutter -display :0.0 -idle 3

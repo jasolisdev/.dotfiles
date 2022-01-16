@@ -1,3 +1,4 @@
+export SUDO_ASKPASS=$HOME/.bin/rofi/scripts/rofi-askpass
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 # if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
@@ -20,7 +21,8 @@ ENABLE_CORRECTION="true"
     && source "$HOME/.zprofile"
  
 
- export PATH="$HOME/.bin/:$PATH"   # Add user binaries and scripts to path
+
+export PATH="$HOME/.bin/:$PATH"   # Add user binaries and scripts to path
 
 export EDITOR="nvim"
 # export TERM=xterm-256color  # Set term variable
@@ -48,12 +50,12 @@ export READER="zathura"
 #####################
 
 # bgnotify settings
-bgnotify_threshold=1    ## set your own notification threshold
-bgnotify_formatted() {
-    ## $1=exit_status, $2=command, $3=elapsed_time
-    [[ $1 -eq 0 ]] && title="Zsh" || title="Zsh (fail)"
-    bgnotify "$title (${3}s)" "$2"
-}
+# bgnotify_threshold=1    ## set your own notification threshold
+# bgnotify_formatted() {
+#     ## $1=exit_status, $2=command, $3=elapsed_time
+#     [[ $1 -eq 0 ]] && title="Zsh" || title="Zsh (fail)"
+#     bgnotify "$title (${3}s)" "$2"
+# }
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -66,7 +68,7 @@ plugins=(
     zsh-autosuggestions
     command-not-found
     colorize
-    bgnotify
+    # bgnotify
     vi-mode
 )
 

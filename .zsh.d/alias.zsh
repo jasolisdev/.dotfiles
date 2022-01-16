@@ -2,6 +2,8 @@
 #  ALIASES  #
 #############
 
+ alias sudo='sudo -A'
+
  alias colors='./.bin/rice/colors'
  alias ..='cd ..'
 
@@ -48,7 +50,7 @@
 
  alias netui=nmtui
 
- alias neofetch='echo "\\n\\n" && neofetch'
+ alias neofetch='echo "\\n\\n" && neofetch --source /home/jose/.config/neofetch/arch'
  alias hardwareinfo="inxi -F"
 
  alias journalctl='journalctl -r'
@@ -81,7 +83,7 @@
  
  alias v='vim'
  alias nv='nvim'
- alias vim='/home/jose/.local/bin/lvim'
+ alias lvim='/home/jose/.local/bin/lvim'
 
  alias py='python3'
 

@@ -3,91 +3,131 @@
 ###################
 
 [global]
-font = Cascadia Mono 13
-markup = yes
-plain_text = no
-format = "<b>%s</b>\n%b"
-sort = no
-indicate_hidden = yes
-alignment = center
-bounce_freq = 0
-show_age_threshold = -1
-word_wrap = yes
-ignore_newline = no
-stack_duplicates = yes
-hide_duplicates_count = yes
-geometry = "800x100-50+100"
-shrink = no
-transparency = 10
-idle_threshold = 0
 monitor = 0
 follow = keyboard
+width = 400
+height = 100
+    # Position the notification in the top right corner
+    origin = top-right
+    # Offset from the origin
+    offset = 20x100
+    # Scale factor. It is auto-detected if value is 0.
+    scale = 0
+    # Maximum number of notification (0 means no limit)
+    notification_limit = 0
+    ### Progress bar ###
+    # Turn on the progess bar. It appears when a progress hint is passed with
+    # for example dunstify -h int:value:12
+    progress_bar = true
+    # Set the progress bar height. This includes the frame, so make sure
+    # it's at least twice as big as the frame width.
+    progress_bar_height = 10
+    # Set the frame width of the progress bar
+    progress_bar_frame_width = 1
+    # Set the minimum width for the progress bar
+    progress_bar_min_width = 150
+    # Set the maximum width for the progress bar
+    progress_bar_max_width = 300
+    # Show how many messages are currently hidden (because of
+    # notification_limit).
+indicate_hidden = yes
+transparency = 10
+separator_height = 2
+padding = 4
+horizontal_padding = 6
+    # Padding between text and icon.
+    text_icon_padding = 0
+    # Defines width in pixels of frame around the notification window.
+    # Set to 0 to disable.
+frame_width = 2
+# Defines color of the frame around the notification window.
+frame_color = "#928374"
+    # Define a color for the separator.
+    # possible values are:
+    #  * auto: dunst tries to find a color fitting to the background;
+    #  * foreground: use the same color as the foreground;
+    #  * frame: use the same color as the frame;
+    #  * anything else will be interpreted as a X color.
+    separator_color = frame
+
+sort = no 
+font = Hasklig 10
+line_height = 3
+markup = full
+format = "<b>%s</b>\n%b"
+alignment = center 
+vertical_alignment = center
+show_age_threshold = -1
+
+    # Specify where to make an ellipsis in long lines.
+    # Possible values are "start", "middle" and "end".
+    ellipsize = middle
+ignore_newline = no
+stack_duplicates = true
+hide_duplicate_count = true
+show_indicators = yes
+icon_position = left
+min_icon_size = 0
+max_icon_size = 150
+# icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
 sticky_history = yes
 history_length = 15
-show_indicators = yes
-corner_radius = 10
-
-# The height of a single line.  If the height is smaller than the
-# font height, it will get raised to the font height.
-# This adds empty space above and under the text.
-line_height = 3
-separator_height = 2
-padding = 6
-horizontal_padding = 6
-separator_color = frame
-startup_notification = false
 dmenu = /usr/bin/dmenu -p dunst:
-#browser = /usr/bin/google-chrome -new-tab
-icon_position = left
-max_icon_size = 150
-#icon_path =
-frame_width = 3
-#Original Color
-#frame_color = "#8EC07C"
-frame_color = "#928374"
+browser = /usr/bin/xdg-open
+    # Always run rule-defined scripts, even if the notification is suppressed
+    always_run_script = true
+    # Define the title of the windows spawned by dunst
+    title = Dunst
+    # Define the class of the windows spawned by dunst
+    class = Dunst
+corner_radius = 5
+    # Ignore the dbus closeNotification message.
+    # Useful to enforce the timeout set by dunst configuration. Without this
+    # parameter, an application may close the notification sent before the
+    # user defined timeout.
+    ignore_dbusclose = false
+force_xwayland = false
+    ### Legacy
 
-[shortcuts]
-# Shortcuts are specified as [modifier+][modifier+]...key
-# Available modifiers are "ctrl", "mod1" (the alt-key), "mod2",
-# "mod3" and "mod4" (windows-key).
-# Xev might be helpful to find names for keys.
+    # Use the Xinerama extension instead of RandR for multi-monitor support.
+    # This setting is provided for compatibility with older nVidia drivers that
+    # do not support RandR and using it on systems that support RandR is highly
+    # discouraged.
+    #
+    # By enabling this setting dunst will not be able to detect when a monitor
+    # is connected or disconnected which might break follow mode if the screen
+    # layout changes.
+    force_xinerama = false
 
-# Close notification.
-close = ctrl+space
+    ### mouse
 
-# Close all notifications.
-close_all = ctrl+shift+space
+    # Defines list of actions for each mouse event
+    # Possible values are:
+    # * none: Don't do anything.
+    # * do_action: Invoke the action determined by the action_name rule. If there is no
+    #              such action, open the context menu.
+    # * open_url: If the notification has exactly one url, open it. If there are multiple
+    #             ones, open the context menu.
+    # * close_current: Close current notification.
+    # * close_all: Close all notifications.
+    # * context: Open context menu for the notification.
+    # * context_all: Open context menu for all notifications.
+    # These values can be strung together for each mouse event, and
+    # will be executed in sequence.
+    mouse_left_click = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click = close_all
 
-# Redisplay last message(s).
-# On the US keyboard layout "grave" is normally above TAB and left
-# of "1".
-history = ctrl+grave
+# Experimental features that may or may not work correctly. Do not expect them
+# to have a consistent behaviour across releases.
+[experimental]
+    # Calculate the dpi to use on a per-monitor basis.
+    # If this setting is enabled the Xft.dpi value will be ignored and instead
+    # dunst will attempt to calculate an appropriate dpi value for each monitor
+    # using the resolution and physical size. This might be useful in setups
+    # where there are multiple screens with very different dpi values.
+    per_monitor_dpi = false
 
-# Context menu.
-context = ctrl+shift+period
-
-# [urgency_low]
-# # IMPORTANT: colors have to be defined in quotation marks.
-# # Otherwise the "#" and following would be interpreted as a comment.
-# frame_color = "#3B7C87"
-# foreground = "#3B7C87"
-# background = "#191311"
-# #background = "#2B313C"
-# timeout = 4
-
-# [urgency_normal]
-# frame_color = "#5B8234"
-# foreground = "#5B8234"
-# background = "#191311"
-# #background = "#2B313C"
-# timeout = 6
-
-# [urgency_critical]
-# frame_color = "#B7472A"
-# foreground = "#B7472A"
-# background = "#191311"
-# #background = "#2B313C"
-# timeout = 8
 
 [urgency_low]
 background = "#32302f"

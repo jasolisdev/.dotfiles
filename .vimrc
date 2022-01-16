@@ -220,7 +220,7 @@ Plug 'ap/vim-css-color'
 Plug 'moll/vim-node'
 " Plug 'jmcantrell/vim-virtualenv'
 Plug 'puremourning/vimspector'
-Plug 'markwoodhall/vim-codelens'
+" Plug 'markwoodhall/vim-codelens'
 Plug 'turbio/bracey.vim'
 
 " Don't load in console

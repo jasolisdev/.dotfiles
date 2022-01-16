@@ -1,0 +1,61 @@
+@import "colors.rasi"
+
+window {
+  transparency:                     "real";
+	  border-color:				          	@gruvbox-dark-bg0-soft;
+    border-radius:                  10px;
+	width:							              1400px;
+    location:                       center;
+    x-offset:                       0;
+    y-offset:                       0;
+}
+
+prompt {
+  enabled:              						true;
+	padding: 						              0px 5px 5px 0px;
+	background-color: 			        	@gruvbox-dark-bg0-soft;
+}
+
+textbox-prompt-colon {
+	padding: 						              3px 20px 0px 0px;
+	font:							                "Material\-Design\-Iconic\-Font 30";
+  background-color:                 @gruvbox-dark-bg0-soft;
+	text-color: 					            @gruvbox-dark-fg1;
+	expand: false;
+	str: "󰅐";
+}
+
+entry {
+  background-color:                 @gruvbox-dark-bg0-soft;
+  text-color:                       @gruvbox-dark-gray;
+  placeholder-color:                @gruvbox-dark-gray;
+  placeholder:                      "";
+  expand:                           true;
+  horizontal-align:                 0;
+  padding:                          1px;
+  blink:                            true;
+}
+
+inputbar {
+	children: 		          				 [ textbox-prompt-colon, prompt, entry ];
+  background-color:                @gruvbox-dark-bg0-soft;
+  expand:                          false;
+	border:							             10px;
+    border-radius:                 0px;
+	border-color:					           @gruvbox-dark-bg0-soft;
+    margin:                        0px;
+    padding:                       0px 0px 0px 0px;
+}
+
+listview {
+  background-color:               @gruvbox-dark-bg0;
+  padding:                        1px;
+  columns:                        1;
+  lines:                          5;
+  spacing:                        5px;
+  cycle:                          true;
+  dynamic:                        true;
+  layout:                         vertical;
+}
+
+@import "gruvbox-common.rasi"
