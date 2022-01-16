@@ -18,8 +18,6 @@
 ![i3-gaps WM](.images/home.png)
 ![i3-gaps WM](.images/unixporn.png)
 ![i3-gaps WM](.images/startpage.png)
-![i3-gaps WM](.images/study.png)
-![i3-gaps WM](.images/discord.png)
 ![i3-gaps WM](.images/spotify.png)
 
 ### Introduction
