@@ -312,8 +312,9 @@ bindsym $mod+Return exec kitty
 ################### MENU ######################## {{{
 
 # Uncomment to enable with Icons
-#bindsym $mod+d exec "rofi -show drun"
-bindsym $mod+d exec "rofi -no-lazy-grab -show drun -modi drun"
+# bindsym $mod+d exec "rofi -show drun"
+ bindsym $mod+d exec $HOME/.bin/rofi/scripts/launcher.sh
+# bindsym $mod+d exec "rofi -no-lazy-grab -show drun -modi drun"
 
 #}}}
 
@@ -433,7 +434,7 @@ bindsym $mod+u exec $HOME/.bin/polybar/scripts/showpoly
 ################### EXECUTE ##################### {{{
 
 # exec_always --no-startup-id $HOME/.bin/ext_monitor
-exec_always --no-startup-id dunst
+# exec_always --no-startup-id dunst
 exec_always --no-startup-id numlockx on
 exec_always --no-startup-id picom --experimental-backends --backend glx 
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
@@ -447,10 +448,9 @@ bindsym $mod+Shift+o exec --no-startup-id dmenu-edit-configs
 bindsym $mod+Shift+m exec --no-startup-id sysmon
 
 # Add this to your i3 config (~/.config/i3/config) and restart i3 (Super+Shift+R)
-#for_window [class="kitty" title="^((?!Kitty Preferences).)*$"] move scratchpad, move position 0 0, resize set 1366 768;
+# for_window [class="kitty" title="^((?!Kitty Preferences).)*$"] move scratchpad, move position 0 0, resize set 1366 768;
 bindsym $mod+i [class="SimpleScreenRecorder|Alacritty|kitty|google-chrome|Google-chrome|brave-browser|Brave-browser|code|Code"] scratchpad show;
 # send window to scratchpad
 bindsym $mod+n move scratchpad
 
 #}}}
-

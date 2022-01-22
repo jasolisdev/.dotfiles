@@ -18,8 +18,7 @@ xresources
 zsh
 quit")
 
-
-choice=$(echo -e "${options[@]}" | rofi -i -lines 6 -dmenu -p 'Edit config file:')
+choice=$(echo -e "${options[@]}" | rofi -dmenu -p 'Edit config file:')
 
 case "$choice" in
 	quit)
@@ -88,4 +87,3 @@ esac
 
 # i3-msg scratchpad show
 tmux new-window nvim "$choice"
-

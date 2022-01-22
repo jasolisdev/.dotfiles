@@ -22,5 +22,4 @@ export GDK_DPI_SCALE=0.5
 # Start graphical server if i3 not already running.
 [ "$(tty)" = "/dev/tty1" ] && ! pgrep -x i3 >/dev/null && exec startx
 
-#xrandr --dpi 192
 xset r rate 190 35

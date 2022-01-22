@@ -4,11 +4,11 @@ uptime=$(uptime -p | sed -e 's/up //g')
 rofi_command="rofi -theme $dir/powermenu.rasi"
 
 # Options
-shutdown="󰐥 Shutdown"
-reboot="󰦛 Restart"
-lock="󰌾 Lock"
-suspend="󰤄 Sleep"
-logout="󰍃 Logout"
+shutdown="󰐥 shutdown"
+reboot="󰦛 restart"
+lock="󰌾 lock"
+suspend="󰤄 sleep"
+logout="󰍃 logout"
 
 # Confirmation
 confirm_exit() {
@@ -34,7 +34,6 @@ case $chosen in
     $reboot)
       exec ~/.bin/rofi/scripts/promptmenu.sh --yes-command "systemctl reboot" --query "Reboot?" & ;;
     $lock)
-      # exec ~/.bin/i3/lock ;;
       exec ~/.bin/i3/scripts/lock  ;;
     $suspend)
       exec ~/.bin/rofi/scripts/promptmenu.sh --yes-command "systemctl suspend" --query "Suspend?" & 
