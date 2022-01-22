@@ -21,17 +21,6 @@
 
 ### Introduction
 
-To clone this repository and it's submodules use:
-```bash
-git clone --recurse-submodules https://github.com/jasolisdev/.dotfiles.git
-```
-
-This repository contains my personal configuration files (also known as
-_dotfiles_). The package lists can be found in `~/.pkglist/`. To install all
-official packages, use `cat .pkglist/pacman | pacman -S -` and to install all
-aur packages use `cat .pkglist/aur | yay -S -`, for convenience `cat
-.pkglist/aur-pacman | yay -S -` to install both official and aur packages (must
-have yay installed).
-
-In the following sections I'll explain how this dotfiles repository was set up,
-how to use it and how to restore them, for example on a new device.
+This repository contains my personal configuration files. The package lists can be found in `~/.pkglist/`. To install all
+official packages, use `pacman -S - < all_packages` and to install all
+aur packages use `yay -S --needed - < aur_packages` (must have yay installed).
