@@ -36,7 +36,7 @@
  alias rmd='rm -i'
  alias rmrf='rm -rf'
  alias tls='trash-list'
- alias tre='trash-restore'
+ alias trs='trash-restore'
  alias tem='trash-empty'
  alias cp='cp -r -i --reflink=auto'
  alias mv='mv -i'
