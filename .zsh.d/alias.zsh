@@ -32,8 +32,12 @@
 
  alias df="df -h"
 
- alias rm='rm -i'
+ alias rm='trash-put'
+ alias rmd='rm -i'
  alias rmrf='rm -rf'
+ alias tls='trash-list'
+ alias tre='trash-restore'
+ alias tem='trash-empty'
  alias cp='cp -r -i --reflink=auto'
  alias mv='mv -i'
 
