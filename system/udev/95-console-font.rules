@@ -1,0 +1,2 @@
+# Set doubled console font when framebuffer is ready
+ACTION=="add", SUBSYSTEM=="graphics", KERNEL=="fb0", RUN+="/usr/bin/setfont ter-124b -d"

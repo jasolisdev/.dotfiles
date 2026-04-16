@@ -1,0 +1,3 @@
+neolinux
+event=button/lid.*
+action=/etc/acpi/actions/lid.sh %e

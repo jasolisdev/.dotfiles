@@ -1,0 +1,26 @@
+@define-color accent_color #d79921;
+@define-color accent_bg_color #d79921;
+@define-color window_bg_color #282828;
+@define-color window_fg_color #ebdbb2;
+@define-color view_bg_color #1d2021;
+@define-color view_fg_color #ebdbb2;
+@define-color headerbar_bg_color #3c3836;
+@define-color headerbar_fg_color #ebdbb2;
+.sidebar {
+    background-color: #141414;
+    color: #ebdbb2;
+}
+
+.sidebar list {
+    background-color: #141414;
+}
+
+.sidebar row:selected {
+    background-color: #d79921;
+    color: #1d2021;
+    border-radius: 6px;
+}
+
+.sidebar row:hover {
+    background-color: #3c3836;
+}

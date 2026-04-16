@@ -1,0 +1,26 @@
+# ========= KANSHI AUTO PROFILES =========
+# Tip: connector names come from `hyprctl monitors` (e.g., eDP-1, HDMI-A-1)
+
+# Laptop only — 1920x1080 via custom modeline
+profile laptop_only {
+  output eDP-1 mode 1920x1080 position 0,0 scale 1
+}
+
+# Laptop + HDMI (1080p) on the RIGHT
+# eDP-1 at scale 2 => logical width = 1920, so place HDMI at x=1920
+profile hdmi_right {
+  output eDP-1    mode 3840x2160@60 position 0,0    scale 2
+  output HDMI-A-1 mode 1920x1080@60 position 1920,0 scale 1 enable
+}
+
+# Laptop + HDMI on the LEFT (optional)
+profile hdmi_left {
+  output eDP-1    mode 3840x2160@60 position 1920,0 scale 2
+  output HDMI-A-1 mode 1920x1080@60 position 0,0    scale 1 enable
+}
+
+# HDMI only (lid closed or external-only desk mode)
+profile hdmi_only {
+  output eDP-1 disable
+  output HDMI-A-1 mode 1920x1080@60 position 0,0 scale 1 enable
+}

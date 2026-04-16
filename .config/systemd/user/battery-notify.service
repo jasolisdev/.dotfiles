@@ -1,0 +1,6 @@
+[Unit]
+Description=Battery notification on AC state change
+
+[Service]
+Type=oneshot
+ExecStart=/home/jose/.bin/scripts/battery-notify.sh

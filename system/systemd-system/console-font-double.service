@@ -1,0 +1,13 @@
+[Unit]
+Description=Double console font for HiDPI
+After=systemd-vconsole-setup.service multi-user.target
+Requires=systemd-vconsole-setup.service
+
+[Service]
+Type=oneshot
+ExecStartPre=/usr/bin/sleep 2
+ExecStart=/usr/bin/setfont ter-124b -d
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

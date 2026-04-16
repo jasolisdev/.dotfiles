@@ -1,0 +1,12 @@
+[Unit]
+Description=Set power profile to performance (always on AC)
+After=power-profiles-daemon.service
+Requires=power-profiles-daemon.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/powerprofilesctl set performance
+RemainAfterExit=yes
+
+[Install]
+WantedBy=default.target
