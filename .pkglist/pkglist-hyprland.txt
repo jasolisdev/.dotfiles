@@ -56,6 +56,7 @@ ghostty
 ghq
 gimp
 git
+git-delta
 github-cli
 glow
 gnome-backgrounds
@@ -143,6 +144,7 @@ neofetch
 neovim
 networkmanager
 nitch
+nm-connection-editor
 nodejs-live-server
 noto-fonts-emoji
 ntfs-3g
@@ -175,6 +177,7 @@ python-pip
 python-pipx
 python-pywal
 qalculate-qt
+qbittorrent
 qt5-graphicaleffects
 qt5-quickcontrols
 qt5-quickcontrols2
@@ -196,6 +199,7 @@ rpi-imager
 rygel
 sassc
 sddm
+seahorse
 sfml
 showtime
 simple-scan
@@ -222,6 +226,7 @@ tmux
 tor
 torbrowser-launcher
 transmission-qt
+trash-cli
 tree
 tree-sitter-cli
 ttf-fira-sans
@@ -232,6 +237,7 @@ ttf-nerd-fonts-symbols
 tty-clock
 tumbler
 typescript-language-server
+udiskie
 viewnior
 vim
 vlc

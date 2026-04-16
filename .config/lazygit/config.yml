@@ -1,0 +1,36 @@
+gui:
+  showIcons: true
+  nerdFontsVersion: "3"
+  theme:
+    activeBorderColor:
+      - "#d79921"
+      - bold
+    inactiveBorderColor:
+      - "#928374"
+    selectedLineBgColor:
+      - "#3c3836"
+    cherryPickedCommitFgColor:
+      - "#d79921"
+    defaultFgColor:
+      - "#ebdbb2"
+  showBottomLine: false
+  showPanelJumps: true
+  mouseEvents: true
+  sidePanelWidth: 0.3333
+
+git:
+  paging:
+    colorArg: always
+    pager: delta --dark --paging=never
+  autoFetch: true
+  autoRefresh: true
+  branchLogCmd: "git log --graph --color=always --abbrev-commit --decorate --date=relative --pretty=medium {{branchName}} --"
+  overrideGpg: false
+
+os:
+  editPreset: "nvim"
+
+keybinding:
+  universal:
+    quit: "q"
+    return: "<esc>"
