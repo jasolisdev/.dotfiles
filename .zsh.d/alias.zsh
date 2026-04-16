@@ -42,7 +42,7 @@
  alias reflectug='sudo reflector --verbose --latest 10 --sort rate --save /etc/pacman.d/mirrorlist'
 
  alias pg='ping -c 1 www.google.com'
- alias fix-wifi='sudo modprobe -r brcmfmac && sleep 10 $$ sudo modprobe brcmfmac'
+ # alias fix-wifi='sudo modprobe -r brcmfmac && sleep 10 && sudo modprobe brcmfmac'
 
  alias nvpn='sudo nordvpn connect'
  alias dvpn='sudo nordvpn disconnect'
@@ -59,7 +59,7 @@
  alias dgs='dgit status'
  alias dgc='dgit commit -m'
  alias dga='dgit add -f'
- alias dgp='dgit push origin master'
+ alias dgp='dgit push origin hyprland'
 
  alias grep='grep --color=auto --exclude-dir={.git,.svn}'
 
@@ -81,7 +81,7 @@
  alias ect='emacsclient -t'
  alias e='emacs -nw'
  
- alias v='vim'
+ alias v='nvim'
  alias nv='nvim'
  alias lvim='/home/jose/.local/bin/lvim'
 
@@ -91,15 +91,8 @@
  alias prj='cd ~/projects/'
  alias dls='cd ~/Downloads/'
 
- alias rsx='redshift -x'
- alias rs53='redshift -O 5300'
- alias rs52='redshift -O 5200'
- alias rs51='redshift -O 5100'
- alias rs50='redshift -O 5000'
- alias rs49='redshift -O 4900'
- alias rs48='redshift -O 4800'
- 
- alias rslocal='redshift -l 33.659484:-117.998803'
+ # Nightshift (wlsunset on Wayland — toggle via waybar or alias)
+ alias nightshift='~/.config/waybar/scripts/wlsun-toggle.sh'
 
  # Spelling corrections because Im dumb sometimes.
  alias vmi="vim"
