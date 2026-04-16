@@ -1,0 +1,35 @@
+/* @import "~/.config/wofi/colors/gruvbox-dark.css"; */
+
+* {
+  font-family: Torus, FontAwesome, "JetBrainsMono Nerd Font Mono";
+  font-size: 20px;
+}
+
+window {
+  background-color: #2d2c2b;
+  color: #a89984;
+  border-radius: 15px;
+  border-bottom: 5px solid #7a8a77;
+  padding: 10px;
+}
+
+#prompt {
+  margin: 12px;
+  padding: 10px;
+  border-radius: 12px;
+  background: #32302f;
+  border: 2px solid #7fbbb3;
+  color: #a89984;
+}
+
+#entry {
+  margin: 6px 12px;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+#entry:selected {
+  background: #d3c6aa;
+  color: #32302f;
+  border-bottom: 5px solid #7fbbb3;
+}

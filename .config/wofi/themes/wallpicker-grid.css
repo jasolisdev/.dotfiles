@@ -1,0 +1,89 @@
+/* Thumbnail grid for wallpaper picker (Wofi) */
+@import "/home/jose/.config/wofi/colors/wal.css";
+
+* {
+  font-family: "Fira Sans", "Inter", sans-serif;
+  font-size: 14px;
+  border: none;
+  border-radius: 12px;
+}
+
+window {
+  margin: 0;
+  padding: 14px;
+  background: @bg0;
+  background-color: #131516;
+  color: @fg;
+  border-radius: 16px;
+  border: 1px solid @bg4;
+  box-shadow:
+    0 28px 110px rgba(0, 0, 0, 0.22),
+    0 10px 28px rgba(0, 0, 0, 0.12);
+}
+
+#input {
+  margin: 0 0 14px 0;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: @bg1;
+  color: @fg;
+  caret-color: @fg;
+  border-bottom: 4px solid @green;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+}
+
+#outer-box {
+  border-radius: 14px;
+}
+#inner-box {
+  margin: 0;
+  padding: 6px;
+  background: transparent;
+}
+#scroll {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* tiles */
+#entry {
+  margin: 6px;
+  padding: 6px;
+  border-radius: 12px;
+  background: @bg1;
+  color: @fg;
+  border: 2px solid @bg2;
+  min-width: 180px;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#entry:hover {
+  background: @bg2;
+}
+#entry:selected {
+  background: @bg_visual;
+  border-color: @aqua;
+  box-shadow: 0 0 0 3px rgba(53, 167, 124, 0.25);
+}
+
+/* thumbnail */
+#img {
+  border-radius: 10px;
+  min-width: 160px;
+  min-height: 100px;
+}
+
+/* hide labels (we pass absolute path as the label just for selection) */
+#text,
+#sub {
+  color: transparent;
+  height: 0;
+  margin: 0;
+}
+
+*:focus {
+  outline: none;
+}

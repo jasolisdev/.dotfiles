@@ -1,0 +1,224 @@
+/* Gruvbox Material Theme for SwayNC */
+
+* {
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 40px;
+}
+
+/* Gruvbox Material Dark Colors */
+@define-color bg0 #1d2021;
+@define-color bg1 #282828;
+@define-color bg2 #32302f;
+@define-color bg3 #3c3836;
+@define-color bg4 #45403d;
+@define-color fg0 #d4be98;
+@define-color fg1 #ddc7a1;
+@define-color red #ea6962;
+@define-color orange #e78a4e;
+@define-color yellow #d8a657;
+@define-color green #a9b665;
+@define-color aqua #89b482;
+@define-color blue #7daea3;
+@define-color purple #d3869b;
+@define-color gray #928374;
+
+/* Main control center */
+.control-center {
+  background: @bg0;
+  border: 2px solid @bg4;
+  border-radius: 12px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.control-center-list {
+  background: transparent;
+}
+
+/* Notifications */
+.notification {
+  background: @bg1;
+  border: 1px solid @bg3;
+  border-radius: 8px;
+  margin: 6px 0;
+  padding: 10px;
+}
+
+.notification:hover {
+  background: @bg2;
+  border-color: @bg4;
+}
+
+.notification.critical {
+  border: 2px solid @red;
+  background: alpha(@red, 0.15);
+}
+
+.notification.low {
+  border-color: @bg3;
+}
+
+/* Notification content */
+.notification-content {
+  background: transparent;
+  padding: 6px;
+}
+
+.summary {
+  color: @fg1;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.body {
+  color: @fg0;
+  font-size: 16px;
+}
+
+.time {
+  color: @gray;
+  font-size: 14px;
+}
+
+/* Close button */
+.close-button {
+  background: @bg3;
+  color: @fg0;
+  border-radius: 6px;
+  padding: 4px 8px;
+  margin: 4px;
+}
+
+.close-button:hover {
+  background: @red;
+  color: @bg0;
+}
+
+/* Action buttons */
+.notification-action {
+  background: @bg3;
+  color: @fg0;
+  border: 1px solid @bg4;
+  border-radius: 6px;
+  margin: 4px;
+  padding: 6px 12px;
+}
+
+.notification-action:hover {
+  background: @blue;
+  color: @bg0;
+  border-color: @blue;
+}
+
+/* Control center header */
+.widget-title {
+  color: @fg1;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 8px;
+}
+
+.widget-title button {
+  background: @bg3;
+  color: @fg0;
+  border-radius: 6px;
+  padding: 6px 12px;
+  margin-left: 8px;
+}
+
+.widget-title button:hover {
+  background: @orange;
+  color: @bg0;
+}
+
+/* DND toggle */
+.widget-dnd {
+  background: @bg2;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 6px 0;
+}
+
+.widget-dnd>switch {
+  background: @bg3;
+  border-radius: 20px;
+}
+
+.widget-dnd>switch:checked {
+  background: @green;
+}
+
+.widget-dnd>switch slider {
+  background: @fg0;
+  border-radius: 50%;
+}
+
+/* Notification grouping */
+.notification-group {
+  margin: 8px 0;
+}
+
+.notification-group-headers {
+  background: @bg2;
+  color: @fg1;
+  border-radius: 8px 8px 0 0;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.notification-group-collapse-button {
+  background: @bg3;
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
+.notification-group-collapse-button:hover {
+  background: @aqua;
+  color: @bg0;
+}
+
+/* Scrollbar */
+scrollbar {
+  background: transparent;
+  width: 8px;
+}
+
+scrollbar slider {
+  background: @bg3;
+  border-radius: 4px;
+}
+
+scrollbar slider:hover {
+  background: @bg4;
+}
+
+/* Progress bars for volume/brightness */
+progressbar {
+  min-height: 8px;
+  border-radius: 4px;
+  background: transparent;
+}
+
+progressbar trough {
+  min-height: 8px;
+  border-radius: 4px;
+  background: @bg3;
+}
+
+progressbar progress {
+  min-height: 8px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, @aqua, @blue);
+}
+
+/* Volume notification styling */
+.notification:has(.summary:contains("")) progressbar progress,
+.notification:has(.summary:contains("")) progressbar progress {
+  background: linear-gradient(90deg, @green, @aqua);
+}
+
+/* Brightness notification styling */
+.notification:has(.summary:contains("")) progressbar progress {
+  background: linear-gradient(90deg, @yellow, @orange);
+}

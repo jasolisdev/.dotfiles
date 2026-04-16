@@ -1,0 +1,63 @@
+{
+  "$schema": "/etc/xdg/swaync/configSchema.json",
+  "positionX": "right",
+  "positionY": "top",
+  "control-center-margin-top": 10,
+  "control-center-margin-bottom": 10,
+  "control-center-margin-right": 10,
+  "control-center-margin-left": 0,
+  "control-center-width": 400,
+  "control-center-height": 600,
+  "notification-window-width": 400,
+  "timeout": 5,
+  "timeout-low": 3,
+  "timeout-critical": 0,
+  "fit-to-screen": true,
+  "keyboard-shortcuts": true,
+  "image-visibility": "when-available",
+  "transition-time": 200,
+  "hide-on-clear": false,
+  "hide-on-action": true,
+  "script-fail-notify": true,
+  "notification-visibility": {
+    "volume": {
+      "state": "transient"
+    },
+    "brightness": {
+      "state": "transient"
+    },
+    "Volume": {
+      "state": "transient"
+    },
+    "Brightness": {
+      "state": "transient"
+    },
+    "nvim": {
+      "state": "transient"
+    },
+    "Neovim": {
+      "state": "transient"
+    },
+    "nvim-notify": {
+      "state": "transient"
+    },
+    "LSP": {
+      "state": "transient"
+    }
+  },
+  "widgets": [
+    "title",
+    "dnd",
+    "notifications"
+  ],
+  "widget-config": {
+    "title": {
+      "text": "Notifications",
+      "clear-all-button": true,
+      "button-text": "Clear All"
+    },
+    "dnd": {
+      "text": "Do Not Disturb"
+    }
+  }
+}

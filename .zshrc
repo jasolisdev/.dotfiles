@@ -1,4 +1,23 @@
-export SUDO_ASKPASS=$HOME/.bin/rofi/scripts/rofi-askpass
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+# if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+#   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+# fi
+
+# export SUDO_ASKPASS=$HOME/.bin/rofi/scripts/rofi-askpass
+fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
+
+
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.bin/:$PATH"   # Add user binaries and scripts to path
 
 # Path to your oh-my-zsh installation.
 export ZSH_CONFIG="$HOME/.zsh.d"
@@ -7,7 +26,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Uncomment the following line to change how often to auto-update (in days).
 export UPDATE_ZSH_DAYS=7
 
-export ZSH_THEME="robbyrussell"
+export ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"
@@ -15,12 +34,11 @@ ENABLE_CORRECTION="true"
  [[ -f "$HOME/.zprofile" ]] \
     && source "$HOME/.zprofile"
  
-export PATH="$HOME/.bin/:$PATH"   # Add user binaries and scripts to path
 
-export EDITOR="nvim"
-export VISUAL="nvim"
+# export VISUAL='/home/jose/.local/bin/lvim'
+# export EDITOR='/home/jose/.local/bin/lvim'
 export TERMINAL="kitty"
-export BROWSER="chromium"
+export BROWSER="google-chrome"
 export READER="zathura"
 
 #####################
@@ -40,8 +58,8 @@ export READER="zathura"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    # zsh-syntax-highlighting
-    # zsh-completions
+    zsh-syntax-highlighting
+    zsh-completions
     # tmuxinator
     zsh-autosuggestions
     command-not-found
@@ -113,11 +131,26 @@ setopt PROMPT_SUBST
 [[ -f "$ZSH_CONFIG/alias.zsh" ]] \
     && source "$ZSH_CONFIG/alias.zsh"
 
-# Gruvbox colors fix
-# [[ -f "$HOME/.bin/fix-gruvbox-palette" ]] \
-#     && [[ "$TERM" != 'xterm-kitty' ]] \
-#     && [[ "$TERM" != 'tmux-256color' ]] \
-#     && source "$HOME/.bin/fix-gruvbox-palette"
+# Gruvbox palette for TTY (virtual console only)
+if [[ "$TERM" = "linux" ]]; then
+    echo -en "\e]P0282828"  # colour0  bg0
+    echo -en "\e]P1cc241d"  # colour1  red
+    echo -en "\e]P298971a"  # colour2  green
+    echo -en "\e]P3d79921"  # colour3  yellow
+    echo -en "\e]P4458588"  # colour4  blue
+    echo -en "\e]P5b16286"  # colour5  purple
+    echo -en "\e]P6689d6a"  # colour6  aqua
+    echo -en "\e]P7a89984"  # colour7  fg4/gray
+    echo -en "\e]P8928374"  # colour8  bright gray
+    echo -en "\e]P9fb4934"  # colour9  bright red
+    echo -en "\e]PAb8bb26"  # colour10 bright green
+    echo -en "\e]PBfabd2f"  # colour11 bright yellow
+    echo -en "\e]PC83a598"  # colour12 bright blue
+    echo -en "\e]PDd3869b"  # colour13 bright purple
+    echo -en "\e]PE8ec07c"  # colour14 bright aqua
+    echo -en "\e]PFebdbb2"  # colour15 fg1
+    clear
+fi
 #
 # TMUX
 # main_attached="$(tmux list-sessions -F '#S #{session_attached}' \
@@ -140,3 +173,30 @@ setopt PROMPT_SUBST         # Prompt substitution
 setopt PUSHD_IGNORE_DUPS    # Ignore duplicates
 setopt PUSHD_SILENT         # Silent pushing and popping
 setopt SHARE_HISTORY        # Share history between sessions
+
+#export PATH=$PATH:/home/jose/.spicetify
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+if [[ "$TERM" = "linux" ]]; then
+    [[ ! -f ~/.p10k-tty.zsh ]] || source ~/.p10k-tty.zsh
+else
+    [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+fi
+
+# bun completions
+[ -s "/home/jose/.bun/_bun" ] && source "/home/jose/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# Claude Code LSP
+export ENABLE_LSP_TOOL=1
+export ENABLE_LSP_TOOL=1
+
+export PATH="$HOME/.npm-global/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+# export SUPABASE_ACCESS_TOKEN="sbp_b0286bb9ba52cc3a6dea0c58498e049adb319297"
+
+# opencode
+export PATH=/home/jose/.opencode/bin:$PATH

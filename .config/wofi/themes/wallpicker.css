@@ -1,0 +1,74 @@
+/* Names-only wallpaper picker: clean list, no images */
+@import "/home/jose/.config/wofi/colors/wal.css"; /* replace <YOURUSER> */
+
+* {
+  font-family: "Fira Sans", "Inter", sans-serif;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+}
+
+window {
+  margin: 0;
+  padding: 14px;
+  background: @bg0;
+  background-color: #131516; /* fallback */
+  color: @fg;
+  border-radius: 14px;
+  border: 1px solid @bg4;
+  box-shadow:
+    0 28px 110px rgba(0, 0, 0, 0.22),
+    0 10px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* Search bar */
+#input {
+  margin: 0 0 12px 0;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: @bg1;
+  color: @fg;
+  caret-color: @fg;
+  border-bottom: 3px solid @green;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* List container */
+#inner-box {
+  margin: 0;
+  padding: 6px;
+  background: transparent;
+}
+#scroll {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Rows */
+#entry {
+  margin: 4px 0;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: @bg1;
+  color: @fg;
+}
+#entry:hover {
+  background: @bg2;
+}
+#entry:selected {
+  background: @bg_visual;
+}
+
+/* IMPORTANT: show text! */
+#text {
+  color: @fg;
+  margin: 0 6px;
+}
+#sub {
+  color: @grey1;
+}
+
+*:focus {
+  outline: none;
+}

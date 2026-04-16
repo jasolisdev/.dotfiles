@@ -1,0 +1,81 @@
+@import ".config/wofi/colors/gruvbox-dark.css";
+
+* {
+  font-family: Torus, FontAwesome;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+}
+
+window {
+  margin: 0px;
+  background-color: #2d2c2b;
+  color: #a89984;
+
+  border-radius: 15px;
+
+  border-bottom-width: 5px;
+  border-bottom-color: #7a8a77;
+  border-bottom-style: solid;
+}
+
+#outer-box {
+  margin: 0px;
+  border-radius: 0px;
+}
+
+#prompt {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 12px;
+  background: #32302f;
+  color: #a89984;
+
+  border: 2px solid #7fbbb3;
+}
+
+#input {
+  background-color: #32302f;
+  color: #a89984;
+
+  margin: 15px;
+  padding: 10px;
+  border: none;
+
+  border-bottom-width: 5px;
+  border-bottom-color: #a7c080;
+  border-bottom-style: solid;
+}
+
+#inner-box {
+  margin: 10px;
+  padding: 0px;
+  border-radius: 0px;
+  background-color: #00000000;
+}
+
+#scroll {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+#text {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#entry {
+  border: none;
+  padding: 5px;
+  margin: 0px;
+}
+
+#entry:selected {
+  background-color: #d3c6aa;
+  color: #32302f;
+
+  border-bottom-width: 5px;
+  border-bottom-color: #7fbbb3;
+  border-bottom-style: solid;
+}

@@ -1,9 +1,9 @@
 [user]
-    name = Jose Solis
-	email = hello@josesolis.dev
+  name = Jose Solis
+	email = jasolisdev@gmail.com
 
 [core]
-	editor = vim
+	editor = nvim
 	whitespace = fix,trailing-space,cr-at-eol
 	commitGraph = true
 

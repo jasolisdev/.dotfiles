@@ -1,0 +1,10 @@
+@define-color bg0 #101214;
+@define-color bg1 mix(#101214, #ffffff, 6%);
+@define-color bg2 mix(#101214, #ffffff, 10%);
+@define-color bg3 mix(#101214, #ffffff, 14%);
+@define-color bg4 mix(#101214, #000000, 8%);
+@define-color bg_visual mix(#101214, #C47A5E, 20%);
+@define-color fg #d1ccb9;
+@define-color green #C47A5E;
+@define-color aqua #D4C17D;
+@define-color grey1 mix(#d1ccb9, #808080, 40%);

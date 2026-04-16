@@ -1,0 +1,172 @@
+{
+  "margin-top": 0,
+  "margin-left": 20,
+  "margin-bottom": 0,
+  "margin-right": 20,
+  "height": 20, 
+  "layer": "top",
+  "position": "top",
+  "output": "eDP-1",
+  "spacing": 10,
+  "modules-left": ["custom/launcher", "hyprland/workspaces"],
+  "modules-right": ["custom/spotify", "pulseaudio", "network", "backlight", "custom/wlsun", "battery", "custom/separater", "clock", "custom/powermenu"],
+
+  "custom/launcher": {
+      "interval": "once",
+      "format": "󰣇",
+      "on-click": "pkill wofi || wofi --show drun --term=kitty --width=25% --height=45% --columns 1 -I -s ~/.config/wofi/themes/gruvbox-dark.css -o $MAIN_DISPLAY",
+      "tooltip": false
+  },
+"custom/powermenu": {
+    "format": "",
+    "on-click": "pkill wofi || ~/.config/wofi/powermenu.sh",
+    "tooltip": false
+ },
+  "hyprland/workspaces": {
+// "format": " <sub>{icon}</sub>{windows} ",
+// "format": "{icon}",
+   "format": " {icon}{windows} ",
+      "on-click": "activate",
+      "format-icons": {
+//         "1": " 󰋜 ",
+//          "2": " 󰈹 ",
+//          "3": "  ",
+//          "4": "  ",
+//          "8": "  ",
+//          "9": " 󰖳 ",
+//          "10": "  ",
+          "urgent": "",
+          //"active": "",
+          //"default": ""
+      },
+      "window-rewrite-default": " ",
+      "window-rewrite": {
+        "title<.*youtube.*>": " ", 
+        "class<google-chrome>": " ", 
+        "class<gimp>": " ", 
+        "class<filezilla>": " 󰣀", 
+        "class<org.gnome.Epiphany>": " 󰖟", 
+        "spotify": " ", 
+        "nautilus": " ", 
+        "pavucontrol": " ", 
+        "kodi": " 󰌔",
+        "twitch": " 󰕃",
+        "mpv": " ",
+        "title<.*ranger.*>": "", 
+        "title<.*weechat.*>": " ", 
+        "title<.*cava.*>": "", 
+        "bluetooth": " ",
+        "calendar": " ", 
+        "calculator": " ", 
+       // "mission": " 󰙵",
+        "mission": " ",
+        "class<firefox> title<.*github.*>": " ", // Windows whose class is "firefox" and title contains "github". Note that "class" always comes first.
+        "kitty": " 󰆍",
+      },
+
+      "sort-by-number": true
+    },
+
+  "custom/spotify": {
+      "exec-if": "pgrep -x spotify",
+      "exec": "$HOME/.config/waybar/scripts/spotify.sh",
+      "interval": 1,
+      "format": "<span foreground='#a7c080'>  </span>{}",
+      "tooltip": false,
+      "on-click-release": "playerctl -p spotify play-pause",
+      "on-click-right-release": "playerctl -p spotify next"
+  },
+
+  "pulseaudio": {
+      "format": " {icon} ",
+      //"format": "{icon} {volume}",
+      "format-bluetooth": "{icon}  {volume}",
+      "format-bluetooth-muted": "󰝟  muted",
+      "format-muted": "󰝟 muted",
+      "format-icons": {
+          "headphone": "󰋋",
+          "hands-free": "󰥰",
+          "headset": "󰋋",
+          "phone": "",
+          "portable": "",
+          "car": "󰄋",
+          "default": ["", "", "", ""]
+      },
+      "on-click-middle": "blueman-manager",
+      "on-click-right": "pavucontrol",
+      "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+      "on-scroll-up": "~/.bin/hypr/volume_brightness.sh volume_up",
+      "on-scroll-down": "~/.bin/hypr/volume_brightness.sh volume_down",
+      "tooltip-format": "{volume}"
+  },
+
+  "network": {
+    "format-wifi": " ",
+   // "format-wifi": "  {signalStrength}",
+    "format-ethernet": "  {signalStrength}",
+    "format-disconnected": "󰤭",
+    "on-click": "sh ~/.config/wofi/scripts/wifimenu.sh",
+    "tooltip-format": "{signalStrength}"
+  },
+
+  "bluetooth": {
+    // "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
+    "format": " ",
+    //"format": " {status}",
+    "format-disabled": "", // an empty format will hide the module
+    "format-connected": " connected ",
+    "tooltip-format": "{controller_alias}",
+    "tooltip-format-connected": "{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}",
+    "on-click": "blueman-manager"
+  },
+
+  "backlight": {
+    "device": "intel_backlight",
+    "max-length": "4",
+    "format": " {icon} ",
+    //"format": "{icon} {percent}",
+    "tooltip-format": "{percent}",
+    "format-icons": ["","","","","","","","","","","","","","",""],
+    "on-click": "",
+    "on-scroll-up": "~/.bin/hypr/volume_brightness.sh brightness_down",
+    "on-scroll-down": "~/.bin/hypr/volume_brightness.sh brightness_up" 
+  },
+
+"battery": {
+    "format": "{icon}  {capacity} - {time}",
+    "format-icons": ["", "", "", "", ""],
+    "format-time": "{H}h{M}m",
+    "format-charging": " {icon}  {capacity}",
+    "format-plugged": "󰂅  {capacity}",
+    "format-alt": "{icon} {capacity}",
+    "format-full": " ",
+    //"format-full": "  100",
+    "interval": 30,
+    "states": {
+        "warning": 25,
+        "critical": 10 
+    },
+    "tooltip-format": "{capacity}",
+    "on-click": "2" 
+ },
+
+"custom/separater": {
+    "format": " 󰇙 ",
+    "tooltip": false 
+ },
+
+"clock": {
+    "format": "  {:%I:%M} ",
+    "tooltip-format": "  {:%A, %B %d, %Y}",
+    "on-click": "gnome-calendar" 
+ },
+
+"custom/wlsun": {
+  "format": "{}",                           // show the script output
+  "exec": "~/.config/waybar/scripts/wlsun-status.sh",
+  "interval": 5,
+  "tooltip": false,
+  "on-click": "~/.config/waybar/scripts/wlsun-toggle.sh"
+},
+}
