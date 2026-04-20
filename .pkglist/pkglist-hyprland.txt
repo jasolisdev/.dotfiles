@@ -101,6 +101,7 @@ gvfs-smb
 gvfs-wsdd
 highlight
 htop
+hypridle
 hyprland
 hyprlock
 hyprpicker
